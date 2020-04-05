@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,100">
+  <controller name="c1" pages="0,jiabei,12,chupai_tips_pass,7,chupai_tips,9,chupai,8,pass,10,landlord,11,landlord2" selected="4"/>
+  <displayList>
+    <component id="n42_tx3y" name="btnNo" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="420,4" group="n11_h21o">
+      <Button icon="ui://nji5wfgxkmdi82"/>
+    </component>
+    <component id="n41_tx3y" name="btnYes" src="hvwj2n" fileName="component/btnOperationItem.xml" xy="715,3" group="n11_h21o">
+      <Button icon="ui://nji5wfgxkmdi81"/>
+    </component>
+    <group id="n11_h21o" name="jiabei" xy="420,3" size="440,94" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n64_j8n9" name="btnReset" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="320,3" group="n67_j8n9">
+      <Button icon="ui://nji5wfgxkmdi7x"/>
+    </component>
+    <component id="n69_j8n9" name="btnPass" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="485,3" group="n67_j8n9">
+      <Button icon="ui://nji5wfgxkmdi7y"/>
+    </component>
+    <component id="n65_j8n9" name="btnDeal" src="hvwj2n" fileName="component/btnOperationItem.xml" xy="815,3" group="n67_j8n9">
+      <Button icon="ui://nji5wfgxkmdi7z"/>
+    </component>
+    <component id="n66_j8n9" name="btnTips" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="650,3" group="n67_j8n9">
+      <Button icon="ui://nji5wfgxkmdi7v"/>
+    </component>
+    <group id="n67_j8n9" name="chupai_tips_pass" xy="320,3" size="640,93" advanced="true">
+      <gearDisplay controller="c1" pages="12"/>
+    </group>
+    <component id="n44_tx3y" name="btnReset" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="402,3" group="n47_tx3y">
+      <Button icon="ui://nji5wfgxkmdi7x"/>
+    </component>
+    <component id="n46_tx3y" name="btnDeal" src="hvwj2n" fileName="component/btnOperationItem.xml" xy="732,3" group="n47_tx3y">
+      <Button icon="ui://nji5wfgxkmdi7z"/>
+    </component>
+    <component id="n49_tx3y" name="btnTips" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="567,3" group="n47_tx3y">
+      <Button icon="ui://nji5wfgxkmdi7v"/>
+    </component>
+    <group id="n47_tx3y" name="chupai_tips" xy="402,3" size="475,93" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="7"/>
+    </group>
+    <component id="n50_tx3y" name="btnReset" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="420,4" group="n53_tx3y">
+      <Button icon="ui://nji5wfgxkmdi7x"/>
+    </component>
+    <component id="n51_tx3y" name="btnDeal" src="hvwj2n" fileName="component/btnOperationItem.xml" xy="715,2" group="n53_tx3y">
+      <Button icon="ui://nji5wfgxkmdi7z"/>
+    </component>
+    <group id="n53_tx3y" name="chupai" xy="420,2" size="440,95" advanced="true">
+      <gearDisplay controller="c1" pages="9"/>
+    </group>
+    <component id="n45_tx3y" name="btnPass" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="560,3" group="n48_tx3y">
+      <Button icon="ui://nji5wfgxkmdi7y"/>
+    </component>
+    <group id="n48_tx3y" name="pass" xy="560,3" size="160,93" advanced="true">
+      <gearDisplay controller="c1" pages="8"/>
+    </group>
+    <component id="n55_hvwj" name="btnLandlord_no" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="320,3" group="n60_hvwj">
+      <Button icon="ui://nji5wfgxkmdi8h"/>
+    </component>
+    <component id="n56_hvwj" name="btnLandlord_1" src="hvwj2n" fileName="component/btnOperationItem.xml" xy="485,3" group="n60_hvwj">
+      <Button icon="ui://nji5wfgxkmdi8d"/>
+    </component>
+    <component id="n57_hvwj" name="btnLandlord_2" src="hvwj2n" fileName="component/btnOperationItem.xml" xy="684,3" group="n60_hvwj">
+      <Button icon="ui://nji5wfgxkmdi8e"/>
+    </component>
+    <component id="n58_hvwj" name="btnLandlord_3" src="hvwj2n" fileName="component/btnOperationItem.xml" xy="870,3" group="n60_hvwj">
+      <Button icon="ui://nji5wfgxkmdi8f"/>
+    </component>
+    <group id="n60_hvwj" name="landlord" xy="320,3" size="729,93" advanced="true">
+      <gearDisplay controller="c1" pages="10"/>
+    </group>
+    <component id="n61_hvwj" name="btnLandlord_no" src="qj56b0" fileName="component/btnOperationItem(1).xml" xy="420,5" group="n63_hvwj">
+      <Button icon="ui://nji5wfgxkmdi8h"/>
+    </component>
+    <component id="n62_hvwj" name="btnLandlord_yes" src="hvwj2n" fileName="component/btnOperationItem.xml" xy="715,4" group="n63_hvwj">
+      <Button icon="ui://nji5wfgxkmdi8g"/>
+    </component>
+    <group id="n63_hvwj" name="landlord2" xy="420,4" size="440,94" advanced="true">
+      <gearDisplay controller="c1" pages="11"/>
+    </group>
+  </displayList>
+</component>

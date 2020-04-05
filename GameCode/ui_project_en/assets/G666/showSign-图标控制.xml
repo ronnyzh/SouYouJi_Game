@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,56">
+  <controller name="c_showSign" exported="true" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n0_iuo1" name="n0" xy="13,2" size="99,52" touchable="false" autoSize="true">
+      <gearDisplay controller="c_showSign" pages="1,2"/>
+      <gearIcon controller="c_showSign" pages="0,1,2,3,4,5" values="|ui://rjf5583xwm2e12|ui://rjf5583xwm2ex|||"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </loader>
+  </displayList>
+</component>

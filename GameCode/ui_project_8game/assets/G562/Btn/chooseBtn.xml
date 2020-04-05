@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="133,151" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="isshow" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n9_kbsj" name="n9" src="kbsjscec" xy="-2,-2" size="137,155">
+      <gearDisplay controller="isshow" pages="1"/>
+      <relation target="n1" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1" name="n1" src="r73m6l" xy="2,4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2" name="title_1" src="zfbfc80" xy="2,9"/>
+    <component id="n5_zfbf" name="title_2" src="zfbfc80" xy="2,54"/>
+    <component id="n6_zfbf" name="title_3" src="zfbfc80" xy="2,99"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.60"/>
+</component>

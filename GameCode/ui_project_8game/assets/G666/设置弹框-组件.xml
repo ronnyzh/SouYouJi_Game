@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,412">
+  <displayList>
+    <image id="n1_iuo1" name="bg" src="iuo1ab" fileName="素材/设置/框-小.png" xy="0,0" locked="true">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </image>
+    <image id="n2_iuo1" name="n2" src="iuo1ac" fileName="素材/设置/设置.png" xy="263,27" locked="true">
+      <relation target="n1_iuo1" sidePair="top-top,center-center"/>
+    </image>
+    <text id="n3_iuo1" name="n3" xy="49,144" size="65,39" locked="true" fontSize="30" color="#5b467f" text="音乐">
+      <relation target="n1_iuo1" sidePair="top-middle,left-left"/>
+    </text>
+    <text id="n5_iuo1" name="n5" xy="49,274" size="65,39" locked="true" fontSize="30" color="#5b467f" text="音效">
+      <relation target="n1_iuo1" sidePair="top-top,left-left"/>
+    </text>
+    <component id="n7_iuo1" name="btn_cha" src="iuo1ar" fileName="素材/设置/设置退出-2.0.xml" xy="571,11">
+      <relation target="n1_iuo1" sidePair="top-top,right-right"/>
+    </component>
+    <component id="n9_iuo1" name="music" src="iuo1av" fileName="声音滑条-2.0.xml" xy="154,155">
+      <Slider value="70" max="100"/>
+    </component>
+    <component id="n10_iuo1" name="sound" src="iuo1av" fileName="声音滑条-2.0.xml" xy="154,285">
+      <Slider value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

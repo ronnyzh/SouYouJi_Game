@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <controller name="c1" pages="0,nothing,1,zhuang" selected="0"/>
+  <controller name="balance" pages="2,hide,0,green,1,red" selected="0"/>
+  <displayList>
+    <image id="n5_h21o" name="n5" src="mr4a3c" fileName="明牌牛牛/头像框底.png" xy="20,6" size="106,135"/>
+    <loader id="n0_osvm" name="icon" xy="23,9" size="100,100" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n1_osvm" name="n1" src="kvb57" fileName="common/lobby/touxiangk.png" xy="22,9" size="102,102" hideByEditor="true" visible="false"/>
+    <text id="n3_osvm" name="score" xy="24,109" size="96,32" fontSize="25" color="#ffff00" align="center" vAlign="middle" autoSize="none" italic="true" text="100"/>
+    <text id="n2_osvm" name="name" xy="5,76" size="141,28" hideByEditor="true" visible="false" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#666666" strokeSize="2" text="用户名有多长"/>
+    <image id="n8_h21o" name="icon_click" src="mr4a3c" fileName="明牌牛牛/头像框底.png" xy="8,-3" size="130,130" locked="true" hideByEditor="true" visible="false"/>
+    <image id="n9_to38" name="n9" src="r9uj3a" fileName="明牌牛牛/庄.png" xy="6,-7">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n11_jkuv" name="scoreBalance" xy="70,95" pivot="0.5,0.5" anchor="true" size="160,54" font="汉仪粗黑简" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="3" autoSize="none" bold="true" strokeColor="#ffffff" strokeSize="2" singleLine="true" text="+818">
+      <gearDisplay controller="balance" pages="0,1"/>
+      <gearXY controller="balance" pages="0,1" values="70,30|70,30" default="70,95" tween="true" ease="Back.Out" duration="0.7"/>
+      <gearColor controller="balance" pages="1" values="#cc3333,#ffffff" default="#2e9100,#ffffff"/>
+    </text>
+    <image id="n13_r9uj" name="okMark" src="r9uj39" fileName="明牌牛牛/yizhunbei.png" xy="27,6" scale="0.7,0.7" visible="false"/>
+  </displayList>
+</component>

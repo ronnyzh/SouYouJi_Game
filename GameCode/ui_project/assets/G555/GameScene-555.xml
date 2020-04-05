@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="State" pages="1,nothing,0,start,2,timer,3,deal" selected="0"/>
+  <displayList>
+    <loader id="n0_osvm" name="bg" xy="0,0" size="1334,750" aspect="true" url="ui://73wt91ssm1xx2e" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n110_e7ic" name="n110" src="m1xx2f" fileName="common/BG/bg_word.png" xy="667,230" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n135_ijuo" name="tfGameNumInfo" xy="2,2" size="380,30" fontSize="20" color="#ffffff" autoSize="none" text="牌局编号："/>
+    <text id="n119_gd8a" name="tfGameInfo" xy="667,281" pivot="0.5,0.5" anchor="true" size="329,39" alpha="0.3" fontSize="30" align="center" vAlign="middle" autoSize="none" bold="true" italic="true" text="场次：至尊  底分：3000">
+      <relation target="n110_e7ic" sidePair="top-bottom,center-center"/>
+    </text>
+    <image id="n4_osvm" name="n4" src="a8op0" fileName="common/hud_ingame/room_numbers3.png" xy="-5,0" group="n9_osvm"/>
+    <text id="n8_osvm" name="room_no" xy="19,13" size="146,32" group="n9_osvm" fontSize="25" color="#ffffff" text="房号 123456"/>
+    <group id="n9_osvm" name="info" xy="-5,0" size="186,58" hideByEditor="true" visible="false" advanced="true" collapsed="true">
+      <relation target="" sidePair="top-top,left-left"/>
+    </group>
+    <component id="n10_osvm" name="seat0" src="a8op1y" fileName="Seat.xml" xy="254,571" size="94,167" group="n55_s4ce" visible="false">
+      <relation target="n0_osvm" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n12_osvm" name="seat1" src="a8op1y" fileName="Seat.xml" xy="1179,234" size="94,167" group="n55_s4ce" visible="false">
+      <relation target="n0_osvm" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n35_kcts" name="seat2" src="a8op1y" fileName="Seat.xml" xy="960,27" size="94,167" group="n55_s4ce" visible="false">
+      <relation target="n0_osvm" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n37_kcts" name="seat3" src="a8op1y" fileName="Seat.xml" xy="273,29" size="94,167" group="n55_s4ce" visible="false">
+      <relation target="n0_osvm" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n39_kcts" name="seat4" src="a8op1y" fileName="Seat.xml" xy="53,245" size="94,167" group="n55_s4ce" visible="false">
+      <relation target="n0_osvm" sidePair="left-left,middle-middle"/>
+    </component>
+    <group id="n55_s4ce" name="n55" xy="53,27" size="1220,711" group="n14_osvm"/>
+    <component id="n62_s4ce" name="QStr0" src="a8op20" fileName="TipsQ.xml" xy="377,571" group="n70_s4ce" visible="false">
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n63_s4ce" name="QStr1" src="a8op20" fileName="TipsQ.xml" xy="1056,237" group="n70_s4ce" visible="false">
+      <relation target="n12_osvm" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n65_s4ce" name="QStr2" src="a8op20" fileName="TipsQ.xml" xy="826,25" group="n70_s4ce" visible="false">
+      <relation target="n35_kcts" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n67_s4ce" name="QStr3" src="a8op20" fileName="TipsQ.xml" xy="410,27" group="n70_s4ce" visible="false">
+      <relation target="n37_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n69_s4ce" name="QStr4" src="a8op20" fileName="TipsQ.xml" xy="200,248" group="n70_s4ce" visible="false">
+      <relation target="n39_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n70_s4ce" name="n70" xy="200,25" size="956,596" group="n14_osvm" hideByEditor="true"/>
+    <list id="n23_h21o" name="out_pokers_1" xy="962,305" size="362,209" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://73wt91ssa8op21" align="right" autoClearItems="true">
+      <gearXY controller="State" pages="1,0,2,3" values="962,305|554,304|962,304|539,301" tween="true"/>
+      <relation target="n12_osvm" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n40_kcts" name="out_pokers_2" xy="734,100" size="334,209" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://73wt91ssa8op21" autoClearItems="true">
+      <gearXY controller="State" pages="1,0,3" values="734,100|602,304|587,300" default="734,99" tween="true"/>
+      <relation target="n35_kcts" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n42_kcts" name="out_pokers_3" xy="393,100" size="334,209" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://73wt91ssa8op21" autoClearItems="true">
+      <gearXY controller="State" pages="1,0,3" values="393,100|602,305|587,300" default="393,99" tween="true"/>
+      <relation target="n37_kcts" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n44_kcts" name="out_pokers_4" xy="175,305" size="334,209" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://73wt91ssa8op21" autoClearItems="true">
+      <gearXY controller="State" pages="1,0,2,3" values="175,305|646,304|175,304|631,300" tween="true"/>
+      <relation target="n39_kcts" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n22_h21o" name="out_pokers_0" xy="475,570" size="359,209" group="n56_s4ce" layout="row" selectionMode="multipleSingleClick" colGap="-70" defaultItem="ui://73wt91ssa8op21" vAlign="middle" autoClearItems="true">
+      <gearXY controller="State" pages="1,0,3" values="475,570|579,302|574,300" default="475,569" tween="true"/>
+      <gearSize controller="State" pages="0,3" values="359,209,0.5,0.5|359,209,0.5,0.5" default="359,209,1,1" tween="true"/>
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n56_s4ce" name="n56" xy="175,99" size="1149,679" group="n14_osvm"/>
+    <component id="n102_hvb9" name="out_nn_0" src="a8op22" fileName="TipsNN.xml" xy="547,636" size="300,100" group="n107_hvb9" scale="1.2,1.2" touchable="false">
+      <relation target="n22_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n103_hvb9" name="out_nn_1" src="a8op22" fileName="TipsNN.xml" xy="909,313" size="300,100" group="n107_hvb9" scale="0.6,0.6" visible="false" touchable="false">
+      <relation target="n23_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n104_hvb9" name="out_nn_2" src="a8op22" fileName="TipsNN.xml" xy="687,109" size="300,100" group="n107_hvb9" scale="0.6,0.6" visible="false">
+      <relation target="n40_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n105_hvb9" name="out_nn_3" src="a8op22" fileName="TipsNN.xml" xy="347,109" size="300,100" group="n107_hvb9" scale="0.6,0.6" visible="false" touchable="false">
+      <relation target="n42_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n106_hvb9" name="out_nn_4" src="a8op22" fileName="TipsNN.xml" xy="128,313" size="300,100" group="n107_hvb9" scale="0.6,0.6" visible="false" touchable="false">
+      <relation target="n44_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n107_hvb9" name="n107" xy="128,108" size="1081,627" group="n14_osvm" hideByEditor="true"/>
+    <component id="n124_uu9o" name="complete0" src="uu9o3v" fileName="Complete.xml" xy="524,660" group="n129_uu9o" visible="false">
+      <relation target="n22_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n125_uu9o" name="complete1" src="uu9o3v" fileName="Complete.xml" xy="981,351" group="n129_uu9o" scale="0.5,0.5" visible="false">
+      <relation target="n23_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n126_uu9o" name="complete2" src="uu9o3v" fileName="Complete.xml" xy="757,141" group="n129_uu9o" scale="0.5,0.5" visible="false">
+      <relation target="n40_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n127_uu9o" name="complete3" src="uu9o3v" fileName="Complete.xml" xy="404,138" group="n129_uu9o" scale="0.5,0.5" visible="false">
+      <relation target="n42_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n128_uu9o" name="complete4" src="uu9o3v" fileName="Complete.xml" xy="191,350" group="n129_uu9o" scale="0.5,0.5" visible="false">
+      <relation target="n44_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n129_uu9o" name="n129" xy="191,137" size="1120,602" group="n14_osvm"/>
+    <component id="n112_e7ic" name="BStr0" src="m1xx3n" fileName="BeiView.xml" xy="371,589" group="n117_e7ic" visible="false">
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n116_e7ic" name="BStr1" src="m1xx3n" fileName="BeiView.xml" xy="1101,257" group="n117_e7ic" visible="false">
+      <relation target="n12_osvm" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n115_e7ic" name="BStr2" src="m1xx3n" fileName="BeiView.xml" xy="874,52" group="n117_e7ic" visible="false">
+      <relation target="n35_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n114_e7ic" name="BStr3" src="m1xx3n" fileName="BeiView.xml" xy="393,49" group="n117_e7ic" visible="false">
+      <relation target="n37_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n113_e7ic" name="BStr4" src="m1xx3n" fileName="BeiView.xml" xy="169,262" group="n117_e7ic" visible="false">
+      <relation target="n39_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n117_e7ic" name="n117" xy="169,49" size="989,577" group="n14_osvm"/>
+    <group id="n14_osvm" name="main" xy="53,25" size="1271,753" advanced="true">
+      <relation target="n10_osvm" sidePair=""/>
+    </group>
+    <component id="n17_h21o" name="operation" src="a8op23" fileName="Operation.xml" xy="25,353" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n109_il9d" name="btn_ready" src="a8op1z" fileName="ScaleButton.xml" xy="667,437" pivot="0.5,0.5" anchor="true" size="266,105" visible="false">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+      <Button icon="ui://73wt91ssm1xx2h" sound="ui://la8oslyofbf8jx"/>
+    </component>
+    <component id="n118_gd8a" name="updateTimer" src="a8op26" fileName="timer.xml" xy="667,325" pivot="0.5,0.5" anchor="true" visible="false">
+      <gearDisplay controller="State" pages="1,0,2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n120_gd8a" name="btn_continue" src="a8op1z" fileName="ScaleButton.xml" xy="667,434" pivot="0.5,0.5" anchor="true" size="257,113" visible="false">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+      <Button icon="ui://73wt91ssmt544z" sound="ui://la8oslyofbf8jx"/>
+    </component>
+    <component id="n121_uu9o" name="btnHaveBull1" src="m1xx3q" fileName="HaveBullButton1.xml" xy="977,938" group="n123_uu9o">
+      <Button icon="ui://73wt91ssa8op1c"/>
+    </component>
+    <component id="n122_uu9o" name="btnHaveBull0" src="m1xx3p" fileName="HaveBullButton0.xml" xy="976,1025" group="n123_uu9o">
+      <Button icon="ui://73wt91ssa8op12"/>
+    </component>
+    <group id="n123_uu9o" name="btnHaveGroup" xy="976,938" size="191,179" visible="false" advanced="true" collapsed="true">
+      <relation target="n22_h21o" sidePair="left-right,middle-middle"/>
+    </group>
+    <component id="n32_kvb5" name="btn_exit" src="a8op1z" fileName="ScaleButton.xml" xy="14,18" size="81,81" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button icon="ui://73wt91ssgd8a3u"/>
+    </component>
+    <component id="n6_osvm" name="btn_chat" src="a8op1z" fileName="ScaleButton.xml" xy="-133,413" size="81,81" group="n72_to38" visible="false" touchable="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://73wt91ssgd8a3s"/>
+    </component>
+    <component id="n33_kvb5" name="btn_setting" src="a8op1z" fileName="ScaleButton.xml" xy="-138,175" size="81,81" group="n72_to38" visible="false" touchable="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://73wt91ssgd8a3t"/>
+    </component>
+    <component id="n34_kvb5" name="btn_vic" src="a8op1z" fileName="ScaleButton.xml" xy="-133,549" size="81,81" group="n72_to38" visible="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://la8oslyoosvmb0"/>
+    </component>
+    <group id="n72_to38" name="n72" xy="-138,175" size="86,455" group="n130_sx3o"/>
+    <group id="n130_sx3o" name="n130" xy="-138,175" size="86,455" collapsed="true"/>
+    <component id="n73_to38" name="n73" src="a8op27" fileName="startGame.xml" xy="-132,145" size="1595,379">
+      <gearDisplay controller="State" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n132_7i8n" name="tfRoomNum" xy="541,306" size="244,39" visible="false" fontSize="30" text="房间号：6666666">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n137_mt54" name="btnLiangPai" src="mt545b" fileName="ZiButton.xml" xy="943,599" visible="false">
+      <relation target="n22_h21o" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://73wt91ssmt544t"/>
+    </component>
+    <component id="n131_vfdb" name="uiExitGame" src="ktw9k6" fileName="游戏内部按钮/UI_GameMenu.xml" pkg="la8oslyo" xy="0,0" size="1334,750" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Size" target="n73_to38" tween="true" startValue="1,300" endValue="1595,379" duration="5"/>
+  </transition>
+</component>

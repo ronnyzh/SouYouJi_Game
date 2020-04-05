@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ejgb8krj" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="kteu0" name="GameScene.xml" path="/" exported="true"/>
+    <image id="kteu1" name="lwgc_tile_a1.png" path="/tiles/"/>
+    <image id="kteu2" name="lwgc_tile_tray_23.png" path="/tiles/" exported="true"/>
+    <image id="kteu3" name="lwgc_tile_tray_11.png" path="/tiles/"/>
+    <image id="kteu4" name="lwgc_tile_tray_12.png" path="/tiles/"/>
+    <image id="kteu5" name="lwgc_tile_tray_13.png" path="/tiles/" exported="true"/>
+    <image id="kteu6" name="lwgc_tile_tray_14.png" path="/tiles/"/>
+    <image id="kteu7" name="lwgc_tile_tray_21.png" path="/tiles/"/>
+    <image id="kteu8" name="lwgc_tile_tray_22.png" path="/tiles/"/>
+    <image id="kteua" name="head_bg.png" path="/textures/table/" scale="9grid" scale9grid="35,37,70,74"/>
+    <image id="kteub" name="zhuang.png" path="/textures/table/"/>
+    <image id="kteue" name="btn_orange.png" path="/textures/btns/"/>
+    <component id="kteuf" name="tile3.xml" path="/" exported="true"/>
+    <component id="kteug" name="ScaleButton.xml" path="/" exported="true"/>
+    <component id="kteuh" name="tile2.xml" path="/" exported="true"/>
+    <image id="kteui" name="lwgc_remainderTile_frame.png" path="/common/"/>
+    <image id="kteuj" name="lwgc_cm_btn_x.png" path="/common/"/>
+    <image id="kteuk" name="lwgc_cm_btn_bg.png" path="/common/"/>
+    <image id="kteul" name="lwgc_cm_btn_bg3.png" path="/common/"/>
+    <image id="kteum" name="lwgc_cm_btn_bg6.png" path="/common/"/>
+    <image id="kteun" name="lwgc_cm_btn_chow.png" path="/common/"/>
+    <image id="kteuo" name="lwgc_cm_btn_hu.png" path="/common/"/>
+    <image id="kteup" name="lwgc_cm_btn_hu_origin.png" path="/common/"/>
+    <image id="kteuq" name="lwgc_cm_btn_kong.png" path="/common/"/>
+    <image id="kteur" name="lwgc_cm_btn_pong.png" path="/common/"/>
+    <image id="kteus" name="lwgc_cm_btn_readyHand.png" path="/common/"/>
+    <image id="kteut" name="lwgc_tile_d1.png" path="/tiles/"/>
+    <image id="kteuu" name="tb_center_circle.png" path="/main/"/>
+    <image id="kteux" name="tb_timer_light.png" path="/main/"/>
+    <component id="kteuy" name="out0.xml" path="/" exported="true"/>
+    <component id="kteuz" name="out1.xml" path="/" exported="true"/>
+    <component id="kteu10" name="out3.xml" path="/" exported="true"/>
+    <component id="kteu11" name="actionBtn.xml" path="/"/>
+    <image id="kteu12" name="2-光圈.png" path="/common/"/>
+    <image id="kstv13" name="lwgc_effect_chow.png" path="/effect/"/>
+    <image id="kstv14" name="lwgc_effect_hu.png" path="/effect/"/>
+    <image id="kstv15" name="lwgc_effect_kong.png" path="/effect/"/>
+    <image id="kstv16" name="lwgc_effect_pong.png" path="/effect/"/>
+    <image id="kstv17" name="lwgc_playerInfo_light0.png" path="/effect/"/>
+    <image id="kstv18" name="lwgc_playerInfo_light1.png" path="/effect/"/>
+    <image id="kstv19" name="lwgc_effect_zimo.png" path="/effect/"/>
+    <image id="kstv1a" name="lwgc_effect_start.png" path="/effect/"/>
+    <image id="kstv1b" name="lwgc_effect_start_bg.png" path="/effect/" scale="9grid" scale9grid="158,28,316,56"/>
+    <component id="kstv1c" name="startGame.xml" path="/effect/"/>
+    <component id="kstv1f" name="efActions.xml" path="/effect/"/>
+    <image id="kstv1g" name="title_balance.png" path="/effect/"/>
+    <component id="kstv1h" name="center.xml" path="/"/>
+    <component id="kstv1i" name="meld0.xml" path="/"/>
+    <component id="kstv1j" name="meld1.xml" path="/"/>
+    <component id="kstv1k" name="meld3.xml" path="/"/>
+    <component id="cxow1l" name="Seat2.xml" path="/" exported="true"/>
+    <component id="kaou1m" name="tile1.xml" path="/" exported="true"/>
+    <image id="kaou1n" name="tb_timer_light_3.png" path="/main/"/>
+    <image id="kaou1o" name="tb_timer_light_0.png" path="/main/"/>
+    <image id="kaou1p" name="tb_timer_light_1.png" path="/main/"/>
+    <image id="kaou1q" name="tb_timer_light_2.png" path="/main/"/>
+    <component id="kaou1r" name="MJ445.xml" path="/"/>
+    <component id="c3w81s" name="tile0.xml" path="/" exported="true"/>
+    <image id="jlz31t" name="mb_bg_frame.png" path="/basic/" scale="9grid" scale9grid="57,40,114,80"/>
+    <image id="jlz31u" name="bg_frame.png" path="/basic/" scale="9grid" scale9grid="70,66,64,58"/>
+    <image id="jlz31v" name="bg_second.png" path="/basic/" scale="9grid" scale9grid="10,41,20,82"/>
+    <image id="jlz31w" name="bg_second2.png" path="/basic/"/>
+    <image id="jlz31x" name="btn_close.png" path="/basic/"/>
+    <component id="jlz31y" name="GameBalance.xml" path="/" exported="true"/>
+    <component id="jlz31z" name="balanceItem.xml" path="/"/>
+    <image id="jlz320" name="cm_bg_second3.png" path="/basic/"/>
+    <image id="jlz321" name="imgFrame3.png" path="/basic/" scale="9grid" scale9grid="187,108,374,216"/>
+    <image id="jlz323" name="robot_img.png" path="/basic/"/>
+    <image id="fldw25" name="review_xuanquezhong.png" path="/game344/"/>
+    <image id="fldw26" name="review_huanpaizhong.png" path="/game344/"/>
+    <image id="fldw27" name="review_huansanzhang.png" path="/game344/"/>
+    <image id="fldw28" name="callForwarding.png" path="/game344/"/>
+    <image id="fldw29" name="table_wan_bg.png" path="/game344/"/>
+    <image id="fldw2a" name="table_wan3.png" path="/game344/"/>
+    <image id="fldw2b" name="table_suo_bg.png" path="/game344/"/>
+    <image id="fldw2c" name="table_suo3.png" path="/game344/"/>
+    <image id="fldw2d" name="table_tong_bg.png" path="/game344/"/>
+    <image id="fldw2e" name="table_tong3.png" path="/game344/"/>
+    <image id="fldw2f" name="table_background.png" path="/game344/"/>
+    <component id="pruj2h" name="colorBtn.xml" path="/"/>
+    <component id="ogay2i" name="choiceList.xml" path="/"/>
+    <component id="ogay2j" name="meldChoice.xml" path="/"/>
+    <image id="nxyf2l" name="lwgc_effect_cone.png" path="/basic/"/>
+    <component id="nxyf2m" name="pin.xml" path="/basic/"/>
+    <image id="r9uj2n" name="btn_ready.png" path="/textures/table/"/>
+    <image id="r9uj2o" name="btn_ready.png" path="/basic/"/>
+    <image id="r9uj2q" name="mark_OK.png" path="/basic/"/>
+    <image id="r9uj2r" name="2继续游戏.png" path="/basic/"/>
+    <image id="r9uj2s" name="3准备开始.png" path="/basic/"/>
+    <image id="r9uj2t" name="3万.png" path="/血流特有/"/>
+    <image id="r9uj2u" name="3条.png" path="/血流特有/"/>
+    <image id="r9uj2v" name="3筒.png" path="/血流特有/"/>
+    <image id="r9uj2w" name="4换三张.png" path="/血流特有/"/>
+    <image id="r9uj2x" name="4换牌中.png" path="/血流特有/"/>
+    <image id="r9uj2y" name="4选牌中.png" path="/血流特有/"/>
+    <image id="r9uj2z" name="万.png" path="/血流特有/"/>
+    <image id="r9uj30" name="名堂底.png" path="/血流特有/"/>
+    <image id="r9uj31" name="条.png" path="/血流特有/"/>
+    <image id="r9uj32" name="筒.png" path="/血流特有/"/>
+    <image id="r9uj33" name="选缺中.png" path="/血流特有/"/>
+    <image id="r9uj34" name="麻将.jpg" path="/血流特有/"/>
+    <image id="r9uj35" name="麻将桌-选牌.jpg" path="/血流特有/"/>
+    <component id="r9uj36" name="ScaleButtonFit.xml" path="/" exported="true"/>
+    <image id="mr4a37" name=".0.png" path="/数字/"/>
+    <image id="mr4a38" name=".1.png" path="/数字/"/>
+    <image id="mr4a39" name=".2.png" path="/数字/"/>
+    <image id="mr4a3a" name=".3.png" path="/数字/"/>
+    <image id="mr4a3b" name=".4.png" path="/数字/"/>
+    <image id="mr4a3c" name=".5.png" path="/数字/"/>
+    <image id="mr4a3d" name=".6.png" path="/数字/"/>
+    <image id="mr4a3e" name=".7.png" path="/数字/"/>
+    <image id="mr4a3f" name=".8.png" path="/数字/"/>
+    <image id="mr4a3g" name=".9.png" path="/数字/"/>
+    <image id="mr4a3h" name="0.png" path="/数字/"/>
+    <image id="mr4a3i" name="1.png" path="/数字/"/>
+    <image id="mr4a3j" name="2.png" path="/数字/"/>
+    <image id="mr4a3k" name="3.png" path="/数字/"/>
+    <image id="mr4a3l" name="4.png" path="/数字/"/>
+    <image id="mr4a3m" name="5.png" path="/数字/"/>
+    <image id="mr4a3n" name="6.png" path="/数字/"/>
+    <image id="mr4a3o" name="7.png" path="/数字/"/>
+    <image id="mr4a3p" name="8.png" path="/数字/"/>
+    <image id="mr4a3q" name="9.png" path="/数字/"/>
+    <image id="mr4a3r" name="9万.png" path="/数字/"/>
+    <font id="mr4a3s" name="FontNumTime.fnt" path="/数字/" exported="true"/>
+    <component id="mr4a3t" name="Seat1.xml" path="/"/>
+    <image id="mr4a3u" name="头像框底.png" path="/textures/table/" scale="9grid" scale9grid="20,26,40,52"/>
+    <image id="mr4a3v" name="庄.png" path="/textures/table/"/>
+    <image id="g9t73w" name="头像-金币.png" path="/basic/"/>
+    <image id="s2nk3x" name="ghost_mark.png" path="/basic/"/>
+    <image id="n3r33y" name="btn_trusteeship.png" path="/textures/table/"/>
+    <image id="8mbq3z" name="-0麻将-结算-标注.jpg" path="/麻将结算/"/>
+    <image id="8mbq40" name="0麻将-结算-示意.jpg" path="/麻将结算/"/>
+    <image id="8mbq41" name="h-+.png" path="/麻将结算/"/>
+    <image id="8mbq42" name="h--.png" path="/麻将结算/"/>
+    <image id="8mbq43" name="h-0.png" path="/麻将结算/"/>
+    <image id="8mbq44" name="h-1.png" path="/麻将结算/"/>
+    <image id="8mbq45" name="h-2.png" path="/麻将结算/"/>
+    <image id="8mbq46" name="h-3.png" path="/麻将结算/"/>
+    <image id="8mbq47" name="h-4.png" path="/麻将结算/"/>
+    <image id="8mbq48" name="h-5.png" path="/麻将结算/"/>
+    <image id="8mbq49" name="h-6.png" path="/麻将结算/"/>
+    <image id="8mbq4a" name="h-7.png" path="/麻将结算/"/>
+    <image id="8mbq4b" name="h-8.png" path="/麻将结算/"/>
+    <image id="8mbq4c" name="h-9.png" path="/麻将结算/"/>
+    <image id="8mbq4d" name="奖码_.png" path="/麻将结算/"/>
+    <image id="8mbq4g" name="按钮-继续游戏.png" path="/麻将结算/"/>
+    <image id="8mbq4h" name="按钮-退出游戏.png" path="/麻将结算/"/>
+    <image id="8mbq4i" name="胡.png" path="/麻将结算/"/>
+    <image id="8mbq4j" name="蓝-+.png" path="/麻将结算/"/>
+    <image id="8mbq4k" name="蓝--.png" path="/麻将结算/"/>
+    <image id="8mbq4l" name="蓝-0.png" path="/麻将结算/"/>
+    <image id="8mbq4m" name="蓝-1.png" path="/麻将结算/"/>
+    <image id="8mbq4n" name="蓝-2.png" path="/麻将结算/"/>
+    <image id="8mbq4o" name="蓝-3.png" path="/麻将结算/"/>
+    <image id="8mbq4p" name="蓝-4.png" path="/麻将结算/"/>
+    <image id="8mbq4q" name="蓝-5.png" path="/麻将结算/"/>
+    <image id="8mbq4r" name="蓝-6.png" path="/麻将结算/"/>
+    <image id="8mbq4s" name="蓝-7.png" path="/麻将结算/"/>
+    <image id="8mbq4t" name="蓝-8.png" path="/麻将结算/"/>
+    <image id="8mbq4u" name="蓝-9.png" path="/麻将结算/"/>
+    <component id="8mbq4v" name="GameBalance2.xml" path="/" exported="true"/>
+    <component id="8mbq4w" name="balanceItem2.xml" path="/" exported="true"/>
+    <font id="8mbq4x" name="Font1.fnt" path="/麻将结算/" exported="true"/>
+    <font id="8mbq4y" name="Font2.fnt" path="/麻将结算/" exported="true"/>
+    <component id="8mbq4z" name="GameBalance22.xml" path="/" exported="true"/>
+    <image id="8mbq50" name="0麻将-结算-无奖码版.jpg" path="/麻将结算/"/>
+    <image id="8mbq51" name="h-,.png" path="/麻将结算/"/>
+    <image id="8mbq52" name="h-..png" path="/麻将结算/"/>
+    <image id="8mbq53" name="蓝-,.png" path="/麻将结算/"/>
+    <image id="8mbq54" name="蓝-..png" path="/麻将结算/"/>
+    <image id="ktw955" name="djjs.png" path="/麻将结算/" exported="true"/>
+    <image id="ktw956" name="-.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw957" name="0.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw958" name="1.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw959" name="2.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95a" name="3.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95b" name="4.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95c" name="5.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95d" name="6.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95e" name="7.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95f" name="8.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95g" name="9.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95h" name="c-+.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95i" name="c-0.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95j" name="c-1.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95k" name="c-2.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95l" name="c-3.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95m" name="c-4.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95n" name="c-5.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95o" name="c-6.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95p" name="c-7.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95q" name="c-8.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95r" name="c-9.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95s" name="橙色背景.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95t" name="紫色背景.png" path="/牛牛结算数字散件/"/>
+    <font id="ktw95u" name="Font1.fnt" path="/牛牛结算数字散件/" exported="true"/>
+    <image id="ktw95v" name="-..png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95w" name="逗号.png" path="/牛牛结算数字散件/"/>
+    <font id="ktw95x" name="Font2.fnt" path="/牛牛结算数字散件/" exported="true"/>
+    <image id="ktw95y" name="c-..png" path="/牛牛结算数字散件/"/>
+    <image id="ktw95z" name="黄色逗号.png" path="/牛牛结算数字散件/"/>
+    <image id="ktw960" name="紫色背景(1).png" path="/牛牛结算数字散件/"/>
+    <image id="ktw961" name="橙色背景(1).png" path="/牛牛结算数字散件/"/>
+    <image id="o42a62" name="lwgc_cm_btn_ting.png" path="/common/"/>
+    <component id="wxe263" name="balanceItem3.xml" path="/"/>
+    <image id="qagw64" name="听.png" path="/ting/"/>
+    <image id="qagw66" name="牌数底.png" path="/ting/"/>
+    <image id="qagw67" name="牌数底-灰.png" path="/ting/"/>
+    <component id="qagw68" name="tingbtn.xml" path="/"/>
+    <component id="qagw69" name="tingpanel.xml" path="/"/>
+    <component id="qagw6a" name="tile0ting.xml" path="/"/>
+    <image id="o52y6c" name="黄色遮罩1.png" path="/ting/" scale="9grid" scale9grid="4,4,6,7"/>
+    <image id="hg3r6d" name="newbg.jpg" path="/basic/"/>
+    <image id="hg3r6e" name="new桌面-示意1.jpg" path="/newres/"/>
+    <image id="hg3r6f" name="new桌面-示意0.jpg" path="/newres/"/>
+    <image id="hg3r6g" name="头像名称底.png" path="/newres/touxian/" scale="9grid" scale9grid="23,13,46,26"/>
+    <image id="hg3r6h" name="头像边框.png" path="/newres/touxian/"/>
+    <image id="hg3r6i" name="荒庄-列痕.png" path="/newres/"/>
+    <image id="hg3r6j" name="游戏开始-GAME START.png" path="/newres/"/>
+    <image id="hg3r6k" name="游戏开始-底.png" path="/newres/"/>
+    <image id="hg3r6l" name="游戏开始.png" path="/newres/"/>
+    <component id="hg3r6m" name="gamestart.xml" path="/"/>
+    <image id="hg3r6o" name="轮盘-回合.png" path="/newres/"/>
+    <image id="hg3r6p" name="轮盘-字-西.png" path="/newres/"/>
+    <image id="hg3r6q" name="轮盘-字-北.png" path="/newres/"/>
+    <image id="hg3r6r" name="轮盘-字-东.png" path="/newres/"/>
+    <image id="hg3r6s" name="轮盘-字-南.png" path="/newres/"/>
+    <image id="hg3r6t" name="9.png" path="/newres/number/"/>
+    <image id="hg3r6u" name="0.png" path="/newres/number/"/>
+    <image id="hg3r6v" name="1.png" path="/newres/number/"/>
+    <image id="hg3r6w" name="2.png" path="/newres/number/"/>
+    <image id="hg3r6x" name="3.png" path="/newres/number/"/>
+    <image id="hg3r6y" name="4.png" path="/newres/number/"/>
+    <image id="hg3r6z" name="5.png" path="/newres/number/"/>
+    <image id="hg3r70" name="6.png" path="/newres/number/"/>
+    <image id="hg3r71" name="7.png" path="/newres/number/"/>
+    <image id="hg3r72" name="8.png" path="/newres/number/"/>
+    <font id="hg3r73" name="centernum.fnt" path="/newres/number/" exported="true"/>
+    <image id="hg3r74" name="自摸.png" path="/newres/action/"/>
+    <image id="hg3r75" name="吃.png" path="/newres/action/"/>
+    <image id="hg3r76" name="杠.png" path="/newres/action/"/>
+    <image id="hg3r77" name="过.png" path="/newres/action/"/>
+    <image id="hg3r78" name="胡.png" path="/newres/action/"/>
+    <image id="hg3r79" name="碰.png" path="/newres/action/"/>
+    <image id="hg3r7a" name="听.png" path="/newres/action/"/>
+    <image id="hg3r7b" name="剩余牌数.png" path="/newres/"/>
+    <image id="phnm7c" name="D-对局结束.png" path="/newres/"/>
+    <image id="phnm7d" name="D-对局结束-底.png" path="/newres/"/>
+    <image id="phnm7e" name="D-End of game.png" path="/newres/"/>
+    <component id="phnm7f" name="gameend.xml" path="/"/>
+    <image id="phnm7g" name="头像.png" path="/newres/touxian/"/>
+    <component id="rdc57i" name="newcenter.xml" path="/"/>
+    <image id="118n27j" name="轮盘-底 .png" path="/newres/"/>
+    <image id="118n27k" name="轮盘-字-未选中 .png" path="/newres/"/>
+    <image id="vddh27l" name="取消托管.png" path="/basic/"/>
+    <image id="vddh27m" name="麻将遮罩.png" path="/basic/" scale="9grid" scale9grid="8,48,16,96"/>
+    <image id="vddh27n" name="底 -自己(1).png" path="/麻将结算/" scale="9grid" scale9grid="64,147,21,18"/>
+    <image id="vddh27o" name="底-三家(1).png" path="/麻将结算/" scale="9grid" scale9grid="40,121,43,27"/>
+    <image id="me6n27p" name="勾选框.png" path="/ting/"/>
+    <image id="me6n27q" name="自动打牌..png" path="/ting/"/>
+    <image id="me6n27r" name="自动打牌-对勾.png" path="/ting/"/>
+    <image id="me6n27s" name="底.png" path="/ting/" scale="9grid" scale9grid="9,15,12,30"/>
+    <component id="me6n27v" name="AutoBtn.xml" path="/"/>
+    <image id="me6n27w" name="听牌-底框.png" path="/ting/" scale="9grid" scale9grid="11,113,22,28"/>
+    <image id="oowi27x" name="认输 .png" path="/newres/touxian/"/>
+    <image id="oowi27z" name="认输 .png" path="/newres/action/"/>
+    <component id="jobk280" name="tile0_bak.xml" path="/"/>
+    <component id="r65d281" name="otherout.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="MJ">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,85" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n4_ns76" name="n4" xy="37,8" size="177,69" url="ui://wtkqufwmondjmp" autoSize="true">
+      <gearIcon controller="c1" pages="0,1" values="ui://wtkqufwmondjmp|ui://wtkqufwmcv50lo"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://la8oslyofbf8jx" downEffect="scale" downEffectValue="0.95"/>
+</component>

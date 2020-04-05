@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,192" opaque="false" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="color" pages="0,normal,1," selected="0"/>
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="143,192" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00f0f0f0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2" name="n2" xy="0,0" size="143,192" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00fafafa">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n3" name="n3" xy="0,0" size="143,192" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00cccccc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n4_jbew" name="n0" xy="0,0" size="141,175" url="ui://vft1d339s2ed0" autoSize="true">
+      <gearXY controller="button" pages="0" values="0,0" default="0,-30" tween="true"/>
+      <gearLook controller="color" pages="0,1" values="1,0,0,1|1,0,1,1" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+</component>

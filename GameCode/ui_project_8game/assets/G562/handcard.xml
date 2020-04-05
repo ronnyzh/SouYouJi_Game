@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,400">
+  <controller name="state" pages="0,选牌中,1," selected="0"/>
+  <displayList>
+    <component id="n1_evmk" name="tou" src="r9q3c7w" xy="215,102" size="249,192">
+      <gearDisplay controller="state" pages="0,1"/>
+    </component>
+    <component id="n6_evmk" name="zhong" src="r9q3c7x" xy="213,197">
+      <gearDisplay controller="state" pages="0,1"/>
+    </component>
+    <component id="n79_lvff" name="wei" src="lvffsc8j" xy="216,325">
+      <gearDisplay controller="state" pages="0,1"/>
+    </component>
+  </displayList>
+  <transition name="touAni" autoPlay="true">
+    <item time="0" type="Scale" target="n1_evmk" label="start" tween="true" startValue="1,1" endValue="1.3,1.3" duration="6"/>
+    <item time="6" type="Scale" target="n1_evmk" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6" label2="end"/>
+  </transition>
+  <transition name="zhongAni" autoPlay="true">
+    <item time="0" type="Scale" target="n6_evmk" label="start" tween="true" startValue="1,1" endValue="1.3,1.3" duration="6"/>
+    <item time="6" type="Scale" target="n6_evmk" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6" label2="end"/>
+    <item time="12" type="Scale" target="n6_evmk" label="end" tween="true" startValue="1,1"/>
+  </transition>
+  <transition name="weiAni" autoPlay="true">
+    <item time="0" type="Scale" target="n79_lvff" tween="true" startValue="1,1" endValue="1.3,1.3" duration="6"/>
+    <item time="6" type="Scale" target="n79_lvff" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+  </transition>
+</component>

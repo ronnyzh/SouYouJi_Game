@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="309,125" pivot="0.5,0.5" anchor="true">
+  <controller name="type" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14," selected="0"/>
+  <displayList>
+    <loader id="n18_s2ed" name="Img" xy="171,66" pivot="0.5,0.5" anchor="true" size="234,118" scale="1.5,1.5" url="ui://newlnjldr7lnscbm" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearXY controller="type" pages="0,1,2,3,4,5,6,8,9,10,11,12,13,14" values="171,66|163,64|166,53|148,53|150,41|159,66|155,62|156,53|143,53|144,53|147,53|162,63|150,53|163,82" default="163,53"/>
+      <gearIcon controller="type" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" values="ui://newlnjldr7lnscbm|ui://newlnjldr7lnscbn|ui://newlnjldr7lnscbs|ui://newlnjldr7lnscbo|ui://newlnjldr7lnscbv|ui://newlnjldr7lnscbt|ui://newlnjldr7lnscbq|ui://newlnjldr7lnscbp|ui://newlnjldr7lnscbr|ui://newlnjldr7lnscbl|ui://newlnjldr7lnscbx|ui://newlnjldr7lnscbu|ui://newlnjldr7lnscbk|ui://newlnjldr7lnscbj|ui://newlnjldr7lnscbw"/>
+    </loader>
+  </displayList>
+</component>

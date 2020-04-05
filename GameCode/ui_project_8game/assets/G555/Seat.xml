@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,127">
+  <controller name="c1" pages="0,,1,zhuang" selected="0"/>
+  <displayList>
+    <loader id="n0_osvm" name="icon" xy="0,0" size="100,100" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n16_k4rz" name="n16" src="mup46f" pkg="rjf5583x" xy="0,73" size="100,54"/>
+    <image id="n17_er43" name="n17" src="mup46h" pkg="rjf5583x" xy="0,0" size="100,100"/>
+    <text id="n2_osvm" name="name" xy="-2,76" size="102,28" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" text="用户名有多长"/>
+    <text id="n3_osvm" name="score" xy="0,105" pivot="0.5,0.5" size="101,19" font="ui://rjf5583xprh340" fontSize="15" color="#ffff00" align="center" vAlign="middle" bold="true" singleLine="true" text="1,000,000.00"/>
+    <image id="n11_e7ic" name="n11" src="wm2e2s" pkg="rjf5583x" xy="61,-21">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n21_er43" name="n21" src="wm2e2z" pkg="rjf5583x" xy="-31,106" visible="false"/>
+    <component id="n10_ekd7" name="tfScore" src="ekd72a" xy="-54,80" hideByEditor="true" visible="false"/>
+    <component id="n8_h21o" name="icon_click" src="a8op1z" xy="-1,-2" size="99,104" hideByEditor="true"/>
+    <text id="n18_er43" name="scoreBalance" xy="47,90" pivot="0.5,0.5" anchor="true" size="160,54" group="n23_er43" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e1g" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="+8,18.0"/>
+    <text id="n19_er43" name="scoreBalance2" xy="47,90" pivot="0.5,0.5" anchor="true" size="160,54" group="n23_er43" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e13" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="-88,8.3"/>
+    <image id="n20_er43" name="okMark" src="er435d" xy="4,67" group="n23_er43" hideByEditor="true" scale="0.7,0.7" visible="false"/>
+    <movieclip id="n22_er43" name="light" src="vmndp" pkg="ads0z8bz" xy="-93,-59" group="n23_er43" hideByEditor="true" scale="1,0.8" visible="false"/>
+    <group id="n23_er43" name="mingpai_niuniu" xy="-93,-59" size="300,253" collapsed="true"/>
+  </displayList>
+</component>

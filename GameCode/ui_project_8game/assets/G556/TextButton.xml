@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,93" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n8_qb1b" name="n8" src="wm2e3d" fileName="GBP_Img/IMG/小按钮-黄.png" pkg="rjf5583x" xy="0,0" pivot="0.5,0.5" size="155,93">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n5" name="icon" xy="10,0" size="132,93" visible="false" align="center" vAlign="middle">
+      <gearSize controller="button" pages="0,1" values="132,93,1,1|222,93,1,1" default="222,93,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n7_h21o" name="title" xy="9,0" size="134,93" font="ui://rjf5583xwm2e1v" fontSize="50" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button sound="ui://la8oslyoodd9hg" downEffect="scale" downEffectValue="0.95"/>
+</component>

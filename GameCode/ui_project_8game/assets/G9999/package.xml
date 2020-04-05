@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wtkqufwm" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="o45b0" name="灰.png" path="/Image/Jetton/"/>
+    <image id="o45b1" name="紫.png" path="/Image/Jetton/"/>
+    <image id="o45b2" name="红.png" path="/Image/Jetton/"/>
+    <image id="o45b3" name="绿.png" path="/Image/Jetton/"/>
+    <image id="o45b4" name="蓝.png" path="/Image/Jetton/"/>
+    <image id="o45b5" name="黄.png" path="/Image/Jetton/"/>
+    <image id="o45b1e" name="头像-分-0.png" path="/Image/Font/"/>
+    <image id="o45b1f" name="头像-分-1.png" path="/Image/Font/"/>
+    <image id="o45b1g" name="头像-分-2.png" path="/Image/Font/"/>
+    <image id="o45b1h" name="头像-分-3.png" path="/Image/Font/"/>
+    <image id="o45b1i" name="头像-分-4.png" path="/Image/Font/"/>
+    <image id="o45b1j" name="头像-分-5.png" path="/Image/Font/"/>
+    <image id="o45b1k" name="头像-分-6.png" path="/Image/Font/"/>
+    <image id="o45b1l" name="头像-分-7.png" path="/Image/Font/"/>
+    <image id="o45b1m" name="头像-分-8.png" path="/Image/Font/"/>
+    <image id="o45b1n" name="头像-分-9.png" path="/Image/Font/"/>
+    <image id="o45b1o" name="总分-+.png" path="/Image/Font/"/>
+    <image id="o45b1p" name="总分--.png" path="/Image/Font/"/>
+    <image id="o45b1q" name="总分-0.png" path="/Image/Font/"/>
+    <image id="o45b1r" name="总分-1.png" path="/Image/Font/"/>
+    <image id="o45b1s" name="总分-2.png" path="/Image/Font/"/>
+    <image id="o45b1t" name="总分-3.png" path="/Image/Font/"/>
+    <image id="o45b1u" name="总分-4.png" path="/Image/Font/"/>
+    <image id="o45b1v" name="总分-5.png" path="/Image/Font/"/>
+    <image id="o45b1w" name="总分-6.png" path="/Image/Font/"/>
+    <image id="o45b1x" name="总分-7.png" path="/Image/Font/"/>
+    <image id="o45b1y" name="总分-8.png" path="/Image/Font/"/>
+    <image id="o45b1z" name="总分-9.png" path="/Image/Font/"/>
+    <image id="o45b20" name="总分.png" path="/Image/Font/"/>
+    <font id="o45b21" name="Font1.fnt" path="/Image/Font/"/>
+    <font id="o45b22" name="Font2.fnt" path="/Image/Font/" exported="true"/>
+    <component id="o45b23" name="BaseCard.xml" path="/Component/item/"/>
+    <image id="o6gk24" name="10A.png" path="/Image/"/>
+    <component id="o6gk25" name="Seat.xml" path="/Component/item/"/>
+    <image id="o6gk26" name="head_bg.png" path="/Image/table/" scale="9grid" scale9grid="35,37,70,74"/>
+    <image id="o6gk27" name="zhuang.png" path="/Image/table/"/>
+    <component id="gbfn28" name="GameScene.xml" path="/" exported="true"/>
+    <image id="gbfn29" name="十三水桌面.jpg" path="/Image/"/>
+    <component id="gbfn2a" name="btnJetton.xml" path="/Component/item/"/>
+    <component id="gbfn2b" name="ZiButton.xml" path="/Component/item/"/>
+    <image id="gbfn2c" name="D-按钮-紫-.png" path="/Image/btns/"/>
+    <component id="gbfn2d" name="ChipRect.xml" path="/Component/item/"/>
+    <component id="kexb2f" name="ChipRectItem.xml" path="/Component/item/"/>
+    <component id="kexb2k" name="DetailedList.xml" path="/Component/item/"/>
+    <image id="kexb2l" name="list.png" path="/Image/"/>
+    <component id="kexb2m" name="BeadItem.xml" path="/Component/item/ListItem/"/>
+    <component id="iqfa2n" name="BigItem.xml" path="/Component/item/ListItem/"/>
+    <component id="frnl2o" name="JettonItem.xml" path="/" exported="true"/>
+    <component id="frnl2p" name="ShowCard.xml" path="/" exported="true"/>
+    <image id="frnl2q" name="X-0.png" path="/Image/Font/"/>
+    <image id="frnl2r" name="X-1.png" path="/Image/Font/"/>
+    <image id="frnl2s" name="X-2.png" path="/Image/Font/"/>
+    <image id="frnl2t" name="X-3.png" path="/Image/Font/"/>
+    <image id="frnl2u" name="X-4.png" path="/Image/Font/"/>
+    <image id="frnl2v" name="X-5.png" path="/Image/Font/"/>
+    <image id="frnl2w" name="X-6.png" path="/Image/Font/"/>
+    <image id="frnl2x" name="X-7.png" path="/Image/Font/"/>
+    <image id="frnl2y" name="X-8.png" path="/Image/Font/"/>
+    <image id="frnl2z" name="X-9.png" path="/Image/Font/"/>
+    <image id="frnl30" name="X-闲.png" path="/Image/Font/"/>
+    <image id="frnl31" name="X-闲赢 .png" path="/Image/Font/"/>
+    <image id="frnl32" name="Z-0.png" path="/Image/Font/"/>
+    <image id="frnl33" name="Z-1.png" path="/Image/Font/"/>
+    <image id="frnl34" name="Z-2.png" path="/Image/Font/"/>
+    <image id="frnl35" name="Z-3.png" path="/Image/Font/"/>
+    <image id="frnl36" name="Z-4.png" path="/Image/Font/"/>
+    <image id="frnl37" name="Z-5.png" path="/Image/Font/"/>
+    <image id="frnl38" name="Z-6.png" path="/Image/Font/"/>
+    <image id="frnl39" name="Z-7.png" path="/Image/Font/"/>
+    <image id="frnl3a" name="Z-8.png" path="/Image/Font/"/>
+    <image id="frnl3b" name="Z-9.png" path="/Image/Font/"/>
+    <image id="frnl3c" name="Z-庄.png" path="/Image/Font/"/>
+    <image id="frnl3d" name="Z-庄赢 .png" path="/Image/Font/"/>
+    <font id="frnl3e" name="Font3.fnt" path="/Image/Font/" exported="true"/>
+    <font id="frnl3f" name="Font4.fnt" path="/Image/Font/" exported="true"/>
+    <component id="ugzf3g" name="Pln_count_down.xml" path="/Component/item/"/>
+    <image id="ugzf3h" name="timerBG.png" path="/Image/"/>
+    <font id="ugzf3i" name="timer_font.fnt" path="/Image/Font/"/>
+    <image id="ugzf3j" name="000.png" path="/Image/Font/"/>
+    <image id="ugzf3k" name="001.png" path="/Image/Font/"/>
+    <image id="ugzf3l" name="002.png" path="/Image/Font/"/>
+    <image id="ugzf3m" name="003.png" path="/Image/Font/"/>
+    <image id="ugzf3n" name="004.png" path="/Image/Font/"/>
+    <image id="ugzf3o" name="005.png" path="/Image/Font/"/>
+    <image id="ugzf3p" name="006.png" path="/Image/Font/"/>
+    <image id="ugzf3q" name="007.png" path="/Image/Font/"/>
+    <image id="ugzf3r" name="008.png" path="/Image/Font/"/>
+    <image id="ugzf3s" name="009.png" path="/Image/Font/"/>
+    <image id="l6ym3t" name="QQ图片20180711103848.png" path="/Image/"/>
+    <component id="tamm3u" name="empty.xml" path="/Component/item/"/>
+    <component id="h3tv3v" name="startGame.xml" path="/Component/item/"/>
+    <image id="h3tv3w" name="y-beijing.png" path="/Image/"/>
+    <image id="h3tv3x" name="youxikaishi.png" path="/Image/"/>
+    <component id="llff3y" name="txt_tip.xml" path="/Component/item/"/>
+    <component id="llff3z" name="ScaleButton.xml" path="/Component/item/" exported="true"/>
+    <image id="q0yf40" name="和.png" path="/Image/Font/"/>
+    <image id="foeb41" name="3方-收起，展开.png" path="/百家乐/"/>
+    <image id="foeb42" name="cm-灰.png" path="/百家乐/"/>
+    <image id="foeb43" name="cm-紫.png" path="/百家乐/"/>
+    <image id="foeb44" name="cm-红.png" path="/百家乐/"/>
+    <image id="foeb45" name="cm-绿.png" path="/百家乐/"/>
+    <image id="foeb46" name="cm-蓝.png" path="/百家乐/"/>
+    <image id="foeb47" name="cm-黄.png" path="/百家乐/"/>
+    <image id="foeb48" name="全路  .png" path="/百家乐/"/>
+    <image id="foeb49" name="分割线.png" path="/百家乐/"/>
+    <image id="foeb4a" name="大路 .png" path="/百家乐/"/>
+    <image id="foeb4b" name="头像-金币 .png" path="/百家乐/"/>
+    <image id="foeb4c" name="头像.png" path="/百家乐/"/>
+    <image id="foeb4d" name="头像名称底.png" path="/百家乐/"/>
+    <image id="foeb4e" name="头像描边框.png" path="/百家乐/"/>
+    <image id="foeb4f" name="大字-(.png" path="/百家乐/数字/"/>
+    <image id="foeb4g" name="大字-).png" path="/百家乐/数字/"/>
+    <image id="foeb4h" name="大字-0.png" path="/百家乐/数字/"/>
+    <image id="foeb4i" name="大字-1.png" path="/百家乐/数字/"/>
+    <image id="foeb4j" name="大字-2.png" path="/百家乐/数字/"/>
+    <image id="foeb4k" name="大字-3.png" path="/百家乐/数字/"/>
+    <image id="foeb4l" name="大字-4.png" path="/百家乐/数字/"/>
+    <image id="foeb4m" name="大字-5.png" path="/百家乐/数字/"/>
+    <image id="foeb4n" name="大字-6.png" path="/百家乐/数字/"/>
+    <image id="foeb4o" name="大字-7.png" path="/百家乐/数字/"/>
+    <image id="foeb4p" name="大字-8.png" path="/百家乐/数字/"/>
+    <image id="foeb4q" name="大字-9.png" path="/百家乐/数字/"/>
+    <image id="foeb4r" name="大字-_.png" path="/百家乐/数字/"/>
+    <image id="foeb4s" name="小字-(.png" path="/百家乐/数字/"/>
+    <image id="foeb4t" name="小字-).png" path="/百家乐/数字/"/>
+    <image id="foeb4u" name="小字-0.png" path="/百家乐/数字/"/>
+    <image id="foeb4v" name="小字-1.png" path="/百家乐/数字/"/>
+    <image id="foeb4w" name="小字-2.png" path="/百家乐/数字/"/>
+    <image id="foeb4x" name="小字-3.png" path="/百家乐/数字/"/>
+    <image id="foeb4y" name="小字-4.png" path="/百家乐/数字/"/>
+    <image id="foeb4z" name="小字-5.png" path="/百家乐/数字/"/>
+    <image id="foeb50" name="小字-6.png" path="/百家乐/数字/"/>
+    <image id="foeb51" name="小字-7.png" path="/百家乐/数字/"/>
+    <image id="foeb52" name="小字-8.png" path="/百家乐/数字/"/>
+    <image id="foeb53" name="小字-9.png" path="/百家乐/数字/"/>
+    <image id="foeb54" name="小字-_.png" path="/百家乐/数字/"/>
+    <image id="foeb55" name="百家乐-注释.jpg" path="/百家乐/"/>
+    <image id="foeb56" name="百家乐-示意图.jpg" path="/百家乐/"/>
+    <image id="foeb57" name="百家乐.jpg" path="/百家乐/"/>
+    <image id="foeb58" name="百家乐2.jpg" path="/百家乐/"/>
+    <image id="foeb59" name="确定下注.png" path="/百家乐/"/>
+    <image id="foeb5a" name="背框.png" path="/百家乐/" scale="9grid" scale9grid="16,48,32,96"/>
+    <image id="foeb5b" name="路框.png" path="/百家乐/"/>
+    <image id="pqc45c" name="bet3_btn_100.png" path="/百家乐/1.0/"/>
+    <image id="pqc45d" name="bet3_btn_100K.png" path="/百家乐/1.0/"/>
+    <image id="pqc45e" name="bet3_btn_10K.png" path="/百家乐/1.0/"/>
+    <image id="pqc45f" name="bet3_btn_1K.png" path="/百家乐/1.0/"/>
+    <component id="pqc45g" name="ChipRect-备份.xml" path="/Component/item/"/>
+    <component id="pqc45h" name="ChipRectItem-备份.xml" path="/Component/item/"/>
+    <component id="pqc45i" name="GameScene-备份.xml" path="/"/>
+    <font id="pqc45j" name="Font_大.fnt" path="/" exported="true"/>
+    <font id="pqc45k" name="Font_小.fnt" path="/" exported="true"/>
+    <component id="pqc45l" name="比.xml" path="/"/>
+    <image id="pqc45m" name="球-01.png" path="/百家乐/2.0/"/>
+    <image id="pqc45n" name="球-02.png" path="/百家乐/2.0/"/>
+    <image id="pqc45o" name="球-03.png" path="/百家乐/2.0/"/>
+    <image id="pqc45p" name="路单面板-01.png" path="/百家乐/2.0/"/>
+    <component id="pqc45q" name="BeadItem-备份.xml" path="/Component/item/ListItem/"/>
+    <image id="pqc45r" name="list-01.png" path="/百家乐/2.0/"/>
+    <image id="pqc45s" name="6不抢按钮.png" path="/百家乐/抢庄-不抢/"/>
+    <image id="pqc45t" name="6抢庄按钮.png" path="/百家乐/抢庄-不抢/"/>
+    <component id="pqc45u" name="按钮条-组件.xml" path="/百家乐/抢庄-不抢/"/>
+    <component id="pqc45w" name="抢庄按钮.xml" path="/百家乐/抢庄-不抢/"/>
+    <component id="pqc45x" name="不抢按钮.xml" path="/百家乐/抢庄-不抢/"/>
+    <image id="pqc45y" name="不抢(3).png" path="/百家乐/抢庄-不抢/"/>
+    <image id="pqc45z" name="_0004_图层-0.png" path="/百家乐/抢庄-不抢/"/>
+    <image id="pqc460" name="不抢.png" path="/百家乐/抢庄-不抢/"/>
+    <component id="pqc461" name="Sign.xml" path="/百家乐/抢庄-不抢/"/>
+    <image id="pqc462" name="2继续游戏.png" path="/百家乐/"/>
+    <image id="prh363" name="筹码-02.png" path="/百家乐/1.0/"/>
+    <image id="prh364" name="筹码-01.png" path="/百家乐/1.0/"/>
+    <image id="prh365" name="筹码-03.png" path="/百家乐/1.0/"/>
+    <image id="prh366" name="筹码-01.png" path="/百家乐/3.0/"/>
+    <image id="prh367" name="筹码-02.png" path="/百家乐/3.0/"/>
+    <image id="prh368" name="筹码-03.png" path="/百家乐/3.0/"/>
+    <image id="prh369" name="筹码-04.png" path="/百家乐/3.0/"/>
+    <image id="prh36a" name="筹码1-01.png" path="/百家乐/3.0/"/>
+    <image id="prh36b" name="筹码1-02.png" path="/百家乐/3.0/"/>
+    <image id="prh36c" name="筹码1-03.png" path="/百家乐/3.0/"/>
+    <image id="prh36d" name="筹码1-04.png" path="/百家乐/3.0/"/>
+    <image id="prh36m" name="筹码-01.png" path="/百家乐/4.0/"/>
+    <image id="prh36n" name="筹码-02.png" path="/百家乐/4.0/"/>
+    <image id="prh36o" name="筹码-03.png" path="/百家乐/4.0/"/>
+    <image id="prh36p" name="筹码-04.png" path="/百家乐/4.0/"/>
+    <image id="prh36q" name="筹码-05.png" path="/百家乐/4.0/"/>
+    <image id="prh36r" name="筹码-06.png" path="/百家乐/4.0/"/>
+    <image id="prh36s" name="筹码-07.png" path="/百家乐/4.0/"/>
+    <image id="prh36t" name="筹码-08.png" path="/百家乐/4.0/"/>
+    <image id="prh36u" name="筹码-08(1).png" path="/百家乐/4.0/"/>
+    <image id="prh36v" name="筹码-05(1).png" path="/百家乐/4.0/"/>
+    <image id="prh36w" name="筹码-06(1).png" path="/百家乐/4.0/"/>
+    <image id="prh36x" name="筹码-07(1).png" path="/百家乐/4.0/"/>
+    <image id="rt886y" name="百家乐2_gaitubao_com_575x323.jpg" path="/百家乐/" scale9grid="144,81,288,162"/>
+  </resources>
+  <publish name="G9999"/>
+</packageDescription>

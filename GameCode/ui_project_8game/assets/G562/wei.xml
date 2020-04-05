@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="343,192" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <component id="n6_evmk" name="card_0" src="r4d521" xy="-9,-7" pivot="0.5,0.5" rotation="-40">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_evmk" name="card_1" src="r4d521" xy="40,-35" pivot="0.5,0.5" rotation="-20">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_evmk" name="card_2" src="r4d521" xy="95,-46" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_evmk" name="card_3" src="r4d521" xy="150,-37" pivot="0.5,0.5" rotation="20">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_evmk" name="card_4" src="r4d521" xy="208,-4" pivot="0.5,0.5" rotation="40">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

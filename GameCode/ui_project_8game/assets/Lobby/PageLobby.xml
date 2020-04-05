@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" adaptationTest="FitHeightAndSetCenter">
+  <controller name="gamePageC" pages="0,gameList,2,subList" selected="0"/>
+  <displayList>
+    <loader id="n0_aks0" name="bg" xy="0,0" pivot="0.5,0.5" size="1600,900" locked="true" aspect="true" touchable="false" url="ui://ccd2kz2rb3ca1u" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n17_osvm" name="layout_hall_title" src="osvmee" pkg="la8oslyo" xy="16,21">
+      <relation target="" sidePair="top-top,left-left"/>
+    </component>
+    <component id="n2_aks0" name="sub_game_list" src="osvm13" xy="1,66" pivot="0.5,0.5">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <gearXY controller="gamePageC" default="1,66"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n21_b3ca" name="game_sub_list" src="b3ca1w" xy="-3,0">
+      <gearDisplay controller="gamePageC" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n18_osvm" name="layout_btns" src="osvmef" pkg="la8oslyo" xy="0,75" size="1600,900" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n19_b3ca" name="n19" src="b3ca1t" xy="1303,31">
+      <relation target="" sidePair="top-top,right-right"/>
+    </image>
+  </displayList>
+</component>

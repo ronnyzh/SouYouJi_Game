@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wpa3vk7v" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="jlz31b" name="挂件 .png" path="/选场次/"/>
+    <component id="jlz31g" name="GateButton.xml" path="/"/>
+    <component id="jlz31h" name="GateButton2.xml" path="/"/>
+    <component id="jlz31j" name="BtnSubGame.xml" path="/"/>
+    <image id="jlz31k" name="club_bt_return.png" path="/选场次/"/>
+    <image id="jlz31l" name="头像-边.png" path="/platform_lobby/"/>
+    <image id="jlz31m" name="头像.png" path="/platform_lobby/"/>
+    <image id="jlz31n" name="头像-框.png" path="/platform_lobby/"/>
+    <component id="jlz31o" name="Heads.xml" path="/"/>
+    <component id="p7lx1p" name="Component14.xml" path="/"/>
+    <image id="p7lx1t" name="金币.png" path="/platform_lobby/"/>
+    <image id="p7lx1u" name="顶栏.png" path="/platform_lobby/" scale="9grid" scale9grid="6,25,12,50"/>
+    <image id="p7lx1v" name="文字底框.png" path="/platform_lobby/" scale="9grid" scale9grid="17,10,34,20"/>
+    <image id="p7lx1x" name="底栏2.png" path="/platform_lobby/" scale="9grid" scale9grid="0,0,29,38"/>
+    <image id="p7lx1y" name="设置.png" path="/platform_lobby/"/>
+    <image id="n7np23" name="loading_0.png" path="/loading圈圈缩小后/"/>
+    <image id="n7np24" name="loading_1.png" path="/loading圈圈缩小后/"/>
+    <image id="beyf3a" name="hallBg.jpg" path="/"/>
+    <image id="c4mg3b" name="玩法.png" path="/选场次/"/>
+    <image id="uy9c3c" name="0欢迎页.jpg" path="/1.12版本新皮美术资源/"/>
+    <image id="uy9c3d" name="1主界面--2.jpg" path="/1.12版本新皮美术资源/"/>
+    <image id="uy9c3e" name="2二级界面-2.jpg" path="/1.12版本新皮美术资源/"/>
+    <image id="uy9c3f" name="3玩法.jpg" path="/1.12版本新皮美术资源/"/>
+    <image id="uy9c3g" name="1未选中.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3h" name="1选中.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3i" name="2-1新手.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3j" name="2-2普通.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3k" name="2-3中级.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3l" name="2-4高级.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3m" name="主界面-弹窗换色.jpg" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3n" name="二级界面.jpg" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3o" name="入场人数图标.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c3p" name="0.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3q" name="1.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3r" name="2.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3s" name="3.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3t" name="4.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3u" name="5.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3v" name="6.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3w" name="7.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3x" name="8.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c3y" name="9.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="uy9c40" name="名称外框.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c41" name="三.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c42" name="中.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c43" name="主.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c44" name="乐.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c45" name="公.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c46" name="典.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c47" name="到.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c48" name="十.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c49" name="地.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4a" name="大.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4b" name="将.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4c" name="底.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4d" name="得.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4e" name="快.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4f" name="成.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4g" name="战.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4h" name="拼.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4i" name="斗.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4j" name="明.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4k" name="欢.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4l" name="水.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4m" name="河.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4n" name="流.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4o" name="炸.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4p" name="点.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4q" name="牌.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4r" name="牛.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4s" name="红.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4t" name="经.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4u" name="胡.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4v" name="花.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4w" name="血.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4x" name="跑.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4y" name="金.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c4z" name="鸡.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c50" name="麻.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="uy9c51" name="快速开始.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c52" name="挂件-免费体验.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c53" name="返回.png" path="/1.12版本新皮美术资源/二级/"/>
+    <image id="uy9c54" name="数字-0.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c55" name="数字-1.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c56" name="数字-2.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c57" name="数字-3.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c58" name="数字-4.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c59" name="数字-5.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c5a" name="数字-6.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c5b" name="数字-7.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c5c" name="数字-8.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c5d" name="数字-9.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="uy9c5e" name="icon-三公-.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5f" name="icon-十三水-.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5g" name="icon-斗地主.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5h" name="icon-明牌牛牛-.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5i" name="icon-欢乐拼点-.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5j" name="icon-欢乐牛牛.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5k" name="icon-炸金花.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5l" name="icon-红中麻将.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5m" name="icon-经典牛牛.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5n" name="icon-血战麻将.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5o" name="icon-血流麻将.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5p" name="icon-跑得快.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5q" name="icon-鸡大胡-.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="uy9c5r" name="lobby-bg.jpg" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c5s" name="x-战绩.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c5t" name="x-玩法.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c5u" name="x-设置.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c5v" name="公告-喇叭.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c5w" name="公告-底.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c5x" name="只看标注信息.jpg" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c5y" name="头像.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c5z" name="头像名称底.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c60" name="头像框.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c61" name="小logo365棋牌.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c62" name="帘-1.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c63" name="帘-2.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c64" name="广告框-比赛场.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c65" name="广告框.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c66" name="广告框遮罩.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c67" name="底框.png" path="/1.12版本新皮美术资源/大厅/" scale="9grid" scale9grid="334,8,459,16"/>
+    <image id="uy9c68" name="暂未开放.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c69" name="金币.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c6a" name="金币框.png" path="/1.12版本新皮美术资源/大厅/" scale="9grid" scale9grid="45,0,90,48"/>
+    <image id="uy9c6b" name="顶框.png" path="/1.12版本新皮美术资源/大厅/" scale="9grid" scale9grid="373,0,178,80"/>
+    <image id="uy9c6c" name="3继续游戏.png" path="/1.12版本新皮美术资源/小游戏/"/>
+    <image id="uy9c6d" name="框-小.png" path="/1.12版本新皮美术资源/小游戏/"/>
+    <image id="uy9c6e" name="其实就是框换个颜色.png" path="/1.12版本新皮美术资源/战绩/"/>
+    <image id="uy9c6f" name="列表底.png" path="/1.12版本新皮美术资源/战绩/"/>
+    <image id="uy9c6g" name="战绩.png" path="/1.12版本新皮美术资源/战绩/"/>
+    <image id="uy9c6h" name="标题栏.png" path="/1.12版本新皮美术资源/战绩/"/>
+    <image id="uy9c6i" name="框-大.png" path="/1.12版本新皮美术资源/战绩/"/>
+    <image id="uy9c6k" name="2.png" path="/1.12版本新皮美术资源/玩法/"/>
+    <image id="uy9c6l" name="深色底.png" path="/1.12版本新皮美术资源/玩法/"/>
+    <image id="uy9c6m" name="玩法.png" path="/1.12版本新皮美术资源/玩法/"/>
+    <image id="uy9c6n" name="红中玩法.png" path="/1.12版本新皮美术资源/玩法/"/>
+    <image id="uy9c6o" name="tuichu.png" path="/1.12版本新皮美术资源/设置/"/>
+    <image id="uy9c6p" name="只看标注信息.jpg" path="/1.12版本新皮美术资源/设置/"/>
+    <image id="uy9c6q" name="拖动点.png" path="/1.12版本新皮美术资源/设置/"/>
+    <image id="uy9c6r" name="设置.png" path="/1.12版本新皮美术资源/设置/"/>
+    <image id="uy9c6s" name="进度 .png" path="/1.12版本新皮美术资源/设置/"/>
+    <image id="uy9c6t" name="进度底.png" path="/1.12版本新皮美术资源/设置/"/>
+    <component id="uy9c6u" name="HallPage2.xml" path="/" exported="true"/>
+    <image id="uy9c6v" name="mini.jpg" path="/"/>
+    <image id="uy9c6w" name="底栏渐变.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="uy9c6x" name="广告位 -z.png" path="/1.12版本新皮美术资源/"/>
+    <font id="uy9c6y" name="FontGameName.fnt" path="/1.12版本新皮美术资源/二级/字/" exported="true"/>
+    <component id="uy9c6z" name="GateButton3.xml" path="/"/>
+    <font id="uy9c70" name="Font1.fnt" path="/1.12版本新皮美术资源/二级/选关底分数字/" exported="true"/>
+    <font id="uy9c71" name="Font2.fnt" path="/1.12版本新皮美术资源/二级/入场人数数字/" exported="true"/>
+    <image id="itmi72" name="金币(1).png" path="/platform_lobby/"/>
+    <image id="itmi73" name="顶框.png" path="/platform_lobby/"/>
+    <image id="l1cy74" name="1-1.png" path="/选场次/"/>
+    <image id="l1cy75" name="1-2.png" path="/选场次/"/>
+    <image id="l1cy76" name="1-3.png" path="/选场次/"/>
+    <image id="l1cy77" name="1-4.png" path="/选场次/"/>
+    <image id="l1cy78" name="1-5.png" path="/选场次/"/>
+    <image id="l1cy79" name="icon-百家乐.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <component id="p9j77a" name="GateSubList.xml" path="/"/>
+    <image id="l2h87b" name="_0000_大鱼吃小鱼.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="l2h87c" name="_0001_射龙门.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="l2h87d" name="_0002_钻石迷城.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="l2h87e" name="_0003_水果机.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="l2h87f" name="_0004_LUCKY5.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="l2h87g" name="_0005_森林舞会.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="l2h87h" name="_0006_捕鱼天下2.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="l2h87i" name="_0007_金鲨银鲨.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="l2h87j" name="_0008_奔驰宝马-.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="10hut7k" name="icon-广东麻将.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="10hut7l" name="1.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="10hut7m" name="2.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="10hut7n" name="决.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="10hut7o" name="数字_逗号.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="10hut7q" name="入场人数图标.png" path="/1.12版本新皮美术资源/"/>
+    <image id="h5zqt7r" name="入场限制图标2.png" path="/1.12版本新皮美术资源/二级/入场人数数字/"/>
+    <image id="xmw9t7s" name="家.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="xmw9t7t" name="百.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="ns3xt7u" name="东.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="ns3xt7v" name="广.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="ngy0t7w" name="过光_00001.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t7x" name="过光_00002.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t7y" name="过光_00003.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t7z" name="过光_00004.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t80" name="过光_00005.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t81" name="过光_00006.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t82" name="过光_00007.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t83" name="过光_00008.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t84" name="过光_00009.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t85" name="过光_00010.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t86" name="过光_00011.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t87" name="过光_00012.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t88" name="过光_00013.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <image id="ngy0t89" name="过光_00014.png" path="/1.12版本新皮美术资源/二级/过光/"/>
+    <movieclip id="ngy0t8a" name="flash.jta" path="/1.12版本新皮美术资源/二级/"/>
+    <component id="d1snt8c" name="StarParticleSkew.xml" path="/"/>
+    <image id="d1snt8d" name="particle_star.png" path="/1.12版本新皮美术资源/"/>
+    <component id="d1snt8e" name="pointLight.xml" path="/"/>
+    <image id="d1snt8f" name="闪光.png" path="/1.12版本新皮美术资源/"/>
+    <component id="d1snt8g" name="pointLight(1).xml" path="/"/>
+    <component id="d1snt8h" name="pointLight(2).xml" path="/"/>
+    <component id="d1snt8i" name="pointLight(3).xml" path="/"/>
+    <component id="d1snt8j" name="pointLight(4).xml" path="/"/>
+    <component id="d1snt8k" name="AdBoard.xml" path="/"/>
+    <image id="d1snt8l" name="spark.png" path="/1.12版本新皮美术资源/"/>
+    <component id="d1snt8m" name="starMoveAnima.xml" path="/"/>
+    <image id="dklnt8n" name="particle_star_rect.png" path="/1.12版本新皮美术资源/"/>
+    <component id="ns5vt8o" name="starMoveAnima(1).xml" path="/"/>
+    <component id="ns5vt8p" name="starMoveAnima(2).xml" path="/"/>
+    <component id="ns5vt8q" name="starMoveAnima(3).xml" path="/"/>
+    <component id="ns5vt8r" name="starMoveAnima(4).xml" path="/"/>
+    <image id="jxyyt8s" name="光1.png" path="/1.12版本新皮美术资源/"/>
+    <image id="jxyyt8t" name="光2.png" path="/1.12版本新皮美术资源/"/>
+    <component id="jxyyt8u" name="Spotlight.xml" path="/"/>
+    <component id="qi2at8v" name="AdBoardTest.xml" path="/"/>
+    <image id="mrq2t8w" name="分页未选中.png" path="/1.12版本新皮美术资源/"/>
+    <image id="mrq2t8x" name="分页选中.png" path="/1.12版本新皮美术资源/"/>
+    <image id="pe7et8y" name="庄.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="pe7et8z" name="抢.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="e9ist90" name="数字-.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="e9ist91" name="icon-二人麻将.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="e9ist92" name="icon-德州扑克.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="g1odt93" name="二.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="g1odt94" name="人.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="f5tnt95" name="0-1-1.png" path="/选场次/"/>
+    <image id="f5tnt96" name="0-1-2.png" path="/选场次/"/>
+    <image id="f5tnt97" name="0-1-3.png" path="/选场次/"/>
+    <image id="f5tnt98" name="0-1-4.png" path="/选场次/"/>
+    <image id="f5tnt99" name="0-1-5.png" path="/选场次/"/>
+    <image id="itv6t9a" name="HOT.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="wjjqt9b" name="HOT3.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="wjjqt9c" name="克.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="wjjqt9d" name="州.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="wjjqt9e" name="德.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="wjjqt9f" name="扑.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="wjjqt9g" name="爆.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="k85tt9h" name="_.png" path="/1.12版本新皮美术资源/二级/选关底分数字/"/>
+    <image id="k85tt9i" name="[.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="k85tt9j" name="].png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="r0bet9k" name="，.png" path="/1.12版本新皮美术资源/二级/入场人数数字/入场人数数字/"/>
+    <image id="latnt9l" name="icon-爆点百家乐.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="tsa6t9m" name="+.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="tsa6t9n" name="icon-二人斗地主.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <component id="tsa6t9o" name="PopTakeMoneyWindow.xml" path="/"/>
+    <image id="pfm9ne" name="高  级.png" path="/waybill/images/场次/"/>
+    <image id="pfm9nf" name="高级.png" path="/waybill/images/场次/"/>
+    <image id="pfm9nj" name="普  通.png" path="/waybill/images/场次/"/>
+    <image id="pfm9nk" name="普通.png" path="/waybill/images/场次/"/>
+    <image id="pfm9nl" name="土  豪.png" path="/waybill/images/场次/"/>
+    <image id="pfm9nm" name="土豪.png" path="/waybill/images/场次/"/>
+    <image id="pfm9ns" name="新  手.png" path="/waybill/images/场次/"/>
+    <image id="pfm9nt" name="新手.png" path="/waybill/images/场次/"/>
+    <image id="pfm9ny" name="中  级.png" path="/waybill/images/场次/"/>
+    <image id="pfm9nz" name="中级.png" path="/waybill/images/场次/"/>
+    <image id="pfm9n7" name="按钮.png" path="/waybill/images/"/>
+    <image id="pfm9n8" name="表格-暗.png" path="/waybill/images/"/>
+    <image id="pfm9n9" name="表格-背景底.png" path="/waybill/images/"/>
+    <image id="pfm9na" name="表格-分割线.png" path="/waybill/images/"/>
+    <image id="pfm9nb" name="表格-分割线2.png" path="/waybill/images/"/>
+    <image id="pfm9nc" name="表格-亮.png" path="/waybill/images/" scale="tile"/>
+    <image id="pfm9nd" name="表头.png" path="/waybill/images/" scale="9grid" scale9grid="18,8,36,16"/>
+    <image id="pfm9ng" name="挂件-免费体验.png" path="/waybill/images/"/>
+    <image id="pfm9nh" name="和.png" path="/waybill/images/"/>
+    <image id="pfm9ni" name="和-2.png" path="/waybill/images/"/>
+    <image id="pfm9nn" name="未选中场次.png" path="/waybill/images/"/>
+    <image id="pfm9no" name="未选中-底分.png" path="/waybill/images/"/>
+    <image id="pfm9np" name="未选中人数 .png" path="/waybill/images/"/>
+    <image id="pfm9nq" name="未选中-入场限制.png" path="/waybill/images/"/>
+    <image id="pfm9nr" name="闲赢.png" path="/waybill/images/"/>
+    <image id="pfm9nu" name="选中场次.png" path="/waybill/images/"/>
+    <image id="pfm9nv" name="选中-底分.png" path="/waybill/images/"/>
+    <image id="pfm9nw" name="选中人数.png" path="/waybill/images/"/>
+    <image id="pfm9nx" name="选中-入场限制.png" path="/waybill/images/"/>
+    <image id="pfm9o0" name="庄赢.png" path="/waybill/images/"/>
+    <image id="pfm9o1" name="左侧选项底.png" path="/waybill/images/"/>
+    <image id="pfm9om" name="返回.png" path="/waybill/images/"/>
+    <image id="rrzjp2" name="0.png" path="/waybill/和数字/"/>
+    <image id="rrzjp3" name="1.png" path="/waybill/和数字/"/>
+    <image id="rrzjp4" name="2.png" path="/waybill/和数字/"/>
+    <image id="rrzjp5" name="3.png" path="/waybill/和数字/"/>
+    <image id="rrzjp6" name="5.png" path="/waybill/和数字/"/>
+    <image id="rrzjp7" name="6.png" path="/waybill/和数字/"/>
+    <image id="rrzjp8" name="7.png" path="/waybill/和数字/"/>
+    <image id="rrzjp9" name="8.png" path="/waybill/和数字/"/>
+    <image id="rrzjpa" name="4.png" path="/waybill/和数字/"/>
+    <image id="rrzjpb" name="9.png" path="/waybill/和数字/"/>
+    <image id="pfm9o2" name="未选中-0.png" path="/waybill/数字/"/>
+    <image id="pfm9o3" name="未选中-1.png" path="/waybill/数字/"/>
+    <image id="pfm9o4" name="未选中-2.png" path="/waybill/数字/"/>
+    <image id="pfm9o5" name="未选中-3.png" path="/waybill/数字/"/>
+    <image id="pfm9o6" name="未选中-4.png" path="/waybill/数字/"/>
+    <image id="pfm9o7" name="未选中-5.png" path="/waybill/数字/"/>
+    <image id="pfm9o8" name="未选中-6.png" path="/waybill/数字/"/>
+    <image id="pfm9o9" name="未选中-7.png" path="/waybill/数字/"/>
+    <image id="pfm9oa" name="未选中-8.png" path="/waybill/数字/"/>
+    <image id="pfm9ob" name="未选中-9.png" path="/waybill/数字/"/>
+    <image id="pfm9oc" name="选中-0.png" path="/waybill/数字/"/>
+    <image id="pfm9od" name="选中-1.png" path="/waybill/数字/"/>
+    <image id="pfm9oe" name="选中-2.png" path="/waybill/数字/"/>
+    <image id="pfm9of" name="选中-3.png" path="/waybill/数字/"/>
+    <image id="pfm9og" name="选中-4.png" path="/waybill/数字/"/>
+    <image id="pfm9oh" name="选中-5.png" path="/waybill/数字/"/>
+    <image id="pfm9oi" name="选中-6.png" path="/waybill/数字/"/>
+    <image id="pfm9oj" name="选中-7.png" path="/waybill/数字/"/>
+    <image id="pfm9ok" name="选中-8.png" path="/waybill/数字/"/>
+    <image id="pfm9ol" name="选中-9.png" path="/waybill/数字/"/>
+    <font id="rrzjp0" name="深蓝数字.fnt" path="/waybill/数字/" exported="true"/>
+    <font id="rrzjp1" name="白色数字.fnt" path="/waybill/数字/" exported="true"/>
+    <component id="pfm9n5" name="WayBill-原版.xml" path="/waybill/"/>
+    <component id="siyzop" name="返回按钮.xml" path="/waybill/"/>
+    <component id="v54how" name="subBox-原版.xml" path="/waybill/"/>
+    <component id="v54hox" name="waybillMain.xml" path="/waybill/"/>
+    <component id="v54hoy" name="Item.xml" path="/waybill/"/>
+    <component id="v54hoz" name="进入游戏按钮.xml" path="/waybill/"/>
+    <component id="l1l1pc" name="单选按钮.xml" path="/waybill/"/>
+    <component id="l1l1pd" name="场次选择新.xml" path="/waybill/"/>
+    <image id="l1l1pe" name="未选中-..png" path="/waybill/数字/"/>
+    <image id="l1l1pf" name="选中-..png" path="/waybill/数字/"/>
+    <component id="esgtpg" name="Item(1).xml" path="/waybill/"/>
+    <component id="esgtpj" name="路单Item.xml" path="/waybill/"/>
+    <image id="rnewpq" name="中  级1.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewpr" name="中级.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewps" name="土  豪1.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewpt" name="土豪.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewpu" name="按钮.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewpv" name="普  通1.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewpw" name="普通.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewpx" name="未选中场次.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewpy" name="选中场次.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewpz" name="高  级1.png" path="/waybill/单选按钮新图/"/>
+    <image id="rnewq0" name="高级.png" path="/waybill/单选按钮新图/"/>
+    <component id="rnewq1" name="单选按钮-新手场版.xml" path="/waybill/"/>
+    <image id="rnewq3" name="路框背景.png" path="/waybill/新格子/"/>
+    <image id="rnewq5" name="表格-背景底.png" path="/waybill/新格子/"/>
+    <image id="rnewq6" name="最新版小格子.png" path="/waybill/新格子/" scale="tile"/>
+    <image id="orzpq7" name="底背.png" path="/waybill/新格子/" scale="9grid" scale9grid="8,135,16,270"/>
+    <image id="orzpq9" name="选中场次2.png" path="/waybill/单选按钮新图/"/>
+    <image id="v5nsqa" name="未选中场次2.png" path="/waybill/单选按钮新图/"/>
+    <component id="d69rqd" name="路单Item-放大版.xml" path="/waybill/路单放大版/"/>
+    <image id="d69rqe" name="表格_暗1(2).png" path="/waybill/新格子/" scale="9grid" scale9grid="5,5,10,10"/>
+    <component id="d69rqg" name="waybillMain-放大版.xml" path="/waybill/路单放大版/"/>
+    <component id="d69rqh" name="场次选择新-放大版.xml" path="/waybill/路单放大版/"/>
+    <component id="d69rqi" name="WayBill.xml" path="/waybill/路单放大版/" exported="true"/>
+    <component id="d69rql" name="单选按钮-放大版.xml" path="/waybill/路单放大版/"/>
+    <component id="d69rqs" name="subBox.xml" path="/waybill/路单放大版/" exported="true"/>
+    <image id="d69rqu" name="小格35-27-黄.png" path="/waybill/路单放大版/放大版用图/" scale="tile"/>
+    <component id="d69rqv" name="进入游戏按钮-放大版.xml" path="/waybill/路单放大版/"/>
+    <component id="d69rqy" name="subBoxLayout.xml" path="/waybill/路单放大版/"/>
+    <image id="qdrhqz" name="和赢-圈.png" path="/waybill/images/"/>
+    <image id="kxsqt9p" name="返回.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="kxsqt9q" name="x-返回.png" path="/1.12版本新皮美术资源/大厅/"/>
+    <image id="e2ext9y" name="icon-通比牛牛.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+    <image id="e2ext9z" name="比.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="e2exta0" name="通.png" path="/1.12版本新皮美术资源/二级/字/"/>
+    <image id="jtmsta1" name="icon-通比三公.png" path="/1.12版本新皮美术资源/大厅/" exported="true"/>
+  </resources>
+  <publish name="Hall"/>
+</packageDescription>

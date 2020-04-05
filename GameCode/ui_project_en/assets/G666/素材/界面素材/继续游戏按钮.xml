@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,105" overflow="hidden" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="wm2e2v" fileName="GBP_Img/Table/继续游戏.png" pkg="rjf5583x" xy="-21,-21" size="332,132">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button sound="ui://nwo0j1cxrljf9n" downEffect="scale" downEffectValue="0.95"/>
+</component>

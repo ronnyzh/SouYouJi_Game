@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://dung4bqcjntsy8c" designImageAlpha="100" adaptationTest="FitSize">
+  <displayList>
+    <text id="n8_osvm" name="room_no" xy="7,13" size="38,24" group="n9_osvm" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" autoClearText="true" text="房号 "/>
+    <group id="n9_osvm" name="info" xy="7,13" size="36,24" advanced="true" collapsed="true">
+      <relation target="" sidePair="top-top,left-left"/>
+      <relation target="" sidePair=""/>
+    </group>
+    <image id="n209_xzxt" name="n209" src="b7m0y84" fileName="style0/other/炸金花水印2.png" xy="666,357" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n208_xzxt" name="tfRoomDesc" xy="378,208" pivot="0.5,0" size="578,43" visible="false" font="ui://qn9mtfu5gtil49" fontSize="28" color="#333333" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="金币场">
+      <relation target="n209_xzxt" sidePair="center-center,top-bottom"/>
+    </text>
+    <image id="n157_yjzs" name="n157" src="is4d2u" fileName="style0/other/con_room_info.png" xy="421,17" size="492,55" group="n158_yjzs"/>
+    <text id="n201_j7n2" name="tfDanzhu0" xy="439,19" size="142,52" group="n158_yjzs" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" autoClearText="true" text="Single bet:&#xA;1">
+      <relation target="n157_yjzs" sidePair="middle-middle"/>
+    </text>
+    <text id="n203_j7n2" name="tfDanzhu2" xy="763,19" size="147,52" group="n158_yjzs" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" autoClearText="true" text="No. of rounds:&#xA;1/20">
+      <relation target="n157_yjzs" sidePair="middle-middle"/>
+    </text>
+    <text id="n204_j7n2" name="tfDanzhu1" xy="600,19" size="142,52" group="n158_yjzs" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" autoClearText="true" text="Total bet:&#xA;5">
+      <relation target="n157_yjzs" sidePair="middle-middle"/>
+    </text>
+    <group id="n158_yjzs" name="roomInfo" xy="421,17" size="492,55" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <graph id="n192_zbq1" name="pkMaskbg" xy="-100,-30" size="1534,810" group="n206_ithq" locked="true" touchable="false" type="rect" lineSize="0" fillColor="#99000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n207_ithq" name="n207" xy="281,86" size="772,40" group="n206_ithq" locked="true" fontSize="32" color="#ffff00" singleLine="true" text="Click on the player's avatar to make him your opponent"/>
+    <group id="n206_ithq" name="pkMask0" xy="-100,-30" size="1534,810" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <graph id="n196_p1fs" name="chipLayout" xy="0,0" size="1334,750" group="n197_p1fs" touchable="false" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <group id="n197_p1fs" name="chipGroup" xy="0,0" size="1334,750" hideByEditor="true" advanced="true" collapsed="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n128_j4bi" name="hand_pokers" src="yjzs35" fileName="handwall.xml" xy="924,389" group="n136_j4bi" visible="false" controller="c1,0,c2,0"/>
+    <component id="n130_j4bi" name="seat" src="nm6vy8c" fileName="Seat3.xml" xy="1135,350" group="n136_j4bi" visible="false" controller="turn,0"/>
+    <image id="n131_j4bi" name="tagReady" src="is4d26" fileName="style0/icon/tag_ready.png" xy="970,351" group="n136_j4bi" hideByEditor="true" aspect="true" visible="false"/>
+    <component id="n165_yjzs" name="operationTalk" src="yjzs38" fileName="operationTalk.xml" xy="980,333" group="n136_j4bi" visible="false" controller="TalkController,3">
+      <relation target="" sidePair="right-left"/>
+    </component>
+    <image id="n133_j4bi" name="img_cd_bg" src="q7l5g" fileName="style0/other/img_cd_bg.png" xy="1126,345" group="n135_j4bi"/>
+    <text id="n134_j4bi" name="tf_countdown" xy="1113,349" size="71,39" group="n135_j4bi" font="ui://dung4bqckzniy83" fontSize="26" color="#333333" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" text="99"/>
+    <group id="n135_j4bi" name="countdown" xy="1112,344" size="71,48" group="n136_j4bi" visible="false" advanced="true" collapsed="true"/>
+    <group id="n136_j4bi" name="playerCon1" xy="869,333" size="382,189" advanced="true">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </group>
+    <component id="n68_tx3y" name="hand_pokers" src="yjzs35" fileName="handwall.xml" xy="848,140" group="n100_tx3y" visible="false" controller="c1,0,c2,0"/>
+    <component id="n12_osvm" name="seat" src="nm6vy8c" fileName="Seat3.xml" xy="1058,89" group="n100_tx3y" visible="false" controller="turn,0"/>
+    <image id="n44_sbou" name="tagReady" src="is4d26" fileName="style0/icon/tag_ready.png" xy="876,104" group="n100_tx3y" hideByEditor="true" aspect="true" visible="false"/>
+    <component id="n166_yjzs" name="operationTalk" src="yjzs38" fileName="operationTalk.xml" xy="895,74" group="n100_tx3y" visible="false" controller="TalkController,3">
+      <relation target="" sidePair="right-left"/>
+    </component>
+    <image id="n102_tx3y" name="img_cd_bg" src="q7l5g" fileName="style0/other/img_cd_bg.png" xy="1044,89" group="n104_tx3y"/>
+    <text id="n103_tx3y" name="tf_countdown" xy="1030,93" size="73,39" group="n104_tx3y" font="ui://dung4bqckzniy83" fontSize="26" color="#333333" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" text="99"/>
+    <group id="n104_tx3y" name="countdown" xy="1030,89" size="73,48" group="n100_tx3y" visible="false" advanced="true" collapsed="true"/>
+    <group id="n100_tx3y" name="playerCon2" xy="790,74" size="384,206" advanced="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </group>
+    <component id="n59_tx3y" name="hand_pokers" src="yjzs35" fileName="handwall.xml" xy="213,151" group="n55_sbou" visible="false" controller="c1,0,c2,0"/>
+    <component id="n37_mexi" name="seat" src="nm6vy8c" fileName="Seat3.xml" xy="85,91" group="n55_sbou" visible="false" controller="turn,0"/>
+    <image id="n42_sbou" name="tagReady" src="is4d26" fileName="style0/icon/tag_ready.png" xy="220,103" group="n55_sbou" hideByEditor="true" aspect="true" visible="false"/>
+    <component id="n167_yjzs" name="operationTalk" src="yjzs38" fileName="operationTalk.xml" xy="182,75" group="n55_sbou" visible="false" controller="TalkController,3"/>
+    <image id="n105_tx3y" name="img_cd_bg" src="q7l5g" fileName="style0/other/img_cd_bg.png" xy="168,84" size="47,48" group="n107_tx3y"/>
+    <text id="n106_tx3y" name="tf_countdown" xy="161,88" size="61,39" group="n107_tx3y" font="ui://dung4bqckzniy83" fontSize="26" color="#333333" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" text="99"/>
+    <group id="n107_tx3y" name="countdown" xy="161,84" size="61,48" group="n55_sbou" visible="false" advanced="true" collapsed="true"/>
+    <group id="n55_sbou" name="playerCon3" xy="64,15" size="353,266" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n137_j4bi" name="hand_pokers" src="yjzs35" fileName="handwall.xml" xy="167,372" group="n145_j4bi" visible="false" controller="c1,0,c2,0"/>
+    <component id="n139_j4bi" name="seat" src="nm6vy8c" fileName="Seat3.xml" xy="38,328" group="n145_j4bi" visible="false" controller="turn,0"/>
+    <image id="n140_j4bi" name="tagReady" src="is4d26" fileName="style0/icon/tag_ready.png" xy="161,326" group="n145_j4bi" hideByEditor="true" aspect="true" visible="false"/>
+    <component id="n168_yjzs" name="operationTalk" src="yjzs38" fileName="operationTalk.xml" xy="133,317" group="n145_j4bi" visible="false" controller="TalkController,3"/>
+    <image id="n142_j4bi" name="img_cd_bg" src="q7l5g" fileName="style0/other/img_cd_bg.png" xy="118,323" group="n144_j4bi"/>
+    <text id="n143_j4bi" name="tf_countdown" xy="106,327" size="69,39" group="n144_j4bi" font="ui://dung4bqckzniy83" fontSize="26" color="#333333" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" text="99"/>
+    <group id="n144_j4bi" name="countdown" xy="106,323" size="69,48" group="n145_j4bi" visible="false" advanced="true" collapsed="true"/>
+    <group id="n145_j4bi" name="playerCon4" xy="38,314" size="329,172" advanced="true">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </group>
+    <component id="n10_osvm" name="seat" src="nm6vy8c" fileName="Seat3.xml" xy="37,551" group="n101_tx3y" visible="false" controller="turn,0"/>
+    <component id="n164_yjzs" name="operationTalk" src="yjzs38" fileName="operationTalk.xml" xy="125,537" group="n101_tx3y" visible="false" controller="TalkController,3"/>
+    <image id="n43_sbou" name="tagReady" src="is4d26" fileName="style0/icon/tag_ready.png" xy="189,569" group="n101_tx3y" hideByEditor="true" aspect="true" visible="false"/>
+    <image id="n91_tx3y" name="img_cd_bg" src="q7l5g" fileName="style0/other/img_cd_bg.png" xy="117,546" group="n92_tx3y"/>
+    <text id="n93_tx3y" name="tf_countdown" xy="109,550" size="62,39" group="n92_tx3y" font="ui://dung4bqckzniy83" fontSize="26" color="#333333" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" text="99"/>
+    <group id="n92_tx3y" name="countdown" xy="109,546" size="62,48" group="n101_tx3y" visible="false" advanced="true" collapsed="true"/>
+    <group id="n101_tx3y" name="playerCon0" xy="11,477" size="322,225" advanced="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </group>
+    <component id="n212_p71q" name="timer" src="gdu57l" fileName="timer.xml" pkg="rjf5583x" xy="666,281" pivot="0.5,0.5" anchor="true" size="159,160" visible="false" controller="isShowBG,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n17_h21o" name="operation" src="q7l5m" fileName="Operation.xml" xy="0,0" size="1334,750" locked="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="height-height,width-width"/>
+    </component>
+    <component id="n115_ogno" name="balanceView" src="q7l510" fileName="BalanceView.xml" xy="0,0" size="1334,750" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n6_osvm" name="btn_msg" src="fz5k3e" fileName="ScaleButton.xml" xy="1102,607" size="81,81" group="n121_ogno" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://la8oslyoosvmax"/>
+    </component>
+    <component id="n33_kvb5" name="btn_setting" src="fz5k3e" fileName="ScaleButton.xml" xy="1103,608" size="81,81" group="n121_ogno" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://la8oslyoosvmaz"/>
+    </component>
+    <component id="n32_kvb5" name="btn_exit" src="fz5k3e" fileName="ScaleButton.xml" xy="1102,607" size="81,81" group="n121_ogno" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://la8oslyoosvmay"/>
+    </component>
+    <component id="n124_djq9" name="btn_change" src="fz5k3e" fileName="ScaleButton.xml" xy="1102,607" size="81,81" group="n121_ogno" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://dung4bqcq7l5w"/>
+    </component>
+    <component id="n34_kvb5" name="btn_chat" src="fz5k3e" fileName="ScaleButton.xml" xy="1227,571" size="81,81" group="n121_ogno" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://la8oslyoosvmb0"/>
+    </component>
+    <component id="n169_yjzs" name="btn_trusteeship_close" src="q7l5n" fileName="component/BtnNormal.xml" xy="1019,607" group="n121_ogno" visible="false" filter="color" filterData="0.00,0.00,0.00,0.80">
+      <Button icon="ui://dung4bqcyjzs3a"/>
+    </component>
+    <component id="n170_yjzs" name="btn_trusteeship" src="q7l5n" fileName="component/BtnNormal.xml" xy="1019,607" group="n121_ogno" visible="false">
+      <Button icon="ui://dung4bqcyjzs3b"/>
+    </component>
+    <component id="n200_yoto" name="btn_rule" src="yoto4f" fileName="component/BtnNormal(1).xml" xy="1157,7" size="80,80" group="n121_ogno" visible="false">
+      <Button icon="ui://dung4bqcyoto4g"/>
+    </component>
+    <group id="n121_ogno" name="buttons" xy="1019,7" size="289,700" hideByEditor="true" collapsed="true"/>
+    <component id="n71_tx3y" name="playerHandwall0" src="yjzs35" fileName="handwall.xml" xy="567,448" pivot="0.5,0.5" size="200,114" visible="false" controller="c1,0,c2,1">
+      <relation target="" sidePair="left-center,top-bottom"/>
+    </component>
+    <component id="n149_yjzs" name="tagBipai4" src="p1fs4e" fileName="tagBipai.xml" xy="45,303" group="n195_iufb" visible="false" alpha="0"/>
+    <component id="n150_yjzs" name="tagBipai2" src="p1fs4e" fileName="tagBipai.xml" xy="1049,90" group="n195_iufb" visible="false" alpha="0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n151_yjzs" name="tagBipai1" src="p1fs4e" fileName="tagBipai.xml" xy="1103,309" group="n195_iufb" visible="false" alpha="0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n148_yjzs" name="tagBipai3" src="p1fs4e" fileName="tagBipai.xml" xy="94,69" group="n195_iufb" visible="false" alpha="0"/>
+    <group id="n195_iufb" name="conBipai" xy="45,69" size="1265,447" hideByEditor="true" collapsed="true"/>
+    <component id="n194_iufb" name="btnReady" src="q7l5n" fileName="component/BtnNormal.xml" xy="542,641" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button icon="ui://dung4bqciufb4d"/>
+    </component>
+    <image id="n153_yjzs" name="n153" src="is4d2s" fileName="style0/other/con_head_gold_count.png" xy="409,171" size="515,115" group="n155_yjzs"/>
+    <text id="n154_yjzs" name="tf_tlt_text" xy="420,179" size="494,99" group="n155_yjzs" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="这是桌面提示这是桌面提示这是桌面提示这是桌面提示这是桌面提这是桌面提&#xA;这是桌面提&#xA;"/>
+    <group id="n155_yjzs" name="tableTips" xy="409,171" size="515,115" hideByEditor="true" visible="false" advanced="true" collapsed="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <graph id="n171_fz5k" name="n171" xy="2,0" size="1334,750" group="n172_fz5k" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#66000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n181_fz5k" name="n181" src="is4d30" fileName="style0/pk/con_pk_player_bg.png" xy="-1126,266" size="1123,296" group="n172_fz5k">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n186_fz5k" name="seat0" src="nm6vy8c" fileName="Seat3.xml" xy="-363,324" group="n172_fz5k" touchable="false" controller="turn,0">
+      <relation target="n181_fz5k" sidePair="right-center,middle-middle"/>
+    </component>
+    <image id="n185_fz5k" name="n185" src="is4d30" fileName="style0/pk/con_pk_player_bg.png" xy="1337,219" size="1123,296" group="n172_fz5k" flip="both">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n182_fz5k" name="seat1" src="nm6vy8c" fileName="Seat3.xml" xy="1591,285" group="n172_fz5k" touchable="false" controller="turn,0">
+      <relation target="n185_fz5k" sidePair="left-center,middle-middle"/>
+    </component>
+    <movieclip id="n187_fz5k" name="boom" src="kzniy7s" fileName="style0/effect/boom2.jta" xy="495,-164" group="n172_fz5k" playing="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <image id="n175_fz5k" name="n175" src="is4d31" fileName="style0/pk/icon_pk_vs.png" xy="572,209" pivot="0.5,0.5" size="193,331" group="n172_fz5k" scale="1.1,1.1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <group id="n172_fz5k" name="conPK" xy="-1126,-164" size="3586,914" hideByEditor="true" visible="false" advanced="true"/>
+    <component id="n199_gmct" name="operationExit" src="ktw9k6" fileName="游戏内部按钮/UI_GameMenu.xml" pkg="la8oslyo" xy="0,0" size="1334,750" locked="true" controller="AutoCont,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n210_m4ip" name="chipPoi0" xy="426,194" size="0,0">
+      <relation target="" sidePair="left-left%,middle-middle%"/>
+    </graph>
+    <graph id="n211_m4ip" name="chipPoi1" xy="804,350" size="0,0">
+      <relation target="" sidePair="right-right%,middle-middle%"/>
+    </graph>
+  </displayList>
+  <transition name="showTileTips"/>
+  <transition name="showTableTips">
+    <item time="0" type="Alpha" target="n155_yjzs" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Visible" target="n155_yjzs" value="true"/>
+    <item time="0" type="XY" target="n155_yjzs" tween="true" startValue="-,270" endValue="518,171" duration="12"/>
+    <item time="72" type="Visible" target="n155_yjzs" value="false"/>
+    <item time="72" type="XY" target="n155_yjzs" value="518,171"/>
+  </transition>
+  <transition name="showOperation">
+    <item time="0" type="Visible" target="n17_h21o" value="true"/>
+  </transition>
+  <transition name="showPK">
+    <item time="0" type="Scale" target="n175_fz5k" value="0,0"/>
+    <item time="0" type="Sound" value="ui://dung4bqc103jy5d,100"/>
+    <item time="0" type="Visible" target="n172_fz5k" value="true"/>
+    <item time="0" type="Visible" target="n187_fz5k" value="false"/>
+    <item time="0" type="XY" target="n181_fz5k" tween="true" startValue="-1126,-" endValue="-412,-" duration="12" ease="Expo.In"/>
+    <item time="0" type="XY" target="n185_fz5k" tween="true" startValue="1337,-" endValue="630,-" duration="12" ease="Expo.In"/>
+    <item time="12" type="Scale" target="n175_fz5k" tween="true" startValue="0,0" endValue="1.1,1.1" duration="4" ease="Elastic.Out"/>
+    <item time="12" type="Sound" value="ui://xkprusr0j4bi26,100"/>
+    <item time="12" type="XY" target="n187_fz5k" label="BoomStart" value="-,-"/>
+    <item time="18" type="Animation" target="n187_fz5k" value="0,p"/>
+    <item time="18" type="Visible" target="n187_fz5k" value="true"/>
+    <item time="28" type="Animation" target="n187_fz5k" value="0,s"/>
+    <item time="28" type="Visible" target="n187_fz5k" value="false"/>
+    <item time="42" type="Visible" target="n172_fz5k" value="false"/>
+  </transition>
+</component>

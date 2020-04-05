@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="159,160">
+  <displayList>
+    <image id="n74_g9t7" name="n74" src="g9t74c" fileName="明牌牛牛/计时钟.png" xy="18,34"/>
+    <text id="n72_s4ce" name="title" xy="83,74" pivot="0.5,0.5" anchor="true" size="43,44" fontSize="34" align="center" vAlign="middle" bold="true" singleLine="true" text="00"/>
+  </displayList>
+</component>

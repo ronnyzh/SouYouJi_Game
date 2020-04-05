@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,36">
+  <controller name="c_timer" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8," selected="8"/>
+  <displayList>
+    <loader id="n1_pmql" name="n1" xy="9,4" size="168,27" locked="true" url="ui://wtkqufwmbu3dhg" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="c_timer" pages="1,2,3,4,5,6,7,8"/>
+      <gearXY controller="c_timer" pages="0,1,2,3,4,5,6,7,8" values="31,4|9,4|10,4|9,4|11,4|41,4|40,4|40,4|9,4"/>
+      <gearIcon controller="c_timer" pages="1,2,3,4,5,6,7,8" values="ui://wtkqufwmpxxrep|ui://wtkqufwmpxxreo|ui://wtkqufwmpxxren|ui://wtkqufwmpxxrer|ui://wtkqufwmpxxrem|ui://wtkqufwmf3lzga|ui://wtkqufwmf3lzgb|ui://wtkqufwmbu3dhg" default="ui://wtkqufwmpxxrem"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n2_pmql" name="n2" src="pxxreq" fileName="三人场用图/爆点百家乐UI/数字/秒.png" xy="215,4" locked="true">
+      <gearDisplay controller="c_timer" pages="1,2,3,4,8"/>
+      <gearXY controller="c_timer" pages="8" values="215,4" default="190,4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_pmql" name="Txt_count_down" xy="198,17" pivot="0.5,0.5" anchor="true" size="24,25" locked="true" font="ui://wtkqufwmpmqlex" fontSize="12" text="15">
+      <gearDisplay controller="c_timer" pages="1,2,3,4,8"/>
+      <gearXY controller="c_timer" pages="8" values="198,17" default="168,17"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

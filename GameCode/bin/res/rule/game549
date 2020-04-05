@@ -1,0 +1,507 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+			"itemHeight": 40,
+        	"fontSize":30,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 1,
+        	"line":"1",
+			"itemHeight": 40,
+        	"fontSize":28,
+        	"content":"2-9人，即2人至9人即可开始游戏;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【牌数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+        	"itemWidth":800,
+			"itemHeight":40,
+        	"fontSize":28,
+        	"content":"8副牌，不含大小鬼，每副牌52张，合计416张;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【倍数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"2",
+			"itemWidth":800,
+			"itemHeight":50,
+        	"fontSize":28,
+        	"content":"几点即几倍；开和即8倍；闲1赔1~9倍，庄1赔1~9倍；庄6点赢赔0.5。"
+        },
+
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+			"itemHeight": 40,
+        	"fontSize":30,
+        	"content": "游戏规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【抢庄】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"6",
+            "itemWidth":800,
+            "itemHeight":70,
+            "fontSize":28,
+        	"content":"每局游戏开始时自由进行抢庄，如只有一位玩家抢庄，则该玩家在当局当庄；如有多人抢庄，则从中随机产生一位庄家，如无玩家抢庄，则从所有人中随机产生一位庄家；如无玩家抢庄，则从所有人中随机产生一位庄家；若玩家抢庄阶段超时无操作，系统自动执行不抢;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【下注】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"3",
+            "itemWidth":800,
+            "itemHeight":70,
+            "fontSize":28,
+        	"content":"确定庄家之后，所有闲家开始选择下注筹码，同时对桌面三个下注区进行投注。若玩家下注阶段超时无操作，系统自动默认不下注;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【发牌】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"2",
+			"itemWidth":800,
+			"itemHeight":55,
+			"fontSize":28,
+        	"content":"按“闲家-庄家-闲家-庄家”发放4张牌（庄闲各2张），再根据补牌规则进行补牌。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+			"itemWidth":800,
+			"itemHeight":40,
+        	"fontSize":30,
+        	"content": "闲家补牌规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"content": ""
+        },
+                {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : true,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":28,
+        	"content": "闲家起手2张牌点数和如下："
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : true,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":28,
+        	"content": "闲家是否补第3张牌"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":23,
+        	"content": "0，1，2，3，4，5"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":200,
+			"itemHeight":40,
+        	"fontSize":23,
+        	"content": "必须补牌"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":23,
+        	"content": "6，7"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":23,
+        	"content": "不补"
+        },
+
+         {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":23,
+        	"content": "8，9"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":30,
+        	"fontSize":23,
+        	"content": "“天生赢家”，无须补牌"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":30,
+        	"content": "庄家补牌规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : true,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":28,
+        	"content": "庄家起手2张牌点数和如下："
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : true,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":28,
+        	"content": "补牌规则"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":25,
+        	"content": "0，1，2"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":23,
+        	"content": "必须补牌"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":23,
+        	"content": "3"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 30,
+        	"isTitle" : false,
+        	"line": "1",
+			"fontSize":23,
+			"itemWidth":400,
+			"itemHeight":65,
+        	"content": "闲家补得第3张牌点数为:8,则无须补牌;点数为0,1,2,3,4,5,6,7,9,则须补牌。"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+			"fontSize":23,
+        	"content": "4"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 30,
+        	"isTitle" : false,
+        	"line": "1",
+			"fontSize":23,
+			"itemWidth":400,
+			"itemHeight":65,
+        	"content": "闲家补得第3张牌点数为:0,1,8,9,则无须补牌;点数为2,3,4,5,6,7,则须补牌。"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":40,
+        	"fontSize":23,
+        	"content": "5"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 30,
+        	"isTitle" : false,
+        	"line": "1",
+			"fontSize":23,
+			"itemWidth":400,
+			"itemHeight":65,
+        	"content": "闲家补得第3张牌点数为:0,1,2,3,8,9,则无须补牌;点数为4,5,6,7,则须补牌。"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+        	"fontSize":23,
+        	"itemHeight":40,
+        	"content": "6"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 30,
+        	"isTitle" : false,
+        	"line": "1",
+			"fontSize":23,
+			"itemWidth":420,
+			"itemHeight":65,
+        	"content": "闲家补得第3张牌点数为:0,1,2,3,4,5,8,9,则无须补牌;点数为6,7,则须补牌。"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+        	"fontSize":23,
+        	"content": "7"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 30,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+        	"fontSize":23,
+        	"content": "不补"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 5,
+        	"isTitle" : false,
+        	"line": "1",
+			"itemWidth":400,
+			"itemHeight":65,
+        	"fontSize":23,
+        	"content": "8，9"
+        },
+        {
+        	"type" : 4,
+        	"itemStyle" : 30,
+        	"isTitle" : false,
+        	"line": "1",
+        	"itemHeight":30,
+			"itemWidth":400,
+        	"fontSize":23,
+        	"content": "“天生赢家”,无须补牌。"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+			"itemWidth":800,
+			"itemHeight":40,
+        	"fontSize":28,
+        	"content":"* 和局时，庄闲输赢的下注将退回，且不计有效投注。"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+            "itemWidth":800,
+            "itemHeight":40,
+            "fontSize":28,
+        	"content":"* 玩家同时下注庄、闲时，此局玩家这2个不计算有效投注。"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+			"itemWidth":900,
+			"fontSize":28,
+			"itemHeight":80,
+        	"content":"* 当庄、闲起手2张牌点数之和有8点或9点时，属于“天生赢家”，任意一家无须补第3张牌。"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"2",
+			"itemWidth":900,
+			"itemHeight":50,
+			"fontSize":28,
+        	"content":"* 闲家起手2张牌点数之和为6点或7点，闲家不须补牌，在此条件下庄家起手2张牌点数之和为5或5点以下，庄家必须补第3张牌。"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"content":""
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+			"itemHeight":40,
+        	"fontSize":30,
+        	"content": "计算规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":200,
+        	"fontSize":28,
+        	"content":"【系统抽成】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 17,
+        	"line":"1",
+			"itemWidth":500,
+        	"fontSize":28,
+        	"content":"系统会从赢家的所赢取游戏收益中抽5%"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        }
+        
+        
+
+
+        
+    ]
+}

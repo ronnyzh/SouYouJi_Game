@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="253,169" pivot="0.5,0.5" anchor="true">
+  <controller name="c1" pages="0,chow,1,pong,2,kong,3,hu,4,zm,5,noGold" selected="5"/>
+  <displayList>
+    <loader id="n51_kstv" name="n51" xy="129,88" pivot="0.5,0.5" anchor="true" size="284,165" aspect="true" url="ui://ejgb8krjoowi27z" autoSize="true">
+      <gearSize controller="c1" pages="0,1,2,3,4,5" values="169,165,1,1|190,165,1,1|197,172,1,1|183,177,1,1|237,174,1,1|284,165,1,1"/>
+      <gearIcon controller="c1" pages="0,1,2,3,4,5" values="ui://ejgb8krjhg3r75|ui://ejgb8krjhg3r79|ui://ejgb8krjhg3r76|ui://ejgb8krjhg3r78|ui://ejgb8krjhg3r74|ui://ejgb8krjoowi27z"/>
+    </loader>
+  </displayList>
+  <transition name="t1">
+    <item time="0" type="Scale" target="n51_kstv" tween="true" startValue="2,2" endValue="1,1" duration="8" ease="Back.Out"/>
+  </transition>
+</component>

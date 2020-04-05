@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <controller name="c1" pages="0,nothing,1,zhuang" selected="0"/>
+  <controller name="balance" pages="2,hide,0,green,1,red" selected="0"/>
+  <displayList>
+    <image id="n5_h21o" name="n5" src="mr4a3c" xy="20,6" size="106,135"/>
+    <loader id="n0_osvm" name="icon" xy="23,9" size="100,100" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <graph id="n18_m0vl" name="n18" xy="22,84" size="101,26" type="rect" lineSize="0" fillColor="#cc000000"/>
+    <text id="n3_osvm" name="score" xy="2,111" size="122,32" font="Arial" fontSize="22" color="#ffcc00" align="right" autoSize="none" bold="true" text="654321.99"/>
+    <text id="n2_osvm" name="name" xy="21,86" size="103,28" fontSize="18" color="#ffffff" align="center" autoSize="none" singleLine="true" text="用户名有多长"/>
+    <image id="n8_h21o" name="icon_click" src="mr4a3c" xy="8,-3" size="130,130" locked="true" hideByEditor="true" visible="false"/>
+    <image id="n9_to38" name="n9" src="wm2e2s" pkg="rjf5583x" xy="6,-7">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <loader id="n15_y2fs" name="n15" xy="-22,35" size="193,116" url="ui://rjf5583xwm2e1t">
+      <gearDisplay controller="balance" pages="0,1"/>
+      <gearIcon controller="balance" pages="2,0,1" values="ui://rjf5583xwm2e1t|ui://rjf5583xwm2e1u|ui://rjf5583xwm2e1t"/>
+      <relation target="n11_jkuv" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n11_jkuv" name="scoreBalance" xy="70,95" pivot="0.5,0.5" anchor="true" size="160,54" font="ui://rjf5583xwm2e1g" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="+8,18.0">
+      <gearDisplay controller="balance" pages="0"/>
+      <gearXY controller="balance" pages="0,1" values="69,-19|70,-17" default="70,95" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+    <text id="n14_y2fs" name="scoreBalance2" xy="70,95" pivot="0.5,0.5" anchor="true" size="160,54" font="ui://rjf5583xwm2e13" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="-88,8.3">
+      <gearDisplay controller="balance" pages="1"/>
+      <gearXY controller="balance" pages="0,1" values="69,-19|70,-17" default="70,95" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+    <image id="n13_r9uj" name="okMark" src="r9uj39" xy="27,72" hideByEditor="true" scale="0.7,0.7" visible="false"/>
+    <image id="n16_g9t7" name="n16" src="wm2e2z" pkg="rjf5583x" xy="-8,111" hideByEditor="true" visible="false"/>
+    <movieclip id="n19_wm2e" name="light" src="vmndp" pkg="ads0z8bz" xy="-70,-67" hideByEditor="true" visible="false"/>
+  </displayList>
+</component>

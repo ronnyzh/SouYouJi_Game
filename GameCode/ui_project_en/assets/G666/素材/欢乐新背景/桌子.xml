@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1286,722" adaptationTest="FitSize">
+  <displayList>
+    <image id="n0_gegk" name="n0" src="gegkck" fileName="素材/欢乐新背景/桌面(1).png" xy="643,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_gegk" name="n1" src="gegkck" fileName="素材/欢乐新背景/桌面(1).png" xy="643,0" scale="-1,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,1 @@
+module G559{export class GScene extends GallScene{}}

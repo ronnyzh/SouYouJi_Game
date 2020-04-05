@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="206,75" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_jzg7" name="n6" src="jzg7kl" fileName="携带金额/按键.png" xy="0,0"/>
+    <loader id="n5" name="icon" xy="78,22" size="50,30" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearSize controller="button" pages="0,1" values="50,30,1,1|206,75,1,1" default="206,75,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://la8oslyofbf8jx" downEffect="scale" downEffectValue="0.95"/>
+</component>

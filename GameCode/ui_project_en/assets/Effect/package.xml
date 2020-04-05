@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xkprusr0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="j4bi0" name="ef_anti_spring_0001.png" path="/effect/card/anti_spring/" exported="true" atlas="1"/>
+    <image id="j4bi1" name="ef_anti_spring_0002.png" path="/effect/card/anti_spring/" exported="true" atlas="1"/>
+    <image id="j4bi2" name="ef_anti_spring_0003.png" path="/effect/card/anti_spring/" exported="true" atlas="1"/>
+    <image id="j4bi3" name="ef_anti_spring_0004.png" path="/effect/card/anti_spring/" exported="true" atlas="1"/>
+    <image id="j4bi4" name="ef_anti_spring_0005.png" path="/effect/card/anti_spring/" exported="true" atlas="1"/>
+    <image id="j4bi5" name="ef_anti_spring_0006.png" path="/effect/card/anti_spring/" exported="true" atlas="1"/>
+    <image id="j4bi6" name="ef_anti_spring_tray.png" path="/effect/card/anti_spring/" exported="true" atlas="1"/>
+    <movieclip id="j4bi7" name="animate_antispring_shank.jta" path="/effect/card/anti_spring/" exported="true"/>
+    <image id="j4bi8" name="ef_bomb0002.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bi9" name="ef_bomb0003.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bia" name="ef_bomb0004.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bib" name="ef_bomb0005.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bic" name="ef_bomb0006.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bid" name="ef_bomb0007.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bie" name="ef_bomb0008.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bif" name="ef_bomb0009.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4big" name="ef_bomb0010.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bih" name="ef_bomb0011.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bii" name="ef_bomb0012.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bij" name="ef_bomb0013.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bik" name="ef_bomb0014.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bil" name="ef_bomb0015.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bim" name="ef_bomb0016.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bin" name="ef_bomb0017.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bio" name="ef_bomb0018.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bip" name="ef_bomb0019.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4biq" name="ef_bomb0020.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bir" name="ef_bomb0021.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bis" name="ef_bomb0022.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bit" name="ef_bomb0023.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4biu" name="ef_bomb0024.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4biv" name="ef_bomb0025.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4biw" name="ef_bomb0026.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bix" name="ef_bomb0027.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4biy" name="ef_bomb0028.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4biz" name="ef_bomb0029.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bi10" name="ef_bomb.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bi11" name="ef_bomb0001.png" path="/effect/card/bomb/" exported="true" atlas="1"/>
+    <image id="j4bi12" name="img_RocketActionNew_Body.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi13" name="img_RocketActionNew_BodyFlame.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi14" name="img_RocketActionNew_Fog.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi15" name="img_RocketActionNew_FogFrame0.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi16" name="img_RocketActionNew_FogFrame1.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi17" name="img_RocketActionNew_FogFrame2.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi18" name="img_RocketActionNew_FogFrame3.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi19" name="img_RocketActionNew_FogFrame4.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1a" name="img_RocketActionNew_FogFrame5.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1b" name="img_RocketActionNew_FogFrame6.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1c" name="img_RocketActionNew_FogFrame7.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1d" name="img_RocketActionNew_FogFrame8.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1e" name="img_RocketActionNew_FogFrame9.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1f" name="missle_bomb1.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1g" name="missle_bomb2.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1h" name="missle_bomb3.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1i" name="missle_bomb4.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <image id="j4bi1j" name="missle_bomb5.png" path="/effect/card/rocket/" exported="true" atlas="1"/>
+    <movieclip id="j4bi1k" name="animate_rocket.jta" path="/effect/card/rocket/" exported="true"/>
+    <movieclip id="j4bi1l" name="animate_rocket_boom.jta" path="/effect/card/rocket/" exported="true"/>
+    <image id="j4bi1m" name="ef_s2_duck.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1n" name="ef_s2_light1.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1o" name="ef_s2_light2.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1p" name="ef_s2_text.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1q" name="ef_s2_water_0001.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1r" name="ef_s2_water_0002.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1s" name="ef_sequence.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1t" name="ef_sequence_0001.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1u" name="ef_sequence_0002.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1v" name="ef_sequence_0003.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1w" name="ef_sequence_0004.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1x" name="ef_sequence_0005.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1y" name="ef_sequence_0006.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi1z" name="ef_sequence_0007.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi20" name="ef_sequence_0008.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi21" name="ef_sequence_0009.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <movieclip id="j4bi22" name="animate_water.jta" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <movieclip id="j4bi23" name="animate_boat.jta" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi24" name="ef_plane.png" path="/effect/card/sequence/" exported="true" atlas="1"/>
+    <image id="j4bi27" name="ef_spring_0002.png" path="/effect/card/spring/" exported="true" atlas="1"/>
+    <image id="j4bi28" name="ef_spring_0003.png" path="/effect/card/spring/" exported="true" atlas="1"/>
+    <image id="j4bi29" name="ef_spring_0004.png" path="/effect/card/spring/" exported="true" atlas="1"/>
+    <image id="j4bi2a" name="ef_spring_0005.png" path="/effect/card/spring/" exported="true" atlas="1"/>
+    <image id="j4bi2b" name="ef_spring_0006.png" path="/effect/card/spring/" exported="true" atlas="1"/>
+    <image id="j4bi2c" name="ef_spring_tray.png" path="/effect/card/spring/" exported="true" atlas="1"/>
+    <image id="j4bi2d" name="ef_spring_0001.png" path="/effect/card/spring/" exported="true" atlas="1"/>
+    <movieclip id="j4bi2e" name="animate_srping_shank.jta" path="/effect/card/spring/" exported="true"/>
+    <movieclip id="j4bi2f" name="bomb.jta" path="/effect/card/" exported="true"/>
+    <component id="j4bi2g" name="cardEffect.xml" path="/effect/card/" exported="true"/>
+    <sound id="aclr2h" name="bigger1_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2i" name="bigger1_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2j" name="bigger2_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2k" name="bigger2_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2l" name="bigger3_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2m" name="bigger3_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2n" name="bomb.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2o" name="bomb_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2p" name="bomb_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr2q" name="2_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2r" name="2_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2s" name="3_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2t" name="3_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2u" name="4_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2v" name="4_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2w" name="5_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2x" name="5_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2y" name="6_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr2z" name="6_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr30" name="7_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr31" name="7_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr32" name="8_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr33" name="8_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr34" name="9_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr35" name="9_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr36" name="A_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr37" name="A_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr38" name="J_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr39" name="J_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr3a" name="K_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr3b" name="K_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr3c" name="Q_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr3d" name="Q_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr3e" name="T_m.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr3f" name="T_w.mp3" path="/effect/card/sound/player/double/"/>
+    <sound id="aclr3g" name="last1_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3h" name="last1_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3i" name="last2_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3j" name="last2_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3k" name="pass1_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3l" name="pass1_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3m" name="pass2_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3n" name="pass2_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3o" name="plane_engine.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3p" name="plane_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3q" name="plane_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3r" name="quadplex21_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3s" name="quadplex21_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3t" name="quadplex22_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3u" name="quadplex22_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr3v" name="call_m.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr3w" name="call_w.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr3x" name="no_call_m.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr3y" name="no_call_w.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr3z" name="no_rob_m.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr40" name="no_rob_w.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr41" name="rob_m.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr42" name="rob_w.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr43" name="score1_m.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr44" name="score1_w.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr45" name="score2_m.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr46" name="score2_w.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr47" name="score3_m.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr48" name="score3_w.mp3" path="/effect/card/sound/player/rob/"/>
+    <sound id="aclr49" name="rocket_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr4a" name="rocket_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr4b" name="sequence2_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr4c" name="sequence2_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr4d" name="sequence_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr4e" name="sequence_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr4f" name="2_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4g" name="2_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4h" name="3_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4i" name="3_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4j" name="4_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4k" name="4_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4l" name="5_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4m" name="5_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4n" name="6_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4o" name="6_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4p" name="7_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4q" name="7_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4r" name="8_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4s" name="8_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4t" name="9_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4u" name="9_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4v" name="A_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4w" name="A_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4x" name="B_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4y" name="B_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr4z" name="J_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr50" name="J_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr51" name="K_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr52" name="K_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr53" name="L_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr54" name="L_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr55" name="Q_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr56" name="Q_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr57" name="T_m.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr58" name="T_w.mp3" path="/effect/card/sound/player/single/"/>
+    <sound id="aclr59" name="triplet1_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr5a" name="triplet1_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr5b" name="triplet2_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr5c" name="triplet2_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr5d" name="triplet_m.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr5e" name="triplet_w.mp3" path="/effect/card/sound/player/"/>
+    <sound id="aclr5f" name="alarm.mp3" path="/effect/card/sound/normal/"/>
+    <sound id="aclr5g" name="bgm.mp3" path="/effect/card/sound/normal/"/>
+    <sound id="aclr5h" name="click_card.mp3" path="/effect/card/sound/normal/"/>
+    <sound id="aclr5i" name="deal_card.mp3" path="/effect/card/sound/normal/"/>
+    <sound id="aclr5j" name="invalid_set.mp3" path="/effect/card/sound/normal/"/>
+    <sound id="aclr5k" name="lost.mp3" path="/effect/card/sound/normal/"/>
+    <sound id="aclr5l" name="wildcard.mp3" path="/effect/card/sound/normal/"/>
+    <sound id="aclr5m" name="win.mp3" path="/effect/card/sound/normal/"/>
+    <sound id="l2h85n" name="bomb.ogg" path="/effect/card/sound/"/>
+    <sound id="l2h85o" name="plane_engine.ogg" path="/effect/card/sound/"/>
+    <movieclip id="l2h85p" name="animate_flicker.jta" path="/effect/card/flicker/"/>
+    <image id="l2h85q" name="flicker_000.png" path="/effect/card/flicker/"/>
+    <image id="l2h85r" name="flicker_001.png" path="/effect/card/flicker/"/>
+    <image id="l2h85s" name="flicker_002.png" path="/effect/card/flicker/"/>
+    <image id="l2h85t" name="flicker_003.png" path="/effect/card/flicker/"/>
+    <image id="l2h85u" name="flicker_004.png" path="/effect/card/flicker/"/>
+    <image id="l2h85v" name="flicker_005.png" path="/effect/card/flicker/"/>
+    <image id="l2h85w" name="flicker_006.png" path="/effect/card/flicker/"/>
+    <image id="l2h85x" name="flicker_007.png" path="/effect/card/flicker/"/>
+    <image id="l2h85y" name="flicker_008.png" path="/effect/card/flicker/"/>
+    <image id="l2h85z" name="flicker_009.png" path="/effect/card/flicker/"/>
+    <image id="l2h860" name="flicker_010.png" path="/effect/card/flicker/"/>
+    <image id="l2h861" name="flicker_011.png" path="/effect/card/flicker/"/>
+  </resources>
+  <publish name="Effect"/>
+</packageDescription>

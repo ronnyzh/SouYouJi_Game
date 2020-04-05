@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="159,160" extention="Label">
+  <controller name="state" pages="0,match,1,rob,2,double,3,open,4,matching,5,than,6,yao,8,start" selected="0"/>
+  <controller name="isShowBG" exported="true" pages="0,true,1,false" selected="0"/>
+  <displayList>
+    <image id="n75_nuw9" name="n75" src="wm2e2l" fileName="GBP_Img/Timer/底-倒计时.png" xy="-112,59">
+      <gearDisplay controller="isShowBG" pages="0"/>
+    </image>
+    <loader id="n74_g9t7" name="n74" xy="-40,62" size="240,36" url="ui://rjf5583xgdu57m" align="center">
+      <gearXY controller="state" pages="0,1,2,3,4,5,6,8" values="-40,62|-40,62|-40,62|-40,62|-40,62|-40,62|-40,62|-40,62"/>
+      <gearIcon controller="state" pages="0,1,2,3,4,5,6,8" values="ui://rjf5583xgdu57m|ui://rjf5583xgdu57r|ui://rjf5583xgdu57n|ui://rjf5583xwm2e2j|ui://rjf5583xgdu57o|ui://rjf5583xgdu57p|ui://rjf5583xgdu57q|ui://rjf5583xgdu57t"/>
+    </loader>
+    <text id="n72_s4ce" name="title" xy="348,80" pivot="0.5,0.5" anchor="true" size="197,40" font="ui://rjf5583xfqpz8n" fontSize="30" vAlign="middle" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="1s">
+      <gearXY controller="state" pages="0,1,2,3,4,5,6,8" values="348,80|329,80|333,80|283,80|298,80|320,80|302,80|324,80"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="252,86" extention="Button" designImage="ui://1sm91w5opu4x13" designImageOffsetX="-945" designImageOffsetY="-654" designImageAlpha="0">
+  <controller name="c1" exported="true" pages="0,弃牌,1,全下,2,加注,3,让牌" selected="0"/>
+  <controller name="c2" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n105_imd3" name="bg" xy="0,0" size="252,86" url="ui://1sm91w5opu4x1c">
+      <gearDisplay controller="c2" pages="0"/>
+      <gearIcon controller="c1" pages="0,3" values="ui://1sm91w5opu4x1c|ui://1sm91w5opu4x1a" default="ui://1sm91w5opu4x1g"/>
+    </loader>
+    <loader id="n107_imd3" name="icon" xy="0,0" size="252,86" url="ui://1sm91w5opu4x19" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+      <gearXY controller="c1" pages="0,1,2,3" values="0,0|0,0|0,0|0,0"/>
+      <gearIcon controller="c1" pages="0,2,3" values="ui://1sm91w5opu4x19|ui://1sm91w5opu4x16|ui://1sm91w5ojuan58" default="ui://1sm91w5opu4x15"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

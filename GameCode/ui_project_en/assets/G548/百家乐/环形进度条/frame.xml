@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,110" mask="n14_z5p1">
+  <displayList>
+    <image id="n13_z5p1" name="n13" src="z5p1ax" fileName="百家乐/环形进度条/头像描边框(1).png" xy="55,55" pivot="0.5,0.5" anchor="true" size="110,110"/>
+    <graph id="n14_z5p1" name="mask" xy="-4,95" pivot="0.5,0.5" anchor="true" size="110,110" type="rect"/>
+  </displayList>
+</component>

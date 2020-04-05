@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400" pivot="0.5,0.5" anchor="true" adaptationTest="FitSize">
+  <controller name="c1" pages="0,shunzi,1,bomb,2,liandui,3,feiji,4,rocket,5,spring,6,antispring,7,redeal" selected="2"/>
+  <displayList>
+    <movieclip id="n6_q7l5" name="n6" src="j4bi23" fileName="effect/card/sequence/animate_boat.jta" xy="0,116" group="n7_q7l5" alpha="0">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </movieclip>
+    <image id="n4_q7l5" name="n4" src="j4bi1s" fileName="effect/card/sequence/ef_sequence.png" xy="85,142" group="n7_q7l5" alpha="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <group id="n7_q7l5" name="shunzi" xy="0,116" size="322,168" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <movieclip id="n8_q7l5" name="n8" src="j4bi2f" fileName="effect/card/bomb.jta" xy="73,104" group="n9_q7l5" playing="false">
+      <gearAni controller="c1" pages="0,1,2,3,4,5,7" values="0,s|0,s|0,s|0,s|0,s|0,s|0,s" default="0,s"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <group id="n9_q7l5" name="bomb" xy="73,104" size="254,192" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n12_q7l5" name="n12" src="j4bi1n" fileName="effect/card/sequence/ef_s2_light1.png" xy="29,67" pivot="0.5,0.5" size="339,273" group="n16_q7l5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n13_q7l5" name="n13" src="j4bi1o" fileName="effect/card/sequence/ef_s2_light2.png" xy="-110,-14" pivot="0.5,0.5" size="618,435" group="n16_q7l5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <group id="n16_q7l5" name="light" xy="-109,-13" size="617,434" group="n15_q7l5" advanced="true"/>
+    <image id="n14_q7l5" name="n14" src="j4bi1p" fileName="effect/card/sequence/ef_s2_text.png" xy="-17,151" pivot="0.5,0.5" size="434,97" group="n15_q7l5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <movieclip id="n18_q7l5" name="n18" src="j4bi22" fileName="effect/card/sequence/animate_water.jta" xy="361,197" group="n20_q7l5" rotation="90">
+      <relation target="" sidePair="right-right,top-top"/>
+    </movieclip>
+    <image id="n19_q7l5" name="n19" src="j4bi1m" fileName="effect/card/sequence/ef_s2_duck.png" xy="233,132" group="n20_q7l5">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <group id="n20_q7l5" name="duck" xy="233,132" size="177,197" group="n21_q7l5" advanced="true"/>
+    <movieclip id="n10_q7l5" name="n10" src="j4bi22" fileName="effect/card/sequence/animate_water.jta" xy="257,245" group="n17_q7l5" rotation="90">
+      <relation target="" sidePair="right-right,top-top"/>
+    </movieclip>
+    <image id="n11_q7l5" name="n11" src="j4bi1m" fileName="effect/card/sequence/ef_s2_duck.png" xy="129,179" group="n17_q7l5">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <group id="n17_q7l5" name="duck" xy="129,179" size="177,197" group="n21_q7l5" advanced="true"/>
+    <group id="n21_q7l5" name="duckGroup" xy="129,132" size="281,244" group="n15_q7l5" advanced="true"/>
+    <group id="n15_q7l5" name="liandui" xy="-109,-13" size="617,434" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <image id="n22_q7l5" name="n22" src="j4bi24" fileName="effect/card/sequence/ef_plane.png" xy="-581,-185" group="n23_q7l5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <group id="n23_q7l5" name="feiji" xy="-581,-185" size="428,208" advanced="true">
+      <gearDisplay controller="c1" pages="3"/>
+    </group>
+    <movieclip id="n24_q7l5" name="n24" src="j4bi1k" fileName="effect/card/rocket/animate_rocket.jta" xy="-101,24" group="n27_q7l5" playing="false">
+      <relation target="" sidePair="center-center"/>
+    </movieclip>
+    <movieclip id="n25_q7l5" name="n25" src="j4bi1l" fileName="effect/card/rocket/animate_rocket_boom.jta" xy="-114,-81" group="n27_q7l5" playing="false">
+      <relation target="" sidePair="center-center"/>
+    </movieclip>
+    <image id="n26_q7l5" name="n26" src="j4bi12" fileName="effect/card/rocket/img_RocketActionNew_Body.png" xy="92,24" pivot="0.5,0.5" group="n27_q7l5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <group id="n27_q7l5" name="rocket" xy="-114,-81" size="629,562" advanced="true">
+      <gearDisplay controller="c1" pages="4"/>
+    </group>
+    <image id="n28_q7l5" name="n28" src="j4bi2c" fileName="effect/card/spring/ef_spring_tray.png" xy="-179,-29" pivot="0.5,0.5" group="n30_q7l5" scale="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <movieclip id="n29_q7l5" name="n29" src="j4bi2e" fileName="effect/card/spring/animate_srping_shank.jta" xy="-34,1" group="n30_q7l5" playing="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <group id="n30_q7l5" name="spring" xy="-179,-29" size="759,449" advanced="true">
+      <gearDisplay controller="c1" pages="5"/>
+    </group>
+    <movieclip id="n31_q7l5" name="n31" src="j4bi7" fileName="effect/card/anti_spring/animate_antispring_shank.jta" xy="-34,2" group="n33_q7l5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <image id="n32_q7l5" name="n32" src="j4bi6" fileName="effect/card/anti_spring/ef_anti_spring_tray.png" xy="-203,54" pivot="0.5,0.5" group="n33_q7l5" scale="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <group id="n33_q7l5" name="antispring" xy="-203,2" size="806,397" advanced="true">
+      <gearDisplay controller="c1" pages="6"/>
+    </group>
+    <text id="n34_l0gn" name="textRedeal" xy="77,164" pivot="0.5,0.5" size="245,71" group="n35_l0gn" fontSize="60" color="#ffffff" align="center" vAlign="middle" strokeColor="#009966" strokeSize="3" text="重新发牌"/>
+    <group id="n35_l0gn" name="redeal" xy="78,164" size="243,71" advanced="true">
+      <gearDisplay controller="c1" pages="7"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="shunzi">
+    <item time="0" type="Alpha" target="n4_q7l5" value="0"/>
+    <item time="0" type="Alpha" target="n6_q7l5" tween="true" startValue="0" endValue="1" duration="9"/>
+    <item time="0" type="XY" target="n6_q7l5" tween="true" startValue="0,116" endValue="204,116" duration="30"/>
+    <item time="9" type="Alpha" target="n6_q7l5" tween="true" startValue="1" endValue="1" duration="7"/>
+    <item time="12" type="Alpha" target="n4_q7l5" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="16" type="Alpha" target="n6_q7l5" tween="true" startValue="1" endValue="0" duration="14"/>
+    <item time="24" type="Alpha" target="n4_q7l5" tween="true" startValue="1" endValue="1" duration="6" ease="Quad.In"/>
+    <item time="30" type="Alpha" target="n4_q7l5" tween="true" startValue="1" endValue="1" duration="6"/>
+  </transition>
+  <transition name="bomb">
+    <item time="0" type="Animation" target="n8_q7l5" value="0,p"/>
+    <item time="0" type="Visible" target="n9_q7l5" value="true"/>
+    <item time="3" type="Sound" value="ui://xkprusr0l2h85n,100"/>
+    <item time="27" type="Animation" target="n8_q7l5" value="0,s"/>
+    <item time="27" type="Visible" target="n9_q7l5" value="false"/>
+  </transition>
+  <transition name="liandui">
+    <item time="0" type="Alpha" target="n21_q7l5" value="1"/>
+    <item time="0" type="Scale" target="n14_q7l5" tween="true" startValue="0.8,0.8" endValue="1,1" duration="14"/>
+    <item time="0" type="Size" target="n12_q7l5" tween="true" startValue="0,0" endValue="339,273" duration="14"/>
+    <item time="0" type="Size" target="n13_q7l5" tween="true" startValue="0,0" endValue="618,435" duration="14"/>
+    <item time="0" type="XY" target="n21_q7l5" tween="true" startValue="210,178" endValue="-41.51,178.97" duration="34"/>
+    <item time="14" type="Scale" target="n14_q7l5" tween="true" startValue="1,1" endValue="1,1" duration="3"/>
+    <item time="14" type="Size" target="n13_q7l5" tween="true" startValue="618,435" endValue="618,435" duration="3"/>
+    <item time="14" type="Size" target="n12_q7l5" tween="true" startValue="339,273" endValue="300.29,241.83" duration="3"/>
+    <item time="17" type="Scale" target="n14_q7l5" tween="true" startValue="1,1" endValue="0.8,0.8" duration="17"/>
+    <item time="17" type="Size" target="n13_q7l5" tween="true" startValue="618,435" endValue="0,0" duration="17"/>
+    <item time="17" type="Size" target="n12_q7l5" tween="true" startValue="300.29,241.83" endValue="0,0" duration="17"/>
+    <item time="20" type="Alpha" target="n21_q7l5" tween="true" startValue="1" endValue="0" duration="10"/>
+  </transition>
+  <transition name="feiji">
+    <item time="0" type="Sound" value="ui://xkprusr0l2h85o,100"/>
+    <item time="0" type="Visible" target="n22_q7l5" value="true"/>
+    <item time="0" type="XY" target="n22_q7l5" tween="true" startValue="-567.52,-8.52" endValue="465.98,178.1" duration="30"/>
+    <item time="30" type="Visible" target="n22_q7l5" value="false"/>
+  </transition>
+  <transition name="rocket">
+    <item time="0" type="Animation" target="n24_q7l5" value="0,p"/>
+    <item time="0" type="Rotation" target="n26_q7l5" value="0"/>
+    <item time="0" type="Visible" target="n26_q7l5" value="true"/>
+    <item time="0" type="Visible" target="n25_q7l5" value="false"/>
+    <item time="0" type="Visible" target="n24_q7l5" value="true"/>
+    <item time="0" type="XY" target="n26_q7l5" tween="true" startValue="92,24" endValue="92,-754.61" duration="18" ease="Quad.In"/>
+    <item time="13" type="Animation" target="n24_q7l5" value="0,s"/>
+    <item time="13" type="Visible" target="n24_q7l5" value="false"/>
+    <item time="18" type="Visible" target="n26_q7l5" value="true"/>
+    <item time="19" type="Visible" target="n26_q7l5" value="false"/>
+    <item time="21" type="Rotation" target="n26_q7l5" value="0"/>
+    <item time="22" type="Rotation" target="n26_q7l5" value="180"/>
+    <item time="27" type="Visible" target="n26_q7l5" value="true"/>
+    <item time="27" type="XY" target="n26_q7l5" tween="true" startValue="92,-754.61" endValue="92,22.54" duration="14" ease="Quad.In"/>
+    <item time="35" type="Sound" value="ui://xkprusr0l2h85n,100"/>
+    <item time="41" type="Animation" target="n25_q7l5" value="0,p"/>
+    <item time="41" type="Visible" target="n26_q7l5" value="false"/>
+    <item time="41" type="Visible" target="n25_q7l5" value="true"/>
+    <item time="47" type="Animation" target="n25_q7l5" value="0,s"/>
+  </transition>
+  <transition name="spring">
+    <item time="0" type="Animation" target="n29_q7l5" value="0,p"/>
+    <item time="0" type="Scale" target="n28_q7l5" tween="true" startValue="0.5,0.5" endValue="1,1" duration="17" ease="Elastic.InOut"/>
+    <item time="0" type="Visible" target="n28_q7l5" value="true"/>
+    <item time="0" type="Visible" target="n29_q7l5" value="true"/>
+    <item time="17" type="Animation" target="n29_q7l5" value="0,s"/>
+    <item time="17" type="Visible" target="n29_q7l5" value="false"/>
+    <item time="17" type="Visible" target="n28_q7l5" value="true"/>
+  </transition>
+  <transition name="antispring">
+    <item time="0" type="Animation" target="n31_q7l5" value="0,p"/>
+    <item time="0" type="Scale" target="n32_q7l5" tween="true" startValue="0.5,0.5" endValue="1,1" duration="17" ease="Elastic.InOut"/>
+    <item time="0" type="Visible" target="n32_q7l5" value="true"/>
+    <item time="0" type="Visible" target="n31_q7l5" value="true"/>
+    <item time="17" type="Animation" target="n31_q7l5" value="0,s"/>
+    <item time="17" type="Visible" target="n31_q7l5" value="false"/>
+    <item time="17" type="Visible" target="n32_q7l5" value="true"/>
+  </transition>
+  <transition name="redeal">
+    <item time="0" type="Alpha" target="n34_l0gn" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Visible" target="n34_l0gn" value="true"/>
+    <item time="0" type="XY" target="n34_l0gn" tween="true" startValue="77,164" endValue="-,80" duration="24"/>
+    <item time="24" type="Alpha" target="n34_l0gn" value="1"/>
+    <item time="60" type="Visible" target="n34_l0gn" value="false"/>
+  </transition>
+</component>

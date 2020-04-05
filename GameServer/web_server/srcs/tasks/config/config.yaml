@@ -1,0 +1,15 @@
+redis:
+  host: '127.0.0.1'
+  port: 6379
+  db: 1
+  password: ''
+
+#start_date: 开始时间格式 %Y-%m-%d %H:%M:%S
+#end_date: 结束时间格式 %Y-%m-%d %H:%M:%S
+#status: 状态初始化为0
+
+niuniu_active:
+  start_date: '2017-11-03 00:00:00'
+  end_date: '2017-11-05 14:17:00'
+  status: '0'
+

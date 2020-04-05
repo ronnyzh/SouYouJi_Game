@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="870,300">
+  <displayList>
+    <loader id="n42_omlt" name="bg" xy="-73,-76" size="1017,453" touchable="false" url="ui://wtkqufwmz5p19d" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n16_kexb" name="area_3" src="pqc45h" fileName="Component/item/下注区.xml" xy="5,141" size="302,149" controller="ctl,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n31_kexb" name="area_4" src="pqc45h" fileName="Component/item/下注区.xml" xy="315,143" size="245,147" controller="ctl,1">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n26_kexb" name="area_5" src="pqc45h" fileName="Component/item/下注区.xml" xy="564,143" size="302,147" controller="ctl,2">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n36_kexb" name="area_1" src="pqc45h" fileName="Component/item/下注区.xml" xy="2,7" size="429,143" controller="ctl,3">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n41_kexb" name="area_2" src="pqc45h" fileName="Component/item/下注区.xml" xy="442,12" size="410,137" controller="ctl,4">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n43_zqre" name="jetton_Layout" src="ufwpbx" fileName="筹码容器.xml" xy="0,0" size="870,300" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

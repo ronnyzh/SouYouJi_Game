@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,103">
+  <controller name="c_showNN" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14," selected="0"/>
+  <displayList>
+    <image id="n1_iuo1" name="bg" src="wm2ei" fileName="GBP_Img/NN/niubeijing_312.png" pkg="rjf5583x" xy="100,63" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c_showNN" pages="1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n0_iuo1" name="n0" xy="99,51" pivot="0.5,0.5" anchor="true" size="260,97" touchable="false" url="ui://rjf5583xwm2ev" autoSize="true">
+      <gearDisplay controller="c_showNN" pages="1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+      <gearXY controller="c_showNN" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" values="99,51|100,51|100,51|100,51|100,51|100,51|100,51|100,51|100,51|100,51|100,51|99,51|100,51|100,51|100,51"/>
+      <gearIcon controller="c_showNN" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" values="ui://rjf5583xwm2ev|ui://rjf5583xwm2ej|ui://rjf5583xwm2ek|ui://rjf5583xwm2el|ui://rjf5583xwm2em|ui://rjf5583xwm2en|ui://rjf5583xwm2eo|ui://rjf5583xwm2ep|ui://rjf5583xwm2eq|ui://rjf5583xwm2er|ui://rjf5583xwm2et|ui://rjf5583xwm2es|ui://rjf5583xwm2eu|ui://rjf5583xwm2ew|ui://rjf5583xwm2ev"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1214,524">
+  <controller name="select" pages="0,,6,,7,,8,,9,,10," selected="0"/>
+  <controller name="page" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n52_p9j7" name="btn_s0" src="uy9c6z" fileName="GateButton3.xml" xy="0,0" pivot="0.5,0.5">
+      <gearDisplay controller="page" pages="0"/>
+      <gearSize controller="select" pages="6" values="418,275,1.1,1.1" default="418,275,1,1" tween="true" ease="Expo.Out" duration="0.15"/>
+      <Button controller="select" page="6"/>
+    </component>
+    <component id="n53_p9j7" name="btn_s1" src="uy9c6z" fileName="GateButton3.xml" xy="397,0" pivot="0.5,0.5">
+      <gearDisplay controller="page" pages="0"/>
+      <gearSize controller="select" pages="7" values="418,275,1.1,1.1" default="418,275,1,1" tween="true" ease="Expo.Out" duration="0.15"/>
+      <Button icon="ui://wpa3vk7vl1cy75" controller="select" page="7"/>
+    </component>
+    <component id="n54_p9j7" name="btn_s2" src="uy9c6z" fileName="GateButton3.xml" xy="796,0" pivot="0.5,0.5">
+      <gearDisplay controller="page" pages="0"/>
+      <gearSize controller="select" pages="8" values="418,275,1.1,1.1" default="418,275,1,1" tween="true" ease="Expo.Out" duration="0.15"/>
+      <Button icon="ui://wpa3vk7vl1cy76" controller="select" page="8"/>
+    </component>
+    <component id="n55_p9j7" name="btn_s3" src="uy9c6z" fileName="GateButton3.xml" xy="179,249" pivot="0.5,0.5">
+      <gearDisplay controller="page" pages="0"/>
+      <gearSize controller="select" pages="9" values="418,275,1.1,1.1" default="418,275,1,1" tween="true" ease="Expo.Out" duration="0.15"/>
+      <gearLook controller="select" pages="10" values="1,0,0,1" default="1,0,0,1" tween="true" duration="0.2"/>
+      <Button icon="ui://wpa3vk7vl1cy77" controller="select" page="9"/>
+    </component>
+    <component id="n56_p9j7" name="btn_s4" src="uy9c6z" fileName="GateButton3.xml" xy="592,249" pivot="0.5,0.5">
+      <gearDisplay controller="page" pages="0"/>
+      <gearSize controller="select" pages="10" values="418,275,1.1,1.1" default="418,275,1,1" tween="true" ease="Expo.Out" duration="0.15"/>
+      <Button icon="ui://wpa3vk7vl1cy78" controller="select" page="10"/>
+    </component>
+    <component id="n57_bfnh" name="list_ludan" src="d69rqi" fileName="waybill/路单放大版/WayBill.xml" xy="36,-7">
+      <gearDisplay controller="page" pages="1"/>
+    </component>
+  </displayList>
+</component>

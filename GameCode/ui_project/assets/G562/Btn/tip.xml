@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false">
+  <controller name="type" pages="0,三同花,1,三顺子,2,六对半,3,五对三条,4,四套三条,5,凑一色,6,全小,7,全大,8,六同,9,三分天下,10,三同花顺,11,十二皇族,12,七同,13,一条龙,14,至尊青龙" selected="0"/>
+  <displayList>
+    <graph id="n85_s2ed" name="n85" xy="0,0" size="1334,750" type="rect" fillColor="#9e333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n77_lvff" name="n77" src="lvffsc8n" xy="0,393" size="1334,356">
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+    </image>
+    <image id="n78_lvff" name="n78" src="lvffsc8m" xy="573,435">
+      <relation target="n77_lvff" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n81_lvff" name="yes" src="lvffsc8q" xy="820,616">
+      <relation target="n77_lvff" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n82_lvff" name="no" src="lvffsc8r" xy="332,616">
+      <relation target="n77_lvff" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n79_lvff" name="txt1" xy="274,533" size="245,49" font="方正准圆简体" fontSize="40" color="#ffffff" align="center" vAlign="middle" singleLine="true" text="出现特殊牌型">
+      <relation target="n77_lvff" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n83_lvff" name="txt" xy="530,533" size="193,55" font="方正准圆简体" fontSize="45" color="#ffff00" align="center" vAlign="middle" autoSize="none" singleLine="true" text="三同花">
+      <gearText controller="type" pages="1,2,3,4,5,6,7,8,9,10,11,12,13,14" values="三顺子|六对半|五对三条|四套三条|凑一色|全小|全大|六同|三分天下|三同花顺|十二皇族|七同|一条龙|至尊青龙" default="三同花"/>
+      <relation target="n77_lvff" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n84_lvff" name="txt2" xy="721,533" size="407,49" font="方正准圆简体" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="是否按特殊牌型出牌？">
+      <relation target="n77_lvff" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

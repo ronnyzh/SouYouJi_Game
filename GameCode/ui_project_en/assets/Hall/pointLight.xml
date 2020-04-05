@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="91,96">
+  <displayList>
+    <image id="n0_d1sn" name="n0" src="d1snt8f" xy="14,16" pivot="0.5,0.5" blend="add"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="99999">
+    <item time="0" type="Alpha" target="n0_d1sn" value="0"/>
+    <item time="0" type="Rotation" target="n0_d1sn" value="0"/>
+    <item time="0" type="Scale" target="n0_d1sn" value="1,1"/>
+    <item time="18" type="Alpha" target="n0_d1sn" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="18" type="Rotation" target="n0_d1sn" tween="true" startValue="0" endValue="359" duration="12"/>
+    <item time="18" type="Scale" target="n0_d1sn" tween="true" startValue="0.5,0.5" endValue="1.5,1.5" duration="6"/>
+    <item time="24" type="Alpha" target="n0_d1sn" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="24" type="Scale" target="n0_d1sn" tween="true" startValue="1.5,1.5" endValue="1,1" duration="6"/>
+  </transition>
+</component>

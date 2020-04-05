@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,65">
+  <displayList>
+    <loader id="n2_z5p1" name="bg" xy="0,0" size="800,65" alpha="0" url="ui://nwo0j1cxrpxwd8" fill="scaleFree"/>
+    <text id="n1_z5p1" name="msg" xy="400,32" pivot="0.5,0.5" anchor="true" size="113,38" alpha="0" fontSize="29" color="#ffff33" bold="true" text="限红100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="xianH">
+    <item time="0" type="Alpha" target="n2_z5p1" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="Alpha" target="n1_z5p1" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n2_z5p1" tween="true" startValue="1" endValue="0" duration="19"/>
+    <item time="18" type="Alpha" target="n1_z5p1" tween="true" startValue="1" endValue="0" duration="19"/>
+  </transition>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,192" pivot="0.5,0.5" anchor="true" extention="Label">
+  <displayList>
+    <loader id="n1_o6gk" name="icon" xy="0,0" pivot="0.5,0.5" size="143,192" url="ui://wtkqufwmo6gk24" autoSize="true"/>
+  </displayList>
+  <transition name="reversal">
+    <item time="0" type="Scale" target="n1_o6gk" tween="true" startValue="1,1" endValue="0,1" duration="6" label2="center" ease="Expo.Out"/>
+    <item time="6" type="Scale" target="n1_o6gk" label="center" tween="true" startValue="0,1" endValue="1,1" duration="6"/>
+  </transition>
+</component>

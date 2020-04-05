@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="83,75">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="color" pages="0,,1," selected="1"/>
+  <controller name="separate" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n38_kteu" name="n38" src="kteu8" fileName="tiles/lwgc_tile_tray_22.png" xy="88,-4" rotation="90">
+      <gearXY controller="separate" pages="0" values="88,-4" default="77,-4"/>
+    </image>
+    <loader id="n39_kteu" name="icon" xy="40,5" size="64,97" scale="0.7,0.7" align="center" vAlign="middle">
+      <gearXY controller="separate" pages="0" values="40,5" default="29,5"/>
+    </loader>
+    <image id="n40_cxow" name="n40" src="kteu2" fileName="tiles/lwgc_tile_tray_23.png" xy="88,-5" size="83,75" rotation="90">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="separate" pages="0" values="88,-5" default="77,-5"/>
+    </image>
+    <image id="n42_o52y" name="n42" src="o52y6c" fileName="ting/黄色遮罩1.png" xy="13,-4" size="73,83">
+      <gearDisplay controller="color" pages="1"/>
+      <gearXY controller="separate" pages="0" values="13,-4" default="13,-4"/>
+      <relation target="n38_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n41_s2nk" name="ghost" src="s2nk3x" fileName="basic/ghost_mark.png" xy="37,-4" scale="0.7,0.7" visible="false">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearXY controller="separate" pages="0" values="37,-4" default="26,-4"/>
+    </image>
+  </displayList>
+</component>

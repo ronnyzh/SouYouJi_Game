@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="28jundqr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="cjdq0" name="images_texas_poker_card_2.png" path="/puke/" exported="true"/>
+    <image id="cjdq1" name="方块-10.png" path="/puke/" exported="true"/>
+    <image id="cjdq2" name="方块-2.png" path="/puke/" exported="true"/>
+    <image id="cjdq3" name="方块-3.png" path="/puke/" exported="true"/>
+    <image id="cjdq4" name="方块-4.png" path="/puke/" exported="true"/>
+    <image id="cjdq5" name="方块-5.png" path="/puke/" exported="true"/>
+    <image id="cjdq6" name="方块-6.png" path="/puke/" exported="true"/>
+    <image id="cjdq7" name="方块-7.png" path="/puke/" exported="true"/>
+    <image id="cjdq8" name="方块-8.png" path="/puke/" exported="true"/>
+    <image id="cjdq9" name="方块-9.png" path="/puke/" exported="true"/>
+    <image id="cjdqa" name="方块-A.png" path="/puke/" exported="true"/>
+    <image id="cjdqb" name="方块-J.png" path="/puke/" exported="true"/>
+    <image id="cjdqc" name="方块-K.png" path="/puke/" exported="true"/>
+    <image id="cjdqd" name="方块-Q .png" path="/puke/" exported="true"/>
+    <image id="cjdqe" name="梅花-10.png" path="/puke/" exported="true"/>
+    <image id="cjdqf" name="梅花-2.png" path="/puke/" exported="true"/>
+    <image id="cjdqg" name="梅花-3.png" path="/puke/" exported="true"/>
+    <image id="cjdqh" name="梅花-4.png" path="/puke/" exported="true"/>
+    <image id="cjdqi" name="梅花-5.png" path="/puke/" exported="true"/>
+    <image id="cjdqj" name="梅花-6.png" path="/puke/" exported="true"/>
+    <image id="cjdqk" name="梅花-7.png" path="/puke/" exported="true"/>
+    <image id="cjdql" name="梅花-8.png" path="/puke/" exported="true"/>
+    <image id="cjdqm" name="梅花-9.png" path="/puke/" exported="true"/>
+    <image id="cjdqn" name="梅花-A.png" path="/puke/" exported="true"/>
+    <image id="cjdqo" name="梅花-J.png" path="/puke/" exported="true"/>
+    <image id="cjdqp" name="梅花-K.png" path="/puke/" exported="true"/>
+    <image id="cjdqq" name="梅花-Q.png" path="/puke/" exported="true"/>
+    <image id="cjdqr" name="红心-10.png" path="/puke/" exported="true"/>
+    <image id="cjdqs" name="红心-2.png" path="/puke/" exported="true"/>
+    <image id="cjdqt" name="红心-3.png" path="/puke/" exported="true"/>
+    <image id="cjdqu" name="红心-4.png" path="/puke/" exported="true"/>
+    <image id="cjdqv" name="红心-5.png" path="/puke/" exported="true"/>
+    <image id="cjdqw" name="红心-6.png" path="/puke/" exported="true"/>
+    <image id="cjdqx" name="红心-7.png" path="/puke/" exported="true"/>
+    <image id="cjdqy" name="红心-8.png" path="/puke/" exported="true"/>
+    <image id="cjdqz" name="红心-9.png" path="/puke/" exported="true"/>
+    <image id="cjdq10" name="红心-A.png" path="/puke/" exported="true"/>
+    <image id="cjdq11" name="红心-J.png" path="/puke/" exported="true"/>
+    <image id="cjdq12" name="红心-K.png" path="/puke/" exported="true"/>
+    <image id="cjdq13" name="红心-Q.png" path="/puke/" exported="true"/>
+    <image id="cjdq14" name="黑桃-10.png" path="/puke/" exported="true"/>
+    <image id="cjdq15" name="黑桃-2.png" path="/puke/" exported="true"/>
+    <image id="cjdq16" name="黑桃-3.png" path="/puke/" exported="true"/>
+    <image id="cjdq17" name="黑桃-4.png" path="/puke/" exported="true"/>
+    <image id="cjdq18" name="黑桃-5.png" path="/puke/" exported="true"/>
+    <image id="cjdq19" name="黑桃-6.png" path="/puke/" exported="true"/>
+    <image id="cjdq1a" name="黑桃-7.png" path="/puke/" exported="true"/>
+    <image id="cjdq1b" name="黑桃-8.png" path="/puke/" exported="true"/>
+    <image id="cjdq1c" name="黑桃-9.png" path="/puke/" exported="true"/>
+    <image id="cjdq1d" name="黑桃-A.png" path="/puke/" exported="true"/>
+    <image id="cjdq1e" name="黑桃-J.png" path="/puke/" exported="true"/>
+    <image id="cjdq1f" name="黑桃-K.png" path="/puke/" exported="true"/>
+    <image id="cjdq1g" name="黑桃-Q.png" path="/puke/" exported="true"/>
+  </resources>
+  <publish name="pokersStyle2"/>
+</packageDescription>

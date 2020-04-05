@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,119">
+  <displayList>
+    <component id="n61_kstv" name="n61" src="kteu10" xy="83,96" rotation="180"/>
+    <component id="n62_kstv" name="n62" src="kteu10" xy="135,96" rotation="180"/>
+    <component id="n63_kstv" name="n63" src="kteu10" xy="188,96" rotation="180"/>
+    <component id="n64_kstv" name="n64" src="kteu10" xy="114,96" visible="false" rotation="180"/>
+  </displayList>
+</component>

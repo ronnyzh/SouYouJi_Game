@@ -1,0 +1,1337 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+        	"content":"2人;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【牌数】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"64张(包括一至九万各四张，以及东南西北中发白各四张，没有条和筒);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【定庄】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+            "content":"系统随机选取一位玩家当庄;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【模式】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+            "content":"支持玩家进行吃、碰、杠、胡、听的操作;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【胡牌方式】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+            "content":"自摸、点炮、抢杠、杠开;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【流局】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+            "content":"当双方都没有胡牌时且没有余牌张数时，进入流局状态。"
+        },
+
+        {
+        	"type" : 1,
+        	"itemStyle" : 2,
+        	"line": "1",
+        	"fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "计分:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【基本计分】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+            "content":"游戏输赢=场次底分*胡牌番数，输家的杠分无效;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【流局】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+            "content":"进入流局则不算分;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【系统抽成】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+            "content":"系统会从赢家的所赢取游戏收益中抽5%;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【防小博大】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 70,
+            "content":"本局玩家带进多少本金，本局最多也等额输赢多少，如您本局带入100，结算时您理论应得200，为公平起见，您本局最多也只能赢到100，而不是200。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "牌型分项:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "128番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+        	"content":"【大于五】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+        	"content":"由序数牌6-9的顺子，刻子，将牌组成的和牌，不计清一色;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+        	"content":"【九莲宝灯】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"4",
+        	"fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 90,
+        	"content":"由1种花色序数牌子按1112345678999组成的特定牌型，不能吃，碰，杠牌，形成门清九面听的牌型，见同花色任何1张序数牌即成和牌,不计清一色，门前清，自摸计不求人；注：如果不是门清九面听则不是九莲宝灯;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【小于五】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":880,
+            "itemHeight": 50,
+            "content":"由序数牌1-4的顺子，刻子，将牌组成的和牌，不计清一色;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【大七星】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 90,
+            "content":"和牌为七对子，并且由“东南西北中发白”当中的字牌构成，不计七对，三元七对，四喜七对，全带幺，门前清，字一色，自摸计不求人。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "88番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【四杠】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":880,
+            "itemHeight": 50,
+            "content":"4个杠，暗杠加计，不计三杠、双明杠、明杠、碰碰和;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【连七对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"由一种花色序数牌组成序数相连7个对子的和牌,不计七对、门前清、清一色，自摸计不求人;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【大四喜】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"由4副风刻(杠)组成的和牌，不计碰碰和、风刻、双风刻、小三风、大三风、四字刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【地胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"闲家摸到第一张牌就和牌，称为地和；如果闲家抓牌前有人吃碰杠(包括暗杠)那么不算地和，不计不求人、自摸;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【天胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 50,
+            "content":"庄家在发完牌就和牌，如果庄家在发完牌后有暗杠，则不算天和，不计不求人、自摸。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "64番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【人胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"庄家打出的第一张牌闲家就和牌称为人和，如庄家出牌前有暗杠，那么不算人和;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【四同顺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 90,
+            "content":"一种花色4副序数相同的顺子，不计三连刻、三同顺、七对、四归一;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【四连刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 90,
+            "content":"一种花色4副依次递增一位数的刻子，不计三连刻、三同顺、碰碰和;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【四暗刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"4个暗刻(暗杠)，不计三暗刻、双暗刻、碰碰和、门前清，自摸计不求人;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【字一色】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"没有数字牌，全部字牌，不计碰碰和、全带幺、混幺九、四字刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【小四喜】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"和牌时有风牌的3副刻子及将牌，不计大三风、小三风、双风刻、风刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【大三元】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 50,
+            "content":"和牌中，有中发白3副刻子，不计双箭刻、箭刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":210,
+            "content":"【四喜七对子】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":670,
+            "itemHeight": 50,
+            "content":"和牌为七对子，并且包含“东南西北”、不计七对、门前清，自摸计不求人。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "48番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【小三元】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 50,
+            "content":"和牌时有箭牌的两副刻子及将牌，不计双箭刻、箭刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "content":"【三元七对子】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":700,
+            "itemHeight": 50,
+            "content":"胡牌为七对子，并且包含“中发白”，不计七对、门前清，自摸计不求人。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "32番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【天听】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 70,
+            "content":"庄家打出第1张牌时报听称为天听; 发完牌后闲家便报听也称为天听，天听要在和牌后才算番，如果庄家在发完牌后有暗杠，则庄家不算天听，计报听;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【七对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"由7个对子组成和牌，不计门前清，自摸计不求人;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【三杠】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"3个杠，暗杠加计，三暗杠加计三暗刻，不计双明杠、明杠;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【混幺九】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 50,
+            "content":"由字牌和序数牌一、九的刻子用将牌组成的和牌，不计碰碰和,全带幺。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "24番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【大三风】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"3个风刻，不计双风刻、风刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【三同顺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"和牌时有一种花色3副序数相同的顺子，不计三连刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【三连刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"和牌时有一种花色3副依次递增一位数字的刻子，不计三同顺;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【四字刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"四个字牌的刻或杠，不计碰碰胡;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【三暗刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"3个暗刻，不计双暗刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【四步高】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 70,
+            "content":"一种花色4副依次递增一位数或依次递增二位数的顺子，不计三步高。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "16番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【清龙】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"和牌时，有一种花色1-9相连接的序数牌。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "12番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【三步高】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 60,
+            "content":"和牌时，有一种花色3副依次递增一位或依次递增二位数字的顺子;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【清一色】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 50,
+            "content":"是指由1种花色的序数牌顺子、 刻子(杠)、将牌组成的和牌。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "8番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【海底捞月】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 60,
+            "content":"自摸牌墙上最后一张牌和牌，不计自摸;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【抢杠胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 60,
+            "content":"和别人自抓开明杠的牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【杠上开花】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"开杠抓进的牌成和牌，不计自摸。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "6番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【小三风】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 70,
+            "content":"东南西北其中2个是刻，1个是对，胡牌时有两个风牌的刻或杠，再加上一对风牌作为将眼;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【不求人】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 70,
+            "content":"4副牌及将中没有吃牌、碰牌(包括明杠)的自摸和牌，不计自摸、门前清;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【双箭刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"2副箭刻(或杠)，不计箭刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【双暗杠】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"2个暗杠，不计双暗刻、暗杠。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "4番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【双风刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"两个由东、南、西、北3张相同的牌组成的刻子，不计风刻;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【双明杠】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"2个明杠，不计明杠;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【全带幺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"和牌时，每副牌、将牌都有幺牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【全求人】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"全靠吃牌、碰牌、单钓别人打出的牌和牌。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "2番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【暗杠】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"自抓4张相同的牌开杠;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【断幺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"和牌中没有一、九及字牌。"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【双暗刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth": 600,
+            "content":"2个暗刻。"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【四归一】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 60,
+            "itemWidth": 750,
+            "content":"和牌中，有4张相同的牌归于一家的顺、刻子、对、将牌中（不包括杠牌）;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【门前清】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 30,
+            "itemWidth": 750,
+            "content":"没有吃、碰、明杠，和别人打出的牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【混一色】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth": 800,
+            "content":"由一种花色序数牌及字牌组成的和牌。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "1番"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【自摸】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth": 800,
+            "content":"自己抓进牌成和牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【报听】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth": 800,
+            "content":"主动选择听牌，自动摸打之后和牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【明杠】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 60,
+            "itemWidth": 800,
+            "content":"自己有暗刻，碰别人打出的一张相同的牌开杠；或自己抓进一张与碰的明刻相同的牌开杠;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【箭刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth": 800,
+            "content":"由中、发、白3张相同的牌组成的刻子;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【风刻】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth": 800,
+            "content":"由东、南、西、北3张相同的牌组成的刻子。"
+        }
+        
+    ]
+}

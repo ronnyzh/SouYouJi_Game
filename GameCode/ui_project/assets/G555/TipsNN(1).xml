@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,100" pivot="0.5,0.5">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <image id="n0_s4ce" name="n0" src="hvb92d" xy="11,17" pivot="0.5,0.5" size="282,68" aspect="true">
+      <relation target="n3_s4ce" sidePair="width-width%,height-height%"/>
+    </image>
+    <loader id="n3_s4ce" name="icon" xy="56,-17" pivot="0.5,0.5" size="191,139" aspect="true" url="ui://73wt91sshvb92e" align="center" vAlign="middle" fill="scaleMatchWidth" color="#fbfbfb">
+      <gearIcon controller="c1" pages="0,1,2,3,4,5,6,7,8,9,10,11,12" values="ui://73wt91sshvb92e|ui://73wt91sshvb92f|ui://73wt91sshvb92g|ui://73wt91sshvb92h|ui://73wt91sshvb92i|ui://73wt91sshvb92j|ui://73wt91sshvb92k|ui://73wt91sshvb92l|ui://73wt91sshvb92m|ui://73wt91sshvb92n|ui://73wt91sshvb92o|ui://73wt91sshvb92p|ui://73wt91sshvb92q" default="ui://73wt91sshvb92r"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Size" target="n3_s4ce" tween="true" startValue="281.25,206.81" endValue="162.81,87.63" duration="12"/>
+  </transition>
+</component>

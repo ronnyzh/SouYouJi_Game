@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="504,177">
+  <displayList>
+    <component id="n192_as26" name="card_0" src="ojsqb6" fileName="Poker2.xml" xy="73,87" pivot="0.5,0.5" anchor="true" scale="0.7,0.7"/>
+    <component id="n194_as26" name="card_1" src="ojsqb6" fileName="Poker2.xml" xy="253,87" pivot="0.5,0.5" anchor="true" scale="0.7,0.7"/>
+    <component id="n193_as26" name="card_2" src="ojsqb6" fileName="Poker2.xml" xy="433,87" pivot="0.5,0.5" anchor="true" scale="0.7,0.7"/>
+  </displayList>
+  <transition name="filpAni">
+    <item time="0" type="Scale" target="n193_as26" tween="true" startValue="0.7,0.7" endValue="0,0.7" duration="6"/>
+    <item time="0" type="Scale" target="n194_as26" tween="true" startValue="0.7,0.7" endValue="0,0.7" duration="6"/>
+    <item time="0" type="Scale" target="n192_as26" tween="true" startValue="0.7,0.7" endValue="0,0.7" duration="6" label2="showcard"/>
+    <item time="9" type="Scale" target="n194_as26" tween="true" startValue="0,0.7" endValue="0.7,0.7" duration="6"/>
+    <item time="9" type="Scale" target="n192_as26" tween="true" startValue="0,0.7" endValue="0.7,0.7" duration="6"/>
+    <item time="9" type="Scale" target="n193_as26" tween="true" startValue="0,0.7" endValue="0.7,0.7" duration="6"/>
+  </transition>
+  <transition name="card_posAni">
+    <item time="0" type="Scale" target="n194_as26" tween="true" startValue="0.7,0.7" endValue="0.7,0.7" duration="18" label2="card1_scale" ease="Linear"/>
+    <item time="0" type="Scale" target="n193_as26" tween="true" startValue="0.7,0.7" endValue="0.7,0.7" duration="18" label2="card2_scale" ease="Linear"/>
+    <item time="0" type="Scale" target="n192_as26" label="showcard_backface" tween="true" startValue="0.7,0.7" endValue="0.7,0.7" duration="18" label2="card0_scale" ease="Linear"/>
+    <item time="0" type="XY" target="n193_as26" tween="true" startValue="433,87" endValue="433,87" duration="18" label2="card2_endpos" ease="Linear"/>
+    <item time="0" type="XY" target="n192_as26" tween="true" startValue="73,87" endValue="73,87" duration="18" label2="card0_endpos" ease="Linear"/>
+    <item time="0" type="XY" target="n194_as26" tween="true" startValue="253,87" endValue="253,87" duration="18" label2="card1_endpos" ease="Linear"/>
+    <item time="18" type="XY" target="n192_as26" label="card0_endpos" tween="true" startValue="73,87"/>
+    <item time="18" type="XY" target="n194_as26" label="card1_endpos" tween="true" startValue="253,87"/>
+  </transition>
+</component>

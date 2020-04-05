@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>赛事列表:用户{{ uid }}</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="{{ static_url('layui/css/layui.css') }}" media="all">
+    <link rel="stylesheet" href="{{ static_url('layuinotice/notice.css') }}" media="all">
+    <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
+    <style>
+        .layui-table > tbody > tr > td,
+        .layui-table > thead > tr > th {
+            text-align: center;
+        }
+
+        .fieldset-box {
+            background-image: url("{{ static_url('images/chat.jpg') }}");
+            /*background-image: url("http://192.168.50.84:90/res/bg/lobbyBG.jpg");*/
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        /* 设置滚动条的样式 */
+        ::-webkit-scrollbar {
+            width: 10px; /*高宽分别对应横竖滚动条的尺寸*/
+            height: 1px;
+        }
+
+        /*滚动槽*/
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+            background: #ededed;
+            border-radius: 10px;
+        }
+
+        /* 滚动条滑块 */
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: skyblue;
+            background-image: -webkit-linear-gradient(
+                    45deg,
+                    rgba(255, 255, 255, 0.2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, 0.2) 50%,
+                    rgba(255, 255, 255, 0.2) 75%,
+                    transparent 75%,
+                    transparent
+            )
+
+        }
+
+        #msg_box_div {
+            height: 280px;
+            overflow: auto;
+        }
+
+        #msg_box_div::-webkit-scrollbar {
+            width: 4px; /*高宽分别对应横竖滚动条的尺寸*/
+            height: 1px;
+        }
+
+    </style>
+</head>
+<body>
+<script type="text/html">
+    {{ liclassName = "layui-this" }}
+    {{ divclassName = "layui-show" }}
+</script>
+<div class="layui-row" style="margin-top: 20px">
+    <div class="layui-col-md7 layui-col-md-offset1 layui-col-xs12 layui-col-sm12">
+        <fieldset class="layui-elem-field">
+            <legend style="color: #4476A7">当前请求方式</legend>
+            <p style="text-align: left;color: #2F96B4;margin-left: 1em"> 用户:{{ uid }}</p>
+            <div class="layui-field-box" id="req_type"></div>
+        </fieldset>
+        <div class="layui-tab layui-tab-card" lay-filter="gameIds">
+            <ul class="layui-tab-title">
+                {% for _gameId,_gameName in gameIdMap.items() %}
+                <li class="{{liclassName}}" lay-id="{{_gameId}}">{{_gameId}}{{_gameName}}</li>
+                {% if liclassName %}
+                {{ liclassName = "" }}
+                {% end if %}
+                {% end for %}
+            </ul>
+            <div class="layui-tab-content" style="height: auto;">
+                {% for _gameId,_gameName in gameIdMap.items() %}
+                <div class="layui-tab-item {{divclassName}}" data-gameid="{{_gameId}}"></div>
+                {% if divclassName %}
+                {{ divclassName = "" }}
+                {% end if %}
+                {% end for %}
+            </div>
+        </div>
+
+    </div>
+    <div class="layui-col-md3">
+        <div style="min-height: 360px;">
+            <fieldset class="layui-elem-field fieldset-box">
+                <legend style="color: #FD482C;">消息窗</legend>
+                <div class="layui-field-box" id="msg_box_div"></div>
+                <div style="text-align: center">
+                    <input id="readysend_Msg" type="text" placeholder="请输入需要发送的文字" style="height: 20px;">
+                    <button type="button" onclick="sendMsg()" style="width: auto;height: 24px;padding: 0 10px">
+                        发送
+                    </button>
+                    <button type="button" onclick="clearHistoryMsg()" style="width: auto;height: 24px;padding: 0 10px;">
+                        清除历史信息
+                    </button>
+                </div>
+            </fieldset>
+
+        </div>
+
+        <div id="enrollShow_div"></div>
+    </div>
+
+
+</div>
+<script id="req_http_type" type="text/html">
+    <h1 style="color: #9C1A1C">HTTP(已停止该协议,请尽快重连webSocket)</h1>
+    <button type="button" class="layui-btn" onclick="net.do_connect_ws()">连接WebSocket</button>
+</script>
+<script id="req_socket_type" type="text/html">
+    <h1 style="color: #9C1A1C">WebSocket</h1>
+    <button type="button" class="layui-btn" onclick="net.do_close_ws()">断开连接</button>
+    <button type="button" class="layui-btn" onclick="C_S_Handler.C_S_match_infoList_get()">刷新赛事列表</button>
+</script>
+<script id="enrollShow_html" type="text/html">
+    <div class="layui-card layui-anim layui-anim-scale" style="width: 100%;margin: auto">
+        <div class="layui-card-header">
+            <h1 style="color: brown">报名信息</h1>
+        </div>
+        <div class="layui-card-body layui-text">
+            <table class="layui-table">
+                <colgroup>
+                    <col width="150">
+                    <col>
+                </colgroup>
+                <tbody>
+                <%# console.log('[enrollShow_html]',d) %>
+                <%# layui.each(d, function(key, val){ %>
+                <tr>
+                    <%# switch(key) {case "gameId": %>
+                    <td>游戏名</td>
+                    <%# break; case "matchId": %>
+                    <td>赛事编号</td>
+                    <%# break; case "state": %>
+                    <td>当前状态</td>
+                    <%# break; case "ip": %>
+                    <td>游戏ws地址</td>
+                    <%# break; case "port": %>
+                    <td>游戏ws端口</td>
+                    <%# break; case "fullDate": %>
+                    <td>开始时间</td>
+                    <%# break; case "matchNumber": %>
+                    <td>赛事编号</td>
+                    <%# break; case "fullTime": %>
+                    <td>开始时间戳</td>
+                    <%# break; default: %>
+                    <td><% key %></td>
+                    <%# break;
+                    } %>
+                    <td><% val %></td>
+                </tr>
+                <%# }); %>
+                <tr>
+                    <td>操作</td>
+                    <td style="padding-bottom: 0;">
+                        <div class="layui-btn-container">
+                            <%# if(d.state == 1){ %>
+                            <button type="button"
+                                    class="layui-btn site-demo-active layui-btn-danger"
+                                    data-type="del_enroll" data-matchid="<% d.matchId %>" data-gameid="<% d.gameId %>">
+                                取消报名
+                            </button>
+                            <%# }else if(d.state > 1){ %>
+                            <button type="button"
+                                    class="layui-btn site-demo-active layui-btn-warm"
+                                    data-type="into_enroll" data-matchid="<% d.matchId %>" data-gameid="<% d.gameId %>">
+                                进入比赛
+                            </button>
+                            <%# } %>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</script>
+<script id="varEXP_str" type="text/html">
+    <%# layui.each(d.matchDatas, function(index,data){ %>
+    <tr>
+        <td><% data.matchId %></td>
+        <td><% data.title %></td>
+        <td><% data.introduce %></td>
+        <td><% data.fee %></td>
+        <td><% data.maxNum %></td>
+        <td><% data.enrollNum %></td>
+        <td><% data.display == 1?'可见':'不可见' %></td>
+        <td><% data.enroll_status == 1?'可报名':'不可报名' %></td>
+        <td>
+            <div class="layui-btn-group active_bth_div_body active_bth_div_<% data.gameId %>_<% data.matchId %>">
+                <button class="layui-btn site-demo-active bth_active_enrollInfo" data-type="enrollInfo"
+                        data-matchid="<% data.matchId %>" data-gameid="<% data.gameId %>">查看详情
+                </button>
+                <button class="layui-btn site-demo-active bth_active_enroll layui-btn-disabled layui-btn-normal"
+                        data-type="enroll" data-matchid="<% data.matchId %>" data-gameid="<% data.gameId %>">报名
+                </button>
+                <button class="layui-btn site-demo-active bth_active_del_enroll layui-btn-disabled layui-btn-danger"
+                        data-type="del_enroll" data-matchid="<% data.matchId %>" data-gameid="<% data.gameId %>">取消报名
+                </button>
+                <button class="layui-btn site-demo-active bth_active_into_enroll layui-btn-disabled layui-btn-warm"
+                        data-type="into_enroll" data-matchid="<% data.matchId %>" data-gameid="<% data.gameId %>">进入比赛
+                </button>
+            </div>
+        </td>
+    </tr>
+    <%# }); %>
+</script>
+<script id="varTabBody" type="text/html">
+    <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+        <legend>{gameName}</legend>
+    </fieldset>
+    <blockquote class="layui-elem-quote layui-quote-nm">
+        <div style="text-align: right">
+            <button type="button" class="layui-btn layui-btn-radius site-demo-active" data-type="refresh_gameOne"
+                    data-gameid={gameId}>刷新
+            </button>
+        </div>
+        <table class="layui-table">
+            <colgroup>
+                <col width="100">
+                <col width="150">
+                <col width="300">
+                <col width="100">
+                <col width="100">
+                <col width="100">
+                <col width="100">
+                <col width="350">
+                <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>赛事ID</th>
+                <th>赛事标题</th>
+                <th>赛事描述</th>
+                <th>所需门票</th>
+                <th>所需人数</th>
+                <th>当前人数</th>
+                <th>是否可见状态</th>
+                <th>是否报名状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody id="tbody_{gameId}">
+            </tbody>
+        </table>
+    </blockquote>
+</script>
+<script src="{{ static_url('layui/layui.all.js') }}" charset="utf-8"></script>
+<script src="{{ static_url('layuinotice/notice.js') }}" charset="utf-8"></script>
+<script src="{{ static_url('js/protobuf.js') }}" charset="utf-8"></script>
+<script src="{{ static_url('js/socketMgr.js') }}" charset="utf-8"></script>
+<script src="{{ static_url('js/matchList.js') }}" charset="utf-8"></script>
+<script>
+    class dataViewCls {
+        constructor() {
+            this.matchDatas = {};
+            this.enrollInfo = {};
+            this.isInit = false;
+        }
+
+        initData(matchList, enrollInfo) {
+            this.doKey_matchList(matchList);
+            this.doKey_enrollInfo(enrollInfo);
+            this.showView();
+            this.isInit = true;
+        }
+
+
+        doKey_matchList(matchList) {
+            let gameId = verifyMgr.verify_gameId(matchList.gameId);
+            let matchId = matchList.matchId;
+            if (gameId) {
+                this.updateMatchDatas_GameOne(gameId, matchList.matchDatas);
+            } else {
+                this.resetMatchDatas(matchList.matchDatas);
+            }
+        }
+
+        doKey_enrollInfo(enrollInfo) {
+            this.resetEnrollInfo(enrollInfo)
+        }
+
+        resetMatchDatas(matchDatas) {
+            this.matchDatas = {};
+            layui.each(matchDatas, (index, matchInfo) => {
+                console.log(matchInfo);
+                let gameId = matchInfo.gameId;
+                let matchId = matchInfo.matchId;
+                if (!this.matchDatas.hasOwnProperty(gameId)) {
+                    this.matchDatas[gameId] = {}
+                }
+                this.matchDatas[gameId][matchId] = matchInfo
+            });
+            console.log(this.matchDatas);
+            notice.info('全部赛事:刷新成功');
+        }
+
+        resetEnrollInfo(enrollInfo) {
+            let newEnrollInfo = {};
+            enrollInfo = enrollInfo || {};
+            let gameId = verifyMgr.verify_gameId(enrollInfo.gameId);
+            let matchId = verifyMgr.verify_matchId(enrollInfo.matchId);
+            if (gameId && matchId) {
+                $.each(enrollInfo, (key, val) => {
+                    if (typeof val !== "function" && val != undefined && val != null && val != '') {
+                        newEnrollInfo[key] = val;
+                    }
+                });
+            }
+            // if (!CompareIfEqual(this.enrollInfo,newEnrollInfo,)){
+            if (!compreObj(this.enrollInfo, newEnrollInfo,)) {
+
+                // if (newEnrollInfo != this.enrollInfo) {
+                console.log('不相同,需要更新');
+                console.log(newEnrollInfo);
+                console.log(this.enrollInfo);
+                this.enrollInfo = newEnrollInfo;
+                this.showView_enrollWindows();
+            } else {
+                console.log('相同,不需要更新');
+            }
+            notice.info('报名信息:刷新成功');
+        }
+
+        updateMatchDatas_GameOne(gameId, matchDatas) {
+            this.matchDatas[gameId] = {};
+            layui.each(matchDatas, (index, matchInfo) => {
+                console.log(matchInfo);
+                let gameId = matchInfo.gameId;
+                let matchId = matchInfo.matchId;
+                if (!this.matchDatas.hasOwnProperty(gameId)) {
+                    this.matchDatas[gameId] = {}
+                }
+                this.matchDatas[gameId][matchId] = matchInfo
+            });
+            console.log(this.matchDatas);
+            notice.info('{0}:刷新成功'.format(gameIdMap[gameId]));
+        }
+
+        showView() {
+            this.showView_matchData();
+            this.showView_enrollWindows();
+        }
+
+        showView_matchData() {
+            layui.each(this.matchDatas, (gameId, matchData) => {
+                this.view_matchData(gameId, matchData, this.enrollInfo)
+            });
+        }
+
+        view_matchData(gameId, matchDatas) {
+            let getTpl = varEXP_str.innerHTML;
+            let view = document.getElementById('tbody_{gameId}'.format({'gameId': gameId}));
+            if ($.isEmptyObject(matchDatas)) {
+                view.innerHTML = '';
+            } else {
+                laytpl(getTpl).render({'matchDatas': matchDatas, 'enrollInfo': this.enrollInfo}, function (html) {
+                    view.innerHTML = html;
+                });
+            }
+        }
+
+        showView_enrollWindows() {
+            let enrollInfo = this.enrollInfo;
+            let getTpl = enrollShow_html.innerHTML;
+            let view = document.getElementById('enrollShow_div');
+            if ($.isEmptyObject(enrollInfo)) {
+                view.innerHTML = '';
+            } else {
+                laytpl(getTpl).render(enrollInfo, function (html) {
+                    view.innerHTML != html ? view.innerHTML = html : '';
+                });
+            }
+            this.view_enrollBthShow(enrollInfo)
+        }
+
+        view_enrollBthShow() {
+            let enrollInfo = this.enrollInfo;
+            console.log('[view_enrollBthShow]', enrollInfo);
+            $('.active_bth_div_body >button.layui-btn-disabled').removeClass('layui-btn-disabled');
+            $('.active_bth_div_body >button.bth_active_del_enroll').addClass('layui-btn-disabled');
+            $('.active_bth_div_body >button.bth_active_into_enroll').addClass('layui-btn-disabled');
+            if (!checkIsNone(enrollInfo)) {
+                $('.active_bth_div_body >button.bth_active_enroll').addClass('layui-btn-disabled');
+                let gameId = enrollInfo['gameId'];
+                let matchId = enrollInfo['matchId'];
+                let state = enrollInfo['state'];
+                if (state == 1) {
+                    let bthClassName = '.active_bth_div_{0}_{1} >button.bth_active_del_enroll'.format(gameId, matchId);
+                    $(bthClassName).removeClass('layui-btn-disabled');
+                } else if (state >= 2) {
+                    let bthClassName = '.active_bth_div_{0}_{1} >button.bth_active_into_enroll'.format(gameId, matchId);
+                    $(bthClassName).removeClass('layui-btn-disabled');
+                }
+            }
+        }
+
+    }
+
+    class verifyMgr {
+        static verify_gameId(gameId) {
+            return (gameId && gameId != 0) ? gameId : undefined
+        }
+
+        static verify_matchId(matchId) {
+            return (matchId && matchId != 0) ? matchId : undefined
+        }
+
+        static checkSuc(code) {
+            return code == 0
+        }
+    }
+</script>
+<script>
+    // layui.link("{{ static_url('layui/css/layui.css') }}");
+    // layui.link("{{ static_url('layuinotice/notice.css') }}");
+    let curSid = "{{ sid }}";
+    let gameIdMap = JSON.parse(`{% raw json.dumps(gameIdMap) %}`);
+    gameIdMap = {
+        '701': '广东麻将',
+        '703': '广西麻将',
+        '702': '海南麻将',
+        '704': '血流麻将',
+        undefined: '全部游戏',
+        null: '全部游戏',
+        '': '全部游戏,'
+    };
+
+    $('body').on('click', '.site-demo-active', function () {
+        let othis = $(this);
+        let type = othis.data('type');
+        //按钮禁用状态不可点击
+        if (othis.hasClass('layui-btn-disabled')) {
+            console.log('按钮禁用状态不可点击');
+            return
+        }
+        active[type] ? active[type].call(this, othis) : '';
+    });
+
+
+    let changeReq_type = function (type) {
+        if (type === 'socket') {
+            notice.info('当前请求方式更换为:WebSocket');
+            $('#req_type').html(req_socket_type.innerHTML);
+        } else {
+            notice.info('当前请求方式更换为:HTTP(已停止该协议,请尽快重连webSocket)');
+            $('#req_type').html(req_http_type.innerHTML);
+        }
+    };
+
+    $(".layui-tab-item").each(function (index, event) {
+        let gameId = $(event).data('gameid');
+        $(event).append(varTabBody.innerHTML.format({
+            'gameId': gameId,
+            'gameName': gameIdMap[gameId]
+        }));
+    });
+
+    //Hash地址的定位
+    let layid = location.hash.replace(/^#gameIds=/, '');
+    element.tabChange('gameIds', layid);
+
+    element.on('tab(gameIds)', function (elem) {
+        location.hash = 'gameIds=' + $(this).attr('lay-id');
+    });
+
+    net = new NetHandler();
+    dataView = new dataViewCls();
+    console.log(net);
+    net.do_connect_ws();
+    socket = net.socket;
+
+    window.setTimeout(function () {
+        C_S_Handler.C_S_match_infoList_get();
+    }, 100);
+
+</script>
+
+</body>
+</html>

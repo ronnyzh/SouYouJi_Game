@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,350" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5" name="icon" xy="152,173" pivot="0.5,0.5" anchor="true" size="298,347" url="ui://wpa3vk7vjlz3n" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n6_p7lx" name="txtDF" xy="39,226" size="221,52" font="ui://wpa3vk7vp7lx1z" fontSize="50" color="#000099" align="center" letterSpacing="-2" autoSize="none" singleLine="true" text="D999"/>
+    <text id="n7_p7lx" name="txtRF" xy="43,294" size="125,61" font="ui://wpa3vk7vp7lx20" fontSize="50" color="#000099" singleLine="true" text="R999"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

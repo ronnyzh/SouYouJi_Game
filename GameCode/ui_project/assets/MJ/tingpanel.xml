@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,200" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n2_me6n" name="bg" src="me6n27w" fileName="ting/听牌-底框.png" xy="2,-1" size="114,206">
+      <relation target="n1_qagw" sidePair="rightext-right,leftext-left"/>
+      <relation target="n1_qagw" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <list id="n1_qagw" name="tinglist" xy="13,6" size="94,188" layout="flow_hz" lineGap="40" colGap="35" lineItemCount="7" defaultItem="ui://ejgb8krjqagw6a" align="center">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" adaptationTest="FitSize">
+  <controller name="State" pages="1,nothing,0,start,2,timer" selected="0"/>
+  <controller name="location" pages="0,,1,,2," selected="0"/>
+  <controller name="scale_0" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="" toPage="1" objectId="n192_c82d" controller="card" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n192_c82d" controller="card" targetPage="0"/>
+  </controller>
+  <controller name="scale_1" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="" toPage="0" objectId="n189_c82d" controller="card" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n189_c82d" controller="card" targetPage="1"/>
+  </controller>
+  <controller name="scale_2" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="" toPage="0" objectId="n193_c82d" controller="card" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n193_c82d" controller="card" targetPage="1"/>
+  </controller>
+  <controller name="scale_3" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="" toPage="0" objectId="n194_c82d" controller="card" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n194_c82d" controller="card" targetPage="1"/>
+  </controller>
+  <controller name="scale_4" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="" toPage="0" objectId="n190_c82d" controller="card" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n190_c82d" controller="card" targetPage="1"/>
+  </controller>
+  <displayList>
+    <image id="n128_r7ln" name="n128" src="r7lnscb2" fileName="shisan/十三水水印  .png" xy="666,370" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n141_r7ln" name="nimg" src="r7lnscbz" fileName="shisan/底-倒计时.png" xy="478,348" visible="false" color="#000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n185_l8bk" name="pipeiimg" src="r7lnscc0" fileName="shisan/正在匹配：    秒.png" xy="547,357" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n121_lvff" name="ok_1" src="drirc89" fileName="shisan/OK手势_03.png" xy="278,114" group="n122_lvff" visible="false">
+      <relation target="n37_kcts" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n120_lvff" name="ok_0" src="drirc89" fileName="shisan/OK手势_03.png" xy="528,591" group="n122_lvff" visible="false">
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n123_lvff" name="ok_2" src="drirc89" fileName="shisan/OK手势_03.png" xy="1052,330" group="n122_lvff" visible="false">
+      <relation target="n12_osvm" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n124_lvff" name="ok_3" src="drirc89" fileName="shisan/OK手势_03.png" xy="216,330" group="n122_lvff" visible="false">
+      <relation target="n39_kcts" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n125_lvff" name="ok_4" src="drirc89" fileName="shisan/OK手势_03.png" xy="979,114" group="n122_lvff" visible="false">
+      <relation target="n35_kcts" sidePair="center-center,middle-middle"/>
+    </image>
+    <group id="n122_lvff" name="n122" xy="216,114" size="911,554"/>
+    <text id="n8_osvm" name="room_no" xy="17,3" size="486,35" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" autoSize="shrink" autoClearText="true" text="房号 123456">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n186_l8bk" name="Txt_time" xy="692,354" size="62,44" visible="false" font="ui://rjf5583xwm2e27" fontSize="35" color="#ffff00" align="center" vAlign="middle" autoSize="none" bold="true" text="3">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n159_gq9h" name="gun_0_txt_0" xy="263,591" size="98,38" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n10_osvm" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n160_gq9h" name="gun_1_txt_0" xy="263,644" size="99,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="Got swept x1">
+      <relation target="n10_osvm" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n161_gq9h" name="gun_0_txt_1" xy="12,111" size="101,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n37_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n162_gq9h" name="gun_1_txt_1" xy="12,164" size="101,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n37_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n164_gq9h" name="gun_0_txt_2" xy="1179,488" size="104,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n12_osvm" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n165_gq9h" name="gun_1_txt_2" xy="1179,541" size="99,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n12_osvm" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n166_gq9h" name="gun_0_txt_3" xy="69,487" size="100,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n39_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n167_gq9h" name="gun_1_txt_3" xy="69,540" size="101,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n39_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n168_gq9h" name="gun_0_txt_4" xy="1220,127" size="98,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n35_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n169_gq9h" name="gun_1_txt_4" xy="1220,180" size="98,37" group="n163_gq9h" visible="false" font="方正准圆简体" fontSize="15" color="#ffff00" vAlign="middle" autoSize="shrink" autoClearText="true" text="中枪X1">
+      <relation target="n35_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n163_gq9h" name="n163" xy="12,111" size="1306,570"/>
+    <text id="n139_r7ln" name="tfGameInfo" xy="666,242" pivot="0.5,0.5" anchor="true" size="329,39" font="ui://qn9mtfu5gtil49" fontSize="28" align="center" vAlign="middle" autoSize="none" bold="true" italic="true" autoClearText="true" text="场次：至尊  底分：3000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n194_c82d" name="hand_cards_3" src="c82dscdx" fileName="handcards.xml" xy="357,422" group="n84_evmk" scale="0.5,0.5" visible="false" controller="card,0">
+      <gearSize controller="scale_3" pages="0,1" values="740,500,0.5,0.5|740,500,0.5,0.5" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n190_c82d" name="hand_cards_4" src="c82dscdx" fileName="handcards.xml" xy="912,188" group="n84_evmk" scale="0.5,0.5" visible="false" controller="card,0">
+      <gearSize controller="scale_4" pages="0,1" values="740,500,0.5,0.5|740,500,0.5,0.5" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n189_c82d" name="hand_cards_1" src="c82dscdx" fileName="handcards.xml" xy="409,188" group="n84_evmk" scale="0.5,0.5" visible="false" controller="card,0">
+      <gearSize controller="scale_1" pages="0,1" values="740,500,0.5,0.5|740,500,0.5,0.5" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n193_c82d" name="hand_cards_2" src="c82dscdx" fileName="handcards.xml" xy="980,422" group="n84_evmk" scale="0.5,0.5" visible="false" controller="card,0">
+      <gearSize controller="scale_2" pages="0,1" values="740,500,0.5,0.5|740,500,0.5,0.5" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n192_c82d" name="hand_cards_0" src="c82dscdx" fileName="handcards.xml" xy="663,579" group="n84_evmk" scale="0.5,0.5" visible="false" controller="card,0">
+      <gearSize controller="scale_0" pages="0,1" values="740,500,0.5,0.5|740,500,0.5,0.5" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n129_r7ln" name="qiang_0" src="r73m6c" fileName="qiang.xml" xy="553,387" group="n84_evmk" hideByEditor="true" scale="0.8,0.8" visible="false">
+      <relation target="n192_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n130_r7ln" name="qiang_1" src="r73m6c" fileName="qiang.xml" xy="293,-3" group="n84_evmk" hideByEditor="true" scale="0.8,0.8" visible="false">
+      <relation target="n189_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n131_r7ln" name="qiang_2" src="r73m6c" fileName="qiang.xml" xy="873,223" group="n84_evmk" hideByEditor="true" scale="0.8,0.8" visible="false">
+      <relation target="n193_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n132_r7ln" name="qiang_3" src="r73m6c" fileName="qiang.xml" xy="242,226" group="n84_evmk" hideByEditor="true" scale="0.8,0.8" visible="false">
+      <relation target="n194_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n133_r7ln" name="qiang_4" src="r73m6c" fileName="qiang.xml" xy="799,-6" group="n84_evmk" hideByEditor="true" scale="0.8,0.8" visible="false">
+      <relation target="n190_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n134_r7ln" name="img_0" src="r7lnscb6" fileName="typeimg.xml" xy="661,523" group="n84_evmk" hideByEditor="true" visible="false">
+      <gearXY controller="location" pages="0,1,2" values="661,523|661,590|661,653"/>
+      <relation target="n192_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n135_r7ln" name="img_1" src="r7lnscb6" fileName="typeimg.xml" xy="402,133" group="n84_evmk" hideByEditor="true" visible="false">
+      <gearXY controller="location" pages="0,1,2" values="402,133|402,200|402,269"/>
+      <relation target="n189_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n136_r7ln" name="img_2" src="r7lnscb6" fileName="typeimg.xml" xy="982,369" group="n84_evmk" visible="false">
+      <gearXY controller="location" pages="0,1,2" values="982,369|975,433|975,502"/>
+      <relation target="n193_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n137_r7ln" name="img_3" src="r7lnscb6" fileName="typeimg.xml" xy="354,368" group="n84_evmk" hideByEditor="true" visible="false">
+      <gearXY controller="location" pages="0,1,2" values="354,368|346,434|346,504"/>
+      <relation target="n194_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n138_r7ln" name="img_4" src="r7lnscb6" fileName="typeimg.xml" xy="910,133" group="n84_evmk" hideByEditor="true" visible="false">
+      <gearXY controller="location" pages="0,1,2" values="910,133|910,199|910,266"/>
+      <relation target="n190_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n84_evmk" name="hand_card" xy="242,-6" size="1478,1085"/>
+    <component id="n142_gq9h" name="special_0" src="gq9hsccv" fileName="specialType.xml" xy="655,624" group="n110_cew1" scale="0.8,0.8" visible="false">
+      <relation target="n192_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n143_gq9h" name="special_1" src="gq9hsccv" fileName="specialType.xml" xy="388,230" group="n110_cew1" scale="0.8,0.8" visible="false">
+      <relation target="n189_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n144_gq9h" name="special_2" src="gq9hsccv" fileName="specialType.xml" xy="969,467" group="n110_cew1" scale="0.8,0.8" visible="false">
+      <relation target="n193_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n145_gq9h" name="special_3" src="gq9hsccv" fileName="specialType.xml" xy="329,466" group="n110_cew1" scale="0.8,0.8" visible="false">
+      <relation target="n194_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n146_gq9h" name="special_4" src="gq9hsccv" fileName="specialType.xml" xy="903,233" group="n110_cew1" scale="0.8,0.8" visible="false">
+      <relation target="n190_c82d" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n110_cew1" name="n110" xy="329,230" size="949,519"/>
+    <component id="n96_drir" name="bipaiimg" src="kbsjsceb" fileName="bipaiimg.xml" xy="374,340" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n197_e1xg" name="timer" src="gdu57l" fileName="timer.xml" pkg="rjf5583x" xy="587,295" visible="false" controller="isShowBG,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n118_lvff" name="quanleida" src="lvffsc8w" fileName="qld.xml" xy="341,60" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n127_rh5f" name="updateTimer" src="rh5fsc90" fileName="Pln_count_down.xml" xy="667,331" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n88_r73m" name="Txt_total_score_0" xy="383,545" pivot="0.5,0.5" size="82,40" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldr73m65" fontSize="10" color="#ffcc00" align="center" vAlign="middle" ubb="true" singleLine="true" text="-10&#xA;">
+      <relation target="n10_osvm" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n170_gq9h" name="Txt_total_score_1" xy="118,70" pivot="0.5,0.5" size="108,40" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldr73m65" fontSize="10" color="#ffcc00" align="center" vAlign="middle" ubb="true" singleLine="true" text="-100&#xA;">
+      <relation target="n37_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n171_gq9h" name="Txt_total_score_2" xy="1153,284" pivot="1,1" size="108,40" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldr73m65" fontSize="10" color="#ffcc00" align="right" vAlign="middle" ubb="true" vars="true" singleLine="true" text="-100">
+      <relation target="n12_osvm" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n172_gq9h" name="Txt_total_score_3" xy="65,283" size="108,40" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldr73m65" fontSize="10" color="#ffcc00" align="center" vAlign="middle" ubb="true" singleLine="true" text="-100&#xA;">
+      <relation target="n39_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n173_gq9h" name="Txt_total_score_4" xy="1071,66" pivot="0.5,0.5" size="160,40" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldr73m65" fontSize="10" color="#ffcc00" align="center" vAlign="middle" ubb="true" singleLine="true" text="-10000&#xA;">
+      <relation target="n35_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n174_gq9h" name="Txt_total_score_bule_0" xy="384,545" pivot="0.5,0.5" size="82,40" group="n89_r73m" scale="1.1,1.1" visible="false" font="ui://newlnjldgq9hscdu" fontSize="10" color="#ffcc00" align="center" vAlign="middle" ubb="true" singleLine="true" text="-10&#xA;">
+      <relation target="n10_osvm" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n175_gq9h" name="Txt_total_score_bule_1" xy="68,68" size="189,36" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldgq9hscdu" fontSize="10" color="#ffcc00" align="center" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="-10&#xA;">
+      <relation target="n37_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n176_gq9h" name="Txt_total_score_bule_2" xy="1206,284" pivot="1,1" size="56,40" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldgq9hscdu" fontSize="10" color="#ffcc00" align="right" vAlign="middle" ubb="true" singleLine="true" text="-1">
+      <relation target="n12_osvm" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n178_gq9h" name="Txt_total_score_bule_4" xy="1072,66" pivot="0.5,0.5" size="160,40" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldgq9hscdu" fontSize="10" color="#ffcc00" align="center" vAlign="middle" ubb="true" singleLine="true" text="-10000&#xA;">
+      <relation target="n35_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n177_gq9h" name="Txt_total_score_bule_3" xy="65,283" size="108,40" group="n89_r73m" hideByEditor="true" scale="1.1,1.1" visible="false" font="ui://newlnjldgq9hscdu" fontSize="10" color="#ffcc00" vAlign="middle" ubb="true" singleLine="true" text="-100&#xA;">
+      <relation target="n39_kcts" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n89_r73m" name="total_socre" xy="65,66" size="1197,519"/>
+    <text id="n90_r73m" name="Txt_tou_score" xy="792,478" size="82,40" visible="false" font="ui://newlnjldr73m65" fontSize="10" vAlign="middle" autoClearText="true" text="+20&#xA;">
+      <relation target="n192_c82d" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n91_r73m" name="Txt_zhong_score" xy="792,555" size="82,40" visible="false" font="ui://newlnjldr73m65" fontSize="10" vAlign="middle" autoClearText="true" text="+20&#xA;">
+      <relation target="n192_c82d" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n92_r73m" name="Txt_wei_score" xy="792,623" size="82,40" visible="false" font="ui://newlnjldr73m65" fontSize="10" vAlign="middle" autoClearText="true" text="+20&#xA;">
+      <relation target="n192_c82d" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n10_osvm" name="seat0" src="r4d51y" fileName="Seat.xml" xy="371,584" size="94,167" group="n153_gq9h" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n37_kcts" name="seat1" src="r4d51y" fileName="Seat.xml" xy="122,109" size="94,167" group="n153_gq9h" visible="false">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </component>
+    <component id="n39_kcts" name="seat3" src="r4d51y" fileName="Seat.xml" xy="65,325" size="94,167" group="n153_gq9h" visible="false">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <component id="n12_osvm" name="seat2" src="r4d51y" fileName="Seat.xml" xy="1173,325" size="94,167" group="n153_gq9h" visible="false">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n35_kcts" name="seat4" src="r4d51y" fileName="Seat.xml" xy="1100,109" size="94,167" group="n153_gq9h" visible="false">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <group id="n153_gq9h" name="n153" xy="65,109" size="1202,642" group="n55_s4ce"/>
+    <group id="n55_s4ce" name="n55" xy="65,109" size="1202,642"/>
+    <component id="n94_jl8j" name="btn_continue" src="osvmed" fileName="ScaleButton.xml" pkg="la8oslyo" xy="666,353" pivot="0.5,0.5" anchor="true" size="257,113" locked="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rjf5583xwm2e2v"/>
+    </component>
+    <component id="n198_xzoh" name="autoContTimer" src="fedb69" fileName="timer.xml" pkg="qn9mtfu5" xy="758,296"/>
+    <component id="n196_hwdb" name="aniStartGame" src="wm2e0" fileName="startGame.xml" pkg="rjf5583x" xy="-131,165" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n115_ajl4" name="centerpos" src="gq9hsccw" fileName="null.xml" xy="666,265">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n195_gpcj" name="uiExitGame" src="ktw9k6" fileName="游戏内部按钮/UI_GameMenu.xml" pkg="la8oslyo" xy="0,0" size="1334,750" locked="true" controller="AutoCont,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true"/>
+</component>

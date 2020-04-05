@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,3">
+  <controller name="color" exported="true" pages="0,橙,1,黑,2,红,3,黄,4,蓝,5,绿,6,青,7,紫,8,浅紫" selected="0"/>
+  <displayList>
+    <loader id="n161_awcw" name="icon" xy="0,-28" size="36,34" aspect="true" url="ui://1sm91w5opu4x0">
+      <gearIcon controller="color" pages="1,2,3,4,5,6,7,8" values="ui://1sm91w5opu4x8|ui://1sm91w5opu4x3|ui://1sm91w5opu4x7|ui://1sm91w5opu4x5|ui://1sm91w5opu4x4|ui://1sm91w5opu4x6|ui://1sm91w5opu4x2|ui://1sm91w5opu4x1" default="ui://1sm91w5opu4x0"/>
+    </loader>
+  </displayList>
+</component>

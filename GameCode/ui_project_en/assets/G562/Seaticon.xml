@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <controller name="c1" pages="0,,1,zhuang" selected="0"/>
+  <displayList>
+    <loader id="n0_osvm" name="icon" xy="0,0" size="150,150" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n1_kbsj" name="n1" src="gq9hscd2" xy="0,120" size="150,30"/>
+  </displayList>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImageAlpha="100">
+  <displayList>
+    <graph id="n5_aks0" name="n5" xy="0,0" size="1334,750" locked="true" hideByEditor="true" visible="false" alpha="0.5" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_aks0" name="n1" src="j17qj1" fileName="设置/框-小.png" xy="237,106" group="n6_aks0"/>
+    <image id="n10_osvm" name="n10" src="9lrlil" fileName="头像/头像.png" xy="519,138" group="n6_aks0" aspect="true">
+      <relation target="n1_aks0" sidePair="top-top"/>
+    </image>
+    <component id="n17_avzo" name="btn_close" src="r9ujhj" fileName="ScaleButtonFit.xml" xy="812,112" pivot="0.5,0.5" size="78,79" group="n6_aks0" hideByEditor="true" visible="false">
+      <Button title="确定" titleFontSize="25" icon="ui://la8oslyoavzoi5"/>
+    </component>
+    <component id="n21_9lrl" name="btn_save" src="r9ujhj" fileName="ScaleButtonFit.xml" xy="602,468" pivot="0.5,0.5" size="124,52" group="n6_aks0">
+      <Button title="确定" titleFontSize="25" icon="ui://la8oslyo9lrlin"/>
+    </component>
+    <list id="n22_9lrl" name="list" xy="360,214" size="612,255" group="n6_aks0" layout="pagination" overflow="scroll" lineGap="10" colGap="8" lineItemCount="5" lineItemCount2="2" defaultItem="ui://la8oslyo9lrliu">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n6_aks0" name="n6" xy="237,106" size="858,521" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n6_aks0" tween="true" startValue="0" endValue="1" duration="12" ease="Expo.Out"/>
+    <item time="0" type="XY" target="n6_aks0" tween="true" startValue="336,165" endValue="260,116" duration="12" ease="Expo.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,106">
+  <controller name="c1" pages="0,cover,1,stand" selected="1">
+    <action type="play_transition" fromPage="" toPage="1" transition="deal"/>
+  </controller>
+  <displayList>
+    <image id="n0_yjzs" name="imgBackground" src="is4d1r" xy="0,0" pivot="0.5,0.5"/>
+    <loader id="n1_yjzs" name="icon" xy="0,0" pivot="0.5,0.5" size="76,106" url="ui://dung4bqcq7l50" align="center">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader>
+  </displayList>
+  <transition name="deal">
+    <item time="0" type="Scale" target="n0_yjzs" tween="true" startValue="1,1" endValue="0,1" duration="3"/>
+    <item time="0" type="Visible" target="n1_yjzs" value="false"/>
+    <item time="3" type="Scale" target="n0_yjzs" tween="true" startValue="0,1" endValue="1,1" duration="3"/>
+    <item time="3" type="Scale" target="n1_yjzs" tween="true" startValue="0,1" endValue="1,1" duration="2"/>
+    <item time="3" type="Visible" target="n1_yjzs" value="true"/>
+    <item time="6" type="Scale" target="n1_yjzs" value="1,1"/>
+    <item time="6" type="Size" target="n1_yjzs" value="76,106"/>
+    <item time="6" type="Visible" target="n1_yjzs" value="true"/>
+  </transition>
+</component>

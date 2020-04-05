@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="568,69">
+  <displayList>
+    <image id="n96_drir" name="img2" src="drirc88" xy="428,24" pivot="0.5,0.5">
+      <relation target="n95_drir" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n95_drir" name="img1" src="drirc87" xy="162,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n97_drir" name="img3" src="drirc88" xy="0,24" pivot="0.5,0.5" rotation="180" flip="vt">
+      <relation target="n95_drir" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="t1">
+    <item time="0" type="XY" target="n96_drir" tween="true" startValue="497,24" endValue="428,24" duration="12"/>
+    <item time="0" type="XY" target="n97_drir" tween="true" startValue="-70,24" endValue="0,24" duration="12"/>
+  </transition>
+</component>

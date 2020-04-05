@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,1280">
+  <displayList>
+    <graph id="n5_aks0" name="n5" xy="0,0" size="1280,1280" alpha="0.5" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_aks0" name="n1" src="j17qj1" xy="318,434" group="n6_aks0"/>
+    <image id="n12_mr4a" name="n12" src="mr4ahm" xy="334,511" size="605,306" group="n6_aks0" color="#000000"/>
+    <image id="n10_osvm" name="n10" src="j17qj3" xy="584,457" group="n6_aks0" aspect="true">
+      <relation target="n1_aks0" sidePair="top-top"/>
+    </image>
+    <text id="n0_aks0" name="content" xy="382,525" size="520,187" group="n6_aks0" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="网络出错，请重刷新"/>
+    <component id="n3_aks0" name="btn_ok" src="r9ujhj" xy="399,698" size="242,139" group="n11_osvm">
+      <Button title="确定" titleFontSize="25" icon="ui://la8oslyomr4aho"/>
+    </component>
+    <component id="n8_aks0" name="btn_cancel" src="r9ujhj" xy="658,698" size="242,144" group="n11_osvm">
+      <Button title="取消" titleFontSize="25" icon="ui://la8oslyomr4ahn"/>
+    </component>
+    <group id="n11_osvm" name="n11" xy="399,698" size="501,145" group="n6_aks0"/>
+    <group id="n6_aks0" name="n6" xy="318,434" size="638,412" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

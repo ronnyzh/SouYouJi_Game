@@ -1,0 +1,40 @@
+package common;
+
+enum MSG_HEADER {
+    C_S_DOREADYSTART = 0x0000A001; //发送准备结果
+    C_S_ONPROXY = 0x0000A002; // 玩家选择是否托管
+
+    S_C_PLAYERREADYRESULT = 0x0000B001; //广播玩家准备结果
+    S_C_PROXY = 0x0000B002; // 托管广播
+}
+
+message C_S_DoReadyStart {
+    optional bool result = 1; //True或者省略就是准备,False就是取消准备(暂时不做)
+}
+
+message S_C_PlayerReadyResult {
+    message player_info {
+        required fixed32 side = 1; //玩家位置
+        required bool result = 2; //是否准备
+    }
+    repeated player_info PlayerResult = 1;
+}
+
+/*
+    主动托管:
+    0 取消托管  1 进行托管
+*/
+message C_S_OnProxy {
+    required fixed32 choice = 1;
+}
+
+/*
+    托管状态
+*/
+message S_C_Proxy {
+    message S_C_IsProxy {
+        required fixed32 side = 1;
+        required bool isproxy = 2;
+    }
+    repeated S_C_IsProxy data = 1; //可选噶数
+}

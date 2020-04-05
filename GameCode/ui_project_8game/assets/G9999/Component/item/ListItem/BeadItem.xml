@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="31,31" extention="Label">
+  <controller name="ctl" exported="true" pages="0,无,1,庄,2,闲,3,和" selected="0"/>
+  <displayList>
+    <loader id="n2_pqc4" name="n2" xy="15,15" pivot="0.5,0.5" anchor="true" size="31,31" url="ui://wtkqufwmpqc45m">
+      <gearDisplay controller="ctl" pages="1,2,3"/>
+      <gearIcon controller="ctl" pages="2,3" values="ui://wtkqufwmpqc45n|ui://wtkqufwmpqc45o" default="ui://wtkqufwmpqc45m"/>
+    </loader>
+  </displayList>
+  <transition name="flicker">
+    <item time="0" type="Alpha" target="n2_pqc4" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="3" type="Alpha" target="n2_pqc4" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="6" type="Alpha" target="n2_pqc4" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="9" type="Alpha" target="n2_pqc4" tween="true" startValue="0" endValue="1" duration="3"/>
+  </transition>
+</component>

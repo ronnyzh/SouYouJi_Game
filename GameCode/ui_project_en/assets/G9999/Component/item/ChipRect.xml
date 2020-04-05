@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="870,300">
+  <displayList>
+    <component id="n16_kexb" name="0,0" src="kexb2f" fileName="Component/item/ChipRectItem.xml" xy="-2,144" size="318,149" controller="ctl,0"/>
+    <component id="n31_kexb" name="0,1" src="kexb2f" fileName="Component/item/ChipRectItem.xml" xy="320,145" size="250,147" controller="ctl,1"/>
+    <component id="n26_kexb" name="0,2" src="kexb2f" fileName="Component/item/ChipRectItem.xml" xy="574,145" size="295,147" controller="ctl,2"/>
+    <component id="n36_kexb" name="1,0" src="kexb2f" fileName="Component/item/ChipRectItem.xml" xy="-2,0" size="444,143" controller="ctl,3"/>
+    <component id="n41_kexb" name="1,1" src="kexb2f" fileName="Component/item/ChipRectItem.xml" xy="446,0" size="422,142" controller="ctl,4"/>
+  </displayList>
+</component>

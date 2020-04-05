@@ -1,0 +1,914 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "Basic Rules:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[No. of player]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "itemWidth":900,
+        	"content":"2~5, at least 2 players to start the game."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Cards]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+        	"fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+        	"content":"A deck of 52 cards."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"fontSize":30,
+            "itemHeight": 45,
+            "itemWidth":200,
+        	"content": "Gameplay:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Two hole cards + five community cards (Three flop cards + one turn card + one river card). Each player seeks the best five card poker hand to compete against players."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 45,
+            "itemWidth":200,
+            "content": "Hand values:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Royal Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Straight flush from Ten to Ace."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Straight Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Five cards of sequential rank, all of the same suit."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Four-af-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Four cards of the same rank and one card of another rank."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Five cards all of the same suit, not all of sequential rank."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Straight] "
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Five cards of sequential rank, not all of the same suit."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Three-of-a-kind] "
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Three cards of the same rank and two cards of another same rank."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Two Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Two sets of two cards of the same rank and one card of another rank."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Pair]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Two cards of the same rank and three cards of three other ranks."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[High Card]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth":900,
+            "content":"Five cards not all of sequential rank or of the same suit, and none of which are of the same rank."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":190,
+            "content": "Game Rules:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Big/Small Blind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemHeight": 65,
+            "itemWidth":880,
+            "content":"Players are forced to place bet. The small blind is placed by the player to the left of the dealer button and the big blind is then posted by the next player to the left. (The small blind is equal to half of the big blind)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemHeight": 65,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Check]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Player may select check to keep the card, a bet is not required."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Fold]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Discard the hand when the hand shows low chance of winning."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[All-in]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+        	"content":"Player may choose to call with the remaining stake on hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Call]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Player may choose to match a bet or match a raise."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Raise]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth":900,
+            "content":"Player may choose to increase the size of an existing bet in the same betting round."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 50,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Auto-check]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Automatically check in the next betting round."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Check/Fold]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Check if possible, otherwise, fold automatically."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Auto-call]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":900,
+            "content":"Automatically match other’s bet in the next betting round."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Valid betting]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "fontSize":28,
+            "itemHeight": 95,
+            "itemWidth":900,
+            "content":"min (The player’s accumulated betting in this round, max (total betting by other players in this round)). Example: you have bet 100 in this round, Player A and B have bet 150 and 300 in this round, therefore your valid betting in this round – min (100, max (150, 300)) = min (100, 300) = 100."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "fontSize":28,
+            "itemHeight": 95,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Hand Value and Pot Distribution]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 46,
+            "itemWidth":900,
+            "content":"Starts distributing the main pot for the one who bet the least in this round."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 46,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Game commission]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":900,
+            "content":" System may charge 5% of the profit from the winner."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":0,
+            "content":" "
+        }
+        
+    ]
+}

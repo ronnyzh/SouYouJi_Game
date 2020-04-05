@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="94,129" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="bak" pages="0,,1," selected="0"/>
+  <controller name="state" pages="0,stand,1,lay" selected="0"/>
+  <controller name="color" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n7_kteu" name="bg" xy="0,0" pivot="0.5,0.5" size="95,132" url="ui://ejgb8krjkteu3" fill="scaleFree">
+      <gearXY controller="bak" pages="0,1" values="0,0|0,-30" duration="0.1"/>
+      <gearIcon controller="state" pages="1" values="ui://ejgb8krjkteu4" default="ui://ejgb8krjkteu3"/>
+    </loader>
+    <loader id="n5" name="icon" xy="1,22" pivot="0.5,0.5" size="94,110" touchable="false" align="center" vAlign="middle" fill="scale">
+      <gearXY controller="state" pages="0,1" values="1,23|3,3"/>
+      <relation target="n7_kteu" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n11_o52y" name="mask" src="o52y6c" fileName="ting/黄色遮罩1.png" xy="1,0" size="92,131">
+      <gearDisplay controller="color" pages="1"/>
+      <relation target="n7_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n8_s2nk" name="ghost" src="s2nk3x" fileName="basic/ghost_mark.png" xy="0,15" pivot="0.5,0.5" visible="false">
+      <gearXY controller="state" pages="0,1" values="0,16|0,-1"/>
+      <relation target="n7_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+  <transition name="Ani">
+    <item time="0" type="Scale" target="n5" tween="true" startValue="1,1" endValue="0.7,0.7" duration="2" ease="Linear"/>
+    <item time="0" type="Scale" target="n8_s2nk" tween="true" startValue="1,1" endValue="0.7,0.7" duration="2" ease="Linear"/>
+    <item time="0" type="Scale" target="n7_kteu" tween="true" startValue="1,1" endValue="0.7,0.7" duration="2" ease="Linear"/>
+    <item time="0" type="XY" target="n7_kteu" label="startpos" tween="true" startValue="0,0" endValue="0,0" duration="2" label2="endpos" ease="Linear"/>
+  </transition>
+</component>

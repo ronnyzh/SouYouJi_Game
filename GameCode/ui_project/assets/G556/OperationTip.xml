@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,58">
+  <controller name="c1" pages="0,buchu,1,bujiabei,2,buqiang,3,jiabei,4,jiaodizhu,5,qiangdizhu,6,1fen,7,2fen,8,3fen" selected="0"/>
+  <displayList>
+    <loader id="n28_h21o" name="tip_0" xy="0,0" size="104,58" url="ui://8a4txovskvb5m" align="center">
+      <gearIcon controller="c1" pages="1,2,3,4,5,6,7,8" values="ui://8a4txovskvb5f|ui://8a4txovskvb5g|ui://8a4txovskvb5h|ui://8a4txovskvb5i|ui://8a4txovskvb5j|ui://8a4txovskvb5k|ui://8a4txovskvb5l|ui://8a4txovskvb5e" default="ui://8a4txovskvb5m"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Size" target="n28_h21o" value="181.25,159.31"/>
+  </transition>
+</component>

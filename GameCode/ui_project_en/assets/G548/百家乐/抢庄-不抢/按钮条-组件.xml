@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,130">
+  <controller name="c_striveType" exported="true" pages="0,,1," selected="1">
+    <action type="change_page" fromPage="" toPage="1" objectId="n2_pqc4" controller="c1" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n3_pqc4" controller="c1" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n2_pqc4" controller="c1" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n3_pqc4" controller="c1" targetPage="0"/>
+  </controller>
+  <displayList>
+    <image id="n4_pr5x" name="bg" src="pr5xig" fileName="三人场用图/桌面和背景/底部按钮托盘.png" xy="5,26" size="600,77">
+      <gearDisplay controller="c_striveType" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n2_pqc4" name="strive" src="pqc45w" fileName="百家乐/抢庄-不抢/抢庄按钮.xml" xy="313,20" controller="c1,1">
+      <gearIcon controller="c_striveType" pages="0,1" values="ui://rjf5583xprh33p|ui://wtkqufwmns76kk"/>
+      <relation target="" sidePair="right-right,middle-middle"/>
+      <Button icon="ui://wtkqufwmns76kk"/>
+    </component>
+    <component id="n3_pqc4" name="strive_no" src="pqc45x" fileName="百家乐/抢庄-不抢/不抢按钮.xml" xy="53,20" controller="c1,1">
+      <gearIcon controller="c_striveType" default=""/>
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+  </displayList>
+</component>

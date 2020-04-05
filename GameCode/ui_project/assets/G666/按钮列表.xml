@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,688">
+  <displayList>
+    <loader id="n0_iuo1" name="n0" xy="0,0" size="200,688" touchable="false" url="ui://nwo0j1cxlse16y" fill="scaleFree"/>
+    <component id="n1_iuo1" name="btn_rule" src="iuo1ap" fileName="素材/2.0新按钮/玩法按钮-2.0.xml" xy="9,52"/>
+    <component id="n2_iuo1" name="btn_set" src="iuo1ao" fileName="素材/2.0新按钮/设置按钮-2.0.xml" xy="8,156"/>
+    <component id="n3_iuo1" name="btn_exit" src="iuo1an" fileName="素材/2.0新按钮/退出按钮-2.0.xml" xy="8,260"/>
+    <component id="n4_t8jf" name="btn_exit_gameing" src="iuo1an" fileName="素材/2.0新按钮/退出按钮-2.0.xml" xy="8,260" visible="false"/>
+  </displayList>
+</component>

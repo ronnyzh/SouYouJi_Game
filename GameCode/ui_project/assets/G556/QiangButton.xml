@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="167,99" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_h21o" name="n6" src="r9uj35" fileName="明牌牛牛/1-0倍数1.png" xy="-10,-15" size="180,114"/>
+    <loader id="n5" name="icon" xy="50,27" pivot="0.5,0.5" size="71,46" url="ui://8a4txovsqb1b15" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearSize controller="button" pages="0,1" values="71,46,1,1|222,93,1,1" default="222,93,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://la8oslyoodd9hg" downEffect="scale" downEffectValue="0.95"/>
+</component>

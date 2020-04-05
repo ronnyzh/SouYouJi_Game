@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="249,192" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <component id="n1_evmk" name="card_0" src="r4d521" xy="0,0" pivot="0.5,0.5" size="143,192" rotation="-15">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_evmk" name="card_1" src="r4d521" xy="55,-18" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_evmk" name="card_2" src="r4d521" xy="110,0" pivot="0.5,0.5" rotation="15">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

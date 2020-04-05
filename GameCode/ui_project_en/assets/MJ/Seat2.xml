@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,110">
+  <controller name="c1" pages="0,nothing,1,zhuang" selected="1"/>
+  <controller name="balance" pages="2,hide,0,green,1,red" selected="1"/>
+  <controller name="color" pages="0,hide,1,a,2,b,3,c" selected="1"/>
+  <controller name="Nocold" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n24_phnm" name="n24" src="phnm7g" fileName="newres/touxian/头像.png" xy="0,0" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n0_osvm" name="icon" xy="0,0" pivot="0.5,0.5" size="90,90" url="ui://la8oslyoosvmbg" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n21_hg3r" name="n21" src="hg3r6h" fileName="newres/touxian/头像边框.png" xy="-1,-1" pivot="0.5,0.5" size="93,93">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n23_phnm" name="n23" src="hg3r6g" fileName="newres/touxian/头像名称底.png" xy="1,62">
+      <relation target="n24_phnm" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n25_oowi" name="n25" src="oowi27x" fileName="newres/touxian/认输 .png" xy="-26,29" scale="0.5,0.5">
+      <gearDisplay controller="Nocold" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_osvm" name="score" xy="-7,90" size="104,21" font="ui://rjf5583xprh340" fontSize="20" color="#ffcc00" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="10099999">
+      <relation target="n23_phnm" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n2_osvm" name="name" xy="-5,62" size="100,28" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="用户名有多长">
+      <relation target="n23_phnm" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n8_h21o" name="icon_click" src="kvb5a" fileName="ScaleButton.xml" pkg="8a4txovs" xy="0,0" size="90,110" locked="true"/>
+    <image id="n13_q3nt" name="n13" src="fldw2f" fileName="game344/table_background.png" xy="-5,-21" pivot="0.5,0.5" group="n14_q3nt" scale="0.5,0.5"/>
+    <loader id="n12_q3nt" name="n12" xy="5,-10" pivot="0.5,0.5" size="78,82" group="n14_q3nt" scale="0.5,0.5" url="ui://ejgb8krjfldw2a">
+      <gearDisplay controller="color" pages="1,2,3"/>
+      <gearXY controller="color" pages="1,2,3" values="5,-10|6,-11|4,-12" default="3,-11"/>
+      <gearIcon controller="color" pages="1,2" values="ui://ejgb8krjfldw2a|ui://ejgb8krjfldw2e" default="ui://ejgb8krjfldw2c"/>
+    </loader>
+    <group id="n14_q3nt" name="n14" xy="-5,-21" size="100,103" advanced="true">
+      <gearDisplay controller="color" pages="1,2,3"/>
+    </group>
+    <image id="n9_to38" name="n9" src="mr4a3v" fileName="textures/table/庄.png" xy="52,-25">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n11_jkuv" name="scoreBalance" xy="45,30" pivot="0.5,0.5" anchor="true" size="160,54" visible="false" fontSize="50" color="#2e9100" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#ffffff" strokeSize="2" singleLine="true" text="000">
+      <gearDisplay controller="balance" pages="0,1"/>
+      <gearXY controller="balance" pages="0,1" values="45,30|45,30" default="70,95" tween="true" ease="Back.Out" duration="0.7"/>
+      <gearColor controller="balance" pages="1" values="#cc3333,#ffffff" default="#2e9100,#ffffff"/>
+    </text>
+    <image id="n16_g9t7" name="n16" src="g9t73w" fileName="basic/头像-金币.png" xy="0,110" visible="false"/>
+    <loader id="n20_ktw9" name="n20" xy="-49,-32" size="193,116" url="ui://ejgb8krjktw961">
+      <gearDisplay controller="balance" pages="0,1"/>
+      <gearIcon controller="balance" pages="0" values="ui://ejgb8krjktw961" default="ui://ejgb8krjktw960"/>
+      <relation target="n11_jkuv" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n18_ktw9" name="scoreBalance1" xy="45,25" pivot="0.5,0.5" anchor="true" size="160,54" font="ui://ejgb8krjktw95x" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" autoClearText="true" text="+8,18.0">
+      <gearDisplay controller="balance" pages="0"/>
+      <gearXY controller="balance" pages="2,0,1" values="45,95|45,25|45,25" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+    <text id="n19_ktw9" name="scoreBalance2" xy="45,25" pivot="0.5,0.5" anchor="true" size="160,54" font="ui://ejgb8krjktw95u" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" autoClearText="true" text="-88,8.3">
+      <gearDisplay controller="balance" pages="1"/>
+      <gearXY controller="balance" pages="2,0,1" values="45,95|45,25|45,25" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+  </displayList>
+</component>

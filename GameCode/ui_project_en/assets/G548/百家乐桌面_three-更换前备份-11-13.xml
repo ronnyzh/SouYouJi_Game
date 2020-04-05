@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <loader id="n42_omlt" name="bg" xy="677,395" pivot="0.5,0.5" anchor="true" size="1331,693" locked="true" touchable="false" url="ui://wtkqufwmbuqyhj" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n36_kexb" name="area_1" src="pqc45h" fileName="Component/item/下注区.xml" xy="219,206" size="211,211" locked="true" hideByEditor="true" scale="1.45,1.42" controller="c1,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n31_kexb" name="area_4" src="pqc45h" fileName="Component/item/下注区.xml" xy="530,219" size="211,211" locked="true" hideByEditor="true" scale="1.32,1.35" controller="c1,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n41_kexb" name="area_2" src="pqc45h" fileName="Component/item/下注区.xml" xy="815,206" size="211,211" locked="true" hideByEditor="true" scale="1.45,1.42" controller="c1,2">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n16_kexb" name="area_3" src="pqc45h" fileName="Component/item/下注区.xml" xy="135,920" size="302,149" locked="true" hideByEditor="true" visible="false" touchable="false" controller="c1,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n26_kexb" name="area_5" src="pqc45h" fileName="Component/item/下注区.xml" xy="895,935" size="302,147" locked="true" hideByEditor="true" visible="false" touchable="false" controller="c1,0">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <image id="n54_tcy7" name="n54" src="pr5xif" fileName="三人场用图/爆点百家乐/发牌器2.png" xy="520,170" locked="true" hideByEditor="true" scale="-1,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n55_tcy7" name="n55" src="pr5xif" fileName="三人场用图/爆点百家乐/发牌器2.png" xy="819,170" locked="true" hideByEditor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n46_pmql" name="comTimer" src="gdu57l" fileName="timer.xml" pkg="rjf5583x" xy="570,161" locked="true" visible="false" touchable="false" controller="isShowBG,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n43_zqre" name="jetton_Layout" src="ufwpbx" fileName="筹码容器.xml" xy="0,0" size="1334,750" locked="true" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n52_dowb" name="showCard" src="pmqlf1" fileName="ShowCard.xml" xy="0,0" locked="true" touchable="false" controller="c_score,0,c_bg,0"/>
+    <component id="n51_dowb" name="cardLayout" src="pmqlf0" fileName="ShowCard_New.xml" xy="0,0" locked="true" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n53_ba8g" name="resultCom" src="ba8gh3" fileName="输赢结果.xml" xy="678,316" locked="true" touchable="false" controller="c_result,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

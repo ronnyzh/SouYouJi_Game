@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://ejgb8krj8mbq40">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n96_8mbq" name="n96" xy="0,0" size="1334,750" alpha="0.75" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n97_8mbq" name="cBalance" src="8mbq4v" fileName="GameBalance2.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

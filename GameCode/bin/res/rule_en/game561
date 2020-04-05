@@ -1,0 +1,505 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":50,
+            "itemWidth":200,
+            "content": "Basic Rules:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "content":"[No. of player]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "itemWidth":900,
+        	"content":" 2~5, at least 2 players to start the game."
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "itemWidth":900,
+        	"content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "content":"[Rule]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"12",
+            "itemHeight": 220,
+            "itemWidth":875,
+            "fontSize":28,
+            "content":"All players place an equal amount of chips into the pot before the deal begins. The first player is chosen randomly. Each player is dealt with three cards (face down). Players act in turn, in anti-clockwise rotation. Players may only compare hands in the second round. Player must place bet before comparing hands with other player, the bet must meet the min bet. “All or Nothing” effect is triggered when the stake is lower than the min bet. A round is complete when all players act in turn. A game can have twenty rounds at most. When reaching the last round, the player to the right of the Dealer is forced to compare hand with the next player and further on. Betting is not required in the last round. The Player who loses or folds the hand will be eliminated from this game round. Each game may only have one winner.  "
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"12",
+            "itemHeight": 220,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":" "
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "Hand values:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Three-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Three cards of the same rank (AAA is the highest, 222 is the lowest)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Straight Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Three cards of sequential rank, all of the same suit (AKQ is the highest, A23 is the lowest)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Three cards all of the same suit, not all of sequential rank (AKJ is the highest, 352 is the lowest)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Straight]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Three cards of sequential rank, not all of the same suit (AKQ is the highest, A23 is the lowest)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Pair]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Two cards of the same suit (AAK is the highest, 223 is the lowest)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "content": "Ranking:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "content":"[Hand Ranking]"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"itemHeight":40,
+            "fontSize":28,
+            "itemWidth":900,
+        	"content":"Three-of-a-kind > Straight Flush > Flush > Pair."
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"itemHeight":40,
+            "fontSize":28,
+            "itemWidth":0,
+        	"content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Cards Ranking]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"A>K>Q>J>10>9>8>7>6>5>4>3>2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Suits Ranking]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Spade > Heart > Club > Diamond."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "content":"[Similar Hand Ranking]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"7",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":800,
+            "content":"Compare hand ranking first, if similar hands, shall compare cards ranking then followed by Suits Ranking. For Pair hands, compare the face value of the Pair, if similar Pairs, shall compare the face value of the Kicker, if Kickers are the same, and then only compare the Suits."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"7",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":500,
+            "content": "Basic Rules:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"System may charge 5% of the profit from the winner."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Normal case: Player takes all the chips on the table after winning the game."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight": 60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"In case of “All or Nothing”: Automatically compare hand with all players, starting from the player to right. If win under this condition, extra chips will be returned to the other player, and the Player may take all the remaining chips placed on the table."
+        },
+        {
+            "type":3,
+            "itemStyle" : 0,
+            "line":"1",
+            "itemHeight": 60,
+            "content":""
+        }
+        
+    ]
+}

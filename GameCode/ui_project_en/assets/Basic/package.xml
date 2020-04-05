@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="la8oslyo" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="aks098" name="Notice.xml" path="/" exported="true"/>
+    <component id="aks099" name="Alert.xml" path="/" exported="true"/>
+    <component id="aks09x" name="Button.xml" path="/" exported="true"/>
+    <image id="osvm9y" name="bt.png" path="/common/9grids/"/>
+    <image id="osvm9z" name="btn_close.png" path="/common/9grids/"/>
+    <image id="osvma0" name="img_ui_bg.png" path="/common/9grids/" scale="9grid" scale9grid="180,119,360,238"/>
+    <image id="osvma1" name="img_ui_bg2.png" path="/common/9grids/" scale="9grid" scale9grid="141,21,282,42"/>
+    <image id="osvma2" name="img_ui_guang.png" path="/common/9grids/"/>
+    <image id="osvma3" name="img_ui_title_bg.png" path="/common/9grids/"/>
+    <image id="osvma4" name="tmd.png" path="/common/9grids/"/>
+    <image id="osvma5" name="xhx.png" path="/common/9grids/"/>
+    <image id="osvma6" name="btn_agree.png" path="/buttons/"/>
+    <image id="osvma7" name="btn_back_lobby.png" path="/buttons/"/>
+    <image id="osvma8" name="btn_cancel.png" path="/buttons/"/>
+    <image id="osvma9" name="btn_check_result.png" path="/buttons/"/>
+    <image id="osvmaa" name="btn_continue.png" path="/buttons/"/>
+    <image id="osvmac" name="btn_create_room.png" path="/buttons/"/>
+    <image id="osvmad" name="btn_exit_game.png" path="/buttons/"/>
+    <image id="osvmae" name="btn_green_long.png" path="/buttons/"/>
+    <image id="osvmaf" name="btn_green_shortpng.png" path="/buttons/"/>
+    <image id="osvmah" name="btn_next.png" path="/buttons/"/>
+    <image id="osvmai" name="btn_ok.png" path="/buttons/"/>
+    <image id="osvmaj" name="btn_orange_long.png" path="/buttons/"/>
+    <image id="osvmak" name="btn_orange_short.png" path="/buttons/"/>
+    <image id="osvmal" name="btn_ready.png" path="/buttons/"/>
+    <image id="osvmam" name="btn_red_long.png" path="/buttons/"/>
+    <image id="osvman" name="btn_red_short.png" path="/buttons/"/>
+    <image id="osvmao" name="btn_reject.png" path="/buttons/"/>
+    <image id="osvmap" name="btn_send.png" path="/buttons/"/>
+    <image id="osvmaq" name="btn_share.png" path="/buttons/"/>
+    <image id="osvmar" name="btn_share2.png" path="/buttons/"/>
+    <image id="osvmas" name="btn_sqjs.png" path="/buttons/"/>
+    <image id="osvmat" name="btn_switch_account.png" path="/buttons/"/>
+    <image id="osvmau" name="btn_wx.png" path="/buttons/"/>
+    <image id="osvmav" name="btn_yk.png" path="/buttons/"/>
+    <image id="osvmaw" name="desktop_btn_invitation.png" path="/buttons/"/>
+    <image id="osvmb4" name="bangxhu.png" path="/common/lobby/btns/"/>
+    <image id="osvmb5" name="fenxiang.png" path="/common/lobby/btns/"/>
+    <image id="osvmb6" name="fuli.png" path="/common/lobby/btns/"/>
+    <image id="osvmb7" name="huodong.png" path="/common/lobby/btns/"/>
+    <image id="osvmb8" name="kaishi.png" path="/common/lobby/btns/"/>
+    <image id="osvmb9" name="shangchen.png" path="/common/lobby/btns/"/>
+    <image id="osvmba" name="shezhi.png" path="/common/lobby/btns/"/>
+    <image id="osvmbb" name="tuichu.png" path="/common/lobby/btns/"/>
+    <image id="osvmbc" name="xinxi.png" path="/common/lobby/btns/"/>
+    <image id="osvmbd" name="yaoqingma.png" path="/common/lobby/btns/"/>
+    <image id="osvmbe" name="zhanji.png" path="/common/lobby/btns/"/>
+    <image id="osvmbg" name="default_icon.png" path="/common/lobby/" exported="true"/>
+    <image id="osvmbq" name="touxiangk.png" path="/common/lobby/" exported="true" scale="9grid" scale9grid="17,16,34,32"/>
+    <image id="osvmbr" name="user_icon.png" path="/common/lobby/"/>
+    <image id="osvmd7" name="djjs.png" path="/common/text/"/>
+    <image id="osvme2" name="wx-f.png" path="/common/toggle/"/>
+    <image id="osvme3" name="wx-y.png" path="/common/toggle/"/>
+    <image id="osvme4" name="xz-f.png" path="/common/toggle/"/>
+    <image id="osvme5" name="xz-y.png" path="/common/toggle/"/>
+    <component id="osvmec" name="WindowFrame.xml" path="/"/>
+    <component id="osvmed" name="ScaleButton.xml" path="/" exported="true"/>
+    <component id="osvmee" name="LayoutHallTitle.xml" path="/"/>
+    <component id="osvmef" name="LayoutBtns.xml" path="/"/>
+    <component id="osvmeh" name="WindowFrame_NoClose.xml" path="/"/>
+    <component id="osvmei" name="UI_JoinGame.xml" path="/ui_join_game/"/>
+    <image id="osvmej" name="0.png" path="/ui_join_game/textures/"/>
+    <image id="osvmek" name="1.png" path="/ui_join_game/textures/"/>
+    <image id="osvmel" name="2.png" path="/ui_join_game/textures/"/>
+    <image id="osvmem" name="3.png" path="/ui_join_game/textures/"/>
+    <image id="osvmen" name="4.png" path="/ui_join_game/textures/"/>
+    <image id="osvmeo" name="5.png" path="/ui_join_game/textures/"/>
+    <image id="osvmep" name="6.png" path="/ui_join_game/textures/"/>
+    <image id="osvmeq" name="7.png" path="/ui_join_game/textures/"/>
+    <image id="osvmer" name="8.png" path="/ui_join_game/textures/"/>
+    <image id="osvmes" name="9.png" path="/ui_join_game/textures/"/>
+    <image id="osvmet" name="cs.png" path="/ui_join_game/textures/"/>
+    <image id="osvmeu" name="jrfjz.png" path="/ui_join_game/textures/"/>
+    <image id="osvmev" name="sc.png" path="/ui_join_game/textures/"/>
+    <image id="osvmew" name="srd.png" path="/ui_join_game/textures/"/>
+    <image id="osvmex" name="td.png" path="/ui_join_game/textures/"/>
+    <component id="osvmez" name="LayoutSubBtns.xml" path="/"/>
+    <component id="osvmf0" name="CheckBox.xml" path="/" exported="true"/>
+    <component id="osvmf1" name="Radio.xml" path="/" exported="true"/>
+    <image id="h21of3" name="set_btn.png" path="/ui_exit_game/"/>
+    <image id="h21of4" name="desktop_btn_jiesanfangjian.png" path="/ui_exit_game/"/>
+    <image id="h21of5" name="desktop_btn_likaifangjian.png" path="/ui_exit_game/"/>
+    <image id="h21of6" name="desktop_btn_youxishezhi.png" path="/ui_exit_game/"/>
+    <image id="h21of7" name="desktop_img_diban.png" path="/ui_exit_game/" scale="9grid" scale9grid="0,0,31,72" qualityOption="source" smoothing="false"/>
+    <component id="h21of8" name="UI_ExitGame.xml" path="/ui_exit_game/" exported="true"/>
+    <component id="h21of9" name="BtnExit.xml" path="/ui_exit_game/"/>
+    <image id="ti75fe" name="img_ui_bg3.png" path="/common/9grids/" scale="9grid" scale9grid="30,29,60,58"/>
+    <component id="p8c9fg" name="ColorButton.xml" path="/" exported="true"/>
+    <component id="ti75ff" name="LayerMask.xml" path="/" exported="true"/>
+    <image id="ti75fj" name="bg_fangka.png" path="/lobby_common/"/>
+    <image id="ti75fk" name="icon_fangka.png" path="/lobby_common/"/>
+    <image id="ti75fl" name="notice_bg.png" path="/lobby_common/"/>
+    <image id="ti75fr" name="sc.png" path="/lobby_common/"/>
+    <image id="ti75ft" name="btn_settings.png" path="/lobby_common/"/>
+    <image id="ti75fu" name="icon_frame.png" path="/lobby_common/" scale="9grid" scale9grid="25,25,50,50"/>
+    <image id="ti75fv" name="btn_wode.png" path="/lobby_common/"/>
+    <image id="ti75fw" name="btn_zhanji.png" path="/lobby_common/"/>
+    <image id="ti75g8" name="top_bar.png" path="/lobby_common/"/>
+    <image id="ti75g9" name="bottom_bar.png" path="/lobby_common/" scale="9grid" scale9grid="25,21,50,42"/>
+    <image id="ti75gb" name="btn_more.png" path="/lobby_common/"/>
+    <component id="ti75gc" name="SubMenuLobby.xml" path="/"/>
+    <image id="ti75gd" name="btn_guize.png" path="/sub_menu/"/>
+    <image id="ti75ge" name="bg_menu.png" path="/sub_menu/" scale="9grid" scale9grid="34,67,68,134"/>
+    <image id="ti75gf" name="btn_kefu.png" path="/sub_menu/"/>
+    <image id="ti75gg" name="btn_setting.png" path="/sub_menu/"/>
+    <image id="ti75gh" name="btn_zhanji.png" path="/sub_menu/"/>
+    <component id="qyvdgj" name="SubMenuSubLobby.xml" path="/"/>
+    <image id="qyvdgk" name="btn_lobby.png" path="/lobby_common/"/>
+    <image id="b3cagl" name="icon_coin.png" path="/lobby_common/"/>
+    <image id="jkuvgm" name="0.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgn" name="00.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgo" name="01.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgp" name="02.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgq" name="03.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgr" name="04.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgs" name="05.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgt" name="06.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgu" name="07.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgv" name="08.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgw" name="09.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgx" name="1.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvgy" name="1到9红色.png" path="/美术数字/"/>
+    <image id="jkuvgz" name="1到9绿色.png" path="/美术数字/"/>
+    <image id="jkuvh0" name="2.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh1" name="3.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh2" name="4.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh3" name="5.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh4" name="6.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh5" name="7.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh6" name="8.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh7" name="9.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh8" name="减号.png" path="/美术数字/" exported="true"/>
+    <image id="jkuvh9" name="加减号.png" path="/美术数字/"/>
+    <image id="jkuvha" name="加号.png" path="/美术数字/" exported="true"/>
+    <font id="jkuvhb" name="FontNumGreen.fnt" path="/" exported="true"/>
+    <font id="kaouhc" name="FontNumRed.fnt" path="/" exported="true"/>
+    <image id="r9ujhh" name="方-换桌.png" path="/共用/" exported="true"/>
+    <image id="r9ujhi" name="方-退出 .png" path="/共用/" exported="true"/>
+    <component id="r9ujhj" name="ScaleButtonFit.xml" path="/" exported="true"/>
+    <image id="mr4ahk" name="弹框.png" path="/共用/"/>
+    <image id="mr4ahl" name="弹框-提示.png" path="/共用/"/>
+    <image id="mr4ahm" name="深色背景.png" path="/共用/" exported="true" scale="9grid" scale9grid="12,13,7,5" qualityOption="source" smoothing="false"/>
+    <image id="mr4ahn" name="cm_btn_back.png" path="/共用/" exported="true"/>
+    <image id="mr4aho" name="cm_btn_ok.png" path="/共用/" exported="true"/>
+    <image id="mr4ahp" name="默认头像.png" path="/共用/" exported="true"/>
+    <component id="avzohq" name="Setting.xml" path="/" exported="true"/>
+    <image id="avzohr" name="zhuomian-1.jpg" path="/弹窗/"/>
+    <image id="avzohs" name="zhuomian-2.jpg" path="/弹窗/"/>
+    <image id="avzohu" name="弹框-设置.png" path="/弹窗/"/>
+    <image id="avzohx" name="进度-拖动点.png" path="/弹窗/"/>
+    <image id="avzohy" name="进度.png" path="/弹窗/" scale="9grid" scale9grid="11,0,17,21" gridTile="12" qualityOption="source" smoothing="false"/>
+    <image id="avzohz" name="进度底.png" path="/弹窗/" scale="9grid" scale9grid="14,0,10,21"/>
+    <image id="avzoi0" name="进度条底.png" path="/弹窗/"/>
+    <component id="avzoi1" name="SliderSound_grip.xml" path="/"/>
+    <component id="avzoi2" name="SliderSound.xml" path="/"/>
+    <image id="avzoi5" name="1 (196).png" path="/共用/"/>
+    <image id="nuw9i6" name="方-收起，展开 .png" path="/ui_exit_game/" exported="true"/>
+    <image id="nuw9i7" name="3方-收起，展开2.png" path="/ui_exit_game/" exported="true"/>
+    <component id="nuw9i8" name="BtnExit2.xml" path="/ui_exit_game/"/>
+    <component id="nuw9i9" name="UI_ExitGame2.xml" path="/ui_exit_game/" exported="true"/>
+    <image id="9lrlia" name="1.png" path="/头像/"/>
+    <image id="9lrlib" name="10.png" path="/头像/"/>
+    <image id="9lrlic" name="2.png" path="/头像/"/>
+    <image id="9lrlid" name="3.png" path="/头像/"/>
+    <image id="9lrlie" name="4.png" path="/头像/"/>
+    <image id="9lrlif" name="5.png" path="/头像/"/>
+    <image id="9lrlig" name="6.png" path="/头像/"/>
+    <image id="9lrlih" name="7.png" path="/头像/"/>
+    <image id="9lrlii" name="8.png" path="/头像/"/>
+    <image id="9lrlij" name="9.png" path="/头像/"/>
+    <image id="9lrlik" name="QQ截图20180604155447.png" path="/头像/"/>
+    <image id="9lrlil" name="头像.png" path="/头像/"/>
+    <image id="9lrlim" name="头像底杠.png" path="/头像/"/>
+    <image id="9lrlin" name="按钮.png" path="/头像/"/>
+    <image id="9lrlio" name="框.png" path="/头像/"/>
+    <image id="9lrlip" name="选中.png" path="/头像/"/>
+    <component id="9lrliq" name="Portrait.xml" path="/" exported="true"/>
+    <component id="9lrliu" name="HeadBtn.xml" path="/"/>
+    <image id="j17qiv" name="tuichu.png" path="/设置/"/>
+    <image id="j17qiw" name="只看标注信息.jpg" path="/设置/"/>
+    <image id="j17qix" name="拖动点.png" path="/设置/"/>
+    <image id="j17qiy" name="设置.png" path="/设置/"/>
+    <image id="j17qiz" name="进度 .png" path="/设置/"/>
+    <image id="j17qj0" name="进度底.png" path="/设置/"/>
+    <image id="j17qj1" name="框-小.png" path="/设置/" scale="9grid" scale9grid="160,103,320,206"/>
+    <image id="j17qj2" name="进度2.png" path="/设置/"/>
+    <image id="j17qj3" name="提示.png" path="/设置/"/>
+    <component id="g9syj4" name="History.xml" path="/" exported="true"/>
+    <image id="g9syj5" name="其实就是框换个颜色.png" path="/战绩/"/>
+    <image id="g9syj6" name="列表底.png" path="/战绩/" scale="9grid" scale9grid="7,16,14,32"/>
+    <image id="g9syj7" name="战绩.png" path="/战绩/"/>
+    <image id="g9syj8" name="标题栏.png" path="/战绩/" scale="9grid" scale9grid="23,14,46,28"/>
+    <image id="g9syj9" name="框-大.png" path="/战绩/"/>
+    <component id="g9syja" name="HistoryItem.xml" path="/战绩/"/>
+    <image id="g9syjb" name="2.png" path="/玩法/"/>
+    <image id="g9syjc" name="深色底.png" path="/玩法/" scale="9grid" scale9grid="19,19,38,38"/>
+    <image id="g9syjd" name="玩法.png" path="/玩法/"/>
+    <image id="g9syje" name="红中玩法.png" path="/玩法/"/>
+    <component id="g9syjf" name="Rules.xml" path="/" exported="true"/>
+    <image id="g9syjg" name="3玩法.jpg" path="/玩法/"/>
+    <component id="g9syjh" name="RuleItem.xml" path="/玩法/"/>
+    <image id="g9syji" name="翻页-按钮.png" path="/战绩/"/>
+    <image id="g9syjj" name="翻页底.png" path="/战绩/"/>
+    <image id="g9syjk" name="翻页-上一页.png" path="/战绩/"/>
+    <image id="g9syjl" name="翻页-下一页.png" path="/战绩/"/>
+    <component id="g9syjm" name="NextButton.xml" path="/"/>
+    <image id="pw7kjn" name="loading_0.png" path="/loading圈圈缩小后/"/>
+    <image id="pw7kjo" name="loading_1.png" path="/loading圈圈缩小后/"/>
+    <component id="pw7kjp" name="PreLoading.xml" path="/loading圈圈缩小后/" exported="true"/>
+    <image id="lm45jq" name="mini.jpg" path="/loading圈圈缩小后/" exported="true"/>
+    <component id="crbrjr" name="request.xml" path="/loading圈圈缩小后/" exported="true"/>
+    <component id="somijs" name="NoticeView.xml" path="/" exported="true"/>
+    <image id="somijt" name="公告-底.png" path="/公告/"/>
+    <image id="somiju" name="公告-喇叭.png" path="/公告/"/>
+    <component id="somijv" name="NoticeView2.xml" path="/" exported="true"/>
+    <component id="itmijw" name="RollString.xml" path="/" exported="true"/>
+    <sound id="fbf8jx" name="button.wav" path="/sound/" exported="true"/>
+    <sound id="fbf8jy" name="click_card.wav" path="/sound/" exported="true"/>
+    <component id="ktw9k6" name="UI_GameMenu.xml" path="/游戏内部按钮/" exported="true"/>
+    <image id="ktw9k7" name="QQ截图20180710180432.png" path="/游戏内部按钮/"/>
+    <image id="ktw9k8" name="托管-.png" path="/游戏内部按钮/" exported="true"/>
+    <image id="ktw9k9" name="游戏内按钮展开渐变背景.png" path="/游戏内部按钮/" exported="true" scale="9grid" scale9grid="0,0,40,53"/>
+    <image id="ktw9ka" name="游戏战绩-.png" path="/游戏内部按钮/" exported="true"/>
+    <image id="ktw9kb" name="玩法.png" path="/游戏内部按钮/" exported="true"/>
+    <image id="ktw9kc" name="设置.png" path="/游戏内部按钮/" exported="true"/>
+    <image id="ktw9kd" name="退出-.png" path="/游戏内部按钮/" exported="true"/>
+    <component id="ktw9ke" name="ScaleButtonFit2.xml" path="/" exported="true"/>
+    <component id="gjn8kf" name="richText.xml" path="/玩法/"/>
+    <component id="pyfnkg" name="LanguageBtn.xml" path="/" exported="true"/>
+    <component id="jzg7kg" name="PresetGold.xml" path="/" exported="true"/>
+    <image id="jzg7kh" name="OK.png" path="/携带金额/"/>
+    <image id="jzg7ki" name="后退.png" path="/携带金额/"/>
+    <image id="jzg7kj" name="带入.png" path="/携带金额/"/>
+    <image id="jzg7kk" name="弹窗.png" path="/携带金额/"/>
+    <image id="jzg7kl" name="按键.png" path="/携带金额/"/>
+    <image id="jzg7km" name="请输入您要带入的金额.png" path="/携带金额/"/>
+    <image id="jzg7kn" name="输入-..png" path="/携带金额/"/>
+    <image id="jzg7ko" name="输入-0.png" path="/携带金额/"/>
+    <image id="jzg7kp" name="输入-1.png" path="/携带金额/"/>
+    <image id="jzg7kq" name="输入-2.png" path="/携带金额/"/>
+    <image id="jzg7kr" name="输入-3.png" path="/携带金额/"/>
+    <image id="jzg7ks" name="输入-4.png" path="/携带金额/"/>
+    <image id="jzg7kt" name="输入-5.png" path="/携带金额/"/>
+    <image id="jzg7ku" name="输入-6.png" path="/携带金额/"/>
+    <image id="jzg7kv" name="输入-7.png" path="/携带金额/"/>
+    <image id="jzg7kw" name="输入-8.png" path="/携带金额/"/>
+    <image id="jzg7kx" name="输入-9.png" path="/携带金额/"/>
+    <image id="jzg7ky" name="键盘-.png" path="/携带金额/"/>
+    <image id="jzg7kz" name="键盘-0.png" path="/携带金额/"/>
+    <image id="jzg7l0" name="键盘-1.png" path="/携带金额/"/>
+    <image id="jzg7l1" name="键盘-2.png" path="/携带金额/"/>
+    <image id="jzg7l2" name="键盘-3.png" path="/携带金额/"/>
+    <image id="jzg7l3" name="键盘-4.png" path="/携带金额/"/>
+    <image id="jzg7l4" name="键盘-5.png" path="/携带金额/"/>
+    <image id="jzg7l5" name="键盘-6.png" path="/携带金额/"/>
+    <image id="jzg7l6" name="键盘-7.png" path="/携带金额/"/>
+    <image id="jzg7l7" name="键盘-8.png" path="/携带金额/"/>
+    <image id="jzg7l8" name="键盘-9.png" path="/携带金额/"/>
+    <component id="jzg7l9" name="PresetGoldNumButton.xml" path="/" exported="true"/>
+    <image id="jzg7la" name="输入框1.png" path="/携带金额/" scale="9grid" scale9grid="17,17,34,34"/>
+    <font id="jzg7lb" name="pGoldFont.fnt" path="/携带金额/" exported="true"/>
+    <image id="pyfnkh" name="语言-English.png" path="/语言/"/>
+    <image id="pyfnki" name="语言-中文.png" path="/语言/"/>
+    <image id="pyfnkj" name="语言-未选中.png" path="/语言/"/>
+    <image id="pyfnkk" name="语言-语言.png" path="/语言/"/>
+    <image id="pyfnkl" name="语言-选中.png" path="/语言/"/>
+    <image id="fedblc" name="取消继续.png" path="/游戏内部按钮/"/>
+    <image id="fedbld" name="继续下局.png" path="/游戏内部按钮/"/>
+    <image id="m01xlc" name="mini2.jpg" path="/loading圈圈缩小后/" exported="true"/>
+    <image id="t0g2le" name="mini.jpg" path="/"/>
+    <image id="og4nld" name="Language.png" path="/语言/"/>
+    <image id="og4nle" name="中国国旗.png" path="/语言/lan/"/>
+    <image id="og4nlf" name="英国国旗.png" path="/语言/lan/"/>
+    <component id="og4nln" name="Language.xml" path="/" exported="true"/>
+    <image id="l9rnlo" name="金币框.png" path="/语言/"/>
+  </resources>
+  <publish name="Basic">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,58">
+  <controller name="c1" pages="0,buchu,1,bujiabei,2,buqiang,3,jiabei,4,jiaodizhu,5,qiangdizhu,6,1fen,7,2fen,8,3fen" selected="0"/>
+  <displayList>
+    <loader id="n28_h21o" name="tip_0" xy="0,0" size="104,58" url="ui://dosvlhxrs2tl2i" align="center">
+      <gearIcon controller="c1" pages="1,2,3,4,5,6,7,8" values="ui://dosvlhxrs2tl2b|ui://dosvlhxrs2tl2c|ui://dosvlhxrs2tl2d|ui://dosvlhxrs2tl2e|ui://dosvlhxrs2tl2f|ui://dosvlhxrs2tl2g|ui://dosvlhxrs2tl2h|ui://dosvlhxrs2tl2a" default="ui://dosvlhxrs2tl2i"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Size" target="n28_h21o" value="181.25,159.31"/>
+  </transition>
+</component>

@@ -1,0 +1,301 @@
+package private_mahjong;
+
+//为防止编号冲突，扩展协议命名需从0x00002001或0x00003001之类的位置开始
+
+enum MSG_HEADER {
+    //client2server
+    C_S_ON_GA = 0x00002001; //下注
+	C_S_GET_RESULT = 0x00002002;  // 客户端获取结果
+    C_S_ON_STRIVE = 0x00002003; // 抢庄
+    C_S_READY_GAME = 0x00002004;
+    C_S_HAS_BULL_OR_NOT = 0x00002005;
+	
+    C_S_TOTAL_BALANCE_DATA = 0x00002007;
+	
+    //server2client
+    S_C_GA_DATA = 0x00003001;          // 下注返回数据
+    S_C_GA_CHOOSE  =  0x000030002;     //   
+    S_C_GET_RESULT = 0x000030003;      // 结果返回
+    S_C_TOTAL_REPORT = 0x000030004;    // 大局结算
+	S_C_DEAL_CARDS = 0x000030005; // 手牌
+    S_C_GET_ONE_RESULT = 0x000030006; // 单个玩家返回
+    S_C_RESULT_INFO = 0x000030007; // 输赢结果
+    S_C_FLY = 0x000030008;
+    S_C_STRIVE_FOR_DEALER = 0x000030009; // 抢庄
+    S_C_STRIVE_FOR_DEALER_TIMEOUT = 0x00003000a; // 抢庄等待时间
+    S_C_STRIVE_CHOOSE = 0x00003000b; // 抢庄确认帧
+    S_C_STRIVE_RESULT = 0x00003000c; // 抢庄结果
+    S_C_READY_GAME = 0x00003000d;
+    S_C_READY_GAME_DATA = 0x00003000e;
+    S_C_HAS_BULL_OR_NOT = 0x00003000f;
+	
+	S_C_WAIT_TIME = 0x000030090;
+	S_C_SWAP_DEALER = 0x000030091;//换位
+    S_C_TOTAL_BALANCE_DATA = 0x000030092; // 总战绩
+    S_C_MESSAGE = 0x000030093; // 消息
+    S_C_ADDL_REPORT_CUR_GAME = 0x000030094;  //赣州单局结算报表需要的数据
+    S_C_OLD_ADDL_REPORT_CUR_GAME = 0x000030095;  //赣州上一局单局结算报表需要的数据
+}
+                                
+                                
+//下注
+message C_S_OnGa {
+    required fixed32 ga = 1; //选择的噶
+	required fixed32 handnum = 2; //选择的手牌数
+}
+
+                 
+                                
+//下注广播数据
+message S_C_GaData{
+    repeated fixed32 canGetGa = 2; //可以选的噶
+}
+
+//玩家下注的广播
+message S_C_Ga_Choose{
+    message GaGetData{
+        required fixed32 side = 1; //所在位置
+        required fixed32 ga = 2; //所选的噶
+		optional fixed32 handnum = 3; //手牌数
+    }
+    repeated GaGetData data = 1;//可选噶数
+    required bool result = 2; //成功或失败
+    optional string reason = 3; //失败原因
+	optional fixed32 wait_time = 4; // 下注时间倒计时
+}
+
+
+//下注完成后发送手牌
+message S_C_DealCards{
+    repeated string tiles = 1; //手牌
+    repeated string tiles2 = 2; //第二幅手牌
+    required fixed64 timestamp = 3;
+	optional fixed32 wait_time = 4; // 等待结果倒计时
+	repeated fixed32 doubleCardSides = 5;// 有第二手牌的玩家位置列表
+	repeated fixed32 participantSides = 6; // 参与当局游戏的玩家列表
+}
+
+
+
+enum GET_BULL_TYPE {
+    NO_BULL = 0; // 没牛
+    ONE2SIX_BULL = 1; //牛1-6
+    SEVEN2NINE_BULL = 2; //牛7-9
+    TEN_BULL = 3; // 牛牛
+    FIVE_FLOWER = 4; // 五花
+    FOUR_SAME = 5; // 四炸
+    FIVE_SMALL = 6; // 五小
+}
+
+message BullInfo{
+    required fixed32 side = 1;  // 位置
+    repeated string handcards =2; // 手牌
+    required fixed32 bullnum = 3; // 牛几
+    required float score = 4; // 分数
+    required GET_BULL_TYPE type = 5;  // 牛的类型
+}
+
+// 拿去本局结果
+message C_S_GetResult{
+    optional fixed32 gamenum = 1; // 当前局数  暂时可选
+}
+
+// 返回本局结果
+message S_C_GetResult{
+    repeated BullInfo info = 1;   // 牛的信息
+    required fixed32 dealer = 2; // 庄家位置
+    required fixed32 gamenum = 3; // 当前局
+    required fixed32 playcount = 4; // 玩家人数
+    repeated BullInfo info2 = 5;
+}
+
+// 返回本局结果
+message S_C_GetOneResult{
+    repeated BullInfo info = 1;   // 牛的信息
+    required fixed32 side = 2; // 玩家位置
+    required fixed32 dealer = 3; // 庄家位置
+    required fixed32 gamenum = 4; // 当前局
+    required fixed32 playcount = 5; // 玩家人数
+    repeated BullInfo info2 = 6;
+}
+
+message S_C_ResultInfo{
+    required fixed32 dealer = 1; // 庄家位置
+    required fixed32 side = 2; // 玩家位置
+    required fixed32 win_status = 3; // 输入结果 0 输 1 平 2 赢
+}
+
+// 飞行模式
+message S_C_Fly{
+    message Info{
+        required fixed32 side = 1;  // 位置
+        required sfixed32 score = 2; // 分数
+        required sfixed32 wager = 3; // 下注分
+    }
+    required fixed32 dealer = 1; // 庄家位置
+    required sfixed32 dealer_score = 2; // 庄家分数
+    repeated Info others = 3; // 其他人结果
+}
+
+
+enum BULL_INFO_TYPE {
+    BULL0 = 0; // 没牛
+    BULL1 = 1;
+    BULL2 = 2;
+    BULL3 = 3;
+    BULL4 = 4;
+    BULL5 = 5;
+    BULL6 = 6;
+    BULL7 = 7;
+    BULL8 = 8;
+    BULL9 = 9;
+    BULL10 = 10; //牛牛
+	BULL_FOUR_SAME = 11; // 四炸
+    BULL_FIVE_FLOWER = 12; // 五花
+    BULL_FIVE_SMALL = 13; // 五小
+}
+message PlayerInfo {
+    required fixed32 side = 1;
+    required string nickname = 2;
+    optional fixed32 level = 3;
+    optional sfixed64 coin = 4;
+    optional fixed32 vipLevel = 5;
+    optional string ip = 6;
+    optional fixed32 sex = 7;
+    optional fixed32 roomCards = 8;
+    optional string headImgUrl = 9;
+    optional fixed32 id = 10; // id
+	
+    optional string account = 12;
+    optional bool isonline = 13;
+}
+
+// 个人各项数据
+message BullResult {
+    required BULL_INFO_TYPE  type = 1;
+    required fixed32  count = 2;
+}
+
+message S_C_TotalReport{
+    required fixed32 side = 1;  // 位置信息
+    repeated BullResult bull_info = 2;
+    repeated PlayerInfo base_info = 3;
+    required fixed32 dealer_count = 4;  //当庄次数
+    required fixed32 win_count = 5; // 胜利次数
+}
+
+message S_C_StriveForDealer{
+    repeated fixed32 choices = 1; // 选择
+}
+
+message S_C_StriveForDealerTimeout{
+    required fixed32 wait_time = 1; //等待时间
+}
+
+// 抢庄返回
+message S_C_Strive_Choose{
+    message GetData{
+        required fixed32 side = 1; //所在位置
+        required fixed32 choice = 2; //选择
+    }
+    repeated GetData data = 1;
+}
+
+
+// 抢庄操作
+message C_S_OnStrive {
+    required fixed32 choice = 1; //选择 0 或 1
+}
+
+// 抢庄返回
+message S_C_Strive_Result{
+    required fixed32 dealer = 1; // 庄家位置
+	optional fixed32 strive_choice = 2 ; //抢庄倍数
+}
+
+// 准备帧
+message C_S_ReadyGame{
+
+}
+
+message S_C_ReadyGame{
+    required fixed32 side = 1; // 玩家位置
+}
+
+// 准备按钮
+message S_C_ReadyGameData{
+	optional fixed32 wait_time = 1; // 倒计时
+}
+
+// 有牛无牛
+message C_S_HasBullOrNot{
+    required fixed32 data = 1; // 0 无牛  1 有牛
+}
+message S_C_HasBullOrNot{
+	message BullInfo{
+		required fixed32 bullnum = 3; // 牛几
+		required GET_BULL_TYPE type = 5;  // 牛的类型
+		repeated string tiles4ten = 6; // 被10整除的3张牌
+		repeated string tiles4bull = 7; // 确定牛几的2张牌
+	}
+    message GetData{
+        required fixed32 side = 1;
+        required fixed32 data = 2; // 0 无牛  1 有牛
+        required fixed32 result = 3; // 0 错误 1 正确
+		
+		optional BullInfo info = 4;   // 牛的信息
+		
+    }
+    repeated GetData data = 1;
+}
+
+
+message S_C_SwapDealer{
+    required bool result = 1;   //抢庄结果
+    required fixed32 myside = 2;    //我的位置
+    required string nickname = 3;    //我的昵称
+    repeated PlayerInfo playerList = 4;     //所有玩家信息
+}
+
+message S_C_WaitTime{
+	optional fixed32 wait_time = 1; // 倒计时
+	optional string stage = 2;
+}
+
+// 总战绩
+message C_S_TotalBalanceData{
+}
+
+message S_C_TotalBalanceData{
+        message BalanceData{
+            repeated string descs = 1; //
+            required fixed32 side = 2; //位置
+            required string nickname = 3; //昵称
+            required sfixed32 score = 4; //分数
+            optional string headImgUrl = 5; //头像
+        }
+        repeated BalanceData data = 1;
+        required fixed32 total_count = 2; //总局数
+}
+
+message S_C_Message{
+    required fixed32 side = 1; // 玩家位置
+    required string msg = 2; // 消息
+    optional fixed32 msg_type = 3; // 1 代表牛牛抽奖机会
+}
+
+
+message S_C_AddlReportCurGame {
+	required fixed32 dealerSide = 1;
+	required fixed32 strive_choice = 2; // 消息
+	message WagerInfo {
+		required fixed32 side = 1;
+		required fixed32 wager_choice = 2; // 消息
+	}
+	repeated WagerInfo wagerInfo = 3;
+}
+
+//上局结算数据 单局报表的额外信息  Reports of additional
+message S_C_OldAddlReportCurGame{
+    optional S_C_AddlReportCurGame addlReportCurGame = 1;
+}

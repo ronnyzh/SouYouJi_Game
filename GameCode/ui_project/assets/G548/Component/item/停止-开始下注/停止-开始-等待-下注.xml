@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,327" opaque="false" extention="Label">
+  <controller name="c_show" pages="0,,1,,2," selected="2"/>
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n1_llff" name="icon" xy="0,0" size="1334,327" alpha="0.76" url="ui://qn9mtfu5w15q6m" fill="scaleFree">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n3_gegk" name="n3" xy="666,163" pivot="0.5,0.5" anchor="true" size="665,204" url="ui://qn9mtfu5w15q6l" fill="scaleFree">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearIcon controller="c_show" pages="0,1,2" values="ui://qn9mtfu5w15q6n|ui://qn9mtfu5w15q6o|ui://qn9mtfu5w15q6l"/>
+      <relation target="n1_llff" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n0_llff" name="title" xy="0,0" size="1334,327" hideByEditor="true" visible="false" fontSize="60" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="shrink" autoClearText="true" text="开始下注">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n1_llff" sidePair="width-width,height-height"/>
+      <relation target="n1_llff" sidePair="left-left,top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n3_gegk" value="1"/>
+    <item time="0" type="Alpha" target="n0_llff" value="1"/>
+    <item time="0" type="Alpha" target="n1_llff" value="0.76"/>
+    <item time="0" type="XY" target="n1_llff" tween="true" startValue="799,0" endValue="0,0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="Alpha" target="n1_llff" tween="true" startValue="0.76" endValue="0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="Alpha" target="n0_llff" tween="true" startValue="1" endValue="0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="Alpha" target="n3_gegk" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="15" type="XY" target="n1_llff" tween="true" startValue="0,0" endValue="-800,0" duration="6"/>
+  </transition>
+</component>

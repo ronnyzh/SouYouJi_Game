@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,100">
+  <controller name="c1" pages="0,jiabei,7,chupai_tips,9,chupai,8,pass" selected="1"/>
+  <displayList>
+    <component id="n42_tx3y" name="btnNo" src="iby91q" fileName="component/BtnNormal.xml" xy="358,0" size="240,100" group="n11_h21o">
+      <Button icon="ui://p4u5nou3n3pu6k"/>
+    </component>
+    <component id="n41_tx3y" name="btnYes" src="iby91q" fileName="component/BtnNormal.xml" xy="666,0" size="240,100" group="n11_h21o">
+      <Button icon="ui://p4u5nou3n3pu6l"/>
+    </component>
+    <group id="n11_h21o" name="jiabei" xy="358,0" size="548,100" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n44_tx3y" name="btnReset" src="iby91q" fileName="component/BtnNormal.xml" xy="260,4" size="240,100" group="n47_tx3y">
+      <Button icon="ui://p4u5nou3n3pu6q"/>
+    </component>
+    <component id="n46_tx3y" name="btnDeal" src="iby91q" fileName="component/BtnNormal.xml" xy="780,4" size="240,100" group="n47_tx3y">
+      <Button icon="ui://p4u5nou3n3pu6n"/>
+    </component>
+    <component id="n49_tx3y" name="btnTips" src="iby91q" fileName="component/BtnNormal.xml" xy="520,4" size="240,100" group="n47_tx3y">
+      <Button icon="ui://p4u5nou3n3pu6p"/>
+    </component>
+    <group id="n47_tx3y" name="chupai_tips" xy="260,4" size="760,100" advanced="true">
+      <gearDisplay controller="c1" pages="7"/>
+    </group>
+    <component id="n50_tx3y" name="btnReset" src="iby91q" fileName="component/BtnNormal.xml" xy="389,-1" size="240,100" group="n53_tx3y">
+      <Button icon="ui://p4u5nou3n3pu6q"/>
+    </component>
+    <component id="n51_tx3y" name="btnDeal" src="iby91q" fileName="component/BtnNormal.xml" xy="666,-1" size="240,100" group="n53_tx3y">
+      <Button icon="ui://p4u5nou3n3pu6n"/>
+    </component>
+    <group id="n53_tx3y" name="chupai" xy="389,-1" size="517,100" advanced="true">
+      <gearDisplay controller="c1" pages="9"/>
+    </group>
+    <component id="n45_tx3y" name="btnPass" src="iby91q" fileName="component/BtnNormal.xml" xy="520,0" size="240,100" group="n48_tx3y">
+      <Button icon="ui://p4u5nou3n3pu6m"/>
+    </component>
+    <group id="n48_tx3y" name="pass" xy="520,0" size="240,100" advanced="true">
+      <gearDisplay controller="c1" pages="8"/>
+    </group>
+  </displayList>
+</component>

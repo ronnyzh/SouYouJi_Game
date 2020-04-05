@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="740,600">
+  <displayList>
+    <image id="n1_jzg7" name="n1" src="j17qj1" fileName="设置/框-小.png" xy="0,0" size="740,600"/>
+    <image id="n2_jzg7" name="n2" src="jzg7kj" fileName="携带金额/带入.png" xy="288,20"/>
+    <image id="n17_jzg7" name="n17" src="jzg7la" fileName="携带金额/输入框1.png" xy="69,111" size="605,66"/>
+    <component id="n3_jzg7" name="btn_key1" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="63,193">
+      <Button icon="ui://la8oslyojzg7l0"/>
+    </component>
+    <component id="n4_jzg7" name="btn_key2" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="269,193">
+      <Button icon="ui://la8oslyojzg7l1"/>
+    </component>
+    <component id="n5_jzg7" name="btn_key3" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="475,193">
+      <Button icon="ui://la8oslyojzg7l2"/>
+    </component>
+    <component id="n6_jzg7" name="btn_key4" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="63,268">
+      <Button icon="ui://la8oslyojzg7l3"/>
+    </component>
+    <component id="n7_jzg7" name="btn_key5" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="269,268">
+      <Button icon="ui://la8oslyojzg7l4"/>
+    </component>
+    <component id="n8_jzg7" name="btn_key6" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="475,268">
+      <Button icon="ui://la8oslyojzg7l5"/>
+    </component>
+    <component id="n9_jzg7" name="btn_key7" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="63,343">
+      <Button icon="ui://la8oslyojzg7l6"/>
+    </component>
+    <component id="n10_jzg7" name="btn_key8" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="269,343">
+      <Button icon="ui://la8oslyojzg7l7"/>
+    </component>
+    <component id="n11_jzg7" name="btn_key9" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="475,343">
+      <Button icon="ui://la8oslyojzg7l8"/>
+    </component>
+    <component id="n12_jzg7" name="btn_keyPoint" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="63,418">
+      <Button icon="ui://la8oslyojzg7ky"/>
+    </component>
+    <component id="n13_jzg7" name="btn_key0" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="269,418">
+      <Button icon="ui://la8oslyojzg7kz"/>
+    </component>
+    <component id="n14_jzg7" name="btn_keyBack" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="475,418">
+      <Button icon="ui://la8oslyojzg7ki"/>
+    </component>
+    <component id="n15_jzg7" name="btn_keyOK" src="jzg7l9" fileName="PresetGoldNumButton.xml" xy="269,493">
+      <Button icon="ui://la8oslyojzg7kh"/>
+    </component>
+    <component id="n19_jzg7" name="btn_close" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="669,0" pivot="0.5,0.5" size="78,79">
+      <Button title="确定" titleFontSize="25" icon="ui://la8oslyoj17qiv"/>
+    </component>
+    <text id="n18_jzg7" name="txt_setGold" xy="80,118" size="579,51" font="ui://la8oslyojzg7lb" fontSize="12" align="center" vAlign="middle" autoSize="none" autoClearText="true" text=""/>
+    <image id="n20_yxki" name="n20" src="jzg7km" fileName="携带金额/请输入您要带入的金额.png" xy="135,85"/>
+  </displayList>
+</component>

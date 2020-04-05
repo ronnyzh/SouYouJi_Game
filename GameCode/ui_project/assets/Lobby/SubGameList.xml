@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <component id="n2_aks0" name="btn_445" src="aks07" xy="88,495">
+      <Button title="麻将" icon="ui://ccd2kz2rwug021"/>
+    </component>
+    <component id="n3_aks0" name="btn_560" src="aks07" xy="88,125">
+      <Button title="斗地主" icon="ui://ccd2kz2rb3ca1o"/>
+    </component>
+    <component id="n4_aks0" name="btn_556" src="aks07" xy="1089,125">
+      <Button title="牛牛" icon="ui://ccd2kz2rb3ca1r"/>
+    </component>
+    <component id="n7_aks0" name="btn_559" src="aks07" xy="596,125">
+      <Button title="跑得快" icon="ui://ccd2kz2rb3ca1p"/>
+    </component>
+    <component id="n6_aks0" name="btn_555" src="aks07" xy="615,496">
+      <Button title="十三水" icon="ui://ccd2kz2rwug024"/>
+    </component>
+    <component id="n10_ti75" name="btn_enter_room" src="aks07" xy="1417,872" visible="false">
+      <Button title="加入房间" icon="ui://ccd2kz2rti751n"/>
+    </component>
+    <component id="n11_wug0" name="btn_0030001" src="aks07" xy="963,998" visible="false" touchable="false" grayed="true">
+      <Button title="十三水" icon="ui://ccd2kz2rwug023"/>
+    </component>
+  </displayList>
+</component>

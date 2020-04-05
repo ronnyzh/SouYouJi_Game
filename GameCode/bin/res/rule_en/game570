@@ -1,0 +1,1275 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"fontSize":30,
+        	"itemHeight":40,
+        	"itemWidth":200,
+        	"content": "Basic Rules:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+        	"itemWidth":500,
+            "itemHeight":40,
+        	"content":"[No. of player]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+        	"content":"2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+        	"itemWidth":500,
+            "itemHeight":40,
+        	"content":"[Cards for the game]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+        	"content":"One deck of 46 cards without face value 3 and 4 cards."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+        	"itemWidth":500,
+            "itemHeight":40,
+        	"content":"[Deal]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"2",
+            "itemHeight":55,
+            "itemWidth":900,
+            "fontSize":28,
+        	"content":"Each player is dealt seventeen cards, with the last three leftover cards detained on the playing desk, face down and nine cards left aside."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Bid for the Landlord]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"The highest bidder takes the landlord position."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Outbid the other player]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Both players have two chances to outbid the other player."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Reveal wild cards]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"The three leftover wild cards are revealed to all players before being dealt to the Landlord."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Play]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"The Landlord may choose to lead the trick or let the Peasant to lead the trick."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemHeight":40,
+            "fontSize":28,
+            "itemWidth":500,
+            "content":"[Follow]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemHeight":40,
+            "fontSize":28,
+            "itemWidth":400,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Play may ‘skip’ the trick or play a bigger value card."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeihgt":60,
+            "content":"[Bid]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeihgt":60,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "itemHeight":100,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Every time the player bid for the Landlord, the base points will double up and the Peasant has the benefit of one card left to win the game. After becoming the Landlord, the Landlord may choose to let the Peasant has the advantage of winning the game with two cards left in hand. In such case, base points get to *3."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "itemHeight":100,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Reshuffle]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHiehgt":40,
+            "content":"If both players call Pass, system shall shuffle the cards and deal all over again."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHiehgt":40,
+            "content":""
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"fontSize":30,
+            "itemWidth":500,
+        	"itemHeight":40,
+        	"content": "Card Combinations:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+        	"itemWidth":500,
+            "itemHeight":40,
+        	"content":"[Rocket]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+        	"content":"Colored Joker and black-and-white Joker, beats everything in the game."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Bomb]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Four cards of the same rank (7777)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Aeroplane]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth": 900,
+            "itemHeight":55,
+            "fontSize":28,
+            "content":"Two consecutive three cards of the same rank with each carries a distinct individual card (333444+79, 333444+6677)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth": 0,
+            "itemHeight":55,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Trios]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Two or more consecutive three cards of the same rank (333+444+555)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Sister Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Three or more consecutive two cards of matching rank (33+44+55+66+77+88)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Straight]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Any five or more cards in a sequence (45678, 456789)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Full house]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Three cards of the same rank with a Pair as the Kicker (333+66)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Four-of-a-kind with Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Four-of-a-kind with two sets of Pair as the Kicker (3333+6677)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Trio with Solo]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Three cards of the same rank with a solo as the Kicker (333 + 6)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Four-of-a-kind with Two Solo]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Four-of-a-kind with two distinct individual cards as the Kicker (3333+66, 3333+45)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Trio]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Three cards of the same rank (JJJ)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Pair]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Two matching cards of equal rank (6 of Hearts + 6 of Diamonds)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Solo]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Any single card. (5 of Hearts)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content": "Ranking of Doudizhu"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"1. Rocket can beat everything in the game."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"2. Bomb can beat any other category and individual card except Rocket or another Bomb with a higher or equal rank."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"3. Beat the prior hand using the same number of cards is a basic doctrine which only the Rocket and the Bomb may violate."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"4. Each player must play a higher card or combination than the one before, with the same number of cards."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"5. Card values: Colored Joker > black-and-white Joker > 2 > A > K > Q > J > 10 > 9 > 8 > 7 > 6 > 5 > 4 > 3, Suits are irrelevant."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"6. The rank of consecutive cards are determined by the highest value of the card."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"7. The Kicker's rank is irrelevant to the comparison."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+         {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content": "Payout:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Bomb]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Base points *2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Rocket]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Base points *2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Spring]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"When the Landlord runs out of cards, the Peasant never plays one card, Base points*2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Counter Spring]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"When the Landlord only plays card in first round, the Peasant runs out of cards, Base points *2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Game commission]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"System may charge 5% of the profit from the winner."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[High return from low input is prohibited]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Win/loss may not exceed the stake; if the player has brought in only 80, the player may only gain 80 utmost, regardless the settlement count."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Insufficient Stake]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":90,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"In the event of the player does not have sufficient stake, the player may settle the loss with his/her existing stake."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":90,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        }
+    ]
+}

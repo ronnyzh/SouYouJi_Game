@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="154,212">
+  <controller name="c1" pages="0,normal,1,active,3,disabled" selected="2">
+    <action type="play_transition" fromPage="" toPage="0,1" transition="enabled"/>
+    <action type="play_transition" fromPage="" toPage="2" transition="disabled"/>
+  </controller>
+  <controller name="role" pages="0,normal,1,dealer" selected="0"/>
+  <controller name="status" pages="0,enabled,1,disabled" selected="0"/>
+  <displayList>
+    <loader id="n2_y3hk" name="n0" xy="0,-1" size="154,212" touchable="false" url="ui://p4u5nou3djq941">
+      <gearXY controller="c1" pages="1" values="0,-62" default="0,-1"/>
+    </loader>
+    <image id="n3_op4n" name="n3" src="ojsq8n" fileName="style0/icon/icon-dealer.png" xy="89,-3">
+      <gearDisplay controller="role" pages="1"/>
+      <gearXY controller="c1" pages="0,1" values="89,-3|89,-64" default="89,-3"/>
+    </image>
+    <image id="n4_ojsq" name="n4" src="ojsq8o" fileName="card/card_black.png" xy="5,3" pivot="0.5,0.5" size="144,200">
+      <gearDisplay controller="status" pages="1"/>
+      <gearXY controller="c1" pages="1" values="5,-58" default="5,3"/>
+    </image>
+  </displayList>
+</component>

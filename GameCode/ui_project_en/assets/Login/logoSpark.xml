@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="377,306" overflow="hidden" mask="n1_d1sn">
+  <displayList>
+    <image id="n0_d1sn" name="n0" src="d1snv" xy="62,5" size="314,299"/>
+    <image id="n1_d1sn" name="n1" src="ba653" pkg="c4a9oni8" xy="-1,0"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="99999">
+    <item time="0" type="XY" target="n0_d1sn" value="-174,-230"/>
+    <item time="40" type="XY" target="n0_d1sn" tween="true" startValue="-174,-230" endValue="262,207" duration="12" ease="Expo.Out"/>
+    <item time="140" type="XY" target="n0_d1sn" value="262,207"/>
+    <item time="141" type="XY" target="n0_d1sn" tween="true" startValue="-174,-230" endValue="262,207" duration="12" ease="Expo.Out"/>
+    <item time="208" type="XY" target="n0_d1sn" value="262,207"/>
+  </transition>
+</component>

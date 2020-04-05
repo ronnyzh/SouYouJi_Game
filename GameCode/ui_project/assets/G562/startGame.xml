@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1595,379">
+  <controller name="c1" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0"/>
+  </controller>
+  <displayList>
+    <image id="n73_to38" name="n73" src="r4d51u" xy="0,0" pivot="0.5,0.5" size="1595,379"/>
+    <image id="n74_to38" name="n74" src="r4d51v" xy="396,15" pivot="0.5,0.5" size="802,293">
+      <relation target="n73_to38" sidePair="width-width%,height-height%"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Size" target="n73_to38" tween="true" startValue="1,300" endValue="1595,379" duration="5"/>
+    <item time="5" type="Size" target="n73_to38" tween="true" startValue="1595,379" yoyo="true"/>
+  </transition>
+</component>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://dosvlhxrgasf7c" designImageAlpha="100">
+  <controller name="State" pages="1,nothing,0,start,2,timer" selected="0"/>
+  <displayList>
+    <image id="n140_gd8a" name="n140" src="gd8a5e" fileName="common/BG/bg1.png" xy="666,223" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n136_peh5" name="tfGameInfo" xy="737,272" pivot="0.5,0.5" anchor="true" size="663,39" font="ui://qn9mtfu5gtil49" fontSize="28" align="center" vAlign="middle" autoSize="none" bold="true" italic="true" autoClearText="true" text="场次：至尊  底分：3000">
+      <relation target="n140_gd8a" sidePair="top-bottom,center-center"/>
+    </text>
+    <text id="n156_ijuo" name="tfGameNumInfo" xy="5,2" size="567,28" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" autoSize="none" autoClearText="true" text="牌局编号："/>
+    <image id="n4_osvm" name="n4" src="wm2e32" fileName="GBP_Img/Table/room_numbers3.png" pkg="rjf5583x" xy="0,-6" group="n9_osvm"/>
+    <text id="n8_osvm" name="room_no" xy="19,4" size="146,32" group="n9_osvm" fontSize="25" color="#ffffff" text="房号 123456"/>
+    <group id="n9_osvm" name="info" xy="-5,0" size="186,58" hideByEditor="true" visible="false" advanced="true" collapsed="true">
+      <relation target="" sidePair="top-top,left-left"/>
+    </group>
+    <component id="n10_osvm" name="seat0" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="206,597" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n12_osvm" name="seat1" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="1218,267" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n35_kcts" name="seat2" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="1064,73" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n37_kcts" name="seat3" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="184,73" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n39_kcts" name="seat4" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="28,266" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <group id="n55_s4ce" name="n55" xy="28,73" size="1284,691" group="n14_osvm" collapsed="true"/>
+    <component id="n62_s4ce" name="QStr0" src="s2tl2u" fileName="TipsQ.xml" xy="315,590" group="n70_s4ce" scale="0.85,0.85" visible="false">
+      <relation target="n10_osvm" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n63_s4ce" name="QStr1" src="s2tl2u" fileName="TipsQ.xml" xy="1090,262" group="n70_s4ce" scale="0.85,0.85" visible="false">
+      <relation target="n12_osvm" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n65_s4ce" name="QStr2" src="s2tl2u" fileName="TipsQ.xml" xy="938,71" group="n70_s4ce" scale="0.85,0.85" visible="false">
+      <relation target="n35_kcts" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n67_s4ce" name="QStr3" src="s2tl2u" fileName="TipsQ.xml" xy="297,71" group="n70_s4ce" scale="0.85,0.85" visible="false">
+      <relation target="n37_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n69_s4ce" name="QStr4" src="s2tl2u" fileName="TipsQ.xml" xy="143,262" group="n70_s4ce" scale="0.85,0.85" visible="false">
+      <relation target="n39_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <group id="n70_s4ce" name="n70" xy="143,71" size="1047,569" group="n14_osvm" collapsed="true"/>
+    <text id="n76_to38" name="BStr22" xy="326,597" size="77,40" group="n91_to38" visible="false" font="黑体" fontSize="36" color="#ffffff" align="center" vAlign="middle" strokeColor="#ff9900" strokeSize="2" text="25倍">
+      <relation target="n62_s4ce" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n84_to38" name="BStr22" xy="1110,267" size="77,40" group="n91_to38" visible="false" font="黑体" fontSize="36" color="#ffffff" align="center" vAlign="middle" strokeColor="#ff9900" strokeSize="2" text="25倍">
+      <relation target="n63_s4ce" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n86_to38" name="BStr22" xy="951,74" size="77,40" group="n91_to38" visible="false" font="黑体" fontSize="36" color="#ffffff" align="center" vAlign="middle" strokeColor="#ff9900" strokeSize="2" text="25倍">
+      <relation target="n65_s4ce" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n88_to38" name="BStr22" xy="312,73" size="77,40" group="n91_to38" visible="false" font="黑体" fontSize="36" color="#ffffff" align="center" vAlign="middle" strokeColor="#ff9900" strokeSize="2" text="25倍">
+      <relation target="n67_s4ce" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n90_to38" name="BStr22" xy="147,266" size="77,40" group="n91_to38" visible="false" font="黑体" fontSize="36" color="#ffffff" align="center" vAlign="middle" strokeColor="#ff9900" strokeSize="2" text="25倍">
+      <relation target="n69_s4ce" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n91_to38" name="n91" xy="147,73" size="1040,564" group="n14_osvm"/>
+    <list id="n22_h21o" name="out_pokers_0" xy="498,506" size="359,253" group="n56_s4ce" scale="0.95,0.95" visible="false" layout="flow_hz" lineGap="-111" colGap="-91" lineItemCount="5" defaultItem="ui://dosvlhxrs2tl2v" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n23_h21o" name="out_pokers_1" xy="857,265" size="334,209" group="n56_s4ce" scale="0.67,0.67" visible="false" layout="flow_hz" lineGap="-116" colGap="-93" lineItemCount="5" defaultItem="ui://dosvlhxrs2tl2v" align="right" autoClearItems="true">
+      <relation target="n12_osvm" sidePair="right-left,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n40_kcts" name="out_pokers_2" xy="689,72" size="334,209" group="n56_s4ce" scale="0.67,0.67" visible="false" layout="flow_hz" lineGap="-116" colGap="-93" lineItemCount="5" defaultItem="ui://dosvlhxrs2tl2v" align="right" autoClearItems="true">
+      <relation target="n35_kcts" sidePair="right-left,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n42_kcts" name="out_pokers_3" xy="421,72" size="334,209" group="n56_s4ce" scale="0.67,0.67" visible="false" layout="flow_hz" lineGap="-116" colGap="-93" lineItemCount="5" defaultItem="ui://dosvlhxrs2tl2v" autoClearItems="true">
+      <relation target="n37_kcts" sidePair="left-right,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n44_kcts" name="out_pokers_4" xy="251,265" size="334,209" group="n56_s4ce" scale="0.67,0.67" visible="false" layout="flow_hz" lineGap="-116" colGap="-93" lineItemCount="5" defaultItem="ui://dosvlhxrs2tl2v" autoClearItems="true">
+      <relation target="n39_kcts" sidePair="left-right,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n56_s4ce" name="n56" xy="251,72" size="940,687" group="n14_osvm" collapsed="true"/>
+    <component id="n103_hvb9" name="out_nn_1" src="s2tl2w" fileName="TipsNN.xml" xy="828,296" size="300,100" group="n107_hvb9" scale="0.68,0.68" visible="false" touchable="false" controller="c1,22">
+      <relation target="n23_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n104_hvb9" name="out_nn_2" src="s2tl2w" fileName="TipsNN.xml" xy="661,104" size="300,100" group="n107_hvb9" scale="0.68,0.68" visible="false" touchable="false" controller="c1,22">
+      <relation target="n40_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n105_hvb9" name="out_nn_3" src="s2tl2w" fileName="TipsNN.xml" xy="391,104" size="300,100" group="n107_hvb9" scale="0.68,0.68" visible="false" touchable="false" controller="c1,22">
+      <relation target="n42_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n106_hvb9" name="out_nn_4" src="s2tl2w" fileName="TipsNN.xml" xy="222,297" size="300,100" group="n107_hvb9" scale="0.68,0.68" visible="false" touchable="false" controller="c1,22">
+      <relation target="n44_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n148_lprm" name="out_nn_0" src="s2tl2w" fileName="TipsNN.xml" xy="527,575" size="300,100" group="n107_hvb9" visible="false" touchable="false" controller="c1,22">
+      <relation target="n22_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n107_hvb9" name="n107" xy="222,104" size="906,571" group="n14_osvm" collapsed="true"/>
+    <component id="n134_g8vw" name="complete0" src="s2tl2x" fileName="DemandPoker.xml" xy="581,467" group="n135_g8vw" scale="0.8,0.8" visible="false">
+      <relation target="n22_h21o" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n133_g8vw" name="complete1" src="s2tl2x" fileName="DemandPoker.xml" xy="1150,380" group="n135_g8vw" scale="0.8,0.8" visible="false">
+      <relation target="n12_osvm" sidePair="right-right,top-bottom"/>
+    </component>
+    <component id="n131_g8vw" name="complete2" src="s2tl2x" fileName="DemandPoker.xml" xy="1021,185" group="n135_g8vw" scale="0.8,0.8" visible="false">
+      <relation target="n35_kcts" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n130_g8vw" name="complete3" src="s2tl2x" fileName="DemandPoker.xml" xy="141,185" group="n135_g8vw" scale="0.8,0.8" visible="false">
+      <relation target="n37_kcts" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n132_g8vw" name="complete4" src="s2tl2x" fileName="DemandPoker.xml" xy="5,380" group="n135_g8vw" scale="0.8,0.8" visible="false">
+      <relation target="n39_kcts" sidePair="left-left,top-bottom"/>
+    </component>
+    <group id="n135_g8vw" name="complete" xy="5,185" size="1371,326" group="n14_osvm" collapsed="true"/>
+    <component id="n141_dxh2" name="BStr0" src="dxh25q" fileName="BstrView.xml" xy="323,596" group="n146_dxh2" controller="c2,25">
+      <relation target="n10_osvm" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n142_dxh2" name="BStr1" src="dxh25q" fileName="BstrView.xml" xy="1102,267" group="n146_dxh2" controller="c2,15">
+      <relation target="n12_osvm" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n143_dxh2" name="BStr2" src="dxh25q" fileName="BstrView.xml" xy="945,74" group="n146_dxh2" controller="c2,10">
+      <relation target="n35_kcts" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n144_dxh2" name="BStr3" src="dxh25q" fileName="BstrView.xml" xy="306,72" group="n146_dxh2" controller="c2,25">
+      <relation target="n37_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n145_dxh2" name="BStr4" src="dxh25q" fileName="BstrView.xml" xy="148,266" group="n146_dxh2" controller="c2,5">
+      <relation target="n39_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <group id="n146_dxh2" name="Bstr" xy="148,72" size="1040,569" group="n14_osvm"/>
+    <component id="n150_j8uc" name="tfScore0" src="k53i5a" fileName="tfScore.xml" xy="150,550" group="n155_j8uc" controller="c1,0">
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n151_j8uc" name="tfScore1" src="k53i5a" fileName="tfScore.xml" xy="1135,220" group="n155_j8uc" controller="c1,0">
+      <relation target="n12_osvm" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n152_j8uc" name="tfScore2" src="k53i5a" fileName="tfScore.xml" xy="1007,26" group="n155_j8uc" controller="c1,0">
+      <relation target="n35_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n153_j8uc" name="tfScore3" src="k53i5a" fileName="tfScore.xml" xy="129,26" group="n155_j8uc" controller="c1,0">
+      <relation target="n37_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n154_j8uc" name="tfScore4" src="k53i5a" fileName="tfScore.xml" xy="-28,218" group="n155_j8uc" controller="c1,0">
+      <relation target="n39_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n155_j8uc" name=" score" xy="-28,26" size="1363,584" group="n14_osvm" collapsed="true"/>
+    <group id="n14_osvm" name="main" xy="-28,26" size="1404,738" advanced="true" collapsed="true">
+      <relation target="n10_osvm" sidePair=""/>
+    </group>
+    <component id="n32_kvb5" name="btn_exit" src="s2tl2s" fileName="ScaleButton.xml" xy="11,17" size="81,81" hideByEditor="true" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button icon="ui://rjf5583xwm2e2x"/>
+    </component>
+    <graph id="n162_i49h" name="cardParent" xy="0,0" size="0,0"/>
+    <component id="n163_i49h" name="winStatus" src="fb0l95" fileName="BPBalance.xml" pkg="qn9mtfu5" xy="0,0" visible="false" controller="c1,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n17_h21o" name="operation" src="s2tl2y" fileName="Operation.xml" xy="27,404" visible="false" controller="c1,1">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <component id="n6_osvm" name="btn_chat" src="s2tl2s" fileName="ScaleButton.xml" xy="8,478" size="81,81" group="n72_to38" visible="false" touchable="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://dosvlhxrgd8a5f"/>
+    </component>
+    <component id="n33_kvb5" name="btn_setting" src="s2tl2s" fileName="ScaleButton.xml" xy="10,318" size="81,81" group="n72_to38" visible="false" grayed="true">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://dosvlhxrgd8a5g"/>
+    </component>
+    <component id="n34_kvb5" name="btn_vic" src="s2tl2s" fileName="ScaleButton.xml" xy="8,614" size="81,81" group="n72_to38" visible="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://la8oslyoosvmb0"/>
+    </component>
+    <group id="n72_to38" name="n72" xy="8,318" size="83,377" hideByEditor="true" collapsed="true"/>
+    <component id="n71_s4ce" name="timer" src="gdu57l" fileName="timer.xml" pkg="rjf5583x" xy="667,327" pivot="0.5,0.5" anchor="true" controller="isShowBG,0">
+      <gearDisplay controller="State" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n73_to38" name="n73" src="wm2e0" fileName="startGame.xml" pkg="rjf5583x" xy="-132,145" size="1595,379" hideByEditor="true">
+      <gearDisplay controller="State" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n157_mt54" name="btnHave1" xy="970,643" size="204,83" group="n111_ud7h" url="ui://dosvlhxrrkyq7a" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n158_mt54" name="btnHave0" xy="970,551" size="204,83" group="n111_ud7h" url="ui://dosvlhxrrkyq7b" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <group id="n111_ud7h" name="btnHaveGroup" xy="970,551" size="204,175" visible="false" advanced="true" collapsed="true">
+      <relation target="n22_h21o" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n138_il9d" name="btn_ready" src="osvmed" fileName="ScaleButton.xml" pkg="la8oslyo" xy="667,838" pivot="0.5,0.5" anchor="true" size="266,105" hideByEditor="true" visible="false">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+      <Button icon="ui://rjf5583xwm2e2w" sound="ui://la8oslyoodd9hg"/>
+    </component>
+    <component id="n147_sx3o" name="btn_continue" src="ktw9ke" fileName="ScaleButtonFit2.xml" pkg="la8oslyo" xy="666,374" pivot="0.5,0.5" anchor="true" size="233,69" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button icon="ui://rjf5583xwm2e2v"/>
+    </component>
+    <component id="n159_ktzk" name="selfNumberTip" src="ktzk79" fileName="TipsNnNotBg.xml" xy="591,349" hideByEditor="true" visible="false" controller="c1,21">
+      <relation target="n22_h21o" sidePair="left-left,middle-middle"/>
+    </component>
+    <graph id="n160_xkig" name="greyScreen" xy="0,0" size="1334,750" hideByEditor="true" visible="false" type="rect" lineSize="0" fillColor="#80000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n149_glrb" name="uiExitGame" src="ktw9k6" fileName="游戏内部按钮/UI_GameMenu.xml" pkg="la8oslyo" xy="0,0" size="1334,750" locked="true" controller="AutoCont,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n161_c8cl" name="autoContTimer" src="fedb69" fileName="timer.xml" pkg="qn9mtfu5" xy="756,318" visible="false">
+      <relation target="n147_sx3o" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Size" target="n73_to38" tween="true" startValue="1,300" endValue="1595,379" duration="5"/>
+  </transition>
+</component>

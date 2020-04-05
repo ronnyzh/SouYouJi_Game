@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="870,300">
+  <displayList>
+    <component id="n16_kexb" name="0,0" src="fb1077" fileName="Component/item/ChipRectItem-New.xml" xy="5,141" size="318,149" controller="ctl,0,c1,2"/>
+    <component id="n31_kexb" name="0,1" src="fb1077" fileName="Component/item/ChipRectItem-New.xml" xy="317,143" size="250,147" controller="ctl,1,c1,3"/>
+    <component id="n26_kexb" name="0,2" src="fb1077" fileName="Component/item/ChipRectItem-New.xml" xy="570,143" size="295,147" controller="ctl,2,c1,4"/>
+    <component id="n36_kexb" name="1,0" src="fb1077" fileName="Component/item/ChipRectItem-New.xml" xy="8,5" size="444,143" controller="ctl,3,c1,0"/>
+    <component id="n41_kexb" name="1,1" src="fb1077" fileName="Component/item/ChipRectItem-New.xml" xy="445,6" size="422,142" controller="ctl,4,c1,1"/>
+  </displayList>
+</component>

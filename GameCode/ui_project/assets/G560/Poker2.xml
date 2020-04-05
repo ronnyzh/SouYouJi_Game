@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="154,212" pivot="1,0">
+  <controller name="c1" pages="0,normal,1,active,3,disabled" selected="2">
+    <action type="play_transition" fromPage="" toPage="0,1" transition="enabled"/>
+    <action type="play_transition" fromPage="" toPage="2" transition="disabled"/>
+  </controller>
+  <controller name="role" pages="0,normal,1,dealer" selected="1"/>
+  <controller name="status" pages="0,enabled,1,disabled" selected="1"/>
+  <controller name="gray" pages="0,正常,1," selected="0"/>
+  <displayList>
+    <loader id="n2_y3hk" name="n0" xy="0,2" pivot="1,0" size="154,212" group="n8_i275" url="ui://nji5wfgxv13xcy">
+      <gearXY controller="c1" pages="0,1,3" values="0,2|0,-55|0,2"/>
+    </loader>
+    <image id="n3_op4n" name="n3" src="op4nac" fileName="style0/icon/icon-dealer.png" xy="89,0" pivot="0,1" group="n8_i275">
+      <gearDisplay controller="role" pages="1"/>
+      <gearXY controller="c1" pages="0,1,3" values="89,0|89,-57|89,0"/>
+    </image>
+    <image id="n4_ojsq" name="n4" src="ojsqbb" fileName="card/card_black.png" xy="4,6" pivot="1,0" size="144,204" group="n8_i275">
+      <gearDisplay controller="status" pages="1"/>
+      <gearXY controller="c1" pages="0,1,3" values="4,5|4,-52|4,6"/>
+    </image>
+    <image id="n10_tbdx" name="n10" src="v13xcz" fileName="card/beimian-hui.png" xy="0,1" group="n8_i275">
+      <gearDisplay controller="gray" pages="1"/>
+    </image>
+    <group id="n8_i275" name="card" xy="0,0" size="154,214" advanced="true"/>
+  </displayList>
+  <transition name="fapai">
+    <item time="0" type="Alpha" target="n4_ojsq" tween="true" startValue="0.3" endValue="1" duration="6" ease="Linear"/>
+    <item time="0" type="Alpha" target="n3_op4n" tween="true" startValue="0.3" endValue="1" duration="6" ease="Linear"/>
+    <item time="0" type="Alpha" target="n2_y3hk" tween="true" startValue="0.3" endValue="1" duration="6" ease="Linear"/>
+    <item time="0" type="Scale" target="n2_y3hk" tween="true" startValue="0.4,0.4" endValue="1,1" duration="6" ease="Quart.In"/>
+    <item time="0" type="Scale" target="n4_ojsq" tween="true" startValue="0.4,0.4" endValue="1,1" duration="6" ease="Linear"/>
+    <item time="0" type="Scale" target="n3_op4n" tween="true" startValue="0.4,0.4" endValue="1,1" duration="6" ease="Linear"/>
+    <item time="0" type="XY" target="n4_ojsq" label="startpos" tween="true" startValue="5,-97" endValue="4,6" duration="6" label2="endpos" ease="Linear"/>
+    <item time="0" type="XY" target="n2_y3hk" label="startpos" tween="true" startValue="0,-101" endValue="0,2" duration="6" label2="endpos" ease="Linear"/>
+    <item time="0" type="XY" target="n3_op4n" label="startpos" tween="true" startValue="128,-152" endValue="89,0" duration="6" label2="endpos" ease="Linear"/>
+  </transition>
+  <transition name="move">
+    <item time="0" type="XY" target="n8_i275" label="startpos" tween="true" startValue="0,0" endValue="0,0" duration="11" label2="endpos"/>
+    <item time="3" type="Visible" target="n8_i275" label="shpwCard" value="true"/>
+    <item time="11" type="XY" target="n8_i275" label="endpos" tween="true" startValue="0,0"/>
+  </transition>
+</component>

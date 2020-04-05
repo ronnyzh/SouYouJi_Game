@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8a4txovs" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="kvb50" name="GameScene.xml" path="/"/>
+    <image id="kvb54" name="room_numbers3.png" path="/common/hud_ingame/"/>
+    <component id="kvb55" name="Seat.xml" path="/"/>
+    <image id="kvb56" name="head_bg.png" path="/textures/table/" scale="9grid" scale9grid="35,37,70,74"/>
+    <image id="kvb57" name="touxiangk.png" path="/common/lobby/" scale="9grid" scale9grid="17,16,34,32"/>
+    <component id="kvb5a" name="ScaleButton.xml" path="/" exported="true"/>
+    <component id="kvb5b" name="Poker.xml" path="/" exported="true"/>
+    <image id="kvb5c" name="10A.png" path="/style0/"/>
+    <component id="kvb5d" name="OperationTip.xml" path="/"/>
+    <component id="kvb5n" name="LeftCard.xml" path="/"/>
+    <image id="kvb5o" name="back.png" path="/style0/"/>
+    <component id="kvb5p" name="Operation.xml" path="/"/>
+    <component id="kvb5q" name="OrangeButton.xml" path="/"/>
+    <image id="kvb5r" name="btn_orange.png" path="/textures/btns/"/>
+    <image id="kvb5s" name="btn_bujiao.png" path="/textures/btns/"/>
+    <image id="kvb5v" name="btn_buqiang.png" path="/textures/btns/"/>
+    <image id="kvb5w" name="btn_bujiabei.png" path="/textures/btns/"/>
+    <image id="kvb5x" name="btn_jiabie.png" path="/textures/btns/"/>
+    <component id="kvb5y" name="TextButton.xml" path="/"/>
+    <image id="qb1b14" name="qiang_0.png" path="/textures/btns/"/>
+    <image id="qb1b15" name="xiazhu_1.png" path="/textures/btns/"/>
+    <image id="qb1b16" name="xiazhu_2.png" path="/textures/btns/"/>
+    <image id="qb1b17" name="xiazhu_3.png" path="/textures/btns/"/>
+    <image id="qb1b18" name="xiazhu_4.png" path="/textures/btns/"/>
+    <image id="qb1b19" name="xiazhu_5.png" path="/textures/btns/"/>
+    <image id="qb1b1a" name="text_bull_not.png" path="/textures/btns/"/>
+    <image id="qb1b1b" name="text_cuo.png" path="/textures/btns/"/>
+    <image id="qb1b1c" name="text_liang.png" path="/textures/btns/"/>
+    <image id="qb1b1d" name="text_qiang.png" path="/textures/btns/"/>
+    <image id="qb1b1e" name="text_tip.png" path="/textures/btns/"/>
+    <image id="qb1b1f" name="qiang_text_1.png" path="/textures/btns/"/>
+    <image id="qb1b1g" name="qiang_text_2.png" path="/textures/btns/"/>
+    <image id="qb1b1h" name="qiang_text_3.png" path="/textures/btns/"/>
+    <image id="qb1b1i" name="qiang_text_4.png" path="/textures/btns/"/>
+    <image id="qb1b1j" name="qiang_text_5.png" path="/textures/btns/"/>
+    <image id="qb1b1k" name="text_bull_have.png" path="/textures/btns/"/>
+    <image id="qb1b1l" name="btn_qiangzhuang.png" path="/textures/btns/"/>
+    <image id="s4ce1m" name="nStr1.png" path="/nn/"/>
+    <image id="s4ce1n" name="nStr2.png" path="/nn/"/>
+    <image id="s4ce1o" name="nStr3.png" path="/nn/"/>
+    <image id="s4ce1p" name="nStr4.png" path="/nn/"/>
+    <image id="s4ce1q" name="nStr5.png" path="/nn/"/>
+    <image id="s4ce1r" name="nStr6.png" path="/nn/"/>
+    <image id="s4ce1s" name="nStr7.png" path="/nn/"/>
+    <image id="s4ce1t" name="nStr8.png" path="/nn/"/>
+    <image id="s4ce1u" name="nStr9.png" path="/nn/"/>
+    <image id="s4ce1v" name="nStrT0.png" path="/nn/"/>
+    <image id="s4ce1w" name="nStrT3.png" path="/nn/"/>
+    <image id="s4ce1x" name="nStrT4.png" path="/nn/"/>
+    <image id="s4ce1y" name="nStrT5.png" path="/nn/"/>
+    <image id="s4ce1z" name="nStrT6.png" path="/nn/"/>
+    <image id="s4ce20" name="niubeijing_312.png" path="/nn/"/>
+    <component id="s4ce21" name="TipsNN.xml" path="/"/>
+    <image id="s4ce23" name="qiangzhuang_Word.png" path="/string/"/>
+    <image id="s4ce24" name="qiangzhuang_0.png" path="/string/"/>
+    <image id="s4ce25" name="qiangzhuang_1.png" path="/string/"/>
+    <image id="s4ce26" name="qiangzhuang_2.png" path="/string/"/>
+    <image id="s4ce27" name="qiangzhuang_3.png" path="/string/"/>
+    <image id="s4ce28" name="qiangzhuang_4.png" path="/string/"/>
+    <component id="s4ce29" name="TipsQ.xml" path="/"/>
+    <image id="s4ce2a" name="timerBG2.png" path="/textures/table/"/>
+    <component id="s4ce2b" name="timer.xml" path="/"/>
+    <image id="to382c" name="mark_OK.png" path="/textures/table/"/>
+    <image id="to382d" name="y-beijing.png" path="/textures/table/"/>
+    <image id="to382e" name="youxikaishi.png" path="/textures/table/"/>
+    <component id="to382f" name="startGame.xml" path="/"/>
+    <image id="to382g" name="zhuang.png" path="/textures/table/"/>
+    <image id="kstv2h" name="timerBG1.png" path="/textures/table/"/>
+    <image id="kstv2i" name="card_backface.png" path="/style0/"/>
+    <image id="kstv2j" name="touxiangkuang-z.png" path="/textures/table/"/>
+    <image id="tvcx2k" name="名堂-1点.png" path="/SG_point/"/>
+    <image id="tvcx2l" name="名堂-2点.png" path="/SG_point/"/>
+    <image id="tvcx2m" name="名堂-3点.png" path="/SG_point/"/>
+    <image id="tvcx2n" name="名堂-4点.png" path="/SG_point/"/>
+    <image id="tvcx2o" name="名堂-5点.png" path="/SG_point/"/>
+    <image id="tvcx2p" name="名堂-6点.png" path="/SG_point/"/>
+    <image id="tvcx2q" name="名堂-7点.png" path="/SG_point/"/>
+    <image id="tvcx2r" name="名堂-8点.png" path="/SG_point/"/>
+    <image id="tvcx2s" name="名堂-9.png" path="/SG_point/"/>
+    <image id="tvcx2t" name="名堂-大三公.png" path="/SG_point/"/>
+    <image id="tvcx2u" name="名堂-小三公.png" path="/SG_point/"/>
+    <image id="tvcx2v" name="名堂-混三公.png" path="/SG_point/"/>
+    <image id="tvcx2w" name="名堂-爆玖.png" path="/SG_point/"/>
+    <component id="tvcx2x" name="SGScene.xml" path="/"/>
+    <component id="v7zg2z" name="TipsPoint.xml" path="/"/>
+    <image id="g84d30" name="wu.png" path="/SG_point/"/>
+    <image id="pruj31" name="名堂-零点.png" path="/SG_point/"/>
+    <image id="n7np32" name="mini_bg.jpg" path="/common/"/>
+    <image id="n7np33" name="mini_table.jpg" path="/common/"/>
+    <image id="nxyf34" name="btn_ready.png" path="/textures/table/"/>
+    <image id="r9uj35" name="1-0倍数1.png" path="/明牌牛牛/"/>
+    <image id="r9uj36" name="2继续游戏.png" path="/明牌牛牛/"/>
+    <image id="r9uj37" name="3不抢按钮.png" path="/明牌牛牛/"/>
+    <image id="r9uj38" name="3准备开始.png" path="/明牌牛牛/"/>
+    <image id="r9uj39" name="yizhunbei.png" path="/明牌牛牛/"/>
+    <image id="r9uj3a" name="庄.png" path="/明牌牛牛/"/>
+    <component id="mr4a3b" name="Seat2.xml" path="/"/>
+    <image id="mr4a3c" name="头像框底.png" path="/明牌牛牛/" scale="9grid" scale9grid="20,26,40,52"/>
+    <component id="gh8g3d" name="QiangButton.xml" path="/"/>
+    <component id="gh8g3e" name="QiangButton2.xml" path="/"/>
+    <component id="y2fs3f" name="Seat3.xml" path="/"/>
+    <image id="y2fs3g" name="-.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3h" name="0.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3i" name="1-0倍数1(1).png" path="/明牌牛牛/"/>
+    <image id="y2fs3j" name="1.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3k" name="2.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3l" name="3.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3m" name="3不抢按钮(1).png" path="/明牌牛牛/"/>
+    <image id="y2fs3n" name="4.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3o" name="5.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3p" name="6.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3q" name="7.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3r" name="8.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3s" name="9.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3t" name="c-+.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3u" name="c-0.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3v" name="c-1.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3w" name="c-2.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3x" name="c-3.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3y" name="c-4.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs3z" name="c-5.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs40" name="c-6.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs41" name="c-7.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs42" name="c-8.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs43" name="c-9.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs44" name="橙色背景.png" path="/牛牛结算数字散件/"/>
+    <image id="y2fs45" name="紫色背景.png" path="/牛牛结算数字散件/"/>
+    <font id="y2fs46" name="Font1.fnt" path="/牛牛结算数字散件/"/>
+    <font id="y2fs47" name="Font2.fnt" path="/牛牛结算数字散件/"/>
+    <image id="iybp48" name="-..png" path="/牛牛结算数字散件/"/>
+    <image id="iybp49" name="c-..png" path="/牛牛结算数字散件/"/>
+    <image id="g9t74a" name="明牌牛牛.png" path="/明牌牛牛/"/>
+    <component id="g9t74b" name="timer2.xml" path="/"/>
+    <image id="g9t74c" name="计时钟.png" path="/明牌牛牛/"/>
+    <image id="g9t74d" name="三公水印 .png" path="/明牌牛牛/"/>
+    <image id="g9t74e" name="头像-金币.png" path="/明牌牛牛/"/>
+    <component id="qlhk4f" name="GS_556.xml" path="/" exported="true"/>
+    <image id="qlhk4i" name="imgGameStart.png" path="/"/>
+    <image id="qlhk4j" name="imgGameStart.png" path="/textures/table/"/>
+    <component id="qlhk4k" name="GS_563.xml" path="/" exported="true"/>
+    <component id="qlhk4l" name="Operation2.xml" path="/"/>
+    <image id="qlhk4m" name="按钮-不抢 .png" path="/三公/"/>
+    <image id="qlhk4n" name="按钮-小-倍.png" path="/三公/"/>
+    <image id="qlhk4o" name="按钮-抢庄 .png" path="/三公/"/>
+    <image id="qlhk4p" name="抢庄.png" path="/三公/"/>
+    <component id="qlhk4q" name="TextButton2.xml" path="/"/>
+    <component id="m70m4r" name="PokerMini.xml" path="/" exported="true"/>
+    <image id="9dl44s" name="card_backface.png" path="/扑克/"/>
+    <image id="e6qe4u" name="card_backface2.png" path="/扑克/"/>
+    <image id="e6qe4v" name="card_c1.png" path="/扑克/"/>
+    <image id="58kf4w" name="名堂底.png" path="/SG_point/"/>
+    <image id="lplb4x" name="0-1.png" path="/倍数/"/>
+    <image id="lplb4y" name="0-2.png" path="/倍数/"/>
+    <image id="lplb4z" name="0-3.png" path="/倍数/"/>
+    <image id="lplb50" name="0-4.png" path="/倍数/"/>
+    <image id="lplb51" name="0-5.png" path="/倍数/"/>
+    <image id="lplb52" name="0-倍.png" path="/倍数/"/>
+    <image id="lplb53" name="0.png" path="/倍数/"/>
+    <font id="lplb54" name="Font3.fnt" path="/倍数/"/>
+    <image id="nuw955" name="0.png" path="/流程计时美术资源/"/>
+    <image id="nuw956" name="1.png" path="/流程计时美术资源/"/>
+    <image id="nuw957" name="2.png" path="/流程计时美术资源/"/>
+    <image id="nuw958" name="3.png" path="/流程计时美术资源/"/>
+    <image id="nuw959" name="4.png" path="/流程计时美术资源/"/>
+    <image id="nuw95a" name="5.png" path="/流程计时美术资源/"/>
+    <image id="nuw95b" name="6.png" path="/流程计时美术资源/"/>
+    <image id="nuw95c" name="7.png" path="/流程计时美术资源/"/>
+    <image id="nuw95d" name="8.png" path="/流程计时美术资源/"/>
+    <image id="nuw95e" name="9.png" path="/流程计时美术资源/"/>
+    <image id="nuw95f" name="底-倒计时.png" path="/流程计时美术资源/"/>
+    <image id="nuw95g" name="抢庄阶段：    秒.png" path="/流程计时美术资源/"/>
+    <image id="nuw95h" name="拼点阶段：    秒.png" path="/流程计时美术资源/"/>
+    <image id="nuw95i" name="正在匹配：    秒.png" path="/流程计时美术资源/"/>
+    <image id="nuw95j" name="选择加倍：    秒.png" path="/流程计时美术资源/"/>
+    <font id="nuw95k" name="Font4.fnt" path="/流程计时美术资源/"/>
+    <component id="nuw95l" name="timer3.xml" path="/"/>
+    <image id="m0eo5m" name="tb_gold.png" path="/明牌牛牛/" exported="true"/>
+    <image id="o83n5n" name="开牌阶段：    秒.png" path="/流程计时美术资源/"/>
+    <image id="raqv5o" name="3-亮牌.png" path="/明牌牛牛/"/>
+    <image id="ril35p" name="0请亮牌.png" path="/流程计时美术资源/"/>
+    <image id="g8ld5q" name="0开始比牌.png" path="/流程计时美术资源/"/>
+    <image id="g8ld5r" name="0开始抢庄.png" path="/流程计时美术资源/"/>
+    <image id="g8ld5s" name="0开始下注.png" path="/流程计时美术资源/"/>
+    <image id="g8ld5t" name="0游戏即将开始.png" path="/流程计时美术资源/"/>
+    <component id="g8ld5u" name="timer4.xml" path="/"/>
+    <image id="ffft5v" name="card_backface2.png" path="/style0/"/>
+    <image id="qknm5w" name="逗号.png" path="/牛牛结算数字散件/"/>
+    <image id="qknm5x" name="黄色逗号.png" path="/牛牛结算数字散件/"/>
+    <image id="figd61" name="D-不要牌.png" path="/0705通用按钮/"/>
+    <image id="figd62" name="D-亮 牌.png" path="/0705通用按钮/"/>
+    <image id="figd63" name="D-按钮-紫-.png" path="/0705通用按钮/"/>
+    <image id="figd64" name="D-按钮-蓝-.png" path="/0705通用按钮/"/>
+    <image id="figd65" name="D-要 牌.png" path="/0705通用按钮/"/>
+    <image id="figd66" name="n-0.png" path="/0705通用按钮/"/>
+    <image id="figd67" name="n-1.png" path="/0705通用按钮/"/>
+    <image id="figd68" name="n-2.png" path="/0705通用按钮/"/>
+    <image id="figd69" name="n-3.png" path="/0705通用按钮/"/>
+    <image id="figd6a" name="n-4.png" path="/0705通用按钮/"/>
+    <image id="figd6b" name="n-5.png" path="/0705通用按钮/"/>
+    <image id="figd6c" name="n-6.png" path="/0705通用按钮/"/>
+    <image id="figd6d" name="n-7.png" path="/0705通用按钮/"/>
+    <image id="figd6e" name="n-8.png" path="/0705通用按钮/"/>
+    <image id="figd6f" name="n-9.png" path="/0705通用按钮/"/>
+    <image id="figd6g" name="n-倍.png" path="/0705通用按钮/"/>
+    <image id="figd6h" name="不加倍.png" path="/0705通用按钮/"/>
+    <image id="figd6i" name="不叫.png" path="/0705通用按钮/"/>
+    <image id="figd6j" name="不抢.png" path="/0705通用按钮/"/>
+    <image id="figd6k" name="不要.png" path="/0705通用按钮/"/>
+    <image id="figd6l" name="出牌.png" path="/0705通用按钮/"/>
+    <image id="figd6m" name="加倍.png" path="/0705通用按钮/"/>
+    <image id="figd6n" name="叫一分.png" path="/0705通用按钮/"/>
+    <image id="figd6o" name="叫三分.png" path="/0705通用按钮/"/>
+    <image id="figd6p" name="叫二分.png" path="/0705通用按钮/"/>
+    <image id="figd6q" name="小按钮-蓝-.png" path="/0705通用按钮/"/>
+    <image id="figd6r" name="小按钮-黄-.png" path="/0705通用按钮/"/>
+    <image id="figd6s" name="开始.png" path="/0705通用按钮/"/>
+    <image id="figd6t" name="抢地主.png" path="/0705通用按钮/"/>
+    <image id="figd6u" name="抢庄.png" path="/0705通用按钮/"/>
+    <image id="figd6v" name="提示.png" path="/0705通用按钮/"/>
+    <image id="figd6w" name="比牌公用-继续游戏.png" path="/0705通用按钮/"/>
+    <image id="figd6x" name="重选.png" path="/0705通用按钮/"/>
+    <component id="figd6y" name="Operation3.xml" path="/"/>
+    <font id="figd6z" name="Font5.fnt" path="/0705通用按钮/"/>
+    <component id="figd71" name="Operation4.xml" path="/"/>
+    <component id="figd72" name="QiangButton3.xml" path="/"/>
+    <component id="figd73" name="btnOpen.xml" path="/"/>
+    <component id="figd74" name="OpenCards.xml" path="/"/>
+    <image id="or9c75" name="开始游戏.png" path="/textures/table/"/>
+    <image id="qhg176" name="table3.png" path="/common/"/>
+    <image id="qhg177" name="image.png" path="/common/"/>
+    <image id="qhg178" name="三公水印 2.png" path="/明牌牛牛/"/>
+    <image id="qhg179" name="mini_table3.jpg" path="/common/"/>
+    <image id="b7m07a" name="image2.png" path="/common/"/>
+    <component id="8mcl7b" name="BeiView.xml" path="/"/>
+    <image id="wdj97e" name="通比牛牛 .png" path="/明牌牛牛/"/>
+    <component id="e2ex7f" name="GS_558.xml" path="/" exported="true"/>
+    <component id="jtms7g" name="GS_566.xml" path="/" exported="true"/>
+    <image id="wet47h" name="通比三公 .png" path="/明牌牛牛/"/>
+  </resources>
+  <publish name="G556"/>
+</packageDescription>

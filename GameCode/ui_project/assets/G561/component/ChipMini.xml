@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,125">
+  <controller name="c1" pages="0,type1,1,type2,2,type3,3,type4,4,type5,5,type6" selected="5"/>
+  <controller name="status" pages="0,normal,1,disabled" selected="0"/>
+  <displayList>
+    <image id="n8_h56m" name="n5" src="qol16x" fileName="GBP_Img/Chip/4.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true" hideByEditor="true" visible="false">
+      <gearDisplay controller="c1" pages=""/>
+    </image>
+    <image id="n3_zbq1" name="n0" src="qol16u" fileName="GBP_Img/Chip/1.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n5_zbq1" name="n1" src="qol16w" fileName="GBP_Img/Chip/3.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n2_zbq1" name="n2" src="qol16v" fileName="GBP_Img/Chip/2.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n1_zbq1" name="n3" src="qol16y" fileName="GBP_Img/Chip/5.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="4,5"/>
+    </image>
+    <image id="n0_zbq1" name="n4" src="qol16x" fileName="GBP_Img/Chip/4.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <text id="n6_zbq1" name="title" xy="58,61" pivot="0.5,0.5" anchor="true" size="118,125" grayed="true" font="ui://rjf5583xqol17h" fontSize="25" align="center" vAlign="middle" leading="0" autoSize="shrink" bold="true" singleLine="true" autoClearText="true" text="8">
+      <gearXY controller="c1" pages="0,1,2,3,4,5" values="59,62|59,61|60,61|58,61|59,61|58,61"/>
+      <gearSize controller="c1" pages="0,1,2,3,4,5" values="39,33,1,1|118,125,1,1|118,125,1,1|118,125,1,1|118,125,1,1|118,125,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

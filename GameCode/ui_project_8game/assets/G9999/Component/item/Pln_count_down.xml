@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="74,87" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n2_mdt3" name="n2" src="ugzf3h" fileName="Image/timerBG.png" xy="0,0" pivot="0.5,0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_mdt3" name="Txt_count_down" xy="0,12" size="74,74" font="ui://rjf5583xwm2e27" fontSize="29" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="15">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

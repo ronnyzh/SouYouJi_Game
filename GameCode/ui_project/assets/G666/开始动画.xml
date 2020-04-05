@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1277,303">
+  <controller name="c_begin" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_iuo1" name="n1" src="wm2e1" fileName="textures/table/y-beijing.png" pkg="rjf5583x" xy="-300,0" size="1277,303" alpha="0.5">
+      <gearDisplay controller="c_begin" pages="1"/>
+      <gearXY controller="c_begin" pages="0" values="-300,0" default="0,0" tween="true" ease="Quad.InOut"/>
+      <gearLook controller="c_begin" pages="0" values="0.5,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </image>
+    <image id="n3_iuo1" name="n3" src="wm2e2" fileName="textures/table/youxikaishi.png" pkg="rjf5583x" xy="617,0" size="642,234" alpha="0.5">
+      <gearDisplay controller="c_begin" pages="1"/>
+      <gearXY controller="c_begin" pages="0,1" values="617,0|317,0" tween="true" ease="Quad.InOut"/>
+      <gearLook controller="c_begin" pages="0" values="0.5,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

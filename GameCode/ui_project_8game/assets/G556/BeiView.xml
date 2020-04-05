@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="95,37" extention="Label">
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14,,15,,16,,17,,18,,19,,20,,21,,22,,23,,24,,25," selected="25"/>
+  <displayList>
+    <text id="n7_wm2e" name="bei" xy="9,-2" size="34,43" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" text="x"/>
+    <text id="n6_wm2e" name="title" xy="37,0" size="56,36" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" vAlign="middle" autoSize="none" text="25">
+      <gearText controller="c1" pages="0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25" values="0|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25" default="1"/>
+    </text>
+    <loader id="n8_bm10" name="n8" xy="8,-15" size="78,68" url="ui://rjf5583xkf6097" align="center" vAlign="middle" shrinkOnly="true">
+      <gearIcon controller="c1" pages="1,2,3,4,5,10,15,20,25" values="ui://rjf5583xkf6091|ui://rjf5583xkf6095|ui://rjf5583xkf6099|ui://rjf5583xkf609b|ui://rjf5583xkf609d|ui://rjf5583xkf6092|ui://rjf5583xkf6093|ui://rjf5583xkf6096|ui://rjf5583xkf6097" default=""/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1134,750" adaptationTest="FitSize">
+  <controller name="result" exported="true" pages="0,无,1,庄赢,2,闲赢,3,和" selected="0"/>
+  <displayList>
+    <graph id="n0_frnl" name="mark" xy="0,0" size="1134,750" locked="true" type="rect" lineSize="0" fillColor="#80000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n9_frnl" name="result" xy="532,329" pivot="0.5,0.5" size="86,138" visible="false">
+      <gearIcon controller="result" pages="0,1,2,3" values="|ui://wtkqufwmfrnl3d|ui://wtkqufwmfrnl31|ui://wtkqufwmq0yf40"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n2_frnl" name="xianCard0" src="o45b23" xy="385,250" group="n15_frnl" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_frnl" name="xianCard1" src="o45b23" xy="195,250" group="n15_frnl" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_frnl" name="xianCard2" src="o45b23" xy="292,490" group="n15_frnl" skew="90,90" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n8_frnl" name="txtXian" src="frnl30" xy="30,354" group="n15_frnl">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n12_frnl" name="txtXianScore" xy="32,400" size="34,47" group="n15_frnl" font="ui://wtkqufwmfrnl3e" fontSize="47" autoSize="none" text="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n15_frnl" name="groupXian" xy="30,250" size="498,432"/>
+    <component id="n4_frnl" name="zhuangCard0" src="o45b23" xy="744,250" group="n16_frnl" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_frnl" name="zhuangCard1" src="o45b23" xy="930,250" group="n16_frnl" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_frnl" name="zhuangCard2" src="o45b23" xy="840,490" group="n16_frnl" skew="-90,-90" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n7_frnl" name="zhuang" src="frnl3c" xy="1064,354" group="n16_frnl">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n14_frnl" name="txtZhuangScore" xy="1068,400" size="34,47" group="n16_frnl" font="ui://wtkqufwmfrnl3f" fontSize="47" autoSize="none" text="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n16_frnl" name="groupZhuang" xy="744,250" size="360,432"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n9_frnl" tween="true" startValue="0,0" endValue="1,1" duration="6" ease="Expo.Out"/>
+    <item time="0" type="Visible" target="n9_frnl" label="start" value="true"/>
+    <item time="18" type="Scale" target="n9_frnl" value="1,1"/>
+  </transition>
+</component>

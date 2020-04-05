@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImageAlpha="100">
+  <displayList>
+    <graph id="n5_aks0" name="n5" xy="0,0" size="1334,750" locked="true" hideByEditor="true" visible="false" alpha="0.5" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_aks0" name="n1" src="g9syj9" fileName="战绩/框-大.png" xy="191,75" size="1195,667" group="n40_fyor" scale="0.8,0.9"/>
+    <image id="n10_osvm" name="n10" src="g9syjd" fileName="玩法/玩法.png" xy="615,84" size="111,46" group="n40_fyor" aspect="true">
+      <relation target="n1_aks0" sidePair="top-top"/>
+    </image>
+    <image id="n34_g9sy" name="n34" src="g9syjc" fileName="玩法/深色底.png" xy="201,142" size="936,511" group="n40_fyor"/>
+    <component id="n17_avzo" name="btn_close" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="1083,76" pivot="0.5,0.5" size="78,79" group="n40_fyor">
+      <Button title="确定" titleFontSize="25" icon="ui://la8oslyoj17qiv"/>
+    </component>
+    <list id="n39_g9sy" name="list" xy="202,142" size="935,510" group="n40_fyor" layout="flow_hz" overflow="scroll" colGap="-10" defaultItem="ui://la8oslyogjn8kf" align="center">
+      <item/>
+    </list>
+    <group id="n40_fyor" name="n33" xy="191,75" size="1195,667"/>
+  </displayList>
+</component>

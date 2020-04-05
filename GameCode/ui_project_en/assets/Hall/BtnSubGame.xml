@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n6_aks0" name="icon" xy="25,35" size="50,30" align="center" vAlign="middle" autoSize="true" playing="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://la8oslyofbf8jx" downEffect="scale" downEffectValue="1.10"/>
+</component>

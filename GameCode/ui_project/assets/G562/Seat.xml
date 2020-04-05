@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,127">
+  <controller name="c1" pages="0,,1,zhuang" selected="0"/>
+  <displayList>
+    <component id="n14_r3tn" name="player" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="0,0"/>
+    <image id="n15_vkg2" name="n15" src="gq9hscd3" fileName="shisan/head/0-水.png" xy="-4,130"/>
+    <text id="n16_vkg2" name="shuitxt" xy="34,133" size="85,23" font="ui://newlnjldr7lnsccd" fontSize="25" color="#ffff00" vAlign="middle" italic="true" strokeColor="#666666" strokeSize="2" autoClearText="true" text="1002222"/>
+  </displayList>
+</component>

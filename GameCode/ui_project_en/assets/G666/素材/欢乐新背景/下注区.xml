@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1286,722" opaque="false">
+  <controller name="c_showArea" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_gegk" name="bg" src="gegkcm" fileName="素材/欢乐新背景/桌子.xml" xy="643,361" pivot="0.5,0.5" anchor="true" locked="true" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_gegk" name="area_1" src="gegkcq" fileName="素材/欢乐新背景/下注区组件-新桌子.xml" xy="219,304" pivot="0.15,0.68" anchor="true" group="n32_ik5c" locked="true" controller="c1,1">
+      <gearDisplay controller="c_showArea" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_gegk" name="area_2" src="gegkcq" fileName="素材/欢乐新背景/下注区组件-新桌子.xml" xy="450,304" pivot="0.15,0.68" anchor="true" group="n32_ik5c" locked="true" controller="c1,0">
+      <gearDisplay controller="c_showArea" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_gegk" name="area_3" src="gegkcq" fileName="素材/欢乐新背景/下注区组件-新桌子.xml" xy="681,304" pivot="0.15,0.68" anchor="true" group="n32_ik5c" locked="true" controller="c1,2">
+      <gearDisplay controller="c_showArea" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_gegk" name="area_4" src="gegkcq" fileName="素材/欢乐新背景/下注区组件-新桌子.xml" xy="912,304" pivot="0.15,0.68" anchor="true" group="n32_ik5c" locked="true" controller="c1,3">
+      <gearDisplay controller="c_showArea" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n32_ik5c" name="Area" xy="219,304" size="904,211"/>
+    <component id="n21_gegk" name="score_1" src="gegkcr" fileName="分数组件.xml" xy="219,304" pivot="0.15,0.68" anchor="true" group="n30_ik5c" locked="true" touchable="false">
+      <gearDisplay controller="c_showArea" pages="1"/>
+      <relation target="n3_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n22_gegk" name="score_2" src="gegkcr" fileName="分数组件.xml" xy="450,304" pivot="0.15,0.68" anchor="true" group="n30_ik5c" locked="true" touchable="false">
+      <gearDisplay controller="c_showArea" pages="1"/>
+      <relation target="n4_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n23_gegk" name="score_3" src="gegkcr" fileName="分数组件.xml" xy="681,304" pivot="0.15,0.68" anchor="true" group="n30_ik5c" locked="true" touchable="false">
+      <gearDisplay controller="c_showArea" pages="1"/>
+      <relation target="n5_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n24_gegk" name="score_4" src="gegkcr" fileName="分数组件.xml" xy="912,304" pivot="0.15,0.68" anchor="true" group="n30_ik5c" locked="true" touchable="false">
+      <gearDisplay controller="c_showArea" pages="1"/>
+      <relation target="n6_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n30_ik5c" name="Score" xy="219,304" size="904,211"/>
+    <component id="n29_gegk" name="pokers_0" src="hl39fs" fileName="素材/欢乐牛牛优化/新扑克组件.xml" xy="571,50" pivot="0.14,0.5" anchor="true" group="n33_ik5c" touchable="false" controller="c_show,0">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n25_gegk" name="pokers_1" src="hl39fs" fileName="素材/欢乐牛牛优化/新扑克组件.xml" xy="227,428" pivot="0.14,0.5" anchor="true" group="n33_ik5c" touchable="false" controller="c_show,0">
+      <relation target="n3_gegk" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n26_gegk" name="pokers_2" src="hl39fs" fileName="素材/欢乐牛牛优化/新扑克组件.xml" xy="456,428" pivot="0.14,0.5" anchor="true" group="n33_ik5c" touchable="false" controller="c_show,0">
+      <relation target="n4_gegk" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n27_gegk" name="pokers_3" src="hl39fs" fileName="素材/欢乐牛牛优化/新扑克组件.xml" xy="689,428" pivot="0.14,0.5" anchor="true" group="n33_ik5c" touchable="false" controller="c_show,0">
+      <relation target="n5_gegk" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n28_gegk" name="pokers_4" src="hl39fs" fileName="素材/欢乐牛牛优化/新扑克组件.xml" xy="916,428" pivot="0.14,0.5" anchor="true" group="n33_ik5c" touchable="false" controller="c_show,0">
+      <relation target="n6_gegk" sidePair="center-center,top-bottom"/>
+    </component>
+    <group id="n33_ik5c" name="Poker" xy="227,50" size="875,460"/>
+    <component id="n35_ik5c" name="showNN_0" src="iuo1a5" fileName="showNN-图标控制.xml" xy="560,45" group="n40_ik5c" scale="0.78,0.78" touchable="false" controller="c_showNN,0">
+      <relation target="n29_gegk" sidePair="center-center,top-middle"/>
+    </component>
+    <component id="n36_ik5c" name="showNN_1" src="iuo1a5" fileName="showNN-图标控制.xml" xy="216,423" group="n40_ik5c" scale="0.78,0.78" touchable="false" controller="c_showNN,0">
+      <relation target="n25_gegk" sidePair="center-center,top-middle"/>
+    </component>
+    <component id="n37_ik5c" name="showNN_2" src="iuo1a5" fileName="showNN-图标控制.xml" xy="444,423" group="n40_ik5c" scale="0.78,0.78" touchable="false" controller="c_showNN,0">
+      <relation target="n26_gegk" sidePair="center-center,top-middle"/>
+    </component>
+    <component id="n38_ik5c" name="showNN_3" src="iuo1a5" fileName="showNN-图标控制.xml" xy="678,423" group="n40_ik5c" scale="0.78,0.78" touchable="false" controller="c_showNN,0">
+      <relation target="n27_gegk" sidePair="center-center,top-middle"/>
+    </component>
+    <component id="n39_ik5c" name="showNN_4" src="iuo1a5" fileName="showNN-图标控制.xml" xy="905,423" group="n40_ik5c" scale="0.78,0.78" touchable="false" controller="c_showNN,0">
+      <relation target="n28_gegk" sidePair="center-center,top-middle"/>
+    </component>
+    <group id="n40_ik5c" name="showNN" xy="216,45" size="888,481"/>
+    <component id="n42_phk5" name="Gold_Layout" src="o8glbl" fileName="金币容器-Layout组件.xml" xy="0,0" size="1286,722" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n41_phk5" name="Poker_Layout" src="o8glbl" fileName="金币容器-Layout组件.xml" xy="0,0" size="1286,722" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n47_rpxw" name="msg" src="rpxwd7" fileName="素材/消息流/限红组件.xml" xy="643,215" pivot="0.5,0.5" anchor="true" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n43_us0t" name="t1" xy="298,375" pivot="0.5,0.5" anchor="true" size="10,0" visible="false" font="ui://rjf5583xwm2e13" fontSize="12" text="">
+      <relation target="n25_gegk" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n44_us0t" name="t2" xy="524,375" pivot="0.5,0.5" anchor="true" size="10,0" visible="false" font="ui://rjf5583xwm2e13" fontSize="12" text="">
+      <relation target="n26_gegk" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n45_us0t" name="t3" xy="765,375" pivot="0.5,0.5" anchor="true" size="10,0" visible="false" font="ui://rjf5583xwm2e13" fontSize="12" text="">
+      <relation target="n27_gegk" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n46_us0t" name="t4" xy="989,375" pivot="0.5,0.5" anchor="true" size="10,0" visible="false" font="ui://rjf5583xwm2e13" fontSize="12" text="">
+      <relation target="n28_gegk" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

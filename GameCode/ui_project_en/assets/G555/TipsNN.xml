@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="367,75" pivot="0.5,0.5">
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13," selected="13"/>
+  <displayList>
+    <loader id="n0_s4ce" name="n0" xy="183,37" pivot="0.5,0.5" anchor="true" size="367,75" aspect="true" url="ui://rjf5583xtamm8w" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="c1" pages="1,2,3,4,5,6,7,8,9,10,11,12,13" values="ui://rjf5583xtamm8v|ui://rjf5583xtamm8v|ui://rjf5583xtamm8v|ui://rjf5583xtamm8v|ui://rjf5583xtamm8v|ui://rjf5583xtamm8v|ui://rjf5583xtamm8x|ui://rjf5583xtamm8x|ui://rjf5583xtamm8x|ui://rjf5583xtamm8w|ui://rjf5583xtamm8w|ui://rjf5583xtamm8w|ui://rjf5583xtamm8w" default="ui://rjf5583xtamm8u"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n3_s4ce" name="icon" xy="183,44" pivot="0.5,0.5" anchor="true" size="270,63" aspect="true" url="ui://rjf5583xwm2ew" align="center" vAlign="middle" fill="scale" shrinkOnly="true" autoSize="true" color="#fbfbfb">
+      <gearIcon controller="c1" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13" values="ui://rjf5583xwm2es|ui://rjf5583xwm2ej|ui://rjf5583xwm2ek|ui://rjf5583xwm2el|ui://rjf5583xwm2em|ui://rjf5583xwm2en|ui://rjf5583xwm2eo|ui://rjf5583xwm2ep|ui://rjf5583xwm2eq|ui://rjf5583xwm2er|ui://rjf5583xwm2et|ui://rjf5583xwm2eu|ui://rjf5583xwm2ev|ui://rjf5583xwm2ew"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n0_s4ce" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n3_s4ce" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Back.Out"/>
+  </transition>
+</component>

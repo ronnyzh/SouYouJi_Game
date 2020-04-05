@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rjf5583x" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wm2e0" name="startGame.xml" path="/" exported="true"/>
+    <image id="wm2e1" name="y-beijing.png" path="/GBP_Img/Table/" exported="true"/>
+    <image id="wm2e2" name="youxikaishi.png" path="/GBP_Img/Table/" exported="true"/>
+    <image id="wm2ei" name="niubeijing_312.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2ej" name="nStr1.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2ek" name="nStr2.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2el" name="nStr3.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2em" name="nStr4.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2en" name="nStr5.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2eo" name="nStr6.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2ep" name="nStr7.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2eq" name="nStr8.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2er" name="nStr9.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2es" name="nStrT0.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2et" name="nStrT3.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2eu" name="nStrT4.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2ev" name="nStrT5.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2ew" name="nStrT6.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="wm2ex" name="qiangzhuang_0.png" path="/GBP_Img/QZ/" exported="true"/>
+    <image id="wm2ey" name="qiangzhuang_1.png" path="/GBP_Img/QZ/" exported="true"/>
+    <image id="wm2ez" name="qiangzhuang_2.png" path="/GBP_Img/QZ/" exported="true"/>
+    <image id="wm2e10" name="qiangzhuang_3.png" path="/GBP_Img/QZ/" exported="true"/>
+    <image id="wm2e11" name="qiangzhuang_4.png" path="/GBP_Img/QZ/" exported="true"/>
+    <image id="wm2e12" name="qiangzhuang_Word.png" path="/GBP_Img/QZ/" exported="true"/>
+    <font id="wm2e13" name="BlueFont.fnt" path="/" exported="true"/>
+    <image id="wm2e14" name="-.png" path="/Font/Font/"/>
+    <image id="wm2e15" name="0.png" path="/Font/Font/"/>
+    <image id="wm2e16" name="1.png" path="/Font/Font/"/>
+    <image id="wm2e17" name="2.png" path="/Font/Font/"/>
+    <image id="wm2e18" name="3.png" path="/Font/Font/"/>
+    <image id="wm2e19" name="4.png" path="/Font/Font/"/>
+    <image id="wm2e1a" name="5.png" path="/Font/Font/"/>
+    <image id="wm2e1b" name="6.png" path="/Font/Font/"/>
+    <image id="wm2e1c" name="7.png" path="/Font/Font/"/>
+    <image id="wm2e1d" name="8.png" path="/Font/Font/"/>
+    <image id="wm2e1e" name="9.png" path="/Font/Font/"/>
+    <image id="wm2e1f" name="-..png" path="/Font/Font/"/>
+    <font id="wm2e1g" name="YellowFont.fnt" path="/" exported="true"/>
+    <image id="wm2e1h" name="c-+.png" path="/Font/Font/"/>
+    <image id="wm2e1i" name="c-0.png" path="/Font/Font/"/>
+    <image id="wm2e1j" name="c-1.png" path="/Font/Font/"/>
+    <image id="wm2e1k" name="c-2.png" path="/Font/Font/"/>
+    <image id="wm2e1l" name="c-3.png" path="/Font/Font/"/>
+    <image id="wm2e1m" name="c-4.png" path="/Font/Font/"/>
+    <image id="wm2e1n" name="c-5.png" path="/Font/Font/"/>
+    <image id="wm2e1o" name="c-6.png" path="/Font/Font/"/>
+    <image id="wm2e1p" name="c-7.png" path="/Font/Font/"/>
+    <image id="wm2e1q" name="c-8.png" path="/Font/Font/"/>
+    <image id="wm2e1r" name="c-9.png" path="/Font/Font/"/>
+    <image id="wm2e1s" name="c-..png" path="/Font/Font/"/>
+    <image id="wm2e1t" name="scoreBG0.png" path="/GBP_Img/SeatImg/" exported="true"/>
+    <image id="wm2e1u" name="scoreBG1.png" path="/GBP_Img/SeatImg/" exported="true"/>
+    <font id="wm2e1v" name="beiFont.fnt" path="/" exported="true"/>
+    <image id="wm2e1w" name="n-0.png" path="/Font/Font/"/>
+    <image id="wm2e1x" name="n-1.png" path="/Font/Font/"/>
+    <image id="wm2e1y" name="n-2.png" path="/Font/Font/"/>
+    <image id="wm2e1z" name="n-3.png" path="/Font/Font/"/>
+    <image id="wm2e20" name="n-4.png" path="/Font/Font/"/>
+    <image id="wm2e21" name="n-5.png" path="/Font/Font/"/>
+    <image id="wm2e22" name="n-6.png" path="/Font/Font/"/>
+    <image id="wm2e23" name="n-7.png" path="/Font/Font/"/>
+    <image id="wm2e24" name="n-8.png" path="/Font/Font/"/>
+    <image id="wm2e25" name="n-9.png" path="/Font/Font/"/>
+    <image id="wm2e26" name="n-倍.png" path="/Font/Font/"/>
+    <font id="wm2e27" name="TimerFont.fnt" path="/" exported="true"/>
+    <image id="wm2e2j" name="0请亮牌.png" path="/GBP_Img/Timer/" exported="true"/>
+    <image id="wm2e2l" name="底-倒计时.png" path="/GBP_Img/Timer/" exported="true"/>
+    <image id="wm2e2m" name="开牌阶段：    秒.png" path="/GBP_Img/Timer/" exported="true"/>
+    <image id="wm2e2n" name="拼点阶段：    秒.png" path="/GBP_Img/Timer/" exported="true"/>
+    <image id="wm2e2o" name="抢庄阶段：    秒.png" path="/GBP_Img/Timer/" exported="true"/>
+    <image id="wm2e2p" name="选择加倍：    秒.png" path="/GBP_Img/Timer/" exported="true"/>
+    <image id="wm2e2q" name="正在开牌.png" path="/GBP_Img/Timer/" exported="true"/>
+    <image id="wm2e2r" name="正在匹配：    秒.png" path="/GBP_Img/Timer/" exported="true"/>
+    <image id="wm2e2s" name="庄.png" path="/GBP_Img/SeatImg/" exported="true"/>
+    <image id="wm2e2t" name="逗号.png" path="/Font/Font/"/>
+    <image id="wm2e2u" name="黄色逗号.png" path="/Font/Font/"/>
+    <image id="wm2e2v" name="继续游戏.png" path="/GBP_Img/Table/" exported="true"/>
+    <image id="wm2e2w" name="btn_ready.png" path="/GBP_Img/Table/" exported="true"/>
+    <image id="wm2e2x" name="btn_exit.png" path="/GBP_Img/Table/" exported="true"/>
+    <image id="wm2e2y" name="pf_bg0.png" path="/GBP_Img/SeatImg/" exported="true"/>
+    <image id="wm2e2z" name="pf_good.png" path="/GBP_Img/SeatImg/" exported="true"/>
+    <image id="wm2e30" name="pf_goodBG.png" path="/GBP_Img/SeatImg/" exported="true" scale="9grid" scale9grid="21,7,42,14"/>
+    <image id="wm2e31" name="pf_bg1.png" path="/GBP_Img/SeatImg/" exported="true"/>
+    <image id="wm2e32" name="room_numbers3.png" path="/GBP_Img/Table/" exported="true" scale="9grid" scale9grid="47,15,94,30"/>
+    <font id="wm2e33" name="Font3.fnt" path="/"/>
+    <image id="wm2e34" name="0(1).png" path="/Font/Font/"/>
+    <image id="wm2e35" name="0-1.png" path="/Font/Font/"/>
+    <image id="wm2e36" name="0-2.png" path="/Font/Font/"/>
+    <image id="wm2e37" name="0-3.png" path="/Font/Font/"/>
+    <image id="wm2e38" name="0-4.png" path="/Font/Font/"/>
+    <image id="wm2e39" name="0-5.png" path="/Font/Font/"/>
+    <image id="wm2e3a" name="0-倍.png" path="/Font/Font/"/>
+    <image id="wm2e3b" name="card_backface.png" path="/GBP_Img/Table/" exported="true"/>
+    <image id="wm2e3c" name="按钮.png" path="/GBP_Img/IMG/" exported="true"/>
+    <image id="wm2e3d" name="小按钮-黄.png" path="/GBP_Img/IMG/" exported="true"/>
+    <image id="wm2e3e" name="小按钮-蓝.png" path="/GBP_Img/IMG/" exported="true"/>
+    <image id="wm2e3f" name="不抢.png" path="/GBP_Img/IMG/" exported="true"/>
+    <image id="wm2e3g" name="抢庄.png" path="/GBP_Img/IMG/" exported="true"/>
+    <image id="wm2e3h" name="亮牌.png" path="/GBP_Img/IMG/" exported="true"/>
+    <image id="wm2e3i" name="xiazhu_1.png" path="/GBP_Img/Bei/" exported="true"/>
+    <image id="wm2e3j" name="xiazhu_2.png" path="/GBP_Img/Bei/" exported="true"/>
+    <image id="wm2e3k" name="xiazhu_3.png" path="/GBP_Img/Bei/" exported="true"/>
+    <image id="wm2e3l" name="xiazhu_4.png" path="/GBP_Img/Bei/" exported="true"/>
+    <image id="wm2e3n" name="xiazhu_5.png" path="/GBP_Img/Bei/" exported="true"/>
+    <image id="prh33o" name="不抢.png" path="/GBP_Img/QZ/" exported="true"/>
+    <image id="prh33p" name="抢庄.png" path="/GBP_Img/QZ/" exported="true"/>
+    <image id="prh33q" name="头像-分-0.png" path="/Font/Font/"/>
+    <image id="prh33r" name="头像-分-1.png" path="/Font/Font/"/>
+    <image id="prh33s" name="头像-分-2.png" path="/Font/Font/"/>
+    <image id="prh33t" name="头像-分-3.png" path="/Font/Font/"/>
+    <image id="prh33u" name="头像-分-4.png" path="/Font/Font/"/>
+    <image id="prh33v" name="头像-分-5.png" path="/Font/Font/"/>
+    <image id="prh33w" name="头像-分-6.png" path="/Font/Font/"/>
+    <image id="prh33x" name="头像-分-7.png" path="/Font/Font/"/>
+    <image id="prh33y" name="头像-分-8.png" path="/Font/Font/"/>
+    <image id="prh33z" name="头像-分-9.png" path="/Font/Font/"/>
+    <font id="prh340" name="头像分.fnt" path="/" exported="true"/>
+    <image id="h5zq41" name="scoreBG0.png" path="/GBP_Img/Score_BG/"/>
+    <image id="h5zq42" name="scoreBG1.png" path="/GBP_Img/Score_BG/"/>
+    <image id="h5zq43" name="庄.png" path="/GBP_Img/Score_BG/"/>
+    <image id="h5zq44" name="btn_exit.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq45" name="btn_ready.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq46" name="card_backface.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq47" name="D-亮 牌.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq48" name="D-按钮-紫-.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq49" name="pf_bg0.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq4a" name="pf_bg1.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq4b" name="pf_good.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq4c" name="pf_goodBG.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq4d" name="room_numbers3.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq4e" name="小按钮-蓝-.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq4f" name="小按钮-黄-.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq4g" name="比牌公用-继续游戏.png" path="/GBP_Img/IMG/"/>
+    <image id="h5zq4h" name="y-beijing.png" path="/textures/table/"/>
+    <image id="h5zq4i" name="youxikaishi.png" path="/textures/table/"/>
+    <image id="h5zq4j" name="-..png" path="/textures/Font/"/>
+    <image id="h5zq4k" name="-.png" path="/textures/Font/"/>
+    <image id="h5zq4l" name="0(1).png" path="/textures/Font/"/>
+    <image id="h5zq4m" name="0-1.png" path="/textures/Font/"/>
+    <image id="h5zq4n" name="0-2.png" path="/textures/Font/"/>
+    <image id="h5zq4o" name="0-3.png" path="/textures/Font/"/>
+    <image id="h5zq4p" name="0-4.png" path="/textures/Font/"/>
+    <image id="h5zq4q" name="0-5.png" path="/textures/Font/"/>
+    <image id="h5zq4r" name="0-倍.png" path="/textures/Font/"/>
+    <image id="h5zq4s" name="0.png" path="/textures/Font/"/>
+    <image id="h5zq4t" name="1.png" path="/textures/Font/"/>
+    <image id="h5zq4u" name="2.png" path="/textures/Font/"/>
+    <image id="h5zq4v" name="3.png" path="/textures/Font/"/>
+    <image id="h5zq4w" name="4.png" path="/textures/Font/"/>
+    <image id="h5zq4x" name="5.png" path="/textures/Font/"/>
+    <image id="h5zq4y" name="6.png" path="/textures/Font/"/>
+    <image id="h5zq4z" name="7.png" path="/textures/Font/"/>
+    <image id="h5zq50" name="8.png" path="/textures/Font/"/>
+    <image id="h5zq51" name="9.png" path="/textures/Font/"/>
+    <image id="h5zq52" name="c-+.png" path="/textures/Font/"/>
+    <image id="h5zq53" name="c-..png" path="/textures/Font/"/>
+    <image id="h5zq54" name="c-0.png" path="/textures/Font/"/>
+    <image id="h5zq55" name="c-1.png" path="/textures/Font/"/>
+    <image id="h5zq56" name="c-2.png" path="/textures/Font/"/>
+    <image id="h5zq57" name="c-3.png" path="/textures/Font/"/>
+    <image id="h5zq58" name="c-4.png" path="/textures/Font/"/>
+    <image id="h5zq59" name="c-5.png" path="/textures/Font/"/>
+    <image id="h5zq5a" name="c-6.png" path="/textures/Font/"/>
+    <image id="h5zq5b" name="c-7.png" path="/textures/Font/"/>
+    <image id="h5zq5c" name="c-8.png" path="/textures/Font/"/>
+    <image id="h5zq5d" name="c-9.png" path="/textures/Font/"/>
+    <image id="h5zq5p" name="逗号.png" path="/textures/Font/"/>
+    <image id="h5zq5q" name="黄色逗号.png" path="/textures/Font/"/>
+    <image id="h5zq5r" name="n-0.png" path="/textures/btns/"/>
+    <image id="h5zq5s" name="n-1.png" path="/textures/btns/"/>
+    <image id="h5zq5t" name="n-2.png" path="/textures/btns/"/>
+    <image id="h5zq5u" name="n-3.png" path="/textures/btns/"/>
+    <image id="h5zq5v" name="n-4.png" path="/textures/btns/"/>
+    <image id="h5zq5w" name="n-5.png" path="/textures/btns/"/>
+    <image id="h5zq5x" name="n-6.png" path="/textures/btns/"/>
+    <image id="h5zq5y" name="n-7.png" path="/textures/btns/"/>
+    <image id="h5zq5z" name="n-8.png" path="/textures/btns/"/>
+    <image id="h5zq60" name="n-9.png" path="/textures/btns/"/>
+    <image id="h5zq61" name="n-倍.png" path="/textures/btns/"/>
+    <image id="mup464" name="0.png" path="/Font/NewScoreArea/"/>
+    <image id="mup465" name="1.png" path="/Font/NewScoreArea/"/>
+    <image id="mup466" name="2.png" path="/Font/NewScoreArea/"/>
+    <image id="mup467" name="3.png" path="/Font/NewScoreArea/"/>
+    <image id="mup468" name="4.png" path="/Font/NewScoreArea/"/>
+    <image id="mup469" name="5.png" path="/Font/NewScoreArea/"/>
+    <image id="mup46a" name="6.png" path="/Font/NewScoreArea/"/>
+    <image id="mup46b" name="7.png" path="/Font/NewScoreArea/"/>
+    <image id="mup46c" name="8.png" path="/Font/NewScoreArea/"/>
+    <image id="mup46d" name="9.png" path="/Font/NewScoreArea/"/>
+    <image id="mup46e" name="头像.png" path="/Font/NewScoreArea/" exported="true"/>
+    <image id="mup46f" name="头像名称底.png" path="/Font/NewScoreArea/" exported="true"/>
+    <image id="mup46g" name="头像标注.png" path="/Font/NewScoreArea/"/>
+    <image id="mup46h" name="头像边框.png" path="/Font/NewScoreArea/" exported="true"/>
+    <image id="er436j" name="减号.png" path="/Font/NewScoreArea/"/>
+    <image id="er436k" name="加号.png" path="/Font/NewScoreArea/"/>
+    <image id="er436l" name="点.png" path="/Font/NewScoreArea/"/>
+    <image id="er436m" name="逗号.png" path="/Font/NewScoreArea/"/>
+    <component id="er436n" name="Seat.xml" path="/" exported="true"/>
+    <component id="er436o" name="tfScore.xml" path="/" exported="true"/>
+    <image id="er436p" name="yizhunbei.png" path="/明牌牛牛/"/>
+    <image id="fs2m6q" name="紫色背景.png" path="/牛牛结算数字散件/"/>
+    <image id="fs2m6r" name="橙色背景.png" path="/牛牛结算数字散件/"/>
+    <image id="qhg16s" name="头像-分-,.png" path="/Font/Font/"/>
+    <image id="qhg16t" name="头像-分-..png" path="/Font/Font/"/>
+    <image id="qol16u" name="1.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol16v" name="2.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol16w" name="3.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol16x" name="4.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol16y" name="5.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol16z" name="chip_00.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol170" name="chip_01.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol171" name="chip_02.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol172" name="chip_03.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol173" name="chip_04.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol174" name="chip_05.png" path="/GBP_Img/Chip/" exported="true"/>
+    <image id="qol176" name="0.png" path="/Font/ChipFont/"/>
+    <image id="qol177" name="1.png" path="/Font/ChipFont/"/>
+    <image id="qol178" name="2.png" path="/Font/ChipFont/"/>
+    <image id="qol179" name="3.png" path="/Font/ChipFont/"/>
+    <image id="qol17a" name="4.png" path="/Font/ChipFont/"/>
+    <image id="qol17b" name="5.png" path="/Font/ChipFont/"/>
+    <image id="qol17c" name="6.png" path="/Font/ChipFont/"/>
+    <image id="qol17d" name="7.png" path="/Font/ChipFont/"/>
+    <image id="qol17e" name="8.png" path="/Font/ChipFont/"/>
+    <image id="qol17f" name="9.png" path="/Font/ChipFont/"/>
+    <image id="qol17g" name="倍.png" path="/Font/ChipFont/"/>
+    <font id="qol17h" name="chip.fnt" path="/" exported="true"/>
+    <image id="jnts7j" name="点.png" path="/Font/ChipFont/"/>
+    <image id="jnts7k" name="逗号.png" path="/Font/ChipFont/"/>
+    <component id="gdu57l" name="timer.xml" path="/" exported="true"/>
+    <image id="gdu57m" name="0游戏即将开始.png" path="/流程计时美术资源/"/>
+    <image id="gdu57n" name="0开始下注.png" path="/流程计时美术资源/"/>
+    <image id="gdu57o" name="正在匹配.png" path="/流程计时美术资源/"/>
+    <image id="gdu57p" name="开始比牌.png" path="/流程计时美术资源/"/>
+    <image id="gdu57q" name="开始要牌.png" path="/流程计时美术资源/"/>
+    <image id="gdu57r" name="0开始抢庄.png" path="/流程计时美术资源/"/>
+    <image id="gdu57t" name="正在开牌.png" path="/流程计时美术资源/"/>
+    <image id="e1xg86" name="流程数字_..png" path="/textures/Font/"/>
+    <image id="e1xg87" name="流程数字_0.png" path="/textures/Font/"/>
+    <image id="e1xg88" name="流程数字_1.png" path="/textures/Font/"/>
+    <image id="e1xg89" name="流程数字_2.png" path="/textures/Font/"/>
+    <image id="e1xg8a" name="流程数字_3.png" path="/textures/Font/"/>
+    <image id="e1xg8b" name="流程数字_4.png" path="/textures/Font/"/>
+    <image id="e1xg8c" name="流程数字_5.png" path="/textures/Font/"/>
+    <image id="e1xg8d" name="流程数字_6.png" path="/textures/Font/"/>
+    <image id="e1xg8e" name="流程数字_7.png" path="/textures/Font/"/>
+    <image id="e1xg8f" name="流程数字_8.png" path="/textures/Font/"/>
+    <image id="e1xg8g" name="流程数字_9.png" path="/textures/Font/"/>
+    <image id="e1xg8h" name="流程数字_秒.png" path="/textures/Font/"/>
+    <image id="c3vv8i" name="抢庄-框 拷贝.png" path="/GBP_Img/QZ/" scale="9grid" scale9grid="32,33,64,66"/>
+    <image id="qc7n8j" name="闲倍-_0000_25倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8k" name="闲倍-_0001_20倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8l" name="闲倍-_0002_15倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8m" name="闲倍-_0003_10倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8n" name="闲倍-_0004_5倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8o" name="闲倍-_0005_4倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8p" name="闲倍-_0006_3倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8q" name="闲倍-_0007_2倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8r" name="闲倍-_0008_下注.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="qc7n8s" name="x.png" path="/Font/Font/"/>
+    <image id="qc7n8t" name="闲倍-_0007_1倍.png" path="/Font/闲家倍数/" exported="true"/>
+    <image id="tamm8u" name="没牛底.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="tamm8v" name="牛1-6底.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="tamm8w" name="牛10-13底.png" path="/GBP_Img/NN/" exported="true"/>
+    <image id="tamm8x" name="牛7-9底.png" path="/GBP_Img/NN/" exported="true"/>
+  </resources>
+  <publish name="GBP"/>
+</packageDescription>

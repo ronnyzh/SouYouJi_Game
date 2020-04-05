@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,192">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_osvm" name="n0" xy="0,0" pivot="0.5,0.5" size="143,192" scale="-1,1" url="ui://dosvlhxrs2tl1e">
+      <gearXY controller="c1" pages="0,1" values="0,0|0,-30" tween="true"/>
+    </loader>
+  </displayList>
+</component>

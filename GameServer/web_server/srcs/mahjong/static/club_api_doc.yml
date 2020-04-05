@@ -1,0 +1,905 @@
+swagger: '3.0'
+info: {title: bottle-swagger, version: 3.0.0}
+produces: [application/json]
+consumes: [application/json]
+definitions:
+  response_success:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      msg:
+        type: string
+        description: 信息
+    type: object
+  response_success_list:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      list:
+        items:
+          type: object
+          properties:
+            club_name:
+              description: 俱乐部名称
+              type: string
+            club_person_number:
+              type: integer
+              description: 俱乐部人数
+            club_number:
+              type: string
+              description: 俱乐部编号
+            creator:
+              type: integer
+              description: 是否为创建人 1=是 0=不是
+            isManager:
+              type: integer
+              description: 是否为管理员  1=是 0=不是
+            club_join:
+              type: integer
+              description: 是否已经加入该公会，只在全部公会列表接口存在
+            apply_status:
+              type: integer
+              description: 申请加入状态， 3=是管理者或者创建者 1=通过加入 0=审核中 -1=拒绝加入 -2=未申请加入
+        type:  array
+    type: object
+  response_success_isManager:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      status:
+        type: integer
+        description: 状态 1=是管理员 2=是创建者 -1=不是
+      msg:
+        type: string
+    type: object
+  response_success_apply_list:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      list:
+        items:
+          type: object
+          properties:
+            account:
+              description: 账号信息
+              type: string
+            nickname:
+              type: string
+              description: 姓名
+            avatar_url:
+              type: string
+              description: 头像地址
+            status:
+              type: object
+              properties:
+                code:
+                  type: integer
+                  description: 状态类型
+                name:
+                  type: string
+                  description: 状态类型名称
+            club_number:
+              type: string
+              description: 俱乐部编号
+        type:  array
+    type: object
+  response_success_club_player_list:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      list:
+        items:
+          type: object
+          properties:
+            account:
+              description: 账号信息
+              type: string
+            nickname:
+              type: string
+              description: 姓名
+            avatar_url:
+              type: string
+              description: 头像地址
+            isManager:
+              type: integer
+              description: 是否是管理员 1=是 0=不是
+        type:  array
+  response_success_room_list:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      roomData:
+        items:
+          type: object
+          properties:
+            gameName:
+              description: 游戏名称
+              type: string
+            dealer:
+              type: string
+              description: 庄家
+            playerCount:
+              type: string
+              description: 玩家数量
+            maxPlayer:
+              type: integer
+              description: 最大玩家数
+            roomNum:
+              type: string
+              description: 房间号码
+            gameid:
+              type: integer
+              description: 游戏ID
+            ruleText:
+              type: string
+              description: 规则
+            baseScore:
+              type: integer
+              description: 分数
+            auto_id:
+              type: integer
+              description: 自动开房编号-1=不是自动开房 1-5=自动开房ID编号
+            gameType:
+              type: integer
+              description: 游戏类型 0=麻将 1=牛牛 2=斗地主
+            gameState:
+              type: integer
+              description: 游戏类型 -1=没有找到游戏状态 1=游戏中 2=已结束 0=没有开始
+            player_list:
+              type: array
+              items:
+                type: object
+                properties:
+                  nickname:
+                    type: string
+                    description: 玩家姓名
+                  avatar_url:
+                    type: string
+                    description: 玩家头像
+                  account:
+                    type: string
+                    description: 玩家账号
+        type:  array
+
+  response_success_get_one:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      data:
+        properties:
+          people_number:
+            description: 玩家数量
+            type: string
+          club_name:
+            type: string
+            description: 俱乐部名称
+          club_user:
+            type: string
+            description: 创建人的ACCOUNT
+          club_max_players:
+            type: integer
+            description: 最大玩家数
+          club_manager:
+            type: string
+            description: 管理员列表
+          club_is_vip:
+            type: integer
+            description: 是否是VIP俱乐部
+          club_agent:
+            type: string
+            description: 公会
+        type:  object
+    type: object
+  response_club_intosuccess:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      prompt:
+        type: object
+        properties:
+          status:
+            type: integer
+            description: 消息状态 0=没有消息 1=存在消息
+          content:
+            type: string
+            description: 消息内容
+
+      data:
+        type: object
+        properties:
+          playerNumber:
+            type: integer
+            description: 总玩家数量
+          active:
+            type: integer
+            description: 在线玩家数量
+          roomNumber:
+            type: integer
+            description: 房间数量
+          roomActiveNumber:
+            type: integer
+            description: 游戏中的房间数量
+    type: object
+
+  response_auto_create_uccess:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      list:
+        items:
+          type: object
+          properties:
+            gameid:
+              description: 游戏ID
+              type: string
+            rule:
+              description: 规则
+              type: string
+            id:
+              description: 编号ID
+              type: integer
+            rule_text:
+              description: 规则文字
+              type: string
+            game_name:
+              description: 游戏名称
+              type: string
+        type: array
+    type: object
+
+  response_success_history:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      win_data:
+        type: array
+        items:
+          type: object
+          properties:
+            account:
+              type: string
+              description: 账号
+            nickname:
+              type: string
+              description: 名字
+            number:
+              type: integer
+              description: 次数
+            dataTable:
+              type: array
+              description: 返回的路径数据
+            score:
+              type: integer
+              description: 分数
+          description: 大赢家数据
+      list:
+        items:
+          type: object
+          properties:
+            time:
+              description: 时间
+              type: string
+            room_id:
+              description: 房间号
+              type: string
+            room_master:
+              description: 房间创建人
+              type: string
+            game_name:
+              type: string
+              description: 游戏名称
+            game_id:
+              type: string
+              description: 游戏ID
+            data:
+              type: string
+              description: 需要标记的地址
+            tag:
+              type: integer
+              description: 是否被标记过
+            score:
+              type: array
+              items:
+                type: object
+                properties:
+                  nickname:
+                    type: string
+                    description: 姓名
+                  account:
+                    type: string
+                    description: 账号
+                  score:
+                    type: integer
+                    description: 分数
+                  win:
+                    type: integer
+                    description: 大赢家标签，存在=1就是大赢家其他玩家没有
+        type:  array
+    type: object
+  response_setting_success:
+    properties:
+      code:
+        type: integer
+        description: 编号 1= 失败 0=成功
+      list:
+        type: array
+        items:
+          type: object
+          properties:
+            name:
+              description: 游戏名称
+              type: string
+            relationOptsAnd:
+              description: ''
+              type: string
+            relationOptsOr:
+              description: 房间创建人
+              type: string
+            optionType:
+              type: string
+              description: 选项类型
+            gameId:
+              type: string
+              description: 游戏ID
+            ruleUrl:
+              type: string
+              description: 规则URL
+            optionsData:
+              type: array
+              description: 规则列表
+            cardUseDatas:
+              type: array
+              items:
+                type: object
+                properties:
+                  card:
+                    type: integer
+                    description: 钻石
+                  name:
+                    type: string
+                    description: 显示名称
+    type: object
+paths:
+  /hall/club/create:
+    post:
+      summary: 创建俱乐部
+      description: 创建俱乐部
+      parameters:
+        - {in: formData, description: "玩家SID", name: sid, required: true, type: string }
+        - {in: formData, description: "俱乐部名称", name: club_name, required: false, type: string }
+        - {in: formData, description: "俱乐部详情", name: club_content, required: false, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+
+  /hall/club/disbandment:
+    post:
+      description: 解散俱乐部
+      summary: 解散俱乐部
+      parameters:
+        - {in: formData, description: "玩家SID", name: sid, required: true, type: string }
+        - {in: formData, description: "俱乐部编号", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+
+  /hall/club/list:
+    get:
+      parameters:
+        - {in: query, description: "玩家SID", name: sid, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取全部俱乐部列表
+      summary: 获取全部俱乐部列表
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_list'}
+
+  /hall/club/owner_list:
+    get:
+      parameters:
+        - {in: query, description: "玩家SID", name: sid, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取当前玩家创建的俱乐部列表
+      summary: 获取当前玩家创建的俱乐部列表
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_list'}
+
+  /hall/club/club_of_list:
+    get:
+      parameters:
+        - {in: query, description: "玩家SID", name: sid, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取自己所有相关的俱乐部列表
+      summary: 获取自己所有相关的俱乐部列表
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_list'}
+
+
+  /hall/club/join_club_list:
+    get:
+      parameters:
+        - {in: query, description: "玩家SID", name: sid, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取当前玩家加入的俱乐部列表
+      summary: 获取当前玩家加入的俱乐部列表
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_list' }
+
+  /hall/club/sign_out_club:
+    post:
+      parameters:
+        - {in: formData, description: "玩家SID", name: sid, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 退出俱乐部
+      summary: 退出俱乐部
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+
+  /hall/club/force_sign_out_club:
+    post:
+      parameters:
+        - {in: formData, description: "创建者的SID", name: builder_sid, required: true, type: string }
+        - {in: formData, description: "被踢出去的人的账号", name: member_account, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 俱乐部创建者踢掉某玩家
+      summary: 俱乐部创建者踢掉某玩家
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+
+  /hall/club/apply:
+    post:
+      parameters:
+        - {in: formData, description: "申请者SID", name: sid, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 申请加入俱乐部
+      summary: 申请加入俱乐部
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+
+  /hall/club/apply/list:
+    get:
+      parameters:
+        - {in: query, description: "创建者SID", name: sid, required: true, type: string }
+        - {in: query, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 俱乐部申请加入列表
+      summary: 俱乐部申请加入列表
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_apply_list' }
+
+  /hall/club/apply/audit:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "申请的用户", name: apply_user_account, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+        - {in: formData, description: "1=允许 -1=拒绝", name: status, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 审核
+      summary: 审核
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+
+  /hall/club/user/list:
+    get:
+      parameters:
+        - {in: query, description: "创建者SID", name: sid, required: true, type: string }
+        - {in: query, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 俱乐部人员列表
+      summary: 俱乐部人员列表
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_club_player_list' }
+
+  /hall/club/add_manager:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "设为管理员的用户", name: account, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 添加管理者
+      summary: 添加管理者
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+      tags:
+        - manager
+
+  /hall/club/relieve_manager:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "消除管理员的用户", name: account, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 解除管理者
+      summary: 解除管理者
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+      tags:
+        - manager
+
+  /hall/club/createRoom:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "游戏ID", name: gameid, required: true, type: string }
+        - {in: formData, description: "规则", name: rule, required: true, type: string }
+        - {in: formData, description: "是否隐藏", name: hidden, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 创建房间接口
+      summary: 创建房间接口
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+      tags:
+        - room
+
+  /hall/club/getRoomList:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取房间列表
+      summary: 获取房间列表
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_room_list' }
+      tags:
+        - room
+
+  /hall/club/edit:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+        - {in: formData, description: "俱乐部内容", name: club_content, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 修改俱乐部
+      summary: 修改俱乐部
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+
+  /hall/club/get_one:
+    get:
+      parameters:
+        - {in: query, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: query, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取单个俱乐部的信息
+      summary: 获取单个俱乐部的信息
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_get_one' }
+
+  /hall/club/history:
+    get:
+      parameters:
+        - {in: query, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: query, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 历史玩家的输赢情况
+      summary: 历史玩家的输赢情况
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_history' }
+      tags:
+        - history
+
+  /hall/club/isManager:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 是否是管理人员
+      summary: 是否是管理人员
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success_isManager' }
+      tags:
+        - manager
+
+  /club/history_sign:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "俱乐部ID", name: club_number, required: true, type: string }
+        - {in: formData, description: "从历史列表中返回的datalist 格式为'['a', 'b']'", name: path_data, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 标记历史记录， 下次查询的时候不再查询这些已经标记的记录
+      summary: 标记历史记录， 下次查询的时候不再查询这些已经标记的记录
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+      tags:
+        - history
+
+  /hall/club/club_into:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "进入的俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 玩家进入俱乐部
+      summary: 玩家进入俱乐部
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_club_intosuccess' }
+
+
+
+  /hall/club/auto_create:
+    get:
+      parameters:
+        - {in: query, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: query, description: "进入的俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取自动开房设置
+      summary: 获取自动开房设置
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_auto_create_uccess' }
+      tags:
+        - auto_create
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "进入的俱乐部ID", name: club_number, required: true, type: string }
+        - {in: formData, description: "游戏ID", name: gameid, required: true, type: integer }
+        - {in: formData, description: "游戏规则", name: rule, required: true, type: string }
+        - {in: formData, description: "设置的编号ID", name: id, required: true, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 设置自动开房
+      summary: 设置自动开房
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+      tags:
+        - auto_create
+
+  /hall/club/getRoomSetting:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "进入的俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取创建房间设置信息
+      summary: 获取创建房间设置信息
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_setting_success' }
+      tags:
+        - room
+
+  /hall/club/dissolveMyRoom:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "进入的俱乐部ID", name: club_number, required: true, type: string }
+        - {in: formData, description: "房间号", name: roomId, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 解散俱乐部房间
+      summary: 解散俱乐部房间
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+      tags:
+        - room
+
+  /hall/club/get_auto_create_allow:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "进入的俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 获取自动开房开关
+      summary: 获取自动开房开关
+      responses:
+        '200':
+          description: ''
+          schema:
+            type: object
+            properties:
+              allow:
+                type: integer
+                description: 1=允许 0=不允许
+              code:
+                type: integer
+                descriotion: 0=成功 1= 不成功
+              msg:
+                type: string
+      tags:
+        - auto_create
+
+  /hall/club/settting_auto_create_allow:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "进入的俱乐部ID", name: club_number, required: true, type: string }
+        - {in: formData, description: "自动开房开关 1=开 0=关", name: allow, required: true, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 设置是否自动开房
+      summary: 设置是否自动开房
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+      tags:
+        - auto_create
+
+  /hall/club/clear_auto_create:
+    post:
+      parameters:
+        - {in: formData, description: "当前用户SID", name: sid, required: true, type: string }
+        - {in: formData, description: "进入的俱乐部ID", name: club_number, required: true, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 重置所有自动开房
+      summary: 重置所有自动开房
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success' }
+      tags:
+        - auto_create
+
+  /bag/test/marquee:
+    post:
+      parameters:
+        - {in: formData, description: "类型", name: type, required: true, type: string }
+        - {in: formData, description: "玩家昵称", name: nickname, required: true, type: string }
+        - {in: formData, description: "红包金额", name: redbag, required: false, type: string }
+        - {in: formData, description: "游戏名", name: game, required: false, type: string }
+        - {in: formData, description: "本场排名", name: rank, required: false, type: string }
+        - {in: formData, description: "活动", name: active, required: false, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      description: 测试跑马灯公告信息
+      summary: 测试跑马灯公告信息
+      tags:
+        - auto_create
+

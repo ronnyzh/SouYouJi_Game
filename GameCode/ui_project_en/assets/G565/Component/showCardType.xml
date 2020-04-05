@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1160,336" pivot="0.5,0.5" anchor="true" opaque="false" extention="Label">
+  <controller name="ctl" exported="true" pages="0,葫芦,1,金刚,2,同花顺,3,皇家同花顺" selected="0"/>
+  <displayList>
+    <loader id="n161_s3x0" name="icon" xy="580,167" pivot="0.5,0.5" anchor="true" size="626,336" url="ui://1sm91w5opu4x1v" align="center" vAlign="middle" autoSize="true">
+      <gearIcon controller="ctl" pages="0,2,3" values="ui://1sm91w5opu4x1v|ui://1sm91w5opu4xu|ui://1sm91w5opu4x1o" default="ui://1sm91w5opu4x1z"/>
+    </loader>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Scale" target="n161_s3x0" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Elastic.Out"/>
+  </transition>
+</component>

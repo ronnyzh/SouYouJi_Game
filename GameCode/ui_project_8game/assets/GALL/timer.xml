@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="48,48" extention="Label">
+  <displayList>
+    <image id="n0_fedb" name="icon" src="fedb68" fileName="GALL/img_cd_bg2.png" xy="0,0"/>
+    <text id="n1_fedb" name="title" xy="24,22" pivot="0.5,0.5" anchor="true" size="25,22" font="ui://qn9mtfu5fedb6k" fontSize="18" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="3"/>
+  </displayList>
+</component>

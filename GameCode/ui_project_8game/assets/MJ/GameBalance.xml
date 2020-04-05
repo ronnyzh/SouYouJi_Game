@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1099,617">
+  <controller name="c1" pages="0,normal,1,horse" selected="0"/>
+  <displayList>
+    <image id="n75_jlz3" name="bg2" src="jlz31t" fileName="basic/mb_bg_frame.png" xy="-50,-81" pivot="0.5,0.5" size="1200,792">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearSize controller="c1" pages="0,1" values="1200,792,1,1|1200,800,1,1"/>
+    </image>
+    <component id="n76_jlz3" name="btnClose" src="kteug" fileName="ScaleButton.xml" xy="1081,-90" size="80,80" visible="false">
+      <gearXY controller="c1" pages="0,1" values="1081,-90|1082,-100"/>
+      <Button icon="ui://ejgb8krjjlz31x" sound="ui://la8oslyoodd9hg"/>
+    </component>
+    <list id="n90_jlz3" name="horseTile" xy="190,646" size="266,96" group="n92_jlz3" scale="0.8,0.8" layout="row" selectionMode="none" lineGap="-167" defaultItem="ui://ejgb8krjkteuy" vAlign="bottom" renderOrder="descent" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n91_jlz3" name="n91" xy="18,656" size="155,54" group="n92_jlz3" font="黑体" fontSize="50" color="#000099" text="奖码："/>
+    <group id="n92_jlz3" name="n92" xy="18,646" size="438,96" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="1" values="44,612" default="18,646"/>
+    </group>
+    <component id="n85_jlz3" name="cItem0" src="jlz31z" fileName="balanceItem.xml" xy="24,-31" group="n93_jlz3"/>
+    <component id="n86_jlz3" name="cItem1" src="jlz31z" fileName="balanceItem.xml" xy="24,130" group="n93_jlz3"/>
+    <component id="n87_jlz3" name="cItem2" src="jlz31z" fileName="balanceItem.xml" xy="24,291" group="n93_jlz3"/>
+    <component id="n88_jlz3" name="cItem3" src="jlz31z" fileName="balanceItem.xml" xy="24,452" group="n93_jlz3"/>
+    <group id="n93_jlz3" name="n93" xy="24,-31" size="1055,639" advanced="true" layout="vt" lineGap="5">
+      <gearXY controller="c1" pages="0,1" values="24,-31|33,-29"/>
+    </group>
+    <component id="n94_r9uj" name="btnReady" src="kteug" fileName="ScaleButton.xml" xy="431,581" size="255,112">
+      <gearXY controller="c1" pages="0,1" values="431,581|862,581"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krjr9uj2r"/>
+    </component>
+  </displayList>
+</component>

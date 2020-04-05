@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_g9sy" name="n6" src="g9syji" fileName="战绩/翻页-按钮.png" xy="0,1"/>
+    <loader id="n5" name="icon" xy="33,14" size="94,32" url="ui://la8oslyog9syjl" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearSize controller="button" pages="0,1" values="94,32,1,1|100,20,1,1" default="100,20,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://la8oslyoodd9hg" downEffect="scale" downEffectValue="0.95"/>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,68">
+  <controller name="state" pages="0,选牌中,1," selected="0"/>
+  <displayList>
+    <image id="n72_10nhc" name="n72" src="10nhc7v" fileName="shisan/理牌底.png" xy="0,0" size="204,68">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <text id="n73_10nhc" name="n73" xy="15,8" size="185,55" font="方正准圆简体" fontSize="45" color="#ffcc00" align="center" vAlign="middle" autoSize="none" text="Setting...">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+  </displayList>
+</component>

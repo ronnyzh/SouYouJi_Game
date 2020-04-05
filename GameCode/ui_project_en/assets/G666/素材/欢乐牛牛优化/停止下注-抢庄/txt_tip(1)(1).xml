@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,150" opaque="false" extention="Label">
+  <controller name="c_betMsg" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <loader id="n1_llff" name="icon" xy="0,0" size="800,150" alpha="0.76" url="ui://nwo0j1cxrpxwdo" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n3_gegk" name="n3" xy="399,75" pivot="0.5,0.5" anchor="true" size="665,204" scale="0.6,0.6" url="ui://nwo0j1cxrpxwdq" fill="scaleFree">
+      <gearIcon controller="c_betMsg" pages="0,1" values="ui://nwo0j1cxrpxwdp|ui://nwo0j1cxrpxwdn" default="ui://nwo0j1cxrpxwdq"/>
+      <relation target="n1_llff" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="stopBet">
+    <item time="0" type="Alpha" target="n1_llff" value="0.76"/>
+    <item time="0" type="Alpha" target="n3_gegk" value="1"/>
+    <item time="0" type="XY" target="n1_llff" tween="true" startValue="799,0" endValue="0,0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="Alpha" target="n3_gegk" tween="true" startValue="1" endValue="0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="Alpha" target="n1_llff" tween="true" startValue="0.76" endValue="0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="XY" target="n1_llff" tween="true" startValue="0,0" endValue="-800,0" duration="6"/>
+  </transition>
+</component>

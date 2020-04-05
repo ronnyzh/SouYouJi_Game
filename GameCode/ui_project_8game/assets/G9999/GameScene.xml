@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://wtkqufwmfoeb58">
+  <controller name="jetton" pages="6,0,0,100,1,500,2,1000,3,2000,4,5000,5,10000" selected="0"/>
+  <displayList>
+    <loader id="n1_kexb" name="bg" xy="0,0" size="1334,750" locked="true" aspect="true" url="ui://wtkqufwmrt886y" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n59_pqc4" name="n59" src="pqc45l" fileName="比.xml" xy="428,190" group="n64_pqc4" controller="c1,1">
+      <relation target="n1_kexb" sidePair="bottom-middle,right-center"/>
+    </component>
+    <component id="n60_pqc4" name="n60" src="pqc45l" fileName="比.xml" xy="794,190" group="n64_pqc4" controller="c1,2">
+      <relation target="n1_kexb" sidePair="bottom-middle,left-center"/>
+    </component>
+    <component id="n61_pqc4" name="n61" src="pqc45l" fileName="比.xml" xy="307,351" group="n64_pqc4" controller="c1,3">
+      <relation target="n1_kexb" sidePair="top-middle,right-center"/>
+    </component>
+    <component id="n62_pqc4" name="n62" src="pqc45l" fileName="比.xml" xy="568,351" group="n64_pqc4" controller="c1,4">
+      <relation target="n1_kexb" sidePair="top-middle,left-center"/>
+    </component>
+    <component id="n63_pqc4" name="n63" src="pqc45l" fileName="比.xml" xy="822,351" group="n64_pqc4" controller="c1,5">
+      <relation target="n1_kexb" sidePair="top-middle,left-center"/>
+    </component>
+    <group id="n64_pqc4" name="number" xy="307,190" size="715,291" collapsed="true"/>
+    <loader id="n52_pqc4" name="n52" xy="0,578" size="1334,171" alpha="0.6" url="ui://wtkqufwmfoeb49" fill="scaleFree">
+      <relation target="n1_kexb" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <component id="n2_kexb" name="seat0" src="o6gk25" fileName="Component/item/Seat.xml" xy="159,592" group="n7_kexb" controller="c1,0">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n3_kexb" name="seat1" src="o6gk25" fileName="Component/item/Seat.xml" xy="1180,297" group="n7_kexb" visible="false" controller="c1,0">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n4_kexb" name="seat2" src="o6gk25" fileName="Component/item/Seat.xml" xy="1101,78" group="n7_kexb" visible="false" controller="c1,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n5_kexb" name="seat3" src="o6gk25" fileName="Component/item/Seat.xml" xy="75,78" group="n7_kexb" visible="false" controller="c1,0">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n6_kexb" name="seat4" src="o6gk25" fileName="Component/item/Seat.xml" xy="4,293" group="n7_kexb" visible="false" controller="c1,0">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <group id="n7_kexb" name="seat" xy="4,78" size="1326,664" locked="true" collapsed="true"/>
+    <text id="n17_kexb" name="gameInfo" xy="-1,16" size="653,28" locked="true" fontSize="21" color="#ffffff" strokeColor="#333333" text="牌局编号：00000000000000000000000 百家乐     新手场     底分：1">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n20_m339" name="txtXianHong" xy="656,16" size="101,28" group="n26_m339" fontSize="21" color="#ffffff" vAlign="middle" strokeColor="#000000" text="庄/闲限红 "/>
+    <text id="n21_m339" name="txtXianHongValue" xy="761,16" size="60,28" group="n26_m339" fontSize="21" color="#ffffff" vAlign="middle" strokeColor="#000000" text="1-100"/>
+    <text id="n22_m339" name="txtXiaXian" xy="834,16" size="116,28" group="n26_m339" fontSize="21" color="#ffffff" vAlign="middle" strokeColor="#000000" text="和/对子下限"/>
+    <text id="n23_m339" name="txtXiaXianValue" xy="961,16" size="35,28" group="n26_m339" fontSize="21" color="#ffffff" vAlign="middle" strokeColor="#000000" text="1/1"/>
+    <text id="n24_m339" name="txtShangXian" xy="1012,16" size="116,28" group="n26_m339" fontSize="21" color="#ffffff" vAlign="middle" strokeColor="#000000" text="和/对子上限"/>
+    <text id="n25_m339" name="txtShangXianValue" xy="1138,16" size="83,28" group="n26_m339" fontSize="21" color="#ffffff" vAlign="middle" strokeColor="#000000" text="100/100"/>
+    <group id="n26_m339" name="head" xy="656,16" size="560,28" advanced="true" collapsed="true">
+      <relation target="" sidePair="left-center,top-top"/>
+    </group>
+    <component id="n70_pqc4" name="sign_0" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="604,477" group="n71_pqc4" touchable="false">
+      <relation target="n1_kexb" sidePair="center-center,top-middle"/>
+    </component>
+    <component id="n69_pqc4" name="sign_1" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="1061,356" group="n71_pqc4" touchable="false">
+      <relation target="n1_kexb" sidePair="top-middle,right-right"/>
+    </component>
+    <component id="n67_pqc4" name="sign_2" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="969,143" group="n71_pqc4" touchable="false">
+      <relation target="n1_kexb" sidePair="top-top,right-right"/>
+    </component>
+    <component id="n66_pqc4" name="sign_3" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="231,143" group="n71_pqc4" touchable="false">
+      <relation target="n1_kexb" sidePair="top-top,left-left"/>
+    </component>
+    <component id="n68_pqc4" name="sign_4" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="166,356" group="n71_pqc4" touchable="false">
+      <relation target="n1_kexb" sidePair="top-middle,left-left"/>
+    </component>
+    <group id="n71_pqc4" name="Sign" xy="166,143" size="1021,390" collapsed="true"/>
+    <component id="n18_kexb" name="comDetailedList" src="kexb2k" fileName="Component/item/DetailedList.xml" xy="6,579" locked="true" scale="0.65,0.65" controller="ctl,0,head,1">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n16_kexb" name="comChipRect" src="gbfn2d" fileName="Component/item/ChipRect.xml" xy="224,167" size="875,213" locked="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n12_kexb" name="jetton100" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="1063,597" group="n14_kexb">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="100" icon="ui://wtkqufwmprh36q" controller="jetton" page="0"/>
+    </component>
+    <component id="n13_kexb" name="jetton500" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="915,597" group="n14_kexb">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="500" icon="ui://wtkqufwmprh36r" controller="jetton" page="1"/>
+    </component>
+    <component id="n9_kexb" name="jetton1000" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="767,597" group="n14_kexb">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="1000" icon="ui://wtkqufwmprh36s" controller="jetton" page="2"/>
+    </component>
+    <component id="n11_kexb" name="jetton2000" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="323,597" group="n14_kexb">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="2000" icon="ui://wtkqufwmprh36x" controller="jetton" page="3"/>
+    </component>
+    <component id="n10_kexb" name="jetton5000" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="471,597" group="n14_kexb">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="5000" icon="ui://wtkqufwmprh36w" controller="jetton" page="4"/>
+    </component>
+    <component id="n8_kexb" name="jetton10000" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="619,597" group="n14_kexb">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="1万" icon="ui://wtkqufwmprh36v" controller="jetton" page="5"/>
+    </component>
+    <group id="n14_kexb" name="jetton" xy="323,597" size="859,125" locked="true" collapsed="true"/>
+    <component id="n27_ugzf" name="comTimer" src="ugzf3g" fileName="Component/item/Pln_count_down.xml" xy="236,502" locked="true" filter="color" filterData="0.00,0.00,0.00,0.00">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n28_h3tv" name="btnExit" src="llff3z" fileName="Component/item/ScaleButton.xml" xy="1256,10" size="81,81" scale="0.85,0.85">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button icon="ui://la8oslyor9ujhi"/>
+    </component>
+    <component id="n29_h3tv" name="btnChangeRoom" src="llff3z" fileName="Component/item/ScaleButton.xml" xy="548,334" size="201,81" scale="1.2,1.2">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rjf5583xwm2e2v"/>
+    </component>
+    <component id="n65_pqc4" name="btn_bar" src="pqc45u" fileName="百家乐/抢庄-不抢/按钮条-组件.xml" xy="417,341" hideByEditor="true" visible="false">
+      <relation target="n1_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n31_h3tv" name="aniStartGame" src="h3tv3v" fileName="Component/item/startGame.xml" xy="-130,185" size="1595,379" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n32_llff" name="txtTip" src="llff3y" fileName="Component/item/txt_tip.xml" xy="267,300" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label titleColor="#ffffff"/>
+    </component>
+  </displayList>
+</component>

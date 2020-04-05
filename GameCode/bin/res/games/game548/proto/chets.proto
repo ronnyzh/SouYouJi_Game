@@ -1,0 +1,75 @@
+package chets;
+
+
+enum MSG_HEADER {
+    C_S_GET_CHETS_STATUS = 0x00002199; // 查看获奖状态
+    C_S_GET_CHETS_CHANGE = 0x00002197;// 领取奖励
+
+    S_C_CHETS_STATUS = 0x00003199; // 发送奖池状态
+    S_C_CHETS_CHANGE = 0x00003197; // 发送领取结果
+    S_C_CHETS_SEND_STATUS = 0x00003196; // 发送宝箱
+}
+
+
+//查看获奖状态
+message S_C_Chets_Status {
+    message result{
+        required fixed32 rewardType = 1; //奖励类型 0=金币 1=元宝 2=道具
+        required fixed32 rewardValue = 2; //奖励结果
+    }
+    message Chet{
+        required fixed32 chair = 1; // 位置信息
+        required fixed32 type  = 2; // 1 = 普通场次  2= 胜利场次
+        required fixed32 number= 3; // 次数
+        required fixed32 needs = 4; // 需要次数
+        required fixed32 diff  = 5; // 差数
+        required fixed32 state = 6; // 是否可以领取， 0=不能领取 1=能够领取
+        required fixed32 chetsType = 7; //宝箱类型 0=铜 1=银 2=金
+        repeated result  results = 8; // 宝箱奖励
+    }
+    repeated Chet chets = 1;
+}
+
+//查看获奖状态
+message S_C_Chets_Send_Status {
+
+    message AfterChets{
+        required fixed32 state = 1; // 是否可以领取， 0=不能领取 1=能够领取
+        required fixed32 chetsType = 2; //宝箱类型 0=铜 1=银 2=金
+        required fixed32 status = 3; // 状态， 0=关闭 1=开启
+        required fixed32 type  = 4; // 1 = 普通场次  2= 胜利场次
+
+    }
+    repeated AfterChets afterchats = 1;
+}
+
+
+//查看获奖状态
+message C_S_Get_Chets_Status{
+    required fixed32 chair = 1; // 位置信息
+}
+
+//领取奖励
+message C_S_Get_Chets_Change {
+    required fixed32 chair = 1; // 位置
+    required fixed32 type  = 2; // 1 = 普通场次  2= 胜利场次
+}
+
+//发送领取结果
+message S_C_Chets_Change {
+    
+    required fixed32 chair = 1; // 位置信息
+    required fixed32 type  = 2; // 1 = 普通场次  2= 胜利场次
+    required fixed32 code  = 3; // 返回的结果编号 0 = 成功
+    required string  msg   = 4; // 返回信息 成功/失败
+    required fixed32 gold  = 5; // 返回新增的金币数量 没有新增就为0
+    required fixed32 rewardType = 6; //奖励类型 0=金币 1=元宝 2=道具
+    required fixed32 rewardValue = 7; //奖励结果
+    required fixed32 chetsType = 8; //宝箱类型 0=铜 1=银 2=金
+
+    required fixed32 number= 9; // 重置后的次数
+    required fixed32 needs = 10; // 重置后的需求次数
+    required fixed32 diff  = 11; // 重置后的差数
+    required fixed32 state = 12; // 是否可以领取， 0=不能领取 1=能够领取
+}
+

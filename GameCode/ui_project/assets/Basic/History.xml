@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImageAlpha="100">
+  <controller name="c1" pages="0,all,1,game" selected="0"/>
+  <displayList>
+    <graph id="n5_aks0" name="n5" xy="0,0" size="1334,750" locked="true" hideByEditor="true" visible="false" alpha="0.5" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_aks0" name="n1" src="g9syj9" fileName="战绩/框-大.png" xy="35,46" size="1269,657" group="n6_aks0"/>
+    <image id="n10_osvm" name="n10" src="g9syj7" fileName="战绩/战绩.png" xy="615,57" group="n6_aks0" aspect="true">
+      <relation target="n1_aks0" sidePair="top-top"/>
+    </image>
+    <component id="n17_avzo" name="btn_close" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="1228,50" pivot="0.5,0.5" size="78,79" group="n6_aks0">
+      <Button title="确定" titleFontSize="25" icon="ui://la8oslyoj17qiv"/>
+    </component>
+    <component id="n34_g9sy" name="PageUp" src="g9syjm" fileName="NextButton.xml" xy="306,617" group="n6_aks0" visible="false" grayed="true">
+      <Button icon="ui://la8oslyog9syjk"/>
+    </component>
+    <component id="n33_g9sy" name="PageDown" src="g9syjm" fileName="NextButton.xml" xy="767,617" group="n6_aks0" visible="false" grayed="true">
+      <Button icon="ui://la8oslyog9syjl"/>
+    </component>
+    <list id="n32_g9sy" name="list" xy="42,186" size="1240,472" group="n6_aks0" overflow="scroll" lineGap="-6" defaultItem="ui://la8oslyog9syja">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n19_g9sy" name="n19" src="g9syj8" fileName="战绩/标题栏.png" xy="41,125" size="1254,56" group="n26_g9sy"/>
+    <text id="n21_g9sy" name="n21" xy="84,132" size="77,45" group="n26_g9sy" fontSize="35" color="#452c60" bold="true" text="序号"/>
+    <text id="n22_g9sy" name="n22" xy="273,132" size="149,45" group="n26_g9sy" fontSize="35" color="#452c60" bold="true" text="牌局编号"/>
+    <text id="n23_g9sy" name="n23" xy="568,132" size="77,45" group="n26_g9sy" fontSize="35" color="#452c60" bold="true" text="游戏">
+      <gearText controller="c1" pages="0" values="游戏" default="场次"/>
+    </text>
+    <text id="n24_g9sy" name="n24" xy="772,132" size="77,45" group="n26_g9sy" fontSize="35" color="#452c60" bold="true" text="盈利"/>
+    <text id="n25_g9sy" name="n25" xy="1001,132" size="149,45" group="n26_g9sy" fontSize="35" color="#452c60" bold="true" text="结束时间"/>
+    <group id="n26_g9sy" name="titleStrs" xy="41,125" size="1254,56" group="n6_aks0"/>
+    <group id="n6_aks0" name="n6" xy="35,46" size="1271,657" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n6_aks0" tween="true" startValue="0" endValue="1" duration="12" ease="Expo.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,412">
+  <displayList>
+    <loader id="n6_iuo1" name="BG" xy="0,0" size="638,412" touchable="false" url="ui://nwo0j1cxwm2ebj" fill="scaleFree">
+      <relation target="" sidePair=""/>
+    </loader>
+    <loader id="n7_iuo1" name="n7" xy="263,25" size="111,47" touchable="false" url="ui://nwo0j1cxiuo1aj" autoSize="true">
+      <relation target="n6_iuo1" sidePair="top-top,center-center"/>
+    </loader>
+    <text id="n2_iuo1" name="msg" xy="77,107" size="483,210" fontSize="28" autoSize="none" text="尊敬的玩家，您携带的金币数不足以进入本场次游戏，请充值后进入。">
+      <relation target="n6_iuo1" sidePair="top-top,center-center"/>
+    </text>
+    <component id="n4_iuo1" name="btn_Yes" src="iuo1ai" fileName="素材/按钮/确认按钮.xml" xy="254,320">
+      <relation target="n6_iuo1" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <component id="n8_t8jf" name="btn_hide" src="iuo1ai" fileName="素材/按钮/确认按钮.xml" xy="254,320" visible="false">
+      <relation target="n6_iuo1" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

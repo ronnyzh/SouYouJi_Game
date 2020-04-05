@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,100">
+  <controller name="c1" pages="0,rateLayer,1,RobTheVillage" selected="0"/>
+  <displayList>
+    <component id="n7_h21o" name="btn_Q0" src="r4d524" xy="393,2" group="n11_h21o">
+      <Button icon="ui://newlnjldr4d51g"/>
+    </component>
+    <component id="n8_h21o" name="btn_Q1" src="r4d524" xy="636,2" group="n11_h21o">
+      <Button icon="ui://newlnjldr4d51h"/>
+    </component>
+    <group id="n11_h21o" name="rateLayer" xy="393,2" size="465,93" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n16_h21o" name="btn_C0" src="r4d525" xy="72,2" group="n20_h21o">
+      <Button title="1倍"/>
+    </component>
+    <component id="n17_h21o" name="btn_C1" src="r4d525" xy="304,2" group="n20_h21o">
+      <Button title="2倍"/>
+    </component>
+    <component id="n18_h21o" name="btn_C2" src="r4d525" xy="536,2" group="n20_h21o">
+      <Button title="3倍"/>
+    </component>
+    <component id="n19_h21o" name="btn_C3" src="r4d525" xy="768,2" group="n20_h21o">
+      <Button title="4倍"/>
+    </component>
+    <component id="n25_qb1b" name="btn_C4" src="r4d525" xy="1000,2" group="n20_h21o">
+      <Button title="5倍"/>
+    </component>
+    <group id="n20_h21o" name="RobTheVillage" xy="72,2" size="1150,93" advanced="true" layout="hz" colGap="10">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

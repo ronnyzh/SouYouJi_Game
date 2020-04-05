@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,127">
+  <displayList>
+    <component id="n0_hl39" name="seat" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="0,0"/>
+  </displayList>
+  <transition name="leftBet">
+    <item time="0" type="XY" target="n0_hl39" tween="true" startValue="0,0" endValue="10,0" duration="3"/>
+    <item time="3" type="XY" target="n0_hl39" tween="true" startValue="10,0" endValue="0,0" duration="3"/>
+  </transition>
+  <transition name="rightBet">
+    <item time="0" type="XY" target="n0_hl39" tween="true" startValue="0,0" endValue="-10,0" duration="3"/>
+    <item time="3" type="XY" target="n0_hl39" tween="true" startValue="-10,0" endValue="0,0" duration="3"/>
+  </transition>
+  <transition name="selfBet">
+    <item time="0" type="XY" target="n0_hl39" tween="true" startValue="0,0" endValue="0,-10" duration="3"/>
+    <item time="3" type="XY" target="n0_hl39" tween="true" startValue="0,-10" endValue="0,0" duration="3"/>
+  </transition>
+</component>

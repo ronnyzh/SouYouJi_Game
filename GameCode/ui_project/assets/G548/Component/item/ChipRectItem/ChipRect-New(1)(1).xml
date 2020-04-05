@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="870,300">
+  <displayList>
+    <component id="n16_kexb" name="0,0" src="wsis7m" fileName="Component/item/ChipRectItem/ChipRectItem-备份(1).xml" xy="4,141" size="318,149" controller="ctl,0"/>
+    <component id="n31_kexb" name="0,1" src="wsis7m" fileName="Component/item/ChipRectItem/ChipRectItem-备份(1).xml" xy="317,143" size="250,147" controller="ctl,1"/>
+    <component id="n26_kexb" name="0,2" src="wsis7m" fileName="Component/item/ChipRectItem/ChipRectItem-备份(1).xml" xy="572,143" size="295,147" controller="ctl,2"/>
+    <component id="n36_kexb" name="1,0" src="wsis7m" fileName="Component/item/ChipRectItem/ChipRectItem-备份(1).xml" xy="2,8" size="444,143" controller="ctl,3"/>
+    <component id="n41_kexb" name="1,1" src="wsis7m" fileName="Component/item/ChipRectItem/ChipRectItem-备份(1).xml" xy="442,9" size="422,142" controller="ctl,4"/>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,100">
+  <controller name="c_pokers" exported="true" pages="0,,1," selected="0"/>
+  <controller name="c1" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <component id="n1_gegk" name="ani_poker-1" src="o8glbn" fileName="动效-看牌-组件.xml" xy="0,9" hideByEditor="true" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_phk5" name="ani_poker" src="phk5d3" fileName="动效-看牌-组件-5张牌.xml" xy="0,9" hideByEditor="true" visible="false" touchable="false"/>
+    <list id="n0_gegk" name="pokers" xy="28,50" pivot="0.14,0.5" anchor="true" size="200,100" layout="row" colGap="-30" defaultItem="ui://nwo0j1cxnayw7o" selectionController="c1" autoClearItems="true">
+      <gearDisplay controller="c_pokers" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

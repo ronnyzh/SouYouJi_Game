@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,100" pivot="0.5,0.5">
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14,,15,,16,,17,,18,,19,,20,,21,,22," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0" stopOnExit="true"/>
+    <action type="play_transition" fromPage="" toPage="21" transition="t1"/>
+  </controller>
+  <displayList>
+    <image id="n0_s4ce" name="n0" src="s2tlj" fileName="nn/niubeijing_312.png" xy="-42,2" pivot="0.5,0.5" size="389,94" aspect="true">
+      <gearDisplay controller="c1" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22"/>
+      <relation target="n3_s4ce" sidePair="width-width%,height-height%"/>
+    </image>
+    <image id="n4_mgoj" name="n4" src="qc7n7a" fileName="point/黑杰克.png" xy="149,30" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="21"/>
+    </image>
+    <loader id="n3_s4ce" name="icon" xy="150,60" pivot="0.5,0.5" anchor="true" size="174,159" url="ui://dosvlhxrs2tl14" align="center" vAlign="middle" fill="scaleMatchWidth" frame="4" color="#fbfbfb">
+      <gearIcon controller="c1" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22" values="ui://dosvlhxrs2tl14|ui://dosvlhxrs2tl15|ui://dosvlhxrs2tlk|ui://dosvlhxrs2tll|ui://dosvlhxrs2tlm|ui://dosvlhxrs2tln|ui://dosvlhxrs2tlo|ui://dosvlhxrs2tlp|ui://dosvlhxrs2tlq|ui://dosvlhxrs2tlr|ui://dosvlhxrs2tls|ui://dosvlhxrs2tlt|ui://dosvlhxrs2tlu|ui://dosvlhxrs2tlv|ui://dosvlhxrs2tlw|ui://dosvlhxrs2tlx|ui://dosvlhxrs2tly|ui://dosvlhxrs2tlz|ui://dosvlhxrs2tl10|ui://dosvlhxrs2tl11|ui://dosvlhxrs2tl12|ui://dosvlhxrs2tl13|ui://dosvlhxrs2tl14"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n0_s4ce" tween="true" startValue="0,0" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n3_s4ce" tween="true" startValue="0,0" endValue="1,1" duration="6" ease="Back.Out"/>
+  </transition>
+  <transition name="t1" options="4">
+    <item time="0" type="Scale" target="n4_mgoj" tween="true" startValue="0,0" endValue="1,1" duration="6" ease="Elastic.Out"/>
+  </transition>
+</component>

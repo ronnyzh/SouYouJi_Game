@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="gamePageC" pages="0,games,1,stages,2,connecting" selected="0"/>
+  <controller name="loading" pages="0,hide,1,show" selected="0"/>
+  <controller name="gamelistC" pages="0,1,1,2" selected="0"/>
+  <controller name="pagecodeC" pages="0,1,1,2" selected="0"/>
+  <displayList>
+    <loader id="n0_jlz3" name="bg" xy="0,0" size="1334,750" group="n53_cxl8" url="ui://wpa3vk7vuy9c6v" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n70_hpcr" name="bg1" xy="0,0" size="1334,750" group="n53_cxl8" blend="add" filter="color" filterData="-0.68,0.00,0.00,0.00" url="ui://wpa3vk7vuy9c6v" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n44_uy9c" name="bg2" xy="0,0" pivot="0.5,0.5" size="1334,750" group="n53_cxl8" scale="1.3,1.3" alpha="0" url="ui://wpa3vk7vuy9c6v" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="gamePageC" pages="0,1,2"/>
+      <gearSize controller="gamePageC" pages="0" values="1334,750,1.3,1.3" default="1334,750,1,1" tween="true" duration="0.2"/>
+      <gearLook controller="gamePageC" pages="0" values="0,0,0,1" default="1,0,0,1" tween="true" duration="0.2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n71_m23f" name="Par_star" xy="0,0" size="1334,750" group="n53_cxl8"/>
+    <loader id="n68_jxyy" name="bg3" xy="0,0" pivot="0.5,0.5" size="1334,750" group="n53_cxl8" scale="1.3,1.3" visible="false" alpha="0" blend="add" filter="color" filterData="-0.68,0.00,0.00,0.00" url="ui://wpa3vk7vuy9c6v" align="center" vAlign="middle" fill="scaleFree">
+      <gearSize controller="gamePageC" pages="0" values="1334,750,1.3,1.3" default="1334,750,1,1" tween="true" duration="0.2"/>
+      <gearLook controller="gamePageC" pages="0,1" values="0,0,0,1|0.3,0,0,1" default="1,0,0,1" tween="true" duration="0.2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n56_d1sn" name="n56" src="d1snt8e" fileName="pointLight.xml" xy="-10,666" group="n53_cxl8">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="bottom-bottom,left-left"/>
+    </component>
+    <component id="n57_d1sn" name="n57" src="d1snt8g" fileName="pointLight(1).xml" xy="1176,581" group="n53_cxl8">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+    </component>
+    <component id="n58_d1sn" name="n58" src="d1snt8h" fileName="pointLight(2).xml" xy="-6,609" group="n53_cxl8">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="bottom-bottom,left-left"/>
+    </component>
+    <component id="n59_d1sn" name="n59" src="d1snt8i" fileName="pointLight(3).xml" xy="1249,613" group="n53_cxl8">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+    </component>
+    <component id="n60_d1sn" name="n60" src="d1snt8j" fileName="pointLight(4).xml" xy="67,583" group="n53_cxl8">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="bottom-bottom,left-left"/>
+    </component>
+    <component id="n55_d1sn" name="n55" src="d1snt8c" fileName="StarParticleSkew.xml" xy="476,623" size="400,107" group="n53_cxl8" hideByEditor="true" visible="false" touchable="false" blend="add" filter="color" filterData="-0.21,0.04,0.60,0.00">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n62_ns5v" name="n62" src="d1snt8m" fileName="starMoveAnima.xml" xy="78,23" group="n53_cxl8" hideByEditor="true" visible="false" rotation="-33" filter="color" filterData="0.57,0.09,-0.16,0.81">
+      <gearDisplay controller="gamePageC" pages="0"/>
+    </component>
+    <component id="n63_ns5v" name="n63" src="ns5vt8o" fileName="starMoveAnima(1).xml" xy="787,-64" group="n53_cxl8" hideByEditor="true" visible="false" filter="color" filterData="-0.19,0.09,-0.16,0.71">
+      <gearDisplay controller="gamePageC" pages="0"/>
+    </component>
+    <component id="n64_ns5v" name="n64" src="ns5vt8p" fileName="starMoveAnima(2).xml" xy="300,68" group="n53_cxl8" hideByEditor="true" visible="false" rotation="-56" filter="color" filterData="0.00,0.09,-0.35,0.81">
+      <gearDisplay controller="gamePageC" pages="0"/>
+    </component>
+    <component id="n65_ns5v" name="n65" src="ns5vt8q" fileName="starMoveAnima(3).xml" xy="607,16" group="n53_cxl8" hideByEditor="true" visible="false" rotation="-37" filter="color" filterData="0.17,0.09,-0.16,0.81">
+      <gearDisplay controller="gamePageC" pages="0"/>
+    </component>
+    <component id="n66_ns5v" name="n66" src="ns5vt8r" fileName="starMoveAnima(4).xml" xy="1012,-82" group="n53_cxl8" hideByEditor="true" visible="false" rotation="15" filter="color" filterData="-0.15,0.09,-0.16,0.81">
+      <gearDisplay controller="gamePageC" pages="0"/>
+    </component>
+    <component id="n67_jxyy" name="n67" src="jxyyt8u" fileName="Spotlight.xml" xy="0,0" group="n53_cxl8">
+      <gearLook controller="gamePageC" pages="1,2" values="0,0,0,1|0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="width-width,top-top"/>
+    </component>
+    <image id="n33_uy9c" name="n33" src="uy9c67" fileName="1.12版本新皮美术资源/大厅/底框.png" xy="0,720" group="n53_cxl8">
+      <gearXY controller="gamePageC" pages="0,1,2" values="0,720|0,720|0,749"/>
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+    </image>
+    <image id="n32_uy9c" name="n32" src="uy9c6b" fileName="1.12版本新皮美术资源/大厅/顶框.png" xy="0,0" group="n53_cxl8">
+      <gearXY controller="gamePageC" pages="0,2" values="0,0|0,-83" default="0,0" tween="true"/>
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+    <image id="n36_uy9c" name="n36" src="uy9c5z" fileName="1.12版本新皮美术资源/大厅/头像名称底.png" xy="99,6" group="n53_cxl8">
+      <gearXY controller="gamePageC" pages="2" values="99,-77" default="99,6" tween="true"/>
+    </image>
+    <image id="n37_uy9c" name="n37" src="uy9c60" fileName="1.12版本新皮美术资源/大厅/头像框.png" xy="33,4" group="n53_cxl8">
+      <gearXY controller="gamePageC" pages="2" values="33,-79" default="33,4" tween="true"/>
+    </image>
+    <image id="n47_itmi" name="n47z" src="uy9c6a" fileName="1.12版本新皮美术资源/大厅/金币框.png" xy="420,17" size="235,48" group="n53_cxl8">
+      <gearXY controller="gamePageC" pages="2" values="420,-66" default="420,17" tween="true"/>
+    </image>
+    <image id="n61_d1sn" name="n61" src="uy9c6x" fileName="1.12版本新皮美术资源/广告位 -z.png" xy="36,182" pivot="0.5,0" group="n53_cxl8">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <gearSize controller="gamePageC" pages="1,2" values="231,445,0,1|231,445,0,1" default="231,445,1,1" tween="true" duration="0.1"/>
+      <gearLook controller="gamePageC" pages="1,2" values="0,0,0,1|0,0,0,1" default="1,0,0,1" tween="true" duration="0.15"/>
+      <relation target="" sidePair="middle-middle"/>
+    </image>
+    <component id="n72_qi2a" name="Pln_AdBoard" src="qi2at8v" fileName="AdBoardTest.xml" xy="37,183" group="n53_cxl8" hideByEditor="true" visible="false"/>
+    <component id="n43_uy9c" name="game449" src="d1snt8k" fileName="AdBoard.xml" xy="36,182" group="n53_cxl8">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="n61_d1sn" sidePair="left-left,top-top"/>
+      <relation target="n61_d1sn" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n74_mrq2" name="page1" xy="745,687" pivot="0.5,0.5" size="35,12" group="n53_cxl8" scale="1.2,1.2" blend="add" url="ui://wpa3vk7vmrq2t8x" align="center" vAlign="middle" autoSize="true">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <gearSize controller="gamelistC" pages="0" values="35,12,1.2,1.2" default="35,12,1,1" tween="true"/>
+      <gearLook controller="pagecodeC" pages="1" values="0,0,0,1" default="1,0,0,1"/>
+      <gearIcon controller="gamelistC" pages="0" values="ui://wpa3vk7vmrq2t8x" default="ui://wpa3vk7vmrq2t8w"/>
+      <relation target="n3_jlz3" sidePair="bottom-top,left-left"/>
+    </loader>
+    <loader id="n75_mrq2" name="page2" xy="789,687" pivot="0.5,0.5" size="35,12" group="n53_cxl8" blend="add" url="ui://wpa3vk7vmrq2t8w" align="center" vAlign="middle" autoSize="true">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <gearSize controller="gamelistC" pages="1" values="35,12,1.2,1.2" default="35,12,1,1" tween="true"/>
+      <gearLook controller="pagecodeC" pages="1" values="0,0,0,1" default="1,0,0,1"/>
+      <gearIcon controller="gamelistC" pages="1" values="ui://wpa3vk7vmrq2t8x" default="ui://wpa3vk7vmrq2t8w"/>
+      <relation target="n74_mrq2" sidePair="bottom-bottom,left-left"/>
+    </loader>
+    <group id="n53_cxl8" name="cacheObject" xy="-10,-82" size="1350,844" advanced="true" collapsed="true"/>
+    <component id="n8_jlz3" name="btn_start" src="jlz31j" fileName="BtnSubGame.xml" xy="563,751" size="207,175" aspect="true" alpha="0">
+      <gearDisplay controller="gamePageC" pages="0,1,2"/>
+      <gearXY controller="gamePageC" pages="0,1" values="563,751|563,623" default="563,701" tween="true"/>
+      <gearLook controller="gamePageC" pages="0" values="0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+      <Button title="斗地主" icon="ui://wpa3vk7vuy9c51" sound="ui://la8oslyoodd9hg"/>
+    </component>
+    <component id="n7_jlz3" name="btn_return" src="jlz31j" fileName="BtnSubGame.xml" xy="20,102" pivot="0.5,0.5" size="118,81" aspect="true" alpha="0" rotation="21">
+      <gearDisplay controller="gamePageC" pages="1,2"/>
+      <gearXY controller="gamePageC" pages="0,2" values="20,102|-118,81" default="4,81" tween="true" duration="0.1"/>
+      <gearLook controller="gamePageC" pages="0" values="0,21,0,1" default="1,0,0,1" tween="true" duration="0.1"/>
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="斗地主" icon="ui://wpa3vk7vuy9c53"/>
+    </component>
+    <component id="n52_p9j7" name="game_sub_list" src="p9j77a" fileName="GateSubList.xml" xy="667,410" pivot="0.5,0.5" anchor="true" scale="0.8,0.8" alpha="0">
+      <gearDisplay controller="gamePageC" pages="1,2"/>
+      <gearSize controller="gamePageC" pages="0,1,2" values="1214,524,0.8,0.8|1214,524,1,1|1214,524,1,1" tween="true" duration="0.1"/>
+      <gearLook controller="gamePageC" pages="0,2" values="0,0,0,1|0,0,0,1" default="1,0,0,1" tween="true" duration="0.1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n5_jlz3" name="game_sub_listBBBB" xy="667,411" pivot="0.5,0.5" anchor="true" size="1328,534" hideByEditor="true" visible="false" layout="flow_hz" lineGap="-28" colGap="-21" defaultItem="ui://wpa3vk7vuy9c6z" align="center" vAlign="middle">
+      <gearDisplay controller="gamePageC" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item icon="ui://wpa3vk7vl1cy74" name="btn_s0"/>
+      <item icon="ui://wpa3vk7vl1cy75" name="btn_s1"/>
+      <item icon="ui://wpa3vk7vl1cy76" name="btn_s2"/>
+      <item icon="ui://wpa3vk7vl1cy77" name="btn_s3"/>
+      <item icon="ui://wpa3vk7vl1cy78" name="btn_s4"/>
+    </list>
+    <list id="n3_jlz3" name="sub_game_list" xy="296,160" size="992,516" pageController="gamelistC" layout="pagination" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="8" lineGap="19" colGap="-10" lineItemCount="4" lineItemCount2="2" defaultItem="ui://wpa3vk7vjlz31g" align="center" vAlign="middle">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item icon="ui://wpa3vk7vuy9c5m" name="game555"/>
+      <item icon="ui://wpa3vk7ve9ist91" name="game449"/>
+      <item icon="ui://wpa3vk7vuy9c5h" name="game556"/>
+      <item icon="ui://wpa3vk7vuy9c5i" name="game557"/>
+      <item icon="ui://wpa3vk7vuy9c5k" name="game561"/>
+      <item icon="ui://wpa3vk7vuy9c5p" name="game559"/>
+      <item icon="ui://wpa3vk7vuy9c5e" name="game563"/>
+      <item icon="ui://wpa3vk7vuy9c5l" name="game445"/>
+      <item icon="ui://wpa3vk7v10hut7k" name="game452"/>
+      <item icon="ui://wpa3vk7vuy9c5g" name="game560"/>
+      <item icon="ui://wpa3vk7vuy9c5f" name="game562"/>
+      <item icon="ui://wpa3vk7vuy9c5j" name="game666"/>
+      <item icon="ui://wpa3vk7ve9ist92" name="game565"/>
+      <item icon="ui://wpa3vk7vlatnt9l" name="game548"/>
+    </list>
+    <image id="n41_uy9c" name="n41" src="uy9c6w" fileName="1.12版本新皮美术资源/大厅/底栏渐变.png" xy="-1,685" group="n42_uy9c"/>
+    <component id="n22_p7lx" name="btn_set" src="jlz31j" fileName="BtnSubGame.xml" xy="38,656" size="124,127" group="n42_uy9c" aspect="true">
+      <gearDisplay controller="gamePageC" pages="0"/>
+      <Button title="斗地主" icon="ui://wpa3vk7vuy9c5u"/>
+    </component>
+    <component id="n31_c4mg" name="btn_rule" src="jlz31j" fileName="BtnSubGame.xml" xy="64,655" size="124,127" group="n42_uy9c" aspect="true">
+      <gearDisplay controller="gamePageC" pages="1,2"/>
+      <Button title="斗地主" icon="ui://wpa3vk7vuy9c5t"/>
+    </component>
+    <component id="n40_uy9c" name="btn_history" src="jlz31j" fileName="BtnSubGame.xml" xy="220,655" size="124,127" group="n42_uy9c" aspect="true">
+      <gearDisplay controller="gamePageC" pages="0,1,2"/>
+      <Button title="斗地主" icon="ui://wpa3vk7vuy9c5s"/>
+    </component>
+    <group id="n42_uy9c" name="n42" xy="-1,655" size="367,128" advanced="true" collapsed="true">
+      <gearXY controller="gamePageC" pages="0,2" values="-1,655|-348,655" default="-1,655" tween="true"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </group>
+    <image id="n13_p7lx" name="n13" src="uy9c6a" fileName="1.12版本新皮美术资源/大厅/金币框.png" xy="803,21" size="235,48" group="n16_p7lx"/>
+    <image id="n15_p7lx" name="n15" src="itmi72" fileName="platform_lobby/金币(1).png" xy="786,13" group="n16_p7lx"/>
+    <text id="n14_p7lx" name="gems" xy="839,27" pivot="0,0.5" size="190,39" group="n16_p7lx" fontSize="30" color="#ffffff" align="right" autoSize="none" singleLine="true" text="00000"/>
+    <group id="n16_p7lx" name="gembar" xy="786,13" size="252,57" visible="false" advanced="true" collapsed="true"/>
+    <image id="n45_uy9c" name="n45" src="uy9c40" fileName="1.12版本新皮美术资源/二级/名称外框.png" xy="1035,14" group="n9_jlz3" visible="false"/>
+    <text id="n25_a2i0" name="txtGameName" xy="798,19" pivot="1,0.5" size="532,111" group="n9_jlz3" alpha="0" font="ui://wpa3vk7vuy9c6y" fontSize="50" color="#ffffff" align="right" leading="0" letterSpacing="-16" autoSize="none" text="ThreePictrues">
+      <gearLook controller="gamePageC" pages="0" values="0,0,0,1" default="1,0,0,1" tween="true" duration="0.2"/>
+    </text>
+    <group id="n9_jlz3" name="n9" xy="798,14" size="534,116" advanced="true" collapsed="true">
+      <gearDisplay controller="gamePageC" pages="1,2"/>
+      <gearXY controller="gamePageC" pages="0,1,2" values="798,14|770,14|1261,14" tween="true" duration="0.2"/>
+      <relation target="" sidePair="top-top,right-right"/>
+    </group>
+    <text id="n48_itmi" name="moneyMark" xy="419,26" pivot="1,0.5" size="78,36" fontSize="28" color="#ffcc00" align="right" autoSize="none" text="RMB:">
+      <gearXY controller="gamePageC" pages="2" values="419,-58" default="419,26" tween="true"/>
+    </text>
+    <text id="n51_itmi" name="money" xy="497,24" pivot="0,0.5" size="148,36" fontSize="28" color="#cccccc" align="right" autoSize="none" singleLine="true" text="0">
+      <gearXY controller="gamePageC" pages="2" values="497,-60" default="497,24" tween="true"/>
+    </text>
+    <text id="n17_p7lx" name="name" xy="110,26" pivot="0.5,0.5" size="224,37" fontSize="26" color="#ffffff" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="玩家名字">
+      <gearXY controller="gamePageC" pages="2" values="110,-58" default="110,26" tween="true"/>
+    </text>
+    <loader id="n38_uy9c" name="imgHead" xy="35,6" size="66,66" url="ui://wpa3vk7vuy9c5y" fill="scaleFree">
+      <gearXY controller="gamePageC" pages="2" values="35,-78" default="35,6" tween="true"/>
+    </loader>
+    <component id="n39_uy9c" name="setHeadBtn" src="osvmed" fileName="ScaleButton.xml" pkg="la8oslyo" xy="17,-9" size="102,98">
+      <gearDisplay controller="gamePageC" pages="0,1"/>
+    </component>
+    <graph id="n29_nxyf" name="n29" xy="0,0" size="1334,750" group="n28_n7np" alpha="0.2" type="rect" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n27_n7np" name="n27" src="n7np23" fileName="loading圈圈缩小后/loading_0.png" xy="594,300" pivot="0.5,0.5" group="n28_n7np">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n26_n7np" name="n26" src="n7np24" fileName="loading圈圈缩小后/loading_1.png" xy="603,311" pivot="0.5,0.5" group="n28_n7np">
+      <gearDisplay controller="loading" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n30_nxyf" name="n30" xy="624,360" size="89,32" group="n28_n7np" font="黑体" fontSize="28" color="#ffffff" align="center" vAlign="middle" text="匹配中">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n28_n7np" name="n28" xy="0,0" size="1334,750" locked="true" advanced="true" collapsed="true">
+      <gearDisplay controller="loading" pages="1"/>
+    </group>
+    <text id="n76_jzco" name="Txt_version" xy="1099,719" size="235,33" fontSize="24" color="#ffffff" align="right" vAlign="middle" bold="true" autoClearText="true" text="平台大厅版本:1.0.0.1">
+      <gearDisplay controller="gamePageC" pages="0,1"/>
+      <relation target="n33_uy9c" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n26_n7np" tween="true" startValue="0" endValue="1800" duration="120" ease="Linear"/>
+    <item time="0" type="Rotation" target="n27_n7np" tween="true" startValue="1800" endValue="0" duration="120" ease="Linear"/>
+    <item time="120" type="Rotation" target="n26_n7np" tween="true" startValue="1800" ease="Linear" repeat="-1"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="999999">
+    <item time="0" type="ColorFilter" target="n70_hpcr" tween="true" startValue="-0.68,0.00,0.00,0.00" endValue="-0.27,0.00,0.00,0.00" duration="72" ease="Linear"/>
+    <item time="72" type="ColorFilter" target="n70_hpcr" tween="true" startValue="-0.27,0.00,0.00,0.00" endValue="-0.68,0.00,0.00,0.00" duration="48" ease="Expo.In"/>
+  </transition>
+</component>

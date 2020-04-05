@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="27,27">
+  <controller name="c_bg" pages="0,暗,1,亮" selected="1"/>
+  <controller name="c_win" exported="true" pages="0,,1,庄赢,3,闲赢" selected="2">
+    <action type="change_page" fromPage="" toPage="1,3" controller="c_bg" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="0" controller="c_bg" targetPage="0"/>
+  </controller>
+  <controller name="c_he" exported="true" pages="0,无和,1,和,2,连续和,3,,4,,5,,6,,7,,8,,9," selected="3"/>
+  <displayList>
+    <loader id="n0_v54h" name="bg" xy="13,13" pivot="0.5,0.5" anchor="true" size="20,20" touchable="false" fill="scaleFree">
+      <gearIcon controller="c_bg" pages="0,1" values="|"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1_v54h" name="win" xy="13,13" pivot="0.5,0.5" anchor="true" size="20,20" touchable="false" url="ui://skx16jl7pfm9nr" fill="scaleFree">
+      <gearIcon controller="c_win" pages="0,1" values="|ui://skx16jl7pfm9o0" default="ui://skx16jl7pfm9nr"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2_v54h" name="he" xy="13,13" pivot="0.5,0.5" anchor="true" size="8,12" url="ui://skx16jl7rrzjp5" autoSize="true">
+      <gearDisplay controller="c_he" pages="1,2,3,4,5,6,7,8,9"/>
+      <gearIcon controller="c_he" pages="1,2,3,4,5,6,7,8,9" values="ui://skx16jl7pfm9nh|ui://skx16jl7rrzjp4|ui://skx16jl7rrzjp5|ui://skx16jl7rrzjpa|ui://skx16jl7rrzjp6|ui://skx16jl7rrzjp7|ui://skx16jl7rrzjp8|ui://skx16jl7rrzjp9|ui://skx16jl7rrzjpb" default="ui://skx16jl7pfm9ni"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="833,77">
+  <displayList>
+    <loader id="n0_iuo1" name="bg" xy="0,0" size="833,77" locked="true" touchable="false" url="ui://nwo0j1cxayoed" autoSize="true"/>
+    <component id="n1_iuo1" name="bei_1_hui" src="er488m" fileName="素材/按钮/灰-倍1.xml" xy="51,6"/>
+    <component id="n2_iuo1" name="n2" src="er488n" fileName="素材/按钮/灰-倍2.xml" xy="205,6"/>
+    <component id="n3_iuo1" name="n3" src="er488o" fileName="素材/按钮/灰-倍3.xml" xy="349,6"/>
+    <component id="n4_iuo1" name="n4" src="er488p" fileName="素材/按钮/灰-倍4.xml" xy="501,6"/>
+    <component id="n5_iuo1" name="n5" src="er488q" fileName="素材/按钮/灰-倍5.xml" xy="651,6"/>
+  </displayList>
+</component>

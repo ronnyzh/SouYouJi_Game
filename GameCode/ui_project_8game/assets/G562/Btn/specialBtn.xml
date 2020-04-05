@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,71" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="type" pages="0,三同花,2,三顺子,3,六对半,4,五对三条,5,四套三条,6,凑一色,7,全小,8,全大,9,六同,10,三分天下,11,三同花顺,12,十二皇族,13,七同,14,一条龙,15,至尊青龙" selected="14"/>
+  <displayList>
+    <image id="n1" name="n1" src="r73m6o" fileName="shisan/choosecard/特殊牌形触发.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2" name="title" xy="7,3" size="162,65" font="方正准圆简体" fontSize="35" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="Dragon Flush">
+      <gearXY controller="type" pages="0,2,3,4,5,6,7,8,9,10,11,12,13,14,15" values="7,2|7,2|7,2|7,-4|8,-4|7,2|7,2|7,2|7,2|8,-3|7,3|8,5|7,3|7,1|7,3"/>
+      <gearText controller="type" pages="0,2,3,4,5,6,7,8,9,10,11,12,13,14,15" values="Three Flushes|Three Straights|Six Pairs|Five Pairs with&#xA;Three of a kind|Four sets of&#xA;Three of a kind|One Color|Low Hands|High Hands|Six of a kind|Three sets &#xA;of Four of a kind|Three Straight Flushes|Twelve Royal|Seven-of-a-kind|Dragon|Dragon Flush"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

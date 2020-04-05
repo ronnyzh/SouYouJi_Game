@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="nji5wfgx" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="djq90" name="card_a1.png" path="/card/"/>
+    <image id="djq91" name="card_backface.png" path="/card/"/>
+    <image id="djq94" name="touxiangk.png" path="/common/lobby/" exported="true" scale="9grid" scale9grid="17,16,34,32"/>
+    <image id="djq95" name="tag_offline.png" path="/common/lobby/" exported="true"/>
+    <image id="djq96" name="tag_dealer.png" path="/common/lobby/" exported="true"/>
+    <image id="djq97" name="tag_ready.png" path="/common/lobby/" exported="true"/>
+    <component id="djq98" name="BtnNormal.xml" path="/component/"/>
+    <image id="djq9l" name="btn_start.png" path="/style0/button/"/>
+    <image id="djq9m" name="btn_continur.png" path="/style0/button/"/>
+    <image id="djq9n" name="btn_exit_room.png" path="/style0/button/"/>
+    <image id="djq918" name="icon_trusteeship.png" path="/style0/icon/"/>
+    <image id="djq91h" name="img_cd_bg.png" path="/style0/other/"/>
+    <image id="djq91i" name="img_mask_1.png" path="/style0/other/" scale="9grid" scale9grid="26,8,52,16"/>
+    <image id="djq91j" name="btn_change.png" path="/style0/button/"/>
+    <image id="djq91k" name="btn_orange.png" path="/textures/btns/"/>
+    <image id="djq91r" name="jinbi_bg.png" path="/textures/ddzgame/ddz/" scale="9grid" scale9grid="305,30,610,17"/>
+    <image id="djq91s" name="ddz_table_bg1.jpg" path="/textures/new_hall/"/>
+    <image id="djq91v" name="nonming_icon.png" path="/textures/table/"/>
+    <image id="djq91w" name="tips_3.png" path="/textures/table/"/>
+    <image id="djq91x" name="tips_bujiabei.png" path="/textures/table/"/>
+    <image id="djq91y" name="tips_buqiang.png" path="/textures/table/"/>
+    <image id="djq91z" name="tips_jiabei.png" path="/textures/table/"/>
+    <image id="djq920" name="tips_jiaodizhu.png" path="/textures/table/"/>
+    <image id="djq921" name="tips_qiangdizhu.png" path="/textures/table/"/>
+    <image id="djq922" name="tips_1.png" path="/textures/table/"/>
+    <image id="djq923" name="tips_2.png" path="/textures/table/"/>
+    <image id="djq924" name="tips_buchu.png" path="/textures/table/"/>
+    <component id="djq925" name="BalanceItem.xml" path="/"/>
+    <component id="djq926" name="BalanceView.xml" path="/"/>
+    <component id="djq928" name="Seat.xml" path="/"/>
+    <component id="djq929" name="ScaleButton.xml" path="/" exported="true"/>
+    <component id="djq92b" name="Operation.xml" path="/"/>
+    <component id="djq92c" name="LeftCard.xml" path="/"/>
+    <component id="djq92d" name="OperationTip.xml" path="/"/>
+    <component id="djq92e" name="OrangeButton.xml" path="/"/>
+    <component id="djq92f" name="TextButton.xml" path="/"/>
+    <image id="hvwj2m" name="btn_orange.png" path="/style0/button/" scale="9grid" scale9grid="37,22,74,44"/>
+    <component id="hvwj2n" name="btnOperationItem.xml" path="/component/"/>
+    <image id="q7l56u" name="btnBotNormal.png" path="/style0/button/"/>
+    <image id="q7l56v" name="btnBotNormalActive.png" path="/style0/button/"/>
+    <image id="q7l56w" name="btnStart.png" path="/style0/button/"/>
+    <image id="q7l56x" name="btnTrangleSQ.png" path="/style0/button/"/>
+    <image id="q7l56y" name="btnEmojiSQ.png" path="/style0/button/"/>
+    <image id="q7l56z" name="btnRuleSQ.png" path="/style0/button/"/>
+    <image id="q7l570" name="card_a1.png" path="/style0/card/"/>
+    <image id="q7l571" name="card_backface.png" path="/style0/card/"/>
+    <image id="q7l57a" name="con_bot_buttom.png" path="/style0/other/"/>
+    <image id="q7l57b" name="con_head_bot.png" path="/style0/other/"/>
+    <image id="q7l57c" name="con_head_bot_container.png" path="/style0/other/"/>
+    <image id="q7l57d" name="con_head_gold_bot.png" path="/style0/other/"/>
+    <image id="q7l57e" name="con_head_gold_count.png" path="/style0/other/"/>
+    <image id="q7l57f" name="con_head_light.png" path="/style0/other/"/>
+    <image id="q7l57g" name="con_room_info.png" path="/style0/other/"/>
+    <image id="q7l57h" name="con_talk.png" path="/style0/other/"/>
+    <image id="q7l57i" name="con_title_bot_bar.png" path="/style0/other/"/>
+    <image id="q7l57j" name="con_title_bot_bar2.png" path="/style0/other/"/>
+    <image id="q7l57k" name="con_title_pokernn.png" path="/style0/other/"/>
+    <image id="q7l57l" name="icon_bipai.png" path="/style0/icon/"/>
+    <image id="q7l57m" name="icon_gold.png" path="/style0/icon/"/>
+    <image id="q7l57n" name="logo.png" path="/style0/other/"/>
+    <image id="q7l57o" name="con_pk_player_bg.png" path="/style0/pk/"/>
+    <image id="q7l57p" name="icon_pk_vs.png" path="/style0/pk/"/>
+    <image id="q7l57q" name="icon_pk_head_bg.png" path="/style0/pk/"/>
+    <image id="q7l57s" name="tag_ready.png" path="/style0/icon/"/>
+    <image id="q7l57t" name="tag_kanpai.png" path="/style0/icon/"/>
+    <image id="q7l57u" name="tag_genzhu.png" path="/style0/icon/"/>
+    <image id="kmdi7v" name="btn_tips.png" path="/style0/button/"/>
+    <image id="kmdi7w" name="btn_last_round.png" path="/style0/button/"/>
+    <image id="kmdi7x" name="btn_reset.png" path="/style0/button/"/>
+    <image id="kmdi7y" name="btn_pass.png" path="/style0/button/"/>
+    <image id="kmdi7z" name="btn_deal.png" path="/style0/button/"/>
+    <image id="kmdi80" name="btn_trusteeship.png" path="/style0/button/"/>
+    <image id="kmdi81" name="btn_double_yes.png" path="/style0/button/"/>
+    <image id="kmdi82" name="btn_double_no.png" path="/style0/button/"/>
+    <image id="kmdi83" name="btn_trusteeship_close.png" path="/style0/button/"/>
+    <image id="kmdi84" name="icon_balance_double_yes.png" path="/style0/icon/"/>
+    <image id="kmdi85" name="icon_dobule_no.png" path="/style0/icon/"/>
+    <image id="kmdi86" name="icon_double_yes.png" path="/style0/icon/"/>
+    <image id="kmdi88" name="icon_action_pass.png" path="/style0/icon/"/>
+    <image id="kmdi89" name="icon_alarm_0002.png" path="/style0/icon/"/>
+    <image id="kmdi8a" name="icon_alarm_0001.png" path="/style0/icon/"/>
+    <component id="kmdi8b" name="TagAlarm.xml" path="/component/"/>
+    <image id="kmdi8d" name="icon_landlord_1.png" path="/style0/icon/"/>
+    <image id="kmdi8e" name="icon_landlord_2.png" path="/style0/icon/"/>
+    <image id="kmdi8f" name="icon_landlord_3.png" path="/style0/icon/"/>
+    <image id="kmdi8g" name="icon_landlord_yes.png" path="/style0/icon/"/>
+    <image id="kmdi8h" name="icon_landlord_no.png" path="/style0/icon/"/>
+    <image id="kmdi8i" name="icon_boom.png" path="/style0/icon/"/>
+    <image id="hj7y8j" name="mini_bg.jpg" path="/style0/"/>
+    <component id="iufb8k" name="BtnNormal(1).xml" path="/component/"/>
+    <image id="iufb8l" name="btn_ready.png" path="/style0/button/"/>
+    <image id="iufb8m" name="card_backfaces.png" path="/card/"/>
+    <image id="iufb8n" name="top_title-bg.png" path="/style0/other/" scale="9grid" scale9grid="51,24,102,48"/>
+    <image id="iufb8o" name="icon_multe.png" path="/style0/icon/"/>
+    <image id="p1fs8p" name="btn_rule.png" path="/style0/button/"/>
+    <image id="xmp88q" name="head-bg.png" path="/style0/other/"/>
+    <image id="l0568r" name="btn_trusteeship_table.png" path="/style0/button/"/>
+    <image id="wbxk8t" name="叫分.jpg" path="/效果图/"/>
+    <image id="wbxk8u" name="斗地主-标注.jpg" path="/效果图/"/>
+    <image id="wbxk8v" name="斗地主1.jpg" path="/效果图/"/>
+    <image id="wbxk8w" name="斗地主2.jpg" path="/效果图/"/>
+    <image id="wbxk8x" name="斗地主打牌.jpg" path="/效果图/"/>
+    <component id="wbxk8y" name="GS560.xml" path="/" exported="true"/>
+    <image id="rja98z" name="btn_change.png" path="/style0/other/"/>
+    <image id="rja990" name="黑-8.png" path="/card/"/>
+    <image id="rja991" name="出牌2.png" path="/效果图/"/>
+    <image id="rja99f" name="斗地主出牌1.jpg" path="/效果图/"/>
+    <image id="oate9g" name="-.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9h" name="0.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9i" name="1.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9j" name="2.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9k" name="3.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9l" name="4.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9m" name="5.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9n" name="6.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9o" name="7.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9p" name="8.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9q" name="9.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9r" name="c-+.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9s" name="c-0.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9t" name="c-1.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9u" name="c-2.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9v" name="c-3.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9w" name="c-4.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9x" name="c-5.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9y" name="c-6.png" path="/牛牛结算数字散件/"/>
+    <image id="oate9z" name="c-7.png" path="/牛牛结算数字散件/"/>
+    <image id="oatea0" name="c-8.png" path="/牛牛结算数字散件/"/>
+    <image id="oatea1" name="c-9.png" path="/牛牛结算数字散件/"/>
+    <image id="oatea2" name="橙色背景.png" path="/牛牛结算数字散件/"/>
+    <image id="oatea3" name="紫色背景.png" path="/牛牛结算数字散件/"/>
+    <font id="oatea4" name="Font1.fnt" path="/牛牛结算数字散件/" exported="true"/>
+    <image id="oatea5" name="-..png" path="/牛牛结算数字散件/"/>
+    <font id="oatea6" name="Font2.fnt" path="/牛牛结算数字散件/" exported="true"/>
+    <image id="oatea7" name="c-..png" path="/牛牛结算数字散件/"/>
+    <image id="o3n2a8" name="要不起.png" path="/textures/table/"/>
+    <image id="n3pua9" name="记牌数框.png" path="/出图/"/>
+    <image id="n3puaa" name="斗地主水印.png" path="/出图/"/>
+    <image id="op4nab" name="tips-con-bg.png" path="/style0/other/"/>
+    <image id="op4nac" name="icon-dealer.png" path="/style0/icon/"/>
+    <image id="op4nad" name="bar_bg.png" path="/style0/balance2/"/>
+    <image id="op4nae" name="btn-exit.png" path="/style0/balance2/"/>
+    <image id="op4naf" name="btn_continue.png" path="/style0/balance2/"/>
+    <image id="op4nag" name="lose_background.png" path="/style0/balance2/"/>
+    <image id="op4nah" name="lose_cup.png" path="/style0/balance2/"/>
+    <image id="op4nai" name="lose_light.png" path="/style0/balance2/"/>
+    <image id="op4naj" name="lose_star.png" path="/style0/balance2/"/>
+    <image id="op4nak" name="lose_title.png" path="/style0/balance2/"/>
+    <image id="op4nal" name="lose_title_bg.png" path="/style0/balance2/"/>
+    <image id="op4nam" name="lose_wings.png" path="/style0/balance2/"/>
+    <image id="op4nan" name="win-flower.png" path="/style0/balance2/"/>
+    <image id="op4nao" name="win-title.png" path="/style0/balance2/"/>
+    <image id="op4nap" name="win_background.png" path="/style0/balance2/"/>
+    <image id="op4naq" name="win_light.png" path="/style0/balance2/"/>
+    <image id="op4nar" name="win_star.png" path="/style0/balance2/"/>
+    <image id="op4nas" name="win_title_bg.png" path="/style0/balance2/"/>
+    <image id="op4nat" name="win_wings.png" path="/style0/balance2/"/>
+    <image id="op4nau" name="win_cup.png" path="/style0/balance2/"/>
+    <component id="op4nav" name="BalanceMain.xml" path="/component/"/>
+    <image id="op4naw" name="lose_wings-r.png" path="/style0/balance2/"/>
+    <image id="op4nax" name="win_wings-r.png" path="/style0/balance2/"/>
+    <image id="ua2zay" name="handwall-mask.png" path="/style0/other/"/>
+    <image id="qj56az" name="btn_blue.png" path="/style0/button/" scale="9grid" scale9grid="37,22,74,44"/>
+    <component id="qj56b0" name="btnOperationItem(1).xml" path="/component/"/>
+    <image id="gdx0b1" name="icon_landlord_1(1).png" path="/style0/icon/"/>
+    <image id="gdx0b2" name="icon_landlord_2(1).png" path="/style0/icon/"/>
+    <image id="gdx0b3" name="icon_landlord_3(1).png" path="/style0/icon/"/>
+    <image id="gdx0b4" name="icon_landlord_no(1).png" path="/style0/icon/"/>
+    <image id="gdx0b5" name="icon_landlord_yes(1).png" path="/style0/icon/"/>
+    <component id="ojsqb6" name="Poker2.xml" path="/" exported="true"/>
+    <component id="ojsqb7" name="handwall.xml" path="/"/>
+    <image id="ojsqbb" name="card_black.png" path="/card/"/>
+    <image id="o4c8bd" name="head_bg.png" path="/textures/table/" scale="9grid" scale9grid="35,37,70,74"/>
+    <image id="o4c8be" name="icon_win_small.png" path="/style0/icon/"/>
+    <image id="o4c8bf" name="icon_spring.png" path="/style0/icon/"/>
+    <image id="o4c8bg" name="icon_balance_double_yes(1).png" path="/style0/icon/"/>
+    <image id="o4c8bh" name="dizhu_icon.png" path="/textures/table/"/>
+    <component id="o4c8bi" name="BtnNormal(3).xml" path="/component/"/>
+    <image id="wp8ebr" name="btn_change(1).png" path="/style0/button/"/>
+    <image id="wp8eby" name="btn_color_blue.png" path="/common/button/"/>
+    <image id="wp8ebz" name="btn_color_yellow.png" path="/common/button/"/>
+    <component id="oy8ec0" name="GS570.xml" path="/" exported="true"/>
+    <image id="oy8ec1" name="image.png" path="/"/>
+    <image id="oy8ec2" name="0.png" path="/计时/"/>
+    <image id="oy8ec3" name="1.png" path="/计时/"/>
+    <image id="oy8ec4" name="2.png" path="/计时/"/>
+    <image id="oy8ec5" name="3.png" path="/计时/"/>
+    <image id="oy8ec6" name="4.png" path="/计时/"/>
+    <image id="oy8ec7" name="5.png" path="/计时/"/>
+    <image id="oy8ec8" name="6.png" path="/计时/"/>
+    <image id="oy8ec9" name="7.png" path="/计时/"/>
+    <image id="oy8eca" name="8.png" path="/计时/"/>
+    <image id="oy8ecb" name="9.png" path="/计时/"/>
+    <font id="oy8ecc" name="time.fnt" path="/" exported="true"/>
+    <image id="oy8ecd" name="让二张.png" path="/二人斗地主/"/>
+    <image id="oy8ece" name="让一张.png" path="/二人斗地主/"/>
+    <image id="oy8ecf" name="bt叫地主.png" path="/二人斗地主/"/>
+    <image id="oy8ecg" name="不叫.png" path="/二人斗地主/"/>
+    <image id="oy8ech" name="不抢.png" path="/二人斗地主/"/>
+    <image id="oy8eci" name="不让.png" path="/二人斗地主/"/>
+    <image id="oy8ecj" name="叫地主.png" path="/二人斗地主/"/>
+    <image id="oy8eck" name="扑克反面-灰.png" path="/二人斗地主/"/>
+    <image id="oy8ecl" name="抢地主 .png" path="/二人斗地主/"/>
+    <component id="oy8ecm" name="Operation2.xml" path="/"/>
+    <component id="as26cn" name="filpcards.xml" path="/"/>
+    <image id="j9anco" name="二人斗地主 .png" path="/出图/"/>
+    <image id="us3ccq" name="不抢.png" path="/style0/icon/"/>
+    <image id="us3ccs" name="bt叫地主.png" path="/style0/icon/"/>
+    <image id="us3cct" name="不让_.png" path="/style0/icon/"/>
+    <image id="us3ccu" name="两张.png" path="/style0/icon/"/>
+    <component id="us3ccv" name="tag.xml" path="/"/>
+    <image id="jtedcw" name="加倍.png" path="/style0/icon/"/>
+    <image id="jtedcx" name="不加倍.png" path="/style0/icon/"/>
+    <image id="v13xcy" name="beimian.png" path="/card/"/>
+    <image id="v13xcz" name="beimian-hui.png" path="/card/"/>
+    <image id="d486d0" name="数字_0010_x.png" path="/doublenum/"/>
+    <image id="d486d1" name="数字_0000_9.png" path="/doublenum/"/>
+    <image id="d486d2" name="数字_0001_8.png" path="/doublenum/"/>
+    <image id="d486d3" name="数字_0002_7.png" path="/doublenum/"/>
+    <image id="d486d4" name="数字_0003_6.png" path="/doublenum/"/>
+    <image id="d486d5" name="数字_0004_5.png" path="/doublenum/"/>
+    <image id="d486d6" name="数字_0005_4.png" path="/doublenum/"/>
+    <image id="d486d7" name="数字_0006_3.png" path="/doublenum/"/>
+    <image id="d486d8" name="数字_0007_2.png" path="/doublenum/"/>
+    <image id="d486d9" name="数字_0008_1.png" path="/doublenum/"/>
+    <image id="d486da" name="数字_0009_0.png" path="/doublenum/"/>
+    <font id="d486db" name="doublenum.fnt" path="/" exported="true"/>
+    <component id="pka3dc" name="Poker3.xml" path="/" exported="true"/>
+    <component id="pka3dd" name="card.xml" path="/"/>
+    <image id="q6made" name="card_backface.png" path="/GALL/"/>
+  </resources>
+  <publish name="G560"/>
+</packageDescription>

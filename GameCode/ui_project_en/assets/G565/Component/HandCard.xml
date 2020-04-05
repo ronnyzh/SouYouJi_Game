@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="212,118">
+  <displayList>
+    <component id="n58_imd3" name="card0" src="pb694c" xy="25,8" scale="0.8,0.8" controller="id,0"/>
+    <component id="n59_imd3" name="card1" src="pb694c" xy="106,8" scale="0.8,0.8" controller="id,0"/>
+  </displayList>
+</component>

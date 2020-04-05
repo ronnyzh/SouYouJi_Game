@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="playercount" pages="0,,1,2人" selected="0"/>
+  <displayList>
+    <list id="n90_jlz3" name="horseTile" xy="162,666" size="266,96" group="n92_jlz3" scale="0.8,0.8" layout="row" selectionMode="none" lineGap="-167" defaultItem="ui://ejgb8krjkteuy" vAlign="bottom" renderOrder="descent" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n91_jlz3" name="n91" src="8mbq4d" fileName="麻将结算/奖码_.png" xy="17,682" group="n92_jlz3"/>
+    <group id="n92_jlz3" name="n92" xy="17,666" size="411,96" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n85_jlz3" name="cItem0" src="8mbq4w" fileName="balanceItem2.xml" xy="122,39" group="n95_8mbq">
+      <gearDisplay controller="playercount" pages="0"/>
+    </component>
+    <component id="n86_jlz3" name="cItem1" src="8mbq4w" fileName="balanceItem2.xml" xy="122,191" group="n95_8mbq">
+      <gearDisplay controller="playercount" pages="0"/>
+    </component>
+    <component id="n87_jlz3" name="cItem2" src="8mbq4w" fileName="balanceItem2.xml" xy="122,343" group="n95_8mbq">
+      <gearDisplay controller="playercount" pages="0"/>
+    </component>
+    <component id="n88_jlz3" name="cItem3" src="8mbq4w" fileName="balanceItem2.xml" xy="122,495" group="n95_8mbq">
+      <gearDisplay controller="playercount" pages="0"/>
+    </component>
+    <group id="n95_8mbq" name="n95" xy="122,48" size="1114,603" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n96_wxe2" name="Item0" src="wxe263" fileName="balanceItem3.xml" xy="188,44" group="n98_wxe2">
+      <gearDisplay controller="playercount" pages="1"/>
+    </component>
+    <component id="n97_wxe2" name="Item1" src="wxe263" fileName="balanceItem3.xml" xy="62,346" group="n98_wxe2">
+      <gearDisplay controller="playercount" pages="1"/>
+    </component>
+    <group id="n98_wxe2" name="n98" xy="62,44" size="1240,602"/>
+    <text id="n100_vddh" name="room_nuber" xy="5,2" size="823,44" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" autoSize="shrink" bold="true" shadowColor="#003333" shadowOffset="1,1" singleLine="true" autoClearText="true" text="牌局编号：000-0000000000-000000-000">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n76_jlz3" name="btnClose" src="r9ujhj" fileName="ScaleButtonFit.xml" pkg="la8oslyo" xy="436,657" size="207,92">
+      <gearXY controller="c1" pages="0,1" values="436,657|733,655"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krj8mbq4h"/>
+    </component>
+    <component id="n94_r9uj" name="btnReady" src="r9ujhj" fileName="ScaleButtonFit.xml" pkg="la8oslyo" xy="700,657" size="207,94">
+      <gearXY controller="c1" pages="0,1" values="700,657|997,655"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krj8mbq4g"/>
+    </component>
+    <component id="n101_xzoh" name="autoContTimer" src="fedb69" fileName="timer.xml" pkg="qn9mtfu5" xy="863,639">
+      <gearXY controller="c1" pages="1" values="1164,639" default="863,639"/>
+    </component>
+  </displayList>
+</component>

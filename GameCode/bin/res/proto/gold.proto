@@ -1,0 +1,101 @@
+package gold_niuniu;
+
+// 金币场新增协议
+
+enum MSG_HEADER {
+    //client2server
+    C_S_GET_WATCHER = 0x00004001; //获取观察者
+    C_S_IS_GOLD = 0x00004002;
+    C_S_EXIT_ROOM_CONFIRM = 0x00004003;
+    C_S_CHANGE_ROOM = 0x00004004;
+    C_S_CHANGE_ROOM_CONFIRM = 0x00004005;
+
+    //server2client
+    S_C_WATCHER_INFO = 0x00005001; //获取观察者
+    S_C_PAY = 0x00005002;
+    S_C_GOLD_MESSAGE = 0x00005003; //消息
+    S_C_IS_GOLD = 0x00005004;
+    S_C_PLAYER_INFO = 0x00005005;
+}
+
+
+
+// 获取目前观察者位置信息
+message C_S_GetWatcher
+{
+
+}
+
+// 观察者位置信息
+message S_C_WatcherInfo
+{
+    required fixed32 side = 1; // 要发送的玩家位置
+    repeated fixed32 sides= 2;
+    optional fixed32 stage= 3; // 当前阶段 可选
+}
+
+
+// 扣取房费
+message S_C_Pay
+{
+    repeated fixed32 sides= 1;
+    required sfixed32 coin = 2; //扣多少金币
+}
+
+// 发送给单一玩家消息
+message S_C_GoldMessage{
+    required fixed32 side = 1; // 玩家位置
+    // 4 代表你立即check
+    required fixed32 msg_type = 2; // 1 代表金币不够退出房间 2 代表退出房间 3 更换房间弹窗
+    required string msg = 3; // 消息内容
+}
+
+
+// 玩家询问是否是竞技场 可用 可不用
+message C_S_IsGold{
+
+}
+
+// 返回消息代表改game属于竞技场
+message S_C_IsGold{
+    required fixed32 party_type = 1; // 1 竞技场 2 金币场  3 比赛场
+    required fixed32 playid = 2; // 场次信息 0 - 5
+    required float gold = 3; // 底分
+    required string info = 4; // 金币场描述
+    optional string gamenumber = 5; //牌局编号
+}
+
+// 确认退出房间
+message C_S_ExitRoomConfirm {
+}
+
+// 更换房间
+message C_S_ChangeRoom{
+
+}
+
+// 确认更换房间
+message C_S_ChangeRoomConfirm{
+
+}
+
+
+message S_C_PlayerInfo{
+    message PlayerInfo{
+        required fixed32 side = 1; // 玩家位置
+        required float possessionOfProperty = 2; // 玩家持有财产，如持有金币、持有金额（单位：分）
+    }
+    repeated PlayerInfo playerInfo = 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+

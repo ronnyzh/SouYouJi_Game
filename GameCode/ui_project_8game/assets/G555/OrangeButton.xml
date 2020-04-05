@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="145,86" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n10_mt54" name="n10" src="wm2e3d" fileName="GBP_Img/IMG/小按钮-黄.png" pkg="rjf5583x" xy="0,0" size="145,86">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n5" name="icon" xy="0,0" size="145,86" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+      <gearSize controller="button" pages="0,1,2,3" values="145,86,1,1|167,113,1,1|167,113,1,1|167,113,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

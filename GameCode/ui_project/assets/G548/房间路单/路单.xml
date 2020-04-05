@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,130">
+  <displayList>
+    <image id="n16_khbh" name="n16" src="921y1" fileName="小格25-20-黄.png" pkg="q3bjrkl6" xy="105,5" size="500,120"/>
+    <graph id="n12_q0ca" name="startPoint" xy="105,5" pivot="1,0" anchor="true" size="100,120" locked="true" hideByEditor="true" visible="false" touchable="false" type="rect" lineColor="#ff0099ff" fillColor="#8000cccc">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n14_orzp" name="subBoxLayout" src="ns76kb" fileName="房间路单/路单容器.xml" xy="0,0" locked="true" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n13_lnnc" name="n13" src="ns76kj" fileName="房间路单/游戏内使用/大路2.png" xy="104,67" pivot="1,0.5" anchor="true" size="100,125" locked="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <list id="n15_g0iz" name="subBoxList" xy="105,5" size="500,120" locked="true" touchable="false" layout="flow_hz" selectionMode="none" overflow="hidden" defaultItem="ui://wtkqufwmns76k7" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+    </list>
+  </displayList>
+</component>

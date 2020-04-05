@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,310">
+  <displayList>
+    <image id="n120_hg3r" name="n120" src="hg3r6k" fileName="newres/游戏开始-底.png" xy="0,45"/>
+    <image id="n121_hg3r" name="n121" src="hg3r6k" fileName="newres/游戏开始-底.png" xy="1327,280" rotation="180"/>
+    <image id="n122_hg3r" name="n122" src="hg3r6l" fileName="newres/游戏开始.png" xy="361,76" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n121_hg3r" tween="true" startValue="0.3" endValue="1" duration="4" ease="Expo.In"/>
+    <item time="0" type="Alpha" target="n122_hg3r" value="0"/>
+    <item time="0" type="Alpha" target="n120_hg3r" tween="true" startValue="0.3" endValue="1" duration="4" ease="Expo.In"/>
+    <item time="0" type="XY" target="n121_hg3r" tween="true" startValue="1527,280" endValue="1327,280" duration="4" ease="Expo.In"/>
+    <item time="0" type="XY" target="n120_hg3r" tween="true" startValue="-200,45" endValue="0,45" duration="4" ease="Expo.In"/>
+    <item time="4" type="Alpha" target="n122_hg3r" tween="true" startValue="0" endValue="1" duration="5" ease="Expo.Out"/>
+    <item time="4" type="Scale" target="n122_hg3r" tween="true" startValue="0.6,0.6" endValue="1,1" duration="5" ease="Expo.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dfzo7iv3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="lgj60" name="card_a1.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61" name="card_a10.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj62" name="card_a11.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj63" name="card_a12.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj64" name="card_a13.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj65" name="card_a2.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj66" name="card_a3.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj67" name="card_a4.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj68" name="card_a5.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj69" name="card_a6.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6a" name="card_a7.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6b" name="card_a8.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6c" name="card_a9.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6d" name="card_b1.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6e" name="card_b10.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6f" name="card_b11.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6g" name="card_b12.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6h" name="card_b13.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6i" name="card_b2.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6j" name="card_b3.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6k" name="card_b4.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6l" name="card_b5.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6m" name="card_b6.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6n" name="card_b7.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6o" name="card_b8.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6p" name="card_b9.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6q" name="card_backface.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6r" name="card_c1.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6s" name="card_c10.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6t" name="card_c11.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6u" name="card_c12.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6v" name="card_c13.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6w" name="card_c2.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6x" name="card_c3.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6y" name="card_c4.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj6z" name="card_c5.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj610" name="card_c6.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj611" name="card_c7.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj612" name="card_c8.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj613" name="card_c9.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj614" name="card_d1.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj615" name="card_d10.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj616" name="card_d11.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj617" name="card_d12.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj618" name="card_d13.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj619" name="card_d2.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61a" name="card_d3.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61b" name="card_d4.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61c" name="card_d5.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61d" name="card_d6.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61e" name="card_d7.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61f" name="card_d8.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61g" name="card_d9.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61h" name="card_e1.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61i" name="card_e2.png" path="/FTLpoker/" exported="true"/>
+    <image id="lgj61j" name="puke遮罩.png" path="/FTLpoker/" exported="true"/>
+  </resources>
+  <publish name="pokersFTLpoker"/>
+</packageDescription>

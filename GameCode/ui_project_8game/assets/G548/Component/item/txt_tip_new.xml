@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,150" opaque="false" extention="Label">
+  <displayList>
+    <image id="n1_llff" name="icon" src="wm2e1" fileName="GBP_Img/Table/y-beijing.png" pkg="rjf5583x" xy="0,0" size="800,150" alpha="0.76" filter="color" filterData="-1.00,0.00,0.00,0.00">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_llff" name="title" src="fb106z" fileName="百家乐/光效/下注-开始下注.png" xy="0,0" size="800,150" color="#cccccc">
+      <relation target="n1_llff" sidePair="width-width,height-height"/>
+      <relation target="n1_llff" sidePair="left-left,top-top"/>
+    </image>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n1_llff" value="0.76"/>
+    <item time="0" type="Alpha" target="n0_llff" value="1"/>
+    <item time="0" type="XY" target="n1_llff" tween="true" startValue="799,0" endValue="0,0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="Alpha" target="n0_llff" tween="true" startValue="1" endValue="0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="Alpha" target="n1_llff" tween="true" startValue="0.76" endValue="0" duration="6" ease="Expo.Out"/>
+    <item time="15" type="XY" target="n1_llff" tween="true" startValue="0,0" endValue="-800,0" duration="6"/>
+  </transition>
+</component>

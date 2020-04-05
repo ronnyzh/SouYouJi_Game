@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://wtkqufwmfoeb58">
+  <controller name="jetton" pages="6,0,0,100,1,500,2,1000,3,2000,4,5000,5,10000" selected="0"/>
+  <displayList>
+    <loader id="n1_kexb" name="bg" xy="0,0" size="1334,750" locked="true" aspect="true" url="ui://wtkqufwmfoeb58" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n2_kexb" name="seat0" src="o6gk25" fileName="Component/item/Seat.xml" xy="593,527" group="n7_kexb" controller="c1,0">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n3_kexb" name="seat1" src="o6gk25" fileName="Component/item/Seat.xml" xy="1130,297" group="n7_kexb" visible="false" controller="c1,0">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n4_kexb" name="seat2" src="o6gk25" fileName="Component/item/Seat.xml" xy="1159,78" group="n7_kexb" visible="false" controller="c1,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n5_kexb" name="seat3" src="o6gk25" fileName="Component/item/Seat.xml" xy="28,78" group="n7_kexb" visible="false" controller="c1,0">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n6_kexb" name="seat4" src="o6gk25" fileName="Component/item/Seat.xml" xy="47,293" group="n7_kexb" visible="false" controller="c1,0">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <group id="n7_kexb" name="seat" xy="28,78" size="1281,599" locked="true" collapsed="true"/>
+    <text id="n17_kexb" name="gameInfo" xy="24,13" size="424,42" locked="true" fontSize="15" color="#ffffff" autoSize="none" strokeColor="#333333" text="牌局编号：00000000000000000000000&#xA;百家乐     新手场     底分：40">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n18_kexb" name="comDetailedList" src="kexb2k" fileName="Component/item/DetailedList.xml" xy="232,62" hideByEditor="true" visible="false" controller="ctl,0,head,1">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n16_kexb" name="comChipRect" src="gbfn2d" fileName="Component/item/ChipRect.xml" xy="224,167" size="875,213">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n12_kexb" name="jetton100" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="773,532" group="n14_kexb" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="100" icon="ui://wtkqufwmo45b5" controller="jetton" page="0"/>
+    </component>
+    <component id="n13_kexb" name="jetton500" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="892,532" group="n14_kexb" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="500" icon="ui://wtkqufwmo45b3" controller="jetton" page="1"/>
+    </component>
+    <component id="n9_kexb" name="jetton1000" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="1011,532" group="n14_kexb" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="1000" icon="ui://wtkqufwmo45b0" controller="jetton" page="2"/>
+    </component>
+    <component id="n11_kexb" name="jetton2000" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="773,638" group="n14_kexb" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="2000" icon="ui://wtkqufwmo45b4" controller="jetton" page="3"/>
+    </component>
+    <component id="n10_kexb" name="jetton5000" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="892,638" group="n14_kexb" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="5000" icon="ui://wtkqufwmo45b1" controller="jetton" page="4"/>
+    </component>
+    <component id="n8_kexb" name="jetton10000" src="gbfn2a" fileName="Component/item/btnJetton.xml" xy="1011,638" group="n14_kexb" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="1万" icon="ui://wtkqufwmo45b2" controller="jetton" page="5"/>
+    </component>
+    <group id="n14_kexb" name="jetton" xy="773,532" size="357,231" locked="true" collapsed="true"/>
+    <text id="n20_m339" name="txtXianHong" xy="26,668" size="41,30" group="n26_m339" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="限红 "/>
+    <text id="n21_m339" name="txtXianHongValue" xy="59,668" size="78,30" group="n26_m339" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="1-100000"/>
+    <text id="n22_m339" name="txtXiaXian" xy="26,701" size="78,30" group="n26_m339" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="和/对子下限"/>
+    <text id="n23_m339" name="txtXiaXianValue" xy="109,701" size="55,30" group="n26_m339" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="1/1"/>
+    <text id="n24_m339" name="txtShangXian" xy="172,701" size="81,30" group="n26_m339" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="和/对子上限"/>
+    <text id="n25_m339" name="txtShangXianValue" xy="256,701" size="172,30" group="n26_m339" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="10000/10000"/>
+    <group id="n26_m339" name="head" xy="26,668" size="402,63" locked="true" advanced="true" collapsed="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </group>
+    <component id="n27_ugzf" name="comTimer" src="ugzf3g" fileName="Component/item/Pln_count_down.xml" xy="285,562" locked="true" filter="color" filterData="0.00,0.00,0.00,0.00">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n28_h3tv" name="btnExit" src="llff3z" fileName="Component/item/ScaleButton.xml" xy="1256,10" size="81,81" group="n30_h3tv" scale="0.85,0.85">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button icon="ui://la8oslyor9ujhi"/>
+    </component>
+    <component id="n29_h3tv" name="btnChangeRoom" src="llff3z" fileName="Component/item/ScaleButton.xml" xy="1161,10" size="81,81" group="n30_h3tv" scale="0.85,0.85">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button icon="ui://la8oslyor9ujhh"/>
+    </component>
+    <group id="n30_h3tv" name="n30" xy="1161,10" size="176,81"/>
+    <component id="n31_h3tv" name="aniStartGame" src="h3tv3v" fileName="Component/item/startGame.xml" xy="-130,185" size="1595,379" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n32_llff" name="txtTip" src="llff3y" fileName="Component/item/txt_tip.xml" xy="267,300" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

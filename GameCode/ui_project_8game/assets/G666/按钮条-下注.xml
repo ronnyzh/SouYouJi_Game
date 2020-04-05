@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="833,77">
+  <controller name="c_chose" pages="0,,1,,2,,3,,4,,5," selected="0">
+    <action type="change_page" fromPage="" toPage="1" objectId="n1_iuo1" controller="light_1" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n2_iuo1" controller="light_2" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n3_iuo1" controller="light_3" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n3_iuo1" controller="light_4" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n5_iuo1" controller="light_5" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n2_iuo1" controller="light_2" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n1_iuo1" controller="light_1" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n3_iuo1" controller="light_3" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n4_iuo1" controller="light_4" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n5_iuo1" controller="light_5" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n3_iuo1" controller="light_3" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n1_iuo1" controller="light_1" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n2_iuo1" controller="light_2" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n4_iuo1" controller="light_4" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n5_iuo1" controller="light_5" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n4_iuo1" controller="light_4" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n1_iuo1" controller="light_1" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n2_iuo1" controller="light_2" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n3_iuo1" controller="light_3" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n5_iuo1" controller="light_5" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n5_iuo1" controller="light_5" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n1_iuo1" controller="light_1" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n2_iuo1" controller="light_2" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n3_iuo1" controller="light_3" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n4_iuo1" controller="light_4" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n1_iuo1" controller="light_1" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n2_iuo1" controller="light_2" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n3_iuo1" controller="light_3" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n4_iuo1" controller="light_4" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n5_iuo1" controller="light_5" targetPage="0"/>
+  </controller>
+  <displayList>
+    <loader id="n0_iuo1" name="bg" xy="0,0" size="833,77" locked="true" touchable="false" url="ui://nwo0j1cxayoed" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_iuo1" name="bei_1" src="ixtvey" fileName="素材/欢乐牛牛优化最新版筹码/按钮-筹码.xml" xy="110,8" pivot="0.5,0.5" anchor="true" controller="c1,1,light_1,0,light_2,0,light_3,0,light_4,0,light_5,0">
+      <gearXY controller="c_chose" pages="1" values="110,-10" default="110,8" duration="0.1"/>
+      <relation target="n0_iuo1" sidePair="center-center,middle-middle"/>
+      <Button controller="c_chose" page="1"/>
+    </component>
+    <component id="n2_iuo1" name="bei_2" src="ixtvey" fileName="素材/欢乐牛牛优化最新版筹码/按钮-筹码.xml" xy="260,8" pivot="0.5,0.5" anchor="true" controller="c1,2,light_1,0,light_2,0,light_3,0,light_4,0,light_5,0">
+      <gearXY controller="c_chose" pages="2" values="260,-10" default="260,8" duration="0.1"/>
+      <relation target="n0_iuo1" sidePair="center-center,middle-middle"/>
+      <Button controller="c_chose" page="2"/>
+    </component>
+    <component id="n3_iuo1" name="bei_3" src="ixtvey" fileName="素材/欢乐牛牛优化最新版筹码/按钮-筹码.xml" xy="410,8" pivot="0.5,0.5" anchor="true" controller="c1,3,light_1,0,light_2,0,light_3,0,light_4,0,light_5,0">
+      <gearXY controller="c_chose" pages="3" values="410,-10" default="410,8" duration="0.1"/>
+      <relation target="n0_iuo1" sidePair="center-center,middle-middle"/>
+      <Button controller="c_chose" page="3"/>
+    </component>
+    <component id="n4_iuo1" name="bei_4" src="ixtvey" fileName="素材/欢乐牛牛优化最新版筹码/按钮-筹码.xml" xy="560,8" pivot="0.5,0.5" anchor="true" controller="c1,4,light_1,0,light_2,0,light_3,0,light_4,0,light_5,0">
+      <gearXY controller="c_chose" pages="4" values="560,-10" default="560,8" duration="0.1"/>
+      <relation target="n0_iuo1" sidePair="center-center,middle-middle"/>
+      <Button controller="c_chose" page="4"/>
+    </component>
+    <component id="n5_iuo1" name="bei_5" src="ixtvey" fileName="素材/欢乐牛牛优化最新版筹码/按钮-筹码.xml" xy="710,8" pivot="0.5,0.5" anchor="true" controller="c1,5,light_1,0,light_2,0,light_3,0,light_4,0,light_5,0">
+      <gearXY controller="c_chose" pages="5" values="710,-10" default="710,8" duration="0.1"/>
+      <relation target="n0_iuo1" sidePair="center-center,middle-middle"/>
+      <Button controller="c_chose" page="5"/>
+    </component>
+  </displayList>
+</component>

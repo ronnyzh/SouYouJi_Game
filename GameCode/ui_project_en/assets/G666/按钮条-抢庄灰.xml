@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="833,77">
+  <displayList>
+    <image id="n0_iuo1" name="bg" src="ayoed" fileName="素材/按钮/底部按钮托盘.png" xy="0,0" size="833,77" locked="true"/>
+    <image id="n1_iuo1" name="n1" src="ayoec" fileName="素材/按钮/不抢按钮hui.png" xy="200,5"/>
+    <image id="n2_iuo1" name="n2" src="ayoef" fileName="素材/按钮/抢庄hui按钮.png" xy="462,3"/>
+  </displayList>
+</component>

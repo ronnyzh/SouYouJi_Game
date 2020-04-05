@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ads0z8bz" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="vmndd" name="10_06.png" path="/光/"/>
+    <image id="vmnde" name="11_06.png" path="/光/"/>
+    <image id="vmndf" name="12.png" path="/光/"/>
+    <image id="vmndg" name="1_06.png" path="/光/"/>
+    <image id="vmndh" name="2_06.png" path="/光/"/>
+    <image id="vmndi" name="3_06.png" path="/光/"/>
+    <image id="vmndj" name="4_06.png" path="/光/"/>
+    <image id="vmndk" name="5_06.png" path="/光/"/>
+    <image id="vmndl" name="6_06.png" path="/光/"/>
+    <image id="vmndm" name="7_06.png" path="/光/"/>
+    <image id="vmndn" name="8_06.png" path="/光/"/>
+    <image id="vmndo" name="9_06.png" path="/光/"/>
+    <movieclip id="vmndp" name="light.jta" path="/光/" exported="true"/>
+    <image id="s2nkq" name="1.png" path="/飞金币动画/"/>
+    <image id="s2nkr" name="2.png" path="/飞金币动画/"/>
+    <image id="s2nks" name="3.png" path="/飞金币动画/"/>
+    <image id="s2nkt" name="4.png" path="/飞金币动画/"/>
+    <image id="s2nku" name="5.png" path="/飞金币动画/"/>
+    <image id="s2nkv" name="6.png" path="/飞金币动画/"/>
+    <movieclip id="s2nkw" name="flyGold.jta" path="/飞金币动画/"/>
+  </resources>
+  <publish name="Test"/>
+</packageDescription>

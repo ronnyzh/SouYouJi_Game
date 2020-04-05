@@ -1,0 +1,25 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "attach",
+			"name": "Attach to Chrome",
+			"port": 9222,
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "chrome",
+			"file": "${workspaceRoot}/bin/index.html",
+			"webRoot": "${workspaceRoot}",
+			"userDataDir": "${workspaceRoot}/.laya/chrome",
+			"runtimeArgs": [
+				"--allow-file-access-from-files",
+				"--allow-file-access-frome-files",
+				" --disable-web-security"
+			]
+		}
+	]
+}

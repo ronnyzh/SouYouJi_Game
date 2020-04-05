@@ -1,0 +1,16 @@
+package private_mahjong;
+
+//为防止编号冲突，扩展协议命名需从0x00002001或0x00003001之类的位置开始
+
+enum MSG_HEADER {
+    //client2server
+    S_C_HORSEDATA = 0x00003001; //中码个数
+}
+
+
+message S_C_horsedata {
+    required fixed32 horse = 1; // 分数中码数
+    repeated string tiles = 2; // 中码的牌
+    optional string matchtiles = 3; // 中码的牌
+
+}

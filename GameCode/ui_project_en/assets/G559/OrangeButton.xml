@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="222,93" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_h21o" name="n6" src="iby92e" xy="0,0"/>
+    <loader id="n5" name="icon" xy="0,0" size="222,93" align="center" vAlign="middle">
+      <gearSize controller="button" pages="0,1" values="222,93,1,1|222,93,1,1" default="222,93,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

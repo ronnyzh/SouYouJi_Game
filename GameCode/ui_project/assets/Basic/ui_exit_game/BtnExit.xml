@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="67,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n5_h21o" name="n5" src="h21of3" xy="0,0" pivot="0.5,0.5" rotation="180">
+      <gearLook controller="button" pages="0,2" values="1,0,0,1|1,0,0,1" default="1,180,0,1"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

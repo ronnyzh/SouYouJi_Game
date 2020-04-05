@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,91" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n6_h21o" name="n6" src="wm2e3c" fileName="GBP_Img/IMG/按钮.png" pkg="rjf5583x" xy="-2,4">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <loader id="n5" name="icon" xy="16,11" size="167,68" url="ui://rjf5583xwm2e3h" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+  </displayList>
+  <Button sound="ui://la8oslyoodd9hg" downEffect="scale" downEffectValue="0.95"/>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImageAlpha="100">
+  <displayList>
+    <graph id="n5_aks0" name="cancelplan" xy="0,0" size="1334,750" locked="true" alpha="0.5" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n26_hzuz" name="list_lan" xy="463,327" size="407,131" layout="pagination" overflow="hidden" colGap="50" lineItemCount="2" lineItemCount2="1" defaultItem="ui://la8oslyos5npli" align="center">
+      <item title="中文" name="cn"/>
+      <item title="英文" name="en"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="211,150">
+  <displayList>
+    <image id="n1_iuo1" name="n1" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="55,25"/>
+    <image id="n2_iuo1" name="n2" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="103,25"/>
+    <image id="n3_iuo1" name="n3" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="56,72"/>
+    <image id="n4_iuo1" name="n4" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="104,72"/>
+    <image id="n6_iuo1" name="n6" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="55,50"/>
+    <image id="n7_iuo1" name="n7" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="103,50"/>
+    <image id="n8_iuo1" name="n8" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="81,35"/>
+    <image id="n9_iuo1" name="n9" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="82,64"/>
+    <image id="n10_iuo1" name="n10" src="iuo1aw" fileName="素材/需要加载的图片/gold/金币6_10.png" xy="83,47"/>
+  </displayList>
+</component>

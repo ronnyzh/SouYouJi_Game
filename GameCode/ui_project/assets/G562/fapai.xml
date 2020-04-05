@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="622,196">
+  <controller name="state" pages="0,null,1,理牌中,2,特殊牌" selected="0"/>
+  <displayList>
+    <list id="n0_cew1" name="list" xy="0,0" pivot="0.5,0.5" size="622,196" layout="row" colGap="-103" defaultItem="ui://newlnjldr4d521" align="center" vAlign="middle"/>
+    <component id="n1_cew1" name="lipai" src="r9q3c7z" xy="209,64">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="special">
+    <item time="0" type="Scale" target="n0_cew1" tween="true" startValue="1,1" endValue="1.3,1.3" duration="9"/>
+    <item time="9" type="Scale" target="n0_cew1" tween="true" startValue="1.3,1.3" endValue="1,1" duration="9"/>
+    <item time="18" type="Scale" target="n0_cew1" tween="true" startValue="1,1"/>
+  </transition>
+</component>

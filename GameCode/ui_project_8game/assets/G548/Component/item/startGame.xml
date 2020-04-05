@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1595,379" opaque="false">
+  <controller name="c1" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0"/>
+  </controller>
+  <displayList>
+    <image id="n73_to38" name="n73" src="wm2e1" fileName="GBP_Img/Table/y-beijing.png" pkg="rjf5583x" xy="0,0" pivot="0.5,0.5" size="1595,379"/>
+    <image id="n74_to38" name="n74" src="wm2e2" fileName="GBP_Img/Table/youxikaishi.png" pkg="rjf5583x" xy="374,65" pivot="0.5,0.5">
+      <relation target="n73_to38" sidePair="width-width%,height-height%"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Size" target="n73_to38" tween="true" startValue="1,300" endValue="1595,379" duration="6"/>
+    <item time="0" type="Visible" target="n73_to38" value="true"/>
+    <item time="0" type="Visible" target="n74_to38" value="true"/>
+    <item time="6" type="Size" target="n73_to38" tween="true" startValue="1595,379" yoyo="true"/>
+    <item time="12" type="Visible" target="n73_to38" value="false"/>
+    <item time="12" type="Visible" target="n74_to38" value="false"/>
+  </transition>
+</component>

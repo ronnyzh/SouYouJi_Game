@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,137" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader id="n1_r73m" name="carsloader" xy="0,0" size="99,137" align="center" vAlign="middle" fill="scaleFree"/>
+  </displayList>
+  <transition name="Ani">
+    <item time="0" type="XY" target="n1_r73m" label="startpos" tween="true" startValue="0,0" endValue="0,0" duration="6" label2="endpos"/>
+    <item time="6" type="XY" target="n1_r73m" label="endpos" tween="true" startValue="0,0"/>
+  </transition>
+</component>

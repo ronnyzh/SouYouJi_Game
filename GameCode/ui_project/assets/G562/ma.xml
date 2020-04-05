@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,193">
+  <displayList>
+    <component id="n0_evmk" name="n0" src="r4d521" xy="0,0"/>
+    <image id="n1_evmk" name="n1" src="evmk54" xy="115,-27" scale="2,2"/>
+  </displayList>
+</component>

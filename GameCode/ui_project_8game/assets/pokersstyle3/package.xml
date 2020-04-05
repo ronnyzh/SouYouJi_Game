@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dmjdtenk" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="lgj60" name="card_2a.png" path="/style2/" exported="true"/>
+    <image id="lgj61" name="card_2b.png" path="/style2/" exported="true"/>
+    <image id="lgj62" name="card_2c.png" path="/style2/" exported="true"/>
+    <image id="lgj63" name="card_2d.png" path="/style2/" exported="true"/>
+    <image id="lgj64" name="card_3a.png" path="/style2/" exported="true"/>
+    <image id="lgj65" name="card_3b.png" path="/style2/" exported="true"/>
+    <image id="lgj66" name="card_3c.png" path="/style2/" exported="true"/>
+    <image id="lgj67" name="card_3d.png" path="/style2/" exported="true"/>
+    <image id="lgj68" name="card_4a.png" path="/style2/" exported="true"/>
+    <image id="lgj69" name="card_4b.png" path="/style2/" exported="true"/>
+    <image id="lgj6a" name="card_4c.png" path="/style2/" exported="true"/>
+    <image id="lgj6b" name="card_4d.png" path="/style2/" exported="true"/>
+    <image id="lgj6c" name="card_5a.png" path="/style2/" exported="true"/>
+    <image id="lgj6d" name="card_5b.png" path="/style2/" exported="true"/>
+    <image id="lgj6e" name="card_5c.png" path="/style2/" exported="true"/>
+    <image id="lgj6f" name="card_5d.png" path="/style2/" exported="true"/>
+    <image id="lgj6g" name="card_6a.png" path="/style2/" exported="true"/>
+    <image id="lgj6h" name="card_6b.png" path="/style2/" exported="true"/>
+    <image id="lgj6i" name="card_6c.png" path="/style2/" exported="true"/>
+    <image id="lgj6j" name="card_6d.png" path="/style2/" exported="true"/>
+    <image id="lgj6k" name="card_7a.png" path="/style2/" exported="true"/>
+    <image id="lgj6l" name="card_7b.png" path="/style2/" exported="true"/>
+    <image id="lgj6m" name="card_7c.png" path="/style2/" exported="true"/>
+    <image id="lgj6n" name="card_7d.png" path="/style2/" exported="true"/>
+    <image id="lgj6o" name="card_8a.png" path="/style2/" exported="true"/>
+    <image id="lgj6p" name="card_8b.png" path="/style2/" exported="true"/>
+    <image id="lgj6q" name="card_8c.png" path="/style2/" exported="true"/>
+    <image id="lgj6r" name="card_8d.png" path="/style2/" exported="true"/>
+    <image id="lgj6s" name="card_9a.png" path="/style2/" exported="true"/>
+    <image id="lgj6t" name="card_9b.png" path="/style2/" exported="true"/>
+    <image id="lgj6u" name="card_9c.png" path="/style2/" exported="true"/>
+    <image id="lgj6v" name="card_9d.png" path="/style2/" exported="true"/>
+    <image id="lgj6w" name="card_Aa.png" path="/style2/" exported="true"/>
+    <image id="lgj6x" name="card_Ab.png" path="/style2/" exported="true"/>
+    <image id="lgj6y" name="card_Ac.png" path="/style2/" exported="true"/>
+    <image id="lgj6z" name="card_Ad.png" path="/style2/" exported="true"/>
+    <image id="lgj610" name="card_backface.png" path="/style2/" exported="true"/>
+    <image id="lgj611" name="card_Ja.png" path="/style2/" exported="true"/>
+    <image id="lgj612" name="card_Jb.png" path="/style2/" exported="true"/>
+    <image id="lgj613" name="card_Jc.png" path="/style2/" exported="true"/>
+    <image id="lgj614" name="card_Jd.png" path="/style2/" exported="true"/>
+    <image id="lgj615" name="card_Ka.png" path="/style2/" exported="true"/>
+    <image id="lgj616" name="card_Kb.png" path="/style2/" exported="true"/>
+    <image id="lgj617" name="card_Kc.png" path="/style2/" exported="true"/>
+    <image id="lgj618" name="card_Kd.png" path="/style2/" exported="true"/>
+    <image id="lgj619" name="card_Qa.png" path="/style2/" exported="true"/>
+    <image id="lgj61a" name="card_Qb.png" path="/style2/" exported="true"/>
+    <image id="lgj61b" name="card_Qc.png" path="/style2/" exported="true"/>
+    <image id="lgj61c" name="card_Qd.png" path="/style2/" exported="true"/>
+    <image id="lgj61d" name="card_Ta.png" path="/style2/" exported="true"/>
+    <image id="lgj61e" name="card_Tb.png" path="/style2/" exported="true"/>
+    <image id="lgj61f" name="card_Tc.png" path="/style2/" exported="true"/>
+    <image id="lgj61g" name="card_Td.png" path="/style2/" exported="true"/>
+  </resources>
+  <publish name="pokersstyle3"/>
+</packageDescription>

@@ -1,0 +1,955 @@
+{
+    "detail": [
+        {
+            "totalColumn" : 2
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "Basic Rules:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":230,
+            "itemHeight":40,
+            "content":"[No. of players]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":230,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"2~8, at least 2 players to start the game."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":300,
+            "content": "Game Rules:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "itemWidth":600,
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "itemHeight":40,
+            "content":"[Deal]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Each player is dealt two cards first, player may have a look at the first card to decide the play."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":300,
+            "itemHeight":40,
+            "content":"[Become the Dealer]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":300,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"6",
+            "itemHeight":105,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"At the beginning of each round of game, player may opt to become the Dealer by placing desired odds, the player who places the highest odds may become the Dealer. If more than one player places the same highest odds, system will select randomly from among the players who place the highest odds. If no players place an odds, system will select randomly from among players."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"6",
+            "itemHeight":105,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":100,
+            "itemHeight":40,
+            "content":"[Bet]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":100,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":80,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"All players may opt for desired payout after the Dealer has been confirmed. The more Gold on hand, the higher the payout can be opted. If the player did not opt any payout within the given timeframe, system will automatically set the minimum payout for the player."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":80,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":255,
+            "itemHeight":40,
+            "content":"[Announce hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":255,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":80,
+            "itemWidth":880,
+            "fontSize":28,
+            "content":"After players are each dealt three cards, players may announce own hand to compare with other players’ hand. If player did not announce his/her hand within the timeframe given, system will automatically announce all hands starting from player and Dealer is the last."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":80,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "itemHeight":40,
+            "content":"[Compare]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":75,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"When all players announce their hands, the Deal shall compare his/her hand to each player’s hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":75,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":300,
+            "content": "Payout:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "itemWidth":600,
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":170,
+            "itemHeight":40,
+            "content":"[Big Bang]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 40,
+            "itemWidth":170,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Any three cards, the payout is *5."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":240,
+            "itemHeight":40,
+            "content":"[Grand Knights]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":240,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Any three similar picture cards, the payout is *5."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Three-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Three equal ranked cards, the payout is *4."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Three Pictures]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Any three pictures cards (J, Q, K), the payout is *3."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":100,
+            "itemHeight":40,
+            "content":"[SP]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":100,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"The total value of the cards in the hand is 8, 9, the payout for 8 is *2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":210,
+            "itemHeight":40,
+            "content":"[Single Card]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":210,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"The total value of the cards in the hand is 0 – 6, the payout for 0 – 6 is *1, payout for 7 is *2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":220,
+            "itemHeight":40,
+            "content":"[Card values]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":220,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"J, Q, K are rank as knight cards, 10 is worth 0. The value of cards 2 – 10 is their pip value."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":440,
+            "content": "Ranking of Three Pictures:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "itemWidth":600,
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Hierarchy of Three Pictures]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Big Bang > Grand Knights > Three-of-a-kind > Three Pictures > SP > Single Card (9>8>7>6>5>4>3>2>1>0)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":220,
+            "itemHeight":40,
+            "content":"[Card values]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":220,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Picture cards > number cards, (K > Q > J > 10 > 9 > …… > 3 > 2 > A)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":220,
+            "itemHeight":40,
+            "content":"[Similar Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":220,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"If the Dealer and player both own the same value, shall compare according to the following rules:"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"a. If the Dealer and player both own the same value, the biggest value card is used to break ties, the rank order is K>Q>J>10>9>8>7>6>5>4>3>2>A."
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"b. If both own the same biggest value card, Suit is used to break ties, the rank order is: Spades > Hearts > Clubs > Diamonds."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":5,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":300,
+            "content": "Rules of Calculation:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "itemWidth":600,
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":230,
+            "itemHeight":40,
+            "content":"[Basic formula]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":230,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Points = Basic points * Dealer’s odds * payout for the corresponding card values * player’s opted payout."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":290,
+            "itemHeight":40,
+            "content":"[Game commission]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":290,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"System may charge 5% of the profit from the winner."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":330,
+            "itemHeight":40,
+            "content":"[Settlement for player]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":330,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Basic points * Dealer’s odds * payout for the corresponding card values * player’s opted payout – game commission."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":330,
+            "itemHeight":40,
+            "content":"[Settlement for Dealer]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":330,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"(Basic points * Dealer’s odds * payout for the corresponding card values * player’s opted payout – game commission)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":550,
+            "itemHeight":40,
+            "content":"[High return from low input is prohibited]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":550,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight":70,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Player may only win as much as the total Gold brought into current game round. If the player has brought in only 80, the player may only gain 80 utmost, regardless the settlement count."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":270,
+            "itemHeight":40,
+            "content":"[Insufficient Gold]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":270,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":80,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"In the event of the Dealer does not have sufficient Gold, the profit ratio shall be counted based on the actual win result. Example: The Bank’s available funds is 100, 200 for Player A, 200 for Player B, 400 for Player C, the calculation as below:"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":80,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Actual settlement for Player A, B = 200/（200+200+400）*100 = 25."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Actual settlement for Player C = 400/（200+200+400）*100 = 50."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":""
+        }
+    ]
+}

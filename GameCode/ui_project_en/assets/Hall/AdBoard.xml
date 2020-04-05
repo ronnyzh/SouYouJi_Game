@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="231,445" mask="n43_uy9c">
+  <controller name="gamePageC" pages="0,games,1,stages" selected="0"/>
+  <displayList>
+    <image id="n43_uy9c" name="n43" src="uy9c6x" xy="0,0">
+      <gearDisplay controller="gamePageC" pages="0"/>
+    </image>
+    <image id="n44_d1sn" name="n44" src="d1snt8l" xy="-257,5" size="373,394" skew="0,-38"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="999999">
+    <item time="0" type="XY" target="n44_d1sn" tween="true" startValue="-218.95,-92.35" endValue="164,381.75" duration="12" ease="Expo.Out"/>
+    <item time="66" type="XY" target="n44_d1sn" value="164,381.75"/>
+  </transition>
+</component>

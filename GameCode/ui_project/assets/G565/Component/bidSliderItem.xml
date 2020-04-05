@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,388" extention="Slider">
+  <displayList>
+    <graph id="n2" name="bar_v" xy="0,0" size="132,388" alpha="0" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </graph>
+    <graph id="n4" name="grip" xy="0,-584" size="132,1140" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="n2" sidePair="top-top,width-width"/>
+    </graph>
+  </displayList>
+  <Slider titleType="value" reverse="true"/>
+</component>

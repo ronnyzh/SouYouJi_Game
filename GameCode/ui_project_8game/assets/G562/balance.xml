@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="results" pages="0,win,1,lose,2," selected="1"/>
+  <displayList>
+    <graph id="n10_jl8j" name="n10" xy="0,0" size="1334,750" type="rect" fillColor="#cc666666">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n1_r73m" name="n1" src="r73m7k" fileName="shisan/balance/背景板.png" xy="3,0" size="1334,750" blend="screen" filter="color" filterData="-0.63,-0.26,0.06,0.00" fillMethod="radial180">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n4_r73m" name="n4" src="r73m7l" fileName="shisan/balance/标题栏.png" xy="-6,-2" size="676,96">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n5_r73m" name="n5" src="r73m7l" fileName="shisan/balance/标题栏.png" xy="1344,-2" size="677,96" scale="-1,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n6_r73m" name="n6" src="r73m7q" fileName="shisan/balance/您输了.png" xy="317,2" pivot="0.5,0" scale="0.5,0.5">
+      <gearDisplay controller="results" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n7_r73m" name="n7" src="r73m7f" fileName="shisan/balance/您赢了.png" xy="333,2" pivot="0.5,0" scale="0.5,0.5">
+      <gearDisplay controller="results" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n9_pvfa" name="closeBtn" src="pvfac82" fileName="Btn/close.xml" xy="1259,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n8_r73m" name="List" xy="0,112" size="1334,701" scale="1,0.9" lineGap="5" defaultItem="ui://newlnjldr73m7s" align="center">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </list>
+  </displayList>
+</component>

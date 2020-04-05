@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,116" extention="ProgressBar">
+  <displayList>
+    <image id="n1" name="n1" src="z5p19w" fileName="百家乐/环形进度条/头像描边框.png" xy="0,0" size="116,116">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="bar" src="z5p19v" fileName="百家乐/环形进度条/touxiangk.png" xy="0,26" size="116,64"/>
+  </displayList>
+  <ProgressBar reverse="true"/>
+</component>

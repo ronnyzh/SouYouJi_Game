@@ -1,0 +1,398 @@
+{
+    "detail": [
+        {
+    		"totalLine" :28,
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"itemHeight": 40,
+        	"fontSize":30,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+        	"content":"2~6人。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"itemHeight": 40,
+        	"fontSize":30,
+        	"content": "游戏规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【下注】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"itemHeight":45,
+        	"itemWidth":770,
+        	"fontSize":28,
+        	"content":"开局后所有玩家开始选择下注倍数;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"itemWidth":130,
+        	"fontSize":28,
+        	"content":"【亮牌】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"2",
+        	"itemHeight":60,
+        	"itemWidth":770,
+        	"fontSize":28,
+        	"content":"玩家拿到5张牌后即可选择亮出和其他玩家比大小，若玩家超时不主动亮牌，系统自动执行开牌操作;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":130,
+            "fontSize":28,
+            "content":"【比牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth":770,
+            "itemHeight":50,
+            "fontSize":28,
+            "content":"当所有玩家亮出手牌后，牌型最大的玩家即为本局赢家，其他玩家为输家。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight":40,
+            "fontSize":30,
+            "content": "牌型算法:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight":40,
+            "content": ""
+        },
+       {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【五小牛】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight":50,
+            "content":"5张牌点数都小于5，且点数之和小于等于10，8倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【四炸】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 50,
+            "content":"5张牌中有4张牌点数相同，第5张随意，6倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【五花牛】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 50,
+            "content":"5张牌均为花牌（JQK中任意一种），5倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【牛牛】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 60,
+            "content":"5张牌中任意3张点数相加等于10的整数倍，另外2张点数相加也等于10的倍数，4倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【有牛】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 90,
+            "content":"三张牌数字总和为10的倍数，另两张数字总和除以10余几称牛几，其中牛九为3倍，牛八、牛七为2倍，牛六~牛一为1倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【没牛】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"5张牌中任意3张点数相加都不等于10的整数倍，1倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":180,
+            "fontSize":28,
+            "content":"【牌面大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 50,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"10,J,Q,K点数都按10去算，其他牌按牌面数值计算。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "fontSize":30,
+            "content": "牌型比较:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【牌型大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":730,
+            "fontSize":28,
+            "content":"五小牛>四炸>五花牛>牛牛>牛九>牛八>牛七>牛六>牛五>牛四>牛三>牛二>牛一>无牛;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【四炸大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 50,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"比较四炸的大小;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"4",
+            "itemWidth":200,
+            "fontSize":28,
+            "content":"【同牌型大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 150,
+            "itemWidth":700,
+            "fontSize":28,
+            "content":"如果牛数相同，则比较各自手中五张牌最大的那张牌的大小，顺序为：K>Q>J>10>9>8>7>6>5>4>3>2>A；如果最大牌的大小也相同,则比较最大牌的花色,顺序依次为：黑桃>红心>梅花>方块。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "fontSize":30,
+            "content": "计算规则:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【基本公式】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":730,
+            "fontSize":28,
+            "content":"分数=场次底分*赢家对应牌型倍数*赢家下注倍数*输家下注倍数;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【系统抽成】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 50,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"系统会从赢家的所赢取游戏收益中抽5%;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【防小博大】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"4",
+            "itemHeight": 50,
+            "itemWidth":730,
+            "fontSize":28,
+            "content":"本局玩家带进多少本金，本局最多也等额输赢多少，如您本局带入80，结算时您理论应得200，为公平起见，您本局最多也只能赢到80，而不是200 。"
+        } ,
+        {
+            "type" : 1,
+            "itemStyle" : 6,
+            "line": "1",
+            "itemHeight": 40,
+            "fontSize":30,
+            "content": "功能说明:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【继续下局】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"3",
+            "itemWidth": 700,
+            "itemHeight": 80,
+            "fontSize":28,
+            "content":"这是365游戏特色体验功能，只需在菜单手动开启即可进入，如玩家退出游戏或者离线情况下，系统将自动取消该功能。"
+        } 
+    ]
+}

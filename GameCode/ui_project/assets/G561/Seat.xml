@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,151">
+  <controller name="balance" pages="0,hide,1,add,2,red" selected="0"/>
+  <controller name="turn" pages="0,off,1,on" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="onTurn"/>
+  </controller>
+  <controller name="Image" pages="0,normal,1,disabled" selected="0"/>
+  <displayList>
+    <loader id="n0_osvm" name="icon" xy="8,12" pivot="0.5,0.5" size="100,100" group="n20_yjzs" scale="0.9,0.9" url="ui://la8oslyoosvmbg" fill="scaleFree">
+      <gearLook controller="Image" pages="0,1" values="1,0,0,1|1,0,0,1"/>
+    </loader>
+    <image id="n40_hkou" name="n40" src="mup46f" fileName="Font/NewScoreArea/头像名称底.png" pkg="rjf5583x" xy="13,84" size="89,56" group="n20_yjzs"/>
+    <image id="n1_osvm" name="n1" xy="6,12" pivot="0.5,0.5" size="102,102" group="n20_yjzs" hideByEditor="true" scale="0.9,0.9" visible="false"/>
+    <image id="n9_sbou" name="tagOffline" xy="6,43" pivot="0.5,0.5" size="102,38" group="n20_yjzs" hideByEditor="true" scale="0.9,0.9" visible="false"/>
+    <image id="n15_tx3y" name="tagTrusteeship" src="q7l59" fileName="style0/icon/icon_trusteeship.png" xy="8,45" pivot="0.5,0.5" size="100,32" group="n20_yjzs" hideByEditor="true" scale="0.9,0.9" visible="false"/>
+    <graph id="n39_eed4" name="n39" xy="13,17" size="89,89" group="n20_yjzs" type="rect" lineSize="0" fillColor="#cc000000">
+      <gearDisplay controller="Image" pages="1"/>
+    </graph>
+    <group id="n20_yjzs" name="n20" xy="6,12" size="102,128" locked="true" collapsed="true"/>
+    <text id="n3_osvm" name="score" xy="3,115" pivot="0.5,0.5" size="115,22" font="ui://rjf5583xprh340" fontSize="15" color="#ffff00" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="99,999,999.00"/>
+    <image id="n23_yjzs" name="iconCoin" src="is4d25" fileName="style0/icon/icon_gold.png" xy="8,111" visible="false"/>
+    <text id="n2_osvm" name="name" xy="12,78" size="90,28" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="player"/>
+    <image id="n24_zbq1" name="n24" src="is4d2s" fileName="style0/other/con_head_gold_count.png" xy="5,147" group="n27_zbq1"/>
+    <image id="n25_zbq1" name="n25" src="zbq142" fileName="style0/other/icon_head-chip.png" xy="-1,144" group="n27_zbq1"/>
+    <text id="n26_zbq1" name="tfChip" xy="37,147" size="78,35" group="n27_zbq1" fontSize="24" color="#d4c266" autoSize="none" autoClearText="true" text="999"/>
+    <group id="n27_zbq1" name="n27" xy="-1,144" size="119,38"/>
+    <image id="n35_f936" name="n35" src="f936y6n" fileName="style0/other/head-light.png" xy="-2,-4" locked="true" alpha="0">
+      <gearLook controller="turn" pages="0" values="0,0,0,1" default="1,0,0,1" tween="true" ease="Back.Out"/>
+    </image>
+    <component id="n8_h21o" name="icon_click" src="djq929" fileName="ScaleButton.xml" pkg="nji5wfgx" xy="0,0" size="116,151" locked="true"/>
+    <image id="n31_ithq" name="n31" src="is4d24" fileName="style0/icon/icon_bipai.png" xy="-44,-49" pivot="0.5,0.5" locked="true" hideByEditor="true" visible="false"/>
+    <image id="n36_h56m" name="n36" src="103jy54" fileName="牛牛结算数字散件/橙色背景.png" xy="-45,54" locked="true" alpha="0">
+      <gearDisplay controller="balance" pages="1"/>
+      <gearXY controller="balance" pages="1" values="-45,0" default="-45,54" tween="true" ease="Back.Out" duration="0.7"/>
+      <gearLook controller="balance" pages="0" values="0,0,0,1" default="1,0,0,1"/>
+    </image>
+    <image id="n37_h56m" name="n37" src="103jy55" fileName="牛牛结算数字散件/紫色背景.png" xy="-38,57" locked="true" alpha="0">
+      <gearDisplay controller="balance" pages="2"/>
+      <gearXY controller="balance" pages="0,1" values="-38,57|-38,57" default="-38,1" tween="true" ease="Back.Out" duration="0.7"/>
+      <gearLook controller="balance" pages="0" values="0,0,0,1" default="1,0,0,1"/>
+    </image>
+    <text id="n32_103jy" name="scoreBalance" xy="58,115" pivot="0.5,0.5" anchor="true" size="160,54" locked="true" font="ui://dung4bqc103jy58" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="+818.0">
+      <gearDisplay controller="balance" pages="1"/>
+      <gearXY controller="balance" pages="0,1,2" values="58,115|58,58|58,115" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+    <text id="n33_103jy" name="scoreBalance2" xy="58,115" pivot="0.5,0.5" anchor="true" size="160,54" locked="true" font="ui://dung4bqc103jy56" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="-888.3">
+      <gearDisplay controller="balance" pages="2"/>
+      <gearXY controller="balance" pages="0,1,2" values="58,115|58,115|58,59" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+  </displayList>
+  <transition name="bipai">
+    <item time="0" type="Alpha" target="n31_ithq" tween="true" startValue="0" endValue="1" duration="5"/>
+    <item time="0" type="Scale" target="n31_ithq" tween="true" startValue="1,1" endValue="0.7,0.7" duration="12"/>
+    <item time="0" type="Visible" target="n31_ithq" value="true"/>
+    <item time="18" type="Visible" target="n31_ithq" value="false"/>
+  </transition>
+  <transition name="onTurn">
+    <item time="0" type="Alpha" target="n35_f936" tween="true" startValue="0" endValue="1" duration="6" ease="Bounce.InOut"/>
+  </transition>
+</component>

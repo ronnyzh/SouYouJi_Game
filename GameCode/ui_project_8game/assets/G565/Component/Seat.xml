@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,175" extention="Label" designImage="ui://1sm91w5opu4x14" designImageOffsetX="-1197" designImageOffsetY="-350" designImageAlpha="0">
+  <controller name="banker" exported="true" pages="0,false,1,true" selected="0"/>
+  <controller name="state" exported="true" pages="0,无,2,跟注,3,加注,1,全下,5,让牌,4,弃牌,6,小盲注,7,大盲注" selected="0"/>
+  <controller name="win" exported="true" pages="0,false,1,true" selected="0"/>
+  <controller name="bid" exported="true" pages="0,true,1,false" selected="0"/>
+  <controller name="showHandCard" exported="true" pages="0,true,1,false" selected="0"/>
+  <displayList>
+    <image id="n3_cjdq" name="n3" src="pu4xy" fileName="Image/出图/头像底框.png" xy="0,0" size="114,175"/>
+    <graph id="n15_awcw" name="chipPoi" xy="57,83" size="0,0"/>
+    <loader id="n0_cjdq" name="icon" xy="5,38" size="105,105" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n6_cjdq" name="state" xy="-1,-10" pivot="0.5,0.5" size="116,58" align="center" vAlign="middle">
+      <gearDisplay controller="state" pages="2,3,1,5,4,6,7"/>
+      <gearIcon controller="state" pages="0,2,3,1,4,6,7" values="|ui://1sm91w5opu4x1n|ui://1sm91w5opu4x1k|ui://1sm91w5opu4x1j|ui://1sm91w5opu4x1l|ui://1sm91w5orir95m|ui://1sm91w5orir95l" default="ui://1sm91w5opu4x1m"/>
+    </loader>
+    <image id="n1_cjdq" name="n1" src="pu4xw" fileName="Image/出图/头像-筹码底.png" xy="1,-39">
+      <gearDisplay controller="bid" pages="0"/>
+    </image>
+    <component id="n7_cjdq" name="chip" src="cjdq47" fileName="ChipSmall.xml" xy="17,-21" controller="color,0">
+      <gearDisplay controller="bid" pages="0"/>
+      <relation target="n1_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n21_rir9" name="handCard" src="rir95o" fileName="Component/NewHandCard.xml" xy="5,38" alpha="0.99" controller="showCard,0,result,0,shadow,1">
+      <gearDisplay controller="showHandCard" pages="0"/>
+    </component>
+    <image id="n2_cjdq" name="n2" src="pu4xv" fileName="Image/出图/头像-名称底.png" xy="5,119">
+      <relation target="n0_cjdq" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <component id="n11_cjdq" name="mask" src="v22s5k" fileName="Component/timer.xml" xy="3,38" size="110,109" controller="mask,0">
+      <relation target="n0_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n4_cjdq" name="imgBankerTag" src="pu4xz" fileName="Image/出图/庄.png" xy="101,-2">
+      <gearDisplay controller="banker" pages="1"/>
+    </image>
+    <image id="n12_cjdq" name="winMask" src="pu4x1t" fileName="Image/出图/胜利.png" xy="-12,-10" size="138,208">
+      <gearDisplay controller="win" pages="1"/>
+    </image>
+    <component id="n14_q2g7" name="txtChangeScore" src="er436o" fileName="tfScore.xml" pkg="rjf5583x" xy="-80,110" size="275,34" controller="c1,0"/>
+  </displayList>
+  <transition name="stateAni">
+    <item time="0" type="Scale" target="n6_cjdq" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Elastic.Out"/>
+  </transition>
+</component>

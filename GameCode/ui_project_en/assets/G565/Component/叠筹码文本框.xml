@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="142,49" extention="Label">
+  <controller name="color" exported="true" pages="0,橙,1,黑,2,红,3,黄,4,蓝,5,绿,6,青,7,紫,8,浅紫" selected="0">
+    <action type="change_page" fromPage="" toPage="0" objectId="n41_v4n9" controller="color" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n42_v4n9" controller="color" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n43_v4n9" controller="color" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n44_v4n9" controller="color" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n41_v4n9" controller="color" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n42_v4n9" controller="color" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n43_v4n9" controller="color" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n44_v4n9" controller="color" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n41_v4n9" controller="color" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n42_v4n9" controller="color" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n43_v4n9" controller="color" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="2" objectId="n44_v4n9" controller="color" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n41_v4n9" controller="color" targetPage="3"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n42_v4n9" controller="color" targetPage="3"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n43_v4n9" controller="color" targetPage="3"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n44_v4n9" controller="color" targetPage="3"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n41_v4n9" controller="color" targetPage="4"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n42_v4n9" controller="color" targetPage="4"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n43_v4n9" controller="color" targetPage="4"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n44_v4n9" controller="color" targetPage="4"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n41_v4n9" controller="color" targetPage="5"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n42_v4n9" controller="color" targetPage="5"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n43_v4n9" controller="color" targetPage="5"/>
+    <action type="change_page" fromPage="" toPage="5" objectId="n44_v4n9" controller="color" targetPage="5"/>
+    <action type="change_page" fromPage="" toPage="6" objectId="n41_v4n9" controller="color" targetPage="6"/>
+    <action type="change_page" fromPage="" toPage="6" objectId="n42_v4n9" controller="color" targetPage="6"/>
+    <action type="change_page" fromPage="" toPage="6" objectId="n43_v4n9" controller="color" targetPage="6"/>
+    <action type="change_page" fromPage="" toPage="6" objectId="n44_v4n9" controller="color" targetPage="6"/>
+    <action type="change_page" fromPage="" toPage="7" objectId="n41_v4n9" controller="color" targetPage="7"/>
+    <action type="change_page" fromPage="" toPage="7" objectId="n42_v4n9" controller="color" targetPage="7"/>
+    <action type="change_page" fromPage="" toPage="7" objectId="n43_v4n9" controller="color" targetPage="7"/>
+    <action type="change_page" fromPage="" toPage="7" objectId="n44_v4n9" controller="color" targetPage="7"/>
+    <action type="change_page" fromPage="" toPage="8" objectId="n41_v4n9" controller="color" targetPage="8"/>
+    <action type="change_page" fromPage="" toPage="8" objectId="n42_v4n9" controller="color" targetPage="8"/>
+    <action type="change_page" fromPage="" toPage="8" objectId="n43_v4n9" controller="color" targetPage="8"/>
+    <action type="change_page" fromPage="" toPage="8" objectId="n44_v4n9" controller="color" targetPage="8"/>
+  </controller>
+  <displayList>
+    <image id="n38_pb69" name="n38" src="pu4x1i" fileName="Image/出图/桌面注底框.png" xy="0,13" locked="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n41_v4n9" name="chip0" src="awcw4x" fileName="Component/叠筹码-小.xml" xy="1,40" group="n45_v4n9" controller="color,0"/>
+    <component id="n42_v4n9" name="chip1" src="awcw4x" fileName="Component/叠筹码-小.xml" xy="1,36" group="n45_v4n9" controller="color,0"/>
+    <component id="n43_v4n9" name="chip2" src="awcw4x" fileName="Component/叠筹码-小.xml" xy="1,32" group="n45_v4n9" controller="color,0"/>
+    <component id="n44_v4n9" name="chip3" src="awcw4x" fileName="Component/叠筹码-小.xml" xy="1,28" group="n45_v4n9" controller="color,0"/>
+    <group id="n45_v4n9" name="chips" xy="1,28" size="36,15" locked="true" hideByEditor="true" visible="false" advanced="true"/>
+    <loader id="n37_pb69" name="chipLoader" xy="3,0" size="36,49" locked="true" url="ui://1sm91w5omn964z" align="center" vAlign="middle">
+      <gearIcon controller="color" pages="0,1,2,3,4,6,7,8" values="ui://1sm91w5omn964z|ui://1sm91w5omn9656|ui://1sm91w5omn9652|ui://1sm91w5omn9655|ui://1sm91w5omn9653|ui://1sm91w5omn9654|ui://1sm91w5omn9650|ui://1sm91w5omn9651" default="ui://1sm91w5opu4xj"/>
+      <relation target="n38_pb69" sidePair="left-left,top-top"/>
+    </loader>
+    <graph id="n39_eajf" name="chipPoi" xy="19,24" size="0,0" locked="true" visible="false" type="rect"/>
+    <text id="n40_v4n9" name="title" xy="35,14" size="109,36" locked="true" fontSize="27" color="#5ed591" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="66666">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

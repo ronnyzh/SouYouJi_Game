@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="179,52">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n1_g8vw" name="n1" xy="0,0" size="179,52" alpha="0.99" url="ui://dosvlhxrs2tl2o" align="center" vAlign="middle">
+      <gearIcon controller="c1" pages="1" values="ui://dosvlhxrs2tl2o" default="ui://dosvlhxrs2tl2p"/>
+    </loader>
+  </displayList>
+</component>

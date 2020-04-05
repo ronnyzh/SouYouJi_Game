@@ -1,0 +1,629 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+			"itemHeight": 40,
+        	"fontSize":30,
+        	"content": "Basic Rules:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":500,
+            "itemHeight":40,
+        	"fontSize":28,
+        	"content":"[No. of Player]"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+			"itemWidth":400,
+        	"fontSize":28,
+        	"content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":900,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"2~9 players, at least 2 players to start the game."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":0,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Card]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemWidth":900,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"A total of 416 cards, which is eight decks of 52 cards."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemWidth":0,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Payout]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "itemWidth":900,
+            "itemHeight":50,
+            "fontSize":28,
+            "content":"The payout is decided by the face value: 8-to-1 odds for tie; *1-9 for Player and Banker win, *0.5 for Banker wins on 6."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "itemWidth":0,
+            "itemHeight":50,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "fontSize":30,
+            "content": "Game Rules:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Become the Dealer]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"6",
+            "itemWidth":900,
+            "itemHeight":105,
+            "fontSize":28,
+            "content":"At the beginning of each round of game, player may opt to become the Dealer by placing desired odds, the player who places the highest odds may become the Dealer. If more than one player places the same highest odds, system will select randomly from among the players who place the highest odds. If no players place an odds, system will select randomly from among players."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"6",
+            "itemWidth":0,
+            "itemHeight":105,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Bet]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "itemWidth":880,
+            "itemHeight":90,
+            "fontSize":28,
+            "content":"All players may start placing bet on desired payout after the Dealer has been confirmed. All players may starts placing bet on desired zone (Player, Banker, Tie). If the player did not place any bet within the given timeframe, system will deem the Player choose to skip this round of game."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "itemWidth":0,
+            "itemHeight":90,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Dealing]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemWidth":900,
+            "itemHeight":65,
+            "fontSize":28,
+            "content":"The Player and Banker are dealt with two cards each in the order of “Player – Banker – Player – Banker. Each party may draw card based on drawing rules."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemWidth":0,
+            "itemHeight":65,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 6,
+            "line": "1",
+            "itemWidth":800,
+            "itemHeight":40,
+            "fontSize":30,
+            "content": "Tableau of drawing rules for Player:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 6,
+            "line": "1",
+            "content": ""
+        },
+                {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : true,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content": "Player has an initial total of:"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : true,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content": "A third card:"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "0，1，2，3，4，5"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":200,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "Draw"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "6，7"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "Stand"
+        },
+
+         {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":50,
+            "fontSize":23,
+            "content": "8，9"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":50,
+            "fontSize":23,
+            "content": "Stand, it’s a Natural hand"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 6,
+            "line": "1",
+            "itemWidth":800,
+            "itemHeight":40,
+            "fontSize":30,
+            "content": "Tableau of drawing rules for Banker:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 6,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : true,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content": "Banker has an initial total of:"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : true,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content": "A third card:"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":25,
+            "content": "0，1，2"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "Draw"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "3"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 30,
+            "isTitle" : false,
+            "line": "1",
+            "fontSize":23,
+            "itemWidth":400,
+            "itemHeight":65,
+            "content": "Stand, unless the player’s third card was an 8."
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "4"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 30,
+            "isTitle" : false,
+            "line": "1",
+            "fontSize":23,
+            "itemWidth":400,
+            "itemHeight":65,
+            "content": "Draw if the player’s third card was 2, 3, 4, ,5, 6, 7."
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "5"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 30,
+            "isTitle" : false,
+            "line": "1",
+            "fontSize":23,
+            "itemWidth":400,
+            "itemHeight":65,
+            "content": "Draw if the player’s third card was 4, 5, 6, 7."
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "fontSize":23,
+            "itemHeight":40,
+            "content": "6"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 30,
+            "isTitle" : false,
+            "line": "1",
+            "fontSize":23,
+            "itemWidth":420,
+            "itemHeight":65,
+            "content": "Stand, unless the player’s third card was a 6 or 7."
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "fontSize":23,
+            "content": "7"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 30,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "fontSize":23,
+            "content": "Stand"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 5,
+            "isTitle" : false,
+            "line": "1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":23,
+            "content": "8，9"
+        },
+        {
+            "type" : 4,
+            "itemStyle" : 30,
+            "isTitle" : false,
+            "line": "1",
+            "itemHeight":40,
+            "itemWidth":400,
+            "fontSize":23,
+            "content": "Stand, it’s a Natural hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth":900,
+            "itemHeight":50,
+            "fontSize":28,
+            "content":"* When the game is tie, the bet will be returned to the ones who bet on Player and Banker."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth":900,
+            "itemHeight":50,
+            "fontSize":28,
+            "content":"* If player places bet on both Banker and Player, both bet will be deemed invalid."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth":900,
+            "fontSize":28,
+            "itemHeight":50,
+            "content":"* When either hand has a total of 8, 9, the hand is called a Natural and both Banker and Player will draw a third card."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth":900,
+            "itemHeight":50,
+            "fontSize":28,
+            "content":"* If the Player has an initial total of 6 or 7, the Player stands. In such case, Banker draws a third card with hands 0~5."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 6,
+            "line": "1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":30,
+            "content": "Rules of Calculation:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Game commission]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 17,
+            "line":"1",
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"System may charge 5% of the profit from the winner."
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight":50,
+            "content": ""
+        }
+
+        
+    ]
+}

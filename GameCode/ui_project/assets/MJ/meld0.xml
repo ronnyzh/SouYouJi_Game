@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,119">
+  <displayList>
+    <component id="n57_kstv" name="n57" src="kteuy" fileName="out0.xml" xy="1,25"/>
+    <component id="n58_kstv" name="n58" src="kteuy" fileName="out0.xml" xy="63,25"/>
+    <component id="n59_kstv" name="n59" src="kteuy" fileName="out0.xml" xy="126,25"/>
+    <component id="n60_kstv" name="n60" src="kteuy" fileName="out0.xml" xy="63,5" visible="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,389 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+        	"content":"2-8人，即2人至8人即可开始游戏。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "游戏规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【抢庄】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 90,
+            "content":"每局游戏开始时自由进行抢庄，如只有一位玩家抢庄，则该玩家在当局当庄；如有多人抢庄，则从中随机产生一位庄家，如没有玩家抢庄，则从所有人中随机产生一位庄家；若玩家抢庄阶段超时无操作，系统自动执行不抢;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【换庄】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"抢庄后，庄家换到顶部庄家位置;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【下注】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 90,
+            "content":"确定庄家之后，所有闲家开始选择下注倍数；闲家可以任意在4个牌区内一个或多个牌区进行选择下注，每位闲家下注总额不超过自己本金的1/4，同时所有闲家下注不能超过庄家的本金,若闲家下注阶段超时无操作，系统默认该玩家弃牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【发牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"下注过后，系统进行发牌，其中4个牌区各一份，庄家一份;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【比牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 70,
+            "content":"4个牌区的牌依次和庄家的牌比大小，得出胜负关系后，清算庄闲之间的输赢收益关系。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "牌型算法:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【牛牛】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 60,
+            "content":"5张牌中任意3张点数相加等于10的整数倍，另外2张点数相加也等于10的倍数，4倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【有牛】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 60,
+            "content":"三张牌数字总和为10的倍数，另两张数字总和除以10余几称牛几，其中牛九为3倍，牛八、牛七为2倍，牛六~牛一为1倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【没牛】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"5张牌中任意3张点数相加都不等于10的整数倍，1倍;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+        	"content":"【牌面大小】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 60,
+        	"content":"10,J,Q,K点数都按10去算，其他牌按牌面数值计算。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight": 40,
+            "content": "牌型比较:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【牌型大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":710,
+            "itemHeight": 60,
+            "content":"牛牛>牛九>牛八>牛七>牛六>牛五>牛四>牛三>牛二>牛一>无牛;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":220,
+            "content":"【同牌型大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":680,
+            "itemHeight": 100,
+            "content":"如果牛数相同，则比较各自手中五张牌最大的那张牌的大小,顺序为 K>Q>J>10>9>8>7>6>5>4>3>2>1；如果最大牌的大小也相同，则比较最大牌的花色，顺序依次为 黑桃>红心>梅花>方块。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":180,
+            "content": "计算规则:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【有效牌区】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"指存在任意一位或多位闲家下注的某个牌区;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【闲家计算】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 55,
+            "content":"计算该闲家参与过的牌区，闲家在每区下注额 * 目标牌型倍数，最后相加;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【庄家计算】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 55,
+            "content":"有效牌区的总投注 * 对应目标牌型倍数，最后所有有效牌区相加，清算关系;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【系统抽成】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 45,
+            "content":"系统会从赢家的所赢取游戏收益中抽5%;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【防小博大】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 62,
+            "content":"每位闲家下注总额不超过自己本金的1/4，同时所有闲家下注不能超过庄的本金;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【金额不足】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 80,
+            "content":"如果庄家出现本金不足以支付牌区的理论输赢数额的情况下，根据庄家本金，按照每个有效牌区的总下注额比例分配到每一个有效牌区；同时每个有效牌区下，按照每位获胜的闲家按各自的下注额比例去分配。"
+        }
+        
+    ]
+}

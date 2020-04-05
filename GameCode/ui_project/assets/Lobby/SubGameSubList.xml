@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <component id="n3_aks0" name="btn_s1" src="aks07" xy="948,254" size="450,273">
+      <Button title="斗地主" icon="ui://ccd2kz2rb3ca1v"/>
+    </component>
+    <component id="n16_b3ca" name="btn_return" src="aks07" xy="1464,756" size="116,118" aspect="true">
+      <Button title="斗地主" icon="ui://ccd2kz2rb3ca20"/>
+    </component>
+    <component id="n17_b3ca" name="btn_s0" src="aks07" xy="264,253" size="450,273">
+      <Button title="斗地主" icon="ui://ccd2kz2rb3ca1y"/>
+    </component>
+    <component id="n18_b3ca" name="btn_start" src="aks07" xy="646,620" size="332,132" aspect="true">
+      <Button title="斗地主" icon="ui://ccd2kz2rb3ca1x"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="935,1210">
+  <displayList>
+    <loader id="n40_g9sy" name="icon" xy="21,0" pivot="0.5,0" size="893,1210" align="center" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+  </displayList>
+  <relation target="n40_g9sy" sidePair="height-height"/>
+</component>

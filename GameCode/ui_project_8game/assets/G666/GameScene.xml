@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="c_bar" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="c_pokers" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n341_h5cl" name="bg" xy="0,0" size="1334,750" touchable="false" url="ui://nwo0j1cxh5clgk" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n328_gegk" name="AreaCom" src="gegkco" fileName="素材/欢乐新背景/下注区.xml" xy="24,14" locked="true" controller="c_showArea,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n283_iuo1" name="show_strive" src="iuo1b7" fileName="按钮条-抢庄.xml" xy="250,751" group="n287_iuo1" alpha="0">
+      <gearDisplay controller="c_bar" pages="1"/>
+      <relation target="n328_gegk" sidePair="center-center"/>
+      <relation target="" sidePair="top-bottom"/>
+    </component>
+    <component id="n285_iuo1" name="show_bid" src="iuo1b5" fileName="按钮条-下注.xml" xy="250,842" group="n287_iuo1" alpha="0">
+      <gearDisplay controller="c_bar" pages="3"/>
+      <relation target="n328_gegk" sidePair="center-center"/>
+      <relation target="" sidePair="top-bottom"/>
+    </component>
+    <group id="n287_iuo1" name="btn_bar" xy="250,751" size="833,168" locked="true" collapsed="true"/>
+    <component id="n303_o8gl" name="ani_xp" src="o8glbm" fileName="动效-洗牌-组件.xml" xy="667,242" pivot="0.5,0.5" anchor="true" hideByEditor="true" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,top-middle"/>
+    </component>
+    <component id="n20_lhnw" name="seat0" src="ixtve9" fileName="玩家座位.xml" xy="194,680" pivot="0.5,0.5" anchor="true" group="n28_lhnw" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n27_lhnw" name="seat1" src="ixtve9" fileName="玩家座位.xml" xy="64,347" pivot="0.5,0.5" anchor="true" group="n28_lhnw" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n24_lhnw" name="seat2" src="ixtve9" fileName="玩家座位.xml" xy="1272,347" pivot="0.5,0.5" anchor="true" group="n28_lhnw" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n22_lhnw" name="seat3" src="ixtve9" fileName="玩家座位.xml" xy="148,176" pivot="0.5,0.5" anchor="true" group="n28_lhnw" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n25_lhnw" name="seat4" src="ixtve9" fileName="玩家座位.xml" xy="1196,176" pivot="0.5,0.5" anchor="true" group="n28_lhnw" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n26_lhnw" name="seat5" src="ixtve9" fileName="玩家座位.xml" xy="148,511" pivot="0.5,0.5" anchor="true" group="n28_lhnw" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n21_lhnw" name="seat6" src="ixtve9" fileName="玩家座位.xml" xy="1196,511" pivot="0.5,0.5" anchor="true" group="n28_lhnw" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n23_lhnw" name="seat7" src="ixtve9" fileName="玩家座位.xml" xy="410,107" pivot="0.5,0.5" anchor="true" group="n28_lhnw" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n209_iuo1" name="showSign_7" src="iuo1a6" fileName="showSign-图标控制.xml" xy="345,18" group="n28_lhnw" touchable="false" controller="c_showSign,0">
+      <relation target="n23_lhnw" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n28_lhnw" name="seat" xy="64,18" size="1308,789" locked="true"/>
+    <component id="n202_iuo1" name="showSign_1" src="iuo1a6" fileName="showSign-图标控制.xml" xy="8,239" group="n83_hzsp" scale="0.9,0.9" touchable="false" controller="c_showSign,0">
+      <relation target="n27_lhnw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n203_iuo1" name="showSign_0" src="iuo1a6" fileName="showSign-图标控制.xml" xy="137,573" group="n83_hzsp" scale="0.9,0.9" touchable="false" controller="c_showSign,0">
+      <relation target="n20_lhnw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n204_iuo1" name="showSign_2" src="iuo1a6" fileName="showSign-图标控制.xml" xy="1214,240" group="n83_hzsp" scale="0.9,0.9" touchable="false" controller="c_showSign,0">
+      <relation target="n24_lhnw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n205_iuo1" name="showSign_3" src="iuo1a6" fileName="showSign-图标控制.xml" xy="92,70" group="n83_hzsp" scale="0.9,0.9" touchable="false" controller="c_showSign,0">
+      <relation target="n22_lhnw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n206_iuo1" name="showSign_4" src="iuo1a6" fileName="showSign-图标控制.xml" xy="1138,68" group="n83_hzsp" scale="0.9,0.9" touchable="false" controller="c_showSign,0">
+      <relation target="n25_lhnw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n207_iuo1" name="showSign_5" src="iuo1a6" fileName="showSign-图标控制.xml" xy="92,403" group="n83_hzsp" scale="0.9,0.9" touchable="false" controller="c_showSign,0">
+      <relation target="n26_lhnw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n208_iuo1" name="showSign_6" src="iuo1a6" fileName="showSign-图标控制.xml" xy="1139,403" group="n83_hzsp" scale="0.9,0.9" touchable="false" controller="c_showSign,0">
+      <relation target="n21_lhnw" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n83_hzsp" name="showSign" xy="8,68" size="1332,561" locked="true" collapsed="true"/>
+    <component id="n145_am7q" name="btn_ready" src="am7q7w" fileName="素材/界面素材/继续游戏按钮.xml" xy="538,633" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n275_iuo1" name="start_ani" src="us0td4" fileName="素材/欢乐牛牛优化/新游戏开始动画/startGame.xml" xy="-130,185" locked="true" hideByEditor="true" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n340_ixtv" name="stopBet" src="ixtvf2" fileName="素材/欢乐牛牛优化/停止下注-抢庄/txt_tip(1).xml" xy="0,211" locked="true" hideByEditor="true" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n193_iuo1" name="showTime" src="iuo1a4" fileName="showTime-图标控制.xml" xy="667,168" pivot="0.5,1" anchor="true" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n334_ixtv" name="matching" src="ixtve6" fileName="素材/匹配动画/matching.xml" xy="667,168" pivot="0.5,1" anchor="true" visible="false" touchable="false">
+      <relation target="n328_gegk" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n327_z5p1" name="btnList" src="z5p1c7" fileName="素材/新按钮列表/UI_GameMenu.xml" xy="0,0" size="1334,750" locked="true" hideByEditor="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n330_phk5" name="btn_test" src="rpxwda" fileName="素材/欢乐牛牛优化/下注按钮-亮-断线.xml" xy="1190,4" hideByEditor="true" visible="false" touchable="false" controller="c1,0">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <text id="n31_lhnw" name="roomId" xy="14,30" pivot="0,0.5" anchor="true" size="374,24" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" italic="true" autoClearText="true" text="牌局编号：666-123463265-162-0">
+      <relation target="" sidePair="top-top,left-left"/>
+    </text>
+    <text id="n332_rpxw" name="roomInfo" xy="14,62" pivot="0,0.5" anchor="true" size="374,24" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" italic="true" strokeColor="#000000" autoClearText="true" text="牌局编号：666-123463265-162-0">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+  </displayList>
+  <transition name="showBar_Q">
+    <item time="0" type="Alpha" target="n283_iuo1" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="XY" target="n283_iuo1" tween="true" startValue="250,751" endValue="250,673" duration="12"/>
+  </transition>
+  <transition name="showBar_X">
+    <item time="0" type="Alpha" target="n285_iuo1" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="XY" target="n285_iuo1" tween="true" startValue="250,808" endValue="250,673.78" duration="12"/>
+  </transition>
+</component>

@@ -1,0 +1,3 @@
+class LoginMaster extends Master{
+    
+}

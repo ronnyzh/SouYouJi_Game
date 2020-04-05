@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="159,180" pivot="0.5,0.5" anchor="true">
+  <controller name="type" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10," selected="0"/>
+  <displayList>
+    <loader id="n80_rh5f" name="img" xy="80,78" pivot="0.5,0.5" anchor="true" size="159,180" url="ui://newlnjldr7lnscax" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearXY controller="type" pages="0,1,2,3,4,5,6,7,8,9,10" values="80,78|80,90|80,90|80,90|80,90|80,90|80,90|80,90|75,90|71,90|71,90"/>
+      <gearIcon controller="type" pages="0,1,2,3,4,5,6,7,8,9,10" values="ui://newlnjldr7lnscax|ui://newlnjldr7lnscbb|ui://newlnjldr7lnscb7|ui://newlnjldr7lnscb8|ui://newlnjldr7lnscbg|ui://newlnjldr7lnscbd|ui://newlnjldr7lnscba|ui://newlnjldr7lnscbc|ui://newlnjldr7lnscbi|ui://newlnjldr7lnscbh|ui://newlnjldr7lnscbe"/>
+    </loader>
+  </displayList>
+  <transition name="imgAni">
+    <item time="0" type="Scale" target="n80_rh5f" value="0,1"/>
+    <item time="0" type="Visible" target="n80_rh5f" value="false"/>
+    <item time="6" type="Scale" target="n80_rh5f" tween="true" startValue="0,1" endValue="1,1" duration="12" ease="Expo.Out"/>
+    <item time="6" type="Visible" target="n80_rh5f" value="true"/>
+    <item time="18" type="Scale" target="n80_rh5f" tween="true" startValue="1,1" endValue="0,1" duration="6" ease="Expo.Out"/>
+    <item time="24" type="Visible" target="n80_rh5f" value="false"/>
+  </transition>
+</component>

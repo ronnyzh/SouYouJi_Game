@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="103,40">
+  <controller name="type" pages="0,乌龙,1,对子,2,两对,3,三条,4,双鬼冲头,5,顺子,6,同花,7,葫芦,8,铁支,9,同花顺,14,五同" selected="10"/>
+  <displayList>
+    <text id="n5_r73m" name="text" xy="0,0" size="103,40" font="方正准圆简体" fontSize="25" color="#cc9900" align="center" vAlign="middle" autoSize="none" singleLine="true" text="五同">
+      <gearDisplay controller="type" pages=""/>
+      <gearText controller="type" pages="0,1,2,3,5,6,7,8,9,14" values="乌龙|对子|两对|三条|顺子|同花|葫芦|铁支|同花顺|五同" default="双鬼冲头"/>
+    </text>
+  </displayList>
+</component>

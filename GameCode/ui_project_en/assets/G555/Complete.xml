@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,80">
+  <displayList>
+    <image id="n0_uu9o" name="n0" src="a8opg" fileName="nn/niubeijing_312.png" xy="0,0"/>
+    <image id="n1_uu9o" name="n1" src="uu9o3w" fileName="textures/table/complete.png" xy="165,40" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

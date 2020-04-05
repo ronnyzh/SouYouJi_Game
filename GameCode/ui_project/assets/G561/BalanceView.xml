@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <controller name="c1" pages="0,win,1,lose,2,empty" selected="0"/>
+  <displayList>
+    <graph id="n16_ogno" name="mask" xy="0,0" size="1600,900" locked="true" hideByEditor="true" visible="false" touchable="false" type="rect" fillColor="#99000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n0_ogno" name="n0" xy="288,102" size="1024,575" group="n18_iufb" locked="true" hideByEditor="true" visible="false" type="rect"/>
+    <text id="n4_ogno" name="n4" xy="444,168" size="65,39" group="n15_ogno" locked="true" hideByEditor="true" visible="false" fontSize="30" text="玩家"/>
+    <text id="n7_ogno" name="n7" xy="617,168" size="65,39" group="n15_ogno" locked="true" hideByEditor="true" visible="false" fontSize="30" text="分数"/>
+    <text id="n20_p1fs" name="n20" xy="926,169" size="65,39" group="n15_ogno" locked="true" hideByEditor="true" visible="false" fontSize="30" text="玩家"/>
+    <text id="n21_p1fs" name="n21" xy="1099,168" size="65,39" group="n15_ogno" locked="true" hideByEditor="true" visible="false" fontSize="30" text="分数"/>
+    <group id="n15_ogno" name="title" xy="444,168" size="720,44" group="n18_iufb" locked="true" hideByEditor="true"/>
+    <list id="n19_p1fs" name="playerList" xy="318,234" size="964,409" group="n18_iufb" locked="true" hideByEditor="true" visible="false" layout="flow_hz" overflow="scroll" defaultItem="ui://dung4bqcq7l512" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n17_ogno" name="conTitleLose" xy="453,83" size="694,135" group="n18_iufb" locked="true" hideByEditor="true" visible="false" type="rect">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+    <graph id="n2_ogno" name="n2" xy="227,109" size="113,425" group="n9_ogno" type="rect"/>
+    <graph id="n3_ogno" name="n3" xy="1260,108" size="113,425" group="n9_ogno" type="rect"/>
+    <graph id="n1_ogno" name="n1" xy="325,-62" size="950,246" group="n9_ogno" type="rect"/>
+    <group id="n9_ogno" name="conTitleWin" xy="227,-62" size="1146,597" group="n18_iufb" locked="true" hideByEditor="true" visible="false" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n14_ogno" name="btnChange" src="q7l5n" fileName="component/BtnNormal.xml" xy="1031,703" group="n18_iufb" locked="true" hideByEditor="true" visible="false">
+      <Button icon="ui://dung4bqcq7l51c"/>
+    </component>
+    <component id="n12_ogno" name="btnExit" src="q7l5n" fileName="component/BtnNormal.xml" xy="526,416" group="n18_iufb" hideByEditor="true" visible="false">
+      <Button icon="ui://dung4bqcq7l51a"/>
+    </component>
+    <component id="n13_ogno" name="btnContinue" src="q7l5n" fileName="component/BtnNormal.xml" xy="675,718" group="n18_iufb">
+      <Button icon="ui://dung4bqciufb4d"/>
+    </component>
+    <component id="n22_c8cl" name="autoContTimer" src="fedb69" fileName="timer.xml" pkg="qn9mtfu5" xy="885,712" group="n18_iufb" visible="false">
+      <relation target="n13_ogno" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n18_iufb" name="n18" xy="227,-62" size="1146,881" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

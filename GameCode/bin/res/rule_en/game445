@@ -1,0 +1,802 @@
+{
+    "detail": [
+        {
+            "totalColumn" : 2
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "Basic Rules:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[No. of players]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"4."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Total tiles]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"112."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "itemHeight":40,
+            "content":"[Wild card]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"Red Dragons."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":210,
+            "itemHeight":40,
+            "content":"[First Dealer]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":210,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"System may randomly choose any player to become the Dealer."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":200,
+            "content": "How to win:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 55,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Winning hands must consist of four melds (Pongs, Kongs, or Chows) and a pair (eyes)."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 55,
+            "itemWidth":860,
+            "fontSize":28,
+            "content":"Sequence Hand can only by completed by draw, e.g.: 1111,123,111,123,11."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":250,
+            "content": "Winning hands:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight": 40,
+        	"content":"[Completion by draw]"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight": 40,
+        	"content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"itemHeight":20,
+            "itemWidth":900,
+            "fontSize":28,
+        	"content":"Complete a hand by drawing the tile required on one’s turn."
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"2",
+        	"itemHeight":20,
+            "itemWidth":0,
+            "fontSize":28,
+        	"content":""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight": 40,
+        	"content":"[Completion by robbing a Kong]"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight": 40,
+        	"content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"itemHeight":60,
+            "itemWidth":900,
+            "fontSize":28,
+        	"content":"Complete a hand by stealing the piece from a player when declaring the Kong from an exposed Pong."
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"2",
+        	"itemHeight":60,
+            "itemWidth":0,
+            "fontSize":28,
+        	"content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight": 40,
+            "content":"[Completion with supplemental tile]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Completion with the supplemental tile when you melding Kong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":200,
+            "content": "Payout:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Sequence Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"*2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Seven Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"*8."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Payout for Kongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Pong and Kong (*1), concealed Kong (*2), Kong with discarded tile *3, contributed by the player who discards the tile."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Completion by draw]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Each player shall pay according to the payout rules."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "Special Criteria:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight": 40,
+            "content":"[Completion by robbing a Kong]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight": 40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"May only rob the drawn tiles from the melded Kong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"[Red Dragons as Wild Card]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Cannot meld Red Dragons."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"[Ever valid Kongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"When the hand is drawn, only Kong is valid for the payout."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"[Win after melding Kong]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":880,
+            "fontSize":28,
+            "content":"When hand completion with supplemental tile after melding Kong, the discarder is required to pay for all the players."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight":55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"[Rob a Kong]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"The one who being rob is required to pay for all the players."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "Rules of Calculation:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"[Basic formula]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Base points * total payout * 2 for completion by draw * 3 players +- corresponding Kong points."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"[Game commission]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"System may charge 5% of the profit from the winner."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[High return from low input is prohibited]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 4,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"6",
+            "itemHeight": 45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Player may only win as much as the total Gold brought into current game round. If the player has brought in only 100, the player may only gain 80 utmost, regardless the settlement count."
+        }
+        
+    ]
+}

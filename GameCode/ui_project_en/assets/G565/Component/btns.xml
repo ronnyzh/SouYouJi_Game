@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,88" opaque="false" designImage="ui://1sm91w5opu4x11" designImageOffsetX="-396" designImageOffsetY="-654" designImageAlpha="0">
+  <controller name="btnsCtl" exported="true" pages="2,无,0,点击,1,单选" selected="1"/>
+  <controller name="btns1Ctl" exported="true" pages="2,让牌,0,跟,1,全下,3,跟and全下" selected="3"/>
+  <controller name="btns2Selected" exported="true" pages="0,无,1,让或弃,2,跟,3,跟任何注,4,自动让牌,5,全下" selected="0"/>
+  <controller name="btns2Ctl" exported="true" pages="0,自动让牌,1,跟,2,全下,3,跟" selected="0"/>
+  <controller name="isAdd" exported="true" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <component id="n118_vfu2" name="btnFill" src="imd34k" fileName="Component/按钮-图.xml" xy="548,0" group="n113_imd3" controller="c1,2">
+      <gearDisplay controller="btns1Ctl" pages="2,0,1"/>
+      <gearLook controller="btns1Ctl" pages="1" values="1,0,1,0" default="1,0,0,1" duration="0.1"/>
+    </component>
+    <component id="n123_b7m0" name="btnAllIn2" src="imd34k" fileName="Component/按钮-图.xml" xy="290,0" group="n113_imd3" alpha="0" controller="c1,1">
+      <gearLook controller="isAdd" pages="0" values="0,0,0,1" default="1,0,0,1" duration="0.1"/>
+    </component>
+    <component id="n112_imd3" name="btnAllIn" src="imd34k" fileName="Component/按钮-图.xml" xy="549,0" group="n113_imd3" controller="c1,1">
+      <gearDisplay controller="btns1Ctl" pages="1,3"/>
+      <gearXY controller="btns1Ctl" pages="2,3" values="290,0|549,0" default="290,0"/>
+    </component>
+    <component id="n105_imd3" name="btnFold" src="imd34k" fileName="Component/按钮-图.xml" xy="32,0" group="n113_imd3" controller="c1,0">
+      <gearXY controller="isAdd" pages="0,1" values="32,0|-222,0" duration="0.1"/>
+    </component>
+    <component id="n104_imd3" name="btnCall" src="imd34j" fileName="Component/按钮-跟.xml" xy="290,0" group="n113_imd3">
+      <gearDisplay controller="btns1Ctl" pages="0,3"/>
+      <gearXY controller="isAdd" pages="0,1" values="290,0|36,0" duration="0.1"/>
+    </component>
+    <component id="n121_iamn" name="btnYield" src="imd34k" fileName="Component/按钮-图.xml" xy="290,0" group="n113_imd3" controller="c1,3">
+      <gearDisplay controller="btns1Ctl" pages="2"/>
+      <gearXY controller="isAdd" pages="0,1" values="290,0|35,0" duration="0.1"/>
+    </component>
+    <group id="n113_imd3" name="btns1" xy="32,0" size="769,86" advanced="true">
+      <gearDisplay controller="btnsCtl" pages="0"/>
+    </group>
+    <component id="n116_imd3" name="btnPass" src="imd34n" fileName="Component/单选按钮.xml" xy="31,0" group="n117_ibr1" controller="selected,0,type,1"/>
+    <component id="n115_imd3" name="btnCallCurrent" src="imd34n" fileName="Component/单选按钮.xml" xy="291,0" group="n117_ibr1" controller="selected,0,type,0">
+      <gearDisplay controller="btns2Ctl" pages="1,3"/>
+    </component>
+    <component id="n114_imd3" name="btnCallAny" src="imd34n" fileName="Component/单选按钮.xml" xy="547,0" group="n117_ibr1" controller="selected,0,type,2"/>
+    <component id="n119_mn96" name="btnAllinOption" src="imd34n" fileName="Component/单选按钮.xml" xy="291,0" group="n117_ibr1" controller="selected,0,type,4">
+      <gearDisplay controller="btns2Ctl" pages="2"/>
+    </component>
+    <component id="n120_mn96" name="btnAutoPass" src="imd34n" fileName="Component/单选按钮.xml" xy="291,0" group="n117_ibr1" controller="selected,0,type,3">
+      <gearDisplay controller="btns2Ctl" pages="0"/>
+    </component>
+    <group id="n117_ibr1" name="btns2" xy="31,0" size="768,86" advanced="true">
+      <gearDisplay controller="btnsCtl" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="btns1">
+    <item time="0" type="XY" target="n113_imd3" tween="true" startValue="32,88" endValue="32,0" duration="6" ease="Expo.Out"/>
+  </transition>
+  <transition name="btns2">
+    <item time="0" type="XY" target="n117_ibr1" tween="true" startValue="32,88" endValue="32,0" duration="6" ease="Expo.Out"/>
+  </transition>
+</component>

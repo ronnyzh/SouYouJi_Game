@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1263,76">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n20_g9sy" name="n20" src="g9syj6" fileName="战绩/列表底.png" xy="0,0" size="1258,64" visible="false"/>
+    <text id="n27_g9sy" name="id" xy="74,31" pivot="0.5,0.5" anchor="true" size="64,45" fontSize="35" color="#533f74" align="center" autoSize="none" singleLine="true" text="999"/>
+    <text id="n28_g9sy" name="play_name" xy="567,31" pivot="0.5,0.5" anchor="true" size="130,45" fontSize="35" color="#533f74" align="center" autoSize="none" bold="true" singleLine="true" text="高级场"/>
+    <text id="n29_g9sy" name="create_time" xy="1069,31" pivot="0.5,0.5" anchor="true" size="296,45" fontSize="35" color="#533f74" align="center" autoSize="none" singleLine="true" text="18/06/04 14:55:66"/>
+    <text id="n30_g9sy" name="balance" xy="769,31" pivot="0.5,0.5" anchor="true" size="238,45" fontSize="35" color="#0062e7" align="center" autoSize="none" singleLine="true" text="+555">
+      <gearColor controller="c1" pages="1" values="#ec3232,#000000" default="#0062e7,#000000"/>
+    </text>
+    <text id="n31_g9sy" name="game_number" xy="304,32" pivot="0.5,0.5" anchor="true" size="385,33" fontSize="25" color="#d0551f" align="center" autoSize="none" singleLine="true" text="447-458956585658-565565-1"/>
+  </displayList>
+</component>

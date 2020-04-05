@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" designImage="ui://1sm91w5opu4x13" designImageAlpha="0" adaptationTest="FitSize">
+  <displayList>
+    <image id="n163_pjh8" name="n163" src="pjh85f" fileName="Image/出图/桌子.png" xy="98,108" locked="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n164_pjh8" name="n164" src="pu4x1u" fileName="Image/出图/荷官.png" xy="576,38" locked="true">
+      <relation target="n163_pjh8" sidePair="center-center,top-top"/>
+    </image>
+    <graph id="n179_v4n9" name="chipPoi" xy="658,154" size="0,0" locked="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n161_s3x0" name="showCardType" src="s3x05b" fileName="Component/showCardType.xml" xy="667,191" locked="true" hideByEditor="true" controller="ctl,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_cjdq" name="seat8" src="cjdq46" fileName="Component/Seat.xml" xy="970,463" group="n13_cjdq" controller="banker,0,state,0,win,0,bid,1,showHandCard,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_cjdq" name="seat7" src="cjdq46" fileName="Component/Seat.xml" xy="1198,350" group="n13_cjdq" controller="banker,0,state,0,win,1,bid,1,showHandCard,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n11_cjdq" name="seat6" src="cjdq46" fileName="Component/Seat.xml" xy="1130,135" group="n13_cjdq" controller="banker,0,state,0,win,0,bid,1,showHandCard,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n12_cjdq" name="seat5" src="cjdq46" fileName="Component/Seat.xml" xy="959,57" group="n13_cjdq" controller="banker,0,state,0,win,0,bid,1,showHandCard,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_cjdq" name="seat4" src="cjdq46" fileName="Component/Seat.xml" xy="259,57" group="n13_cjdq" controller="banker,0,state,0,win,0,bid,1,showHandCard,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_cjdq" name="seat3" src="cjdq46" fileName="Component/Seat.xml" xy="82,135" group="n13_cjdq" controller="banker,0,state,0,win,0,bid,1,showHandCard,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_cjdq" name="seat2" src="cjdq46" fileName="Component/Seat.xml" xy="23,350" group="n13_cjdq" controller="banker,0,state,7,win,0,bid,1,showHandCard,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_cjdq" name="seat1" src="cjdq46" fileName="Component/Seat.xml" xy="247,464" group="n13_cjdq" controller="banker,0,state,1,win,0,bid,1,showHandCard,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_cjdq" name="seat0" src="cjdq46" fileName="Component/Seat.xml" xy="594,464" group="n13_cjdq" controller="banker,1,state,0,win,0,bid,0,showHandCard,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n13_cjdq" name="seat" xy="23,57" size="1289,582" locked="true" collapsed="true"/>
+    <component id="n59_imd3" name="seatText0" src="cjdq4a" fileName="Component/SeatText.xml" xy="594,464" group="n68_imd3" controller="bid,0">
+      <relation target="n7_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n60_imd3" name="seatText8" src="cjdq4a" fileName="Component/SeatText.xml" xy="970,463" group="n68_imd3" controller="bid,1">
+      <relation target="n8_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n61_imd3" name="seatText7" src="cjdq4a" fileName="Component/SeatText.xml" xy="1198,350" group="n68_imd3" controller="bid,1">
+      <relation target="n10_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n62_imd3" name="seatText6" src="cjdq4a" fileName="Component/SeatText.xml" xy="1130,135" group="n68_imd3" controller="bid,1">
+      <relation target="n11_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n63_imd3" name="seatText5" src="cjdq4a" fileName="Component/SeatText.xml" xy="959,57" group="n68_imd3" controller="bid,1">
+      <relation target="n12_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n64_imd3" name="seatText4" src="cjdq4a" fileName="Component/SeatText.xml" xy="259,57" group="n68_imd3" controller="bid,1">
+      <relation target="n3_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n65_imd3" name="seatText3" src="cjdq4a" fileName="Component/SeatText.xml" xy="82,135" group="n68_imd3" controller="bid,1">
+      <relation target="n4_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n66_imd3" name="seatText2" src="cjdq4a" fileName="Component/SeatText.xml" xy="23,350" group="n68_imd3" controller="bid,1">
+      <relation target="n5_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n67_imd3" name="seatText1" src="cjdq4a" fileName="Component/SeatText.xml" xy="247,464" group="n68_imd3" controller="bid,1">
+      <relation target="n6_cjdq" sidePair="left-left,top-top"/>
+    </component>
+    <group id="n68_imd3" name="seatText" xy="23,57" size="1289,567" locked="true" collapsed="true"/>
+    <component id="n152_wzpf" name="miniHandCard0_0" src="pb694c" fileName="Component/Card.xml" xy="724,460" pivot="0.5,0.5" group="n154_wzpf" aspect="true" scale="0.96,0.96" controller="id,52">
+      <relation target="n7_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n153_wzpf" name="miniHandCard0_1" src="pb694c" fileName="Component/Card.xml" xy="821,460" pivot="0.5,0.5" group="n154_wzpf" aspect="true" scale="0.96,0.96" controller="id,52">
+      <relation target="n7_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n38_pb69" name="pool0" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="580,228" group="n171_v4n9" visible="false" controller="color,5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n170_v4n9" name="pool1" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="722,229" group="n171_v4n9" visible="false" controller="color,6">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n172_v4n9" name="pool2" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="438,227" group="n171_v4n9" visible="false" controller="color,4">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n173_v4n9" name="pool3" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="864,231" group="n171_v4n9" visible="false" controller="color,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n174_v4n9" name="pool4" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="296,228" group="n171_v4n9" visible="false" controller="color,3">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n175_v4n9" name="pool5" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="248,276" group="n171_v4n9" visible="false" controller="color,2">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n176_v4n9" name="pool6" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="914,276" group="n171_v4n9" visible="false" controller="color,7">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n177_v4n9" name="pool7" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="249,326" group="n171_v4n9" visible="false" controller="color,8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n178_v4n9" name="pool8" src="pb694b" fileName="Component/叠筹码文本框.xml" xy="915,326" group="n171_v4n9" visible="false" controller="color,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n182_i5np" name="totalPool" xy="523,210" size="275,27" group="n171_v4n9" fontSize="20" color="#cccccc" align="center" vAlign="middle" vars="true" autoSize="shrink" text="Total bet：{value=0}">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n171_v4n9" name="pools" xy="248,210" size="809,165" hideByEditor="true" collapsed="true"/>
+    <component id="n41_pb69" name="deskCard0" src="pb694c" fileName="Component/Card.xml" xy="386,287" pivot="0.5,0.5" group="n46_pb69" scale="1.2,1.2" controller="id,12">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n42_pb69" name="deskCard1" src="pb694c" fileName="Component/Card.xml" xy="502,287" pivot="0.5,0.5" group="n46_pb69" scale="1.2,1.2" controller="id,11">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n43_pb69" name="deskCard2" src="pb694c" fileName="Component/Card.xml" xy="618,287" pivot="0.5,0.5" group="n46_pb69" scale="1.2,1.2" controller="id,36">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n44_pb69" name="deskCard3" src="pb694c" fileName="Component/Card.xml" xy="734,287" pivot="0.5,0.5" group="n46_pb69" scale="1.2,1.2" controller="id,39">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n45_pb69" name="deskCard4" src="pb694c" fileName="Component/Card.xml" xy="850,287" pivot="0.5,0.5" group="n46_pb69" scale="1.2,1.2" controller="id,48">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n46_pb69" name="deskCard" xy="386,287" size="562,131" locked="true" collapsed="true"/>
+    <group id="n154_wzpf" name="miniHandCard0" xy="724,460" size="195,131" group="n24_cjdq" collapsed="true"/>
+    <component id="n126_e8jp" name="miniHandCard8_0" src="pb694c" fileName="Component/Card.xml" xy="1048,522" pivot="0.5,0.5" group="n128_e8jp" scale="0.45,0.45" rotation="-17" controller="id,52">
+      <relation target="n8_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n127_e8jp" name="miniHandCard8_1" src="pb694c" fileName="Component/Card.xml" xy="1063,524" pivot="0.5,0.5" group="n128_e8jp" scale="0.45,0.45" rotation="10" controller="id,52">
+      <relation target="n8_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n128_e8jp" name="miniHandCard8" xy="1048,522" size="113,133" group="n24_cjdq" collapsed="true"/>
+    <component id="n129_s15z" name="miniHandCard7_0" src="pb694c" fileName="Component/Card.xml" xy="1126,421" pivot="0.5,0.5" group="n131_s15z" scale="0.45,0.45" rotation="-17" controller="id,52">
+      <relation target="n10_cjdq" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n130_s15z" name="miniHandCard7_1" src="pb694c" fileName="Component/Card.xml" xy="1141,423" pivot="0.5,0.5" group="n131_s15z" scale="0.45,0.45" rotation="10" controller="id,52">
+      <relation target="n10_cjdq" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <group id="n131_s15z" name="miniHandCard7" xy="1126,421" size="113,133" group="n24_cjdq" collapsed="true"/>
+    <component id="n132_s15z" name="miniHandCard6_0" src="pb694c" fileName="Component/Card.xml" xy="1055,198" pivot="0.5,0.5" group="n134_s15z" scale="0.45,0.45" rotation="-17" controller="id,52">
+      <relation target="n11_cjdq" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n133_s15z" name="miniHandCard6_1" src="pb694c" fileName="Component/Card.xml" xy="1070,200" pivot="0.5,0.5" group="n134_s15z" scale="0.45,0.45" rotation="10" controller="id,52">
+      <relation target="n11_cjdq" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <group id="n134_s15z" name="miniHandCard6" xy="1055,198" size="113,133" group="n24_cjdq" collapsed="true"/>
+    <component id="n135_s15z" name="miniHandCard5_0" src="pb694c" fileName="Component/Card.xml" xy="887,128" pivot="0.5,0.5" group="n137_s15z" scale="0.45,0.45" rotation="-17" controller="id,52">
+      <relation target="n12_cjdq" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n136_s15z" name="miniHandCard5_1" src="pb694c" fileName="Component/Card.xml" xy="902,130" pivot="0.5,0.5" group="n137_s15z" scale="0.45,0.45" rotation="10" controller="id,52">
+      <relation target="n12_cjdq" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <group id="n137_s15z" name="miniHandCard5" xy="887,128" size="113,133" group="n24_cjdq" collapsed="true"/>
+    <component id="n138_s15z" name="miniHandCard4_0" src="pb694c" fileName="Component/Card.xml" xy="329,121" pivot="0.5,0.5" group="n140_s15z" scale="0.45,0.45" rotation="-17" controller="id,52">
+      <relation target="n3_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n139_s15z" name="miniHandCard4_1" src="pb694c" fileName="Component/Card.xml" xy="344,123" pivot="0.5,0.5" group="n140_s15z" scale="0.45,0.45" rotation="10" controller="id,52">
+      <relation target="n3_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n140_s15z" name="miniHandCard4" xy="329,121" size="113,133" group="n24_cjdq" collapsed="true"/>
+    <component id="n141_s15z" name="miniHandCard3_0" src="pb694c" fileName="Component/Card.xml" xy="158,212" pivot="0.5,0.5" group="n143_s15z" scale="0.45,0.45" rotation="-17" controller="id,52">
+      <relation target="n4_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n142_s15z" name="miniHandCard3_1" src="pb694c" fileName="Component/Card.xml" xy="173,214" pivot="0.5,0.5" group="n143_s15z" scale="0.45,0.45" rotation="10" controller="id,52">
+      <relation target="n4_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n143_s15z" name="miniHandCard3" xy="158,212" size="113,133" group="n24_cjdq"/>
+    <component id="n145_s15z" name="miniHandCard2_0" src="pb694c" fileName="Component/Card.xml" xy="97,425" pivot="0.5,0.5" group="n147_s15z" scale="0.45,0.45" rotation="-17" controller="id,52">
+      <relation target="n5_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n146_s15z" name="miniHandCard2_1" src="pb694c" fileName="Component/Card.xml" xy="112,427" pivot="0.5,0.5" group="n147_s15z" scale="0.45,0.45" rotation="10" controller="id,52">
+      <relation target="n5_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n147_s15z" name="miniHandCard2" xy="97,425" size="113,133" group="n24_cjdq" collapsed="true"/>
+    <component id="n148_s15z" name="miniHandCard1_0" src="pb694c" fileName="Component/Card.xml" xy="330,536" pivot="0.5,0.5" group="n150_s15z" scale="0.45,0.45" rotation="-17" controller="id,52">
+      <relation target="n6_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n149_s15z" name="miniHandCard1_1" src="pb694c" fileName="Component/Card.xml" xy="345,538" pivot="0.5,0.5" group="n150_s15z" scale="0.45,0.45" rotation="10" controller="id,52">
+      <relation target="n6_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n150_s15z" name="miniHandCard1" xy="330,536" size="113,133" group="n24_cjdq" collapsed="true"/>
+    <group id="n24_cjdq" name="miniHandCard" xy="97,121" size="1142,548" locked="true" collapsed="true"/>
+    <component id="n166_kwey" name="selfHandCard" src="kwey5r" fileName="Component/SelfHandCard.xml" xy="696,453" scale="1.2,1.2" controller="showCard,0,result,1,shadow,3">
+      <relation target="n7_cjdq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n47_pb69" name="deskCardMask0" src="pb694d" fileName="Component/CardMask.xml" xy="376,274" group="n52_pb69" scale="1.2,1.2" controller="mask,0">
+      <relation target="n41_pb69" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n48_pb69" name="deskCardMask1" src="pb694d" fileName="Component/CardMask.xml" xy="492,274" group="n52_pb69" scale="1.2,1.2" controller="mask,0">
+      <relation target="n42_pb69" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n49_pb69" name="deskCardMask2" src="pb694d" fileName="Component/CardMask.xml" xy="608,274" group="n52_pb69" scale="1.2,1.2" controller="mask,0">
+      <relation target="n43_pb69" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n50_pb69" name="deskCardMask3" src="pb694d" fileName="Component/CardMask.xml" xy="724,274" group="n52_pb69" scale="1.2,1.2" controller="mask,0">
+      <relation target="n44_pb69" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n51_pb69" name="deskCardMask4" src="pb694d" fileName="Component/CardMask.xml" xy="840,274" group="n52_pb69" scale="1.2,1.2" controller="mask,0">
+      <relation target="n45_pb69" sidePair="left-left,top-top"/>
+    </component>
+    <group id="n52_pb69" name="deskCardMask" xy="376,274" size="562,131" locked="true" collapsed="true"/>
+    <image id="n151_s15z" name="floatBankerTag" src="pu4xz" fileName="Image/出图/庄.png" xy="645,139" locked="true" hideByEditor="true" visible="false"/>
+    <text id="n158_awcw" name="gameInfoText" xy="0,1" size="597,50" locked="true" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" autoSize="none" autoClearText="true" text="牌局编号：00000000000000000000000&#xA;新手场     盲注：0.5/1">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n159_awcw" name="headText" xy="458,406" size="394,28" locked="true" hideByEditor="true" visible="false" fontSize="16" color="#72c78d" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="盲注10/20     扑克牌：2-A     限注（1倍底池）">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n167_kwey" name="winImg" src="kwey5p" fileName="Image/出图/FX_WinnerText.png" xy="667,375" pivot="0.5,0.5" anchor="true" hideByEditor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n160_91xy" name="fillView" src="ibr14t" fileName="Component/bidSlider.xml" xy="0,0" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n105_imd3" name="btns" src="imd34l" fileName="Component/btns.xml" xy="397,654" locked="true" controller="btnsCtl,0,btns1Ctl,2,btns2Selected,0,btns2Ctl,0,isAdd,0">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n162_rsbl" name="btnContinue" src="k5pu15" fileName="btnReady.xml" pkg="qn9mtfu5" xy="540,630" locked="true" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n168_c3vv" name="timeTip" src="gdu57l" fileName="timer.xml" pkg="rjf5583x" xy="587,169" size="159,160" locked="true" hideByEditor="true" visible="false" controller="isShowBG,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n157_awcw" name="aniStartGame" src="wm2e0" fileName="startGame.xml" pkg="rjf5583x" xy="667,375" pivot="0.5,0.5" anchor="true" locked="true" hideByEditor="true" scale="0.7,0.7">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n156_awcw" name="uiExitGame" src="ktw9k6" fileName="游戏内部按钮/UI_GameMenu.xml" pkg="la8oslyo" xy="0,0" size="1334,750" locked="true" hideByEditor="true" controller="AutoCont,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n183_c8cl" name="autoContTimer" src="fedb69" fileName="timer.xml" pkg="qn9mtfu5" xy="734,635" visible="false">
+      <relation target="n162_rsbl" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <transition name="showMiniHandCard0_0">
+    <item time="0" type="Alpha" target="n152_wzpf" tween="true" startValue="0" endValue="0.99" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Scale" target="n152_wzpf" tween="true" startValue="0.45,0.45" endValue="0.96,0.96" duration="6" ease="Expo.Out"/>
+    <item time="0" type="XY" target="n152_wzpf" tween="true" startValue="609,86" endValue="724,460" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard0_1">
+    <item time="0" type="Alpha" target="n153_wzpf" tween="true" startValue="1" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Scale" target="n153_wzpf" tween="true" startValue="0.45,0.45" endValue="0.96,0.96" duration="6" ease="Expo.Out"/>
+    <item time="0" type="XY" target="n153_wzpf" tween="true" startValue="609,86" endValue="821,460" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard8_0">
+    <item time="0" type="Alpha" target="n126_e8jp" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n126_e8jp" tween="true" startValue="0" endValue="-17" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n126_e8jp" tween="true" startValue="609,86" endValue="1048,507" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard8_1">
+    <item time="0" type="Alpha" target="n127_e8jp" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n127_e8jp" tween="true" startValue="0" endValue="10" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n127_e8jp" tween="true" startValue="609,86" endValue="1063,509" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard7_0">
+    <item time="0" type="Alpha" target="n129_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n129_s15z" tween="true" startValue="0" endValue="-17" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n129_s15z" tween="true" startValue="609,86" endValue="1126,406" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard7_1">
+    <item time="0" type="Alpha" target="n130_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n130_s15z" tween="true" startValue="0" endValue="10" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n130_s15z" tween="true" startValue="609,86" endValue="1141,408" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard6_0">
+    <item time="0" type="Alpha" target="n132_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n132_s15z" tween="true" startValue="0" endValue="-17" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n132_s15z" tween="true" startValue="609,86" endValue="1055,183" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard6_1">
+    <item time="0" type="Alpha" target="n133_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n133_s15z" tween="true" startValue="0" endValue="10" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n133_s15z" tween="true" startValue="609,86" endValue="1070,185" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard5_0">
+    <item time="0" type="Alpha" target="n135_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n135_s15z" tween="true" startValue="0" endValue="-17" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n135_s15z" tween="true" startValue="609,86" endValue="887,113" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard5_1">
+    <item time="0" type="Alpha" target="n136_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n136_s15z" tween="true" startValue="0" endValue="10" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n136_s15z" tween="true" startValue="609,86" endValue="902,115" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard4_0">
+    <item time="0" type="Alpha" target="n138_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n138_s15z" tween="true" startValue="0" endValue="-17" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n138_s15z" tween="true" startValue="609,86" endValue="329,106" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard4_1">
+    <item time="0" type="Alpha" target="n139_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n139_s15z" tween="true" startValue="0" endValue="10" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n139_s15z" tween="true" startValue="609,86" endValue="344,108" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard3_0">
+    <item time="0" type="Alpha" target="n141_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n141_s15z" tween="true" startValue="0" endValue="-17" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n141_s15z" tween="true" startValue="609,86" endValue="158,197" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard3_1">
+    <item time="0" type="Alpha" target="n142_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n142_s15z" tween="true" startValue="0" endValue="10" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n142_s15z" tween="true" startValue="609,86" endValue="173,199" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard2_0">
+    <item time="0" type="Alpha" target="n145_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n145_s15z" tween="true" startValue="0" endValue="-17" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n145_s15z" tween="true" startValue="609,86" endValue="97,410" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard2_1">
+    <item time="0" type="Alpha" target="n146_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n146_s15z" tween="true" startValue="0" endValue="10" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n146_s15z" tween="true" startValue="609,86" endValue="112,412" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard1_0">
+    <item time="0" type="Alpha" target="n148_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n148_s15z" tween="true" startValue="0" endValue="-17" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n148_s15z" tween="true" startValue="609,86" endValue="330,521" duration="6"/>
+  </transition>
+  <transition name="showMiniHandCard1_1">
+    <item time="0" type="Alpha" target="n149_s15z" tween="true" startValue="0" endValue="1" duration="6" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n149_s15z" tween="true" startValue="0" endValue="10" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n149_s15z" tween="true" startValue="609,86" endValue="345,523" duration="6"/>
+  </transition>
+  <transition name="hideMiniHandCard8">
+    <item time="0" type="Alpha" target="n126_e8jp" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Alpha" target="n127_e8jp" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n126_e8jp" tween="true" startValue="-17" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Rotation" target="n127_e8jp" tween="true" startValue="10" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Visible" target="n126_e8jp" value="true"/>
+    <item time="0" type="Visible" target="n127_e8jp" value="true"/>
+    <item time="0" type="XY" target="n126_e8jp" tween="true" startValue="1048,507" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="0" type="XY" target="n127_e8jp" tween="true" startValue="1063,509" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="9" type="Visible" target="n126_e8jp" value="false"/>
+    <item time="9" type="Visible" target="n127_e8jp" value="false"/>
+  </transition>
+  <transition name="hideMiniHandCard7">
+    <item time="0" type="Alpha" target="n129_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Alpha" target="n130_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n129_s15z" tween="true" startValue="-17" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Rotation" target="n130_s15z" tween="true" startValue="10" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Visible" target="n129_s15z" value="true"/>
+    <item time="0" type="Visible" target="n130_s15z" value="true"/>
+    <item time="0" type="XY" target="n129_s15z" tween="true" startValue="1126,406" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="0" type="XY" target="n130_s15z" tween="true" startValue="1141,408" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="9" type="Visible" target="n129_s15z" value="false"/>
+    <item time="9" type="Visible" target="n130_s15z" value="false"/>
+  </transition>
+  <transition name="hideMiniHandCard6">
+    <item time="0" type="Alpha" target="n132_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Alpha" target="n133_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n132_s15z" tween="true" startValue="-17" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Rotation" target="n133_s15z" tween="true" startValue="10" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Visible" target="n132_s15z" value="true"/>
+    <item time="0" type="Visible" target="n133_s15z" value="true"/>
+    <item time="0" type="XY" target="n132_s15z" tween="true" startValue="1055,183" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="0" type="XY" target="n133_s15z" tween="true" startValue="1070,185" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="9" type="Visible" target="n132_s15z" value="false"/>
+    <item time="9" type="Visible" target="n133_s15z" value="false"/>
+  </transition>
+  <transition name="hideMiniHandCard5">
+    <item time="0" type="Alpha" target="n135_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Alpha" target="n136_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n135_s15z" tween="true" startValue="-17" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Rotation" target="n136_s15z" tween="true" startValue="10" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Visible" target="n135_s15z" value="true"/>
+    <item time="0" type="Visible" target="n136_s15z" value="true"/>
+    <item time="0" type="XY" target="n135_s15z" tween="true" startValue="887,113" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="0" type="XY" target="n136_s15z" tween="true" startValue="902,115" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="9" type="Visible" target="n135_s15z" value="false"/>
+    <item time="9" type="Visible" target="n136_s15z" value="false"/>
+  </transition>
+  <transition name="hideMiniHandCard4">
+    <item time="0" type="Alpha" target="n138_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Alpha" target="n139_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n138_s15z" tween="true" startValue="-17" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Rotation" target="n139_s15z" tween="true" startValue="10" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Visible" target="n138_s15z" value="true"/>
+    <item time="0" type="Visible" target="n139_s15z" value="true"/>
+    <item time="0" type="XY" target="n138_s15z" tween="true" startValue="329,106" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="0" type="XY" target="n139_s15z" tween="true" startValue="344,108" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="9" type="Visible" target="n138_s15z" value="false"/>
+    <item time="9" type="Visible" target="n139_s15z" value="false"/>
+  </transition>
+  <transition name="hideMiniHandCard3">
+    <item time="0" type="Alpha" target="n141_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Alpha" target="n142_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n141_s15z" tween="true" startValue="-17" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Rotation" target="n142_s15z" tween="true" startValue="10" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Visible" target="n141_s15z" value="true"/>
+    <item time="0" type="Visible" target="n142_s15z" value="true"/>
+    <item time="0" type="XY" target="n141_s15z" tween="true" startValue="158,197" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="0" type="XY" target="n142_s15z" tween="true" startValue="173,199" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="9" type="Visible" target="n141_s15z" value="false"/>
+    <item time="9" type="Visible" target="n142_s15z" value="false"/>
+  </transition>
+  <transition name="hideMiniHandCard2">
+    <item time="0" type="Alpha" target="n145_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Alpha" target="n146_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n145_s15z" tween="true" startValue="-17" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Rotation" target="n146_s15z" tween="true" startValue="10" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Visible" target="n145_s15z" value="true"/>
+    <item time="0" type="Visible" target="n146_s15z" value="true"/>
+    <item time="0" type="XY" target="n145_s15z" tween="true" startValue="97,410" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="0" type="XY" target="n146_s15z" tween="true" startValue="112,412" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="9" type="Visible" target="n145_s15z" value="false"/>
+    <item time="9" type="Visible" target="n146_s15z" value="false"/>
+  </transition>
+  <transition name="hideMiniHandCard1">
+    <item time="0" type="Alpha" target="n148_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Alpha" target="n149_s15z" tween="true" startValue="1" endValue="0" duration="9" ease="Quint.Out"/>
+    <item time="0" type="Rotation" target="n148_s15z" tween="true" startValue="-17" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Rotation" target="n149_s15z" tween="true" startValue="10" endValue="0" duration="9" ease="Circ.Out"/>
+    <item time="0" type="Visible" target="n148_s15z" value="true"/>
+    <item time="0" type="Visible" target="n149_s15z" value="true"/>
+    <item time="0" type="XY" target="n148_s15z" tween="true" startValue="330,521" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="0" type="XY" target="n149_s15z" tween="true" startValue="345,523" endValue="609,86" duration="9" ease="Quint.Out"/>
+    <item time="9" type="Visible" target="n148_s15z" value="false"/>
+    <item time="9" type="Visible" target="n149_s15z" value="false"/>
+  </transition>
+  <transition name="showHandCard0_0">
+    <item time="0" type="Scale" target="n152_wzpf" tween="true" startValue="0.96,0.96" endValue="0,0.96" duration="5" label2="showCard"/>
+    <item time="5" type="Scale" target="n152_wzpf" label="showCard" tween="true" startValue="0,0.96" endValue="0.96,0.96" duration="5"/>
+  </transition>
+  <transition name="showHandCard0_1">
+    <item time="0" type="Scale" target="n153_wzpf" tween="true" startValue="0.96,0.96" endValue="0,0.96" duration="5" label2="showCard"/>
+    <item time="5" type="Scale" target="n153_wzpf" label="showCard" tween="true" startValue="0,0.96" endValue="0.96,0.96" duration="5"/>
+  </transition>
+  <transition name="showHandCard8_0">
+    <item time="0" type="Rotation" target="n126_e8jp" tween="true" startValue="-17" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n126_e8jp" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n126_e8jp" tween="true" startValue="1048,522" endValue="964.44,486.01" duration="4"/>
+    <item time="4" type="Scale" target="n126_e8jp" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n126_e8jp" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard8_1">
+    <item time="0" type="Rotation" target="n127_e8jp" tween="true" startValue="10" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n127_e8jp" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n127_e8jp" tween="true" startValue="1063,524" endValue="993.53,487.35" duration="4"/>
+    <item time="4" type="Scale" target="n127_e8jp" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n127_e8jp" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard7_0">
+    <item time="0" type="Rotation" target="n129_s15z" tween="true" startValue="-17" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n129_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n129_s15z" tween="true" startValue="1126,421" endValue="1192.85,374.38" duration="4"/>
+    <item time="4" type="Scale" target="n129_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n129_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard7_1">
+    <item time="0" type="Rotation" target="n130_s15z" tween="true" startValue="10" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n130_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n130_s15z" tween="true" startValue="1141,423" endValue="1221.27,374.02" duration="4"/>
+    <item time="4" type="Scale" target="n130_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n130_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard6_0">
+    <item time="0" type="Rotation" target="n132_s15z" tween="true" startValue="-17" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n132_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n132_s15z" tween="true" startValue="1055,198" endValue="1126.56,159.76" duration="4"/>
+    <item time="4" type="Scale" target="n132_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n132_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard6_1">
+    <item time="0" type="Rotation" target="n133_s15z" tween="true" startValue="10" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n133_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n133_s15z" tween="true" startValue="1070,200" endValue="1153.59,159.49" duration="4"/>
+    <item time="4" type="Scale" target="n133_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n133_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard5_0">
+    <item time="0" type="Rotation" target="n135_s15z" tween="true" startValue="-17" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n135_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n135_s15z" tween="true" startValue="887,128" endValue="953.76,81.63" duration="4"/>
+    <item time="4" type="Scale" target="n135_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n135_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard5_1">
+    <item time="0" type="Rotation" target="n136_s15z" tween="true" startValue="10" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n136_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n136_s15z" tween="true" startValue="902,130" endValue="982.75,81.06" duration="4"/>
+    <item time="4" type="Scale" target="n136_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n136_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard4_0">
+    <item time="0" type="Rotation" target="n138_s15z" tween="true" startValue="-17" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n138_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n138_s15z" tween="true" startValue="329,121" endValue="253.24,81.84" duration="4"/>
+    <item time="4" type="Scale" target="n138_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n138_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard4_1">
+    <item time="0" type="Rotation" target="n139_s15z" tween="true" startValue="10" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n139_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n139_s15z" tween="true" startValue="344,123" endValue="282.34,81.8" duration="4"/>
+    <item time="4" type="Scale" target="n139_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n139_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard3_0">
+    <item time="0" type="Rotation" target="n141_s15z" tween="true" startValue="-17" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n141_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n141_s15z" tween="true" startValue="158,212" endValue="77.94,158.06" duration="4"/>
+    <item time="4" type="Scale" target="n141_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n141_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard3_1">
+    <item time="0" type="Rotation" target="n142_s15z" tween="true" startValue="10" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n142_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n142_s15z" tween="true" startValue="173,214" endValue="105.27,159.6" duration="4"/>
+    <item time="4" type="Scale" target="n142_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n142_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard2_0">
+    <item time="0" type="Rotation" target="n145_s15z" tween="true" startValue="-17" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n145_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n145_s15z" tween="true" startValue="97,425" endValue="18.14,374.38" duration="4"/>
+    <item time="4" type="Scale" target="n145_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n145_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard2_1">
+    <item time="0" type="Rotation" target="n146_s15z" tween="true" startValue="10" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n146_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n146_s15z" tween="true" startValue="112,427" endValue="46.07,374.54" duration="4"/>
+    <item time="4" type="Scale" target="n146_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n146_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard1_0">
+    <item time="0" type="Rotation" target="n148_s15z" tween="true" startValue="-17" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n148_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n148_s15z" tween="true" startValue="330,536" endValue="241.83,488.71" duration="4"/>
+    <item time="4" type="Scale" target="n148_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n148_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showHandCard1_1">
+    <item time="0" type="Rotation" target="n149_s15z" tween="true" startValue="10" endValue="0" duration="4"/>
+    <item time="0" type="Scale" target="n149_s15z" tween="true" startValue="0.45,0.45" endValue="0.8,0.8" duration="4"/>
+    <item time="0" type="XY" target="n149_s15z" tween="true" startValue="345,538" endValue="270.97,488.83" duration="4"/>
+    <item time="4" type="Scale" target="n149_s15z" tween="true" startValue="0.8,0.8" endValue="0,0.8" duration="5" label2="showCard"/>
+    <item time="9" type="Scale" target="n149_s15z" label="showCard" tween="true" startValue="0,0.8" endValue="0.8,0.8" duration="5"/>
+  </transition>
+  <transition name="showDeskCard0">
+    <item time="0" type="Alpha" target="n41_pb69" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" target="n41_pb69" tween="true" startValue="0.45,0.45" endValue="1.2,1.2" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n41_pb69" tween="true" startValue="609,86" endValue="386,287" duration="6" ease="Circ.Out"/>
+    <item time="6" type="Scale" target="n41_pb69" tween="true" startValue="1.2,1.2" endValue="0,1.2" duration="5" label2="showCard"/>
+    <item time="11" type="Scale" target="n41_pb69" label="showCard" tween="true" startValue="0,1.2" endValue="1.2,1.2" duration="5"/>
+  </transition>
+  <transition name="showDeskCard1">
+    <item time="0" type="Alpha" target="n42_pb69" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" target="n42_pb69" tween="true" startValue="0.45,0.45" endValue="1.2,1.2" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n42_pb69" tween="true" startValue="609,86" endValue="502,287" duration="6" ease="Circ.Out"/>
+    <item time="6" type="Scale" target="n42_pb69" tween="true" startValue="1.2,1.2" endValue="0,1.2" duration="5" label2="showCard"/>
+    <item time="11" type="Scale" target="n42_pb69" label="showCard" tween="true" startValue="0,1.2" endValue="1.2,1.2" duration="5"/>
+  </transition>
+  <transition name="showDeskCard2">
+    <item time="0" type="Alpha" target="n43_pb69" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" target="n43_pb69" tween="true" startValue="0.45,0.45" endValue="1.2,1.2" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n43_pb69" tween="true" startValue="609,86" endValue="618,287" duration="6" ease="Circ.Out"/>
+    <item time="6" type="Scale" target="n43_pb69" tween="true" startValue="1.2,1.2" endValue="0,1.2" duration="5" label2="showCard"/>
+    <item time="11" type="Scale" target="n43_pb69" label="showCard" tween="true" startValue="0,1.2" endValue="1.2,1.2" duration="5"/>
+  </transition>
+  <transition name="showDeskCard3">
+    <item time="0" type="Alpha" target="n44_pb69" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" target="n44_pb69" tween="true" startValue="0.45,0.45" endValue="1.2,1.2" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n44_pb69" tween="true" startValue="609,86" endValue="734,287" duration="6" ease="Circ.Out"/>
+    <item time="6" type="Scale" target="n44_pb69" tween="true" startValue="1.2,1.2" endValue="0,1.2" duration="5" label2="showCard"/>
+    <item time="11" type="Scale" target="n44_pb69" label="showCard" tween="true" startValue="0,1.2" endValue="1.2,1.2" duration="5"/>
+  </transition>
+  <transition name="showDeskCard4">
+    <item time="0" type="Alpha" target="n45_pb69" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" target="n45_pb69" tween="true" startValue="0.45,0.45" endValue="1.2,1.2" duration="6" ease="Circ.Out"/>
+    <item time="0" type="XY" target="n45_pb69" tween="true" startValue="609,86" endValue="850,287" duration="6" ease="Circ.Out"/>
+    <item time="6" type="Scale" target="n45_pb69" tween="true" startValue="1.2,1.2" endValue="0,1.2" duration="5" label2="showCard"/>
+    <item time="11" type="Scale" target="n45_pb69" label="showCard" tween="true" startValue="0,1.2" endValue="1.2,1.2" duration="5"/>
+  </transition>
+  <transition name="changeBanker">
+    <item time="0" type="XY" target="n151_s15z" label="startPos" tween="true" startValue="645,139" endValue="645,139" duration="8" label2="endPos"/>
+  </transition>
+  <transition name="winAni">
+    <item time="0" type="Scale" target="n167_kwey" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Elastic.Out"/>
+  </transition>
+</component>

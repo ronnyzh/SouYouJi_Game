@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="763,52" overflow="hidden" mask="n4_itmi">
+  <displayList>
+    <graph id="n4_itmi" name="n4" xy="0,0" size="763,52" type="rect" lineSize="0" fillColor="#ff999999">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_aks0" name="txt1" xy="2,6" size="307,39" hideByEditor="true" visible="false" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="正在连接服务器..."/>
+    <text id="n5_itmi" name="txt" xy="3,7" size="239,39" fontSize="30" color="#ffffff" singleLine="true" text="正在连接服务器...">
+      <relation target="n4_itmi" sidePair=""/>
+    </text>
+  </displayList>
+</component>

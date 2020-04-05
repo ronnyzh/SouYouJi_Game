@@ -1,0 +1,1 @@
+from fish import fish_app

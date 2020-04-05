@@ -1,0 +1,12 @@
+/*.DS_Store
+*.DS_Store
+/bin/js
+.idea/ 
+/.laya/chrome
+/release
+/web
+/ui_project/.objs
+/ui_project/settings
+/.idea/workspace.xml
+/.laya/publish_window.json
+/ui_project/.objs/workspace.json

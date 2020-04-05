@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,800">
+  <displayList>
+    <component id="n0_osvm" name="win_frame" src="osvmec" xy="10,0" size="700,800"/>
+    <image id="n18_osvm" name="n18" src="osvmeu" xy="238,296"/>
+    <text id="n23_osvm" name="n1" xy="533,162" size="49,94" group="n29_osvm" fontSize="80" color="#690e0e" text="_"/>
+    <text id="n24_osvm" name="n2" xy="217,162" size="49,94" group="n29_osvm" fontSize="80" color="#690e0e" text="_"/>
+    <text id="n25_osvm" name="n3" xy="296,162" size="49,94" group="n29_osvm" fontSize="80" color="#690e0e" text="_"/>
+    <text id="n26_osvm" name="n4" xy="138,162" size="49,94" group="n29_osvm" fontSize="80" color="#690e0e" text="_"/>
+    <text id="n27_osvm" name="n5" xy="375,162" size="49,94" group="n29_osvm" fontSize="80" color="#690e0e" text="_"/>
+    <text id="n28_osvm" name="n6" xy="454,162" size="49,94" group="n29_osvm" fontSize="80" color="#690e0e" text="_"/>
+    <group id="n29_osvm" name="n2" xy="138,162" size="444,94" advanced="true" collapsed="true">
+      <relation target="" sidePair=""/>
+    </group>
+    <text id="n1_osvm" name="id5" xy="533,148" size="49,94" group="n7_osvm" fontSize="80" color="#690e0e" text="0"/>
+    <text id="n2_osvm" name="id1" xy="217,148" size="49,94" group="n7_osvm" fontSize="80" color="#690e0e" text="0"/>
+    <text id="n3_osvm" name="id2" xy="296,148" size="49,94" group="n7_osvm" fontSize="80" color="#690e0e" text="0"/>
+    <text id="n4_osvm" name="id0" xy="138,148" size="49,94" group="n7_osvm" fontSize="80" color="#690e0e" text="0"/>
+    <text id="n5_osvm" name="id3" xy="375,148" size="49,94" group="n7_osvm" fontSize="80" color="#690e0e" text="0"/>
+    <text id="n6_osvm" name="id4" xy="454,148" size="49,94" group="n7_osvm" fontSize="80" color="#690e0e" text="0"/>
+    <group id="n7_osvm" name="numbers" xy="138,148" size="444,94" advanced="true" collapsed="true">
+      <relation target="" sidePair=""/>
+    </group>
+    <component id="n11_osvm" name="input_1" src="osvmed" xy="58,382" size="200,89" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmek"/>
+    </component>
+    <component id="n8_osvm" name="input_2" src="osvmed" xy="260,382" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmel"/>
+    </component>
+    <component id="n9_osvm" name="input_3" src="osvmed" xy="462,382" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmem"/>
+    </component>
+    <component id="n16_osvm" name="input_4" src="osvmed" xy="58,474" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmen"/>
+    </component>
+    <component id="n10_osvm" name="input_5" src="osvmed" xy="260,474" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmeo"/>
+    </component>
+    <component id="n12_osvm" name="input_6" src="osvmed" xy="462,474" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmep"/>
+    </component>
+    <component id="n13_osvm" name="input_7" src="osvmed" xy="58,566" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmeq"/>
+    </component>
+    <component id="n14_osvm" name="input_8" src="osvmed" xy="260,566" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmer"/>
+    </component>
+    <component id="n15_osvm" name="input_9" src="osvmed" xy="462,566" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmes"/>
+    </component>
+    <component id="n21_osvm" name="input_cs" src="osvmed" xy="58,658" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmet"/>
+    </component>
+    <component id="n20_osvm" name="input_0" src="osvmed" xy="260,658" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmej"/>
+    </component>
+    <component id="n19_osvm" name="input_sc" src="osvmed" xy="462,658" size="200,90" group="n17_osvm" aspect="true">
+      <Button icon="ui://la8oslyoosvmev"/>
+    </component>
+    <group id="n17_osvm" name="n17" xy="58,382" size="604,366" collapsed="true"/>
+    <image id="n30_ti75" name="n30" src="osvmdv" xy="246,-4"/>
+  </displayList>
+</component>

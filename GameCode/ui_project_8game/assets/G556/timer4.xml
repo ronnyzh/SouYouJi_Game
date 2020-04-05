@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="159,160">
+  <controller name="state" pages="0,match,1,rob,2,double,3,open" selected="3"/>
+  <displayList>
+    <image id="n75_nuw9" name="n75" src="wm2e2l" fileName="GBP_Img/Timer/底-倒计时.png" pkg="rjf5583x" xy="-124,53"/>
+    <loader id="n74_g9t7" name="n74" xy="-15,62" size="240,36" url="ui://rjf5583xwm2e2j">
+      <gearXY controller="state" pages="0,3" values="-71,62|-15,62" default="-39,62"/>
+      <gearIcon controller="state" pages="0,1,2,3" values="ui://8a4txovsg8ld5t|ui://rjf5583xwm2e2o|ui://8a4txovsg8ld5s|ui://rjf5583xwm2e2j"/>
+    </loader>
+    <text id="n72_s4ce" name="title" xy="131,80" pivot="0.5,0.5" anchor="true" size="52,36" font="ui://rjf5583xwm2e27" fontSize="34" align="center" vAlign="middle" bold="true" singleLine="true" text="00">
+      <gearXY controller="state" pages="0" values="172,80" default="131,80"/>
+    </text>
+  </displayList>
+</component>

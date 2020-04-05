@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,160">
+  <controller name="bid" exported="true" pages="0,true,1,false" selected="0"/>
+  <displayList>
+    <text id="n8_cjdq" name="chipText" xy="11,-45" size="103,61" fontSize="22" color="#c4fbd9" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="666666">
+      <gearDisplay controller="bid" pages="0"/>
+    </text>
+    <text id="n9_cjdq" name="nameText" xy="10,119" size="93,28" fontSize="20" color="#cccccc" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="涨不涨..."/>
+    <text id="n10_cjdq" name="scoreText" xy="0,143" size="114,32" fontSize="25" color="#ffca7f" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="9999999"/>
+    <text id="n12_pjh8" name="allCallNumberText" xy="12,-72" size="103,61" fontSize="22" color="#ff0000" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="666666"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,66" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n3_phk5" name="bg" xy="0,0" size="130,66" url="ui://nwo0j1cxphk5cx" fill="scaleFree">
+      <gearIcon controller="c1" pages="1,3,4,5" values="ui://nwo0j1cxphk5cy|ui://nwo0j1cxphk5cw|ui://nwo0j1cxphk5cv|ui://nwo0j1cxphk5cz" default="ui://nwo0j1cxphk5cx"/>
+    </loader>
+    <text id="n2_phk5" name="title" xy="64,35" pivot="0.5,0.5" anchor="true" size="60,36" fontSize="28" text="断线"/>
+  </displayList>
+  <Button sound="ui://nwo0j1cxrljf9n" downEffect="scale" downEffectValue="0.95"/>
+</component>

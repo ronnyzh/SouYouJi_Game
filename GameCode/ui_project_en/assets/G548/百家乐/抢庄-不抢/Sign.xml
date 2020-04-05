@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,56">
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5," selected="3"/>
+  <displayList>
+    <loader id="n0_pqc4" name="n0" xy="0,0" size="126,56" touchable="false" fill="scaleFree">
+      <gearDisplay controller="c1" pages="1,2,3,4,5"/>
+      <gearIcon controller="c1" pages="1,2,3,4,5" values="ui://rjf5583xwm2e12|ui://rjf5583xwm2ex|||" default="ui://wtkqufwmminy96"/>
+    </loader>
+  </displayList>
+</component>

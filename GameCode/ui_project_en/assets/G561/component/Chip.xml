@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,125">
+  <controller name="c1" pages="0,type1,1,type2,2,type3,3,type4,4,type5,5,type6" selected="5"/>
+  <controller name="status" pages="0,normal,1,disabled" selected="0"/>
+  <displayList>
+    <image id="n8_h56m" name="n5" src="qol173" fileName="GBP_Img/Chip/chip_04.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true" group="n7_q8w2" hideByEditor="true" visible="false">
+      <gearDisplay controller="c1" pages=""/>
+    </image>
+    <image id="n3_zbq1" name="n0" src="qol170" fileName="GBP_Img/Chip/chip_01.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true" group="n7_q8w2">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n5_zbq1" name="n1" src="qol172" fileName="GBP_Img/Chip/chip_03.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true" group="n7_q8w2">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n2_zbq1" name="n2" src="qol171" fileName="GBP_Img/Chip/chip_02.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true" group="n7_q8w2">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n1_zbq1" name="n3" src="qol174" fileName="GBP_Img/Chip/chip_05.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true" group="n7_q8w2">
+      <gearDisplay controller="c1" pages="4,5"/>
+    </image>
+    <image id="n0_zbq1" name="n4" src="qol173" fileName="GBP_Img/Chip/chip_04.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true" group="n7_q8w2">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <group id="n7_q8w2" name="n7" xy="59,62" size="119,125"/>
+    <image id="n4_zbq1" name="disabled" src="qol16z" fileName="GBP_Img/Chip/chip_00.png" pkg="rjf5583x" xy="59,62" pivot="0.5,0.5" anchor="true" scale="1.02,1.02">
+      <gearDisplay controller="status" pages="1"/>
+      <gearLook controller="c1" pages="4,5" values="1,0,0,1|1,0,0,1" default="1,0,0,1"/>
+    </image>
+    <text id="n6_zbq1" name="title" xy="60,56" pivot="0.5,0.5" anchor="true" size="118,125" font="ui://rjf5583xqol17h" fontSize="25" color="#a85400" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="2">
+      <gearSize controller="c1" pages="5" values="118,125,1,1" default="118,125,1,1"/>
+      <gearLook controller="status" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearColor controller="c1" pages="5" values="#a85400,#000000" default="#000000,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

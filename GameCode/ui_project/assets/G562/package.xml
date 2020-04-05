@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="newlnjld" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="r4d50" name="room_numbers3.png" path="/common/hud_ingame/" exported="true" scale="9grid" scale9grid="47,15,94,30"/>
+    <image id="r4d51" name="touxiangk.png" path="/common/lobby/" exported="true" scale="9grid" scale9grid="17,16,34,32"/>
+    <image id="r4d5n" name="10A.png" path="/style0/"/>
+    <image id="r4d5o" name="back.png" path="/style0/"/>
+    <image id="r4d5t" name="btn_buqiang.png" path="/textures/btns/"/>
+    <image id="r4d51s" name="timerBG2.png" path="/textures/table/"/>
+    <image id="r4d51t" name="mark_OK.png" path="/textures/table/"/>
+    <image id="r4d51u" name="y-beijing.png" path="/textures/table/"/>
+    <image id="r4d51v" name="youxikaishi.png" path="/textures/table/"/>
+    <component id="r4d51x" name="GameScene.xml" path="/" exported="true"/>
+    <component id="r4d51y" name="Seat.xml" path="/"/>
+    <component id="r4d51z" name="ScaleButton.xml" path="/" exported="true"/>
+    <component id="r4d521" name="Poker.xml" path="/"/>
+    <component id="r4d526" name="timer.xml" path="/"/>
+    <component id="evmk28" name="handcard.xml" path="/"/>
+    <image id="evmk54" name="0-马.png" path="/shisan/"/>
+    <component id="evmk55" name="ma.xml" path="/"/>
+    <image id="evmk56" name="总分.png" path="/shisan/"/>
+    <font id="r73m65" name="score_font.fnt" path="/shisan/" exported="true"/>
+    <image id="r73m66" name="shoot_boom_004.png" path="/shisan/qiang/"/>
+    <image id="r73m67" name="shoot_hole.png" path="/shisan/qiang/"/>
+    <image id="r73m68" name="game_start_gun.png" path="/shisan/qiang/"/>
+    <image id="r73m69" name="shoot_boom_001.png" path="/shisan/qiang/"/>
+    <image id="r73m6a" name="shoot_boom_002.png" path="/shisan/qiang/"/>
+    <image id="r73m6b" name="shoot_boom_003.png" path="/shisan/qiang/"/>
+    <component id="r73m6c" name="qiang.xml" path="/"/>
+    <component id="r73m6e" name="choosecard.xml" path="/" exported="true"/>
+    <image id="r73m6f" name="按钮底框.png" path="/shisan/choosecard/"/>
+    <image id="r73m6g" name="凹槽.png" path="/shisan/choosecard/"/>
+    <image id="r73m6h" name="出牌.png" path="/shisan/choosecard/"/>
+    <image id="r73m6i" name="出牌-灰.png" path="/shisan/choosecard/"/>
+    <image id="r73m6j" name="倒计时.png" path="/shisan/choosecard/" scale="tile" scale9grid="10,5,20,15"/>
+    <image id="r73m6k" name="左.png" path="/shisan/choosecard/"/>
+    <image id="r73m6l" name="按钮.png" path="/shisan/choosecard/"/>
+    <image id="r73m6m" name="理牌区底板.png" path="/shisan/choosecard/"/>
+    <image id="r73m6n" name="清空按钮.png" path="/shisan/choosecard/"/>
+    <image id="r73m6o" name="特殊牌形触发.png" path="/shisan/choosecard/"/>
+    <image id="r73m6p" name="头墩.png" path="/shisan/choosecard/"/>
+    <image id="r73m6q" name="尾墩.png" path="/shisan/choosecard/"/>
+    <image id="r73m6r" name="按钮1.1.png" path="/shisan/choosecard/"/>
+    <image id="r73m6s" name="按钮1.png" path="/shisan/choosecard/"/>
+    <image id="r73m6t" name="按钮2.1.png" path="/shisan/choosecard/"/>
+    <image id="r73m6u" name="按钮2.png" path="/shisan/choosecard/"/>
+    <image id="r73m6v" name="按钮3.1.png" path="/shisan/choosecard/"/>
+    <image id="r73m6w" name="按钮3.png" path="/shisan/choosecard/"/>
+    <image id="r73m6x" name="按钮底座.png" path="/shisan/choosecard/"/>
+    <image id="r73m6z" name="点击或拖动扑克牌可进行调整.png" path="/shisan/choosecard/"/>
+    <image id="r73m70" name="理牌按钮.png" path="/shisan/choosecard/"/>
+    <image id="r73m71" name="理牌按钮-禁用.png" path="/shisan/choosecard/"/>
+    <image id="r73m72" name="中墩.png" path="/shisan/choosecard/"/>
+    <component id="r73m73" name="emptyBtn.xml" path="/Btn/"/>
+    <component id="r73m75" name="chooseBtn.xml" path="/Btn/"/>
+    <component id="r73m76" name="leftBtn.xml" path="/Btn/"/>
+    <component id="r73m78" name="card_loader.xml" path="/"/>
+    <component id="r73m79" name="specialBtn.xml" path="/Btn/"/>
+    <component id="r73m7a" name="RichardBtn.xml" path="/Btn/"/>
+    <component id="r73m7b" name="chupaiBtn.xml" path="/Btn/"/>
+    <component id="r73m7c" name="typeBtn.xml" path="/Btn/"/>
+    <component id="r73m7d" name="typeBtn_1.xml" path="/Btn/"/>
+    <component id="r73m7e" name="typeBtn_2.xml" path="/Btn/"/>
+    <image id="r73m7f" name="您赢了.png" path="/shisan/balance/"/>
+    <image id="r73m7g" name="头像大小.png" path="/shisan/balance/"/>
+    <image id="r73m7h" name="头像框.png" path="/shisan/balance/"/>
+    <image id="r73m7i" name="小分数底.png" path="/shisan/balance/"/>
+    <image id="r73m7j" name="庄.png" path="/shisan/balance/"/>
+    <image id="r73m7k" name="背景板.png" path="/shisan/balance/" scale="9grid" scale9grid="15,160,30,320"/>
+    <image id="r73m7l" name="标题栏.png" path="/shisan/balance/" scale="9grid" scale9grid="161,20,329,45" qualityOption="source"/>
+    <image id="r73m7m" name="底条.png" path="/shisan/balance/" scale="9grid" scale9grid="11,21,22,42"/>
+    <image id="r73m7n" name="关闭 选中.png" path="/shisan/balance/"/>
+    <image id="r73m7o" name="关闭.png" path="/shisan/balance/"/>
+    <image id="r73m7p" name="名称底.png" path="/shisan/balance/" scale="9grid" scale9grid="3,5,6,10"/>
+    <image id="r73m7q" name="您输了.png" path="/shisan/balance/"/>
+    <component id="r73m7r" name="balance.xml" path="/" exported="true"/>
+    <component id="r73m7s" name="resultshow.xml" path="/"/>
+    <component id="r73m7t" name="Loader_Avatar.xml" path="/"/>
+    <image id="10nhc7v" name="理牌底.png" path="/shisan/"/>
+    <component id="r9q3c7w" name="tou.xml" path="/"/>
+    <component id="r9q3c7x" name="zhong.xml" path="/"/>
+    <component id="r9q3c7z" name="lipaitxt.xml" path="/"/>
+    <component id="zfbfc80" name="txt.xml" path="/Btn/"/>
+    <image id="czo8c81" name="倒水.png" path="/shisan/"/>
+    <component id="pvfac82" name="close.xml" path="/Btn/"/>
+    <component id="jl8jc83" name="typetext.xml" path="/"/>
+    <image id="jl8jc84" name="btn_continue.png" path="/textures/btns/"/>
+    <component id="jbewc85" name="BtnPoker.xml" path="/"/>
+    <image id="lcgoc86" name="总分-..png" path="/shisan/"/>
+    <image id="drirc87" name="开始比牌.png" path="/shisan/"/>
+    <image id="drirc88" name="开始比牌花纹.png" path="/shisan/"/>
+    <image id="drirc89" name="OK手势_03.png" path="/shisan/"/>
+    <image id="12iusc8a" name="方-退出 .png" path="/shisan/" exported="true"/>
+    <component id="cew1sc8f" name="fapai.xml" path="/"/>
+    <image id="ajl4sc8g" name="tb_gold.png" path="/" exported="true"/>
+    <component id="vli0sc8h" name="dong.xml" path="/" exported="true"/>
+    <component id="lvffsc8j" name="wei.xml" path="/"/>
+    <image id="lvffsc8l" name="确定.png" path="/shisan/choosecard/"/>
+    <image id="lvffsc8m" name="温馨提示.png" path="/shisan/choosecard/"/>
+    <image id="lvffsc8n" name="底色.png" path="/shisan/choosecard/" scale="9grid" scale9grid="334,5,668,10"/>
+    <image id="lvffsc8o" name="取消.png" path="/shisan/choosecard/"/>
+    <component id="lvffsc8q" name="yes.xml" path="/Btn/"/>
+    <component id="lvffsc8r" name="no.xml" path="/Btn/"/>
+    <component id="lvffsc8s" name="tip.xml" path="/Btn/"/>
+    <image id="lvffsc8t" name="全垒打.png" path="/shisan/全垒打/"/>
+    <image id="lvffsc8u" name="全垒打发光-弱.png" path="/shisan/全垒打/"/>
+    <image id="lvffsc8v" name="全垒打发光-强.png" path="/shisan/全垒打/"/>
+    <component id="lvffsc8w" name="qld.xml" path="/"/>
+    <component id="rh5fsc90" name="Pln_count_down.xml" path="/"/>
+    <image id="rh5fsc91" name="timerBG.png" path="/Image/"/>
+    <component id="r7lnsc92" name="LeftCard.xml" path="/"/>
+    <image id="r7lnscax" name="1-乌龙.png" path="/shisan/"/>
+    <image id="r7lnscb1" name="..png" path="/shisan/"/>
+    <image id="r7lnscb2" name="十三水水印  .png" path="/shisan/"/>
+    <component id="r7lnscb6" name="typeimg.xml" path="/"/>
+    <image id="r7lnscb7" name="1-两对 (2).png" path="/shisan/"/>
+    <image id="r7lnscb8" name="1三条 (2).png" path="/shisan/"/>
+    <image id="r7lnscb9" name="1乌龙 (2).png" path="/shisan/"/>
+    <image id="r7lnscba" name="1同花 (2).png" path="/shisan/"/>
+    <image id="r7lnscbb" name="1对子 (2).png" path="/shisan/"/>
+    <image id="r7lnscbc" name="1葫芦 (2).png" path="/shisan/"/>
+    <image id="r7lnscbd" name="1顺子 (2)..png" path="/shisan/"/>
+    <image id="r7lnscbe" name="2五同 (2).png" path="/shisan/"/>
+    <image id="r7lnscbf" name="2冲三 (2).png" path="/shisan/"/>
+    <image id="r7lnscbg" name="2双鬼冲头.png" path="/shisan/"/>
+    <image id="r7lnscbh" name="2同花顺 (2).png" path="/shisan/"/>
+    <image id="r7lnscbi" name="2铁支 (2).png" path="/shisan/"/>
+    <image id="r7lnscbj" name="3-一条龙.png" path="/shisan/"/>
+    <image id="r7lnscbk" name="3-七同.png" path="/shisan/"/>
+    <image id="r7lnscbl" name="3-三分天下.png" path="/shisan/"/>
+    <image id="r7lnscbm" name="3-三同花.png" path="/shisan/"/>
+    <image id="r7lnscbn" name="3-三顺子.png" path="/shisan/"/>
+    <image id="r7lnscbo" name="3-五对三条.png" path="/shisan/"/>
+    <image id="r7lnscbp" name="3-全大.png" path="/shisan/"/>
+    <image id="r7lnscbq" name="3-全小.png" path="/shisan/"/>
+    <image id="r7lnscbr" name="3-六同.png" path="/shisan/"/>
+    <image id="r7lnscbs" name="3-六对半.png" path="/shisan/"/>
+    <image id="r7lnscbt" name="3-凑一色.png" path="/shisan/"/>
+    <image id="r7lnscbu" name="3-十二皇族.png" path="/shisan/"/>
+    <image id="r7lnscbv" name="3-四套三条.png" path="/shisan/"/>
+    <image id="r7lnscbw" name="3-至尊青龙.png" path="/shisan/"/>
+    <image id="r7lnscbx" name="三同花顺.png" path="/shisan/"/>
+    <image id="r7lnscbz" name="底-倒计时.png" path="/shisan/"/>
+    <image id="r7lnscc0" name="正在匹配：    秒.png" path="/shisan/"/>
+    <font id="r7lnsccd" name="score_fontyellow.fnt" path="/shisan/" exported="true"/>
+    <component id="gq9hsccv" name="specialType.xml" path="/"/>
+    <component id="gq9hsccw" name="null.xml" path="/"/>
+    <component id="gq9hsccx" name="Seattxt.xml" path="/"/>
+    <component id="gq9hsccy" name="Seaticon.xml" path="/"/>
+    <image id="gq9hsccz" name="庄.png" path="/shisan/head/"/>
+    <image id="gq9hscd0" name="头像.png" path="/shisan/head/"/>
+    <image id="gq9hscd1" name="头像框边 .png" path="/shisan/head/"/>
+    <image id="gq9hscd2" name="头像-数字底.png" path="/shisan/head/" scale="9grid" scale9grid="22,6,44,12"/>
+    <image id="gq9hscd3" name="0-水.png" path="/shisan/head/"/>
+    <image id="gq9hscd4" name=".1.png" path="/shisan/数字/"/>
+    <image id="gq9hscd5" name=".2.png" path="/shisan/数字/"/>
+    <image id="gq9hscd6" name=".3.png" path="/shisan/数字/"/>
+    <image id="gq9hscd7" name=".4.png" path="/shisan/数字/"/>
+    <image id="gq9hscd8" name=".5.png" path="/shisan/数字/"/>
+    <image id="gq9hscd9" name=".6.png" path="/shisan/数字/"/>
+    <image id="gq9hscda" name=".7.png" path="/shisan/数字/"/>
+    <image id="gq9hscdb" name=".8.png" path="/shisan/数字/"/>
+    <image id="gq9hscdc" name=".9.png" path="/shisan/数字/"/>
+    <image id="gq9hscdd" name="，.png" path="/shisan/数字/"/>
+    <image id="gq9hscde" name="..png" path="/shisan/数字/"/>
+    <image id="gq9hscdf" name=".0.png" path="/shisan/数字/"/>
+    <image id="gq9hscdg" name="6.png" path="/shisan/数字/"/>
+    <image id="gq9hscdh" name="7.png" path="/shisan/数字/"/>
+    <image id="gq9hscdi" name="8.png" path="/shisan/数字/"/>
+    <image id="gq9hscdj" name="9.png" path="/shisan/数字/"/>
+    <image id="gq9hscdk" name="+.png" path="/shisan/数字/"/>
+    <image id="gq9hscdl" name="-.png" path="/shisan/数字/"/>
+    <image id="gq9hscdm" name="...png" path="/shisan/数字/"/>
+    <image id="gq9hscdn" name="0.png" path="/shisan/数字/"/>
+    <image id="gq9hscdo" name="1.png" path="/shisan/数字/"/>
+    <image id="gq9hscdp" name="2.png" path="/shisan/数字/"/>
+    <image id="gq9hscdq" name="3.png" path="/shisan/数字/"/>
+    <image id="gq9hscdr" name="4.png" path="/shisan/数字/"/>
+    <image id="gq9hscds" name="5.png" path="/shisan/数字/"/>
+    <font id="gq9hscdu" name="score_fontbule.fnt" path="/shisan/" exported="true"/>
+    <component id="c82dscdw" name="gold.xml" path="/" exported="true"/>
+    <component id="c82dscdx" name="handcards.xml" path="/"/>
+    <image id="ild5scdy" name="小结数字-.png" path="/shisan/数字/"/>
+    <image id="ild5scdz" name="小结数字..png" path="/shisan/数字/"/>
+    <image id="ild5sce0" name="小结数字0.png" path="/shisan/数字/"/>
+    <image id="ild5sce1" name="小结数字1.png" path="/shisan/数字/"/>
+    <image id="ild5sce2" name="小结数字2.png" path="/shisan/数字/"/>
+    <image id="ild5sce3" name="小结数字3.png" path="/shisan/数字/"/>
+    <image id="ild5sce4" name="小结数字4.png" path="/shisan/数字/"/>
+    <image id="ild5sce5" name="小结数字5.png" path="/shisan/数字/"/>
+    <image id="ild5sce6" name="小结数字6.png" path="/shisan/数字/"/>
+    <image id="ild5sce7" name="小结数字7.png" path="/shisan/数字/"/>
+    <image id="ild5sce8" name="小结数字8.png" path="/shisan/数字/"/>
+    <image id="ild5sce9" name="小结数字9.png" path="/shisan/数字/"/>
+    <image id="ild5scea" name="小结数字+.png" path="/shisan/数字/"/>
+    <component id="kbsjsceb" name="bipaiimg.xml" path="/"/>
+    <image id="kbsjscec" name="发光-九.png" path="/shisan/" scale="9grid" scale9grid="16,16,12,8"/>
+    <component id="orjcsced" name="Operation.xml" path="/"/>
+    <component id="orjcscee" name="OperationTip.xml" path="/"/>
+    <component id="orjcscef" name="OrangeButton.xml" path="/"/>
+    <component id="orjcsceg" name="TextButton.xml" path="/"/>
+    <component id="orjcsceh" name="TipsNN.xml" path="/"/>
+    <component id="orjcscei" name="TipsQ.xml" path="/"/>
+    <image id="orjcscej" name="head_bg.png" path="/textures/table/"/>
+    <image id="orjcscek" name="tips_1.png" path="/textures/table/"/>
+    <image id="orjcscel" name="tips_2.png" path="/textures/table/"/>
+    <image id="orjcscem" name="tips_3.png" path="/textures/table/"/>
+    <image id="orjcscen" name="tips_buchu.png" path="/textures/table/"/>
+    <image id="orjcsceo" name="tips_bujiabei.png" path="/textures/table/"/>
+    <image id="orjcscep" name="tips_buqiang.png" path="/textures/table/"/>
+    <image id="orjcsceq" name="tips_jiabei.png" path="/textures/table/"/>
+    <image id="orjcscer" name="tips_jiaodizhu.png" path="/textures/table/"/>
+    <image id="orjcsces" name="tips_qiangdizhu.png" path="/textures/table/"/>
+    <image id="orjcscet" name="zhuang.png" path="/textures/table/"/>
+    <image id="orjcsceu" name="btn_bujiabei.png" path="/textures/btns/"/>
+    <image id="orjcscev" name="btn_bujiao.png" path="/textures/btns/"/>
+    <image id="orjcscew" name="btn_jiabie.png" path="/textures/btns/"/>
+    <image id="orjcscex" name="btn_jiaodizhu.png" path="/textures/btns/"/>
+    <image id="orjcscey" name="btn_orange.png" path="/textures/btns/"/>
+    <image id="orjcscez" name="btn_qiangdizhu.png" path="/textures/btns/"/>
+    <image id="orjcscf0" name="btn_qiangzhuang.png" path="/textures/btns/"/>
+    <image id="orjcscf1" name="cheng_buqiang.png" path="/textures/btns/"/>
+    <image id="orjcscf2" name="cheng_qiang.png" path="/textures/btns/"/>
+    <image id="orjcscf3" name="qiangBG0.png" path="/textures/btns/"/>
+    <image id="orjcscf4" name="qiangBG1.png" path="/textures/btns/"/>
+    <image id="orjcscf5" name="qiang_0.png" path="/textures/btns/"/>
+    <image id="orjcscf6" name="qiang_text_1.png" path="/textures/btns/"/>
+    <image id="orjcscf7" name="qiang_text_2.png" path="/textures/btns/"/>
+    <image id="orjcscf8" name="qiang_text_3.png" path="/textures/btns/"/>
+    <image id="orjcscf9" name="qiang_text_4.png" path="/textures/btns/"/>
+    <image id="orjcscfa" name="qiang_text_5.png" path="/textures/btns/"/>
+    <image id="orjcscfb" name="text_bull_have.png" path="/textures/btns/"/>
+    <image id="orjcscfc" name="text_bull_not.png" path="/textures/btns/"/>
+    <image id="orjcscfd" name="text_cuo.png" path="/textures/btns/"/>
+    <image id="orjcscfe" name="text_liang.png" path="/textures/btns/"/>
+    <image id="orjcscff" name="text_qiang.png" path="/textures/btns/"/>
+    <image id="orjcscfg" name="text_tip.png" path="/textures/btns/"/>
+    <image id="orjcscfh" name="xiazhu_1.png" path="/textures/btns/"/>
+    <image id="orjcscfi" name="xiazhu_2.png" path="/textures/btns/"/>
+    <image id="orjcscfj" name="xiazhu_3.png" path="/textures/btns/"/>
+    <image id="orjcscfk" name="xiazhu_4.png" path="/textures/btns/"/>
+    <image id="orjcscfl" name="xiazhu_5.png" path="/textures/btns/"/>
+    <image id="orjcscfm" name="qiangzhuang_0.png" path="/string/"/>
+    <image id="orjcscfn" name="qiangzhuang_1.png" path="/string/"/>
+    <image id="orjcscfo" name="qiangzhuang_2.png" path="/string/"/>
+    <image id="orjcscfp" name="qiangzhuang_3.png" path="/string/"/>
+    <image id="orjcscfq" name="qiangzhuang_4.png" path="/string/"/>
+    <image id="orjcscfr" name="qiangzhuang_Word.png" path="/string/"/>
+    <image id="ctvfscfs" name=".-.png" path="/shisan/数字/"/>
+    <image id="ctvfscft" name=".+.png" path="/shisan/数字/"/>
+    <image id="lrx1scfu" name="结算-橙,.png" path="/shisan/数字/"/>
+    <image id="lrx1scfv" name="结算-蓝,.png" path="/shisan/数字/"/>
+    <component id="gp51scfw" name="startGame.xml" path="/"/>
+  </resources>
+  <publish name="G562"/>
+</packageDescription>

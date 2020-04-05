@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="847,100">
+  <controller name="c1" pages="0,rateLayer,1,RobTheVillage" selected="1"/>
+  <displayList>
+    <component id="n7_h21o" name="btn_Q0" src="gh8g3e" fileName="QiangButton2.xml" xy="2,12" size="255,76" group="n11_h21o" controller="c1,1">
+      <Button icon="ui://rjf5583xrkyq8m"/>
+    </component>
+    <component id="n8_h21o" name="btn_Q1" src="kvb5y" fileName="TextButton.xml" xy="267,12" size="137,75" group="n11_h21o">
+      <Button title="x1" titleFontSize="38" icon="ui://rjf5583xwm2e3i"/>
+    </component>
+    <component id="n22_qb1b" name="btn_Q2" src="kvb5y" fileName="TextButton.xml" xy="414,12" size="137,75" group="n11_h21o">
+      <Button title="x2" titleFontSize="38" icon="ui://rjf5583xwm2e3j"/>
+    </component>
+    <component id="n23_qb1b" name="btn_Q3" src="kvb5y" fileName="TextButton.xml" xy="561,12" size="137,75" group="n11_h21o">
+      <Button title="x3" titleFontSize="38" icon="ui://rjf5583xwm2e3k"/>
+    </component>
+    <component id="n24_qb1b" name="btn_Q4" src="kvb5y" fileName="TextButton.xml" xy="708,13" size="137,75" group="n11_h21o">
+      <Button title="x4" titleFontSize="38" icon="ui://rjf5583xwm2e3l"/>
+    </component>
+    <group id="n11_h21o" name="rateLayer" xy="2,12" size="843,76" advanced="true" layout="hz" colGap="10">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n16_h21o" name="btn_C0" src="kvb5y" fileName="TextButton.xml" xy="61,13" size="137,75" group="n20_h21o">
+      <Button title="x5" titleFontSize="38"/>
+    </component>
+    <component id="n17_h21o" name="btn_C1" src="kvb5y" fileName="TextButton.xml" xy="208,12" size="137,75" group="n20_h21o">
+      <Button title="x10" titleFontSize="38"/>
+    </component>
+    <component id="n18_h21o" name="btn_C2" src="kvb5y" fileName="TextButton.xml" xy="355,12" size="137,75" group="n20_h21o">
+      <Button title="x15" titleFontSize="38"/>
+    </component>
+    <component id="n19_h21o" name="btn_C3" src="kvb5y" fileName="TextButton.xml" xy="502,12" size="137,75" group="n20_h21o">
+      <Button title="x20" titleFontSize="38"/>
+    </component>
+    <component id="n25_qb1b" name="btn_C4" src="kvb5y" fileName="TextButton.xml" xy="649,12" size="137,75" group="n20_h21o">
+      <Button title="x25" titleFontSize="38"/>
+    </component>
+    <group id="n20_h21o" name="RobTheVillage" xy="61,12" size="725,76" advanced="true" layout="hz" colGap="10">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

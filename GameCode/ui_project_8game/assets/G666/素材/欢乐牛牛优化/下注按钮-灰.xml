@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="134,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n2_phk5" name="bg" xy="0,0" size="134,67" touchable="false" url="ui://nwo0j1cxayoee"/>
+    <text id="n3_phk5" name="title" xy="67,35" pivot="0.5,0.5" anchor="true" size="85,45" font="ui://rjf5583xwm2e1v" fontSize="12" text="10倍"/>
+  </displayList>
+  <Button/>
+</component>

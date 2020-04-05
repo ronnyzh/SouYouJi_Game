@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="256,256">
+  <controller name="c_show" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_iuo1" name="guang" xy="0,0" size="256,256" visible="false" touchable="false" url="ui://nwo0j1cxayoe12" autoSize="true">
+      <gearDisplay controller="c_show" pages="1"/>
+    </loader>
+    <loader id="n2_iuo1" name="place" xy="32,190" pivot="0.05,0.8" anchor="true" size="211,211" touchable="false" url="ui://nwo0j1cxayoe11" autoSize="true"/>
+    <loader id="n4_iuo1" name="n4" xy="75,73" size="110,110" touchable="false" url="ui://nwo0j1cxayoex" autoSize="true"/>
+    <loader id="n3_iuo1" name="placeGold" xy="23,53" size="210,150" visible="false" touchable="false" url="ui://nwo0j1cxer488t" autoSize="true"/>
+    <text id="n5_iuo1" name="Gold" xy="114,-15" size="28,36" visible="false" font="ui://rjf5583xwm2e27" fontSize="30" text="0">
+      <relation target="n2_iuo1" sidePair="bottom-top,center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="631,159">
+  <controller name="c_jetton" pages="0,,1,,2,,3,,4," selected="1"/>
+  <displayList>
+    <image id="n100_pr5x" name="btnBar" src="pr5xig" fileName="三人场用图/桌面和背景/底部按钮托盘.png" xy="0,0" size="600,77">
+      <gearDisplay controller="c_jetton" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n12_kexb" name="jetton0" src="gbfn2a" fileName="三人场用图/筹码/btnJetton.xml" xy="95,34" pivot="0.5,0.5" anchor="true" scale="0.8,0.8" controller="c1,0">
+      <gearDisplay controller="c_jetton" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://wtkqufwmjxp2dp" controller="jetton" page="0"/>
+    </component>
+    <component id="n13_kexb" name="jetton1" src="gbfn2a" fileName="三人场用图/筹码/btnJetton.xml" xy="234,34" pivot="0.5,0.5" anchor="true" scale="0.8,0.8" controller="c1,1">
+      <gearDisplay controller="c_jetton" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://wtkqufwmjxp2dq" controller="jetton" page="1"/>
+    </component>
+    <component id="n9_kexb" name="jetton2" src="gbfn2a" fileName="三人场用图/筹码/btnJetton.xml" xy="373,34" pivot="0.5,0.5" anchor="true" scale="0.8,0.8" controller="c1,2">
+      <gearDisplay controller="c_jetton" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://wtkqufwmjxp2dr" controller="jetton" page="2"/>
+    </component>
+    <component id="n11_kexb" name="jetton3" src="gbfn2a" fileName="三人场用图/筹码/btnJetton.xml" xy="512,34" pivot="0.5,0.5" anchor="true" scale="0.8,0.8" controller="c1,3">
+      <gearDisplay controller="c_jetton" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://wtkqufwmjxp2dt" controller="jetton" page="3"/>
+    </component>
+  </displayList>
+</component>

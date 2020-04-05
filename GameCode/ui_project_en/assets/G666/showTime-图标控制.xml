@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,36">
+  <controller name="c_showTime" exported="true" pages="0,,1,,2,,3,,4,,5,,6," selected="3"/>
+  <displayList>
+    <loader id="n0_iuo1" name="n0" xy="97,18" pivot="0.5,0.5" anchor="true" size="303,32" touchable="false" url="ui://nwo0j1cx7m72h0" autoSize="true">
+      <gearDisplay controller="c_showTime" pages="2,3,6"/>
+      <gearXY controller="c_showTime" pages="2,6" values="97,20|105,18" default="97,18"/>
+      <gearIcon controller="c_showTime" pages="1,2,3,4,5,6" values="ui://rjf5583xwm2e2r|ui://nwo0j1cx7m72h1|ui://nwo0j1cx7m72h0|ui://rjf5583xwm2e2n|ui://nwo0j1cxiuo19w|ui://nwo0j1cx7m72h6" default="ui://nwo0j1cxiuo19w"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </loader>
+    <text id="n1_iuo1" name="time" xy="266,17" pivot="0.5,0.5" anchor="true" size="37,35" font="ui://rjf5583xfqpz8n" fontSize="12" align="center" vAlign="middle" text="10">
+      <gearDisplay controller="c_showTime" pages="2,3,6"/>
+      <gearXY controller="c_showTime" pages="2,3,6" values="266,18|266,17|288,20" default="195,17"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

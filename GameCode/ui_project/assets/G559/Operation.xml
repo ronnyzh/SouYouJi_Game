@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,100">
+  <controller name="c1" pages="0,jiabei,7,chupai_tips,9,chupai,8,pass" selected="3"/>
+  <displayList>
+    <component id="n42_tx3y" name="btnNo" src="qj568k" fileName="component/btnOperationItem(1).xml" xy="420,3" group="n11_h21o">
+      <Button icon="ui://p4u5nou3iby922"/>
+    </component>
+    <component id="n41_tx3y" name="btnYes" src="qj568i" fileName="component/btnOperationItem.xml" xy="715,3" group="n11_h21o">
+      <Button icon="ui://p4u5nou3iby921"/>
+    </component>
+    <group id="n11_h21o" name="jiabei" xy="420,3" size="440,93" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n44_tx3y" name="btnReset" src="qj568k" fileName="component/btnOperationItem(1).xml" xy="402,3" group="n47_tx3y">
+      <Button icon="ui://p4u5nou3iby91w"/>
+    </component>
+    <component id="n46_tx3y" name="btnDeal" src="qj568i" fileName="component/btnOperationItem.xml" xy="732,3" group="n47_tx3y">
+      <Button icon="ui://p4u5nou3iby91y"/>
+    </component>
+    <component id="n49_tx3y" name="btnTips" src="qj568k" fileName="component/btnOperationItem(1).xml" xy="567,3" group="n47_tx3y">
+      <Button icon="ui://p4u5nou3iby91r"/>
+    </component>
+    <group id="n47_tx3y" name="chupai_tips" xy="402,3" size="475,93" advanced="true">
+      <gearDisplay controller="c1" pages="7"/>
+    </group>
+    <component id="n50_tx3y" name="btnReset" src="qj568k" fileName="component/btnOperationItem(1).xml" xy="420,4" group="n53_tx3y">
+      <Button icon="ui://p4u5nou3iby91w"/>
+    </component>
+    <component id="n51_tx3y" name="btnDeal" src="qj568i" fileName="component/btnOperationItem.xml" xy="715,2" group="n53_tx3y">
+      <Button icon="ui://p4u5nou3iby91y"/>
+    </component>
+    <group id="n53_tx3y" name="chupai" xy="420,2" size="440,95" advanced="true">
+      <gearDisplay controller="c1" pages="9"/>
+    </group>
+    <component id="n45_tx3y" name="btnPass" src="qj568k" fileName="component/btnOperationItem(1).xml" xy="567,3" group="n48_tx3y">
+      <Button icon="ui://p4u5nou3iby91x"/>
+    </component>
+    <group id="n48_tx3y" name="pass" xy="567,3" size="145,93" advanced="true">
+      <gearDisplay controller="c1" pages="8"/>
+    </group>
+  </displayList>
+</component>

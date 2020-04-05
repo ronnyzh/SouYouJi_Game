@@ -1,0 +1,1 @@
+module G565 {export class G565Scene extends GallScene {}}

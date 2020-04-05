@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,82">
+  <controller name="c_pk" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_o8gl" name="n0" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="0,0"/>
+    <image id="n1_o8gl" name="n1" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="32,0">
+      <gearXY controller="c_pk" pages="1" values="0,0" default="32,0" tween="true"/>
+    </image>
+    <image id="n2_o8gl" name="n2" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="64,0">
+      <gearXY controller="c_pk" pages="1" values="0,0" default="64,0" tween="true"/>
+    </image>
+    <image id="n3_o8gl" name="n3" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="96,0">
+      <gearXY controller="c_pk" pages="1" values="0,0" default="96,0" tween="true"/>
+    </image>
+  </displayList>
+</component>

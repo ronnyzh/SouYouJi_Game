@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="41,98">
+  <controller name="lay" pages="0,hide,1,show" selected="0"/>
+  <controller name="separate" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n25_kteu" name="n25" src="kteu7" fileName="tiles/lwgc_tile_tray_21.png" xy="0,-18" scale="1.2,1.2">
+      <gearDisplay controller="lay" pages="0"/>
+      <gearXY controller="separate" pages="0,1" values="0,-18|0,36"/>
+    </image>
+    <component id="n26_kaou" name="out" src="kteu10" fileName="out3.xml" xy="4,99" rotation="270">
+      <gearDisplay controller="lay" pages="1"/>
+      <gearSize controller="lay" pages="1" values="83,75,0.9,0.9" default="83,75,1,1"/>
+    </component>
+  </displayList>
+</component>

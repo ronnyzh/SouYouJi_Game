@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="943,206" pivot="0.5,0.5">
+  <displayList>
+    <image id="n127_phnm" name="n127" src="phnm7d" fileName="newres/D-对局结束-底.png" xy="0,0"/>
+    <image id="n126_phnm" name="n126" src="phnm7c" fileName="newres/D-对局结束.png" xy="257,49"/>
+    <image id="n125_phnm" name="n125" src="phnm7e" fileName="newres/D-End of game.png" xy="292,156"/>
+  </displayList>
+</component>

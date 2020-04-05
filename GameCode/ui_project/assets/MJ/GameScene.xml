@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" adaptationTest="FitSize">
+  <controller name="state" pages="0,playing,1,start,2,badend,3,end,4,blance,5,change3,6,setColor,7,setColor2" selected="3">
+    <action type="play_transition" fromPage="" toPage="" transition="t0"/>
+  </controller>
+  <controller name="proxy" pages="0,off,1,on" selected="0"/>
+  <displayList>
+    <text id="n114_raqv" name="room_nuber" xy="5,3" size="540,25" font="ui://qn9mtfu5gtil48" fontSize="18" color="#ffffff" autoSize="none" bold="true" autoClearText="true" text="牌局编号：000-0000000000-000000-0">
+      <relation target="" sidePair="top-top,left-left"/>
+    </text>
+    <richtext id="n70_cxow" name="txtTitle" xy="505,169" size="329,94" skew="7,0" visible="false" alpha="0.5" font="汉仪粗黑简" fontSize="80" align="center" vAlign="middle" bold="true" singleLine="true" text="红中麻将">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n71_cxow" name="txtInfo" xy="676,479" pivot="0.5,0.5" anchor="true" size="422,40" hideByEditor="true" visible="false" alpha="0.5" fontSize="28" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" text="--- 底分:--">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n129_rdc5" name="center" src="rdc57i" fileName="newcenter.xml" xy="551,260" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_kteu" name="seat0" src="cxow1l" fileName="Seat2.xml" xy="13,476" size="94,167" group="n16_kteu" aspect="true" visible="false">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <component id="n9_kteu" name="seat1" src="cxow1l" fileName="Seat2.xml" xy="1216,219" size="94,167" group="n16_kteu" aspect="true" visible="false">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n10_kteu" name="seat2" src="cxow1l" fileName="Seat2.xml" xy="1038,5" size="94,167" group="n16_kteu" aspect="true" visible="false">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n11_kteu" name="seat3" src="cxow1l" fileName="Seat2.xml" xy="29,183" size="94,167" group="n16_kteu" aspect="true" visible="false">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <richtext id="n69_cxow" name="txtPay" xy="744,662" size="543,45" group="n16_kteu" visible="false" font="汉仪粗黑简" fontSize="36" color="#ffffff" strokeColor="#669900" strokeSize="2" singleLine="true" text="本场游戏每一局需要扣除 {0} 金币">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </richtext>
+    <image id="n107_r9uj" name="okMark0" src="r9uj2q" fileName="basic/mark_OK.png" xy="158,581" group="n16_kteu" scale="0.5,0.5" visible="false">
+      <relation target="n8_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n108_r9uj" name="okMark1" src="r9uj2q" fileName="basic/mark_OK.png" xy="1193,325" group="n16_kteu" scale="0.5,0.5" visible="false">
+      <relation target="n9_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n109_r9uj" name="okMark2" src="r9uj2q" fileName="basic/mark_OK.png" xy="1023,97" group="n16_kteu" scale="0.5,0.5" visible="false">
+      <relation target="n10_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n110_r9uj" name="okMark3" src="r9uj2q" fileName="basic/mark_OK.png" xy="157,299" group="n16_kteu" scale="0.5,0.5" visible="false">
+      <relation target="n11_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <group id="n16_kteu" name="seats" xy="13,5" size="1297,702" locked="true" collapsed="true"/>
+    <list id="n64_kstv" name="out_meld_2" xy="289,15" size="1012,124" scale="0.7,0.7" layout="row" colGap="13" defaultItem="ui://ejgb8krjkstv1i" align="right" autoClearItems="true">
+      <relation target="n23_kteu" sidePair="middle-middle,center-center"/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n23_kteu" name="hand_tiles_2" xy="294,31" size="960,95" scale="0.7,0.7" layout="row" defaultItem="ui://ejgb8krjkteuh" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n22_kteu" name="hand_tiles_1" xy="1156,53" size="56,731" scale="0.7,0.7" lineGap="-50" defaultItem="ui://ejgb8krjkaou1m" autoClearItems="true">
+      <relation target="" sidePair="right-right,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n63_kstv" name="out_meld_1" xy="1133,645" size="179,115" scale="0.65,0.65" rotation="270" layout="pagination" defaultItem="ui://ejgb8krjkstv1j" renderOrder="descent" autoClearItems="true">
+      <relation target="n22_kteu" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n65_kstv" name="out_meld_3" xy="202,55" size="202,124" scale="0.65,0.65" rotation="90" layout="row" colGap="-7" defaultItem="ui://ejgb8krjkstv1k" align="right" autoClearItems="true">
+      <relation target="n24_kteu" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n24_kteu" name="hand_tiles_3" xy="151,61" size="59,740" scale="0.7,0.7" lineGap="-50" defaultItem="ui://ejgb8krjkteuf" align="right" vAlign="bottom" autoClearItems="true">
+      <relation target="" sidePair="left-left,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n62_kstv" name="out_meld_0" xy="106,625" size="202,124" touchable="false" layout="row" colGap="40" defaultItem="ui://ejgb8krjkstv1i" autoClearItems="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n124_hg3r" name="n124" src="hg3r7b" fileName="newres/剩余牌数.png" xy="7,60" group="n31_kteu"/>
+    <text id="n30_kteu" name="txtLeftTileCount" xy="33,61" size="75,46" group="n31_kteu" font="黑体" fontSize="32" color="#339966" align="center" vAlign="middle" autoSize="none" bold="true" autoClearText="true" text="250"/>
+    <group id="n31_kteu" name="tileLeft" xy="7,60" size="101,47" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n37_kteu" name="ghost" src="kteuy" fileName="out0.xml" xy="1246,33" visible="false">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <list id="n40_kteu" name="out_tiles_0" xy="420,474" pivot="0,1" size="633,91" group="n66_kstv" scale="0.8,0.8" layout="pagination" selectionMode="none" lineGap="-167" lineItemCount="10" lineItemCount2="3" defaultItem="ui://ejgb8krjkteuy" renderOrder="descent" autoClearItems="true">
+      <relation target="n129_rdc5" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n42_kteu" name="out_tiles_1" xy="1047,612" size="522,78" group="n66_kstv" scale="0.8,0.8" rotation="270" layout="pagination" selectionMode="none" lineGap="-157" colGap="-29" lineItemCount="10" lineItemCount2="3" defaultItem="ui://ejgb8krjkteuz" align="center" renderOrder="descent" autoClearItems="true">
+      <relation target="n129_rdc5" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n41_kteu" name="out_tiles_2" xy="879,154" size="41,72" group="n66_kstv" scale="0.8,0.8" layout="pagination" lineGap="-21" colGap="-125" lineItemCount="10" lineItemCount2="3" defaultItem="ui://ejgb8krjkteuy" align="right" autoClearItems="true">
+      <relation target="n129_rdc5" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n44_kteu" name="out_tiles_3" xy="263,220" size="79,79" group="n66_kstv" scale="0.8,0.8" rotation="270" layout="pagination" selectionMode="none" lineGap="7" colGap="-137" lineItemCount="10" lineItemCount2="3" defaultItem="ui://ejgb8krjkteu10" autoClearItems="true">
+      <relation target="n129_rdc5" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n103_nxyf" name="pin_0" src="nxyf2m" fileName="basic/pin.xml" xy="465,480" pivot="0.5,0.5" group="n66_kstv" scale="0.8,0.8" visible="false"/>
+    <group id="n66_kstv" name="OutTiles" xy="263,154" size="1306,536" locked="true"/>
+    <component id="n117_qagw" name="tingpanel" src="qagw69" fileName="tingpanel.xml" xy="667,375" hideByEditor="true" scale="0.8,0.8" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n132_gdu5" name="timer" src="gdu57l" fileName="timer.xml" pkg="rjf5583x" xy="587,199" visible="false" controller="isShowBG,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n119_hg3r" name="n119" src="hg3r6i" fileName="newres/荒庄-列痕.png" xy="546,290" group="n68_kstv">
+      <gearDisplay controller="state" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n120_hg3r" name="gamestart" src="hg3r6m" fileName="gamestart.xml" xy="0,220" group="n68_kstv" hideByEditor="true">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n127_phnm" name="n127" src="phnm7f" fileName="gameend.xml" xy="195,272" group="n68_kstv" hideByEditor="true">
+      <gearDisplay controller="state" pages="3"/>
+      <relation target="" sidePair="leftext-left,rightext-right"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n68_kstv" name="Top" xy="0,220" size="1334,310" locked="true"/>
+    <text id="n113_h6vp" name="tfTips" xy="498,581" size="376,44" visible="false" fontSize="34" color="#ffcc00" autoSize="none" bold="true" text="双击或者拖动即可出牌">
+      <relation target="n40_kteu" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n97_ogay" name="hu_tiles_0" xy="267,622" size="337,62" group="n101_ogay" scale="0.6,0.6" layout="row" selectionMode="none" lineGap="-167" defaultItem="ui://ejgb8krjkteuy" vAlign="bottom" renderOrder="descent" autoClearItems="true">
+      <relation target="n62_kstv" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n98_ogay" name="hu_tiles_1" xy="1151,632" size="522,78" group="n101_ogay" scale="0.6,0.6" rotation="270" layout="row" selectionMode="none" lineGap="-157" colGap="-29" defaultItem="ui://ejgb8krjkteuz" renderOrder="descent" autoClearItems="true">
+      <relation target="n63_kstv" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n99_ogay" name="hu_tiles_2" xy="224,44" size="41,72" group="n101_ogay" scale="0.6,0.6" layout="row" lineGap="-21" defaultItem="ui://ejgb8krjkteuy" align="right" autoClearItems="true">
+      <relation target="n23_kteu" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n100_ogay" name="hu_tiles_3" xy="143,150" size="79,79" group="n101_ogay" scale="0.6,0.6" rotation="270" layout="row" selectionMode="none" lineGap="7" colGap="-137" defaultItem="ui://ejgb8krjkteu10" autoClearItems="true">
+      <relation target="n24_kteu" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n101_ogay" name="huTile" xy="143,44" size="1530,666" locked="true"/>
+    <component id="n51_kstv" name="actions_0" src="kstv1f" fileName="effect/efActions.xml" xy="648,524" group="n56_kstv">
+      <relation target="n40_kteu" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n52_kstv" name="actions_1" src="kstv1f" fileName="effect/efActions.xml" xy="1013,412" group="n56_kstv">
+      <relation target="n42_kteu" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n53_kstv" name="actions_2" src="kstv1f" fileName="effect/efActions.xml" xy="699,213" group="n56_kstv">
+      <relation target="n41_kteu" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n54_kstv" name="actions_3" src="kstv1f" fileName="effect/efActions.xml" xy="346,368" group="n56_kstv">
+      <relation target="n44_kteu" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n56_kstv" name="Actions" xy="346,213" size="920,480" hideByEditor="true"/>
+    <list id="n47_kteu" name="operatorArea" xy="1142,464" size="117,128" visible="false" layout="row" colGap="-279" defaultItem="ui://ejgb8krjkteu11" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+    </list>
+    <component id="n102_ogay" name="operatorAreaChoice" src="ogay2i" fileName="choiceList.xml" xy="214,161" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n72_cxow" name="GM" xy="35,34" size="337,49" locked="true" visible="false" input="true" prompt="输入GM码" fontSize="40" color="#ffffff" autoSize="none" singleLine="true" text=""/>
+    <list id="n21_kteu" name="hand_tiles_0" xy="36,627" size="95,135" hideByEditor="true" scale="0.9,0.9" layout="row" defaultItem="ui://ejgb8krjc3w81s" vAlign="middle" renderOrder="descent" autoClearItems="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n130_vddh" name="n130" src="vddh27m" fileName="basic/麻将遮罩.png" xy="0,558" size="1334,192" group="n80_jlz3">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <component id="n79_jlz3" name="btnProxy" src="kteug" fileName="ScaleButton.xml" xy="556,545" size="222,92" group="n80_jlz3">
+      <relation target="n130_vddh" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krjvddh27l" sound="ui://la8oslyoy3hkhf"/>
+    </component>
+    <group id="n80_jlz3" name="proxyBar" xy="0,545" size="1334,205" advanced="true">
+      <gearDisplay controller="proxy" pages="1"/>
+    </group>
+    <image id="n82_g84d" name="n82" src="r9uj2x" fileName="血流特有/4换牌中.png" xy="259,336" group="n88_g84d">
+      <relation target="n44_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n83_g84d" name="n83" src="r9uj2x" fileName="血流特有/4换牌中.png" xy="1013,351" group="n88_g84d">
+      <relation target="n42_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n84_g84d" name="n84" src="r9uj2x" fileName="血流特有/4换牌中.png" xy="621,153" group="n88_g84d">
+      <relation target="n41_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n81_g84d" name="btnChange3" src="r9uj36" fileName="ScaleButtonFit.xml" xy="594,515" size="222,84" group="n88_g84d">
+      <relation target="n40_kteu" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krjr9uj2w" sound="ui://la8oslyoodd9hg"/>
+    </component>
+    <list id="n90_g84d" name="changeList" xy="551,520" size="214,111" group="n88_g84d" hideByEditor="true" scale="1.2,1.2" touchable="false" layout="row" overflow="scroll" defaultItem="ui://ejgb8krjkteuy" autoClearItems="true">
+      <relation target="n40_kteu" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n88_g84d" name="change3" xy="259,153" size="892,478" advanced="true">
+      <gearDisplay controller="state" pages="5"/>
+    </group>
+    <image id="n85_g84d" name="n85" src="r9uj33" fileName="血流特有/选缺中.png" xy="260,314" group="n89_g84d">
+      <relation target="n44_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n86_g84d" name="n86" src="r9uj33" fileName="血流特有/选缺中.png" xy="974,329" group="n89_g84d">
+      <relation target="n42_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n87_g84d" name="n87" src="r9uj33" fileName="血流特有/选缺中.png" xy="616,158" group="n89_g84d">
+      <relation target="n41_kteu" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n92_pruj" name="color0" src="pruj2h" fileName="colorBtn.xml" xy="421,555" group="n95_pruj">
+      <relation target="n40_kteu" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krjr9uj2t" sound="ui://la8oslyoodd9hg"/>
+    </component>
+    <component id="n93_pruj" name="color2" src="pruj2h" fileName="colorBtn.xml" xy="900,555" group="n95_pruj">
+      <relation target="n40_kteu" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krjr9uj2u" sound="ui://la8oslyoodd9hg"/>
+    </component>
+    <component id="n94_pruj" name="color1" src="pruj2h" fileName="colorBtn.xml" xy="658,555" group="n95_pruj">
+      <relation target="n40_kteu" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krjr9uj2v" sound="ui://la8oslyoodd9hg"/>
+    </component>
+    <group id="n95_pruj" name="n95" xy="421,555" size="579,20" group="n89_g84d" advanced="true">
+      <gearDisplay controller="state" pages="6"/>
+    </group>
+    <group id="n89_g84d" name="noColor" xy="260,158" size="852,417" hideByEditor="true" advanced="true" collapsed="true">
+      <gearDisplay controller="state" pages="6,7"/>
+    </group>
+    <component id="n115_qagw" name="tingbtn" src="qagw68" fileName="tingbtn.xml" xy="120,551" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n131_me6n" name="tingAutoBtn" src="me6n27v" fileName="AutoBtn.xml" xy="216,564" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n106_r9uj" name="btnReady" src="kteug" fileName="ScaleButton.xml" xy="539,487" size="255,126" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://ejgb8krjr9uj2o"/>
+    </component>
+    <component id="n111_g7xt" name="uiExitGame" src="ktw9k6" fileName="游戏内部按钮/UI_GameMenu.xml" pkg="la8oslyo" xy="0,0" size="1334,750" locked="true" controller="AutoCont,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n75_jlz3" name="cBalance" src="8mbq4z" fileName="GameBalance22.xml" xy="0,0" pivot="0.5,0.5" size="1334,750" locked="true" aspect="true">
+      <gearDisplay controller="state" pages="4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n75_jlz3" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n127_phnm" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+  </transition>
+</component>

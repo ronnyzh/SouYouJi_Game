@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="q3bjrkl6" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="jvab0" name="小格35-27-黄.png" path="/" exported="true" scale="tile"/>
+    <image id="921y1" name="小格25-20-黄.png" path="/" exported="true" scale="tile"/>
+  </resources>
+  <publish name="BaccaratGrid"/>
+</packageDescription>

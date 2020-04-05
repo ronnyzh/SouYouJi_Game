@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,130">
+  <displayList>
+    <image id="n10_ti75" name="n10" src="ti75g8" xy="0,0"/>
+    <loader id="n0_osvm" name="icon" xy="21,10" size="105,105" group="n4_osvm" aspect="true" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n1_osvm" name="n1" src="ti75fu" xy="18,7" size="112,112" group="n4_osvm"/>
+    <group id="n4_osvm" name="icon" xy="18,7" size="112,112" collapsed="true"/>
+    <text id="n2_osvm" name="name" xy="152,14" size="119,62" fontSize="24" color="#ffffff" text="Name... &#xA;ID:955507"/>
+    <image id="n8_ti75" name="n8" src="ti75fj" xy="149,73" group="n7_osvm"/>
+    <text id="n6_osvm" name="gems" xy="244,81" pivot="0.5,0.5" size="19,32" group="n7_osvm" fontSize="25" color="#ffffff" align="center" text="8"/>
+    <image id="n11_b3ca" name="n11" src="b3cagl" xy="165,77" group="n7_osvm"/>
+    <group id="n7_osvm" name="gems" xy="149,73" size="165,46"/>
+  </displayList>
+</component>

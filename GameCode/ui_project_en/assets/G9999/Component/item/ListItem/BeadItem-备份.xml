@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="31,31" extention="Label">
+  <controller name="ctl" exported="true" pages="0,无,1,庄,2,闲,3,和" selected="0"/>
+  <displayList>
+    <graph id="n0_kexb" name="icon" xy="2,2" size="27,27" type="eclipse" lineSize="0" fillColor="#ffcc0000">
+      <gearDisplay controller="ctl" pages="1,2,3"/>
+      <gearColor controller="ctl" pages="2,3" values="#4000ff|#006633" default="#cc0000"/>
+    </graph>
+    <text id="n1_kexb" name="title" xy="0,0" size="31,31" fontSize="17" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#ff0000" text="庄">
+      <gearDisplay controller="ctl" pages="1,2,3"/>
+      <gearColor controller="ctl" pages="2,3" values="#ffffff,#4000ff|#ffffff,#006633" default="#ffffff,#ff0000"/>
+      <gearText controller="ctl" pages="2,3" values="闲|和" default="庄"/>
+    </text>
+    <loader id="n2_pqc4" name="n2" xy="15,15" pivot="0.5,0.5" anchor="true" size="31,31">
+      <gearIcon controller="ctl" pages="0,2,3" values="|ui://wtkqufwmpqc45n|ui://wtkqufwmpqc45o" default="ui://wtkqufwmpqc45m"/>
+    </loader>
+  </displayList>
+  <transition name="flicker">
+    <item time="0" type="Alpha" target="n1_kexb" tween="true" startValue="1" endValue="0" duration="3" ease="Expo.Out"/>
+    <item time="0" type="Alpha" target="n0_kexb" label="start" tween="true" startValue="1" endValue="0" duration="3" ease="Expo.Out"/>
+    <item time="0" type="Alpha" target="n2_pqc4" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="3" type="Alpha" target="n2_pqc4" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="3" type="Alpha" target="n0_kexb" tween="true" startValue="0" endValue="1" duration="3" ease="Expo.In"/>
+    <item time="3" type="Alpha" target="n1_kexb" tween="true" startValue="0" endValue="1" duration="3" ease="Expo.In"/>
+    <item time="6" type="Alpha" target="n0_kexb" tween="true" startValue="1" endValue="0" duration="3" ease="Expo.Out"/>
+    <item time="6" type="Alpha" target="n1_kexb" tween="true" startValue="1" endValue="0" duration="3" ease="Expo.Out"/>
+    <item time="6" type="Alpha" target="n2_pqc4" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="9" type="Alpha" target="n2_pqc4" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="9" type="Alpha" target="n0_kexb" tween="true" startValue="0" endValue="1" duration="3" ease="Expo.In"/>
+    <item time="9" type="Alpha" target="n1_kexb" tween="true" startValue="0" endValue="1" duration="3" ease="Expo.In"/>
+  </transition>
+</component>

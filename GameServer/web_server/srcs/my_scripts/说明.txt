@@ -1,0 +1,13 @@
+创建管理后台的超级管理员的账号
+create_adminAccount.py
+
+创建省级代理
+create_ag_winslen.py
+创建市级代理
+create_ag_winslen_00000.py
+
+创建测试ping账号
+create_testAccount.py
+
+批量添加GM账号
+add_gm_testAccount.py

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="833,77">
+  <displayList>
+    <loader id="n0_iuo1" name="bg" xy="0,0" size="833,77" locked="true" touchable="false" url="ui://nwo0j1cxayoed" autoSize="true"/>
+    <component id="n1_iuo1" name="btn_no_strive" src="pls67g" fileName="素材/按钮/不抢庄按钮.xml" xy="200,5"/>
+    <component id="n2_iuo1" name="btn_strive" src="pls67f" fileName="素材/按钮/抢庄按钮.xml" xy="462,3"/>
+  </displayList>
+</component>

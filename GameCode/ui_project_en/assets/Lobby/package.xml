@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ccd2kz2r" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="aks00" name="PageLobby.xml" path="/"/>
+    <component id="aks07" name="BtnSubGame.xml" path="/"/>
+    <component id="osvm13" name="SubGameList.xml" path="/"/>
+    <image id="ti7517" name="ddz.png" path="/platform_lobby/"/>
+    <image id="ti751b" name="jh.png" path="/platform_lobby/"/>
+    <image id="ti751c" name="ks.png" path="/platform_lobby/"/>
+    <image id="ti751e" name="mj.png" path="/platform_lobby/"/>
+    <image id="ti751f" name="nn.png" path="/platform_lobby/"/>
+    <image id="ti751h" name="sss.png" path="/platform_lobby/"/>
+    <image id="ti751n" name="enter.png" path="/platform_lobby/"/>
+    <image id="b3ca1o" name="gold_icon_s3.png" path="/platform_lobby/goldHall/"/>
+    <image id="b3ca1p" name="gold_icon_s4.png" path="/platform_lobby/goldHall/"/>
+    <image id="b3ca1r" name="gold_icon_s2.png" path="/platform_lobby/goldHall/"/>
+    <image id="b3ca1s" name="icon_coin.png" path="/platform_lobby/goldHall/"/>
+    <image id="b3ca1t" name="logo_dsmj.png" path="/platform_lobby/goldHall/"/>
+    <image id="b3ca1u" name="gold_bg.jpg" path="/platform_lobby/goldHall/"/>
+    <image id="b3ca1v" name="gold_item3.png" path="/platform_lobby/goldHall/"/>
+    <component id="b3ca1w" name="SubGameSubList.xml" path="/"/>
+    <image id="b3ca1x" name="bt_startQ.png" path="/platform_lobby/goldHall/"/>
+    <image id="b3ca1y" name="gold_item0.png" path="/platform_lobby/goldHall/"/>
+    <image id="b3ca1z" name="bt_return.png" path="/"/>
+    <image id="b3ca20" name="club_bt_return.png" path="/platform_lobby/goldHall/"/>
+    <image id="wug021" name="gold_icon_t3.png" path="/platform_lobby/goldHall/"/>
+    <image id="wug022" name="gold_icon_t1.png" path="/platform_lobby/goldHall/"/>
+    <image id="wug023" name="gold_icon_t4.png" path="/platform_lobby/goldHall/"/>
+    <image id="wug024" name="gold_icon_s1.png" path="/platform_lobby/goldHall/"/>
+  </resources>
+  <publish name="Lobby">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

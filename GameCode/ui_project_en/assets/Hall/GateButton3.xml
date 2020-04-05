@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="418,275" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5" name="icon" xy="209,131" pivot="0.5,0.5" anchor="true" size="397,233" url="ui://wpa3vk7vl1cy74" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n9_uy9c" name="free" src="uy9c52" fileName="1.12版本新皮美术资源/二级/挂件-免费体验.png" xy="18,10" visible="false"/>
+    <text id="n6_p7lx" name="txtDF" xy="176,121" size="126,35" font="ui://wpa3vk7vuy9c70" fontSize="50" color="#000099" align="center" letterSpacing="-2" autoSize="none" singleLine="true" autoClearText="true" text="000"/>
+    <text id="n7_p7lx" name="txtRF" xy="29,161" size="355,75" font="ui://wpa3vk7vuy9c71" fontSize="50" color="#ffffff" align="center" autoSize="none" singleLine="true" autoClearText="true" text="V 0 R 99999,000"/>
+    <movieclip id="n10_ngy0" name="Ani_flash" src="ngy0t8a" fileName="1.12版本新皮美术资源/二级/flash.jta" xy="10,14" blend="add" frame="13" playing="false"/>
+  </displayList>
+  <Button sound="ui://la8oslyofbf8jx" downEffect="scale" downEffectValue="0.98"/>
+</component>

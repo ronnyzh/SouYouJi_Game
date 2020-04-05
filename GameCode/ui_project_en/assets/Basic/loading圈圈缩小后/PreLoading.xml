@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <loader id="n23_lm45" name="bg" xy="0,0" size="1334,750" url="ui://la8oslyolm45jq" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <graph id="n18_pw7k" name="n18" xy="0,0" size="1334,750" group="n22_pw7k" alpha="0.2" type="rect" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n19_pw7k" name="n19" src="pw7kjn" fileName="loading圈圈缩小后/loading_0.png" xy="594,300" pivot="0.5,0.5" group="n22_pw7k" rotation="-10">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n20_pw7k" name="n20" src="pw7kjo" fileName="loading圈圈缩小后/loading_1.png" xy="603,311" pivot="0.5,0.5" group="n22_pw7k" rotation="10">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n21_pw7k" name="n21" xy="616,360" size="103,32" group="n22_pw7k" font="黑体" fontSize="28" color="#ffffff" align="center" vAlign="middle" text="Loading">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n22_pw7k" name="n22" xy="0,0" size="1334,750" advanced="true" collapsed="true"/>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n19_pw7k" tween="true" startValue="0" endValue="1800" duration="120"/>
+    <item time="0" type="Rotation" target="n20_pw7k" tween="true" startValue="1800" endValue="0" duration="120"/>
+  </transition>
+</component>

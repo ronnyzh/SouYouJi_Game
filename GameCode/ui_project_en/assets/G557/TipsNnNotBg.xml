@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,159" pivot="0.5,0.5" extention="Label">
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14,,15,,16,,17,,18,,19,,20,,21,,22," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <loader id="n3_s4ce" name="icon" xy="0,0" pivot="0.5,0.5" size="174,159" align="center" vAlign="middle" fill="scaleMatchWidth" frame="4" color="#fbfbfb">
+      <gearIcon controller="c1" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22" values="|ui://dosvlhxrs2tl15|ui://dosvlhxrs2tlk|ui://dosvlhxrs2tll|ui://dosvlhxrs2tlm|ui://dosvlhxrs2tln|ui://dosvlhxrs2tlo|ui://dosvlhxrs2tlp|ui://dosvlhxrs2tlq|ui://dosvlhxrs2tlr|ui://dosvlhxrs2tls|ui://dosvlhxrs2tlt|ui://dosvlhxrs2tlu|ui://dosvlhxrs2tlv|ui://dosvlhxrs2tlw|ui://dosvlhxrs2tlx|ui://dosvlhxrs2tly|ui://dosvlhxrs2tlz|ui://dosvlhxrs2tl10|ui://dosvlhxrs2tl11|ui://dosvlhxrs2tl12|ui://dosvlhxrs2tl13|ui://dosvlhxrs2tl14"/>
+    </loader>
+  </displayList>
+</component>

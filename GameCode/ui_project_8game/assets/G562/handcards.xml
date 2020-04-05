@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="740,500" pivot="0.5,0.5" anchor="true">
+  <controller name="card" exported="true" pages="0,,1," selected="0"/>
+  <controller name="state" pages="0,,1,理牌" selected="0"/>
+  <displayList>
+    <component id="n14_c82d" name="Lsitcard_0" src="r4d521" fileName="Poker.xml" xy="-4,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="-4,115|243,47" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,-15,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n15_c82d" name="Lsitcard_1" src="r4d521" fileName="Poker.xml" xy="46,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="46,115|298,29" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,0,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n16_c82d" name="Lsitcard_2" src="r4d521" fileName="Poker.xml" xy="96,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="96,115|353,47" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,15,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n17_c82d" name="Lsitcard_3" src="r4d521" fileName="Poker.xml" xy="146,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="146,115|203,159" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="0,1" values="1,0,0,1|1,-30,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n18_c82d" name="Lsitcard_4" src="r4d521" fileName="Poker.xml" xy="196,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="196,115|248,138" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="0,1" values="1,0,0,1|1,-10,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n19_c82d" name="Lsitcard_5" src="r4d521" fileName="Poker.xml" xy="246,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="246,115|298,126" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,0,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n20_c82d" name="Lsitcard_6" src="r4d521" fileName="Poker.xml" xy="296,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="296,115|350,139" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,10,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n21_c82d" name="Lsitcard_7" src="r4d521" fileName="Poker.xml" xy="346,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="346,115|398,166" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,30,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n22_c82d" name="Lsitcard_8" src="r4d521" fileName="Poker.xml" xy="396,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="396,115|194,277" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,-40,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n23_c82d" name="Lsitcard_9" src="r4d521" fileName="Poker.xml" xy="446,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="446,115|243,249" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,-20,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n24_c82d" name="Lsitcard_10" src="r4d521" fileName="Poker.xml" xy="496,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="496,115|298,238" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n25_c82d" name="Lsitcard_11" src="r4d521" fileName="Poker.xml" xy="546,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="546,115|353,247" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,20,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n26_c82d" name="Lsitcard_12" src="r4d521" fileName="Poker.xml" xy="596,115" pivot="0.5,0.5" size="143,192" group="n27_c82d">
+      <gearXY controller="card" pages="0,1" values="596,115|411,280" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <gearLook controller="card" pages="1" values="1,40,0,1" default="1,0,0,1" tween="true" ease="Cubic.InOut" duration="0.5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n27_c82d" name="lists" xy="194,29" size="360,443"/>
+    <component id="n28_ild5" name="lipai" src="r9q3c7z" fileName="lipaitxt.xml" xy="268,178">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="cardsAni">
+    <item time="0" type="Rotation" target="n20_c82d" tween="true" startValue="0" endValue="10" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n14_c82d" tween="true" startValue="0" endValue="-15" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n17_c82d" tween="true" startValue="0" endValue="-30" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n18_c82d" tween="true" startValue="0" endValue="-10" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n16_c82d" tween="true" startValue="0" endValue="15" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n25_c82d" tween="true" startValue="0" endValue="20" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n23_c82d" tween="true" startValue="0" endValue="-20" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n21_c82d" tween="true" startValue="0" endValue="30" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n26_c82d" tween="true" startValue="0" endValue="40" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="Rotation" target="n22_c82d" tween="true" startValue="0" endValue="-40" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n15_c82d" tween="true" startValue="46,115" endValue="298,29" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n20_c82d" tween="true" startValue="296,115" endValue="350,139" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n21_c82d" tween="true" startValue="346,115" endValue="398,166" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n25_c82d" tween="true" startValue="546,115" endValue="353,247" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n23_c82d" tween="true" startValue="446,115" endValue="243,249" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n26_c82d" tween="true" startValue="596,115" endValue="411,280" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n19_c82d" tween="true" startValue="246,115" endValue="298,126" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n17_c82d" tween="true" startValue="146,115" endValue="203,159" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n24_c82d" tween="true" startValue="496,115" endValue="298,238" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n14_c82d" tween="true" startValue="-4,115" endValue="243,47" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n22_c82d" tween="true" startValue="396,115" endValue="194,277" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n16_c82d" tween="true" startValue="96,115" endValue="353,47" duration="12" ease="Cubic.InOut"/>
+    <item time="0" type="XY" target="n18_c82d" tween="true" startValue="196,115" endValue="248,138" duration="12" ease="Cubic.InOut"/>
+    <item time="12" type="XY" target="n26_c82d" tween="true" startValue="411,280" ease="Cubic.InOut"/>
+    <item time="12" type="XY" target="n18_c82d" tween="true" startValue="248,138" ease="Cubic.InOut"/>
+    <item time="12" type="XY" target="n22_c82d" tween="true" startValue="194,277" ease="Cubic.InOut"/>
+    <item time="12" type="XY" target="n23_c82d" tween="true" startValue="243,249" ease="Cubic.InOut"/>
+  </transition>
+  <transition name="touAni">
+    <item time="0" type="Scale" target="n14_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n15_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n16_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="2" type="Scale" target="n16_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="2" type="Scale" target="n14_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2" label2="showCard"/>
+    <item time="2" type="Scale" target="n15_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="4" type="Scale" target="n16_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n15_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n14_c82d" label="showCard" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="12" type="Scale" target="n15_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="5"/>
+    <item time="12" type="Scale" target="n16_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="5"/>
+    <item time="12" type="Scale" target="n14_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="5"/>
+  </transition>
+  <transition name="zhongAni">
+    <item time="0" type="Scale" target="n20_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n18_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n19_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n21_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n17_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="2" type="Scale" target="n18_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="2" type="Scale" target="n17_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2" label2="showCard"/>
+    <item time="2" type="Scale" target="n19_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="2" type="Scale" target="n20_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="2" type="Scale" target="n21_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="4" type="Scale" target="n19_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n17_c82d" label="showCard" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n18_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n20_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n21_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="12" type="Scale" target="n20_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" target="n19_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" target="n17_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" target="n21_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" target="n18_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+  </transition>
+  <transition name="weiAni">
+    <item time="0" type="Scale" target="n26_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n23_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n22_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n24_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="0" type="Scale" target="n25_c82d" tween="true" startValue="1,1" endValue="1,0.1" duration="2"/>
+    <item time="2" type="Scale" target="n23_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="2" type="Scale" target="n25_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="2" type="Scale" target="n22_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2" label2="showCard"/>
+    <item time="2" type="Scale" target="n26_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="2" type="Scale" target="n24_c82d" tween="true" startValue="1,0.1" endValue="1,0" duration="2"/>
+    <item time="4" type="Scale" target="n22_c82d" label="showCard" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n25_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n23_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n26_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="4" type="Scale" target="n24_c82d" tween="true" startValue="1,0" endValue="1.3,1.3" duration="3"/>
+    <item time="12" type="Scale" target="n26_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" target="n22_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" target="n25_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" target="n24_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" target="n23_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+  </transition>
+  <transition name="special">
+    <item time="0" type="Scale" target="n23_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n15_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n16_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n17_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n18_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n19_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n20_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n21_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n22_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n14_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n24_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n25_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n26_c82d" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="12" type="Scale" target="n17_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n14_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n16_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n15_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n18_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n19_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n20_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n21_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n22_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n23_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n24_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n25_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+    <item time="12" type="Scale" target="n26_c82d" tween="true" startValue="1.3,1.3" endValue="1,1" duration="12"/>
+  </transition>
+  <transition name="fapaiAni">
+    <item time="0" type="XY" target="n25_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n14_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n15_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n17_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n22_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n23_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n18_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n19_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n16_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n24_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n26_c82d" value="296,115"/>
+    <item time="0" type="XY" target="n21_c82d" value="296,115"/>
+    <item time="2" type="XY" target="n17_c82d" tween="true" startValue="296,115" endValue="146,115" duration="9" ease="Linear"/>
+    <item time="2" type="XY" target="n15_c82d" tween="true" startValue="296,115" endValue="46,115" duration="15" ease="Linear"/>
+    <item time="2" type="XY" target="n16_c82d" tween="true" startValue="296,115" endValue="96,115" duration="12" ease="Linear"/>
+    <item time="2" type="XY" target="n14_c82d" tween="true" startValue="296,115" endValue="-4,115" duration="18" ease="Linear"/>
+    <item time="2" type="XY" target="n21_c82d" tween="true" startValue="296,115" endValue="346,115" duration="3" ease="Linear"/>
+    <item time="2" type="XY" target="n19_c82d" tween="true" startValue="296,115" endValue="246,115" duration="3" ease="Linear"/>
+    <item time="2" type="XY" target="n18_c82d" tween="true" startValue="296,115" endValue="196,115" duration="6" ease="Linear"/>
+    <item time="2" type="XY" target="n22_c82d" tween="true" startValue="296,115" endValue="396,115" duration="6" ease="Linear"/>
+    <item time="2" type="XY" target="n23_c82d" tween="true" startValue="296,115" endValue="446,115" duration="9" ease="Linear"/>
+    <item time="2" type="XY" target="n24_c82d" tween="true" startValue="296,115" endValue="496,115" duration="12" ease="Linear"/>
+    <item time="2" type="XY" target="n25_c82d" tween="true" startValue="296,115" endValue="546,115" duration="15" ease="Linear"/>
+    <item time="2" type="XY" target="n26_c82d" tween="true" startValue="296,115" endValue="596,115" duration="18" ease="Linear"/>
+    <item time="17" type="XY" target="n25_c82d" tween="true" startValue="546,115"/>
+  </transition>
+</component>

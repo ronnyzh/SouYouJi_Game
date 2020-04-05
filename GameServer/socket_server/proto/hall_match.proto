@@ -1,0 +1,220 @@
+syntax = "proto2";
+package hallMatch;
+
+enum MSG_HEADER {
+    //系统类A0001
+    header_C_S_Ping = 0x000A0001;
+    //比赛场类A1001
+    header_C_S_match_isAutoPush = 0x000A1001;
+    header_C_S_match_infoList_get = 0x000A1002;
+    header_C_S_match_enroll_get = 0x000A1003;
+    header_C_S_match_enroll_do = 0x000A1004;
+    header_C_S_match_enroll_cancel = 0x000A1005;
+    header_C_S_match_readyJoin_tips_ignore = 0x000A1006;
+
+    //系统类B0001
+    header_S_C_Ping = 0x000B0001;
+    header_S_C_Disconnected = 0x000B0002;
+    //比赛场类B1001
+    header_S_C_match_isAutoPush = 0x000B1001;
+    header_S_C_match_infoList_get = 0x000B1002;
+    header_S_C_match_enroll_get = 0x000B1003;
+    header_S_C_match_enroll_do = 0x000B1004;
+    header_S_C_match_enroll_cancel = 0x000B1005;
+    header_S_C_match_readyJoin_tips_ignore = 0x000B1006;
+    header_S_C_match_readyJoin_tips = 0x000B1007;
+    header_S_C_NoticeMsg = 0x000B1008;
+
+}
+message C_S_Ping {
+}
+message S_C_Ping {
+}
+message S_C_Disconnected {
+    required string reason = 1;
+    optional fixed64 actionType = 2; //1:重新登录,2:重连,3:断开
+    optional fixed64 webSockCode = 3; //websocket协议的code
+}
+
+enum KeyName {
+    //装载赛事信息列表的容器
+    //由gameId,matchId决定里面的数据是全部,还是单个gameId所有赛事,还是单个gameID-matchId一个赛事,不管哪个,都是list装载;
+    matchList = 1;
+    //装载玩家报名信息,简称报名表
+    enrollInfo = 2;
+    //比赛报名信息
+    matchEnrollNum = 3;
+    //比赛开始信息
+    matchJoinInfo = 4;
+    //交易变动
+    changeTrade = 5;
+}
+enum AutoPushActionType {
+    notAuto = 0; //取消自动
+    needAuto = 1; //设置自动
+    onlyGet = 2; //获取当前状态
+}
+enum Currency {
+    none = 0; //未知
+    roomCard = 1; // 钻石
+    yyPoint = 2; // 椰子积分
+    gamePoint = 3; // 游戏积分
+    cyPoint = 4; // 创盈积分
+}
+enum MatchState {
+    State_None = 0; // 无状态(大厅状态)
+    State_Enroll = 1; // 报完名,等待(大厅状态)
+    State_WaitJoinRoom = 2; // 比赛满足,等待玩家进入房间(大厅状态)
+    State_ReadyStart = 3; // 游戏已接管,等待比赛开始(倒计时)(游戏状态)
+    State_Matching = 4; // 比赛进行中(游戏状态)
+    State_Balance = 5; // 比赛结束,结算中(游戏状态)
+
+    State_Ending = 10; // 比赛完美结束
+    State_Dismissing = 11; //  # 比赛正在被解散
+    State_Have_Dismiss = 12; //  # 比赛已解散
+}
+
+//目前主动推送种类
+//1:后台配置修改,如新增,删除,修改比赛相关信息(瞬时推送)
+//2:定时推送:差异更新(暂定5s/次,无差异不推送),全部推送(暂定60s/次)
+//2.1:目前差异只有(已报名人数)
+
+//只可以控制是否自动推送(各赛事已报名人数)
+message C_S_match_isAutoPush {
+    required AutoPushActionType isAuto = 1;
+}
+message S_C_match_isAutoPush {
+    required bool isAuto = 1;
+}
+
+message KEY_enrollInfo {
+    required fixed64 gameId = 1;
+    required fixed64 matchId = 2;
+    required MatchState state = 3 [default = State_None];
+    optional string ip = 4;
+    optional fixed64 port = 5;
+    optional string matchNumber = 6; //比赛编号
+    optional fixed64 fullTime = 7; //比赛满人成立时间戳
+    optional string fullDate = 8; //比赛满人成立时间
+}
+message KEY_matchEnrollNum {
+    required fixed64 gameId = 1;
+    required fixed64 matchId = 2;
+    required fixed64 enrollNum = 3; //当前报名人数
+}
+message KEY_matchJoinInfo {
+    optional bool isAutoJoin = 1; //是否马上自动加入
+    required fixed64 gameId = 2;
+    required fixed64 matchId = 3;
+    required string ip = 4;
+    required fixed64 port = 5;
+}
+message KEY_matchInfo {
+    required fixed64 gameId = 1;
+    required fixed64 matchId = 2;
+    required string gameName = 3;
+    required string title = 4; //标题
+    required string introduce = 5; //简介
+    optional sfixed64 enroll_status = 6 [default = -1]; //当前是否可报名
+    optional sfixed64 display = 7 [default = -1]; //当前是否显示
+    required fixed64 fee = 8; //费用数量(0.则为免费)
+    required Currency feeType = 9; //费用类型(钻石)
+    required fixed64 maxNum = 10; //比赛所需人数
+    optional string rewardList = 11; //奖励
+    optional fixed64 enrollNum = 12; //当前报名人数
+    required Currency matchType = 13; //赛事类型(钻石,积分)
+}
+message KEY_matchList {
+    optional fixed64 gameId = 1;
+    optional fixed64 matchId = 2;
+    repeated KEY_matchInfo matchDatas = 3;
+}
+message KEY_changeTrade {
+    required Currency tradeType = 1;
+    optional sfixed64 changeNumber = 2; //变动数量
+    optional sfixed64 curNumber = 3; //变动后数量
+}
+
+message C_S_match_infoList_get {
+    optional fixed64 gameId = 1;
+    optional fixed64 matchId = 2;
+}
+message S_C_match_infoList_get {
+    message S_C_match_infoList_get_data {
+        optional KEY_matchList matchList = 1;
+        optional KEY_enrollInfo enrollInfo = 2;
+    }
+    optional sfixed64 code = 1 [default = 0];
+    optional string msg = 2 [default = '成功'];
+    optional S_C_match_infoList_get_data data = 3;
+    optional bool isPush = 4; //是否主动推送
+    optional fixed64 gameId = 5;
+    optional fixed64 matchId = 6;
+}
+message C_S_match_enroll_get {
+}
+message S_C_match_enroll_get {
+    message S_C_match_enroll_get_data {
+        optional KEY_enrollInfo enrollInfo = 2;
+        repeated KEY_matchEnrollNum matchEnrollNum = 3;
+        repeated KEY_changeTrade changeTrade = 5;
+    }
+    optional sfixed64 code = 1 [default = 0];
+    optional string msg = 2 [default = '成功'];
+    optional S_C_match_enroll_get_data data = 3;
+    optional bool isPush = 4; //是否主动推送
+}
+message C_S_match_enroll_do {
+    required fixed64 gameId = 1;
+    required fixed64 matchId = 2;
+}
+message S_C_match_enroll_do {
+    optional sfixed64 code = 1 [default = 0];
+    optional string msg = 2 [default = '成功'];
+    optional S_C_match_enroll_get.S_C_match_enroll_get_data data = 3;
+    optional bool isPush = 4; //是否主动推送
+    optional fixed64 gameId = 5;
+    optional fixed64 matchId = 6;
+}
+message C_S_match_enroll_cancel {
+    required fixed64 gameId = 1;
+    required fixed64 matchId = 2;
+}
+message S_C_match_enroll_cancel {
+    optional sfixed64 code = 1 [default = 0];
+    optional string msg = 2 [default = '成功'];
+    //一般失败才会有这个data.enrollInfo
+    //如果enrollInfo有值,matchEnrollNum主体为enrollInfo里的比赛
+    //如果enrollInfo无值,matchEnrollNum主体为当前取消的比赛
+    optional S_C_match_enroll_get.S_C_match_enroll_get_data data = 3;
+    optional bool isPush = 4; //是否主动推送
+    optional fixed64 gameId = 5;
+    optional fixed64 matchId = 6;
+}
+
+message C_S_match_readyJoin_tips_ignore {
+    required fixed64 ignoreSecond = 1; //需要忽略的时长(秒)
+}
+message S_C_match_readyJoin_tips_ignore {
+    optional sfixed64 code = 1 [default = 0];
+    optional string msg = 2 [default = '成功'];
+    optional bool isPush = 4; //是否主动推送
+    required fixed64 ignoreSecond = 5; //需要忽略的时长(秒)
+}
+
+message S_C_match_readyJoin_tips {
+    message S_C_match_readyJoin_data {
+        optional KEY_enrollInfo enrollInfo = 2;
+        optional KEY_matchJoinInfo matchJoinInfo = 4;
+    }
+    optional sfixed64 code = 1 [default = 0];
+    optional string msg = 2 [default = '成功'];
+    optional S_C_match_readyJoin_data data = 3;
+    optional bool isPush = 4 [default = true]; //是否主动推送
+}
+message S_C_NoticeMsg {
+    optional fixed32 msg_type = 1; //消息类型,保留字段
+    optional fixed32 action_type = 2; //保留字段
+    required string msg = 3; // 消息内容
+    optional fixed32 msgId = 4; //消息ID,同一个消息ID则表示为完全相同的信息,不用重复弹窗
+}

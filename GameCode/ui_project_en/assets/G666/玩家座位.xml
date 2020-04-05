@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,127">
+  <displayList>
+    <component id="n0_ixtv" name="seat" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="0,0"/>
+    <image id="n1_ixtv" name="run" src="ayoe20" fileName="素材/满注-弃牌-抢庄/跑马灯头像框.png" xy="-22,-23" scale="1.2,1.2" alpha="0">
+      <relation target="n0_ixtv" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="run">
+    <item time="0" type="Alpha" target="n1_ixtv" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="3" type="Alpha" target="n1_ixtv" tween="true" startValue="1" endValue="0" duration="3"/>
+  </transition>
+  <transition name="leftBet">
+    <item time="0" type="XY" target="n0_ixtv" tween="true" startValue="0,0" endValue="15,0" duration="3"/>
+    <item time="3" type="XY" target="n0_ixtv" tween="true" startValue="15,0" endValue="0,0" duration="3"/>
+    <item time="6" type="XY" target="n0_ixtv" tween="true" startValue="0,0"/>
+  </transition>
+  <transition name="rightBet">
+    <item time="0" type="XY" target="n0_ixtv" tween="true" startValue="0,0" endValue="-15,0" duration="3"/>
+    <item time="3" type="XY" target="n0_ixtv" tween="true" startValue="-15,0" endValue="0,0" duration="3"/>
+  </transition>
+  <transition name="rightUpperBet">
+    <item time="0" type="XY" target="n0_ixtv" tween="true" startValue="0,0" endValue="15,-15" duration="3"/>
+    <item time="3" type="XY" target="n0_ixtv" tween="true" startValue="15,-15" endValue="0,0" duration="3"/>
+    <item time="6" type="XY" target="n0_ixtv" tween="true" startValue="0,0"/>
+  </transition>
+</component>

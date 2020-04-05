@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="98,131" extention="Label">
+  <controller name="mask" exported="true" pages="0,无,1,圣光,2,暗影" selected="0"/>
+  <displayList>
+    <image id="n41_pb69" name="n41" src="pu4xs" fileName="Image/出图/发光-牌大.png" xy="-13,-13" locked="true">
+      <gearDisplay controller="mask" pages="1"/>
+    </image>
+    <image id="n42_pb69" name="n42" src="pu4x10" fileName="Image/出图/弃牌黑遮罩.png" xy="3,3" size="92,125">
+      <gearDisplay controller="mask" pages="2"/>
+    </image>
+  </displayList>
+</component>

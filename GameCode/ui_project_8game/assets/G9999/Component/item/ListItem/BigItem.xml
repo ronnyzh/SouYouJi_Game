@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="15,15">
+  <controller name="ctl" pages="0,无,1,有路,2,没路" selected="2"/>
+  <displayList>
+    <graph id="n0_iqfa" name="icon" xy="0,0" size="15,15" type="eclipse" lineSize="0" fillColor="#ff4000ff">
+      <gearDisplay controller="ctl" pages="1,2"/>
+      <gearColor controller="ctl" pages="2" values="#4000ff" default="#cc0000"/>
+    </graph>
+  </displayList>
+</component>

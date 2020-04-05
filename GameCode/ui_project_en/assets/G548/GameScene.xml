@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="jetton" pages="6,,0,,1,,2,,3," selected="0"/>
+  <controller name="c_bar" pages="0,,1,,2,,3," selected="3"/>
+  <controller name="c_jetton" pages="0,,1,,2,,3," selected="2"/>
+  <controller name="c_seat" pages="0,,1,,2," selected="0"/>
+  <controller name="c_GameType" exported="true" pages="0,,1," selected="1">
+    <action type="change_page" fromPage="" toPage="1" objectId="n81_z5p1" controller="c_type" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n81_z5p1" controller="c_type" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" controller="c_bar" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="0" controller="c_bar" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" objectId="n65_pqc4" controller="c_striveType" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="0" objectId="n65_pqc4" controller="c_striveType" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1" controller="c_jetton" targetPage="2"/>
+    <action type="change_page" fromPage="" toPage="0" controller="c_jetton" targetPage="0"/>
+  </controller>
+  <displayList>
+    <loader id="n1_kexb" name="bg" xy="0,0" size="1334,750" locked="true" aspect="true" url="ui://wtkqufwmn9ivlb" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n104_ns76" name="n104" src="ns76kn" fileName="房间路单/游戏内使用/背框.png" xy="0,614" size="1334,135" locked="true">
+      <gearDisplay controller="c_GameType" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <component id="n16_kexb" name="comChipRect" src="hm6xcp" fileName="百家乐桌面_three.xml" xy="0,0" size="1334,750" locked="true" touchable="false">
+      <gearLook controller="c_seat" pages="0" values="1,0,0,0" default="1,0,0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n100_pr5x" name="btnBar" src="pr5xig" fileName="三人场用图/桌面和背景/底部按钮托盘.png" xy="1029,795" pivot="0.5,0.5" anchor="true" size="610,77" group="n88_z5p1" alpha="0">
+      <gearXY controller="c_jetton" pages="0,1,2,3" values="661,833|661,712|1029,795|1029,711" tween="true"/>
+      <gearLook controller="c_jetton" pages="0,1,2,3" values="0,0,0,1|1,0,0,1|0,0,0,1|1,0,0,1" tween="true"/>
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+    </image>
+    <component id="n12_kexb" name="jetton0" src="gbfn2a" fileName="三人场用图/筹码/btnJetton.xml" xy="823,820" pivot="0.5,0.5" anchor="true" group="n88_z5p1" alpha="0" controller="c1,0">
+      <gearXY controller="c_jetton" pages="0,1,2,3" values="454,820|454,695|823,820|823,695" tween="true"/>
+      <gearLook controller="c_jetton" pages="0,1,2" values="0,0,0,1|1,0,0,1|0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://wtkqufwmjxp2dp" controller="jetton" page="0"/>
+    </component>
+    <component id="n13_kexb" name="jetton1" src="gbfn2a" fileName="三人场用图/筹码/btnJetton.xml" xy="962,820" pivot="0.5,0.5" anchor="true" group="n88_z5p1" alpha="0" controller="c1,1">
+      <gearXY controller="c_jetton" pages="0,1,2,3" values="593,820|593,695|962,820|962,695" tween="true"/>
+      <gearLook controller="c_jetton" pages="0,2" values="0,0,0,1|0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://wtkqufwmjxp2dq" controller="jetton" page="1"/>
+    </component>
+    <component id="n9_kexb" name="jetton2" src="gbfn2a" fileName="三人场用图/筹码/btnJetton.xml" xy="1101,820" pivot="0.5,0.5" anchor="true" group="n88_z5p1" alpha="0" controller="c1,2">
+      <gearXY controller="c_jetton" pages="0,1,2,3" values="732,820|732,695|1101,820|1101,695" tween="true"/>
+      <gearLook controller="c_jetton" pages="0,2" values="0,0,0,1|0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://wtkqufwmjxp2dr" controller="jetton" page="2"/>
+    </component>
+    <component id="n11_kexb" name="jetton3" src="gbfn2a" fileName="三人场用图/筹码/btnJetton.xml" xy="1240,820" pivot="0.5,0.5" anchor="true" group="n88_z5p1" alpha="0" controller="c1,3">
+      <gearXY controller="c_jetton" pages="0,1,2,3" values="871,820|871,695|1240,820|1240,695" tween="true"/>
+      <gearLook controller="c_jetton" pages="0,2" values="0,0,0,1|0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://wtkqufwmjxp2dt" controller="jetton" page="3"/>
+    </component>
+    <group id="n88_z5p1" name="jetton" xy="823,795" size="816,150" locked="true" collapsed="true"/>
+    <component id="n31_h3tv" name="aniStartGame" src="h3tv3v" fileName="Component/item/startGame.xml" xy="-130,185" size="1595,379" locked="true" hideByEditor="true" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n32_llff" name="txtTip" src="wsis7b" fileName="Component/item/停止-开始下注/开始-等待-停止-下注.xml" xy="0,211" locked="true" hideByEditor="true" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label titleColor="#ffffff"/>
+    </component>
+    <component id="n65_pqc4" name="btn_bar" src="pqc45u" fileName="百家乐/抢庄-不抢/按钮条-组件.xml" xy="1029,685" pivot="0.5,0.5" anchor="true" controller="c_striveType,1">
+      <gearXY controller="c_bar" pages="0,2,3" values="660,815|1029,815|1029,685" default="660,712" tween="true"/>
+      <gearLook controller="c_bar" pages="0,2" values="0,0,0,0|0,0,0,0" default="1,0,0,1" tween="true"/>
+      <relation target="n1_kexb" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n29_h3tv" name="btnChangeRoom" src="llff3z" fileName="Component/item/ScaleButton.xml" xy="666,662" pivot="0.5,0.5" anchor="true" size="201,81" locked="true" scale="1.2,1.2" visible="false" alpha="0" touchable="false">
+      <gearXY controller="c_seat" pages="0,1,2" values="666,662|666,662|666,662"/>
+      <gearLook controller="c_GameType" pages="1" values="0,0,0,0" default="1,0,0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rjf5583xwm2e2v"/>
+    </component>
+    <component id="n83_z5p1" name="xianH" src="z5p19t" fileName="百家乐/优化用图/限红组件.xml" xy="267,237" locked="true" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n70_pqc4" name="sign_0" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="668,600" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n2_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n69_pqc4" name="sign_5" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="1224,426" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n3_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n67_pqc4" name="sign_1" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="1248,246" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n4_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n66_pqc4" name="sign_3" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="1161,76" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n5_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n68_pqc4" name="sign_7" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="927,53" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n6_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n95_n4ng" name="sign_8" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="411,54" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n91_n4ng" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n96_n4ng" name="sign_4" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="181,76" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n92_n4ng" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n97_n4ng" name="sign_2" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="88,248" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n93_n4ng" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n98_n4ng" name="sign_6" src="pqc461" fileName="百家乐/抢庄-不抢/Sign.xml" xy="116,427" pivot="0.5,0.5" anchor="true" group="n71_pqc4" scale="0.8,0.8" touchable="false" controller="c1,0">
+      <relation target="n94_n4ng" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n71_pqc4" name="Sign" xy="88,53" size="1286,603" locked="true" collapsed="true"/>
+    <component id="n3_kexb" name="seat5" src="hl39b9" fileName="玩家座位.xml" xy="1224,513" pivot="0.5,0.5" anchor="true" size="100,127" group="n7_kexb" visible="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_kexb" name="seat1" src="hl39b9" fileName="玩家座位.xml" xy="1248,332" pivot="0.5,0.5" anchor="true" size="100,127" group="n7_kexb" visible="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_kexb" name="seat3" src="hl39b9" fileName="玩家座位.xml" xy="1160,161" pivot="0.5,0.5" anchor="true" size="100,127" group="n7_kexb" visible="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_kexb" name="seat7" src="hl39b9" fileName="玩家座位.xml" xy="926,138" pivot="0.5,0.5" anchor="true" size="100,127" group="n7_kexb" visible="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n91_n4ng" name="seat8" src="hl39b9" fileName="玩家座位.xml" xy="409,137" pivot="0.5,0.5" anchor="true" size="100,127" group="n7_kexb" visible="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n92_n4ng" name="seat4" src="hl39b9" fileName="玩家座位.xml" xy="181,160" pivot="0.5,0.5" anchor="true" size="100,127" group="n7_kexb" visible="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n93_n4ng" name="seat2" src="hl39b9" fileName="玩家座位.xml" xy="87,333" pivot="0.5,0.5" anchor="true" size="100,127" group="n7_kexb" visible="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n94_n4ng" name="seat6" src="hl39b9" fileName="玩家座位.xml" xy="114,512" pivot="0.5,0.5" anchor="true" size="100,127" group="n7_kexb" visible="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n99_utim" name="BankerSide" src="hl39b9" fileName="玩家座位.xml" xy="670,120" pivot="0.5,0.5" anchor="true" group="n7_kexb" locked="true" hideByEditor="true" visible="false" touchable="false">
+      <relation target="n16_kexb" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n7_kexb" name="seat" xy="87,120" size="1261,520" collapsed="true"/>
+    <component id="n102_ns76" name="waybillCom" src="ns76ka" fileName="房间路单/路单.xml" xy="0,620" locked="true" touchable="false">
+      <gearDisplay controller="c_GameType" pages="1"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n103_ns76" name="showWait" src="ns76k8" fileName="房间路单/请耐心等待.xml" xy="724,620" locked="true" hideByEditor="true" visible="false" touchable="false">
+      <gearDisplay controller="c_GameType" pages="1"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n2_kexb" name="seat0" src="hl39b9" fileName="玩家座位.xml" xy="667,687" pivot="0.5,0.5" anchor="true" size="100,127">
+      <gearXY controller="c_GameType" pages="1" values="667,687" default="271,676"/>
+      <relation target="n16_kexb" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n81_z5p1" name="btnList" src="z5p19g" fileName="百家乐/新按钮列表组件/UI_GameMenu.xml" xy="0,0" locked="true" controller="c_type,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n17_kexb" name="gameInfo" xy="12,9" size="381,22" locked="true" font="ui://qn9mtfu5gtil48" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#333333" singleLine="true" autoClearText="true" text="牌局编号：548-1542081572-644442-0">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n101_sedz" name="gameInfo_score" xy="12,32" size="145,22" locked="true" font="ui://qn9mtfu5gtil48" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#333333" singleLine="true" autoClearText="true" text="新手场  底分： 1">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+  </displayList>
+</component>

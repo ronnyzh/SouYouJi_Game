@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="25,20">
+  <controller name="c_win" exported="true" pages="0,,1,庄赢,2,闲赢,3,和赢" selected="0"/>
+  <controller name="c_he" exported="true" pages="0,无和,1,有和,2,连续和,3,,4,,5,,6,,7,,8,,9," selected="0"/>
+  <controller name="c_point" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10," selected="0"/>
+  <displayList>
+    <loader id="n0_u4oc" name="win" xy="12,10" pivot="0.5,0.5" anchor="true" size="23,23" locked="true" scale="0.8,0.8" url="ui://wtkqufwmqdrhl9" fill="scaleFree">
+      <gearDisplay controller="c_win" pages="1,2,3"/>
+      <gearIcon controller="c_win" pages="0,1,2,3" values="ui://wtkqufwmqdrhl9|ui://wtkqufwmns76l0|ui://wtkqufwmns76l3|ui://wtkqufwmqdrhl9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_u4oc" name="he" xy="12,10" pivot="0.5,0.5" anchor="true" size="18,18" locked="true" scale="0.8,0.8" url="ui://wtkqufwmns76ky" fill="scaleFree">
+      <gearDisplay controller="c_he" pages="1,2,3,4,5,6,7,8,9"/>
+      <gearIcon controller="c_he" pages="0,1,2,3,4,5,6,7,8,9" values="ui://wtkqufwmns76ky|ui://wtkqufwmns76ky|ui://wtkqufwmns76kq|ui://wtkqufwmns76kr|ui://wtkqufwmns76ks|ui://wtkqufwmns76kt|ui://wtkqufwmns76ku|ui://wtkqufwmns76kv|ui://wtkqufwmns76kw|ui://wtkqufwmns76kx"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n2_iqxf" name="point" xy="12,10" pivot="0.5,0.5" anchor="true" size="11,14" locked="true" scale="0.8,0.8" filter="color" filterData="-1.00,0.00,0.00,0.00" url="ui://wtkqufwmns76ko" fill="scaleFree">
+      <gearDisplay controller="c_point" pages="1,2,3,4,5,6,7,8,9,10"/>
+      <gearIcon controller="c_point" pages="0,1,2,3,4,5,6,7,8,9,10" values="ui://wtkqufwmns76ko|ui://wtkqufwmns76kp|ui://wtkqufwmns76kq|ui://wtkqufwmns76kr|ui://wtkqufwmns76ks|ui://wtkqufwmns76kt|ui://wtkqufwmns76ku|ui://wtkqufwmns76kv|ui://wtkqufwmns76kw|ui://wtkqufwmns76kx|ui://wtkqufwmns76ko"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

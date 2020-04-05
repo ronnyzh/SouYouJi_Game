@@ -1,0 +1,119 @@
+package match;
+
+//为防止编号冲突，扩展协议命名需从0x00002001或0x00003001之类的位置开始
+
+enum MSG_HEADER {
+    //client2server
+    C_S_NEED_TO_REFRESH = 0x0000C001; //主动获取是否需要刷新重连
+    C_S_MATCHINFO = 0x0000C003; //主动获取比赛场信息
+    C_S_RANKINFO = 0x0000C004; //比赛场积分排名信息
+    C_S_ROTATIONDATAS = 0x0000C005; //比赛赛程
+    C_S_GETREWARDLIST = 0x0000C008; //查看当前比赛奖励
+
+    //server2client
+    S_C_NEED_TO_REFRESH = 0x0000D001; //通知前端需要刷新重连
+    S_C_NOTICEMSG = 0x0000D002; //发送通知信息
+    S_C_MATCHINFO = 0x0000D003; //比赛场信息
+    S_C_RANKINFO = 0x0000D004; //比赛场积分排名信息
+    S_C_ROTATIONDATAS = 0x0000D005; //比赛赛程
+    S_C_CURROUNDROOMDATAS = 0x0000D006; //当局房间数据
+    S_C_ROUNDBALANCE = 0x0000D007; //当局房间数据
+    S_C_GETREWARDLIST = 0x0000D008; //查看当前比赛奖励
+}
+enum Currency {
+    none = 0; //未知
+    roomCard = 1; // 钻石
+    yyPoint = 2; // 椰子积分
+    gamePoint = 3; // 游戏积分
+}
+
+message C_S_Need_To_Refresh {
+}
+message S_C_Need_To_Refresh {
+    //0.不需要处理
+    //1.保留WS,发送C_S_RefreshData,更新数据
+    //2.保留WS,发送C_S_Connecting 然后根据myInfo.isRefresh决定是否重连
+    //3.断开WS,重新C_S_Connecting
+    //4.断开WS,退回大厅
+    required fixed32 refreshType = 1; //重连类型
+}
+
+message S_C_NoticeMsg {
+    required fixed32 msg_type = 1; //消息类型,保留字段
+    optional fixed32 action_type = 2; //弹窗点击确定后行为,缺省或1,窗口取消;2,窗口取消,断线,退出大厅,等...
+    required string msg = 3; // 消息内容
+}
+
+message C_S_MatchInfo {
+}
+message S_C_MatchInfo {
+    required string matchNumber = 1; // 比赛编号,例如 701-1-1571128988608
+    optional string gameNumber = 2; //当前房间编号,例如 701-1-1571128988608-2-555555
+    optional string describe = 3; // 简单描述,代替房间规则,保留字段
+    optional fixed32 curRoundNum = 4; //当前局数
+    optional fixed32 maxRoundNum = 5; //最终局数
+    optional fixed32 curPlayerNum = 6; //当前剩余人数
+    optional fixed32 maxPlayerNum = 7; //总人数
+    optional fixed32 curRotation = 8; //当前轮次
+    optional fixed32 curRotationRoundNum = 9; //当前轮次局数
+}
+
+message C_S_RotationDatas {
+}
+
+message S_C_RotationDatas {
+    message RotationData {
+        optional fixed32 rotation = 1; //当前轮次
+        optional fixed32 type = 2; //轮次类型 0:淘汰赛,1:冠军赛
+        optional fixed32 totalPlayerNum = 3; //此轮初始人数
+        optional fixed32 targetPlayerNum = 4; //此轮晋级人数
+        optional fixed32 targetRound = 5; //此轮目标局数
+    }
+    repeated RotationData RotationDatas = 1; //整个比赛进程
+}
+// 当局房间数据
+message S_C_curRoundRoomDatas {
+    optional fixed32 totalCount = 1; //总房间数
+    optional fixed32 notBalanceCount = 2; //当前未结算房间数
+    optional fixed32 balanceCount = 3; //当前已结算房间数
+}
+// 当局赛事判决
+message S_C_RoundBalance {
+    enum enum_balanceType {
+        wait = 1; //等待下局
+        rise = 2; //晋级
+        eliminate = 3; // 淘汰
+        rank = 4; // 赛事已结算
+    }
+    //1.当balanceType in [3,4],balanceRank才会有数据
+    //2.当balanceType==3:balanceRank=淘汰时的排名
+    //3.当balanceType==4:balanceRank=最终赛事排名,如1:冠军,2:亚军,3:季军......第n名,取决于最终轮次的人数
+    optional fixed32 balanceType = 1; //判决类型
+    optional fixed32 balanceRank = 2; //排名
+    optional Currency rewardId = 3; //奖品Id
+    optional fixed32 rewardNum = 4; //奖品数量
+}
+
+message C_S_RankInfo {
+    optional bool getRoomRanks = 1; //获取 当前房间玩家排名信息
+    optional bool getMatchRanks = 2; //获取 当前比赛玩家排名信息
+}
+
+message S_C_RankInfo {
+    message rank_info {
+        required sfixed32 side = 1; //玩家位置(roomRanks才有此项,matchRanks为-1)
+        required fixed32 uid = 2; //玩家uid
+        required string nickname = 3; //玩家昵称
+        required string headImgUrl = 4; //玩家头像
+        required fixed32 rank = 5; //排名
+        required sfixed32 integralTotal = 6; //总积分
+        repeated sfixed32 integralHistory = 7; //积分历史
+    }
+    repeated rank_info roomRanks = 1; //当前房间玩家排名信息
+    repeated rank_info matchRanks = 2; //当前比赛玩家排名信息
+}
+message C_S_getRewardList {
+}
+message S_C_getRewardList {
+    optional string rewardList = 11; //奖励
+}

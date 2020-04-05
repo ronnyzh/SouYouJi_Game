@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="154,212" pivot="1,0">
+  <displayList>
+    <component id="n2_y3hk" name="card" src="pka3dd" fileName="card.xml" xy="0,0"/>
+  </displayList>
+  <transition name="moveAni">
+    <item time="0" type="Scale" target="n2_y3hk" label="startscale" tween="true" startValue="1,1" endValue="1,1" duration="4" label2="endscale" ease="Linear"/>
+    <item time="0" type="XY" target="n2_y3hk" label="startpos" tween="true" startValue="0,0" endValue="0,0" duration="4" label2="endpos" ease="Linear"/>
+  </transition>
+  <transition name="lineAni">
+    <item time="0" type="XY" target="n2_y3hk" label="startpos" tween="true" startValue="0,0" endValue="0,0" duration="9" label2="endpos" ease="Linear"/>
+  </transition>
+</component>

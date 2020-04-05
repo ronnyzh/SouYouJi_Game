@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,100">
+  <controller name="c1" pages="0,rateLayer,1,RobTheVillage" selected="1"/>
+  <displayList>
+    <component id="n7_h21o" name="btn_Q0" src="gh8g3e" fileName="QiangButton2.xml" xy="221,1" group="n11_h21o">
+      <Button icon="ui://8a4txovsqb1b14"/>
+    </component>
+    <component id="n8_h21o" name="btn_Q1" src="gh8g3d" fileName="QiangButton.xml" xy="388,2" group="n11_h21o">
+      <Button icon="ui://8a4txovsqb1b15"/>
+    </component>
+    <component id="n22_qb1b" name="btn_Q2" src="gh8g3d" fileName="QiangButton.xml" xy="555,2" group="n11_h21o">
+      <Button icon="ui://8a4txovsqb1b16"/>
+    </component>
+    <component id="n23_qb1b" name="btn_Q3" src="gh8g3d" fileName="QiangButton.xml" xy="722,2" group="n11_h21o">
+      <Button icon="ui://8a4txovsqb1b17"/>
+    </component>
+    <component id="n24_qb1b" name="btn_Q4" src="gh8g3d" fileName="QiangButton.xml" xy="889,2" group="n11_h21o">
+      <Button icon="ui://8a4txovsqb1b18"/>
+    </component>
+    <group id="n11_h21o" name="rateLayer" xy="221,1" size="835,100" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n16_h21o" name="btn_C0" src="kvb5y" fileName="TextButton.xml" xy="180,2" group="n20_h21o">
+      <Button title="1倍"/>
+    </component>
+    <component id="n17_h21o" name="btn_C1" src="kvb5y" fileName="TextButton.xml" xy="360,2" group="n20_h21o">
+      <Button title="10倍"/>
+    </component>
+    <component id="n18_h21o" name="btn_C2" src="kvb5y" fileName="TextButton.xml" xy="540,2" group="n20_h21o">
+      <Button title="15倍"/>
+    </component>
+    <component id="n19_h21o" name="btn_C3" src="kvb5y" fileName="TextButton.xml" xy="720,2" group="n20_h21o">
+      <Button title="20倍"/>
+    </component>
+    <component id="n25_qb1b" name="btn_C4" src="kvb5y" fileName="TextButton.xml" xy="900,2" group="n20_h21o">
+      <Button title="25倍"/>
+    </component>
+    <group id="n20_h21o" name="RobTheVillage" xy="180,2" size="890,93" advanced="true" layout="hz" colGap="10">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

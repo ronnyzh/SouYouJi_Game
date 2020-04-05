@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="257,245" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5" name="icon" xy="128,122" pivot="0.5,0.5" anchor="true" size="50,30" align="center" vAlign="middle" autoSize="true">
+      <gearSize controller="button" pages="0,1" values="50,30,1,1|-80,-181,1,1" default="-80,-181,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n6_exrc" name="n6" src="10hut7q" fileName="1.12版本新皮美术资源/入场人数图标.png" xy="67,197"/>
+    <text id="n7_exrc" name="Txt_online" xy="97,199" size="82,24" font="ui://wpa3vk7vuy9c71" fontSize="12" align="center" vAlign="middle" autoSize="none" singleLine="true" text="0"/>
+    <image id="n8_itv6" name="Pic_hot" src="itv6t9a" fileName="1.12版本新皮美术资源/大厅/HOT.png" xy="159,-1" pivot="0.5,0.5" visible="false"/>
+    <image id="n9_sqca" name="Pic_lock" src="uy9c68" fileName="1.12版本新皮美术资源/大厅/暂未开放.png" xy="80,31" visible="false"/>
+  </displayList>
+  <Button sound="ui://la8oslyofbf8jx" downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="Rotation" target="n8_itv6" tween="true" startValue="0" endValue="-6" duration="2"/>
+    <item time="2" type="Rotation" target="n8_itv6" tween="true" startValue="-6" endValue="6" duration="2"/>
+    <item time="4" type="Rotation" target="n8_itv6" tween="true" startValue="6" endValue="-6" duration="2"/>
+    <item time="6" type="Rotation" target="n8_itv6" tween="true" startValue="-6" endValue="6" duration="2"/>
+    <item time="8" type="Rotation" target="n8_itv6" tween="true" startValue="6" endValue="0" duration="2"/>
+  </transition>
+</component>

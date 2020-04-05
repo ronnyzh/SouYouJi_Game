@@ -1,0 +1,118 @@
+package BloodRiver_mahjong;
+
+//为防止编号冲突，扩展协议命名需从0x00002001或0x00003001之类的位置开始
+
+enum MSG_HEADER {
+
+    // client2server
+    C_S_SET_COLOR = 0x00002001;    // 定缺
+    C_S_EXCHANGE_THREE = 0x00002002;    // 换三张
+
+
+    // server2client
+    S_C_EXCHANGE_FLAG = 0x00003001;     // 换三张标志
+    S_C_EXCHANGE_THREE = 0x00003002;    // 置换后的牌
+    S_C_SET_COLOR = 0x00003003;
+    S_C_EXTRA_MESSAGE = 0x00003004;     // 额外信息
+    S_C_REFRESH_SCORE = 0x00003005;     // 分数变动
+    S_C_HUTILES = 0x00003006;   // 胡牌列表
+
+    S_C_PLAYER_EXCHANGE_THREE = 0x00003007; //换三张结果
+    S_C_PLAYER_SET_COLOR = 0x00003008;  //选缺结果
+
+    
+}
+
+
+/////////////////////////////////////////////////
+//Client
+
+//换三张
+message C_S_ExchangeThree {
+    repeated string tile = 1;   // 换的牌
+}
+
+message S_C_PlayerExchangeThree{
+    required fixed32 side = 1;
+    required bool result = 2;   //换牌结果 True,False(失败)
+    optional string reason = 3; //失败结果
+    repeated string tile = 4;   // 换的牌
+}
+
+//定缺
+message C_S_SetColor {
+    required string color = 1; // 定缺花色
+}
+
+message S_C_PlayerSetColor {
+    required fixed32 side = 1;
+    required bool result = 2;   //选缺结果 True,False(失败)
+    optional string reason = 3; //失败结果
+    required string color = 4; // 定缺花色
+}
+
+//////////////////////////////////////////////////
+//Server
+
+//换三张标志
+message S_C_ExchangeFlag {
+    required fixed32 flag = 1;     // 0 False 1 True
+}
+
+
+//换三张
+message exchangeData {
+    required fixed32 side = 1;
+    repeated string tile = 2;
+    repeated string temp_tile = 3;
+}
+
+
+message S_C_ExchangeThree {
+    repeated exchangeData data = 1;
+}
+
+
+//定缺
+message S_C_SetColor {
+    repeated string color = 1;
+}
+
+
+message huMessage {
+    required fixed32 side = 1;
+    repeated string tile = 2;
+    optional string huTile = 3;
+}
+
+message S_C_ExtraMessage {
+    required sfixed32 status = 1;     // 1:换三张    2:定缺    3:普通
+    repeated string changingTiles = 2;
+    repeated string color = 3;
+    repeated huMessage huPlayer = 4;
+    optional string selfColor = 5;
+    repeated sfixed32 score = 6;
+}
+
+message refreshData {
+    required fixed32 side = 1;
+    required sfixed32 change = 2;
+    required sfixed32 score = 3;
+    optional fixed32 isCall = 4;
+    optional fixed32 huType = 5;    // 1自摸  2点炮
+}
+
+message S_C_RefreshScore {
+    repeated refreshData data = 1;
+}
+
+message S_C_HuTiles {
+    message Hu_Data{
+        required fixed32 side = 1;
+        repeated string HuTile = 2;
+    }
+    repeated Hu_Data HuData = 1;
+}
+
+                                
+                                

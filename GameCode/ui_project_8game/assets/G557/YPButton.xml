@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,83" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_mt54" name="n6" src="wm2e3c" fileName="GBP_Img/IMG/D-按钮-紫-.png" pkg="rjf5583x" xy="0,0"/>
+    <loader id="n5" name="icon" xy="56,18" size="94,44" align="center" vAlign="middle" fill="scaleFree"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

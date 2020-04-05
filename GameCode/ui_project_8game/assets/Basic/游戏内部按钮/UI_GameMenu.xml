@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" adaptationTest="FitSize">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <controller name="gametype" pages="0,,1," selected="0"/>
+  <controller name="AutoCont" exported="true" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <image id="n6_h21o" name="btn_mask" src="ktw9k9" fileName="游戏内部按钮/游戏内按钮展开渐变背景.png" xy="0,2" size="1334,750" group="n5_h21o" hideByEditor="true" visible="false" alpha="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_h21o" name="n0" src="ktw9k9" fileName="游戏内部按钮/游戏内按钮展开渐变背景.png" xy="0,0" size="1334,750" group="n5_h21o">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_h21o" name="btn_setting" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="1093,543" size="224,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9kc" controller="c1" page="0"/>
+    </component>
+    <component id="n3_h21o" name="btn_exit" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="1094,462" size="232,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9kd" controller="c1" page="0"/>
+    </component>
+    <component id="n7_ktw9" name="btn_history" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="1093,381" size="232,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9ka" controller="c1" page="0"/>
+    </component>
+    <component id="n4_h21o" name="btn_rule" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="1093,300" size="232,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9kb" controller="c1" page="0"/>
+    </component>
+    <component id="n9_jxuj" name="btn_autoCont" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="1090,219" size="232,69" group="n5_h21o">
+      <gearIcon controller="AutoCont" pages="0,1" values="ui://la8oslyofedbld|ui://la8oslyofedblc"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyofedblc" controller="c1" page="0"/>
+    </component>
+    <component id="n8_ktw9" name="btn_proxy" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="1089,138" size="232,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9k8" controller="c1" page="0"/>
+    </component>
+    <group id="n5_h21o" name="n5" xy="0,0" size="1334,752" locked="true" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n1_h21o" name="n1" src="nuw9i8" fileName="ui_exit_game/BtnExit2.xml" xy="1194,611" pivot="0.5,0.5" size="176,89">
+      <gearXY controller="gametype" pages="0,1" values="1194,611|1194,53"/>
+      <relation target="" sidePair="right-right,middle-middle"/>
+      <Button checked="true" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

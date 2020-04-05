@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="752,48">
+  <controller name="role" pages="0,normal,1,self" selected="0"/>
+  <displayList>
+    <image id="n0_ogno" name="n0" src="op4n7p" fileName="style0/balance2/bar_bg.png" xy="-104,0" size="960,48"/>
+    <image id="n1_ogno" name="n1" src="op4n7q" fileName="textures/table/head_bg(1).png" xy="27,11" size="80,80" group="n4_ogno"/>
+    <loader id="n2_ogno" name="icon" xy="32,15" size="70,70" group="n4_ogno" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n3_ogno" name="n3" src="djq94" fileName="common/lobby/touxiangk.png" pkg="nji5wfgx" xy="31,14" size="72,72" group="n4_ogno"/>
+    <group id="n4_ogno" name="playerImg" xy="26,11" size="80,80" locked="true" hideByEditor="true" visible="false" advanced="true"/>
+    <text id="n6_ogno" name="tfName" xy="73,5" size="80,37" fontSize="28" color="#ffffff" bold="true" autoClearText="true" text="name">
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n14_op4n" name="tfBaseScore" xy="211,5" size="80,37" fontSize="28" color="#ffffff" align="center" bold="true" autoClearText="true" text="name">
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n9_ogno" name="tfLastCard" xy="319,5" size="99,40" fontSize="28" color="#ffffff" align="center" autoSize="none" bold="true" autoClearText="true" text="name">
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n10_ogno" name="tfBoom" xy="447,5" size="99,40" fontSize="28" color="#ffffff" align="center" autoSize="none" bold="true" autoClearText="true" text="name">
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n11_ogno" name="tfScore" xy="577,5" size="154,36" fontSize="28" color="#ffffff" align="center" autoSize="none" bold="true" autoClearText="true" text="name">
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <image id="n5_ogno" name="tagWin" src="op4n7r" fileName="style0/icon/icon_win_small(1).png" xy="289,-281" visible="false" alpha="0"/>
+    <image id="n12_rg8g" name="tagSpring" src="op4n7s" fileName="style0/icon/icon_spring(1).png" xy="252,-300" visible="false" alpha="0"/>
+    <image id="n13_rg8g" name="tagDouble" src="op4n7t" fileName="style0/icon/icon_balance_double_yes(1).png" xy="244,-298" visible="false" alpha="0"/>
+    <image id="n15_op4n" name="tagDealer" src="op4n7u" fileName="textures/table/dizhu_icon(1).png" xy="-15,-17" visible="false"/>
+  </displayList>
+</component>

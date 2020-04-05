@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="231,229" pivot="0.5,0.5">
+  <controller name="side" pages="0,0,1,1,2,2,3,3" selected="0"/>
+  <displayList>
+    <image id="n43_118n2" name="n43" src="118n27j" fileName="newres/轮盘-底 .png" xy="56,54" pivot="0.5,0.5" group="n36_kteu">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n44_118n2" name="imgCircle" src="118n27k" fileName="newres/轮盘-字-未选中 .png" xy="57,54" pivot="0.5,0.5" group="n36_kteu">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n38_hg3r" name="n38" src="hg3r6o" fileName="newres/轮盘-回合.png" xy="60,145" pivot="0.5,0" group="n36_kteu">
+      <gearXY controller="side" pages="0,1,2,3" values="60,145|91,112|60,81|28,112"/>
+      <gearLook controller="side" pages="0,1,2,3" values="1,0,0,1|1,-90.5,0,1|1,180,0,1|1,90,0,1"/>
+    </image>
+    <image id="n40_hg3r" name="n40" src="hg3r6s" fileName="newres/轮盘-字-南.png" xy="150,121" group="n36_kteu" rotation="-90">
+      <gearDisplay controller="side" pages="1"/>
+    </image>
+    <image id="n39_hg3r" name="n39" src="hg3r6r" fileName="newres/轮盘-字-东.png" xy="104,148" group="n36_kteu">
+      <gearDisplay controller="side" pages="0"/>
+    </image>
+    <image id="n41_hg3r" name="n41" src="hg3r6p" fileName="newres/轮盘-字-西.png" xy="127,78" group="n36_kteu" rotation="180">
+      <gearDisplay controller="side" pages="2"/>
+    </image>
+    <image id="n42_hg3r" name="n42" src="hg3r6q" fileName="newres/轮盘-字-北.png" xy="79,99" group="n36_kteu" rotation="90">
+      <gearDisplay controller="side" pages="3"/>
+    </image>
+    <group id="n36_kteu" name="center" xy="56,54" size="118,121" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n38_hg3r" tween="true" startValue="1" endValue="0.2" duration="24" ease="Linear"/>
+  </transition>
+</component>

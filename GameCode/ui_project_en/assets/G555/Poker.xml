@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,192">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_osvm" name="n0" xy="0,0" size="139,172" url="ui://vft1d339s2ed0" fill="scaleFree">
+      <gearXY controller="c1" pages="0,1" values="0,0|0,-30" tween="true"/>
+    </loader>
+  </displayList>
+  <transition name="showCard">
+    <item time="0" type="Pivot" target="n0_osvm" value="0.5,0.5"/>
+    <item time="0" type="Scale" target="n0_osvm" tween="true" startValue="1,1" endValue="0,1" duration="6" label2="setCardId"/>
+    <item time="6" type="Scale" target="n0_osvm" label="setCardId" tween="true" startValue="0,1" endValue="1,1" duration="6"/>
+    <item time="12" type="Pivot" target="n0_osvm" value="0,0"/>
+  </transition>
+</component>

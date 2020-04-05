@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,688">
+  <displayList>
+    <image id="n0_iuo1" name="n0" src="miny8q" fileName="百家乐/按钮列表/游戏内按钮展开渐变背景.png" xy="0,0" size="200,688">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n1_iuo1" name="btn_rule" src="miny8u" fileName="百家乐/按钮列表/666/素材/2.0新按钮/玩法按钮-2.0.xml" xy="11,231"/>
+    <component id="n6_z5p1" name="btn_history" src="z5p19e" fileName="百家乐/按钮列表/666/素材/2.0新按钮/战绩.xml" xy="12,335"/>
+    <component id="n2_iuo1" name="btn_set" src="miny8x" fileName="百家乐/按钮列表/666/素材/2.0新按钮/设置按钮-2.0.xml" xy="11,543"/>
+    <component id="n3_iuo1" name="btn_exit" src="miny8z" fileName="百家乐/按钮列表/666/素材/2.0新按钮/退出按钮-2.0.xml" xy="11,439"/>
+  </displayList>
+</component>

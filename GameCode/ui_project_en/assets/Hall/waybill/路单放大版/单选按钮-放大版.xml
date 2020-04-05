@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="244,172" extention="Button">
+  <controller name="button" exported="true" pages="0,up,1,down,2,over,3,selectedOver" selected="0">
+    <action type="change_page" fromPage="" toPage="0,2" controller="c3" targetPage="0"/>
+    <action type="change_page" fromPage="" toPage="1,3" controller="c3" targetPage="1"/>
+  </controller>
+  <controller name="c1" exported="true" pages="0,新手,1,普通,2,中级,3,高级,4,土豪" selected="0"/>
+  <controller name="c2" exported="true" pages="0,新手,1,普通,2,中级,3,高级,4,土豪" selected="0"/>
+  <controller name="c3" pages="0,蓝色头像,1,白色头像" selected="0"/>
+  <displayList>
+    <image id="n0_l1l1" name="n0" src="v5nsqa" fileName="waybill/单选按钮新图/未选中场次2.png" xy="0,0" size="244,172">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_l1l1" name="n1" src="orzpq9" fileName="waybill/单选按钮新图/选中场次2.png" xy="0,0" size="244,172">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_l1l1" name="n2" xy="119,43" pivot="0.5,0.5" anchor="true" size="50,30" touchable="false" url="ui://skx16jl7pfm9ns" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="button" pages="0,2"/>
+      <gearIcon controller="c1" pages="0,1,2,3,4" values="ui://skx16jl7pfm9ns|ui://wpa3vk7vrnewpv|ui://wpa3vk7vrnewpq|ui://wpa3vk7vrnewpz|ui://wpa3vk7vrnewps"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n4_l1l1" name="n4" xy="119,43" pivot="0.5,0.5" anchor="true" size="211,43" touchable="false" url="ui://wpa3vk7vrnewpr" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="button" pages="1,3"/>
+      <gearIcon controller="c2" pages="0,1,2,3,4" values="ui://wpa3vk7vrnewpr|ui://wpa3vk7vrnewpw|ui://wpa3vk7vrnewpr|ui://wpa3vk7vrnewq0|ui://wpa3vk7vrnewpt"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n5_l1l1" name="head" xy="35,96" pivot="1,0.5" anchor="true" size="24,24" touchable="false" url="ui://wpa3vk7vpfm9np" fill="scaleFree">
+      <gearIcon controller="c3" pages="0,1" values="ui://wpa3vk7vpfm9np|ui://wpa3vk7vpfm9nw"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n6_l1l1" name="txt_online_lan" xy="41,97" pivot="0,0.5" anchor="true" size="72,24" font="ui://wpa3vk7vrrzjp0" fontSize="16" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="899">
+      <gearDisplay controller="c3" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n5_l1l1" sidePair="left-right"/>
+    </text>
+    <text id="n7_l1l1" name="txt_online_bai" xy="41,97" pivot="0,0.5" anchor="true" size="72,24" font="ui://wpa3vk7vrrzjp1" fontSize="16" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="899">
+      <gearDisplay controller="c3" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n5_l1l1" sidePair="left-right"/>
+    </text>
+    <text id="n8_l1l1" name="n8" xy="65,140" pivot="1,0.5" anchor="true" size="54,28" fontSize="21" color="#aaabec" vAlign="middle" bold="true" singleLine="true" text="Limit">
+      <gearDisplay controller="c3" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n9_l1l1" name="n9" xy="65,140" pivot="1,0.5" anchor="true" size="54,28" fontSize="21" color="#ffffff" vAlign="middle" bold="true" singleLine="true" text="Limit">
+      <gearDisplay controller="c3" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n10_l1l1" name="txt_limitScore_lan" xy="72,138" pivot="0,0.5" anchor="true" size="55,28" font="ui://wpa3vk7vrrzjp0" fontSize="16" color="#aaabec" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="100">
+      <gearDisplay controller="c3" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n8_l1l1" sidePair="left-right"/>
+    </text>
+    <text id="n11_l1l1" name="txt_limitScore_bai" xy="72,139" pivot="0,0.5" anchor="true" size="55,28" font="ui://wpa3vk7vrrzjp1" fontSize="16" color="#aaabec" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="100">
+      <gearDisplay controller="c3" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n9_l1l1" sidePair="left-right"/>
+    </text>
+    <text id="n12_l1l1" name="n12" xy="165,97" pivot="1,0.5" anchor="true" size="38,28" fontSize="21" color="#aaabec" vAlign="middle" bold="true" singleLine="true" text="Pts">
+      <gearDisplay controller="c3" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n13_l1l1" name="n13" xy="165,97" pivot="1,0.5" anchor="true" size="38,28" fontSize="21" color="#ffffff" vAlign="middle" bold="true" singleLine="true" text="Pts">
+      <gearDisplay controller="c3" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n14_l1l1" name="txt_baseScore_lan" xy="167,97" pivot="0,0.5" anchor="true" size="90,28" font="ui://wpa3vk7vrrzjp0" fontSize="16" color="#aaabec" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="666.00">
+      <gearDisplay controller="c3" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n12_l1l1" sidePair="left-right"/>
+    </text>
+    <text id="n15_l1l1" name="txt_baseScore_bai" xy="167,97" pivot="0,0.5" anchor="true" size="75,28" font="ui://wpa3vk7vrrzjp1" fontSize="16" color="#aaabec" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="666.00">
+      <gearDisplay controller="c3" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n13_l1l1" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

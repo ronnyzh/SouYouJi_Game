@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="885,172">
+  <displayList>
+    <image id="n66_kxym" name="n66" src="d69rqe" fileName="waybill/新格子/表格_暗1(2).png" xy="0,0" size="885,172" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n82_jvab" name="n82" src="jvab0" fileName="小格35-27-黄.png" pkg="q3bjrkl6" xy="5,5" size="875,160"/>
+    <image id="n11_esgt" name="titleBg" src="pfm9nd" fileName="waybill/images/表头.png" xy="5,5" pivot="0,1" anchor="true" size="685,1" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <text id="n64_kxym" name="txt_roomInfo" xy="678,126" size="203,41" locked="true" hideByEditor="true" fontSize="32" color="#999999" bold="true" singleLine="true" autoClearText="true" text="普通场 10086">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <list id="n81_uib0" name="subBoxList" xy="5,5" size="875,160" hideByEditor="true" touchable="false" layout="flow_hz" selectionMode="none" overflow="hidden" defaultItem="ui://wpa3vk7vd69rqs" autoClearItems="true">
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+      <item controllers="c_win,0,c_he,0,c_point,0"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="870,240" overflow="hidden" opaque="false">
+  <controller name="ctl" exported="true" pages="0,onlyBead" selected="0"/>
+  <controller name="head" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n53_rt88" name="bg" xy="0,0" size="870,240"/>
+    <list id="n21_kexb" name="beadlist" xy="0,30" size="871,186" layout="flow_vt" overflow="scroll" scroll="horizontal" scrollBar="hidden" colGap="-1" defaultItem="ui://wtkqufwmkexb2m">
+      <gearXY controller="head" pages="1" values="0,0" default="0,30"/>
+      <gearSize controller="ctl" pages="0" values="871,186,1,1"/>
+    </list>
+    <text id="n28_frnl" name="txtXianHong" xy="30,0" size="41,30" group="n36_frnl" visible="false" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="限红 "/>
+    <text id="n30_frnl" name="txtXianHongValue" xy="63,0" size="78,30" group="n36_frnl" visible="false" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="1-100000"/>
+    <text id="n32_frnl" name="txtXiaXian" xy="333,0" size="78,30" group="n36_frnl" visible="false" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="和/对子下限"/>
+    <text id="n33_frnl" name="txtXiaXianValue" xy="416,0" size="55,30" group="n36_frnl" visible="false" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="1/1"/>
+    <text id="n34_frnl" name="txtShangXian" xy="614,0" size="81,30" group="n36_frnl" visible="false" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="和/对子上限"/>
+    <text id="n35_frnl" name="txtShangXianValue" xy="698,0" size="172,30" group="n36_frnl" visible="false" fontSize="14" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="10000/10000"/>
+    <group id="n36_frnl" name="head" xy="30,0" size="840,30" hideByEditor="true" visible="false" advanced="true" collapsed="true">
+      <gearXY controller="head" pages="1" values="30,-30" default="30,0"/>
+    </group>
+    <text id="n37_frnl" name="txtXian" xy="30,216" size="33,26" group="n51_frnl" fontSize="15" color="#4000ff" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="闲"/>
+    <text id="n38_frnl" name="txtXianValue" xy="53,216" size="45,26" group="n51_frnl" fontSize="15" color="#4000ff" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="0"/>
+    <text id="n39_frnl" name="txtZhuang" xy="125,215" size="33,26" group="n51_frnl" fontSize="15" color="#cc0000" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="庄"/>
+    <text id="n40_frnl" name="txtZhuangValue" xy="148,215" size="45,26" group="n51_frnl" fontSize="15" color="#cc0000" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="0"/>
+    <text id="n41_frnl" name="txtHe" xy="229,215" size="33,26" group="n51_frnl" fontSize="15" color="#006633" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="和"/>
+    <text id="n42_frnl" name="txtHeValue" xy="252,215" size="45,26" group="n51_frnl" fontSize="15" color="#006633" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="0"/>
+    <text id="n43_frnl" name="txtXianDuiZi" xy="349,215" size="57,26" group="n51_frnl" fontSize="15" color="#4000ff" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="闲对子"/>
+    <text id="n44_frnl" name="txtXianDuiZiValue" xy="402,215" size="45,26" group="n51_frnl" fontSize="15" color="#4000ff" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="0"/>
+    <text id="n45_frnl" name="txtZhuangDuiZi" xy="500,215" size="60,26" group="n51_frnl" fontSize="15" color="#cc0000" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="庄对子"/>
+    <text id="n46_frnl" name="txtZhuangDuiZiValue" xy="553,215" size="45,26" group="n51_frnl" fontSize="15" color="#cc0000" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="0"/>
+    <text id="n47_frnl" name="txt8Dian" xy="631,215" size="60,26" group="n51_frnl" fontSize="15" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="8点"/>
+    <text id="n48_frnl" name="txt8DianValue" xy="662,215" size="45,26" group="n51_frnl" fontSize="15" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="0"/>
+    <text id="n49_frnl" name="txt9Dian" xy="785,215" size="60,26" group="n51_frnl" fontSize="15" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="9点"/>
+    <text id="n50_frnl" name="txt9DianValue" xy="819,215" size="45,26" group="n51_frnl" fontSize="15" vAlign="middle" autoSize="none" bold="true" strokeColor="#f4f0ff" text="0"/>
+    <group id="n51_frnl" name="tail" xy="30,215" size="834,27" hideByEditor="true" visible="false" advanced="true" collapsed="true">
+      <gearXY controller="head" pages="1" values="30,185" default="30,215"/>
+    </group>
+  </displayList>
+</component>

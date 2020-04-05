@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,65">
+  <displayList>
+    <image id="n15_cjdq" name="n15" src="cjdq0" pkg="28jundqr" xy="0,9" scale="0.45,0.45" skew="-17,-17"/>
+    <image id="n14_cjdq" name="n14" src="cjdq0" pkg="28jundqr" xy="28,0" scale="0.45,0.45" skew="10,10"/>
+  </displayList>
+</component>

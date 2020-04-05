@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="387,57" extention="Button">
+  <controller name="btn" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_me6n" name="n0" src="me6n27s" fileName="ting/底.png" xy="0,0" size="387,57">
+      <gearDisplay controller="btn" pages="0,1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_me6n" name="icon" xy="16,2" size="33,57" url="ui://ejgb8krjme6n27p" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n1_me6n" name="n1" src="me6n27r" fileName="ting/自动打牌-对勾.png" xy="16,6">
+      <gearDisplay controller="btn" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_me6n" name="n3" src="me6n27q" fileName="ting/自动打牌..png" xy="66,14">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

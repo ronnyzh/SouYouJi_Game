@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" opaque="false" adaptationTest="FitSize">
+  <displayList>
+    <graph id="n0_aks0" name="n0" xy="238,100" size="857,54" alpha="0.8" type="rect" lineSize="0" fillColor="#6e000000" corner="30">
+      <relation target="" sidePair="width-width,top-top"/>
+    </graph>
+    <component id="n4_itmi" name="rollStr" src="itmijw" xy="310,101" size="763,52">
+      <relation target="n0_aks0" sidePair="right-right,left-left"/>
+      <relation target="n0_aks0" sidePair="width-width"/>
+    </component>
+    <image id="n3_somi" name="n3" src="somiju" xy="262,110">
+      <relation target="n0_aks0" sidePair="left-left,middle-middle"/>
+    </image>
+  </displayList>
+</component>

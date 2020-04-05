@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="94,145" pivot="0.5,0.5" opaque="false">
+  <controller name="numtype" pages="0,,1,0" selected="0"/>
+  <displayList>
+    <loader id="n7_kteu" name="bg" xy="0,11" pivot="0.5,0.5" size="95,132" url="ui://ejgb8krjkteu3" fill="scaleFree"/>
+    <loader id="n5" name="icon" xy="4,38" pivot="0.5,0.5" size="88,101" scale="1.1,1.1" touchable="false" align="center" vAlign="middle" fill="scale">
+      <relation target="n7_kteu" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n10_qagw" name="n10" src="qagw66" fileName="ting/牌数底.png" xy="78,1">
+      <gearDisplay controller="numtype" pages="0"/>
+      <relation target="n7_kteu" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n11_qagw" name="n11" src="qagw67" fileName="ting/牌数底-灰.png" xy="78,1">
+      <gearDisplay controller="numtype" pages="1"/>
+      <relation target="n7_kteu" sidePair="right-right,top-top"/>
+    </image>
+    <text id="n12_qagw" name="numtxt" xy="81,6" pivot="0.5,0.5" size="27,27" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="">
+      <relation target="n10_qagw" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n13_szxc" name="fantxt" xy="17,140" size="58,32" visible="false" fontSize="25" align="center" vAlign="middle" autoClearText="true" text="12番">
+      <relation target="n7_kteu" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

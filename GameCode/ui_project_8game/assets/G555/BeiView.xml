@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="57,37">
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5," selected="5"/>
+  <displayList>
+    <text id="n7_wm2e" name="bei" xy="-4,-3" size="38,31" locked="true" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" text="x">
+      <gearDisplay controller="c1" pages="0,1,2,3,4,5"/>
+    </text>
+    <text id="n6_wm2e" name="n6" xy="27,0" size="48,36" locked="true" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" autoSize="none" text="1">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </text>
+    <text id="n8_wm2e" name="n8" xy="25,0" size="48,36" locked="true" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" autoSize="none" text="2">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <text id="n10_wm2e" name="n10" xy="26,-1" size="48,36" locked="true" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" autoSize="none" text="3">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+    <text id="n11_wm2e" name="n11" xy="26,0" size="48,36" locked="true" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" autoSize="none" text="4">
+      <gearDisplay controller="c1" pages="4"/>
+    </text>
+    <text id="n12_wm2e" name="n12" xy="26,0" size="48,36" locked="true" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" autoSize="none" text="5">
+      <gearDisplay controller="c1" pages="5"/>
+    </text>
+    <loader id="n13_h3q5" name="n13" xy="0,0" size="57,37" url="ui://rjf5583xh3q59n" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+      <gearDisplay controller="c1" pages="1,2,3,4,5"/>
+      <gearIcon controller="c1" pages="1,2,3,4,5" values="ui://rjf5583xh3q59j|ui://rjf5583xh3q59k|ui://rjf5583xh3q59l|ui://rjf5583xh3q59m|ui://rjf5583xh3q59n" default=""/>
+    </loader>
+  </displayList>
+</component>

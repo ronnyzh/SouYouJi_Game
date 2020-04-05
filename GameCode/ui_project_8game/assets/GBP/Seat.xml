@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,127">
+  <controller name="c1" pages="0,,1,zhuang" selected="1"/>
+  <displayList>
+    <loader id="n0_osvm" name="icon" xy="0,0" size="100,100" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n16_k4rz" name="n16" src="mup46f" fileName="Font/NewScoreArea/头像名称底.png" xy="0,73" size="100,54"/>
+    <image id="n17_er43" name="n17" src="mup46h" fileName="Font/NewScoreArea/头像边框.png" xy="0,0" size="100,100"/>
+    <image id="n11_e7ic" name="n11" src="wm2e2s" fileName="GBP_Img/SeatImg/庄.png" xy="35,-14" size="79,40" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n21_er43" name="n21" src="wm2e2z" fileName="GBP_Img/SeatImg/pf_good.png" xy="-49,106" visible="false"/>
+    <component id="n10_ekd7" name="tfScore" src="er436o" fileName="tfScore.xml" xy="-54,92" visible="false" controller="c1,0"/>
+    <component id="n8_h21o" name="icon_click" src="a8op1z" fileName="ScaleButton.xml" pkg="73wt91ss" xy="-1,-2" size="99,104"/>
+    <image id="n23_9p9y" name="striveBankerMask" src="c3vv8i" fileName="GBP_Img/QZ/抢庄-框 拷贝.png" xy="-19,-18" size="134,138" hideByEditor="true" visible="false"/>
+    <movieclip id="n22_er43" name="light" src="vmndp" fileName="光/light.jta" pkg="ads0z8bz" xy="-79,-61" hideByEditor="true" scale="0.91,0.91" visible="false"/>
+    <image id="n20_er43" name="okMark" src="er436p" fileName="明牌牛牛/yizhunbei.png" xy="4,67" hideByEditor="true" scale="0.7,0.7" visible="false"/>
+    <text id="n3_osvm" name="score" xy="-20,96" pivot="0.5,0.5" size="141,37" font="ui://rjf5583xprh340" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="1,000,000.00"/>
+    <text id="n2_osvm" name="name" xy="0,75" pivot="0.5,0.5" size="100,28" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="用户名有多长"/>
+  </displayList>
+</component>

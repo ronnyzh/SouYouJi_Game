@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <controller name="balance" pages="0,hide,1,add,2,red" selected="1"/>
+  <displayList>
+    <loader id="n0_osvm" name="icon" xy="25,11" size="95,95" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n1_osvm" name="n1" src="djq94" fileName="common/lobby/touxiangk.png" xy="21,8" size="102,102" hideByEditor="true" visible="false"/>
+    <image id="n31_yjle" name="n31" src="mup46h" fileName="Font/NewScoreArea/头像边框.png" pkg="rjf5583x" xy="25,11" size="97,97"/>
+    <image id="n27_qj56" name="n27" src="mup46f" fileName="Font/NewScoreArea/头像名称底.png" pkg="rjf5583x" xy="25,81" size="95,53"/>
+    <text id="n30_yjle" name="score" xy="4,105" pivot="0.5,0.5" size="141,37" font="ui://rjf5583xprh340" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="1,000,000.00"/>
+    <text id="n2_osvm" name="name" xy="72,93" pivot="0.5,0.5" anchor="true" size="63,28" fontSize="20" color="#ffffff" align="center" vAlign="middle" bold="true" singleLine="true" text="player"/>
+    <component id="n8_h21o" name="icon_click" src="djq929" fileName="ScaleButton.xml" xy="8,-3" size="130,130" locked="true"/>
+    <image id="n9_sbou" name="tagOffline" src="djq95" fileName="common/lobby/tag_offline.png" xy="25,46" size="96,35" visible="false"/>
+    <image id="n16_hvwj" name="tagBanker" src="djq91v" fileName="textures/table/nonming_icon.png" xy="87,-6" size="50,58" visible="false"/>
+    <image id="n29_f9ow" name="tagDealer" src="o4c8bh" fileName="textures/table/dizhu_icon.png" xy="86,-16" visible="false"/>
+    <image id="n15_tx3y" name="tagTrusteeship" src="djq918" fileName="style0/icon/icon_trusteeship.png" xy="0,58" scale="0.9,0.9" visible="false"/>
+    <image id="n17_y3hk" name="iconBoom" src="kmdi8i" fileName="style0/icon/icon_boom.png" xy="15,-9" group="n19_y3hk"/>
+    <text id="n18_y3hk" name="tfBoom" xy="15,8" size="36,25" group="n19_y3hk" fontSize="18" color="#ffff00" align="center" autoSize="none" text="X0"/>
+    <group id="n19_y3hk" name="groupBoom" xy="15,-9" size="37,48" visible="false" advanced="true"/>
+    <loader id="n23_oate" name="n23" xy="-21,-33" size="193,116" url="ui://nji5wfgxoatea2">
+      <gearDisplay controller="balance" pages="1,2"/>
+      <gearIcon controller="balance" pages="1" values="ui://nji5wfgxoatea2" default="ui://nji5wfgxoatea3"/>
+      <relation target="n24_oate" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n24_oate" name="scoreBalance" xy="75,27" pivot="0.5,0.5" anchor="true" size="160,54" font="ui://rjf5583xwm2e1g" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="+818.0">
+      <gearDisplay controller="balance" pages="1"/>
+      <gearXY controller="balance" pages="0,1,2" values="75,103|75,27|75,27" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+    <text id="n25_oate" name="scoreBalance2" xy="75,24" pivot="0.5,0.5" anchor="true" size="160,54" font="ui://rjf5583xwm2e13" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="-888,3">
+      <gearDisplay controller="balance" pages="2"/>
+      <gearXY controller="balance" pages="0,1,2" values="75,103|75,24|75,27" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+  </displayList>
+</component>

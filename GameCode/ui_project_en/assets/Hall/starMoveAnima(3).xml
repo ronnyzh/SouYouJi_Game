@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64">
+  <displayList>
+    <image id="n1_dkln" name="n1" src="dklnt8n" xy="0,0" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="999999">
+    <item time="0" type="Alpha" target="n1_dkln" value="0"/>
+    <item time="18" type="Alpha" target="n1_dkln" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="18" type="Rotation" target="n1_dkln" tween="true" startValue="0" endValue="360" duration="42"/>
+    <item time="18" type="Scale" target="n1_dkln" tween="true" startValue="0.5,0.5" endValue="0.8,0.8" duration="6"/>
+    <item time="18" type="XY" target="n1_dkln" tween="true" startValue="0,0" endValue="90,59" duration="6" ease="Linear"/>
+    <item time="24" type="Alpha" target="n1_dkln" tween="true" startValue="1" endValue="1" duration="24"/>
+    <item time="24" type="Scale" target="n1_dkln" tween="true" startValue="0.8,0.8" endValue="1.1,1.1" duration="15"/>
+    <item time="24" type="XY" target="n1_dkln" tween="true" startValue="90,59" endValue="169,138" duration="6" ease="Linear"/>
+    <item time="30" type="XY" target="n1_dkln" tween="true" startValue="169,138" endValue="221,221" duration="6" ease="Linear"/>
+    <item time="36" type="XY" target="n1_dkln" tween="true" startValue="221,221" endValue="260,321" duration="6" ease="Linear"/>
+    <item time="39" type="Scale" target="n1_dkln" tween="true" startValue="1.1,1.1" endValue="0,0" duration="21"/>
+    <item time="42" type="XY" target="n1_dkln" tween="true" startValue="260,321" endValue="280,392" duration="6" ease="Linear"/>
+    <item time="48" type="Alpha" target="n1_dkln" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="48" type="XY" target="n1_dkln" tween="true" startValue="280,392" endValue="297,442" duration="6" ease="Linear"/>
+    <item time="54" type="XY" target="n1_dkln" tween="true" startValue="297,442" endValue="389,442" duration="6" ease="Expo.In"/>
+  </transition>
+</component>

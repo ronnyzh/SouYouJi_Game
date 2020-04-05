@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" pivot="0.5,0.5">
+  <displayList>
+    <image id="n0_r73m" name="n0" src="r73m68" xy="30,127" pivot="0.5,0.5" rotation="45"/>
+    <image id="n1_r73m" name="n1" src="r73m69" xy="244,66" rotation="45"/>
+    <image id="n2_r73m" name="n2" src="r73m6a" xy="244,66" rotation="45"/>
+    <image id="n3_r73m" name="n3" src="r73m6b" xy="244,66" rotation="45"/>
+    <image id="n4_r73m" name="n4" src="r73m66" xy="244,66" rotation="45"/>
+  </displayList>
+  <transition name="Ani">
+    <item time="0" type="Visible" target="n3_r73m" value="false"/>
+    <item time="0" type="Visible" target="n2_r73m" value="false"/>
+    <item time="0" type="Visible" target="n4_r73m" value="false"/>
+    <item time="0" type="Visible" target="n1_r73m" value="true"/>
+    <item time="0" type="XY" target="n0_r73m" tween="true" startValue="30,127" endValue="20,145" duration="6"/>
+    <item time="3" type="Visible" target="n1_r73m" value="false"/>
+    <item time="3" type="Visible" target="n2_r73m" value="true"/>
+    <item time="6" type="Visible" target="n2_r73m" value="false"/>
+    <item time="6" type="Visible" target="n3_r73m" value="true"/>
+    <item time="6" type="XY" target="n0_r73m" tween="true" startValue="20,145" endValue="30,127" duration="6" ease="Expo.Out"/>
+    <item time="9" type="Visible" target="n4_r73m" value="true"/>
+    <item time="9" type="Visible" target="n3_r73m" value="false"/>
+    <item time="12" type="Visible" target="n4_r73m" value="false"/>
+    <item time="12" type="XY" target="n0_r73m" tween="true" startValue="30,127"/>
+  </transition>
+</component>

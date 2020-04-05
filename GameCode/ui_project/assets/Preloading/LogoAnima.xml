@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden" opaque="false">
+  <displayList>
+    <image id="n7_d1sn" name="n7" src="d1snh" xy="470,136" pivot="0.5,1" group="n9_d1sn" locked="true"/>
+    <image id="n14_d1sn" name="n14" src="d1snc" xy="470,236" pivot="1,0.5" group="n9_d1sn" locked="true"/>
+    <image id="n13_d1sn" name="n13" src="d1snb" xy="475,183" group="n9_d1sn" locked="true" rotation="-1"/>
+    <image id="n6_d1sn" name="n6" src="d1sna" xy="497,147" pivot="0.5,0.5" size="354,257" group="n9_d1sn" locked="true"/>
+    <image id="n10_d1sn" name="n10" src="d1snd" xy="526,158" size="314,150" group="n9_d1sn" locked="true" skew="0,-1"/>
+    <image id="n11_d1sn" name="n11" src="d1sne" xy="514,258" size="311,134" group="n9_d1sn" locked="true" skew="0,-1"/>
+    <image id="n12_d1sn" name="n12" src="d1snf" xy="685,139" pivot="0.5,0.5" size="69,52" group="n9_d1sn" locked="true"/>
+    <image id="n8_d1sn" name="n8" src="d1sng" xy="503,365" size="319,66" group="n9_d1sn"/>
+    <image id="n5_d1sn" name="n5" src="d1sn9" xy="530,376" pivot="0.5,1" size="268,48" group="n9_d1sn" locked="true" rotation="-1"/>
+    <group id="n9_d1sn" name="n9" xy="470,136" size="381,301">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t1" autoPlay="true">
+    <item time="0" type="Alpha" target="n12_d1sn" value="0"/>
+    <item time="0" type="Alpha" target="n14_d1sn" value="0"/>
+    <item time="0" type="Alpha" target="n10_d1sn" value="0"/>
+    <item time="0" type="Alpha" target="n7_d1sn" tween="true" startValue="0.2" endValue="1" duration="3"/>
+    <item time="0" type="Alpha" target="n5_d1sn" value="0"/>
+    <item time="0" type="Alpha" target="n11_d1sn" value="0"/>
+    <item time="0" type="Alpha" target="n8_d1sn" tween="true" startValue="0.5" endValue="1" duration="4"/>
+    <item time="0" type="Alpha" target="n6_d1sn" tween="true" startValue="0.2" endValue="1" duration="3" ease="Expo.Out"/>
+    <item time="0" type="Alpha" target="n13_d1sn" value="0"/>
+    <item time="0" type="Rotation" target="n14_d1sn" value="32"/>
+    <item time="0" type="Scale" target="n6_d1sn" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3" ease="Expo.Out"/>
+    <item time="0" type="Scale" target="n8_d1sn" value="1,1.12"/>
+    <item time="0" type="Skew" target="n7_d1sn" tween="true" startValue="-4,0" endValue="0,0" duration="9"/>
+    <item time="0" type="Skew" target="n8_d1sn" value="0,2"/>
+    <item time="0" type="XY" target="n14_d1sn" value="486,244"/>
+    <item time="0" type="XY" target="n11_d1sn" value="514,258"/>
+    <item time="0" type="XY" target="n13_d1sn" value="534,221"/>
+    <item time="0" type="XY" target="n10_d1sn" value="526,158"/>
+    <item time="3" type="Alpha" target="n10_d1sn" tween="true" startValue="0" endValue="1" duration="6" ease="Expo.Out"/>
+    <item time="3" type="Alpha" target="n11_d1sn" tween="true" startValue="0" endValue="1" duration="6" ease="Expo.Out"/>
+    <item time="3" type="XY" target="n10_d1sn" tween="true" startValue="277,177" endValue="526,158" duration="6" ease="Expo.Out"/>
+    <item time="3" type="XY" target="n11_d1sn" tween="true" startValue="782,236" endValue="514,258" duration="6" ease="Expo.Out"/>
+    <item time="4" type="Skew" target="n8_d1sn" tween="true" startValue="0,2" endValue="0,-1" duration="8"/>
+    <item time="6" type="Alpha" target="n5_d1sn" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="6" type="Rotation" target="n5_d1sn" tween="true" startValue="-7" endValue="-1" duration="4"/>
+    <item time="6" type="XY" target="n5_d1sn" tween="true" startValue="383.55,392.5" endValue="530.5,376.5" duration="4"/>
+    <item time="9" type="Alpha" target="n13_d1sn" tween="true" startValue="0" endValue="1" duration="6" ease="Expo.Out"/>
+    <item time="9" type="XY" target="n13_d1sn" tween="true" startValue="534,221.05" endValue="475,183" duration="6"/>
+    <item time="10" type="Alpha" target="n14_d1sn" tween="true" startValue="0" endValue="1" duration="8" ease="Expo.Out"/>
+    <item time="10" type="XY" target="n14_d1sn" tween="true" startValue="486,244" endValue="474,238" duration="2"/>
+    <item time="12" type="Rotation" target="n14_d1sn" tween="true" startValue="32" endValue="0" duration="6" ease="Expo.Out"/>
+    <item time="12" type="XY" target="n14_d1sn" tween="true" startValue="474,238" endValue="469,235" duration="6" ease="Expo.Out"/>
+    <item time="18" type="Alpha" target="n12_d1sn" tween="true" startValue="0.6" endValue="1" duration="2"/>
+    <item time="18" type="Scale" target="n12_d1sn" tween="true" startValue="1.2,1.2" endValue="1,1" duration="2"/>
+  </transition>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="227,104">
+  <controller name="c1" pages="0,normal,1,disabled" selected="0"/>
+  <displayList>
+    <image id="n5_h21o" name="n5" src="is4d32" fileName="style0/pk/icon_pk_head_bg.png" xy="0,0"/>
+    <image id="n22_yjzs" name="bgScore" src="is4d2r" fileName="style0/other/con_head_gold_bot.png" xy="95,70" size="127,28"/>
+    <text id="n3_osvm" name="score" xy="118,69" size="100,32" fontSize="24" color="#d4c266" align="right" vAlign="middle" autoSize="none" strokeColor="#333333" strokeSize="2" text="100"/>
+    <image id="n23_yjzs" name="iconCoin" src="is4d25" fileName="style0/icon/icon_gold.png" xy="92,69"/>
+    <text id="n2_osvm" name="name" xy="95,9" size="125,28" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="player"/>
+    <loader id="n0_osvm" name="icon" xy="9,10" size="100,100" group="n20_yjzs" scale="0.8,0.8" url="ui://la8oslyoosvmbg" fill="scaleFree">
+      <gearColor controller="c1" pages="0" values="#ffffff" default="#787878"/>
+    </loader>
+    <image id="n1_osvm" name="n1" src="djq94" fileName="common/lobby/touxiangk.png" pkg="nji5wfgx" xy="8,10" size="102,102" group="n20_yjzs" scale="0.8,0.8"/>
+    <image id="n9_sbou" name="tagOffline" src="djq95" fileName="common/lobby/tag_offline.png" pkg="nji5wfgx" xy="10,46" group="n20_yjzs" scale="0.8,0.8" visible="false"/>
+    <image id="n15_tx3y" name="tagTrusteeship" src="q7l59" fileName="style0/icon/icon_trusteeship.png" xy="10,47" size="100,32" group="n20_yjzs" scale="0.8,0.8" visible="false"/>
+    <group id="n20_yjzs" name="n20" xy="8,10" size="102,102"/>
+  </displayList>
+</component>

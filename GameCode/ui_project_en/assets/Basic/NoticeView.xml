@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" adaptationTest="FitSize">
+  <displayList>
+    <graph id="n0_aks0" name="n0" xy="0,85" size="1334,54" alpha="0.8" type="rect" lineSize="0" fillColor="#ba000000">
+      <relation target="" sidePair="width-width,top-top"/>
+    </graph>
+    <text id="n1_aks0" name="txt" xy="287,92" size="760,39" fontSize="30" color="#ffffff" vAlign="middle" autoSize="height" singleLine="true" autoClearText="true" text="正在连接服务器...">
+      <relation target="n0_aks0" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

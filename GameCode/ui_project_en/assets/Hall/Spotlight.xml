@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,400">
+  <displayList>
+    <image id="n0_jxyy" name="n0" src="jxyyt8s" xy="985,-50" pivot="1,0" scale="1.5,1.5">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <image id="n1_jxyy" name="n1" src="jxyyt8t" xy="-5,-35" scale="1.5,1.5"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="999999">
+    <item time="0" type="Rotation" target="n0_jxyy" tween="true" startValue="0" endValue="9" duration="24" ease="Linear"/>
+    <item time="0" type="Rotation" target="n1_jxyy" tween="true" startValue="0" endValue="23" duration="24" ease="Linear"/>
+    <item time="24" type="Rotation" target="n0_jxyy" tween="true" startValue="9" endValue="-14" duration="24" ease="Linear"/>
+    <item time="24" type="Rotation" target="n1_jxyy" tween="true" startValue="23" endValue="5" duration="24" ease="Linear"/>
+    <item time="48" type="Rotation" target="n1_jxyy" tween="true" startValue="5" endValue="-20" duration="24" ease="Linear"/>
+    <item time="48" type="Rotation" target="n0_jxyy" tween="true" startValue="-14" endValue="5" duration="24" ease="Linear"/>
+    <item time="72" type="Rotation" target="n0_jxyy" tween="true" startValue="5" endValue="15" duration="24" ease="Linear"/>
+    <item time="72" type="Rotation" target="n1_jxyy" tween="true" startValue="-20" endValue="9" duration="24" ease="Linear"/>
+    <item time="96" type="Rotation" target="n0_jxyy" tween="true" startValue="15" endValue="-15" duration="24" ease="Linear"/>
+    <item time="96" type="Rotation" target="n1_jxyy" tween="true" startValue="9" endValue="24" duration="24" ease="Linear"/>
+    <item time="120" type="Rotation" target="n1_jxyy" tween="true" startValue="24" endValue="0" duration="24" ease="Linear"/>
+    <item time="120" type="Rotation" target="n0_jxyy" tween="true" startValue="-15" endValue="0" duration="24" ease="Linear"/>
+  </transition>
+</component>

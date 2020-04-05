@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,82">
+  <displayList>
+    <image id="n0_o8gl" name="n0" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n1_o8gl" name="n1" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n2_o8gl" name="n2" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n3_o8gl" name="n3" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n4_o8gl" name="n4" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n5_o8gl" name="n5" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n6_o8gl" name="n6" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n7_o8gl" name="n7" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n8_o8gl" name="n8" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n9_o8gl" name="n9" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n10_o8gl" name="n10" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n11_o8gl" name="n11" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n12_o8gl" name="n12" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n13_o8gl" name="n13" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n14_o8gl" name="n14" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+    <image id="n15_o8gl" name="n15" src="ayoe6f" fileName="素材/小扑克/扑克.png" xy="250,43" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+  <transition name="showXP">
+    <item time="0" type="XY" target="n9_o8gl" tween="true" startValue="250,43" endValue="289,41" duration="8"/>
+    <item time="0" type="XY" target="n5_o8gl" tween="true" startValue="250,43" endValue="185,41" duration="8"/>
+    <item time="0" type="XY" target="n15_o8gl" tween="true" startValue="250,43" endValue="445,41" duration="8"/>
+    <item time="0" type="XY" target="n6_o8gl" tween="true" startValue="250,43" endValue="211,41" duration="8"/>
+    <item time="0" type="XY" target="n7_o8gl" tween="true" startValue="250,43" endValue="237,41" duration="8"/>
+    <item time="0" type="XY" target="n4_o8gl" tween="true" startValue="250,43" endValue="159,41" duration="8"/>
+    <item time="0" type="XY" target="n1_o8gl" tween="true" startValue="250,43" endValue="81,41" duration="8"/>
+    <item time="0" type="XY" target="n12_o8gl" tween="true" startValue="250,43" endValue="367,41" duration="8"/>
+    <item time="0" type="XY" target="n10_o8gl" tween="true" startValue="250,43" endValue="315,41" duration="8"/>
+    <item time="0" type="XY" target="n11_o8gl" tween="true" startValue="250,43" endValue="341,41" duration="8"/>
+    <item time="0" type="XY" target="n14_o8gl" tween="true" startValue="250,43" endValue="419,41" duration="8"/>
+    <item time="0" type="XY" target="n8_o8gl" tween="true" startValue="250,43" endValue="263,41" duration="8"/>
+    <item time="0" type="XY" target="n3_o8gl" tween="true" startValue="250,43" endValue="133,41" duration="8"/>
+    <item time="0" type="XY" target="n13_o8gl" tween="true" startValue="250,43" endValue="393,41" duration="8"/>
+    <item time="0" type="XY" target="n2_o8gl" tween="true" startValue="250,43" endValue="107,41" duration="8"/>
+    <item time="0" type="XY" target="n0_o8gl" tween="true" startValue="250,43" endValue="55,41" duration="8"/>
+    <item time="8" type="XY" target="n7_o8gl" tween="true" startValue="237,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n10_o8gl" tween="true" startValue="315,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n14_o8gl" tween="true" startValue="419,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n1_o8gl" tween="true" startValue="81,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n8_o8gl" tween="true" startValue="263,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n9_o8gl" tween="true" startValue="289,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n11_o8gl" tween="true" startValue="341,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n0_o8gl" tween="true" startValue="55,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n15_o8gl" tween="true" startValue="445,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n2_o8gl" tween="true" startValue="107,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n4_o8gl" tween="true" startValue="159,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n6_o8gl" tween="true" startValue="211,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n5_o8gl" tween="true" startValue="185,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n3_o8gl" tween="true" startValue="133,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n12_o8gl" tween="true" startValue="367,41" endValue="250,41" duration="9"/>
+    <item time="8" type="XY" target="n13_o8gl" tween="true" startValue="393,41" endValue="250,41" duration="9"/>
+    <item time="17" type="XY" target="n8_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n3_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n12_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n15_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n6_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n5_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n1_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n14_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n0_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n4_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n10_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n9_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n11_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n2_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n13_o8gl" tween="true" startValue="250,41"/>
+    <item time="17" type="XY" target="n7_o8gl" tween="true" startValue="250,41"/>
+  </transition>
+</component>

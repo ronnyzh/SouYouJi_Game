@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="833,77">
+  <controller name="c_showBar" pages="0,,1,,2,,3,,4," selected="4"/>
+  <displayList>
+    <loader id="n0_iuo1" name="bg" xy="0,0" size="833,77" locked="true" touchable="false" url="ui://nwo0j1cxayoed" autoSize="true"/>
+    <component id="n1_iuo1" name="bei_1" src="nzea7h" fileName="素材/按钮/1倍按钮.xml" xy="351,8">
+      <gearXY controller="c_showBar" pages="1,2,3,4" values="133,8|151,8|251,8|351,8" default="51,8"/>
+    </component>
+    <component id="n2_iuo1" name="bei_2" src="nzea7j" fileName="素材/按钮/2倍按钮.xml" xy="201,8">
+      <gearDisplay controller="c_showBar" pages="0,1,2,3"/>
+      <gearXY controller="c_showBar" pages="1,2,3" values="283,8|351,8|451,8" default="201,8"/>
+    </component>
+    <component id="n3_iuo1" name="bei_3" src="nzea7k" fileName="素材/按钮/3倍按钮.xml" xy="351,8">
+      <gearDisplay controller="c_showBar" pages="0,1,2"/>
+      <gearXY controller="c_showBar" pages="1,2" values="433,8|551,8" default="351,8"/>
+    </component>
+    <component id="n4_iuo1" name="bei_4" src="nzea7l" fileName="素材/按钮/4倍按钮.xml" xy="501,8">
+      <gearDisplay controller="c_showBar" pages="0,1"/>
+      <gearXY controller="c_showBar" pages="1" values="583,8" default="501,8"/>
+    </component>
+    <component id="n5_iuo1" name="bei_5" src="nzea7m" fileName="素材/按钮/5倍按钮.xml" xy="651,7">
+      <gearDisplay controller="c_showBar" pages="0"/>
+      <gearXY controller="c_showBar" default="651,7"/>
+    </component>
+  </displayList>
+</component>

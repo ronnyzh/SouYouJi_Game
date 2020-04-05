@@ -1,0 +1,3 @@
+class PreloadingMaster extends Master{
+    
+}

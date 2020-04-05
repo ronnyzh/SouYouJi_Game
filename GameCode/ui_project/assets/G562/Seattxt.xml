@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <displayList>
+    <loader id="n4_kbsj" name="icon" xy="0,0" size="150,150" url="ui://la8oslyoosvmbg" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n5_kbsj" name="n5" src="gq9hscd2" fileName="shisan/head/头像-数字底.png" xy="0,113" size="150,36">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <text id="n3_kbsj" name="goldtxt" xy="1,112" size="125,32" scale="1.2,1.2" font="ui://rjf5583xprh340" fontSize="18" align="center" vAlign="bottom" autoSize="none" singleLine="true" autoClearText="true" text="339,222">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n2_osvm" name="name" xy="19,156" size="112,28" font="方正准圆简体" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#666666" strokeSize="2" singleLine="true" autoClearText="true" text="用户名有多长">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n6_gchs" name="tfscore" src="er436o" fileName="tfScore.xml" pkg="rjf5583x" xy="-103,149" scale="1.8,1.8" controller="c1,0"/>
+  </displayList>
+</component>

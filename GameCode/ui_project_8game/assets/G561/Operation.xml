@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="c1" pages="8,normal,9,enabled" selected="1"/>
+  <displayList>
+    <component id="n51_yjzs" name="btnPass" src="f936y6l" fileName="component/btnOperationItemRed.xml" xy="109,659" size="207,71" group="n140_q8w2">
+      <gearLook controller="c1" pages="8" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title=" " icon="ui://dung4bqc9it5y6t"/>
+    </component>
+    <component id="n56_yjzs" name="btnAdd" src="f936y6m" fileName="component/btnOperationItemYellow.xml" xy="336,658" size="207,71" group="n140_q8w2">
+      <gearLook controller="c1" pages="8" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title=" " icon="ui://dung4bqcrkyqy8d"/>
+    </component>
+    <component id="n53_yjzs" name="btnContrast" src="fqpzy8f" fileName="component/btnOperationItemBlue2.xml" xy="563,658" size="207,71" group="n140_q8w2">
+      <gearLook controller="c1" pages="8" values="1,0,1,0" default="1,0,0,1"/>
+      <Button titleFontSize="25" icon="ui://dung4bqc9it5y6q"/>
+    </component>
+    <component id="n55_yjzs" name="btnFallow" src="fqpzy8e" fileName="component/btnOperationItemPurple2.xml" xy="790,658" size="207,71" group="n140_q8w2">
+      <gearLook controller="c1" pages="8" values="1,0,1,0" default="1,0,0,1"/>
+      <Button titleFontSize="25" icon="ui://dung4bqc9it5y6r"/>
+    </component>
+    <component id="n57_yjzs" name="btnAuto" src="f936y6k" fileName="component/btnOperationItemPurple.xml" xy="790,658" size="207,71" group="n140_q8w2" hideByEditor="true" controller="auto,0">
+      <gearLook controller="c1" pages="8,9" values="1,0,0,1|1,0,0,1"/>
+      <Button title=" " icon="ui://dung4bqc9it5y6p"/>
+    </component>
+    <component id="n142_n73p" name="btnSingle" src="f936y6k" fileName="component/btnOperationItemPurple.xml" xy="1017,658" size="207,71" group="n140_q8w2" controller="auto,0">
+      <gearLook controller="c1" pages="8" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title=" " icon="ui://dung4bqcwyshy8g"/>
+    </component>
+    <group id="n140_q8w2" name="left" xy="109,658" size="1115,72" group="n60_yjzs"/>
+    <component id="n45_tx3y" name="btnBrandType" src="q7l5u" fileName="component/btnOperationItem.xml" xy="111,876" size="141,69" group="n141_q8w2" visible="false">
+      <gearLook controller="c1" pages="8,9" values="1,0,1,0|1,0,0,1"/>
+      <Button title="牌型" icon="ui://dung4bqcq7l5t"/>
+    </component>
+    <component id="n52_yjzs" name="btnWatch" src="q7l5u" fileName="component/btnOperationItem.xml" xy="109,958" size="141,69" group="n141_q8w2" visible="false">
+      <gearLook controller="c1" pages="8" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="看牌" icon="ui://dung4bqcq7l5t"/>
+    </component>
+    <component id="n54_yjzs" name="btnAll" src="q7l5u" fileName="component/btnOperationItem.xml" xy="109,796" size="141,69" group="n141_q8w2" visible="false">
+      <gearLook controller="c1" pages="8" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="全压" icon="ui://dung4bqcq7l5t"/>
+    </component>
+    <group id="n141_q8w2" name="right" xy="109,796" size="143,231" group="n60_yjzs" visible="false" advanced="true"/>
+    <group id="n60_yjzs" name="container" xy="109,658" size="1115,369" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n68_bs3w" name="n68" src="is4d2w" fileName="style0/other/con_title_bot_bar.png" xy="3,-2" size="315,675" group="n69_bs3w">
+      <relation target="" sidePair="left-left,top-top"/>
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <image id="n62_bs3w" name="n62" src="is4d2y" fileName="style0/other/con_title_pokernn.png" xy="3,-1" size="314,65" group="n69_bs3w">
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n65_bs3w" name="n65" src="is4d2x" fileName="style0/other/con_title_bot_bar2.png" xy="1,65" size="317,98" group="n74_bs3w"/>
+    <image id="n70_bs3w" name="n70" src="q7l50" fileName="card/card_a1.png" xy="4,80" size="49,70" group="n74_bs3w"/>
+    <image id="n71_bs3w" name="n71" src="bs3w3p" fileName="card/card_b1.png" xy="80,80" size="49,70" group="n74_bs3w"/>
+    <image id="n72_bs3w" name="n72" src="bs3w3q" fileName="card/card_c1.png" xy="156,80" size="49,70" group="n74_bs3w"/>
+    <text id="n73_bs3w" name="n73" xy="205,92" pivot="0,0.5" size="107,45" group="n74_bs3w" fontSize="18" color="#ffffff" align="center" autoSize="none" text="Three-of-a-kind"/>
+    <group id="n74_bs3w" name="n74" xy="1,65" size="317,98" group="n69_bs3w" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n110_ft7s" name="n110" src="is4d2x" fileName="style0/other/con_title_bot_bar2.png" xy="1,165" size="316,98" group="n115_ft7s"/>
+    <image id="n111_ft7s" name="n111" src="q7l50" fileName="card/card_a1.png" xy="4,178" size="49,70" group="n115_ft7s"/>
+    <image id="n112_ft7s" name="n112" src="bs3w3r" fileName="card/card_a13.png" xy="80,178" size="49,70" group="n115_ft7s"/>
+    <image id="n113_ft7s" name="n113" src="bs3w3s" fileName="card/card_a12.png" xy="156,178" size="49,70" group="n115_ft7s"/>
+    <text id="n114_ft7s" name="n114" xy="204,190" pivot="0,0.5" size="107,45" group="n115_ft7s" fontSize="18" color="#ffffff" align="center" autoSize="none" text="Straight Flush"/>
+    <group id="n115_ft7s" name="n115" xy="1,165" size="316,98" group="n69_bs3w" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n116_ft7s" name="n116" src="is4d2x" fileName="style0/other/con_title_bot_bar2.png" xy="2,264" size="316,98" group="n121_ft7s"/>
+    <image id="n117_ft7s" name="n117" src="bs3w3u" fileName="card/card_a8.png" xy="5,277" size="49,70" group="n121_ft7s"/>
+    <image id="n118_ft7s" name="n118" src="bs3w3v" fileName="card/card_a11.png" xy="80,277" size="49,70" group="n121_ft7s"/>
+    <image id="n119_ft7s" name="n119" src="bs3w3t" fileName="card/card_a6.png" xy="157,277" size="49,70" group="n121_ft7s"/>
+    <text id="n120_ft7s" name="n120" xy="204,289" pivot="0,0.5" size="107,45" group="n121_ft7s" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Flush"/>
+    <group id="n121_ft7s" name="n121" xy="2,264" size="316,98" group="n69_bs3w" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n122_ft7s" name="n122" src="is4d2x" fileName="style0/other/con_title_bot_bar2.png" xy="1,364" size="316,98" group="n127_ft7s"/>
+    <image id="n123_ft7s" name="n123" src="bs3w3s" fileName="card/card_a12.png" xy="4,377" size="49,70" group="n127_ft7s"/>
+    <image id="n124_ft7s" name="n124" src="bs3w3x" fileName="card/card_d11.png" xy="79,377" size="49,70" group="n127_ft7s"/>
+    <image id="n125_ft7s" name="n125" src="bs3w3w" fileName="card/card_c10.png" xy="155,377" size="49,70" group="n127_ft7s"/>
+    <text id="n126_ft7s" name="n126" xy="203,389" pivot="0,0.5" size="107,45" group="n127_ft7s" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Straight"/>
+    <group id="n127_ft7s" name="n127" xy="1,364" size="316,98" group="n69_bs3w" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n128_ft7s" name="n128" src="is4d2x" fileName="style0/other/con_title_bot_bar2.png" xy="1,463" size="316,98" group="n133_ft7s"/>
+    <image id="n129_ft7s" name="n129" src="q7l50" fileName="card/card_a1.png" xy="4,476" size="49,70" group="n133_ft7s"/>
+    <image id="n130_ft7s" name="n130" src="bs3w3p" fileName="card/card_b1.png" xy="78,476" size="49,70" group="n133_ft7s"/>
+    <image id="n131_ft7s" name="n131" src="bs3w3z" fileName="card/card_c13.png" xy="154,476" size="49,70" group="n133_ft7s"/>
+    <text id="n132_ft7s" name="n132" xy="203,488" pivot="0,0.5" size="107,45" group="n133_ft7s" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Pair"/>
+    <group id="n133_ft7s" name="n133" xy="1,463" size="316,98" group="n69_bs3w" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n134_ft7s" name="n134" src="is4d2x" fileName="style0/other/con_title_bot_bar2.png" xy="2,562" size="316,98" group="n139_ft7s"/>
+    <image id="n135_ft7s" name="n135" src="q7l50" fileName="card/card_a1.png" xy="5,575" size="49,70" group="n139_ft7s"/>
+    <image id="n136_ft7s" name="n136" src="bs3w40" fileName="card/card_c9.png" xy="79,575" size="49,70" group="n139_ft7s"/>
+    <image id="n137_ft7s" name="n137" src="bs3w3v" fileName="card/card_a11.png" xy="155,575" size="49,70" group="n139_ft7s"/>
+    <text id="n138_ft7s" name="n138" xy="204,585" pivot="0,0.5" size="107,49" group="n139_ft7s" fontSize="20" color="#ffffff" align="center" autoSize="none" text="single cards"/>
+    <group id="n139_ft7s" name="n139" xy="2,562" size="316,98" group="n69_bs3w" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <group id="n69_bs3w" name="paixing" xy="1,-2" size="317,675" visible="false" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+      <relation target="" sidePair="height-height"/>
+    </group>
+    <image id="n106_zbq1" name="n106" src="zbq14c" fileName="style0/other/jiazhuBG.png" xy="279,489" pivot="0.5,0.5" size="776,146" group="n107_zbq1"/>
+    <list id="n108_zbq1" name="chipList" xy="289,504" pivot="0.5,0.5" size="748,123" group="n107_zbq1" layout="row" scroll="horizontal" colGap="10" defaultItem="ui://dung4bqczbq14a" autoItemSize="false" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n107_zbq1" name="jiazhu" xy="279,489" size="776,146" hideByEditor="true" visible="false" advanced="true" collapsed="true">
+      <relation target="" sidePair="left-center,bottom-bottom"/>
+    </group>
+  </displayList>
+  <transition name="showPaixing">
+    <item time="0" type="Visible" target="n69_bs3w" value="true"/>
+    <item time="0" type="XY" target="n69_bs3w" tween="true" startValue="-400,1" endValue="0,1" duration="12"/>
+    <item time="12" type="Visible" target="n69_bs3w" value="true"/>
+  </transition>
+  <transition name="showJiazhu">
+    <item time="0" type="Alpha" target="n108_zbq1" value="0"/>
+    <item time="0" type="Size" target="n106_zbq1" tween="true" startValue="-,0" endValue="-,146" duration="8"/>
+    <item time="0" type="Visible" target="n107_zbq1" value="false"/>
+    <item time="1" type="Visible" target="n107_zbq1" value="true"/>
+    <item time="2" type="Alpha" target="n108_zbq1" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="8" type="Visible" target="n107_zbq1" value="true"/>
+  </transition>
+</component>

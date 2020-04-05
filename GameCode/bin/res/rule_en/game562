@@ -1,0 +1,1923 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "Basic Rules:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+        	"content":"[No. of player]"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight":40,
+        	"content":""
+        },
+
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 45,
+        	"content":"2~5, at least 2 person to start the game."
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "itemHeight": 45,
+        	"content":""
+        },
+
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":140,
+            "itemHeight": 40,
+        	"content":"[Cards]"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":760,
+            "itemHeight": 40,
+        	"content":""
+        },
+
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+        	"content":"2~4 players: A deck of 52 cards, includes thirteen ranks of each suit clubs, diamonds, hearts, and spades."
+        },
+
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"5 players: A deck of 65 cards, includes thirteen ranks of each suit clubs, diamonds, hearts, and spades + another thirteen ranks of spades suit."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "Game Rules:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "itemHeight":40,
+            "content":"[Deal]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"Each player receives a 13-card right after the game starts."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "itemHeight":40,
+            "content":"[Setting]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"Each player may choose either automatically or manually set hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "itemHeight":40,
+            "content":"[Reveal]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"The hand is automatically revealed after the setting."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "itemHeight":40,
+            "content":"[Compare]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"Compare three hands accordingly."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "itemHeight":40,
+            "content":"[Sweep]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 80,
+            "content":"When comparing the hands, bonus point is rewarded for sweeping opponent’s all three hands;Sweep will double up the bonus (includes additional bonus);Sweep effect does not stack on Naturals."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 80,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Home Run]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":700,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 55,
+            "content":"Beating all three hands of all players;Only applicable when there is 4 players or more;Additional bonus on top of Sweep bonu."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 55,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "Bonuses:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":"[Three-of-a-kind in the front]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Three cards of one rank, receives 2 bonus units if the hand is stronger than the opponent."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "itemHeight":40,
+            "content":"[Pair]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Two cards of a rank + any one card of another rank; receives 1 bonus unit if win."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":30,
+            "content":"[High Card]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight":50,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"Five cards not all of sequential rank or of the same suit, and none of which are of the same rank."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":240,
+            "itemHeight":40,
+            "content":"[Hand-ranking]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":640,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 40,
+            "content":"Three-of-a-kind in the front > Pair > High Card."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 40,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":250,
+            "content": "Regular Hands:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":240,
+            "itemHeight":40,
+            "content":"[Five-of-a-kind]"
+        },
+        {
+            "type":1,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":660,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"Five cards of a rank; receives 19 bonus units for winning in the middle hand; receives 9 bonus units for winning in the back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":240,
+            "itemHeight":40,
+        	"content":"[Straight Flush]"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":660,
+            "itemHeight":40,
+        	"content":""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"3",
+        	"fontSize":28,
+            "itemWidth":880,
+            "itemHeight": 70,
+        	"content":"Five cards of sequential rank, all of the same suit; receives 9 bonus units for winning in the middle hand; receives 4 bonus units for winning in the back hand."
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 70,
+        	"content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Four-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":650,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 70,
+            "content":"Four cards of a rank + any one card of another rank; receives 7 bonus units for winning in the middle hand; receives 3 bonus units for winning in the back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 70,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Full House]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":650,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 70,
+            "content":"Three cards of a rank + a pair of another rank; receives 1 bonus unit for winning in the middle hand; no bonus unit for winning in the back hand, only receives 1 unit for winning the hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 70,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":140,
+            "itemHeight":40,
+            "content":"[Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":760,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Five cards all of the same suit; 1 unit for winning in both the middle and back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "itemHeight":40,
+            "content":"[Straight]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Five cards of sequential rank, not all of the same suit; 1 unit for winning in both the middle and back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Three-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":650,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Three cards of the same rank and two cards of two other ranks; 1 unit for winning in both the middle and back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Two Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":650,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Two sets of two cards of the same rank + any single card; 1 unit for winning in both the middle and back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "itemHeight":40,
+            "content":"[Pair]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Two cards of the same rank + 3 cards of different rank; 1 unit for winning in both the middle and back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[High Card]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":700,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Five cards not all of sequential rank or of the same suit, and none of which are of the same rank; 1 unit for winning in both the middle and back hand; cannot be set in the back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 70,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Hand-ranking]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":650,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Five-of-a-kind > Straight Flush > Four-of-a-kind > Full House > Flush > Straight > Three-of-a-kind > Two Pairs > Pair > High Card."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "Naturals:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Dragon Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Thirteen cards of sequential rank, all of the same suit; receives 104 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "itemHeight":40,
+            "content":"[Dragon]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Thirteen cards of sequential rank, not all of the same suit; receives 52 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":280,
+            "itemHeight":40,
+            "content":"[Seven-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":620,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"Seven cards of the same rank; receives 30 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Twelve Royal]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":650,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Thirteen cards which consists of only the highest four cards (A, K, Q, J); receives 26 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":450,
+            "itemHeight":40,
+            "content":"[Three Straight Flushes]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":450,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"All straight flushes in front, middle and back hands; receives 26 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":450,
+            "itemHeight":40,
+            "content":"[Three sets of Four-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":450,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Three sets of four cards of the same rank + any single card; receives 26 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Six-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":650,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 50,
+            "content":"Six cards of the same rank; receives 20 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Upper Cards]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":650,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Thirteen cards which consists of only the highest seven cards (8, 9, 10, J, Q, K, A), receives 6 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":250,
+            "itemHeight":40,
+            "content":"[Lower Cards]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":740,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Thirteen cards which consists of only the lowest seven cards (2, 3, 4, 5, 6, 7) + any aces; receives 6 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":300,
+            "itemHeight":40,
+            "content":"[One color]"
+        },
+
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":600,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 50,
+            "content":"Thirteen cards of either red or black; receives 6 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":750,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Four sets of Three-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Thirteen cards which consists of four sets of Three-of-a-kind and 1 single card; receives 6 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Five Pairs with Three-of-a-kind]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Thirteen cards which consists of five sets of two cards of the same rank and three cards of the same rank; receives 6 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":300,
+            "itemHeight":40,
+            "content":"[Six Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":600,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Thirteen cards which consists of six sets of two cards of the same rank and one single card; receives 6 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Three Straights]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"All Straights in front, middle and back hands; receives 6 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Three Flushes]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"All Flushes in front, middle and back hands; receives 6 units."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Hand-ranking]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 90,
+            "content":"Dragon Flush > Dragon > Seven-of-a-kind > Twelve Royal > Three Straight Flushes > Three Sets of Four-of-a-kind > Six-of-a-kind > Upper Cards > Lower Cards > One Color > Four sets of Three-of-a-kind > Five Pairs with Three-of-a-kind > Six Pairs > Three Straights > Three Flushes."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 90,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":400,
+            "content": "Hand Rankings:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":150,
+            "itemHeight":40,
+            "content":"[Overall]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"Naturals > Regular Hands ."
+        },
+        {
+            "type":3,
+            "itemStyle" : 0,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Ranking of the cards]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"A > K > Q > J > 10 > 9 > 8 > 7 > 6 > 5 > 4 > 3 > 2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Special Rules]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 90,
+            "content":"If two players set similar type of hand in the same hand, the one with higher card shall win;If two players have card of the same rank in the same hand, it’s tie;Flush shall compare the hand value: Two Pairs Flush > Pair Flush > Single Flush."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 90,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Foul]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 70,
+            "content":"The back hand must be stronger than or equal to the middle and the front, the middle must be stronger or equal to the front, otherwise, the hand is not legal and is considered fouled."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 70,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":500,
+            "content": "Rules of Calculation:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Basic formula]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 60,
+            "content":"Total units = Units gained for winning the front hand + units gained from middle hand + unit gained from back hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 60,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Gold]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"Win/Loss = Total units * base points."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Bonus unit]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"One unit for winning each hand + bonus unit."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Game commission]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"System may charge 5% of the profit from the winner."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":700,
+            "itemHeight":40,
+            "content":"[High return from low input is prohibited]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 50,
+            "content":"Win/loss may not exceed the Gold on hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "itemHeight": 50,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"6",
+            "fontSize":28,
+            "itemWidth":900,
+            "itemHeight": 110,
+            "content":"*Player may win/loss as much as the total Gold brought into current game round. If the player has brought in only 80, the player may only gain 80 utmost against one player due to the head-to-head nature of the comparisons, regardless the settlement count. If you defeated all 3 other players, the final win before deducting the commission will be 3*80=240 instead of 300."
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemWidth":880,
+            "itemHeight": 90,
+            "content":"* The final win/loss shall be based on the absolute value of the total win/loss; player with the lower absolute value (X) may win/loss the Gold according to the final win/loss Gold; while player with the higher absolute value (Y) may be the final win/loss/Y*X."
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"10",
+            "fontSize":28,
+            "itemWidth":870,
+            "itemHeight": 80,
+            "content":"* E.g.: Player A, B, C, D brought in 1,000, 500, 200, and 500 Gold respectively, corresponding win/loss is -200, -500, +200, and +100. The final win/loss become -200, -500, +200, +100 due to the nature of “High return from low input is prohibited”. The absolute value for total win is 200+100=300 (Player C and D), and the absolute value for total loss is -200-500=-700 (Player A and B). Since the absolute value for total loss is greater than the absolute value for total win (-700 vs 300), therefore, total win for Player C and D would be 200* (1-0.05) and 100* (1-0.05) respectively; total loss for Player A and B would be (-200) /700*300 and (-500) /700*300 respectively. The total win/loss for Player A, B, C, and D is -85.71、-214.28、190、95 respectively."
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"7",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 40,
+            "content":""
+        }
+        
+
+
+
+
+        
+    ]
+}

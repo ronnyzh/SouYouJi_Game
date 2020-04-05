@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="166,74">
+  <displayList>
+    <image id="n0_yjzs" name="n0" src="is4d2v" xy="0,0" size="166,74" visible="false"/>
+    <text id="n1_yjzs" name="tfTalk" xy="50,15" size="65,39" visible="false" fontSize="30" color="#ffffff" text="全压">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" target="n1_yjzs" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Visible" target="n1_yjzs" value="true"/>
+    <item time="0" type="Visible" target="n0_yjzs" value="true"/>
+    <item time="72" type="Visible" target="n0_yjzs" value="true"/>
+    <item time="72" type="Visible" target="n1_yjzs" value="true"/>
+  </transition>
+</component>

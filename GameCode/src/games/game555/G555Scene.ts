@@ -1,0 +1,1 @@
+class G555Scene extends GallScene{}

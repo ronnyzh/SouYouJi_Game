@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,45">
+  <controller name="c2" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14,,15,,16,,17,,18,,19,,20,,21,,22,,23,,24,,25," selected="0"/>
+  <displayList>
+    <image id="n0_dxh2" name="n0" src="dxh25p" fileName="string/bei_5.png" xy="-24,-5">
+      <gearDisplay controller="c2" pages="5"/>
+    </image>
+    <image id="n1_dxh2" name="n1" src="dxh25l" fileName="string/bei_10.png" xy="-33,-5">
+      <gearDisplay controller="c2" pages="10"/>
+    </image>
+    <image id="n2_dxh2" name="n2" src="dxh25m" fileName="string/bei_15.png" xy="-33,-5">
+      <gearDisplay controller="c2" pages="15"/>
+    </image>
+    <image id="n3_dxh2" name="n3" src="dxh25n" fileName="string/bei_20.png" xy="-34,-5">
+      <gearDisplay controller="c2" pages="20"/>
+    </image>
+    <image id="n4_dxh2" name="n4" src="dxh25o" fileName="string/bei_25.png" xy="-34,-5">
+      <gearDisplay controller="c2" pages="25"/>
+    </image>
+    <text id="n6_rkyq" name="title" xy="-3,1" size="92,45" hideByEditor="true" visible="false" font="ui://rjf5583xwm2e33" fontSize="12" align="center" vAlign="middle" autoSize="none" text="x25"/>
+  </displayList>
+</component>

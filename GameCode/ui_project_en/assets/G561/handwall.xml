@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,114">
+  <controller name="c1" exported="true" pages="0,normal,1,watch,2,giveup,3,baozi,4,danpai,5,duizi,6,jinhua,8,shunjin,9,shunzi,10,lose,11,doWatch" selected="0">
+    <action type="play_transition" fromPage="" toPage="8" transition="shunjin"/>
+    <action type="play_transition" fromPage="" toPage="3" transition="baozi"/>
+  </controller>
+  <controller name="c2" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n17_yjzs" name="card" src="yjzs36" fileName="Card.xml" xy="30,7" pivot="0.5,1" group="n20_yjzs" scale="1.25,1.25">
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,8,9,10,11" values="30,7|44,7|44,7|30,7|30,7|30,7|30,7|30,7|30,7|30,7|30,7"/>
+      <gearSize controller="c2" pages="1" values="76,106,1.25,1.25" default="76,106,1,1"/>
+      <gearLook controller="c1" pages="1,2,10,11" values="1,-25,0,1|1,-25,1,0|1,0,1,1|1,0,0,1" default="1,0,0,1"/>
+    </component>
+    <component id="n23_yjzs" name="card" src="yjzs36" fileName="Card.xml" xy="61,7" pivot="0.5,1" group="n20_yjzs" scale="1.25,1.25">
+      <gearXY controller="c1" pages="0,1,2,4,5,6,8,9,10,11" values="61,7|62,3|62,3|62,7|61,7|61,7|61,7|61,7|61,7|62,7" default="62,7"/>
+      <gearSize controller="c2" pages="1" values="76,106,1.25,1.25" default="76,106,1,1"/>
+      <gearLook controller="c1" pages="2,10" values="1,0,1,0|1,0,1,1" default="1,0,0,1"/>
+    </component>
+    <component id="n24_yjzs" name="card" src="yjzs36" fileName="Card.xml" xy="92,7" pivot="0.5,1" group="n20_yjzs" scale="1.25,1.25">
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,8,9,10,11" values="92,7|75,7|75,7|92,7|92,7|92,7|92,7|92,7|92,7|92,7|92,7"/>
+      <gearSize controller="c2" pages="1" values="76,106,1.25,1.25" default="76,106,1,1"/>
+      <gearLook controller="c1" pages="1,2,10,11" values="1,25,0,1|1,25,1,0|1,0,1,1|1,0,0,1" default="1,0,0,1"/>
+    </component>
+    <group id="n20_yjzs" name="tileGroup" xy="30,7" size="138,106" advanced="true"/>
+    <image id="n2_yjzs" name="n2" src="is4d2g" fileName="style0/nn/nnBottom.png" xy="5,59" size="190,47" group="n3_yjzs"/>
+    <image id="n1_yjzs" name="n1" src="is4d27" fileName="style0/icon/tag_kanpai.png" xy="14,47" size="166,68" group="n3_yjzs"/>
+    <group id="n3_yjzs" name="tagWatched" xy="5,47" size="190,68" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n4_yjzs" name="n4" src="is4d2g" fileName="style0/nn/nnBottom.png" xy="5,58" group="n7_yjzs"/>
+    <image id="n6_yjzs" name="n6" src="is4d2l" fileName="style0/nn/nn_qipai.png" xy="49,58" group="n7_yjzs"/>
+    <group id="n7_yjzs" name="tagGiveup" xy="5,58" size="190,47" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <image id="n8_yjzs" name="bgFamous" src="is4d2g" fileName="style0/nn/nnBottom.png" xy="5,59" group="n9_yjzs">
+      <gearDisplay controller="c1" pages="3,4,5,6,7,8,9"/>
+    </image>
+    <image id="n10_yjzs" name="baozi" src="is4d2h" fileName="style0/nn/nn_baozi.png" xy="16,47" size="173,68" group="n9_yjzs">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n11_yjzs" name="danpai" src="is4d2i" fileName="style0/nn/nn_danpai.png" xy="23,64" size="151,40" group="n9_yjzs">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+    <image id="n12_yjzs" name="duizi" src="is4d2j" fileName="style0/nn/nn_duizi.png" xy="51,61" size="98,40" group="n9_yjzs">
+      <gearDisplay controller="c1" pages="5"/>
+    </image>
+    <image id="n13_yjzs" name="jinhua" src="is4d2k" fileName="style0/nn/nn_jinhua.png" xy="40,64" size="129,40" group="n9_yjzs">
+      <gearDisplay controller="c1" pages="6"/>
+    </image>
+    <image id="n15_yjzs" name="shunjin" src="is4d2m" fileName="style0/nn/nn_shunjin.png" xy="-41,59" size="283,53" group="n9_yjzs">
+      <gearDisplay controller="c1" pages="8"/>
+    </image>
+    <image id="n16_yjzs" name="shunzi" src="is4d2n" fileName="style0/nn/nn_shunzi.png" xy="0,60" group="n9_yjzs">
+      <gearDisplay controller="c1" pages="9"/>
+    </image>
+    <image id="n25_ft7s" name="shunzi" src="ft7s4h" fileName="style0/nn/nn_fail.png" xy="14,53" size="172,71" group="n9_yjzs">
+      <gearDisplay controller="c1" pages="10"/>
+    </image>
+    <group id="n9_yjzs" name="tagFamous" xy="-41,47" size="283,77"/>
+    <image id="n27_m6dn" name="n27" src="m6dny6j" fileName="style0/nn/doWatch.png" xy="30,62" size="135,48" group="n28_m6dn"/>
+    <group id="n28_m6dn" name="tagDoWatch" xy="30,62" size="135,48" advanced="true">
+      <gearDisplay controller="c1" pages="11"/>
+    </group>
+    <graph id="n29_m6dn" name="clickLayer" xy="0,0" size="200,114" locked="true" type="rect" lineSize="0" fillColor="#00ffffff"/>
+  </displayList>
+  <transition name="shunjin">
+    <item time="0" type="Sound" value="ui://dung4bqc103jy5c,100"/>
+  </transition>
+  <transition name="baozi">
+    <item time="0" type="Sound" value="ui://dung4bqc103jy5b,100"/>
+  </transition>
+</component>

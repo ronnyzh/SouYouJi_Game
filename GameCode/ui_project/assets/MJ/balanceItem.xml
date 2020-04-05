@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1055,156">
+  <displayList>
+    <image id="n85_jlz3" name="n85" src="kstv1b" fileName="effect/lwgc_effect_start_bg.png" xy="-43,28" size="1147,112"/>
+    <list id="n77_jlz3" name="tileList" xy="20,32" size="202,124" scale="0.8,0.8" touchable="false" layout="pagination" defaultItem="ui://ejgb8krjkstv1i" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n79_jlz3" name="out_tiles" xy="343,51" size="266,96" scale="0.8,0.8" layout="row" selectionMode="none" lineGap="-167" defaultItem="ui://ejgb8krjkteuy" vAlign="bottom" renderOrder="descent" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n80_jlz3" name="tfName" xy="56,-10" size="159,30" font="黑体" fontSize="26" autoSize="none" singleLine="true" text="玩家名字太长"/>
+    <text id="n81_jlz3" name="tfHued" xy="232,-10" size="109,30" font="黑体" fontSize="26" color="#990000" text="玩家名字"/>
+    <image id="n82_jlz3" name="imgBanker" src="mr4a3v" fileName="textures/table/庄.png" xy="-5,-23"/>
+    <text id="n83_jlz3" name="tfScore" xy="806,70" size="109,30" font="黑体" fontSize="26" color="#ffffff" align="center" vAlign="middle" text="玩家名字"/>
+    <image id="n84_jlz3" name="imgHued" src="kstv14" fileName="effect/lwgc_effect_hu.png" xy="937,30"/>
+  </displayList>
+</component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="211,211">
+  <controller name="c1" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n30_v4t8" name="bg" xy="0,0" size="211,211" locked="true" visible="false" touchable="false" url="ui://wtkqufwmqme6di" autoSize="true"/>
+    <loader id="n32_wnsc" name="blink" xy="91,104" pivot="0.5,0.5" anchor="true" size="302,272" scale="0.81,0.81" alpha="0" touchable="false" url="ui://wtkqufwmme0iip" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearXY controller="c1" pages="0,1,2" values="91,104|105,98|116,103"/>
+      <gearSize controller="c1" pages="0,1,2" values="302,272,0.81,0.81|300,306,0.76,0.75|300,270,0.81,0.81"/>
+      <gearIcon controller="c1" pages="0,1,2" values="ui://wtkqufwmme0iip|ui://wtkqufwmrb6tj0|ui://wtkqufwmme0iio"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n26_wsis" name="n26" xy="105,105" pivot="0.5,0.5" anchor="true" size="211,211" locked="true" scale="0.3,0.3" visible="false" touchable="false" url="ui://wtkqufwmali7cx" fill="scaleFree">
+      <gearIcon controller="c1" pages="0,1,2" values="ui://wtkqufwmali7cx|ui://wtkqufwmali7cz|ui://wtkqufwmali7cy"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n31_pmql" name="n31" xy="0,14" size="211,148" locked="true" visible="false" alpha="0.3" touchable="false" type="rect" fillColor="#ff00ff99">
+      <relation target="n28_miny" sidePair="width-width,height-height"/>
+      <relation target="n28_miny" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n28_miny" name="area" src="tamm3u" fileName="Component/item/empty.xml" xy="0,14" size="211,148" locked="true" visible="false" touchable="false">
+      <gearXY controller="c1" pages="0,2" values="0,14|0,14" default="0,31"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n24_tamm" name="clickRect" src="t3j3du" fileName="三人场用图/组件/下注区点击.xml" xy="0,0" size="211,211" locked="true" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n21_l6ym" name="txtTotalChip" xy="94,200" pivot="1,0.5" anchor="true" size="15,24" locked="true" font="ui://rjf5583xprh340" fontSize="17" color="#ffff00" vAlign="middle" text="0">
+      <relation target="" sidePair="left-center,bottom-bottom"/>
+    </text>
+    <text id="n27_miny" name="slash" xy="104,199" pivot="0.5,0.5" anchor="true" size="14,22" locked="true" filter="color" filterData="0.86,0.00,0.00,0.00" font="ui://wtkqufwmpmqlev" fontSize="13" color="#66ccff" align="center" text="/">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n23_l6ym" name="txtSelfChip" xy="114,200" pivot="0,0.5" anchor="true" size="16,22" locked="true" font="ui://wtkqufwmpmqlev" fontSize="13" color="#66ccff" vAlign="middle" ubb="true" text="0">
+      <relation target="" sidePair="left-center,bottom-bottom"/>
+    </text>
+  </displayList>
+  <transition name="blinkLight">
+    <item time="0" type="Alpha" target="n32_wnsc" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="6" type="Alpha" target="n32_wnsc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="12" type="Alpha" target="n32_wnsc" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="18" type="Alpha" target="n32_wnsc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n32_wnsc" tween="true" startValue="1"/>
+  </transition>
+</component>

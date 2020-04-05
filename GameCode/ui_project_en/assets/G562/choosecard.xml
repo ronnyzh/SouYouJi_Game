@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" adaptationTest="FitSize">
+  <controller name="choose" pages="0,自动,1,手动" selected="0"/>
+  <displayList>
+    <graph id="n70_s677" name="n70" xy="2,0" size="1334,750" type="rect" lineColor="#4a999999" fillColor="#80000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n2_r73m" name="n2" src="r73m6m" fileName="shisan/choosecard/理牌区底板.png" xy="245,14" pivot="0.5,0.5" scale="0.85,0.85">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n3_r73m" name="n3" src="r73m6p" fileName="shisan/choosecard/头墩.png" xy="350,109" scale="0.6,0.6">
+      <relation target="n2_r73m" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n4_r73m" name="n4" src="r73m72" fileName="shisan/choosecard/中墩.png" xy="338,229" scale="0.6,0.6">
+      <relation target="n2_r73m" sidePair="left-left,middle-middle"/>
+    </image>
+    <image id="n5_r73m" name="n5" src="r73m6q" fileName="shisan/choosecard/尾墩.png" xy="350,369" scale="0.6,0.6">
+      <relation target="n2_r73m" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <image id="n57_fzs8" name="n57" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="532,74" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n58_fzs8" name="n58" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="642,74" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,top-top"/>
+    </image>
+    <image id="n59_fzs8" name="n59" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="752,74" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="right-right,top-top"/>
+    </image>
+    <image id="n60_fzs8" name="n60" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="420,195" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="left-left,middle-middle"/>
+    </image>
+    <image id="n61_fzs8" name="n61" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="530,195" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="left-left,middle-middle"/>
+    </image>
+    <image id="n62_fzs8" name="n62" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="640,195" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n63_fzs8" name="n63" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="750,195" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="right-right,middle-middle"/>
+    </image>
+    <image id="n64_fzs8" name="n64" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="860,195" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="right-right,middle-middle"/>
+    </image>
+    <image id="n65_fzs8" name="n65" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="420,322" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <image id="n66_fzs8" name="n66" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="530,322" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <image id="n67_fzs8" name="n67" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="640,322" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n68_fzs8" name="n68" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="750,322" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n69_fzs8" name="n69" src="r73m6g" fileName="shisan/choosecard/凹槽.png" xy="860,322" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n27_r73m" name="n27" src="r73m6z" fileName="shisan/choosecard/点击或拖动扑克牌可进行调整.png" xy="493,442" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n31_r73m" name="n31" src="r73m6f" fileName="shisan/choosecard/按钮底框.png" xy="254,473" pivot="0.5,0.5" scale="0.85,0.85">
+      <gearDisplay controller="choose" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n72_lcgo" name="n72" src="r73m6j" fileName="shisan/choosecard/倒计时.png" xy="865,109">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n73_lcgo" name="n73" src="r73m6j" fileName="shisan/choosecard/倒计时.png" xy="906,109">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n71_czo8" name="daoshuiImg" src="czo8c81" fileName="shisan/倒水.png" xy="585,209" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n77_lvff" name="tip" src="lvffsc8s" fileName="Btn/tip.xml" xy="0,0" visible="false">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </component>
+    <component id="n38_r73m" name="0" src="r73m78" fileName="card_loader.xml" xy="574,133" group="n10_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n39_r73m" name="1" src="r73m78" fileName="card_loader.xml" xy="684,133" group="n10_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n40_r73m" name="2" src="r73m78" fileName="card_loader.xml" xy="794,133" group="n10_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n10_r73m" name="tou" xy="584,100" size="319,137"/>
+    <component id="n41_r73m" name="3" src="r73m78" fileName="card_loader.xml" xy="463,254" group="n18_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="left-left,middle-middle"/>
+    </component>
+    <component id="n42_r73m" name="4" src="r73m78" fileName="card_loader.xml" xy="573,254" group="n18_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n43_r73m" name="5" src="r73m78" fileName="card_loader.xml" xy="683,254" group="n18_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n44_r73m" name="6" src="r73m78" fileName="card_loader.xml" xy="793,254" group="n18_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n45_r73m" name="7" src="r73m78" fileName="card_loader.xml" xy="903,254" group="n18_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n18_r73m" name="zhong" xy="463,254" size="539,137"/>
+    <component id="n46_r73m" name="8" src="r73m78" fileName="card_loader.xml" xy="463,381" group="n26_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n47_r73m" name="9" src="r73m78" fileName="card_loader.xml" xy="573,381" group="n26_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n48_r73m" name="10" src="r73m78" fileName="card_loader.xml" xy="683,381" group="n26_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n49_r73m" name="11" src="r73m78" fileName="card_loader.xml" xy="793,381" group="n26_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n50_r73m" name="12" src="r73m78" fileName="card_loader.xml" xy="903,381" group="n26_r73m" scale="0.85,0.85">
+      <relation target="n2_r73m" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n26_r73m" name="wei" xy="463,381" size="539,137"/>
+    <component id="n28_r73m" name="delecrBtn_tou" src="r73m73" fileName="Btn/emptyBtn.xml" xy="943,111" scale="0.85,0.85">
+      <gearDisplay controller="choose" pages="1"/>
+      <relation target="n2_r73m" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n30_r73m" name="delecrBtn_zhong" src="r73m73" fileName="Btn/emptyBtn.xml" xy="943,239" scale="0.85,0.85">
+      <gearDisplay controller="choose" pages="1"/>
+      <relation target="n2_r73m" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n29_r73m" name="delecrBtn_wei" src="r73m73" fileName="Btn/emptyBtn.xml" xy="943,360" scale="0.85,0.85">
+      <gearDisplay controller="choose" pages="1"/>
+      <relation target="n2_r73m" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n51_r73m" name="specialBtn" src="r73m79" fileName="Btn/specialBtn.xml" xy="38,585" visible="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n52_r73m" name="richardBtn" src="r73m7a" fileName="Btn/RichardBtn.xml" xy="1127,585">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <list id="n32_r73m" name="BtnList" xy="331,491" size="814,150" scale="0.85,0.85" layout="row" overflow="scroll" scroll="horizontal" colGap="11" defaultItem="ui://newlnjldr73m75" vAlign="middle">
+      <gearDisplay controller="choose" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </list>
+    <list id="n54_r73m" name="TypeList" xy="187,491" size="1152,76" scale="0.85,0.85" layout="row" colGap="-10" align="center" vAlign="middle">
+      <gearDisplay controller="choose" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item url="ui://newlnjldr73m7c" title="Pair" name="1"/>
+      <item url="ui://newlnjldr73m7d" title="Two Pairs" name="2"/>
+      <item url="ui://newlnjldr73m7d" title="Three-of-a-kind" name="3"/>
+      <item url="ui://newlnjldr73m7d" title="Straight" name="5"/>
+      <item url="ui://newlnjldr73m7d" title="Flush" name="6"/>
+      <item url="ui://newlnjldr73m7d" title="Full House" name="7"/>
+      <item url="ui://newlnjldr73m7d" title="Four of a kind" name="8"/>
+      <item url="ui://newlnjldr73m7d" title="Straight Flush" name="9"/>
+      <item url="ui://newlnjldr73m7e" title="Five of a kind" name="10"/>
+    </list>
+    <list id="n55_r73m" name="cardlist" xy="215,581" size="1352,198" scale="0.67,0.67" layout="row" selectionMode="multipleSingleClick" scroll="horizontal" colGap="-63" defaultItem="ui://newlnjldjbewc85" align="center" vAlign="middle">
+      <gearDisplay controller="choose" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n53_r73m" name="chupaiBtn" src="r73m7b" fileName="Btn/chupaiBtn.xml" xy="557,629">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n13_r73m" name="Txt_Time_1" xy="864,105" size="38,60" group="n14_r73m" font="方正准圆简体" fontSize="50" align="center" letterSpacing="15" ubb="true" autoSize="none" singleLine="true" text="">
+      <relation target="n72_lcgo" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n75_lcgo" name="Txt_Time_2" xy="907,105" size="38,60" group="n14_r73m" font="方正准圆简体" fontSize="50" align="center" letterSpacing="15" ubb="true" autoSize="none" singleLine="true" text="">
+      <relation target="n73_lcgo" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n14_r73m" name="n14" xy="864,105" size="81,60" advanced="true"/>
+  </displayList>
+  <transition name="daoshui">
+    <item time="0" type="Alpha" target="n71_czo8" tween="true" startValue="1" endValue="0" duration="24"/>
+    <item time="0" type="XY" target="n71_czo8" tween="true" startValue="585,209" endValue="585,74" duration="24"/>
+    <item time="24" type="Alpha" target="n71_czo8" tween="true" startValue="0"/>
+  </transition>
+</component>

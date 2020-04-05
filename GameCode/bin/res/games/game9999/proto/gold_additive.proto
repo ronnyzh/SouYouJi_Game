@@ -1,0 +1,97 @@
+package gold_additive;
+
+//为防止编号冲突，扩展协议命名需从0x00002001或0x00003001之类的位置开始
+
+enum MSG_HEADER {
+    C_S_ONPROXY = 0x0000A001; // 玩家选择是否托管
+    C_S_DOREADYSTART = 0x0000A002;  //发送准备结果
+
+    S_C_READY_GAMESTART = 0x0000B001;   //开始倒计时
+    S_C_CANCEL_READY = 0x0000B002;  //取消倒计时
+    S_C_GOLDUPDATE = 0x0000B003;    //更新金币数
+    S_C_NOGOLD = 0x0000B004;    //发送破产协议
+    S_C_GOLDPAYRESULT = 0x0000B005;     //发送支付结果协议(不启用)
+    S_C_PROXY = 0x0000B006; // 托管广播
+    S_C_PLAYERREADYRESULT = 0x0000B007; //广播玩家准备结果
+}
+
+message S_C_Ready_GameStart{
+        required fixed32 leftMS = 1 ;
+    }
+
+message S_C_CanCel_Ready {
+
+    }
+
+/*如果破产
+1 : S_C_GoldUpdate 更新分数 ,
+2 : S_C_NoGold 然后所有人广播倒计时,破产的人可调用商城,
+3 : S_C_GoldPayResult 发送结果,如果不是Success,这时候就是真正锁住了
+重连:
+还在倒计时走 S_C_NoGold,
+不在倒计时走 S_C_GoldPayResult,
+*/
+enum update_type{
+    OTHERS_KONG = 3 ;   //#其他人打出来的杠
+    SELF_KONG = 4 ;     //#自己摸到的杠
+    CONCEALED_KONG = 5 ;//#暗杠
+    HU = 6 ;            //#胡
+}
+
+message S_C_GoldUpdate {
+    message refreshData {
+        required fixed32 side = 1;      //位置
+        required float change = 2;   //加减分
+        required float score = 3;    //加减分后的数
+    }
+    repeated refreshData playerinfo = 1;
+    optional update_type type = 2;      //更新类型(0,胡;1,暗杠;2,)
+}
+
+message S_C_NoGold {
+    required fixed32 side = 1;      //位置
+    required fixed32 type = 2;      //类型(0,广播倒计时)
+    optional fixed32 leftMs = 3;    //倒计时
+}
+
+enum Type{
+    Success = 1; //支付成功
+    GiveUp = 2; //放弃支付
+    TimeOver = 3; //超时
+}
+
+message S_C_GoldPayResult {
+    required fixed32 side = 1;
+    required Type type = 2;
+}
+
+/*
+    主动托管:
+    0 取消托管  1 进行托管
+*/
+message C_S_OnProxy {
+    required fixed32 choice = 1;
+}
+
+/*
+    托管状态
+*/
+message S_C_Proxy{
+    message S_C_IsProxy{
+        required fixed32 side = 1;
+        required bool isproxy = 2;
+    }
+    repeated S_C_IsProxy data = 1;//可选噶数
+}
+
+message C_S_DoReadyStart {
+    optional bool result = 1;   //True或者省略就是准备,False就是取消准备(暂时不做)
+}
+
+message S_C_PlayerReadyResult {
+    message player_info{
+        required fixed32 side = 1;  //玩家位置
+        required bool result = 2;   //是否准备
+    }
+    repeated player_info PlayerResult = 1;
+}

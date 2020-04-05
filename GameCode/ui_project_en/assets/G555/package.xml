@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="73wt91ss" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="a8op0" name="room_numbers3.png" path="/common/hud_ingame/"/>
+    <image id="a8op1" name="touxiangk.png" path="/common/lobby/" scale="9grid" scale9grid="17,16,34,32"/>
+    <image id="a8op2" name="nStr1.png" path="/nn/"/>
+    <image id="a8op3" name="nStr2.png" path="/nn/"/>
+    <image id="a8op4" name="nStr3.png" path="/nn/"/>
+    <image id="a8op5" name="nStr4.png" path="/nn/"/>
+    <image id="a8op6" name="nStr5.png" path="/nn/"/>
+    <image id="a8op7" name="nStr6.png" path="/nn/"/>
+    <image id="a8op8" name="nStr7.png" path="/nn/"/>
+    <image id="a8op9" name="nStr8.png" path="/nn/"/>
+    <image id="a8opa" name="nStr9.png" path="/nn/"/>
+    <image id="a8opb" name="nStrT0.png" path="/nn/"/>
+    <image id="a8opc" name="nStrT3.png" path="/nn/"/>
+    <image id="a8opd" name="nStrT4.png" path="/nn/"/>
+    <image id="a8ope" name="nStrT5.png" path="/nn/"/>
+    <image id="a8opf" name="nStrT6.png" path="/nn/"/>
+    <image id="a8opg" name="niubeijing_312.png" path="/nn/"/>
+    <image id="a8oph" name="qiangzhuang_Word.png" path="/string/"/>
+    <image id="a8opi" name="qiangzhuang_0.png" path="/string/"/>
+    <image id="a8opj" name="qiangzhuang_1.png" path="/string/"/>
+    <image id="a8opk" name="qiangzhuang_2.png" path="/string/"/>
+    <image id="a8opl" name="qiangzhuang_3.png" path="/string/"/>
+    <image id="a8opm" name="qiangzhuang_4.png" path="/string/"/>
+    <image id="a8opn" name="10A.png" path="/style0/"/>
+    <image id="a8opo" name="back.png" path="/style0/"/>
+    <image id="a8opp" name="btn_orange.png" path="/textures/btns/"/>
+    <image id="a8opq" name="btn_bujiao.png" path="/textures/btns/"/>
+    <image id="a8opr" name="btn_jiaodizhu.png" path="/textures/btns/"/>
+    <image id="a8ops" name="btn_qiangdizhu.png" path="/textures/btns/"/>
+    <image id="a8opt" name="btn_buqiang.png" path="/textures/btns/"/>
+    <image id="a8opu" name="btn_bujiabei.png" path="/textures/btns/"/>
+    <image id="a8opv" name="btn_jiabie.png" path="/textures/btns/"/>
+    <image id="a8opw" name="qiang_0.png" path="/textures/btns/"/>
+    <image id="a8opx" name="xiazhu_1.png" path="/textures/btns/"/>
+    <image id="a8opy" name="xiazhu_2.png" path="/textures/btns/"/>
+    <image id="a8opz" name="xiazhu_3.png" path="/textures/btns/"/>
+    <image id="a8op10" name="xiazhu_4.png" path="/textures/btns/"/>
+    <image id="a8op11" name="xiazhu_5.png" path="/textures/btns/"/>
+    <image id="a8op12" name="text_bull_not.png" path="/textures/btns/"/>
+    <image id="a8op13" name="text_cuo.png" path="/textures/btns/"/>
+    <image id="a8op14" name="text_liang.png" path="/textures/btns/"/>
+    <image id="a8op15" name="text_qiang.png" path="/textures/btns/"/>
+    <image id="a8op16" name="text_tip.png" path="/textures/btns/"/>
+    <image id="a8op17" name="qiang_text_1.png" path="/textures/btns/"/>
+    <image id="a8op18" name="qiang_text_2.png" path="/textures/btns/"/>
+    <image id="a8op19" name="qiang_text_3.png" path="/textures/btns/"/>
+    <image id="a8op1a" name="qiang_text_4.png" path="/textures/btns/"/>
+    <image id="a8op1b" name="qiang_text_5.png" path="/textures/btns/"/>
+    <image id="a8op1c" name="text_bull_have.png" path="/textures/btns/"/>
+    <image id="a8op1d" name="btn_qiangzhuang.png" path="/textures/btns/"/>
+    <image id="a8op1e" name="qiangBG0.png" path="/textures/btns/"/>
+    <image id="a8op1f" name="qiangBG1.png" path="/textures/btns/"/>
+    <image id="a8op1g" name="cheng_buqiang.png" path="/textures/btns/"/>
+    <image id="a8op1h" name="cheng_qiang.png" path="/textures/btns/"/>
+    <image id="a8op1i" name="head_bg.png" path="/textures/table/" scale="9grid" scale9grid="35,37,70,74"/>
+    <image id="a8op1j" name="tips_3.png" path="/textures/table/"/>
+    <image id="a8op1k" name="tips_bujiabei.png" path="/textures/table/"/>
+    <image id="a8op1l" name="tips_buqiang.png" path="/textures/table/"/>
+    <image id="a8op1m" name="tips_jiabei.png" path="/textures/table/"/>
+    <image id="a8op1n" name="tips_jiaodizhu.png" path="/textures/table/"/>
+    <image id="a8op1o" name="tips_qiangdizhu.png" path="/textures/table/"/>
+    <image id="a8op1p" name="tips_1.png" path="/textures/table/"/>
+    <image id="a8op1q" name="tips_2.png" path="/textures/table/"/>
+    <image id="a8op1r" name="tips_buchu.png" path="/textures/table/"/>
+    <image id="a8op1s" name="timerBG2.png" path="/textures/table/"/>
+    <image id="a8op1t" name="mark_OK.png" path="/textures/table/"/>
+    <image id="a8op1u" name="y-beijing.png" path="/textures/table/"/>
+    <image id="a8op1v" name="youxikaishi.png" path="/textures/table/"/>
+    <image id="a8op1w" name="zhuang.png" path="/textures/table/"/>
+    <component id="a8op1x" name="GameScene.xml" path="/" exported="true"/>
+    <component id="a8op1y" name="Seat.xml" path="/"/>
+    <component id="a8op1z" name="ScaleButton.xml" path="/" exported="true"/>
+    <component id="a8op20" name="TipsQ.xml" path="/"/>
+    <component id="a8op21" name="Poker.xml" path="/" exported="true"/>
+    <component id="a8op22" name="TipsNN.xml" path="/"/>
+    <component id="a8op23" name="Operation.xml" path="/"/>
+    <component id="a8op24" name="OrangeButton.xml" path="/"/>
+    <component id="a8op25" name="TextButton.xml" path="/"/>
+    <component id="a8op26" name="timer.xml" path="/"/>
+    <component id="a8op27" name="startGame.xml" path="/"/>
+    <component id="a8op28" name="OperationTip.xml" path="/"/>
+    <component id="a8op29" name="LeftCard.xml" path="/"/>
+    <component id="ekd72a" name="tfScore.xml" path="/"/>
+    <component id="hvb92c" name="TipsNN(1).xml" path="/"/>
+    <image id="il9d2d" name="anniu_21.png" path="/textures/btns/"/>
+    <image id="m1xx2e" name="mini_bg.jpg" path="/common/BG/" exported="true"/>
+    <image id="m1xx2f" name="bg_word.png" path="/common/BG/"/>
+    <image id="m1xx2g" name="btn_continue.png" path="/textures/btns/"/>
+    <image id="m1xx2h" name="btn_ready.png" path="/textures/btns/"/>
+    <image id="m1xx2i" name="btn_haveBull0.png" path="/textures/btns/"/>
+    <image id="m1xx2j" name="btn_haveBull1.png" path="/textures/btns/"/>
+    <image id="m1xx2k" name="-.png" path="/textures/Font/"/>
+    <image id="m1xx2l" name="0.png" path="/textures/Font/"/>
+    <image id="m1xx2m" name="1.png" path="/textures/Font/"/>
+    <image id="m1xx2n" name="2.png" path="/textures/Font/"/>
+    <image id="m1xx2o" name="3.png" path="/textures/Font/"/>
+    <image id="m1xx2p" name="4.png" path="/textures/Font/"/>
+    <image id="m1xx2q" name="5.png" path="/textures/Font/"/>
+    <image id="m1xx2r" name="6.png" path="/textures/Font/"/>
+    <image id="m1xx2s" name="7.png" path="/textures/Font/"/>
+    <image id="m1xx2t" name="8.png" path="/textures/Font/"/>
+    <image id="m1xx2u" name="9.png" path="/textures/Font/"/>
+    <image id="m1xx2v" name="c-+.png" path="/textures/Font/"/>
+    <image id="m1xx2w" name="c-0.png" path="/textures/Font/"/>
+    <image id="m1xx2x" name="c-1.png" path="/textures/Font/"/>
+    <image id="m1xx2y" name="c-2.png" path="/textures/Font/"/>
+    <image id="m1xx2z" name="c-3.png" path="/textures/Font/"/>
+    <image id="m1xx30" name="c-4.png" path="/textures/Font/"/>
+    <image id="m1xx31" name="c-5.png" path="/textures/Font/"/>
+    <image id="m1xx32" name="c-6.png" path="/textures/Font/"/>
+    <image id="m1xx33" name="c-7.png" path="/textures/Font/"/>
+    <image id="m1xx34" name="c-8.png" path="/textures/Font/"/>
+    <image id="m1xx35" name="c-9.png" path="/textures/Font/"/>
+    <image id="m1xx36" name="pf_bg1.png" path="/textures/playerFrame/"/>
+    <image id="m1xx37" name="pf_bg2.png" path="/textures/playerFrame/"/>
+    <image id="m1xx38" name="pf_banker.png" path="/textures/playerFrame/"/>
+    <image id="m1xx39" name="pf_bg0.png" path="/textures/playerFrame/"/>
+    <image id="m1xx3a" name="pf_good.png" path="/textures/playerFrame/"/>
+    <image id="m1xx3b" name="pf_goodBG.png" path="/textures/playerFrame/" scale="9grid" scale9grid="21,7,42,14"/>
+    <image id="m1xx3c" name="t_timer.png" path="/textures/timer/"/>
+    <image id="m1xx3d" name="bei_2.png" path="/textures/bei/"/>
+    <image id="m1xx3e" name="bei_3.png" path="/textures/bei/"/>
+    <image id="m1xx3f" name="bei_4.png" path="/textures/bei/"/>
+    <image id="m1xx3g" name="bei_5.png" path="/textures/bei/"/>
+    <image id="m1xx3h" name="bei_1.png" path="/textures/bei/"/>
+    <image id="m1xx3i" name="scoreBG0.png" path="/textures/score/"/>
+    <image id="m1xx3j" name="scoreBG1.png" path="/textures/score/"/>
+    <font id="m1xx3l" name="BlueFont.fnt" path="/"/>
+    <font id="m1xx3m" name="YellowFont.fnt" path="/"/>
+    <component id="m1xx3n" name="BeiView.xml" path="/"/>
+    <component id="m1xx3o" name="PurpleButton.xml" path="/"/>
+    <component id="m1xx3p" name="HaveBullButton0.xml" path="/"/>
+    <component id="m1xx3q" name="HaveBullButton1.xml" path="/"/>
+    <image id="gd8a3s" name="btn_emoji.png" path="/textures/btns/"/>
+    <image id="gd8a3t" name="btn_exchange.png" path="/textures/btns/"/>
+    <image id="gd8a3u" name="btn_exit.png" path="/textures/btns/"/>
+    <component id="uu9o3v" name="Complete.xml" path="/"/>
+    <image id="uu9o3w" name="complete.png" path="/textures/table/"/>
+    <image id="dxh23x" name="-..png" path="/textures/Font/"/>
+    <image id="dxh23y" name="c-..png" path="/textures/Font/"/>
+    <image id="dxh23z" name="pf_bg4.png" path="/textures/playerFrame/"/>
+    <image id="vfdb41" name="card_backface.png" path="/style0/"/>
+    <image id="vfdb42" name="4结算.jpg" path="/"/>
+    <image id="xmbx43" name="guang.png" path="/textures/table/"/>
+    <image id="glrb44" name="tb_gold.png" path="/textures/table/" exported="true"/>
+    <image id="jkho45" name="font1_dian.png" path="/textures/Font/"/>
+    <image id="jkho46" name="font1_1.png" path="/textures/Font/"/>
+    <image id="jkho47" name="font1_0.png" path="/textures/Font/"/>
+    <image id="jkho48" name="font1_2.png" path="/textures/Font/"/>
+    <image id="jkho49" name="font1_3.png" path="/textures/Font/"/>
+    <image id="jkho4a" name="font1_7.png" path="/textures/Font/"/>
+    <image id="jkho4b" name="font1_6.png" path="/textures/Font/"/>
+    <image id="jkho4c" name="font1_4.png" path="/textures/Font/"/>
+    <image id="jkho4d" name="font1_5.png" path="/textures/Font/"/>
+    <image id="jkho4e" name="font1_8.png" path="/textures/Font/"/>
+    <image id="jkho4f" name="font1_9.png" path="/textures/Font/"/>
+    <font id="jkho4g" name="TimerFont.fnt" path="/"/>
+    <image id="jkho4h" name="开牌阶段：    秒.png" path="/textures/timer/"/>
+    <image id="jkho4i" name="抢庄阶段：    秒.png" path="/textures/timer/"/>
+    <image id="jkho4j" name="底-倒计时.png" path="/textures/timer/"/>
+    <image id="jkho4k" name="选择加倍：    秒.png" path="/textures/timer/"/>
+    <image id="j8uc4m" name="拼点阶段：    秒.png" path="/textures/timer/"/>
+    <image id="j8uc4n" name="正在匹配：    秒.png" path="/textures/timer/"/>
+    <image id="j8uc4o" name="正在开牌.png" path="/textures/timer/"/>
+    <image id="j8uc4p" name="3-亮牌.png" path="/textures/btns/"/>
+    <image id="l1324q" name="0请亮牌.png" path="/textures/timer/"/>
+    <image id="mt544r" name="n-8.png" path="/textures/btns/"/>
+    <image id="mt544s" name="n-9.png" path="/textures/btns/"/>
+    <image id="mt544t" name="D-亮 牌.png" path="/textures/btns/"/>
+    <image id="mt544u" name="小按钮-蓝-.png" path="/textures/btns/"/>
+    <image id="mt544v" name="抢庄.png" path="/textures/btns/"/>
+    <image id="mt544w" name="不抢.png" path="/textures/btns/"/>
+    <image id="mt544x" name="小按钮-黄-.png" path="/textures/btns/"/>
+    <image id="mt544y" name="n-倍.png" path="/textures/btns/"/>
+    <image id="mt544z" name="比牌公用-继续游戏.png" path="/textures/btns/"/>
+    <image id="mt5450" name="n-1.png" path="/textures/btns/"/>
+    <image id="mt5451" name="n-0.png" path="/textures/btns/"/>
+    <image id="mt5452" name="D-按钮-紫-.png" path="/textures/btns/"/>
+    <image id="mt5453" name="n-2.png" path="/textures/btns/"/>
+    <image id="mt5454" name="n-3.png" path="/textures/btns/"/>
+    <image id="mt5455" name="n-7.png" path="/textures/btns/"/>
+    <image id="mt5456" name="n-6.png" path="/textures/btns/"/>
+    <image id="mt5457" name="n-4.png" path="/textures/btns/"/>
+    <image id="mt5458" name="n-5.png" path="/textures/btns/"/>
+    <font id="mt5459" name="beiFont.fnt" path="/"/>
+    <component id="mt545b" name="ZiButton.xml" path="/" exported="true"/>
+    <component id="wm2e5c" name="GameScene-555.xml" path="/"/>
+    <image id="er435d" name="yizhunbei.png" path="/明牌牛牛/"/>
+    <image id="b7m05e" name="image.png" path="/"/>
+  </resources>
+  <publish name="G555"/>
+</packageDescription>

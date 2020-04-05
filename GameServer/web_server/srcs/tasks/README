@@ -1,0 +1,28 @@
+"""
+       web 任务模块
+       包括定时、活动、牛牛活动等
+"""
+
+
+1 安装需要库
+pip install -r requirements.txt
+
+2 修改 config/supervisord.d中directory为本地目录
+
+3 supervisord 配置
+    cp config/supervisord.conf /etc/supervisord.conf
+    cp config/supervisord.d/ -rf /etc/
+    mkdir -p /var/log/supervisord
+
+4 supervisor 管理命令
+    supervisord -c /etc/supervisord.conf
+    启动：supervisorctl start all
+    停止：supervisorctl stop all
+    重启动：supervisorctl restart all
+    重配置：supervisorctl reload
+
+5 运行
+    supervisorctl reload
+
+6 检查服务是否正常运行
+

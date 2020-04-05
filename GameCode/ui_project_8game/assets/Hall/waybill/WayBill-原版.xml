@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <image id="n11_orzp" name="bg" src="orzpq7" fileName="waybill/新格子/底背.png" xy="-5,158" size="1344,530">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n10_d4a4" name="chooseCom" src="l1l1pd" fileName="waybill/场次选择新.xml" xy="0,163" locked="true" controller="choose,1">
+      <relation target="" sidePair="left-left%,middle-middle"/>
+    </component>
+    <component id="n4_v54h" name="roomList" src="v54hox" fileName="waybill/waybillMain.xml" xy="244,163" size="1090,520" locked="true">
+      <relation target="" sidePair="right-right%,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n10_d4a4" sidePair="left-right%"/>
+    </component>
+  </displayList>
+</component>

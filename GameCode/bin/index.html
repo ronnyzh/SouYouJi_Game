@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' />
+	<title>365棋牌</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+	<meta name="renderer" content="webkit">
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name='full-screen' content='true' />
+	<meta name='x5-fullscreen' content='true' />
+	<meta name='360-fullscreen' content='true' />
+	<meta name="laya" screenorientation ="sensorLandscape"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta http-equiv='expires' content='0' />
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+</head>
+
+<body style="margin: 0px; overflow: hidden;">
+	<!--核心包，封装了显示对象渲染，事件，时间管理，时间轴动画，缓动，消息交互,socket，本地存储，鼠标触摸，声音，加载，颜色滤镜，位图字体等-->
+	<script type="text/javascript" src="libs/laya.core.js"></script>
+	<!--封装了webgl渲染管线，如果使用webgl渲染，可以在初始化时调用Laya.init(1000,800,laya.webgl.WebGL);-->
+    <script type="text/javascript" src="libs/laya.webgl.js"></script>
+	<!--是动画模块，包含了swf动画，骨骼动画等-->
+    <script type="text/javascript" src="libs/laya.ani.js"></script>
+	<!--包含更多webgl滤镜，比如外发光，阴影，模糊以及更多-->
+    <script type="text/javascript" src="libs/laya.filter.js"></script>
+	<!--封装了html动态排版功能-->
+    <script type="text/javascript" src="libs/laya.html.js"></script>
+	<!--粒子类库-->
+    <script type="text/javascript" src="libs/laya.particle.js"></script>
+	<!--提供tileMap解析支持-->
+    <script type="text/javascript" src="libs/laya.tiledmap.js"></script>
+	<!--提供了制作UI的各种组件实现-->
+    <script type="text/javascript" src="libs/laya.ui.js"></script>
+	<!-- 物理引擎matter.js -->
+	<!--用户自定义顺序文件添加到这里-->
+	<!--jsfile--Custom-->
+	<script src="libs/rawinflate/rawinflate.min.js"></script>
+	<script src="libs/fairygui/fairygui.js"></script>
+	<script src="libs/3rdparty/socket-io.js"></script>
+	<script src="libs/dcodeIO/protobuf.min.js"></script>
+	<script src="libs/dcodeIO/md5.min.js"></script>
+	<script src="libs/base64.js"></script>
+	<script src="libs/selectServer.js"></script>
+	<script src="libs/clientConfigs.js"></script>
+	<script src="js/TestAccounts.js"></script>
+
+	<!--jsfile--Custom-->
+	<!--自定义的js(src文件夹下)文件自动添加到下面jsfile模块标签里面里-->
+	<!--删除标签，ide不会自动添加js文件，请谨慎操作-->
+	<!--jsfile--startTag-->
+	<script src="js/net/SequenceController.js"></script>
+	<script src="js/net/NetHandler.js"></script>
+	<script src="js/mobules/UserMgr.js"></script>
+	<script src="js/mobules/Tools.js"></script>
+	<script src="js/mobules/SoundMgr.js"></script>
+	<script src="js/mobules/RoomMgr.js"></script>
+	<script src="js/mobules/NetHandlerMgr.js"></script>
+	<script src="js/mobules/HttpMgr.js"></script>
+	<script src="js/mobules/FuiSourceMgr.js"></script>
+	<script src="js/mobules/ExtendMgr.js"></script>
+	<script src="js/MasterSettings.js"></script>
+	<script src="js/lobby/WaybillPage.js"></script>
+	<script src="js/games/mahjong/SetBalance.js"></script>
+	<script src="js/games/mahjong/OperateArea.js"></script>
+	<script src="js/games/mahjong/MahjongMgr.js"></script>
+	<script src="js/games/mahjong/HuAlgorithm.js"></script>
+	<script src="js/common/widgets/UILayer.js"></script>
+	<script src="js/common/utils/utils.js"></script>
+	<script src="js/common/utils/constants.js"></script>
+	<script src="js/common/LayoutSubBtns.js"></script>
+	<script src="js/common/LayoutHallTitle.js"></script>
+	<script src="js/common/LayoutBtns.js"></script>
+	<script src="js/coder/ICoder.js"></script>
+	<script src="js/babykylin/ui/UIMgr.js"></script>
+	<script src="js/babykylin/SceneMgr.js"></script>
+	<script src="js/babykylin/Scene.js"></script>
+	<script src="js/babykylin/network/NetHandler.js"></script>
+	<script src="js/babykylin/network/NetConnection.js"></script>
+	<script src="js/babykylin/network/NetAgent.js"></script>
+	<script src="js/babykylin/network/HTTP.js"></script>
+	<script src="js/babykylin/network/GameNetMgr.js"></script>
+	<script src="js/babykylin/network/EmptyCrypto.js"></script>
+	<script src="js/babykylin/master/MasterMgr.js"></script>
+	<script src="js/babykylin/master/MasterInfo.js"></script>
+	<script src="js/babykylin/master/Master.js"></script>
+	<script src="js/babykylin/GameCrypto.js"></script>
+	<script src="js/babykylin/core/Time.js"></script>
+	<script src="js/babykylin/core/EventMgr.js"></script>
+	<script src="js/babykylin/BabyKylin.js"></script>
+	<script src="js/babykylin/AppSettings.js"></script>
+	<script src="js/babykylin/ui/Widget.js"></script>
+	<script src="js/babykylin/ui/Page.js"></script>
+	<script src="js/babykylin/ui/Alert.js"></script>
+	<script src="js/babykylin/ui/WC.js"></script>
+	<script src="js/common/UI_DissolveNotice.js"></script>
+	<script src="js/common/UI_ExitGame.js"></script>
+	<script src="js/common/UI_History.js"></script>
+	<script src="js/common/UI_JoinGame.js"></script>
+	<script src="js/common/UI_Notice.js"></script>
+	<script src="js/common/UI_PlayerInfoInGame.js"></script>
+	<script src="js/common/UI_Portrait.js"></script>
+	<script src="js/common/UI_PresetGoldSetter.js"></script>
+	<script src="js/common/UI_Rules.js"></script>
+	<script src="js/common/UI_Setting.js"></script>
+	<script src="js/common/widgets/GameAlert.js"></script>
+	<script src="js/common/widgets/GameWC.js"></script>
+	<script src="js/lobby/LobbyPage.js"></script>
+	<script src="js/lobby/HallPage.js"></script>
+	<script src="js/lobby/LobbyMaster.js"></script>
+	<script src="js/lobby/LobbyScene.js"></script>
+	<script src="js/login/LoginMaster.js"></script>
+	<script src="js/login/LoginPage.js"></script>
+	<script src="js/login/LoginScene.js"></script>
+	<script src="js/login/reLoginMgr.js"></script>
+	<script src="js/net/BaseProtoNetHandler.js"></script>
+	<script src="js/preloading/PreloadingMaster.js"></script>
+	<script src="js/preloading/PreloadingPage.js"></script>
+	<script src="js/preloading/PreloadingScene.js"></script>
+	<!--jsfile--endTag-->
+
+	<!--启动类添加到这里-->
+	<!--jsfile--Main-->
+	<script src="js/common/Vuet/Vuet.js"></script>
+	<script src="js/party/PartyNetHandler.js"></script>
+	<script src="js/games/gall/GallMaster.js"></script>
+	<script src="js/games/gall/GallScene.js"></script>
+
+	<script src="js/games/gall/GallNetHandle.js"></script>
+	<script src="js/games/gall/GallPlayerFrame.js"></script>
+	
+	<script src="js/games/gbp/GbpPage.js"></script>
+	<script src="js/games/gbp/GbpPlayerFrame.js"></script>
+
+	<script src="js/games/game556/G556PlayerFrame.js"></script>
+	<script src="js/games/game556/G556Master.js"></script>
+	<script src="js/games/game556/G556NetHandler.js"></script>
+	<script src="js/games/game556/G556Page.js"></script>
+	<script src="js/games/game556/G556Scene.js"></script>
+
+	<script src="js/games/game445/G445Master.js"></script>
+	<script src="js/games/game445/G445NetHandler.js"></script>
+	<script src="js/games/game445/G445PlayerFrame.js"></script>
+	<script src="js/games/game445/G445Page.js"></script>
+	<script src="js/games/game445/G445Scene.js"></script>
+
+	<script src="js/games/game555/G555Master.js"></script>
+	<script src="js/games/game555/G555NetHandler.js"></script>
+	<script src="js/games/game555/G555Page.js"></script>
+	<script src="js/games/game555/G555Scene.js"></script>
+	<script src="js/games/game555/G555PlayerFrame.js"></script>
+
+	<script src="js/games/game558/G558Master.js"></script>
+	<script src="js/games/game558/G558NetHandler.js"></script>
+	<script src="js/games/game558/G558Page.js"></script>
+	<script src="js/games/game558/G558Scene.js"></script>
+
+	<script src="js/games/game560/MainScene/sound/sound.js"></script>
+	<script src="js/games/game560/MainScene/effect/Effects.js"></script>
+	<script src="js/games/game560/algorithm/classic/pattern.js"></script>
+	<script src="js/games/game560/algorithm/classic/tips.js"></script>
+	<script src="js/games/game560/algorithm/wildcard/wc_pattern.js"></script>
+	<script src="js/games/game560/algorithm/wildcard/wc_tips.js"></script>
+	<script src="js/games/game560/algorithm/classic/classic.js"></script>
+	<script src="js/games/game560/algorithm/wildcard/wildcard.js"></script>
+	<script src="js/games/game560/MainScene/room/TileTips.js"></script>
+	<script src="js/games/game560/MainScene/room/RoomInfo.js"></script>
+	<script src="js/games/game560/MainScene/player/PlayerTemplate.js"></script>
+	<script src="js/games/game560/MainScene/player/PlayerManager.js"></script>
+	<script src="js/games/game560/MainScene/i18n.js"></script>
+	<script src="js/games/game560/MainScene/CardGameBase/constants.js"></script>
+	<script src="js/games/game560/MainScene/dialog/BalanceView.js"></script>
+	<script src="js/games/game560/MainScene/room/ButtonManager.js"></script>
+	<script src="js/games/game560/MainScene/room/OperationMgr.js"></script>
+	<script src="js/games/game560/MainScene/tile/Handwall.js"></script>
+	<script src="js/games/game560/Master.js"></script>
+	<script src="js/games/game560/NetHandler.js"></script>
+	<script src="js/games/game560/Control.js"></script>
+	<script src="js/games/game560/Method.js"></script>
+	<script src="js/games/game560/Page.js"></script>
+	<script src="js/games/game560/Scene.js"></script>
+
+	<script src="js/games/game559/MainScene/sound/sound.js"></script>
+	<script src="js/games/game559/MainScene/effect/Effects.js"></script>
+	<script src="js/games/game559/MainScene/i18n.js"></script>
+	<script src="js/games/game559/Method.js"></script>
+	<script src="js/games/game559/MainScene/room/TileTips.js"></script>
+	<script src="js/games/game559/MainScene/room/RoomInfo.js"></script>
+	<script src="js/games/game559/MainScene/player/PlayerTemplate.js"></script>
+	<script src="js/games/game559/MainScene/player/PlayerManager.js"></script>
+	<script src="js/games/game559/MainScene/CardGameBase/constants.js"></script>
+	<script src="js/games/game559/Control.js"></script>
+	<script src="js/games/game559/algorithm/classic/classic.js"></script>
+	<script src="js/games/game559/algorithm/classic/pattern.js"></script>
+	<script src="js/games/game559/algorithm/classic/tips.js"></script>
+	<script src="js/games/game559/algorithm/wildcard/wc_pattern.js"></script>
+	<script src="js/games/game559/algorithm/wildcard/wc_tips.js"></script>
+	<script src="js/games/game559/algorithm/wildcard/wildcard.js"></script>
+	<script src="js/games/game559/MainScene/dialog/BalanceView.js"></script>
+	<script src="js/games/game559/MainScene/room/ButtonManager.js"></script>
+	<script src="js/games/game559/MainScene/room/OperationMgr.js"></script>
+	<script src="js/games/game559/MainScene/tile/Handwall.js"></script>
+	<script src="js/games/game559/Master.js"></script>
+	<script src="js/games/game559/NetHandler.js"></script>
+	<script src="js/games/game559/Page.js"></script>
+	<script src="js/games/game559/Scene.js"></script>
+
+	<script src="js/games/game565/G565PlayerFrame.js"></script>
+	<script src="js/games/game565/G565BidSlider.js"></script>
+	<script src="js/games/game565/G565Page.js"></script>
+	<script src="js/games/game565/G565NetHandler.js"></script>
+	<script src="js/games/game565/G565Scene.js"></script>
+	<script src="js/games/game565/G565Master.js"></script>
+
+	<script src="js/games/game557/G557Master.js"></script>
+	<script src="js/games/game557/G557NetHandler.js"></script>
+	<script src="js/games/game557/G557Page.js"></script>
+	<script src="js/games/game557/G557Scene.js"></script>
+	<script src="js/games/game557/G557PlayerFrame.js"></script>
+
+	<script src="js/games/game562/algorithm/classic/pattern.js"></script>
+	<script src="js/games/game562/algorithm/classic/tip.js"></script>
+	<script src="js/games/game562/algorithm/classic/classic.js"></script>
+	<script src="js/games/game562/MainScene/CardGameBase/constants.js"></script>
+	<script src="js/games/game562/G562Balance.js"></script>
+	<script src="js/games/game562/G562ChooseCard.js"></script>
+	<script src="js/games/game562/G562PlayerFrame.js"></script>	
+	<script src="js/games/game562/G562Master.js"></script>
+	<script src="js/games/game562/G562NetHandler.js"></script>
+	<script src="js/games/game562/G562Page.js"></script>
+	<script src="js/games/game562/G562Scene.js"></script>
+
+	<script src="js/games/game666/G666PlayerFrame.js"></script>
+	<script src="js/games/game666/G666Master.js"></script>
+	<script src="js/games/game666/G666NetHandler.js"></script>
+	<script src="js/games/game666/G666Page.js"></script>
+	<script src="js/games/game666/G666Scene.js"></script>
+	<script src="js/games/game666/sound/sound.js"></script>
+
+	<script src="js/games/game561/Method.js"></script>
+	<script src="js/games/game561/MainScene/sound/sound.js"></script>
+	<script src="js/games/game561/MainScene/room/TileTips.js"></script>
+	<script src="js/games/game561/MainScene/room/RoomInfo.js"></script>
+	<script src="js/games/game561/MainScene/player/PlayerManager.js"></script>
+	<script src="js/games/game561/MainScene/i18n.js"></script>
+	<script src="js/games/game561/MainScene/CardGameBase/constants.js"></script>
+	<script src="js/games/game561/Control.js"></script>
+	<script src="js/games/game561/MainScene/dialog/BalanceView.js"></script>
+	<script src="js/games/game561/MainScene/effect/Effects.js"></script>
+	<script src="js/games/game561/MainScene/player/PlayerTemplate.js"></script>
+	<script src="js/games/game561/MainScene/room/ButtonManager.js"></script>
+	<script src="js/games/game561/MainScene/room/OperationMgr.js"></script>
+	<script src="js/games/game561/MainScene/tile/Handwall.js"></script>
+	<script src="js/games/game561/Master.js"></script>
+	<script src="js/games/game561/NetHandler.js"></script>
+	<script src="js/games/game561/Page.js"></script>
+	<script src="js/games/game561/Scene.js"></script>
+
+	<script src="js/games/game445/G445Master.js"></script>
+	<script src="js/games/game445/G445NetHandler.js"></script>
+	<script src="js/games/game445/G445PlayerFrame.js"></script>
+	<script src="js/games/game445/G445Page.js"></script>
+	<script src="js/games/game445/G445Scene.js"></script>
+
+	<script src="js/games/game449/G449PlayerFrame.js"></script>
+	<script src="js/games/game449/G449Page.js"></script>
+	<script src="js/games/game449/G449NetHandler.js"></script>
+	<script src="js/games/game449/G449Master.js"></script>
+
+	<script src="js/games/game452/G452Master.js"></script>
+	<script src="js/games/game452/G452NetHandler.js"></script>
+	<script src="js/games/game452/G452Page.js"></script>
+	
+	<script src="js/games/game548/G548Master.js"></script>
+	<script src="js/games/game548/G548NetHandler.js"></script>
+	<script src="js/games/game548/G548Page.js"></script>
+	<script src="js/games/game548/G548Scene.js"></script>
+	<script src="js/games/game548/G548PlayerFrame.js"></script>
+	<script src="js/games/game548/sound/sound.js"></script>
+
+	<script src="js/games/game549/G549Master.js"></script>
+	<script src="js/games/game549/G549NetHandler.js"></script>
+	<script src="js/games/game549/G549Page.js"></script>
+	<script src="js/games/game549/G549PlayerFrame.js"></script>
+
+	<script src="js/games/game564/G564PlayerFrame.js"></script>
+	<script src="js/games/game564/G564Master.js"></script>
+	<script src="js/games/game564/G564NetHandler.js"></script>
+	<script src="js/games/game564/G564Page.js"></script>
+	
+	<script src="js/games/game563/G563Master.js"></script>
+	<script src="js/games/game563/G563NetHandler.js"></script>
+	<script src="js/games/game563/G563Page.js"></script>
+	<script src="js/games/game563/G563Scene.js"></script>
+
+	<script src="js/games/game566/G566Master.js"></script>
+	<script src="js/games/game566/G566NetHandler.js"></script>
+	<script src="js/games/game566/G566Page.js"></script>
+	<script src="js/games/game566/G566Scene.js"></script>
+
+	<script src="js/games/game9999/sound/sound.js"></script>
+	<script src="js/games/game9999/G9999PlayerFrame.js"></script>
+	<script src="js/games/game9999/G9999DetailedList.js"></script>
+	<script src="js/games/game9999/G9999ChipFrame.js"></script>
+	<script src="js/games/game9999/G9999NetHandler.js"></script>
+	<script src="js/games/game9999/G9999Page.js"></script>
+	<script src="js/games/game9999/G9999Scene.js"></script>
+	<script src="js/games/game9999/G9999Master.js"></script>
+	<script src="js/games/game9999/G9999ShowCard.js"></script>
+
+	<script src="js/games/game570/Master.js"></script>
+	<script src="js/games/game570/NetHandler.js"></script>
+	<script src="js/games/game570/Control.js"></script>
+	<script src="js/games/game570/MainScene/player/PlayerManager.js"></script>
+	<script src="js/games/game570/MainScene/player/PlayerTemplate.js"></script>
+	<script src="js/games/game570/Page.js"></script>
+	<script src="js/games/game570/MainScene/room/Roominfo.js"></script>
+	<script src="js/games/game570/MainScene/dialog/BalanceView.js"></script>
+	<script src="js/games/game570/MainScene/room/OperationMgr.js"></script>
+	<script src="js/games/game570/MainScene/tile/Handwall.js"></script>
+	<script src="js/games/game570/Method.js"></script>
+	<script src="js/App.js"></script>
+	<script src="libs/gcore.js"></script>
+
+	<!--jsfile--Main-->
+</body>
+
+</html>

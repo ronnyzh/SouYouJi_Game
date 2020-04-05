@@ -1,0 +1,150 @@
+import "poker.proto";
+package fightTheLandlord_poker;
+
+//为防止编号冲突，扩展协议命名需从0x00012000或者0x00013000之类的位置开始
+
+enum MSG_HEADER {
+    //client2server
+    C_S_OPEN_HAND = 0x00012001; //明牌
+    C_S_ROB_LANDLORD = 0x00012002;//抢地主
+    //C_S_SET_MULTIPLE = 0x00012003;//加倍倍数
+
+    //server2client
+    S_C_OPEN_HAND = 0x00013001; //通知是否显示明牌
+    S_C_OPEN_HAND_DATA = 0x00013002; //明牌数据
+    S_C_ROB_LANDLORD = 0x00013003; //叫地主/叫分/抢地主
+    S_C_ROB_LANDLORD_RESULT = 0x00013004; //广播叫地主/叫分/抢地主操作
+    S_C_SCORE_DATA = 0x00013005; //刷新分数数据
+    S_C_REFRESH_DATAS = 0x00013006; //刷新数据
+    //S_C_SET_MULTIPLE = 0x00013006; //加倍
+    //S_C_MULTIPLE_DATA = 0x00013007; //加倍数据
+    //S_C_WILD_CARD = 0x00013008; //癞子，万能牌
+
+}
+
+enum CALL_TYPE {
+    CALL_LANDLORD = 0; //叫地主
+    CALL_SCORE = 1; //叫分
+    ROB_LANDLORD = 2; //抢地主
+    RANDOM_LANDLORD = 3; //随机地主
+}
+
+//client2server
+//明牌
+message C_S_OpenHand {
+
+}
+//抢地主
+message C_S_RobLandlord {
+    //0:叫地主，1:叫分，2:抢地主
+    required CALL_TYPE choseType = 1;
+    //如果是叫地主，0是不叫，1是叫
+    //如果是叫分，0是不叫，1是叫1分，2是叫2分，3是叫3分
+    //如果是抢地主，0是不抢，1是抢
+    required fixed32 operate = 2;
+}
+
+message C_S_SetMultiple {
+    //倍数
+    required fixed32 multiple = 1;
+}
+
+//server2client
+//通知是否显示明牌
+message S_C_OpenHand {
+    //required bool isShowOpenHand = 1;
+}
+//明牌数据
+message S_C_OpenHandData {
+    repeated OpenHandData playerHandData = 1;
+}
+message OpenHandData {
+    required fixed32 side = 1;
+    repeated string handCards = 2;
+}
+//抢地主
+message S_C_RobLandlord {
+    required fixed32 side = 1;
+    //0:叫地主，1:叫分
+    optional CALL_TYPE choseType = 2;
+    repeated fixed32 canChooseScore = 3;
+}
+
+//广播 叫地主/叫分/抢地主 操作的结果
+message S_C_RobLandlordResult {
+    required fixed32 side = 1; //做操作的边
+    required CALL_TYPE choseType = 2;
+    required fixed32 operate = 3;
+    // 地主是否已确定，如果确定了发LandlordData
+    required bool isConfirmLandlord = 4;
+    optional LandlordData landlordData = 5;
+}
+
+//地主数据
+message LandlordData {
+    required fixed32 landlordSide = 1; //地主的边
+    required string holeCards = 2; //地主底牌
+    required fixed32 baseScore = 3; //底分
+    required fixed32 multiple = 4; //倍数
+    repeated string wildCard = 5; //癞子，万能牌
+}
+
+message S_C_SetMultiple {
+    repeated fixed32 multiple = 1;
+}
+
+message S_C_MultipleData {
+    repeated MultipleData datas = 1;
+}
+message MultipleData {
+    required fixed32 side = 1;
+    required fixed32 multiple = 2;
+}
+//癞子，万能牌
+message S_C_WildCard {
+    repeated string wildCard = 1;
+}
+//刷新分数数据
+//做了放炸弹或者其他的改变了倍数或底分的操作之后发
+message S_C_ScoreData {
+    required fixed32 baseScore = 1; //底分
+    required fixed32 multiple = 2; //倍数
+    required bool isBomb = 3; //是否是放炸弹
+    optional PlayerBombData playerBombData = 4;
+}
+
+//刷新数据
+message S_C_RefreshDatas {
+    optional poker.S_C_RefreshData refreshData = 1;
+    optional S_C_RobLandlord robLandlord = 2;
+    optional LandlordData landlordData = 3;
+    repeated PlayerBombData playerBombData = 4;
+    required bool result = 5; //True有数据
+    optional string reason = 6;
+    repeated LastActionedData lastActionedData = 7;
+}
+
+message PlayerBombData {
+    required fixed32 side = 1; //放炸弹玩家的边
+    required fixed32 bombCount = 2; //放炸弹玩家的炸弹个数
+}
+
+message LastActionedData {
+    required fixed32 side = 1;
+    //出的牌数据，['3a,3b,3c']
+    optional string cards = 2;
+    //callType==0,callData==0:叫地主选择不叫
+    //callType==0,callData==1:叫地主选择叫
+    //callType==1,callData==0:叫分选择不叫
+    //callType==1,callData==1:叫分选择叫1分
+    //            callData==2:叫分选择叫2分
+    //            callData==3:叫分选择叫3分
+    //callType==2,callData==0:抢地主选择不抢
+    //callType==2,callData==1:抢地主选择抢
+    optional fixed32 callType = 3;
+    optional fixed32 callData = 4;
+    optional string usedWildCards = 5;
+}
+
+
+

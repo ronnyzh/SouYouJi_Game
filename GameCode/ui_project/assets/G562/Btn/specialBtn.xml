@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,71" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="type" pages="0,三同花,2,三顺子,3,六对半,4,五对三条,5,四套三条,6,凑一色,7,全小,8,全大,9,六同,10,三分天下,11,三同花顺,12,十二皇族,13,七同,14,一条龙,15,至尊青龙" selected="14"/>
+  <displayList>
+    <image id="n1" name="n1" src="r73m6o" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2" name="title" xy="0,0" size="177,71" font="方正准圆简体" fontSize="35" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="至尊青龙">
+      <gearText controller="type" pages="0,2,3,4,5,6,7,8,9,10,11,12,13,14" values="三同花|三顺子|六对半|五对三条|四套三条|凑一色|全小|全大|六同|三分天下|三同花顺|十二皇族|七同|一条龙" default="至尊青龙"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

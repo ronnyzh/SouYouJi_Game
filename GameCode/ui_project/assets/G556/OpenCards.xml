@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,91" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_h21o" name="n6" src="wm2e3c" fileName="GBP_Img/IMG/D-按钮-紫-.png" pkg="rjf5583x" xy="-2,4"/>
+    <loader id="n5" name="icon" xy="52,23" size="95,45" url="ui://rjf5583xwm2e3h" align="center" vAlign="middle" autoSize="true">
+      <gearSize controller="button" pages="0,1,3" values="95,45,1,1|222,93,1,1|81,41,1,1" default="222,93,1,1"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://la8oslyoodd9hg" downEffect="scale" downEffectValue="0.95"/>
+</component>

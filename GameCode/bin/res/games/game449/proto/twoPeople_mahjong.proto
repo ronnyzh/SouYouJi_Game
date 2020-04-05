@@ -1,0 +1,84 @@
+package twoPeople_mahjong;
+
+enum MSG_HEADER {
+    C_S_BAOTING = 0x00002001;    //发送报听选择
+    C_S_OnPROXY = 0x00002002;    //选择或取消托管
+    C_S_GUESTTILES = 0x00002003; //选择猜牌
+
+    S_C_BAOTING = 0x00003001;    //发起报听选择
+    S_C_BAOTINGRESULT = 0x00003002;    //报听结果
+    S_C_PROXY = 0x00003003;    //托管
+    S_C_GUESTTILES = 0x00003004;    //开始猜牌
+    S_C_GUESTRESULT = 0x00003005;
+
+    S_C_DONOTGETAFTERTING = 0x00003006; //过听牌
+
+}
+
+/*暂不使用这个协议*/
+message S_C_BaoTing{
+    required fixed32 side = 1;  //可报听的玩家
+    repeated fixed32 tile = 2;  //报听时的牌
+}
+
+message C_S_BaoTing{
+    required bool result = 1; //报听选择结果 一般都是True
+    repeated string tiles = 2; //报听的牌
+}
+
+message S_C_BaoTing_Result{
+    message BaoTing_Result{
+        required fixed32 result = 1;//报听结果 一般都是True
+        optional fixed32 side = 2;  //可报听的玩家
+        repeated string tiles = 3;  //报听时的牌 只有报听当前的玩家才会有这个
+        optional string lastTile = 4;  //如果有手牌就发
+    }
+    message Other_Tiles{
+        required fixed32 side = 1;  //玩家位置
+        repeated string handTiles = 2; //玩家手牌
+        optional string lastTile = 3; //摸的牌(主要用于重连)
+    }
+    repeated BaoTing_Result playerData = 1;  //打骰的牌
+    repeated Other_Tiles OtherData = 2;  //打骰的牌
+}
+
+/*
+    托管状态
+*/
+message S_C_Proxy{
+    message S_C_IsProxy{
+        required fixed32 side = 1;
+        required bool isproxy = 2;
+    }
+    repeated S_C_IsProxy data = 1;
+}
+/*
+    主动托管:
+    0 取消托管  1 进行托管
+*/
+message C_S_OnProxy {
+    required fixed32 choice = 1;
+}
+
+message S_C_GuestTiles{
+    required fixed32 len_tiles = 1;//所剩的牌数量
+    required fixed32 cur_side = 2;//当前猜牌的位置
+    repeated string all_tiles = 3;//当前猜牌队的状态 ['a1','','b1','','c1','c2','','','']
+    required fixed32 left_MS = 4;//猜牌所剩时间
+}
+
+message C_S_GuestTiles{
+    required fixed32 side = 1;//选择的编号
+}
+
+message S_C_GuestResult{
+    required fixed32 side = 1; //选择的玩家位置
+    required fixed32 choiceSide = 2; //选择的位置
+    required string tile = 3;   //选择的那个牌
+    required bool isHu = 4;     //是否可胡
+    repeated string all_tiles = 5;//当前猜牌队的状态 ['a1','','b1','','c1','c2','','','']
+}
+
+message S_C_DoNotGetAfterTing{
+
+}

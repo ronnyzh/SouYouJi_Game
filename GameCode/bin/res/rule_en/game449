@@ -1,0 +1,2617 @@
+{
+    "detail": [
+        {
+            "totalColumn" : 2
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "Basic Rules:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[No. of players]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"2."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[Total tiles]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"5",
+            "itemHeight": 90,
+            "fontSize":28,
+            "itemWidth":890,
+            "content":"64 (Consists of 1 suit of characters tile which are numbered from 1 to 9, and two different sets of Honors tile: Winds and Dragons. The Winds are East, South, West and North. In Mahjong, East (not North) is the beginning. The Dragons are Red, Green and White. Each tile has 4 identical copies.)"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"5",
+            "itemHeight": 90,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight":40,
+            "content":"[First Dealer]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"Random."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Play Mode]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Player may either carry out Chow, Pong, Kong, Ready Hands."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+         {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":500,
+            "itemHeight": 40,
+            "content":"[Winning hands]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":400,
+            "itemHeight": 40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "itemHeight": 50,
+            "fontSize":28,
+            "itemWidth":900,
+            "content":"Completion by draw, completion from a discard, completion by robbing a Kong, completion on supplemental tile."
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"2",
+            "itemHeight": 50,
+            "fontSize":28,
+            "itemWidth":0,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":140,
+            "itemHeight": 40,
+            "content":"[Drawn]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":140,
+            "itemHeight": 40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":900,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"The hand is drawn when the wall is depleted and no one has won."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":0,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":200,
+            "content": "Scoring Rules:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":225,
+            "itemHeight": 40,
+            "content":"[Basic scoring]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":225,
+            "itemHeight": 40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Base points * total payout, loser may not claim Kong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":130,
+            "itemHeight": 40,
+            "content":"[Draw]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":130,
+            "itemHeight": 40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Both players will not score any points."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":300,
+            "itemHeight":40,
+            "content":"[Game Commission]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":300,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"System may charge 5% of the profit from the winner."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":200,
+            "content": "Payout:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":550,
+            "itemHeight":40,
+            "content":"[High return from low input is prohibited]"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":350,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Player may only win as much as the total Gold brought into current game round. If the player has brought in only 100, the player may only gain 100 utmost, regardless the settlement count."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "Scoring Criteria:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "128 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":"[Upper Tiles]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand consisting of tiles of number 6-9, point of Full Flush is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":200,
+            "fontSize":28,
+            "itemHeight":40,
+            "content":"[Nine Gates]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":700,
+            "fontSize":28,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight": 80,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Collecting number tiles 1112345678999 of one suit without melding, and completing with any one tile of that suit. These points are not counted: Full Flush, Concealed Hand, and Completion by draw. Note: Must be concealed hand to claim as Nine Gates."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight": 80,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":210,
+            "fontSize":28,
+            "itemHeight":40,
+            "content":"[Lower Tiles]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":210,
+            "fontSize":28,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand consisting of tiles of number 1-4, point of Full Flush is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"[Seven Honor Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":80,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand consisting of seven pairs of honor tiles. These points are not counted: Seven Pairs, Seven Pairs with Four Winds, Seven Pairs with Three Dragons, Outside Hand, Concealed Hand, and Completion by draw. Point of Fully Concealed Hand is counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight":80,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "88 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":210,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":"[Four Kongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":210,
+            "itemHeight": 40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with four quad melds, additional points for Concealed Kong. These points are not counted: Three Kongs, Two Melded Kongs, Melded Kong, and All Pongs."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":210,
+            "fontSize":28,
+            "itemHeight":40,
+            "content":"[Four Kongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":210,
+            "fontSize":28,
+            "itemHeight":40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"*A hand with four quad melds, additional points for Concealed Kong. These points are not counted: Three Kongs, Two Melded Kongs, Melded Kong, and All Pongs."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"*A hand with four quad melds, additional points for Concealed Kong. These points are not counted: Three Kongs, Two Melded Kongs, Melded Kong, and All Pongs."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":320,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Seven Shifted Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":320,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight": 80,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand of seven pairs with successive seven numbers in one suit. These points are not counted: Seven Pairs, Concealed Hand, Full Flush, and Completion by draw. Point of Fully Concealed Hand is counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemHeight": 80,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Big Four Winds]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 65,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with triplets or quads of all four winds. These points are not counted: All Pongs, Wing Pong, Two Wind Pongs, Small Three Winds, Big Three Winds, and Four Honors."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 65,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":220,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Earthly Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":220,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with the first draw, provided the dealer does not draw a kong. These points are not counted: Fully Concealed Hand and Completion by draw."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Heavenly Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 65,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand right after the initial 13-tile hand, provided the dealer does not draw a kong. These points are not counted: Fully Concealed Hand and Completion by draw."
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemHeight": 65,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "64 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":320,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Quadruple Chow]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":320,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with four identical sequences. These points are not counted: Pure Shifted Pongs, Pure Triple Chow, Seven Pairs and Tile Hog."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Humanly Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with the dealer's first discard, provided the dealer does not draw a Kong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":450,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Seven Pairs with Four Winds]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":450,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand of seven pair which consists of four winds. These points are not counted: Seven Pairs, Concealed Hand, and Completion by draw. Point of Fully Concealed Hand is counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Four Pure Shifted Pongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 65,
+            "itemWidth":880,
+            "fontSize":28,
+            "content":"A hand with four number triplets or quads in one suit with successive numbers. These points are not counted: Pure Shifted Pongs, Pure Triple Chow, and All Pongs."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 65,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":390,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Four Concealed Pongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":390,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"4",
+            "itemHeight": 80,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with four closed triplets or quads. These points are not counted: Three Concealed Pongs, Two Concealed Pongs, All Pongs, Concealed Hand, and Completion by draw. Point of Fully Concealed Hand is counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"4",
+            "itemHeight": 80,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":220,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[All Honors]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":220,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand consisting of only honor tiles. These points are not counted: All Pongs, Outside Hand, All Terminals and Honors and Four Honors."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":320,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Little Four Winds]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":320,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":880,
+            "fontSize":28,
+            "content":"A winning hand with three winds be triplets or quads, and rest of wind be pair. These points are not counted: Big Three Winds, Little Three Winds, Two Wind Pongs, Wing Pong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":330,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Big Three Dragons]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":330,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with triplets or quads of all three dragons. These points are not counted: Two Dragon Pongs, Dragon Pong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "48 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Seven Pairs with Three Dragons]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":500,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand of seven pair which consists of Three Dragons. These points are not counted: Seven Pairs, Concealed Hand, and Completion by draw. Point of Fully Concealed Hand is counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"4",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":""
+        },
+         {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":350,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Little Three Dragons]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":350,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with two dragons be triplets or quads, and rest of dragon be pair. These points are not counted: Two Dragon Pongs and Dragon Pong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "32 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Blessing of Man]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"6",
+            "itemHeight": 105,
+            "itemWidth":870,
+            "fontSize":28,
+            "content":"Dealer declares Ready Hand when discarding the first tile; the other player declares Ready Hand after drawing the initial 13-tile hand. Blessing of Man will only be counted after winning the game. In case the dealer has any Concealed Kong after drawing the initial 13-tile hand, the declaration will be deemed as Declare Ready Hand instead of Blessing of Man."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"6",
+            "itemHeight": 105,
+            "itemWidth":20,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Seven Pairs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with seven pairs. These points are not counted: Concealed Hand, and Completion by draw. Point of Fully Concealed Hand is counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 70,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":410,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[All Terminals and Honors]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":410,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand consisting of only terminal and honor tiles. These points are not counted: All Pongs, and Outside Hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":620,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Three Kongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 40,
+            "itemWidth":880,
+            "fontSize":28,
+            "content":"A hand with three quad melds, additional points for concealed Kong; with Three Concealed Pongs if applicable. These points are not counted: Two Melded Kongs, and Melded Kong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"4",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "24 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Big Three Winds]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+         {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with three winds be triplets or quads. These points are not counted: Two Wind Pongs, Wind Pong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":310,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Pure Triple Chow]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":310,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with three identical sequences in the same suit. Point of Pure Shifted Pongs is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":350,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Pure Shifted Pongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":350,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with three number triplets or quads in one suit with successive numbers, point of Pure Triple Chow is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Four Honors]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":300,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with four triples of quads of honor tiles, point of All Pongs is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":620,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Three Concealed Pongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":400,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 55,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with three closed triplets or quads, Two Concealed Pongs is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 55,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":410,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Four Pure Shifted Chows]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":410,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Four chows of the same continuous number sequence in the same suit, each shifted either one or two number up from the last, Three Pure Shifted Chows is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"3",
+            "itemHeight": 60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "16 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":280,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Pure Straight]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":280,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with three sequences 123, 456 and 789 in one suit."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+         {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "12 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":420,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Three Pure Shifted Chows]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":420,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":890,
+            "fontSize":28,
+            "content":"Three chows of the same continuous number sequence in the same suit, each shifted either one or two number up from the last."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":10,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":210,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Full Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":210,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand consisting of only one suit of number tiles."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "8 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":280,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Last Tile Claim]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":280,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Winning off another player on the last tile of the game. These points are not counted: completion by draw and completion by robing a Kong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight":60,
+            "itemWidth":580,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":480,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Completion by robbing a Kong]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":480,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Complete a hand by stealing the piece from a player when declaring the Kong from an exposed Pong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":420,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Out with Replacement Tile]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":420,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Complete Hand completion with supplemental tile when you melding quad, completion by draw is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":480,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "6 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":330,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Little Three Winds]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":330,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand consists of three winds with two winds be triplets or quads, and another wind be pair."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":380,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Fully Concealed Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":380,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand without melding and completed by drawing a tile. These points are not counted: completion by draw and Concealed Hand."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":350,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Two Dragon Pongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":350,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand containing two dragon triplets or quads, Dragon Pong is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":380,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Two Concealed Kongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":380,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand containing two closed quad. These points are not counted: Two Concealed Pongs and Concealed Pong."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "4 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":310,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Two Wind Pongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":310,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand containing two wind triplets or quads, Wind Pong is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":900,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Two Melded Kongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":350,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand containing two open quad, point of Melded Kong is not counted."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":280,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Outside Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":280,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand that includes terminals and honors in each set, including the pair."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":280,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Melded Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":280,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Every set in the hand (chow, pong, kong and pair) must be completed with tiles discarded by other players."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"2",
+            "itemHeight": 50,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "2 points"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[All Simples]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":250,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 100,
+            "itemWidth":900,
+            "itemHeight":0,
+            "fontSize":28,
+            "content":"A completion hand consisting of no number 1, 9 and honor tile."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 100,
+            "itemWidth":0,
+            "itemHeight":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":310,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Concealed Kong]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":310,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with a closed quad."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":380,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Two Concealed Kongs]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":380,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with two closed triplets or quads."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":220,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Tile Hog]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":220,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand with same four tiles, other than melded quad."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":310,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Concealed Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":310,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight":40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand without melding and completed by discarded tile."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":220,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Half Flush]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":220,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A winning hand consisting of one suit and honor tiles."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":280,
+            "content": "1 point"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":340,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Completion by draw]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":340,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Complete a hand by drawing the tile required on one’s turn."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":360,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Declare Ready Hand]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":360,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"Declares ready hand and win the game afterward."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":260,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Melded Kong]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":260,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with open quad."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":260,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Dragon Pong]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":260,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with a triplet or quad of dragon tile."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":260,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":"[Wind Pong]"
+        },
+        {
+            "type":2,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemWidth":260,
+            "itemHeight":40,
+            "fontSize":28,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 60,
+            "itemWidth":900,
+            "fontSize":28,
+            "content":"A hand with a triplet or quad of wind tile."
+        },
+        {
+            "type":3,
+            "itemStyle" : 1,
+            "line":"1",
+            "itemHeight": 60,
+            "itemWidth":0,
+            "fontSize":28,
+            "content":""
+        }
+
+    ]
+}

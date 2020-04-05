@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="c1" pages="0,win,1,lose,2,empty" selected="0"/>
+  <displayList>
+    <graph id="n16_ogno" name="mask" xy="0,0" size="1334,750" locked="true" type="rect" fillColor="#1a000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n28_op4n" name="n28" src="op4n7w" fileName="style0/balance2/win-flower.png" xy="208,68" group="n30_op4n"/>
+    <image id="n29_op4n" name="n29" src="op4n7x" fileName="style0/balance2/win_light.png" xy="474,3" group="n30_op4n"/>
+    <group id="n30_op4n" name="conBGWin" xy="208,3" size="932,614" group="n18_qgb1" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n42_op4n" name="n42" src="op4n7y" fileName="style0/balance2/lose_light.png" xy="473,4" group="n44_op4n"/>
+    <group id="n44_op4n" name="conBGLose" xy="473,4" size="399,398" group="n18_qgb1" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <loader id="n19_op4n" name="n19" xy="0,190" pivot="0.5,0.5" size="1334,450" group="n18_qgb1" url="ui://p4u5nou3op4n7z" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </loader>
+    <image id="n43_op4n" name="n43" src="op4n80" fileName="style0/balance2/lose_background.png" xy="0,192" pivot="0.5,0.5" size="1334,440" group="n18_qgb1">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n21_op4n" name="n21" src="op4n81" fileName="style0/balance2/win_title_bg.png" xy="343,84" pivot="0.5,0.5" size="647,249" group="n9_ogno"/>
+    <image id="n22_op4n" name="n22" src="op4n82" fileName="style0/balance2/win_wings.png" xy="430,84" pivot="1,0.5" size="223,173" group="n25_op4n">
+      <relation target="n21_op4n" sidePair="left-center"/>
+    </image>
+    <image id="n23_op4n" name="n23" src="op4n83" fileName="style0/balance2/win_wings-r.png" xy="683,83" pivot="0,0.5" size="223,173" group="n25_op4n">
+      <relation target="n21_op4n" sidePair="left-center"/>
+    </image>
+    <group id="n25_op4n" name="n25" xy="430,83" size="476,173" group="n9_ogno"/>
+    <image id="n24_op4n" name="n24" src="op4n84" fileName="style0/balance2/win_cup.png" xy="494,24" pivot="0.5,0.5" size="343,260" group="n9_ogno"/>
+    <image id="n1_ogno" name="n1" src="op4n85" fileName="style0/balance2/win-title.png" xy="414,86" pivot="0.5,0.5" size="505,182" group="n9_ogno"/>
+    <image id="n31_op4n" name="n31" src="op4n86" fileName="style0/balance2/win_star.png" xy="493,175" pivot="0.5,0.5" group="n9_ogno"/>
+    <group id="n9_ogno" name="conTitleWin" xy="347,14" size="647,318" group="n18_qgb1" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n33_op4n" name="n33" src="op4n87" fileName="style0/balance2/lose_title_bg.png" xy="343,81" pivot="0.5,0.5" size="647,249" group="n40_op4n"/>
+    <image id="n34_op4n" name="n34" src="op4n88" fileName="style0/balance2/lose_wings.png" xy="432,94" pivot="1,0.5" size="223,173" group="n36_op4n">
+      <relation target="n33_op4n" sidePair="left-center"/>
+    </image>
+    <image id="n35_op4n" name="n35" src="op4n89" fileName="style0/balance2/lose_wings-r.png" xy="679,93" pivot="0,0.5" size="223,173" group="n36_op4n">
+      <relation target="n33_op4n" sidePair="left-center"/>
+    </image>
+    <group id="n36_op4n" name="n36" xy="432,93" size="470,174" group="n40_op4n" collapsed="true"/>
+    <image id="n37_op4n" name="n37" src="op4n8a" fileName="style0/balance2/lose_cup.png" xy="495,27" pivot="0.5,0.5" size="343,260" group="n40_op4n"/>
+    <image id="n38_op4n" name="n38" src="op4n8b" fileName="style0/balance2/lose_title.png" xy="526,90" pivot="0.5,0.5" group="n40_op4n"/>
+    <image id="n39_op4n" name="n39" src="op4n8c" fileName="style0/balance2/lose_star.png" xy="484,168" pivot="0.5,0.5" group="n40_op4n"/>
+    <group id="n40_op4n" name="conTitleLose" xy="346,16" size="647,310" group="n18_qgb1" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <text id="n4_ogno" name="n4" xy="364,308" size="67,43" group="n15_ogno" fontSize="30" color="#fffdca" bold="true" text="昵称"/>
+    <text id="n5_ogno" name="n5" xy="631,309" size="67,43" group="n15_ogno" fontSize="30" color="#fffdca" bold="true" text="剩牌"/>
+    <text id="n6_ogno" name="n6" xy="760,308" size="67,43" group="n15_ogno" fontSize="30" color="#fffdca" bold="true" text="炸弹"/>
+    <text id="n7_ogno" name="n7" xy="914,308" size="67,43" group="n15_ogno" fontSize="30" color="#fffdca" bold="true" text="金额"/>
+    <text id="n51_gpig" name="n51" xy="513,308" size="68,43" group="n15_ogno" fontSize="30" color="#fffdca" bold="true" text="加倍"/>
+    <group id="n15_ogno" name="title" xy="364,308" size="617,44" group="n49_op4n"/>
+    <component id="n8_ogno" name="seat0" src="op4n7o" fileName="BalanceItem.xml" xy="296,350" group="n49_op4n"/>
+    <component id="n10_ogno" name="seat1" src="op4n7o" fileName="BalanceItem.xml" xy="296,411" group="n49_op4n"/>
+    <component id="n11_ogno" name="seat2" src="op4n7o" fileName="BalanceItem.xml" xy="296,472" group="n49_op4n"/>
+    <text id="n50_vf09" name="tfDesc" xy="146,542" size="1041,40" group="n49_op4n" visible="false" fontSize="28" color="#bfbfbf" align="center" vAlign="middle" autoSize="none" bold="true" text="描述描述！！！"/>
+    <group id="n49_op4n" name="n49" xy="146,308" size="1041,274" group="n18_qgb1" advanced="true"/>
+    <group id="n18_qgb1" name="n18" xy="0,3" size="1334,637" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n12_ogno" name="btnExit" src="op4n8d" fileName="component/BtnNormal(3).xml" xy="394,604" size="220,100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://p4u5nou3op4n8e"/>
+    </component>
+    <component id="n13_ogno" name="btnContinue" src="op4n8d" fileName="component/BtnNormal(3).xml" xy="727,604" size="220,100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://p4u5nou3op4n8f"/>
+    </component>
+    <component id="n14_ogno" name="btnChange" src="op4n8d" fileName="component/BtnNormal(3).xml" xy="-377,-34" size="220,100" visible="false">
+      <Button icon="ui://p4u5nou3op4n8g"/>
+    </component>
+  </displayList>
+  <transition name="onShow">
+    <item time="0" type="Alpha" target="n44_op4n" value="0"/>
+    <item time="0" type="Alpha" target="n40_op4n" value="0"/>
+    <item time="0" type="Alpha" target="n30_op4n" value="0"/>
+    <item time="0" type="Alpha" target="n12_ogno" value="0"/>
+    <item time="0" type="Alpha" target="n13_ogno" value="0"/>
+    <item time="0" type="Alpha" target="n9_ogno" value="0"/>
+    <item time="0" type="Scale" target="n43_op4n" tween="true" startValue="0,1" endValue="1,1" duration="7"/>
+    <item time="0" type="Scale" target="n19_op4n" tween="true" startValue="0,1" endValue="1,1" duration="7"/>
+    <item time="0" type="Visible" target="n49_op4n" value="false"/>
+    <item time="3" type="Alpha" target="n40_op4n" value="1"/>
+    <item time="3" type="Alpha" target="n9_ogno" value="1"/>
+    <item time="3" type="Rotation" target="n23_op4n" tween="true" startValue="60" endValue="0" duration="8" ease="Back.Out"/>
+    <item time="3" type="Rotation" target="n34_op4n" tween="true" startValue="-60" endValue="0" duration="8" ease="Back.Out"/>
+    <item time="3" type="Rotation" target="n22_op4n" tween="true" startValue="-60" endValue="0" duration="8" ease="Back.Out"/>
+    <item time="3" type="Rotation" target="n35_op4n" tween="true" startValue="60" endValue="0" duration="8" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n33_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="8" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n1_ogno" tween="true" startValue="0.5,0.5" endValue="1,1" duration="8" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n24_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="8" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n37_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="8" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n21_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="8" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n39_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="8" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n38_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="8" ease="Back.Out"/>
+    <item time="7" type="Alpha" target="n13_ogno" value="1"/>
+    <item time="7" type="Alpha" target="n44_op4n" value="1"/>
+    <item time="7" type="Alpha" target="n30_op4n" value="1"/>
+    <item time="7" type="Alpha" target="n12_ogno" value="1"/>
+    <item time="7" type="Visible" target="n49_op4n" value="true"/>
+  </transition>
+</component>

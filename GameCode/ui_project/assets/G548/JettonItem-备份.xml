@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="41,41" pivot="0.5,0.5" anchor="true" opaque="false" extention="Label">
+  <controller name="value" exported="true" pages="0,1,1,2,2,5,3,10,4,20,5,50" selected="0"/>
+  <displayList>
+    <loader id="n2" name="icon" xy="20,21" pivot="0.5,0.5" anchor="true" size="119,125" group="n4_frnl" scale="0.35,0.35" url="ui://wtkqufwmh2iz8g" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="value" pages="0,1,2,3,4,5" values="ui://wtkqufwmh2iz8g|ui://wtkqufwmh2iz8f|ui://wtkqufwmh2iz8e|ui://wtkqufwmh2iz8d|ui://wtkqufwmh2iz8c|ui://wtkqufwmh2iz8b"/>
+    </loader>
+    <text id="n3_gbfn" name="title" xy="17,15" size="19,37" group="n4_frnl" hideByEditor="true" scale="0.35,0.35" visible="false" font="ui://rjf5583xwm2e1v" fontSize="33" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text="1">
+      <gearXY controller="value" pages="0,3,4,5" values="17,15|14,15|14,15|14,15" default="16,15"/>
+      <gearText controller="value" pages="1,2,3,4,5" values="2|5|10|20|50" default="1"/>
+    </text>
+    <group id="n4_frnl" name="n4" xy="17,15" size="122,131" advanced="true"/>
+  </displayList>
+  <transition name="move">
+    <item time="0" type="Rotation" target="n2" tween="true" startValue="0" endValue="1800" duration="18"/>
+    <item time="0" type="XY" target="n2" label="startpos" tween="true" startValue="10,0" endValue="0,0" duration="18" label2="endpos"/>
+  </transition>
+</component>

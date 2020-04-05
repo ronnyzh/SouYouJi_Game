@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="252,86" extention="Button">
+  <displayList>
+    <loader id="n112_pgxm" name="icon" xy="0,0" size="252,86" url="ui://1sm91w5opu4x1a"/>
+    <text id="n111_imd3" name="title" xy="37,13" size="186,47" font="ui://1sm91w5oimd34i" fontSize="47" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="跟1"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "files.autoSave": "onWindowChange",
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.meta": true
+    },
+    "luaide.luaTemplatesDir": "F:/LI/Lua/LuaFileTemplates",
+    "luaide.showOnLine": false,
+    "luaide.apiType": "xlua",
+    "luaide.defineModule": [
+        "class",
+        "this",
+        "self"
+    ],
+    "luaide.isShowDest": true,
+    "luaide.scriptRoots": [
+        "F:/LI/Git/mahjong/Assets/Lua"
+    ]
+}

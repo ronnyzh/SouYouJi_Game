@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" adaptationTest="FitSize">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <controller name="c_btnExitEnd" pages="0,,1," selected="0"/>
+  <controller name="c_type" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_h21o" name="n0" src="ktw9k9" fileName="游戏内部按钮/游戏内按钮展开渐变背景.png" pkg="la8oslyo" xy="0,0" size="1334,750" group="n5_h21o">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_h21o" name="btn_setting" src="ktw9ke" fileName="ScaleButtonFit2.xml" pkg="la8oslyo" xy="1093,538" size="224,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9kc" controller="c1" page="0"/>
+    </component>
+    <component id="n3_h21o" name="btn_exit" src="ktw9ke" fileName="ScaleButtonFit2.xml" pkg="la8oslyo" xy="1094,439" size="232,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9kd" controller="c1" page="0"/>
+    </component>
+    <component id="n4_h21o" name="btn_rule" src="ktw9ke" fileName="ScaleButtonFit2.xml" pkg="la8oslyo" xy="1093,241" size="232,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9kb" controller="c1" page="0"/>
+    </component>
+    <component id="n7_ktw9" name="btn_history" src="ktw9ke" fileName="ScaleButtonFit2.xml" pkg="la8oslyo" xy="1093,340" size="232,69" group="n5_h21o">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9ka" controller="c1" page="0"/>
+    </component>
+    <component id="n13_k4ql" name="btn_exit_end" src="ktw9ke" fileName="ScaleButtonFit2.xml" pkg="la8oslyo" xy="1094,439" size="232,69" group="n5_h21o" visible="false" touchable="false">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://la8oslyoktw9kd" controller="c1" page="0"/>
+    </component>
+    <group id="n5_h21o" name="n5" xy="0,0" size="1334,750" locked="true" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n12_z5p1" name="close" src="miny94" fileName="百家乐/按钮列表/666/按钮-收.xml" xy="1215,665">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c_type" pages="0,1" values="1215,665|1215,20"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n11_z5p1" name="open" src="miny91" fileName="百家乐/按钮列表/666/按钮-展.xml" xy="1215,665">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearXY controller="c_type" pages="1" values="1215,20" default="1215,665"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

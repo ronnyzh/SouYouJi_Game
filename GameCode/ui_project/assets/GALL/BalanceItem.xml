@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="752,48">
+  <controller name="role" pages="0,normal,1,self" selected="1"/>
+  <controller name="gametype" pages="0,559,1,560" selected="1"/>
+  <displayList>
+    <image id="n0_ogno" name="n0" src="k5pu1" fileName="style0/balance2/bar_bg.png" xy="-104,0" size="960,48"/>
+    <image id="n1_ogno" name="n1" src="k5pu2" fileName="textures/table/head_bg(1).png" xy="27,11" size="80,80" group="n4_ogno"/>
+    <loader id="n2_ogno" name="icon" xy="32,15" size="70,70" group="n4_ogno" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n3_ogno" name="n3" xy="31,14" size="72,72" group="n4_ogno"/>
+    <group id="n4_ogno" name="playerImg" xy="26,11" size="80,80" locked="true" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <text id="n16_vddh" name="tfName560" xy="75,5" size="75,37" fontSize="28" color="#ffda58" bold="true" autoClearText="true" text="name">
+      <gearDisplay controller="gametype" pages="1"/>
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n6_ogno" name="tfName559" xy="151,5" pivot="1,0" size="23,37" fontSize="28" color="#ffda58" align="right" bold="true" text="T">
+      <gearDisplay controller="gametype" pages="0"/>
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n14_op4n" name="tfBaseScore" xy="259,5" size="39,37" fontSize="28" color="#ffda58" align="right" bold="true" autoClearText="true" text="X2">
+      <gearDisplay controller="gametype" pages="0"/>
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n9_ogno" name="tfLastCard" xy="340,5" size="99,40" fontSize="28" color="#ffda58" align="center" autoSize="none" bold="true" text="name">
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n10_ogno" name="tfBoom" xy="468,5" size="99,40" fontSize="28" color="#ffda58" align="center" autoSize="none" bold="true" text="name">
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <text id="n11_ogno" name="tfScore" xy="598,5" size="154,36" fontSize="28" color="#ffda58" align="center" autoSize="none" bold="true" text="name">
+      <gearColor controller="role" pages="0,1" values="#ffffff,#000000|#ffda58,#000000"/>
+    </text>
+    <image id="n5_ogno" name="tagWin" src="k5pu3" fileName="style0/icon/icon_win_small(1).png" xy="289,-281" visible="false" alpha="0"/>
+    <image id="n12_rg8g" name="tagSpring" src="k5pu4" fileName="style0/icon/icon_spring(1).png" xy="252,-300" visible="false" alpha="0"/>
+    <image id="n13_rg8g" name="tagDouble" src="k5pu5" fileName="style0/icon/icon_balance_double_yes(1).png" xy="244,-298" visible="false" alpha="0"/>
+    <image id="n15_op4n" name="tagDealer" src="k5pu6" fileName="textures/table/dizhu_icon(1).png" xy="-15,-17" visible="false"/>
+  </displayList>
+</component>

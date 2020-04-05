@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImageAlpha="100">
+  <displayList>
+    <graph id="n5_aks0" name="n5" xy="0,0" size="1334,750" locked="true" hideByEditor="true" visible="false" alpha="0.5" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_aks0" name="n1" src="j17qj1" fileName="设置/框-小.png" xy="237,106" group="n6_aks0"/>
+    <image id="n10_osvm" name="n10" src="j17qiy" fileName="设置/设置.png" xy="560,138" group="n6_aks0" aspect="true">
+      <relation target="n1_aks0" sidePair="top-top"/>
+    </image>
+    <component id="n13_avzo" name="sdrSound" src="avzoi2" fileName="SliderSound.xml" xy="488,371" group="n6_aks0">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n14_avzo" name="sdrMusic" src="avzoi2" fileName="SliderSound.xml" xy="488,273" group="n6_aks0">
+      <Slider value="70" max="100"/>
+    </component>
+    <component id="n17_avzo" name="btn_close" src="ktw9ke" fileName="ScaleButtonFit2.xml" xy="977,125" pivot="0.5,0.5" size="78,79" group="n6_aks0">
+      <Button title="确定" titleFontSize="25" icon="ui://la8oslyoj17qiv"/>
+    </component>
+    <text id="n18_pyfn" name="n17" xy="382,432" size="146,41" group="n6_aks0" hideByEditor="true" visible="false" fontSize="30" color="#e2c4a1" bold="true" text="Language&#xA;"/>
+    <list id="n20_pyfn" name="list_lan" xy="536,435" size="391,38" group="n6_aks0" hideByEditor="true" visible="false" layout="pagination" overflow="hidden" colGap="25" lineItemCount="2" lineItemCount2="1" defaultItem="ui://la8oslyopyfnkg">
+      <item title="Chinese" name="cn"/>
+      <item title="English" name="en"/>
+    </list>
+    <image id="n21_ogjj" name="n21" src="ogjjld" fileName="设置/MUSIC.png" xy="378,266" group="n6_aks0"/>
+    <image id="n22_ogjj" name="n22" src="ogjjle" fileName="设置/SOUND.png" xy="378,365" group="n6_aks0"/>
+    <group id="n6_aks0" name="n6" xy="237,106" size="858,521" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n6_aks0" tween="true" startValue="0" endValue="1" duration="12" ease="Expo.Out"/>
+    <item time="0" type="XY" target="n6_aks0" tween="true" startValue="329,170" endValue="267,133" duration="12" ease="Expo.Out"/>
+  </transition>
+</component>

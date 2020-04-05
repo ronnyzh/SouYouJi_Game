@@ -1,0 +1,727 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"fontSize":30,
+        	"itemHeight":40,
+        	"itemWidth":200,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+        	"itemWidth":130,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+        	"content":"3人;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+        	"itemWidth":130,
+        	"content":"【牌数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+        	"content":"54张;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+        	"itemWidth":130,
+        	"content":"【发牌】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+        	"content":"每人17张，留3张为底牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":130,
+            "content":"【叫牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":800,
+            "content":"首局开房者先叫牌，次局赢家先叫牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":130,
+            "content":"【亮牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":800,
+            "content":"地主拿到3张底牌，并亮出;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":130,
+            "content":"【出牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":800,
+            "content":"地主首先出牌，然后逆时针依次出牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":130,
+            "content":"【跟牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":800,
+            "content":"跟牌时，玩家可选“不要”或者出比上一个玩家大的牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":100,
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【叫地主】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":800,
+            "content":"叫地主的玩家即地主;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":130,
+            "content":"【叫分】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":800,
+            "content":"叫地主阶段可选“叫1分”、“叫2分”、“叫3分”或“不叫”;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":130,
+            "content":"【流局】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "itemWidth":800,
+            "content":"所有都选择“不叫”，则流局并重新发牌。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"fontSize":30,
+        	"itemHeight":40,
+        	"content": "基本牌型:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+        	"itemWidth":120,
+        	"content":"【火箭】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+        	"content":"即双王（大王，小王），最大的牌型;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【炸弹】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"四张相同点数的牌(如7777);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【飞机】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemWidth": 800,
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"三顺 + 同数量的单牌或对牌(如333444+79，333444+6677);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【三顺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"2个或更多连续3张牌(如333+444+555);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【双顺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"3对或更多连续对牌(如33+44+55+66+77+88);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【单顺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"5张或更多张点数连续的单牌(如45678，456789);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【三带一对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"三张点数一样的牌 + 一对(如333+66);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【四带二对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"四张点数一样的牌 + 两对(如3333+6677);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【三带一】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"三张点数一样的牌 + 一张单牌(如333+6);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【四带二】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"四张点数一样的牌 + 两张单牌(如3333+66，3333+45);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【三张】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"三张点数一样的牌(如JJJ);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【对子】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"两张点数一样的牌(如红心6+方块6);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【单牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"单张牌(如红心5)。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"itemWidth":200,
+        	"itemHeight":40,
+        	"fontSize":30,
+        	"content": "牌型比较:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"1.火箭最大，可打任意其他的牌；"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"2.炸弹比火箭小，比其他牌大。炸弹按照牌点数比大小；"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth":800,
+            "itemHeight":50,
+            "fontSize":28,
+            "content":"3.除火箭和炸弹之外，其他牌型必须要牌型相同，总张数相同才能比大小；"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"4.相同牌型按照牌点数比大小；"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "itemWidth":800,
+            "itemHeight":50,
+            "fontSize":28,
+            "content":"5.点数大小：大王>小王>2>A>K>Q>J>10>9>8>7>6>5>4>3，不分花色；"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"6.顺牌都是按最大的一样牌的点数比大小；"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"7.飞机按其中的三顺的牌点比大小，带的牌不影响大小。"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "content":""
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"itemHeight":40,
+        	"fontSize":30,
+        	"content": "游戏计分:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 6,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【叫分】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemWidth": 600,
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"叫牌为底分翻倍(1分1倍、2分2倍、3分3倍);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【炸弹】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"底分x2;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【王炸】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"底分x2;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【春天】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemWidth": 800,
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"地主所有牌出牌，其余两家一张没出，底分x2;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【反春天】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemWidth": 800,
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"地主只出过一手牌，任意农民先出完牌，底分x2;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【地主胜】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemWidth": 800,
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"地主得分为2x底分x总倍数，农民各扣：底分x总倍数;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【地主败】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemWidth": 800,
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"地主失分为2x底分x总倍数，农民各得：底分x总倍数;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【系统抽成】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemWidth": 800,
+            "itemHeight":45,
+            "fontSize":28,
+            "content":"系统会从赢家的所赢取游戏收益中抽5%;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【防小博大】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "itemWidth": 650,
+            "itemHeight": 45,
+            "fontSize":28,
+            "content":"本局玩家带进多少本金，本局最多也等额输赢多少，如您本局带入80，结算时您理论应得200，为公平起见，您本局最多也只能赢到80，而不是200;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【金额不足】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "itemWidth": 650,
+            "itemHeight":80,
+            "fontSize":28,
+            "content":"如果地主出现本金不足的情况下，按照各农民理论盈利比例结算输赢，如果是农民本金不足的情况下，按照自己本金赔付即可。"
+        }
+        
+
+
+        
+    ]
+}

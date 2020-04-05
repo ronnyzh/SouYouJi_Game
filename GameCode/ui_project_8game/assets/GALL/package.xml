@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qn9mtfu5" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="k5pu0" name="BalanceItem.xml" path="/"/>
+    <image id="k5pu1" name="bar_bg.png" path="/style0/balance2/"/>
+    <image id="k5pu2" name="head_bg(1).png" path="/textures/table/" scale="9grid" scale9grid="35,37,70,74"/>
+    <image id="k5pu3" name="icon_win_small(1).png" path="/style0/icon/"/>
+    <image id="k5pu4" name="icon_spring(1).png" path="/style0/icon/"/>
+    <image id="k5pu5" name="icon_balance_double_yes(1).png" path="/style0/icon/"/>
+    <image id="k5pu6" name="dizhu_icon(1).png" path="/textures/table/"/>
+    <component id="k5pu7" name="BalanceView.xml" path="/" exported="true"/>
+    <image id="k5pu8" name="win-flower.png" path="/style0/balance2/"/>
+    <image id="k5pu9" name="win_light.png" path="/style0/balance2/"/>
+    <image id="k5pua" name="lose_light.png" path="/style0/balance2/"/>
+    <image id="k5pub" name="win_background.png" path="/style0/balance2/"/>
+    <image id="k5puc" name="lose_background.png" path="/style0/balance2/"/>
+    <image id="k5pud" name="win_title_bg.png" path="/style0/balance2/"/>
+    <image id="k5pue" name="win_wings.png" path="/style0/balance2/"/>
+    <image id="k5puf" name="win_wings-r.png" path="/style0/balance2/"/>
+    <image id="k5pug" name="win_cup.png" path="/style0/balance2/"/>
+    <image id="k5puh" name="win-title.png" path="/style0/balance2/"/>
+    <image id="k5pui" name="win_star.png" path="/style0/balance2/"/>
+    <image id="k5puj" name="lose_title_bg.png" path="/style0/balance2/"/>
+    <image id="k5puk" name="lose_wings.png" path="/style0/balance2/"/>
+    <image id="k5pul" name="lose_wings-r.png" path="/style0/balance2/"/>
+    <image id="k5pum" name="lose_cup.png" path="/style0/balance2/"/>
+    <image id="k5pun" name="lose_title.png" path="/style0/balance2/"/>
+    <image id="k5puo" name="lose_star.png" path="/style0/balance2/"/>
+    <component id="k5pup" name="BtnNormal(3).xml" path="/component/"/>
+    <image id="k5puq" name="btn-exit.png" path="/style0/balance2/"/>
+    <image id="k5pur" name="btn_continue.png" path="/style0/balance2/"/>
+    <image id="k5pus" name="btn_change(1).png" path="/style0/button/"/>
+    <component id="k5put" name="Operation.xml" path="/" exported="true"/>
+    <component id="k5puu" name="btnOperationItem(1).xml" path="/component/"/>
+    <image id="k5puv" name="btn_blue.png" path="/component/button/" scale="9grid" scale9grid="37,22,74,44"/>
+    <image id="k5puw" name="btn_double_no.png" path="/style0/button/"/>
+    <component id="k5pux" name="btnOperationItem.xml" path="/component/"/>
+    <image id="k5puy" name="btn_orange.png" path="/component/button/" scale="9grid" scale9grid="37,22,74,44"/>
+    <image id="k5puz" name="btn_double_yes.png" path="/style0/button/"/>
+    <image id="k5pu10" name="btn_reset.png" path="/style0/button/"/>
+    <image id="k5pu11" name="btn_deal.png" path="/style0/button/"/>
+    <image id="k5pu12" name="btn_tips.png" path="/style0/button/"/>
+    <image id="k5pu13" name="btn_pass.png" path="/style0/button/"/>
+    <image id="k5pu14" name="btn_continue.png" path="/component/button/"/>
+    <component id="k5pu15" name="btnReady.xml" path="/" exported="true"/>
+    <component id="h5fl16" name="Poker2.xml" path="/" exported="true"/>
+    <image id="h5fl17" name="icon-dealer.png" path="/style0/icon/"/>
+    <image id="h5fl18" name="card_black.png" path="/card/"/>
+    <image id="h5fl19" name="card_a1.png" path="/card/"/>
+    <image id="h5fl1a" name="card_backface.png" path="/GALL/"/>
+    <image id="h5fl1b" name="card_backfaces.png" path="/GALL/" exported="true"/>
+    <image id="h5fl1c" name="btn_color_blue.png" path="/common/button/"/>
+    <image id="h5fl1d" name="btn_color_yellow.png" path="/common/button/"/>
+    <image id="h5fl1e" name="touxiangk.png" path="/common/lobby/" exported="true" scale="9grid" scale9grid="17,16,34,32"/>
+    <image id="h5fl1f" name="tag_offline.png" path="/common/lobby/" exported="true"/>
+    <image id="h5fl1g" name="tag_dealer.png" path="/common/lobby/" exported="true"/>
+    <image id="h5fl1h" name="tag_ready.png" path="/common/lobby/" exported="true"/>
+    <image id="h5fl1i" name="img_cd_bg.png" path="/GALL/" exported="true"/>
+    <component id="h5fl1j" name="BtnNormal(2).xml" path="/" exported="true"/>
+    <image id="h5fl1k" name="btn_trusteeship_table.png" path="/GALL/" exported="true"/>
+    <image id="h5fl1l" name="要不起.png" path="/GALL/" exported="true"/>
+    <image id="h5fl1m" name="tag_ready.png" path="/GALL/" exported="true"/>
+    <image id="h5fl1n" name="-.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1o" name="0.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1p" name="1.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1q" name="2.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1r" name="3.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1s" name="4.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1t" name="5.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1u" name="6.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1v" name="7.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1w" name="8.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1x" name="9.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1y" name="c-+.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl1z" name="c-0.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl20" name="c-1.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl21" name="c-2.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl22" name="c-3.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl23" name="c-4.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl24" name="c-5.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl25" name="c-6.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl26" name="c-7.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl27" name="c-8.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl28" name="c-9.png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl29" name="橙色背景.png" path="/GALL/" exported="true"/>
+    <image id="h5fl2a" name="紫色背景.png" path="/GALL/" exported="true"/>
+    <font id="h5fl2b" name="Font1.fnt" path="/" exported="true"/>
+    <image id="h5fl2c" name="-..png" path="/牛牛结算数字散件/"/>
+    <font id="h5fl2d" name="Font2.fnt" path="/" exported="true"/>
+    <image id="h5fl2e" name="c-..png" path="/牛牛结算数字散件/"/>
+    <image id="h5fl2f" name="icon_trusteeship.png" path="/GALL/" exported="true"/>
+    <image id="h5fl2g" name="head-bg.png" path="/GALL/" exported="true"/>
+    <image id="h5fl2i" name="touxiangk.png" path="/GALL/" exported="true" scale="9grid" scale9grid="17,16,34,32"/>
+    <image id="h5fl2j" name="tag_dealer.png" path="/GALL/" exported="true"/>
+    <image id="h5fl2k" name="icon_multe.png" path="/GALL/" exported="true"/>
+    <image id="h5fl2l" name="tag_offline.png" path="/GALL/" exported="true"/>
+    <component id="h5fl2m" name="BtnNormal.xml" path="/" exported="true"/>
+    <image id="h5fl2n" name="btn_rule.png" path="/GALL/" exported="true"/>
+    <image id="h5fl2o" name="btn_trusteeship.png" path="/GALL/" exported="true"/>
+    <image id="h5fl2p" name="btn_trusteeship_close.png" path="/GALL/" exported="true"/>
+    <image id="h5fl2q" name="icon_alarm_0001.png" path="/GALL/" exported="true"/>
+    <component id="h5fl2r" name="TagAlarm.xml" path="/" exported="true"/>
+    <image id="h5fl2s" name="icon_alarm_0001.png" path="/icon/"/>
+    <image id="wm2e2u" name="btn_orange.png" path="/textures/btns/"/>
+    <component id="wm2e2v" name="Operat.xml" path="/" exported="true"/>
+    <image id="wm2e2w" name="btn_blue.png" path="/style0/button/" scale="9grid" scale9grid="37,22,74,44"/>
+    <image id="wm2e2x" name="btn_orange.png" path="/style0/button/" scale="9grid" scale9grid="37,22,74,44"/>
+    <image id="wm2e2y" name="icon_landlord_no.png" path="/style0/icon/"/>
+    <image id="wm2e2z" name="icon_landlord_1.png" path="/style0/icon/"/>
+    <image id="wm2e30" name="icon_landlord_2.png" path="/style0/icon/"/>
+    <image id="wm2e31" name="icon_landlord_3.png" path="/style0/icon/"/>
+    <image id="wm2e32" name="icon_landlord_yes.png" path="/style0/icon/"/>
+    <image id="gtil33" name="0.png" path="/牌局编号/"/>
+    <image id="gtil34" name="1.png" path="/牌局编号/"/>
+    <image id="gtil35" name="2.png" path="/牌局编号/"/>
+    <image id="gtil36" name="3.png" path="/牌局编号/"/>
+    <image id="gtil37" name="4.png" path="/牌局编号/"/>
+    <image id="gtil38" name="5.png" path="/牌局编号/"/>
+    <image id="gtil39" name="6.png" path="/牌局编号/"/>
+    <image id="gtil3a" name="7.png" path="/牌局编号/"/>
+    <image id="gtil3b" name="8.png" path="/牌局编号/"/>
+    <image id="gtil3c" name="9.png" path="/牌局编号/"/>
+    <image id="gtil3d" name="_.png" path="/牌局编号/"/>
+    <image id="gtil3e" name="号.png" path="/牌局编号/"/>
+    <image id="gtil3f" name="局.png" path="/牌局编号/"/>
+    <image id="gtil3g" name="牌.png" path="/牌局编号/"/>
+    <image id="gtil3h" name="编.png" path="/牌局编号/"/>
+    <image id="gtil3i" name="：.png" path="/牌局编号/"/>
+    <font id="gtil48" name="room_number.fnt" path="/" exported="true"/>
+    <font id="gtil49" name="game_info.fnt" path="/" exported="true"/>
+    <image id="py4c4z" name="，.png" path="/牌局编号/"/>
+    <image id="py4c51" name="场.png" path="/牌局编号/"/>
+    <image id="py4c52" name="底.png" path="/牌局编号/"/>
+    <image id="py4c53" name="分.png" path="/牌局编号/"/>
+    <image id="py4c54" name="高.png" path="/牌局编号/"/>
+    <image id="py4c55" name="豪.png" path="/牌局编号/"/>
+    <image id="py4c56" name="级.png" path="/牌局编号/"/>
+    <image id="py4c57" name="普.png" path="/牌局编号/"/>
+    <image id="py4c58" name="手.png" path="/牌局编号/"/>
+    <image id="py4c59" name="通.png" path="/牌局编号/"/>
+    <image id="py4c5a" name="土.png" path="/牌局编号/"/>
+    <image id="py4c5b" name="新.png" path="/牌局编号/"/>
+    <image id="py4c5c" name="中.png" path="/牌局编号/"/>
+    <image id="zkvs5d" name=",.png" path="/小游戏水印/"/>
+    <image id="zkvs5e" name="0.png" path="/小游戏水印/"/>
+    <image id="zkvs5f" name="1.png" path="/小游戏水印/"/>
+    <image id="zkvs5g" name="2.png" path="/小游戏水印/"/>
+    <image id="zkvs5h" name="3.png" path="/小游戏水印/"/>
+    <image id="zkvs5i" name="4.png" path="/小游戏水印/"/>
+    <image id="zkvs5j" name="5.png" path="/小游戏水印/"/>
+    <image id="zkvs5k" name="6.png" path="/小游戏水印/"/>
+    <image id="zkvs5l" name="7.png" path="/小游戏水印/"/>
+    <image id="zkvs5m" name="8.png" path="/小游戏水印/"/>
+    <image id="zkvs5n" name="9.png" path="/小游戏水印/"/>
+    <image id="zkvs5o" name="中.png" path="/小游戏水印/"/>
+    <image id="zkvs5p" name="冒号.png" path="/小游戏水印/"/>
+    <image id="zkvs5q" name="分.png" path="/小游戏水印/"/>
+    <image id="zkvs5r" name="土.png" path="/小游戏水印/"/>
+    <image id="zkvs5s" name="场.png" path="/小游戏水印/"/>
+    <image id="zkvs5t" name="底.png" path="/小游戏水印/"/>
+    <image id="zkvs5u" name="手.png" path="/小游戏水印/"/>
+    <image id="zkvs5v" name="新.png" path="/小游戏水印/"/>
+    <image id="zkvs5w" name="普.png" path="/小游戏水印/"/>
+    <image id="zkvs5x" name="级.png" path="/小游戏水印/"/>
+    <image id="zkvs5y" name="豪.png" path="/小游戏水印/"/>
+    <image id="zkvs5z" name="通.png" path="/小游戏水印/"/>
+    <image id="zkvs60" name="高级.png" path="/小游戏水印/"/>
+    <image id="zkvs61" name="..png" path="/小游戏水印/"/>
+    <image id="v4n962" name="斜杠.png" path="/牌局编号/"/>
+    <image id="v4n963" name="注.png" path="/牌局编号/"/>
+    <image id="v4n964" name="盲.png" path="/牌局编号/"/>
+    <image id="v4n965" name="点.png" path="/牌局编号/"/>
+    <image id="oy8e66" name="水印字-张.png" path="/小游戏水印/"/>
+    <image id="oy8e67" name="水印字-让.png" path="/小游戏水印/"/>
+    <image id="fqpz68" name="Game No..png" path="/牌局编号/"/>
+    <image id="fqpz69" name="字母-_01.png" path="/牌局编号/"/>
+    <image id="fqpz6a" name="字母-_02.png" path="/牌局编号/"/>
+    <image id="fqpz6b" name="字母-_03.png" path="/牌局编号/"/>
+    <image id="fqpz6c" name="字母-_04.png" path="/牌局编号/"/>
+    <image id="fqpz6d" name="字母-_05.png" path="/牌局编号/"/>
+    <image id="fqpz6e" name="字母-_06.png" path="/牌局编号/"/>
+    <image id="fqpz6f" name="字母-_07.png" path="/牌局编号/"/>
+    <image id="fqpz6g" name="字母-_08.png" path="/牌局编号/"/>
+    <image id="fqpz6h" name="字母-_09.png" path="/牌局编号/"/>
+    <image id="fqpz6i" name="字母-_10.png" path="/牌局编号/"/>
+    <image id="fqpz6j" name="字母-_11.png" path="/牌局编号/"/>
+    <image id="fqpz6k" name="字母-_12.png" path="/牌局编号/"/>
+    <image id="fqpz6l" name="字母-_13.png" path="/牌局编号/"/>
+    <image id="fqpz6m" name="字母-_14.png" path="/牌局编号/"/>
+    <image id="fqpz6n" name="字母-_15.png" path="/牌局编号/"/>
+    <image id="fqpz6o" name="字母-_16.png" path="/牌局编号/"/>
+    <image id="fqpz6p" name="字母-_17.png" path="/牌局编号/"/>
+    <image id="fqpz6q" name="字母-_18.png" path="/牌局编号/"/>
+    <image id="fqpz6r" name="字母-_19.png" path="/牌局编号/"/>
+    <image id="fqpz6s" name="字母-_20.png" path="/牌局编号/"/>
+    <image id="fqpz6t" name="字母-_21.png" path="/牌局编号/"/>
+    <image id="fqpz6u" name="字母-_22.png" path="/牌局编号/"/>
+    <image id="fqpz6v" name="字母-_23.png" path="/牌局编号/"/>
+    <image id="fqpz6w" name="字母-_24.png" path="/牌局编号/"/>
+    <image id="fqpz6x" name="字母-_25.png" path="/牌局编号/"/>
+    <image id="fqpz6y" name="字母-_26.png" path="/牌局编号/"/>
+    <image id="fqpz6z" name="字母-_27.png" path="/牌局编号/"/>
+    <image id="fqpz70" name="字母-_28.png" path="/牌局编号/"/>
+    <image id="fqpz71" name="字母-_29.png" path="/牌局编号/"/>
+    <image id="fqpz72" name="字母-_30.png" path="/牌局编号/"/>
+    <image id="fqpz73" name="字母-_31.png" path="/牌局编号/"/>
+    <image id="fqpz74" name="字母-_32.png" path="/牌局编号/"/>
+    <image id="fqpz75" name="字母-_33.png" path="/牌局编号/"/>
+    <image id="fqpz76" name="字母-_34.png" path="/牌局编号/"/>
+    <image id="fqpz77" name="字母-_35.png" path="/牌局编号/"/>
+    <image id="fqpz78" name="字母-_36.png" path="/牌局编号/"/>
+    <image id="fqpz79" name="字母-_37.png" path="/牌局编号/"/>
+    <image id="fqpz7a" name="字母-_38.png" path="/牌局编号/"/>
+    <image id="fqpz7b" name="字母-_39.png" path="/牌局编号/"/>
+    <image id="fqpz7c" name="字母-_40.png" path="/牌局编号/"/>
+    <image id="fqpz7d" name="字母-_41.png" path="/牌局编号/"/>
+    <image id="fqpz7e" name="字母-_42.png" path="/牌局编号/"/>
+    <image id="fqpz7f" name="字母-_43.png" path="/牌局编号/"/>
+    <image id="fqpz7g" name="字母-_44.png" path="/牌局编号/"/>
+    <image id="fqpz7h" name="字母-_45.png" path="/牌局编号/"/>
+    <image id="fqpz7i" name="字母-_46.png" path="/牌局编号/"/>
+    <image id="fqpz7j" name="字母-_47.png" path="/牌局编号/"/>
+    <image id="fqpz7k" name="字母-_48.png" path="/牌局编号/"/>
+    <image id="fqpz7l" name="字母-_49.png" path="/牌局编号/"/>
+    <image id="fqpz7m" name="字母-_50.png" path="/牌局编号/"/>
+    <image id="fqpz7n" name="字母-_51.png" path="/牌局编号/"/>
+    <image id="fqpz7o" name="字母-_52.png" path="/牌局编号/"/>
+    <image id="fqpz7p" name="字母_01.png" path="/小游戏水印/"/>
+    <image id="fqpz7q" name="字母_02.png" path="/小游戏水印/"/>
+    <image id="fqpz7r" name="字母_03.png" path="/小游戏水印/"/>
+    <image id="fqpz7s" name="字母_04.png" path="/小游戏水印/"/>
+    <image id="fqpz7t" name="字母_05.png" path="/小游戏水印/"/>
+    <image id="fqpz7u" name="字母_06.png" path="/小游戏水印/"/>
+    <image id="fqpz7v" name="字母_07.png" path="/小游戏水印/"/>
+    <image id="fqpz7w" name="字母_08.png" path="/小游戏水印/"/>
+    <image id="fqpz7x" name="字母_10.png" path="/小游戏水印/"/>
+    <image id="fqpz7y" name="字母_11.png" path="/小游戏水印/"/>
+    <image id="fqpz7z" name="字母_12.png" path="/小游戏水印/"/>
+    <image id="fqpz80" name="字母_13.png" path="/小游戏水印/"/>
+    <image id="fqpz81" name="字母_14.png" path="/小游戏水印/"/>
+    <image id="fqpz82" name="字母_15.png" path="/小游戏水印/"/>
+    <image id="fqpz83" name="字母_16.png" path="/小游戏水印/"/>
+    <image id="fqpz84" name="字母_17.png" path="/小游戏水印/"/>
+    <image id="fqpz85" name="字母_18.png" path="/小游戏水印/"/>
+    <image id="fqpz86" name="字母_19.png" path="/小游戏水印/"/>
+    <image id="fqpz87" name="字母_20.png" path="/小游戏水印/"/>
+    <image id="fqpz88" name="字母_21.png" path="/小游戏水印/"/>
+    <image id="fqpz89" name="字母_22.png" path="/小游戏水印/"/>
+    <image id="fqpz8a" name="字母_23.png" path="/小游戏水印/"/>
+    <image id="fqpz8b" name="字母_24.png" path="/小游戏水印/"/>
+    <image id="fqpz8c" name="字母_25.png" path="/小游戏水印/"/>
+    <image id="fqpz8d" name="字母_26.png" path="/小游戏水印/"/>
+    <image id="fqpz8e" name="字母_27.png" path="/小游戏水印/"/>
+    <image id="fqpz8f" name="字母_28.png" path="/小游戏水印/"/>
+    <image id="fqpz8g" name="字母_29.png" path="/小游戏水印/"/>
+    <image id="fqpz8h" name="字母_30.png" path="/小游戏水印/"/>
+    <image id="fqpz8i" name="字母_31.png" path="/小游戏水印/"/>
+    <image id="fqpz8j" name="字母_32.png" path="/小游戏水印/"/>
+    <image id="fqpz8k" name="字母_33.png" path="/小游戏水印/"/>
+    <image id="fqpz8l" name="字母_34.png" path="/小游戏水印/"/>
+    <image id="fqpz8m" name="字母_35.png" path="/小游戏水印/"/>
+    <image id="fqpz8n" name="字母_36.png" path="/小游戏水印/"/>
+    <image id="fqpz8o" name="字母_37.png" path="/小游戏水印/"/>
+    <image id="fqpz8p" name="字母_38.png" path="/小游戏水印/"/>
+    <image id="fqpz8q" name="字母_39.png" path="/小游戏水印/"/>
+    <image id="fqpz8r" name="字母_40.png" path="/小游戏水印/"/>
+    <image id="fqpz8s" name="字母_41.png" path="/小游戏水印/"/>
+    <image id="fqpz8t" name="字母_42.png" path="/小游戏水印/"/>
+    <image id="fqpz8u" name="字母_43.png" path="/小游戏水印/"/>
+    <image id="fqpz8v" name="字母_44.png" path="/小游戏水印/"/>
+    <image id="fqpz8w" name="字母_45.png" path="/小游戏水印/"/>
+    <image id="fqpz8x" name="字母_46.png" path="/小游戏水印/"/>
+    <image id="fqpz8y" name="字母_47.png" path="/小游戏水印/"/>
+    <image id="fqpz8z" name="字母_48.png" path="/小游戏水印/"/>
+    <image id="fqpz90" name="字母_49.png" path="/小游戏水印/"/>
+    <image id="fqpz91" name="字母_50.png" path="/小游戏水印/"/>
+    <image id="fqpz92" name="字母_51.png" path="/小游戏水印/"/>
+    <image id="fqpz93" name="字母_52.png" path="/小游戏水印/"/>
+    <image id="fqpz94" name="字母_53.png" path="/小游戏水印/"/>
+    <image id="fedb68" name="img_cd_bg2.png" path="/GALL/" exported="true"/>
+    <component id="fedb69" name="timer.xml" path="/" exported="true"/>
+    <image id="fedb6a" name="0.png" path="/counterFont/"/>
+    <image id="fedb6b" name="1.png" path="/counterFont/"/>
+    <image id="fedb6c" name="2.png" path="/counterFont/"/>
+    <image id="fedb6d" name="3.png" path="/counterFont/"/>
+    <image id="fedb6e" name="4.png" path="/counterFont/"/>
+    <image id="fedb6f" name="5.png" path="/counterFont/"/>
+    <image id="fedb6g" name="6.png" path="/counterFont/"/>
+    <image id="fedb6h" name="7.png" path="/counterFont/"/>
+    <image id="fedb6i" name="8.png" path="/counterFont/"/>
+    <image id="fedb6j" name="9.png" path="/counterFont/"/>
+    <font id="fedb6k" name="CounterFont.fnt" path="/counterFont/" exported="true"/>
+    <component id="fb0l95" name="BPBalance.xml" path="/" exported="true"/>
+    <image id="fb0l96" name="庄家通杀.png" path="/style0/balance2/"/>
+    <image id="fb0l97" name="庄家通赔.png" path="/style0/balance2/"/>
+  </resources>
+  <publish name="GALL"/>
+</packageDescription>

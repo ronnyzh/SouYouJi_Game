@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vft1d339" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="s2ed0" name="card_a1.png" path="/style0/" exported="true"/>
+    <image id="s2ed1" name="card_a10.png" path="/style0/" exported="true"/>
+    <image id="s2ed2" name="card_a11.png" path="/style0/" exported="true"/>
+    <image id="s2ed3" name="card_a12.png" path="/style0/" exported="true"/>
+    <image id="s2ed4" name="card_a13.png" path="/style0/" exported="true"/>
+    <image id="s2ed5" name="card_a2.png" path="/style0/" exported="true"/>
+    <image id="s2ed6" name="card_a3.png" path="/style0/" exported="true"/>
+    <image id="s2ed7" name="card_a4.png" path="/style0/" exported="true"/>
+    <image id="s2ed8" name="card_a5.png" path="/style0/" exported="true"/>
+    <image id="s2ed9" name="card_a6.png" path="/style0/" exported="true"/>
+    <image id="s2eda" name="card_a7.png" path="/style0/" exported="true"/>
+    <image id="s2edb" name="card_a8.png" path="/style0/" exported="true"/>
+    <image id="s2edc" name="card_a9.png" path="/style0/" exported="true"/>
+    <image id="s2edd" name="card_b1.png" path="/style0/" exported="true"/>
+    <image id="s2ede" name="card_b10.png" path="/style0/" exported="true"/>
+    <image id="s2edf" name="card_b11.png" path="/style0/" exported="true"/>
+    <image id="s2edg" name="card_b12.png" path="/style0/" exported="true"/>
+    <image id="s2edh" name="card_b13.png" path="/style0/" exported="true"/>
+    <image id="s2edi" name="card_b2.png" path="/style0/" exported="true"/>
+    <image id="s2edj" name="card_b3.png" path="/style0/" exported="true"/>
+    <image id="s2edk" name="card_b4.png" path="/style0/" exported="true"/>
+    <image id="s2edl" name="card_b5.png" path="/style0/" exported="true"/>
+    <image id="s2edm" name="card_b6.png" path="/style0/" exported="true"/>
+    <image id="s2edn" name="card_b7.png" path="/style0/" exported="true"/>
+    <image id="s2edo" name="card_b8.png" path="/style0/" exported="true"/>
+    <image id="s2edp" name="card_b9.png" path="/style0/" exported="true"/>
+    <image id="s2edq" name="card_backface.png" path="/style0/" exported="true"/>
+    <image id="s2edr" name="card_backface2.png" path="/style0/" exported="true"/>
+    <image id="s2eds" name="card_c1.png" path="/style0/" exported="true"/>
+    <image id="s2edt" name="card_c10.png" path="/style0/" exported="true"/>
+    <image id="s2edu" name="card_c11.png" path="/style0/" exported="true"/>
+    <image id="s2edv" name="card_c12.png" path="/style0/" exported="true"/>
+    <image id="s2edw" name="card_c13.png" path="/style0/" exported="true"/>
+    <image id="s2edx" name="card_c2.png" path="/style0/" exported="true"/>
+    <image id="s2edy" name="card_c3.png" path="/style0/" exported="true"/>
+    <image id="s2edz" name="card_c4.png" path="/style0/" exported="true"/>
+    <image id="s2ed10" name="card_c5.png" path="/style0/" exported="true"/>
+    <image id="s2ed11" name="card_c6.png" path="/style0/" exported="true"/>
+    <image id="s2ed12" name="card_c7.png" path="/style0/" exported="true"/>
+    <image id="s2ed13" name="card_c8.png" path="/style0/" exported="true"/>
+    <image id="s2ed14" name="card_c9.png" path="/style0/" exported="true"/>
+    <image id="s2ed15" name="card_d1.png" path="/style0/" exported="true"/>
+    <image id="s2ed16" name="card_d10.png" path="/style0/" exported="true"/>
+    <image id="s2ed17" name="card_d11.png" path="/style0/" exported="true"/>
+    <image id="s2ed18" name="card_d12.png" path="/style0/" exported="true"/>
+    <image id="s2ed19" name="card_d13.png" path="/style0/" exported="true"/>
+    <image id="s2ed1a" name="card_d2.png" path="/style0/" exported="true"/>
+    <image id="s2ed1b" name="card_d3.png" path="/style0/" exported="true"/>
+    <image id="s2ed1c" name="card_d4.png" path="/style0/" exported="true"/>
+    <image id="s2ed1d" name="card_d5.png" path="/style0/" exported="true"/>
+    <image id="s2ed1e" name="card_d6.png" path="/style0/" exported="true"/>
+    <image id="s2ed1f" name="card_d7.png" path="/style0/" exported="true"/>
+    <image id="s2ed1g" name="card_d8.png" path="/style0/" exported="true"/>
+    <image id="s2ed1h" name="card_d9.png" path="/style0/" exported="true"/>
+    <image id="s2ed1i" name="card_e1.png" path="/style0/" exported="true"/>
+    <image id="s2ed1j" name="card_e2.png" path="/style0/" exported="true"/>
+  </resources>
+  <publish name="pokers"/>
+</packageDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="244,520">
+  <controller name="choose" exported="true" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <image id="n5_esgt" name="n5" src="pfm9o1" fileName="waybill/images/左侧选项底.png" xy="0,0" size="244,520">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_l1l1" name="btn_choose_s1" src="l1l1pc" fileName="waybill/单选按钮.xml" xy="0,0" size="244,130" controller="button,0,c1,1,c2,1">
+      <Button controller="choose" page="1"/>
+    </component>
+    <component id="n2_l1l1" name="btn_choose_s2" src="l1l1pc" fileName="waybill/单选按钮.xml" xy="0,130" size="244,130" controller="button,0,c1,2,c2,2">
+      <Button controller="choose" page="2"/>
+    </component>
+    <component id="n3_l1l1" name="btn_choose_s3" src="l1l1pc" fileName="waybill/单选按钮.xml" xy="0,260" size="244,130" controller="button,0,c1,3,c2,3">
+      <Button controller="choose" page="3"/>
+    </component>
+    <component id="n4_l1l1" name="btn_choose_s4" src="l1l1pc" fileName="waybill/单选按钮.xml" xy="0,390" size="244,130" controller="button,0,c1,4,c2,4">
+      <Button controller="choose" page="4"/>
+    </component>
+  </displayList>
+</component>

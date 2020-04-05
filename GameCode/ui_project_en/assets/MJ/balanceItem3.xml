@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1114,300">
+  <controller name="c1" pages="0,,1,hu" selected="0"/>
+  <displayList>
+    <image id="n89_vddh" name="n89" src="vddh27n" fileName="麻将结算/底 -自己(1).png" xy="-39,2" size="1153,285">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n90_vddh" name="n90" src="vddh27o" fileName="麻将结算/底-三家(1).png" xy="-27,12" size="1145,281">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <list id="n77_jlz3" name="tileList" xy="8,73" size="202,124" scale="0.8,0.8" touchable="false" layout="pagination" defaultItem="ui://ejgb8krjkstv1i" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n79_jlz3" name="out_tiles" xy="376,94" size="266,96" scale="0.8,0.8" layout="row" selectionMode="none" lineGap="-167" defaultItem="ui://ejgb8krjkteuy" vAlign="bottom" renderOrder="descent" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n80_jlz3" name="tfName" xy="2,36" size="596,39" fontSize="25" color="#44b17f" autoSize="none" bold="true" singleLine="true" text="玩家名字太长">
+      <gearColor controller="c1" pages="1" values="#e4e072,#000000" default="#44b17f,#000000"/>
+    </text>
+    <text id="n81_jlz3" name="tfHued" xy="761,40" size="193,123" hideByEditor="true" fontSize="28" color="#39d4c7" vAlign="middle" autoSize="none" bold="true" autoClearText="true" text="玩家名字">
+      <gearColor controller="c1" pages="1" values="#ffefa5,#000000" default="#39d4c7,#000000"/>
+    </text>
+    <image id="n82_jlz3" name="imgBanker" src="mr4a3v" fileName="textures/table/庄.png" xy="-58,-11"/>
+    <text id="n83_jlz3" name="tfScore1" xy="909,107" size="196,40" font="ui://ejgb8krj8mbq4y" fontSize="26" color="#ffffff" align="right" vAlign="middle" letterSpacing="-4" autoSize="none" text="+659.00">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n87_8mbq" name="tfScore2" xy="909,107" size="196,40" font="ui://ejgb8krj8mbq4x" fontSize="26" color="#ffffff" align="right" vAlign="middle" letterSpacing="-4" autoSize="none" text="-659.00">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <image id="n84_jlz3" name="imgHued" src="8mbq4i" fileName="麻将结算/胡.png" xy="1059,-21">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n88_wxe2" name="ttype" xy="-6,186" size="1113,88" fontSize="30" color="#44b17f" autoSize="none" text="七对  +32 , 混一色  +2, 报听  +1 ,三暗刻  +23 , 风刻  +2 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 , 自摸  +3 ,">
+      <gearColor controller="c1" pages="1" values="#e4e072,#000000" default="#44b17f,#000000"/>
+    </text>
+  </displayList>
+</component>

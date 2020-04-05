@@ -1,0 +1,186 @@
+swagger: '3.0'
+info: {title: bottle-swagger, version: 3.0.0}
+produces: [application/json]
+consumes: [application/json]
+
+definitions:
+  response_success:
+    properties:
+      code:
+        type: integer
+        description: 编号 -1 = 失败 0=成功
+      msg:
+        type: string
+        description: 信息
+    type: object
+
+  response_success_showdata:
+    properties:
+      code:
+        type: integer
+        description: 编号 -1 = 失败 0=成功
+      msg:
+        type: string
+        description: 信息
+      data:
+        type: object
+        description: 数据
+    type: object
+
+  response_showdata:
+    type: object
+
+
+paths:
+  /hall/honor/joinHonorRoom:
+    post:
+      summary: 加入荣誉场
+      parameters:
+        - {in: formData, description: "玩家SID", name: sid, required: false, type: string }
+        - {in: formData, description: "玩家UID", name: uid, required: false, type: integer }
+        - {in: formData, description: "游戏ID", name: gameid, required: true, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场大厅接口(匹配)
+
+  /hall/honor/checkJoinHonorRoom:
+    post:
+      summary: 确认加入荣誉场结果
+      parameters:
+        - {in: formData, description: "玩家UID", name: uid, required: false, type: integer }
+        - {in: formData, description: "玩家SID", name: sid, required: false, type: string }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场大厅接口(匹配)
+
+  /hall/honor/modifyPlayerHonor:
+    post:
+      summary: 修改玩家荣誉值
+      parameters:
+        - {in: formData, description: "玩家UID", name: uid, required: false, type: integer }
+        - {in: formData, description: "玩家SID", name: sid, required: false, type: string }
+        - {in: formData, description: "修改类型(0:增加,1:修改)", name: isrm, required: true, type: integer }
+        - {in: formData, description: "数值", name: number, required: true, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场大厅接口(匹配)
+
+  /hall/honor/createRoom:
+    post:
+      summary: 创建荣誉场好友房
+      parameters:
+        - {in: formData, description: "玩家SID", name: sid, required: false, type: string }
+        - {in: formData, description: "房间规则", name: rule, required: true, type: string }
+        - {in: formData, description: "游戏ID", name: gameid, required: true, type: integer }
+        - {in: formData, description: "是否待开房", name: hidden, required: true, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场大厅接口(好友组局)
+
+  /hall/honor/joinRoom:
+    post:
+      summary: 加入荣誉场好友房
+      parameters:
+        - {in: formData, description: "玩家SID", name: sid, required: false, type: string }
+        - {in: formData, description: "房间ID", name: roomid, required: true, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场大厅接口(好友组局)
+
+  /hall/honor/setVIP:
+    post:
+      summary: 修改用户VIP身份
+      parameters:
+        - {in: formData, description: "玩家UID", name: uid, required: true, type: integer }
+        - {in: formData, description: "类型(1:添加,2:移除)", name: type, required: true, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场后台接口
+
+  /hall/honor/addHonorGame:
+    post:
+      summary: 添加荣誉场游戏
+      parameters:
+        - {in: formData, description: "游戏ID", name: gameid, required: false, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场后台接口
+
+  /hall/honor/rmHonorGame:
+    post:
+      summary: 删除荣誉场游戏
+      parameters:
+        - {in: formData, description: "游戏ID", name: gameid, required: false, type: integer }
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场后台接口
+
+  /hall/honor/getHonorGame:
+    get:
+      summary: 获取荣誉场游戏列表
+      produces:
+        - application/json
+      consumes:
+        - application/x-www-form-urlencoded
+      responses:
+        '200':
+          description: ''
+          schema: {$ref: '#/definitions/response_success'}
+      tags:
+        - 荣誉场后台接口

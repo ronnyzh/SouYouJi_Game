@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="252,86" extention="Button" designImage="ui://1sm91w5opu4x11" designImageOffsetX="-945" designImageOffsetY="-655" designImageAlpha="0">
+  <controller name="selected" exported="true" pages="0,false,2,true" selected="0"/>
+  <controller name="type" exported="true" pages="0,跟,1,让或弃,2,跟任何注,3,自动让牌,4,全下" selected="0"/>
+  <displayList>
+    <image id="n115_imd3" name="n115" src="pu4x1a" fileName="Image/出图/按钮-紫.png" xy="0,0" locked="true"/>
+    <image id="n119_imd3" name="n119" src="pu4x18" fileName="Image/出图/按钮-勾选框.png" xy="21,14"/>
+    <image id="n118_imd3" name="n118" src="pu4x17" fileName="Image/出图/按钮-勾选.png" xy="25,18">
+      <gearDisplay controller="selected" pages="2"/>
+    </image>
+    <text id="n123_imd3" name="title" xy="74,10" size="155,45" font="ui://1sm91w5oimd34i" fontSize="47" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="跟50000000">
+      <gearDisplay controller="type" pages="0"/>
+    </text>
+    <loader id="n124_imd3" name="icon" xy="54,15" size="49,45" url="ui://1sm91w5opu4x1e">
+      <gearDisplay controller="type" pages="1,2,3,4"/>
+      <gearXY controller="type" pages="1,2,3,4" values="71,13|63,12|63,12|96,13" default="54,15"/>
+      <gearSize controller="type" pages="1,2,3,4" values="127,45,1,1|169,45,1,1|170,45,1,1|103,45,1,1" default="49,45,1,1"/>
+      <gearIcon controller="type" pages="1,2,3,4" values="ui://1sm91w5opu4x1d|ui://1sm91w5opu4x1f|ui://1sm91w5opu4x1b|ui://1sm91w5omn9657" default="ui://1sm91w5opu4x1e"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

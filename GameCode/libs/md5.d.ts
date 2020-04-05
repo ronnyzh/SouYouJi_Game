@@ -1,0 +1,1 @@
+declare function md5(id:number|string):string

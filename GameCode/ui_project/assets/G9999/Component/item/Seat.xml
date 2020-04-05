@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <controller name="c1" exported="true" pages="0,,1,zhuang" selected="0"/>
+  <displayList>
+    <loader id="n0_osvm" name="icon" xy="23,9" size="100,100" locked="true" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n5_h21o" name="n5" src="foeb4e" fileName="百家乐/头像描边框.png" xy="18,4" size="110,110"/>
+    <image id="n1_osvm" name="n1" src="r4d51" fileName="common/lobby/touxiangk.png" pkg="newlnjld" xy="22,9" size="102,102"/>
+    <image id="n11_pqc4" name="n11" src="foeb4d" fileName="百家乐/头像名称底.png" xy="28,79" size="90,28"/>
+    <text id="n2_osvm" name="name" xy="9,79" size="131,28" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#666666" strokeSize="2" text="用户名"/>
+    <text id="n3_osvm" name="score" xy="74,131" pivot="0.5,0.5" anchor="true" size="49,27" font="ui://rjf5583xprh340" fontSize="25" color="#ffff00" align="right" vAlign="middle" italic="true" strokeColor="#666666" strokeSize="2" text="100"/>
+    <component id="n8_h21o" name="icon_click" src="kvb5a" fileName="ScaleButton.xml" pkg="8a4txovs" xy="8,-3" size="130,130" locked="true"/>
+    <image id="n9_to38" name="n9" src="wm2e2s" fileName="GBP_Img/Score_BG/庄.png" pkg="rjf5583x" xy="93,-2">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n10_l6ym" name="txtChangeScore" xy="0,0" size="150,33" font="ui://wtkqufwmo45b22" fontSize="24" align="center" vAlign="middle" autoSize="none" text=""/>
+  </displayList>
+  <transition name="ChangeScore">
+    <item time="0" type="Alpha" target="n10_l6ym" tween="true" startValue="0" endValue="1" duration="12" ease="Expo.Out"/>
+    <item time="0" type="XY" target="n10_l6ym" tween="true" startValue="0,0" endValue="0,-32" duration="12" ease="Expo.Out"/>
+  </transition>
+</component>

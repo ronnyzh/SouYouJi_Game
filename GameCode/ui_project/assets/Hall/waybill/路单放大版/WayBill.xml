@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1141,538">
+  <displayList>
+    <image id="n11_orzp" name="bg" src="orzpq7" fileName="waybill/新格子/底背.png" xy="569,271" pivot="0.5,0.5" anchor="true" size="1135,526">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n10_d4a4" name="chooseCom" src="d69rqh" fileName="waybill/路单放大版/场次选择新-放大版.xml" xy="5,11" size="244,520" controller="choose,1">
+      <relation target="n11_orzp" sidePair="middle-middle,center-center"/>
+    </component>
+    <component id="n4_v54h" name="roomList" src="d69rqg" fileName="waybill/路单放大版/waybillMain-放大版.xml" xy="249,11" size="885,520">
+      <relation target="n11_orzp" sidePair="middle-middle,center-center"/>
+    </component>
+  </displayList>
+</component>

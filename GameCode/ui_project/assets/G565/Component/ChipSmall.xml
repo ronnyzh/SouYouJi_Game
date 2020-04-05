@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="26,27" extention="Label">
+  <controller name="color" exported="true" pages="0,橙,1,粉,2,红,3,黄,4,蓝,5,绿,6,浅蓝,7,青绿,8,浅紫,9,紫" selected="0"/>
+  <displayList>
+    <loader id="n7_cjdq" name="icon" xy="0,0" size="26,27" url="ui://1sm91w5opu4x9" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="color" pages="0,1,2,3,4,6,7,8,9" values="ui://1sm91w5opu4x9|ui://1sm91w5opu4xb|ui://1sm91w5opu4xe|ui://1sm91w5opu4xi|ui://1sm91w5opu4xg|ui://1sm91w5opu4xa|ui://1sm91w5opu4xh|ui://1sm91w5opu4xc|ui://1sm91w5opu4xd" default="ui://1sm91w5opu4xf"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+  </displayList>
+</component>

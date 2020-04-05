@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dung4bqc" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="q7l50" name="card_a1.png" path="/card/" exported="true"/>
+    <image id="q7l51" name="card_backface.png" path="/card/"/>
+    <component id="q7l52" name="GameScene.xml" path="/" exported="true"/>
+    <image id="q7l53" name="jinbi_bg.png" path="/textures/ddzgame/ddz/" scale="9grid" scale9grid="305,30,610,17"/>
+    <component id="q7l55" name="Seat.xml" path="/"/>
+    <image id="q7l56" name="head_bg.png" path="/textures/table/" scale="9grid" scale9grid="35,37,70,74"/>
+    <image id="q7l57" name="nonming_icon.png" path="/textures/table/"/>
+    <image id="q7l58" name="dizhu_icon.png" path="/textures/table/"/>
+    <image id="q7l59" name="icon_trusteeship.png" path="/style0/icon/"/>
+    <image id="q7l5a" name="icon_boom.png" path="/style0/icon/"/>
+    <image id="q7l5b" name="icon_dobule_no.png" path="/style0/icon/"/>
+    <image id="q7l5c" name="icon_double_yes.png" path="/style0/icon/"/>
+    <image id="q7l5d" name="icon_action_noDiscard.png" path="/style0/icon/"/>
+    <component id="q7l5e" name="TagAlarm.xml" path="/component/"/>
+    <image id="q7l5f" name="icon_alarm_0001.png" path="/style0/icon/"/>
+    <image id="q7l5g" name="img_cd_bg.png" path="/style0/other/"/>
+    <image id="q7l5h" name="tips_landlord_1.png" path="/style0/icon/"/>
+    <image id="q7l5i" name="tips_landlord_2.png" path="/style0/icon/"/>
+    <image id="q7l5j" name="tips_landlord_3.png" path="/style0/icon/"/>
+    <image id="q7l5k" name="tips_landlord_no.png" path="/style0/icon/"/>
+    <image id="q7l5l" name="tips_landlord_yes.png" path="/style0/icon/"/>
+    <component id="q7l5m" name="Operation.xml" path="/"/>
+    <component id="q7l5n" name="BtnNormal.xml" path="/component/"/>
+    <image id="q7l5s" name="btn_tips.png" path="/style0/button/"/>
+    <component id="q7l5u" name="btnOperationItem.xml" path="/component/"/>
+    <image id="q7l5v" name="btn_orange.png" path="/style0/button/"/>
+    <image id="q7l5w" name="btn_change.png" path="/style0/other/"/>
+    <component id="q7l510" name="BalanceView.xml" path="/"/>
+    <image id="q7l511" name="dl_tray1.png" path="/style0/balance/" scale="9grid" scale9grid="221,225,442,450"/>
+    <component id="q7l512" name="BalanceItem.xml" path="/"/>
+    <image id="q7l513" name="dl_item_tray.png" path="/style0/balance/" scale="9grid" scale9grid="16,16,32,32"/>
+    <image id="q7l514" name="icon_win_small.png" path="/style0/icon/"/>
+    <image id="q7l515" name="icon_spring.png" path="/style0/icon/"/>
+    <image id="q7l516" name="icon_balance_double_yes.png" path="/style0/icon/"/>
+    <image id="q7l517" name="ba_title_lost.png" path="/style0/balance/"/>
+    <image id="q7l518" name="ba_flag.png" path="/style0/balance/"/>
+    <image id="q7l519" name="ba_title_win.png" path="/style0/balance/"/>
+    <image id="q7l51a" name="btn_exit_room.png" path="/style0/button/"/>
+    <image id="q7l51b" name="btn_continur.png" path="/style0/button/"/>
+    <image id="q7l51c" name="btn_change.png" path="/style0/button/"/>
+    <image id="q7l51h" name="img_mask_1.png" path="/style0/other/" scale="9grid" scale9grid="26,8,52,16"/>
+    <image id="is4d1i" name="dl_head_tray.png" path="/style0/balance/"/>
+    <image id="is4d1j" name="btn_start.png" path="/style0/button/"/>
+    <image id="is4d1k" name="btnBotNormal.png" path="/style0/button/"/>
+    <image id="is4d1l" name="btnBotNormalActive.png" path="/style0/button/"/>
+    <image id="is4d1m" name="btnStart.png" path="/style0/button/"/>
+    <image id="is4d1n" name="btnTrangleSQ.png" path="/style0/button/"/>
+    <image id="is4d1o" name="btnEmojiSQ.png" path="/style0/button/"/>
+    <image id="is4d1p" name="btnRuleSQ.png" path="/style0/button/"/>
+    <image id="is4d1q" name="card_a1.png" path="/style0/card/"/>
+    <image id="is4d1r" name="card_backface.png" path="/style0/card/"/>
+    <image id="is4d24" name="icon_bipai.png" path="/style0/icon/"/>
+    <image id="is4d25" name="icon_gold.png" path="/style0/icon/"/>
+    <image id="is4d26" name="tag_ready.png" path="/style0/icon/"/>
+    <image id="is4d27" name="tag_kanpai.png" path="/style0/icon/"/>
+    <image id="is4d28" name="tag_genzhu.png" path="/style0/icon/"/>
+    <image id="is4d29" name="icon_action_pass.png" path="/style0/icon/"/>
+    <image id="is4d2a" name="icon_alarm_0002.png" path="/style0/icon/"/>
+    <image id="is4d2b" name="icon_landlord_1.png" path="/style0/icon/"/>
+    <image id="is4d2c" name="icon_landlord_2.png" path="/style0/icon/"/>
+    <image id="is4d2d" name="icon_landlord_3.png" path="/style0/icon/"/>
+    <image id="is4d2e" name="icon_landlord_yes.png" path="/style0/icon/"/>
+    <image id="is4d2f" name="icon_landlord_no.png" path="/style0/icon/"/>
+    <image id="is4d2g" name="nnBottom.png" path="/style0/nn/"/>
+    <image id="is4d2h" name="nn_baozi.png" path="/style0/nn/"/>
+    <image id="is4d2i" name="nn_danpai.png" path="/style0/nn/"/>
+    <image id="is4d2j" name="nn_duizi.png" path="/style0/nn/"/>
+    <image id="is4d2k" name="nn_jinhua.png" path="/style0/nn/"/>
+    <image id="is4d2l" name="nn_qipai.png" path="/style0/nn/"/>
+    <image id="is4d2m" name="nn_shunjin.png" path="/style0/nn/"/>
+    <image id="is4d2n" name="nn_shunzi.png" path="/style0/nn/"/>
+    <image id="is4d2o" name="con_bot_buttom.png" path="/style0/other/"/>
+    <image id="is4d2p" name="con_head_bot.png" path="/style0/other/" scale="9grid" scale9grid="22,22,44,44"/>
+    <image id="is4d2q" name="con_head_bot_container.png" path="/style0/other/"/>
+    <image id="is4d2r" name="con_head_gold_bot.png" path="/style0/other/" scale="9grid" scale9grid="22,7,44,14"/>
+    <image id="is4d2s" name="con_head_gold_count.png" path="/style0/other/" scale="9grid" scale9grid="29,12,58,4"/>
+    <image id="is4d2t" name="con_head_light.png" path="/style0/other/"/>
+    <image id="is4d2u" name="con_room_info.png" path="/style0/other/"/>
+    <image id="is4d2v" name="con_talk.png" path="/style0/other/"/>
+    <image id="is4d2w" name="con_title_bot_bar.png" path="/style0/other/" scale="9grid" scale9grid="107,19,15,38"/>
+    <image id="is4d2x" name="con_title_bot_bar2.png" path="/style0/other/" scale="9grid" scale9grid="0,4,345,10"/>
+    <image id="is4d2y" name="con_title_pokernn.png" path="/style0/other/"/>
+    <image id="is4d2z" name="logo.png" path="/style0/other/"/>
+    <image id="is4d30" name="con_pk_player_bg.png" path="/style0/pk/" scale="9grid" scale9grid="340,0,8,296"/>
+    <image id="is4d31" name="icon_pk_vs.png" path="/style0/pk/"/>
+    <image id="is4d32" name="icon_pk_head_bg.png" path="/style0/pk/" scale="9grid" scale9grid="57,26,114,52"/>
+    <image id="is4d33" name="table.jpg" path="/style0/other/"/>
+    <component id="yjzs35" name="handwall.xml" path="/"/>
+    <component id="yjzs36" name="Card.xml" path="/" exported="true"/>
+    <component id="yjzs38" name="operationTalk.xml" path="/"/>
+    <image id="yjzs3a" name="btn_trusteeship_close.png" path="/style0/button/"/>
+    <image id="yjzs3b" name="btn_trusteeship.png" path="/style0/button/"/>
+    <component id="fz5k3c" name="Seat2.xml" path="/"/>
+    <movieclip id="fz5k3d" name="boom.jta" path="/style0/effect/" exported="true"/>
+    <component id="fz5k3e" name="ScaleButton.xml" path="/" exported="true"/>
+    <image id="bs3w3f" name="card_a7.png" path="/card/"/>
+    <image id="bs3w3g" name="card_b11.png" path="/card/"/>
+    <image id="bs3w3p" name="card_b1.png" path="/card/"/>
+    <image id="bs3w3q" name="card_c1.png" path="/card/"/>
+    <image id="bs3w3r" name="card_a13.png" path="/card/"/>
+    <image id="bs3w3s" name="card_a12.png" path="/card/"/>
+    <image id="bs3w3t" name="card_a6.png" path="/card/"/>
+    <image id="bs3w3u" name="card_a8.png" path="/card/"/>
+    <image id="bs3w3v" name="card_a11.png" path="/card/"/>
+    <image id="bs3w3w" name="card_c10.png" path="/card/"/>
+    <image id="bs3w3x" name="card_d11.png" path="/card/"/>
+    <image id="bs3w3z" name="card_c13.png" path="/card/"/>
+    <image id="bs3w40" name="card_c9.png" path="/card/"/>
+    <image id="zbq141" name="icon_head-chip.png" path="/style0/icon/"/>
+    <image id="zbq142" name="icon_head-chip.png" path="/style0/other/"/>
+    <image id="zbq143" name="con_title_bot_right.png" path="/style0/other/" scale="9grid" scale9grid="14,19,10,38"/>
+    <image id="zbq144" name="chip1.png" path="/style0/chip/"/>
+    <image id="zbq145" name="chip2.png" path="/style0/chip/"/>
+    <image id="zbq146" name="chip3.png" path="/style0/chip/"/>
+    <image id="zbq147" name="chip4.png" path="/style0/chip/"/>
+    <image id="zbq148" name="chip5.png" path="/style0/chip/"/>
+    <image id="zbq149" name="chip6.png" path="/style0/chip/"/>
+    <component id="zbq14a" name="Chip.xml" path="/component/"/>
+    <component id="zbq14b" name="ChipBtn.xml" path="/component/"/>
+    <image id="zbq14c" name="jiazhuBG.png" path="/style0/other/" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="iufb4d" name="btn_ready.png" path="/style0/button/"/>
+    <component id="p1fs4e" name="tagBipai.xml" path="/"/>
+    <component id="yoto4f" name="BtnNormal(1).xml" path="/component/"/>
+    <image id="yoto4g" name="btn_rule.png" path="/style0/button/"/>
+    <image id="ft7s4h" name="nn_fail.png" path="/style0/nn/"/>
+    <image id="103jy4i" name="-.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4j" name="0.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4k" name="1.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4l" name="2.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4m" name="3.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4n" name="4.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4o" name="5.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4p" name="6.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4q" name="7.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4r" name="8.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4s" name="9.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4t" name="c-+.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4u" name="c-0.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4v" name="c-1.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4w" name="c-2.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4x" name="c-3.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4y" name="c-4.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy4z" name="c-5.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy50" name="c-6.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy51" name="c-7.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy52" name="c-8.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy53" name="c-9.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy54" name="橙色背景.png" path="/牛牛结算数字散件/"/>
+    <image id="103jy55" name="紫色背景.png" path="/牛牛结算数字散件/"/>
+    <font id="103jy56" name="Font1.fnt" path="/牛牛结算数字散件/" exported="true"/>
+    <image id="103jy57" name="-..png" path="/牛牛结算数字散件/"/>
+    <font id="103jy58" name="Font2.fnt" path="/牛牛结算数字散件/" exported="true"/>
+    <image id="103jy59" name="c-..png" path="/牛牛结算数字散件/"/>
+    <sound id="103jy5a" name="af_pk_loss.mp3" path="/sound/"/>
+    <sound id="103jy5b" name="af_t_baozi.mp3" path="/sound/"/>
+    <sound id="103jy5c" name="af_t_shunjin.mp3" path="/sound/"/>
+    <sound id="103jy5d" name="af_pk.mp3" path="/sound/"/>
+    <image id="op4ny5g" name="head_bg(1).png" path="/textures/table/" scale="9grid" scale9grid="35,37,70,74"/>
+    <image id="op4ny5h" name="icon_win_small(1).png" path="/style0/icon/"/>
+    <image id="op4ny5i" name="icon_spring(1).png" path="/style0/icon/"/>
+    <image id="op4ny5j" name="icon_balance_double_yes(1).png" path="/style0/icon/"/>
+    <image id="op4ny5k" name="dizhu_icon(1).png" path="/textures/table/"/>
+    <component id="op4ny63" name="BtnNormal(2).xml" path="/component/"/>
+    <image id="op4ny66" name="btn_change(1).png" path="/style0/button/"/>
+    <image id="ojsqy68" name="icon-dealer.png" path="/style0/icon/"/>
+    <image id="ojsqy69" name="card_black.png" path="/card/"/>
+    <image id="q8w2y6a" name="btnBGRed.png" path="/style0/button/"/>
+    <image id="q8w2y6b" name="btnBGYellow.png" path="/style0/button/"/>
+    <image id="q8w2y6c" name="btnBGGrey.png" path="/style0/button/"/>
+    <image id="q8w2y6d" name="btnBGBlue.png" path="/style0/button/"/>
+    <image id="q8w2y6e" name="btnBGPurple.png" path="/style0/button/"/>
+    <component id="q8w2y6h" name="btnOperationItemBlue.xml" path="/component/"/>
+    <image id="m6dny6j" name="doWatch.png" path="/style0/nn/"/>
+    <component id="f936y6k" name="btnOperationItemPurple.xml" path="/component/"/>
+    <component id="f936y6l" name="btnOperationItemRed.xml" path="/component/"/>
+    <component id="f936y6m" name="btnOperationItemYellow.xml" path="/component/"/>
+    <image id="f936y6n" name="head-light.png" path="/style0/other/" scale="9grid" scale9grid="20,21,82,119"/>
+    <image id="h56my6o" name="chip7.png" path="/style0/chip/"/>
+    <image id="9it5y6p" name="btn-title-zidong.png" path="/style0/button/"/>
+    <image id="9it5y6q" name="btn-title-bipai.png" path="/style0/button/"/>
+    <image id="9it5y6r" name="btn-title-genzhu.png" path="/style0/button/"/>
+    <image id="9it5y6s" name="btn-title-jiazhu.png" path="/style0/button/"/>
+    <image id="9it5y6t" name="btn-title-qipai.png" path="/style0/button/"/>
+    <font id="9it5y6u" name="Font3.fnt" path="/style0/buttonTitle/" exported="true"/>
+    <image id="9it5y6v" name="，.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y6w" name="..png" path="/style0/buttonTitle/"/>
+    <image id="9it5y6x" name="0.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y6y" name="1.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y6z" name="2.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y70" name="3.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y71" name="4.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y72" name="5.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y73" name="6.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y74" name="7.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y75" name="8.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y76" name="9.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y77" name="比.png" path="/style0/buttonTitle/"/>
+    <image id="9it5y78" name="跟.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y79" name="动.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7b" name="加.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7c" name="牌.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7d" name="弃.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7e" name="取.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7f" name="全.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7g" name="下.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7h" name="消.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7i" name="注.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7j" name="自.png" path="/style0/buttonTitle/"/>
+    <image id="eed4y7l" name="tip-title-quanxia.png" path="/style0/other/"/>
+    <image id="eed4y7m" name="tip-title-genzhu.png" path="/style0/other/"/>
+    <image id="eed4y7n" name="tip-title-jiazhu.png" path="/style0/other/"/>
+    <image id="eed4y7o" name="tip-title-qipai .png" path="/style0/other/"/>
+    <image id="ma8ky7p" name="掷.png" path="/style0/buttonTitle/"/>
+    <image id="ma8ky7q" name="孤.png" path="/style0/buttonTitle/"/>
+    <image id="ma8ky7r" name="一.png" path="/style0/buttonTitle/"/>
+    <movieclip id="kzniy7s" name="boom2.jta" path="/style0/effect/"/>
+    <image id="kzniy7t" name="0.png" path="/style0/counterFont/"/>
+    <image id="kzniy7u" name="1.png" path="/style0/counterFont/"/>
+    <image id="kzniy7v" name="2.png" path="/style0/counterFont/"/>
+    <image id="kzniy7w" name="3.png" path="/style0/counterFont/"/>
+    <image id="kzniy7x" name="4.png" path="/style0/counterFont/"/>
+    <image id="kzniy7y" name="5.png" path="/style0/counterFont/"/>
+    <image id="kzniy7z" name="6.png" path="/style0/counterFont/"/>
+    <image id="kzniy80" name="7.png" path="/style0/counterFont/"/>
+    <image id="kzniy81" name="8.png" path="/style0/counterFont/"/>
+    <image id="kzniy82" name="9.png" path="/style0/counterFont/"/>
+    <font id="kzniy83" name="CounterFont.fnt" path="/style0/counterFont/" exported="true"/>
+    <image id="b7m0y84" name="炸金花水印2.png" path="/style0/other/"/>
+    <sound id="b7m0y85" name="af_pk.ogg" path="/sound/"/>
+    <sound id="b7m0y86" name="af_pk_loss.ogg" path="/sound/"/>
+    <sound id="b7m0y87" name="af_t_baozi.ogg" path="/sound/"/>
+    <sound id="b7m0y88" name="af_t_shunjin.ogg" path="/sound/"/>
+    <component id="b7m0y89" name="operationTalk.xml" path="/component/"/>
+    <component id="b7m0y8a" name="operationTalk2.xml" path="/component/"/>
+    <component id="qol1y8b" name="ChipMini.xml" path="/component/" exported="true"/>
+    <component id="nm6vy8c" name="Seat3.xml" path="/"/>
+    <image id="rkyqy8d" name="btn-title-Raise.png" path="/style0/button/"/>
+    <component id="fqpzy8e" name="btnOperationItemPurple2.xml" path="/component/"/>
+    <component id="fqpzy8f" name="btnOperationItemBlue2.xml" path="/component/"/>
+    <image id="wyshy8g" name="All or Nothing.png" path="/style0/button/"/>
+    <image id="us3ry8h" name="取消.png" path="/style0/button/"/>
+  </resources>
+  <publish name="G561"/>
+</packageDescription>

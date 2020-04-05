@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1595,379">
+  <controller name="c1" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0"/>
+  </controller>
+  <displayList>
+    <image id="n73_to38" name="n73" src="wm2e1" fileName="GBP_Img/Table/y-beijing.png" xy="0,0" pivot="0.5,0.5" size="1595,379" hideByEditor="true" visible="false"/>
+    <image id="n74_to38" name="n74" src="wm2e2" fileName="GBP_Img/Table/youxikaishi.png" xy="396,15" pivot="0.5,0.5" size="802,293" hideByEditor="true" visible="false"/>
+    <image id="n75_sq8y" name="n75" src="wm2e1" fileName="GBP_Img/Table/y-beijing.png" xy="799,193" pivot="0.5,0.5" anchor="true" size="1332,326" aspect="true"/>
+    <image id="n76_sq8y" name="n76" src="wm2e2" fileName="GBP_Img/Table/youxikaishi.png" xy="822,171" pivot="0.5,0.5" anchor="true"/>
+    <image id="n77_sq8y" name="n77" src="wm2e2" fileName="GBP_Img/Table/youxikaishi.png" xy="822,171" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n76_sq8y" value="0"/>
+    <item time="0" type="Alpha" target="n77_sq8y" value="0"/>
+    <item time="0" type="Visible" target="n75_sq8y" value="false"/>
+    <item time="0" type="XY" target="n75_sq8y" value="799,193"/>
+    <item time="0" type="XY" target="n76_sq8y" value="822,171"/>
+    <item time="1" type="Alpha" target="n77_sq8y" tween="true" startValue="0" endValue="0.6" duration="5" ease="Back.Out"/>
+    <item time="1" type="Scale" target="n75_sq8y" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+    <item time="1" type="Scale" target="n77_sq8y" tween="true" startValue="2.5,2.5" endValue="1,1" duration="6" ease="Circ.Out"/>
+    <item time="1" type="Visible" target="n75_sq8y" value="true"/>
+    <item time="6" type="Alpha" target="n76_sq8y" value="0"/>
+    <item time="6" type="Alpha" target="n77_sq8y" tween="true" startValue="0.6" endValue="0" duration="5" ease="Linear"/>
+    <item time="6" type="Scale" target="n76_sq8y" tween="true" startValue="0.9,0.9" endValue="1,1" duration="2" ease="Cubic.Out"/>
+    <item time="7" type="Scale" target="n77_sq8y" tween="true" startValue="1,1" endValue="2.5,2.5" duration="4"/>
+    <item time="8" type="Alpha" target="n76_sq8y" value="1"/>
+    <item time="20" type="Scale" target="n76_sq8y" value="1,1"/>
+    <item time="20" type="XY" target="n75_sq8y" tween="true" startValue="799.1,193.27" endValue="-671,193" duration="4" ease="Linear"/>
+    <item time="20" type="XY" target="n76_sq8y" tween="true" startValue="822.15,171.35" endValue="1952,171" duration="4" ease="Bounce.Out"/>
+  </transition>
+</component>

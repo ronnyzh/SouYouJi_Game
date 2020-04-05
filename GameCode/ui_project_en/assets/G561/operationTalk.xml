@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="166,74">
+  <controller name="TalkController" exported="true" pages="5,hide,4,normal,0,genzhu,1,jiazhu,2,qipai,3,quanxia" selected="0"/>
+  <displayList>
+    <image id="n2_eed4" name="n2" src="eed4y7m" fileName="style0/other/tip-title-genzhu.png" xy="45,16">
+      <gearDisplay controller="TalkController" pages="0"/>
+    </image>
+    <image id="n3_eed4" name="n3" src="eed4y7n" fileName="style0/other/tip-title-jiazhu.png" xy="44,16">
+      <gearDisplay controller="TalkController" pages="1"/>
+    </image>
+    <image id="n4_eed4" name="n4" src="eed4y7o" fileName="style0/other/tip-title-qipai .png" xy="44,16">
+      <gearDisplay controller="TalkController" pages="2"/>
+    </image>
+    <image id="n5_eed4" name="n5" src="eed4y7l" fileName="style0/other/tip-title-quanxia.png" xy="44,16">
+      <gearDisplay controller="TalkController" pages="3"/>
+    </image>
+    <text id="n1_yjzs" name="tfTalk" xy="76,14" size="10,45" fontSize="36" color="#ffffff" strokeColor="#333333" strokeSize="2" autoClearText="true" text="">
+      <gearDisplay controller="TalkController" pages="4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" target="n1_yjzs" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Visible" target="n1_yjzs" value="true"/>
+    <item time="72" type="Visible" target="n1_yjzs" value="true"/>
+  </transition>
+</component>

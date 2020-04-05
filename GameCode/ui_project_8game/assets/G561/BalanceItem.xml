@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,100">
+  <displayList>
+    <image id="n0_ogno" name="n0" src="q7l513" xy="0,0" size="481,100"/>
+    <image id="n1_ogno" name="n1" src="q7l56" xy="27,11" size="80,80" group="n4_ogno"/>
+    <loader id="n2_ogno" name="icon" xy="32,15" size="70,70" group="n4_ogno" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n3_ogno" name="n3" src="djq94" pkg="nji5wfgx" xy="31,14" size="72,72" group="n4_ogno"/>
+    <group id="n4_ogno" name="playerImg" xy="26,11" size="80,80" advanced="true"/>
+    <image id="n5_ogno" name="tagWin" src="q7l514" xy="20,5"/>
+    <text id="n6_ogno" name="tfName" xy="126,34" size="76,40" fontSize="28" color="#6b4d35" text="name"/>
+    <text id="n11_ogno" name="tfScore" xy="249,36" size="154,36" fontSize="28" color="#6b4d35" align="center" autoSize="none" text="name"/>
+  </displayList>
+</component>

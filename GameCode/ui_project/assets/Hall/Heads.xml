@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,99" overflow="hidden">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n13_jlz3" name="n13" src="jlz31n" fileName="platform_lobby/头像-框.png" xy="1,1"/>
+    <component id="n14_p7lx" name="head" src="p7lx1p" fileName="Component14.xml" xy="6,6"/>
+    <image id="n12_jlz3" name="n12" src="jlz31l" fileName="platform_lobby/头像-边.png" xy="1,1" size="93,93"/>
+    <component id="n16_9lrl" name="setBtn" src="osvmed" fileName="ScaleButton.xml" pkg="la8oslyo" xy="0,-1" size="102,98"/>
+  </displayList>
+</component>

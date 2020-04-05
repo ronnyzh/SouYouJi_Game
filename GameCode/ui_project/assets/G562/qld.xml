@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="651,629">
+  <displayList>
+    <image id="n118_lvff" name="n118" src="lvffsc8v" xy="2,6" pivot="0.5,0.5"/>
+    <image id="n119_lvff" name="n119" src="lvffsc8u" xy="0,0" pivot="0.5,0.5"/>
+    <image id="n117_lvff" name="n117" src="lvffsc8t" xy="198,271" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="Ani">
+    <item time="0" type="Alpha" target="n119_lvff" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="0" type="Alpha" target="n118_lvff" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="Scale" target="n117_lvff" tween="true" startValue="0,0" endValue="1,1" duration="18"/>
+    <item time="0" type="Scale" target="n118_lvff" tween="true" startValue="0,0" endValue="1,1" duration="18"/>
+    <item time="0" type="Scale" target="n119_lvff" tween="true" startValue="0,0" endValue="0,0" duration="18"/>
+  </transition>
+</component>

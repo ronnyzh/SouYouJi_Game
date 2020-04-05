@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="47,62">
+  <displayList>
+    <image id="n0_ti75" name="n0" src="a8opo" xy="0,0" size="47,62" aspect="true" color="#cccccc">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ti75" name="card" xy="1,9" pivot="0.5,0.5" size="44,44" fontSize="35" color="#ffffff" align="center" vAlign="middle" text="17"/>
+  </displayList>
+</component>

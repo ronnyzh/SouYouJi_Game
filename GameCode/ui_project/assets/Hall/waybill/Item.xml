@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1090,129">
+  <displayList>
+    <image id="n4_v54h" name="bg" src="pfm9nd" fileName="waybill/images/表头.png" xy="0,0" size="1090,129" locked="true" filter="color" filterData="0.00,0.32,0.00,0.00">
+      <relation target="" sidePair="center-center,top-top"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_v54h" name="titleBg" src="pfm9nd" fileName="waybill/images/表头.png" xy="0,35" pivot="0,1" anchor="true" size="1090,35" locked="true" hideByEditor="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <image id="n9_esgt" name="n9" src="pfm9nc" fileName="waybill/images/表格-亮.png" xy="0,1" size="1090,21" locked="true"/>
+    <image id="n10_esgt" name="n10" src="pfm9nc" fileName="waybill/images/表格-亮.png" xy="0,43" size="1090,21" locked="true"/>
+    <image id="n11_esgt" name="n11" src="pfm9nc" fileName="waybill/images/表格-亮.png" xy="0,85" size="1090,21" locked="true"/>
+    <component id="n2_v54h" name="btn_enterGame" src="v54hoz" fileName="waybill/进入游戏按钮.xml" xy="997,82" pivot="0.5,0.5" anchor="true" locked="true" hideByEditor="true">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <text id="n6_rrzj" name="txt_roomInfo" xy="103,17" pivot="0.5,0.5" anchor="true" size="192,31" locked="true" hideByEditor="true" fontSize="24" color="#aaabec" singleLine="true" autoClearText="true" text="房间编号1008611">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n7_rrzj" name="txt_playerCount" xy="407,17" pivot="0.5,0.5" anchor="true" size="92,31" locked="true" hideByEditor="true" fontSize="24" color="#aaabec" vAlign="middle" singleLine="true" autoClearText="true" text="在线109">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n8_rrzj" name="txt_betLimit" xy="677,16" pivot="0.5,0.5" anchor="true" size="161,31" locked="true" hideByEditor="true" fontSize="24" color="#aaabec" vAlign="middle" singleLine="true" autoClearText="true" text="投注限额2-100">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n13_esgt" name="n13" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="4,4"/>
+    <image id="n14_esgt" name="n14" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="26,48"/>
+    <image id="n15_esgt" name="n15" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="4,68"/>
+    <image id="n16_esgt" name="n16" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="4,26"/>
+    <image id="n17_esgt" name="n17" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="26,68"/>
+    <image id="n18_esgt" name="n18" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="92,4"/>
+    <image id="n19_esgt" name="n19" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="4,88"/>
+    <image id="n20_esgt" name="n20" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="48,48"/>
+    <image id="n21_esgt" name="n21" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="265,3"/>
+    <image id="n22_esgt" name="n22" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="92,48"/>
+    <image id="n23_esgt" name="n23" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="26,4"/>
+    <image id="n24_esgt" name="n24" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="26,26"/>
+    <image id="n25_esgt" name="n25" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="48,4"/>
+    <image id="n26_esgt" name="n26" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="148,26"/>
+    <image id="n27_esgt" name="n27" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="114,4"/>
+    <image id="n28_esgt" name="n28" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="174,26"/>
+    <image id="n29_esgt" name="n29" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="92,26"/>
+    <image id="n30_esgt" name="n30" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="148,47"/>
+    <image id="n31_esgt" name="n31" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="48,26"/>
+    <image id="n32_esgt" name="n32" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="265,88"/>
+    <image id="n33_esgt" name="n33" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="4,48"/>
+    <image id="n34_esgt" name="n34" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="70,48"/>
+    <image id="n35_esgt" name="n35" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="214,4"/>
+    <image id="n36_esgt" name="n36" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="70,4"/>
+    <image id="n37_esgt" name="n37" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="265,46"/>
+    <image id="n38_esgt" name="n38" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="214,27"/>
+    <image id="n39_esgt" name="n39" src="pfm9o0" fileName="waybill/images/庄赢.png" xy="114,49"/>
+    <image id="n40_esgt" name="n40" src="pfm9nr" fileName="waybill/images/闲赢.png" xy="148,6"/>
+    <image id="n41_esgt" name="n41" src="pfm9o1" fileName="waybill/images/左侧选项底.png" xy="1090,126" size="3,1090" rotation="90" filter="color" filterData="0.00,-1.00,-0.85,0.00"/>
+  </displayList>
+</component>

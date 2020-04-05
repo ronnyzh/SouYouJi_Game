@@ -1,0 +1,736 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+        	"content":"4人;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【牌数】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"万、筒、条，东南西北中发白，总计136张;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【定庄】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+            "content":"随机庄;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【鬼牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+            "content":"白板鬼;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【基础玩法】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+            "content":"可碰可杠不可吃。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "胡牌要求:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+        	"content":"牌型为四副刻子、顺子、杠以及一对将牌组成既可胡牌;"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"平胡，例：1111、123、111、123、11。"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "胡牌方式:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+        	"content":"【自摸】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+        	"content":"所胡牌为自己摸的称为自摸，平胡只能自摸;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+        	"content":"【抢杠】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+        	"content":"所胡牌为他人明杠的牌，即称之为抢杠;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【杠开】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"玩家所胡的牌为杠牌后补回来的牌。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "基本牌型:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【平胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - - 1倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【混一色】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - 2倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【碰胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - - 3倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【七对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - - 4倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【豪华七对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - 6倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":200,
+            "fontSize":28,
+            "content":"【双豪华七对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - 8倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【混碰胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - 5倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【清一色】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - 5倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【清碰胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - 8倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【幺九胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - 9倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【天地胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - 10倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【全风碰】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - 13倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【十三幺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - - 13倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【十八罗汉】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"- - - - - - - - - - - - - - - 18倍;"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "itemWidth":170,
+            "fontSize":30,
+            "content": "特殊规则:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【可抢杠胡】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"明杠可抢杠;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【鬼牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"鬼牌有万能牌作用;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【杠爆全包】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"杠爆包三家;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【抢杠全包】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"抢杠包三家;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":200,
+            "fontSize":28,
+            "content":"【荒庄不荒杠】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"流局的情况下所有玩家不计分，但杠牌计分;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【马牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"买6马，马不跟杠，马不跟底分，鬼牌算位置。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "itemHeight": 40,
+            "itemWidth":200,
+            "fontSize":30,
+            "content": "计分规则:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【杠分】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"暗杠2*底分*3家，放杠为3*底分;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":120,
+            "fontSize":28,
+            "content":"【自摸】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"3倍，每家都要收;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":180,
+            "fontSize":28,
+            "content":"【杠爆全包】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"3倍，杠爆包三家;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":180,
+            "fontSize":28,
+            "content":"【抢杠胡分】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"6倍，抢杠包三家;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":150,
+            "fontSize":28,
+            "content":"【中马分】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":800,
+            "fontSize":28,
+            "content":"底分*人数*中马数;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【基本计分】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":710,
+            "fontSize":28,
+            "content":"底分*牌型分*胡牌方式的对应加倍 + 中马分 +- 对应杠分;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【系统抽成】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemHeight": 45,
+            "itemWidth":700,
+            "fontSize":28,
+            "content":"系统会从赢家的所赢取游戏收益中抽5%;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemWidth":170,
+            "fontSize":28,
+            "content":"【防小博大】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"4",
+            "itemHeight": 45,
+            "itemWidth":720,
+            "fontSize":28,
+            "content":"本局玩家带进多少本金，本局最多也等额输赢多少，如您本局带入100，中途杠分-20，结算时您理论应得200，为公平起见，您本局最多也只能赢到80，而不是200。"
+        }
+        
+    ]
+}

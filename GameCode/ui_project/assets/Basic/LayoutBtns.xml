@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <controller name="c1" pages="0,normal,1,show_menu" selected="0"/>
+  <displayList>
+    <image id="n5_osvm" name="n5" src="ti75g9" xy="0,1203" size="720,82">
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+    </image>
+    <component id="n0_osvm" name="btn_message" src="osvmed" xy="262,1153" size="71,108" group="n6_osvm">
+      <Button icon="ui://la8oslyoti75ft"/>
+    </component>
+    <component id="n7_osvm" name="btn_mall" src="osvmed" xy="39,1157" size="160,104" group="n6_osvm">
+      <Button icon="ui://la8oslyoti75fr"/>
+    </component>
+    <component id="n4_osvm" name="btn_mine" src="osvmed" xy="436,1153" size="71,108" group="n6_osvm">
+      <Button icon="ui://la8oslyoti75fv"/>
+    </component>
+    <component id="n12_ti75" name="btn_more" src="osvmed" xy="610,1153" size="71,108" group="n6_osvm">
+      <Button icon="ui://la8oslyoti75gb" controller="c1" page="1"/>
+    </component>
+    <group id="n6_osvm" name="bottom" xy="39,1153" size="642,108" advanced="true">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </group>
+    <graph id="n15_ti75" name="n15" xy="0,0" size="720,1280" group="n16_ti75" alpha="0.3" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n13_ti75" name="menu" src="ti75gc" xy="573,1000" group="n16_ti75">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <component id="n14_ti75" name="n14" src="osvmed" xy="0,0" size="720,1280" group="n16_ti75">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button controller="c1" page="0"/>
+    </component>
+    <group id="n16_ti75" name="n16" xy="0,0" size="720,1280"/>
+  </displayList>
+</component>

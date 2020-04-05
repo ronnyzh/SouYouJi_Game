@@ -1,0 +1,287 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":1000,
+            "itemHeight": 50,
+        	"content":"2-5人，即2人至5人即可开始游戏。"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【规则】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"8",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 140,
+            "content":"发牌前每个玩家自动投入与底注相同的筹码作为锅底，每个玩家依次发3张牌，默认牌向下。随机一家先进行操作，从他下家开始逆时针轮流操作。第二轮开始才可以比牌，比牌也需要投注，金额与所需跟注金额相同。携带金额低于需要投注金额时进行比牌会触发孤注一掷效果。所有玩家依次进行了操作叫做一轮，每局最多20轮。达到轮数上限，从庄的下家开始，依次与下家强制发起比牌，此时比牌无需进行下注。比牌输掉或者弃牌的玩家会被淘汰，每局只能有一个获胜玩家。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "牌型算法:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【豹子】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"三张点相同的牌(AAA最大，222最小);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":150,
+            "content":"【同花顺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"花色相同的顺子(AKQ最大，A23最小)。"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【金花】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"花色相同的非顺子(AKJ最大，352最小);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【顺子】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"花色不同的顺子(AKQ最大，A23最小);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【对子】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"两张点相同的牌(AAK最大，223最小);"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "牌型比较:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+        	"content":"【牌型大小】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+        	"content":"豹子>同花顺>金花>顺子>对子>散牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【点数大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"A>K>Q>J>10>9>8>7>6>5>4>3>2;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【花色大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"黑桃>红桃>梅花>方片;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":200,
+            "content":"【同牌型大小】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":710,
+            "itemHeight": 50,
+            "content":"先比牌型，相同牌型按顺序比点，点数相同则按顺序比花色，对子牌型大小比较为先比对子点数，对子点数相同，再比单牌点数，单牌点数也相同，再比对子里面的花色。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "赔率"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":800,
+            "itemHeight": 50,
+            "content":"系统会从玩家赢得的筹码中抽水5%;"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemHeight": 40,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"7",
+            "fontSize":28,
+            "itemWidth":880,
+            "itemHeight": 120,
+            "content":"非“孤注一掷”情况下获胜，可以赢得桌面所有的筹码；“孤注一掷”时自动从下家开始与所有玩家轮流比牌，此情况下获胜，返还其他玩家多余的投注筹码并赢得桌面剩余筹码；其他玩家多余的投注筹码=剩余玩家本轮投注筹码 *（玩家自己应该投注筹码-玩家自己实际投注筹码）/ 玩家自己应投注筹码。如玩家比牌时应投注10，但自己投了5，他进行孤注一掷获胜，其剩余玩家本轮投注了20，则需给此剩余玩家返还20*(10-5)/10=10。"
+        },
+        {
+            "type":3,
+            "itemStyle" : 2,
+            "line":"1",
+            "itemHeight": 40,
+            "content":""
+        }
+        
+    ]
+}

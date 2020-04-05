@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9juwa0s1" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="jobk0" name="lwgc_tile_a5.png" path="/tiles/" exported="true"/>
+    <image id="jobk1" name="lwgc_tile_a6.png" path="/tiles/" exported="true"/>
+    <image id="jobk2" name="lwgc_tile_a7.png" path="/tiles/" exported="true"/>
+    <image id="jobk3" name="lwgc_tile_a8.png" path="/tiles/" exported="true"/>
+    <image id="jobk4" name="lwgc_tile_a9.png" path="/tiles/" exported="true"/>
+    <image id="jobk5" name="lwgc_tile_b1.png" path="/tiles/" exported="true"/>
+    <image id="jobk6" name="lwgc_tile_b2.png" path="/tiles/" exported="true"/>
+    <image id="jobk7" name="lwgc_tile_b3.png" path="/tiles/" exported="true"/>
+    <image id="jobk8" name="lwgc_tile_b4.png" path="/tiles/" exported="true"/>
+    <image id="jobk9" name="lwgc_tile_b5.png" path="/tiles/" exported="true"/>
+    <image id="jobka" name="lwgc_tile_b6.png" path="/tiles/" exported="true"/>
+    <image id="jobkb" name="lwgc_tile_b7.png" path="/tiles/" exported="true"/>
+    <image id="jobkc" name="lwgc_tile_b8.png" path="/tiles/" exported="true"/>
+    <image id="jobkd" name="lwgc_tile_b9.png" path="/tiles/" exported="true"/>
+    <image id="jobke" name="lwgc_tile_c1.png" path="/tiles/" exported="true"/>
+    <image id="jobkf" name="lwgc_tile_c2.png" path="/tiles/" exported="true"/>
+    <image id="jobkg" name="lwgc_tile_c3.png" path="/tiles/" exported="true"/>
+    <image id="jobkh" name="lwgc_tile_c4.png" path="/tiles/" exported="true"/>
+    <image id="jobki" name="lwgc_tile_c5.png" path="/tiles/" exported="true"/>
+    <image id="jobkj" name="lwgc_tile_c6.png" path="/tiles/" exported="true"/>
+    <image id="jobkk" name="lwgc_tile_c7.png" path="/tiles/" exported="true"/>
+    <image id="jobkl" name="lwgc_tile_c8.png" path="/tiles/" exported="true"/>
+    <image id="jobkm" name="lwgc_tile_c9.png" path="/tiles/" exported="true"/>
+    <image id="jobkn" name="lwgc_tile_d1.png" path="/tiles/" exported="true"/>
+    <image id="jobko" name="lwgc_tile_d5.png" path="/tiles/" exported="true"/>
+    <image id="jobkp" name="lwgc_tile_d9.png" path="/tiles/" exported="true"/>
+    <image id="jobkq" name="lwgc_tile_e1.png" path="/tiles/" exported="true"/>
+    <image id="jobkr" name="lwgc_tile_e4.png" path="/tiles/" exported="true"/>
+    <image id="jobks" name="lwgc_tile_e6.png" path="/tiles/" exported="true"/>
+    <image id="jobkt" name="lwgc_tile_e9.png" path="/tiles/" exported="true"/>
+    <image id="jobku" name="lwgc_tile_f1.png" path="/tiles/" exported="true"/>
+    <image id="jobkv" name="lwgc_tile_f4.png" path="/tiles/" exported="true"/>
+    <image id="jobkw" name="lwgc_tile_f6.png" path="/tiles/" exported="true"/>
+    <image id="jobkx" name="lwgc_tile_f9.png" path="/tiles/" exported="true"/>
+    <image id="jobky" name="lwgc_tile_g1.png" path="/tiles/" exported="true"/>
+    <image id="jobkz" name="lwgc_tile_g4.png" path="/tiles/" exported="true"/>
+    <image id="jobk10" name="lwgc_tile_g6.png" path="/tiles/" exported="true"/>
+    <image id="jobk11" name="lwgc_tile_g9.png" path="/tiles/" exported="true"/>
+    <image id="jobk12" name="lwgc_tile_a1.png" path="/tiles/" exported="true"/>
+    <image id="jobk13" name="lwgc_tile_a2.png" path="/tiles/" exported="true"/>
+    <image id="jobk14" name="lwgc_tile_a3.png" path="/tiles/" exported="true"/>
+    <image id="jobk15" name="lwgc_tile_a4.png" path="/tiles/" exported="true"/>
+  </resources>
+  <publish name="MJtiles"/>
+</packageDescription>

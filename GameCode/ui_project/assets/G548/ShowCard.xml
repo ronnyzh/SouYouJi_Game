@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://wtkqufwmhm6xcp" adaptationTest="FitSize">
+  <controller name="c_score" exported="true" pages="0,,1," selected="0"/>
+  <controller name="c_bg" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n15_utim" name="mask" xy="669,348" pivot="0.5,0.5" anchor="true" size="1005,353" locked="true" touchable="false" url="ui://wtkqufwmme0iiq" fill="scaleFree">
+      <gearDisplay controller="c_bg" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n2_frnl" name="card_0" src="ba8gh1" fileName="poker.xml" xy="453,302" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_frnl" name="card_2" src="ba8gh1" fileName="poker.xml" xy="342,303" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_frnl" name="card_4" src="ba8gh1" fileName="poker.xml" xy="395,420" skew="-90,-90" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_frnl" name="card_1" src="ba8gh1" fileName="poker.xml" xy="889,302" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_frnl" name="card_3" src="ba8gh1" fileName="poker.xml" xy="1002,302" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_frnl" name="card_5" src="ba8gh1" fileName="poker.xml" xy="947,419" skew="-90,-90" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n8_hf4r" name="xian" src="im38jp" fileName="三人场用图/2018-11-27新图/庄闲/闲点.png" xy="226,338" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c_score" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n7_hf4r" name="zhuang" src="im38jo" fileName="三人场用图/2018-11-27新图/庄闲/庄点.png" xy="1109,338" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c_score" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n9_hf4r" name="X_Score" xy="226,365" pivot="0.5,0.5" anchor="true" size="39,56" font="ui://wtkqufwmim38jy" fontSize="16" align="center" vAlign="middle" text="0">
+      <gearDisplay controller="c_score" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n10_hf4r" name="Z_Score" xy="1111,365" pivot="0.5,0.5" anchor="true" size="39,56" font="ui://wtkqufwmim38jx" fontSize="16" align="center" vAlign="middle" text="0">
+      <gearDisplay controller="c_score" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

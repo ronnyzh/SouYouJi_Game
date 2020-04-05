@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" mask="n28">
+  <displayList>
+    <loader id="n27" name="headImg" xy="0,0" size="84,84" url="ui://wpa3vk7vjlz31m" fill="scaleFree"/>
+    <graph id="n28" name="n28" xy="0,0" size="84,84" hideByEditor="true" type="eclipse" lineSize="0"/>
+  </displayList>
+</component>

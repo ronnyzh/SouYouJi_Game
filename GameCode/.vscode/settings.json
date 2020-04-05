@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "files.autoSave": "onWindowChange",
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.gitignore": true,
+        "**/.laya": true,
+        "**/.vscode": true,
+        "**/*.js.map": true,
+        "**/doc": true,
+        "**/jsconfig.json": true,
+        "**/laya": true,
+        "**/release": true,
+        "**/tsconfig.json": true
+    },
+    "git.enabled": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false
+}

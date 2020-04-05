@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="czb09a4b" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="aks00" name="PageLogin.xml" path="/" exported="true"/>
+    <image id="osvmf" name="jindu1.png" path="/login/"/>
+    <image id="osvmg" name="jindu2.png" path="/login/"/>
+    <image id="osvmi" name="t.png" path="/login/"/>
+    <image id="osvmj" name="yong_hu_xie_yi_n.png" path="/login/"/>
+    <image id="osvmk" name="btn_wx.png" path="/login/"/>
+    <image id="osvml" name="btn_yk.png" path="/login/"/>
+    <image id="b3cam" name="dsbg.jpg" path="/login/"/>
+    <image id="keion" name="lg_acc_bg.png" path="/login/"/>
+    <image id="keioo" name="lg_acc_btn0.png" path="/login/"/>
+    <image id="nxyfp" name="lg_cb_tick.png" path="/login/"/>
+    <image id="uy9ct" name="mini.jpg" path="/login/"/>
+    <image id="ngy0u" name="闪光.png" path="/login/"/>
+    <image id="d1snv" name="spark.png" path="/login/"/>
+    <component id="d1snw" name="logoSpark.xml" path="/"/>
+  </resources>
+  <publish name="Login">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

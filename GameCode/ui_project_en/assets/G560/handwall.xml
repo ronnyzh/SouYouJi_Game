@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,200">
+  <displayList>
+    <list id="n0_ojsq" name="n0" xy="0,0" size="800,200" layout="flow_hz" selectionMode="multipleSingleClick" scroll="horizontal" lineGap="-60" colGap="-90" defaultItem="ui://nji5wfgxojsqb8" align="center">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,36">
+  <displayList>
+    <image id="n0_lt76" name="n0" src="7m72h4" fileName="英文版用图/流程字/正在匹配.png" xy="-39,0" locked="true" alpha="0"/>
+    <image id="n1_lt76" name="n1" src="7m72gn" fileName="英文版用图/流程字/shuzi._01.png" xy="189,4" alpha="0"/>
+    <image id="n2_lt76" name="n2" src="7m72gn" fileName="英文版用图/流程字/shuzi._01.png" xy="204,4" alpha="0"/>
+    <image id="n3_lt76" name="n3" src="7m72gn" fileName="英文版用图/流程字/shuzi._01.png" xy="219,4" alpha="0"/>
+  </displayList>
+  <transition name="matching">
+    <item time="0" type="Alpha" target="n0_lt76" tween="true" startValue="1" endValue="1" duration="42"/>
+    <item time="0" type="Alpha" target="n1_lt76" value="1"/>
+    <item time="0" type="Alpha" target="n2_lt76" value="0"/>
+    <item time="0" type="Alpha" target="n3_lt76" value="0"/>
+    <item time="6" type="Alpha" target="n1_lt76" value="1"/>
+    <item time="6" type="Alpha" target="n2_lt76" value="1"/>
+    <item time="6" type="Alpha" target="n3_lt76" value="0"/>
+    <item time="12" type="Alpha" target="n1_lt76" value="1"/>
+    <item time="12" type="Alpha" target="n2_lt76" value="1"/>
+    <item time="12" type="Alpha" target="n3_lt76" value="1"/>
+    <item time="18" type="Alpha" target="n1_lt76" value="0"/>
+    <item time="18" type="Alpha" target="n2_lt76" value="0"/>
+    <item time="18" type="Alpha" target="n3_lt76" value="0"/>
+    <item time="24" type="Alpha" target="n1_lt76" value="1"/>
+    <item time="24" type="Alpha" target="n2_lt76" value="0"/>
+    <item time="24" type="Alpha" target="n3_lt76" value="0"/>
+    <item time="30" type="Alpha" target="n1_lt76" value="1"/>
+    <item time="30" type="Alpha" target="n2_lt76" value="1"/>
+    <item time="30" type="Alpha" target="n3_lt76" value="0"/>
+    <item time="36" type="Alpha" target="n1_lt76" value="1"/>
+    <item time="36" type="Alpha" target="n2_lt76" value="1"/>
+    <item time="36" type="Alpha" target="n3_lt76" value="1"/>
+    <item time="42" type="Alpha" target="n1_lt76" value="0"/>
+    <item time="42" type="Alpha" target="n2_lt76" value="0"/>
+    <item time="42" type="Alpha" target="n3_lt76" value="0"/>
+  </transition>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,134">
+  <controller name="Type" pages="0,normal,1,spice" selected="1"/>
+  <controller name="spType" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14," selected="0"/>
+  <displayList>
+    <image id="n0_r73m" name="n0" src="r73m7m" xy="0,0" size="1334,134"/>
+    <image id="n7_r73m" name="n7" src="r73m7i" xy="275,73" size="99,33">
+      <gearDisplay controller="Type" pages="0"/>
+      <relation target="n6_r73m" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n15_r73m" name="n15" src="r73m7i" xy="949,73">
+      <gearDisplay controller="Type" pages="0"/>
+    </image>
+    <image id="n11_r73m" name="n11" src="r73m7i" xy="613,73">
+      <gearDisplay controller="Type" pages="0"/>
+    </image>
+    <list id="n9_r73m" name="1_list" xy="385,8" size="359,193" scale="0.6,0.6" layout="row" colGap="-90" defaultItem="ui://newlnjldr4d521" vAlign="middle">
+      <gearDisplay controller="Type" pages="0"/>
+    </list>
+    <list id="n13_r73m" name="2_list" xy="725,8" size="361,193" scale="0.6,0.6" layout="row" overflow="hidden" colGap="-90" defaultItem="ui://newlnjldr4d521" vAlign="middle">
+      <gearDisplay controller="Type" pages="0"/>
+      <relation target="n12_r73m" sidePair="width-width,height-height"/>
+    </list>
+    <list id="n3_r73m" name="0_list" xy="117,8" size="254,193" scale="0.6,0.6" layout="row" colGap="-90" defaultItem="ui://newlnjldr4d521" vAlign="middle">
+      <gearDisplay controller="Type" pages="0"/>
+    </list>
+    <list id="n21_r73m" name="spiceList" xy="132,20" size="867,193" scale="0.5,0.5" layout="row" colGap="-83" defaultItem="ui://newlnjldr4d521" vAlign="middle">
+      <gearDisplay controller="Type" pages="1"/>
+    </list>
+    <component id="n1_r73m" name="Loader_Avatar" src="r73m7t" xy="30,31"/>
+    <component id="n5_r73m" name="Type_0" src="jl8jc83" xy="268,22">
+      <gearDisplay controller="Type" pages="0"/>
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n41_jl8j" name="Type_1" src="jl8jc83" xy="608,22">
+      <gearDisplay controller="Type" pages="0"/>
+    </component>
+    <component id="n42_jl8j" name="Type_2" src="jl8jc83" xy="939,22">
+      <gearDisplay controller="Type" pages="0"/>
+    </component>
+    <text id="n12_r73m" name="1_score" xy="612,73" size="102,37" font="方正准圆简体" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="+9999">
+      <gearDisplay controller="Type" pages="0"/>
+    </text>
+    <text id="n6_r73m" name="0_score" xy="273,73" size="102,37" font="方正准圆简体" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="+9999">
+      <gearDisplay controller="Type" pages="0"/>
+    </text>
+    <text id="n16_r73m" name="2_score" xy="948,74" size="102,37" font="方正准圆简体" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="+9999">
+      <gearDisplay controller="Type" pages="0"/>
+    </text>
+    <text id="n18_r73m" name="Txt_daqiang_1" xy="1119,2" size="103,40" hideByEditor="true" visible="false" font="方正准圆简体" fontSize="25" color="#cc9900" vAlign="middle" autoSize="none" singleLine="true" text="打枪*7"/>
+    <text id="n19_r73m" name="Txt_daqiang_2" xy="1119,51" size="103,40" hideByEditor="true" visible="false" font="方正准圆简体" fontSize="25" color="#cc9900" vAlign="middle" autoSize="none" singleLine="true" text="打枪*7"/>
+    <text id="n37_r73m" name="spice_score" xy="917,34" size="122,58" font="ui://newlnjldr7lnsccd" fontSize="35" color="#cc9900" vAlign="middle" autoSize="none" text="+999">
+      <gearDisplay controller="Type" pages="1"/>
+    </text>
+    <text id="n43_jbew" name="Txt_total_score_win" xy="1183,34" size="153,64" font="ui://newlnjldr7lnsccd" fontSize="35" color="#cc9900" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="-99.222">
+      <gearDisplay controller="Type" pages="0,1"/>
+    </text>
+    <text id="n46_r7ln" name="Txt_total_score_lose" xy="1183,34" size="153,64" hideByEditor="true" font="ui://newlnjldr7lnscb0" fontSize="35" color="#cc9900" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="+99.222">
+      <gearDisplay controller="Type" pages="0,1"/>
+    </text>
+    <text id="n44_lvff" name="Txt_qiang" xy="1051,5" size="122,57" font="方正准圆简体" fontSize="35" color="#663300" align="center" vAlign="middle" autoSize="shrink" bold="true" singleLine="true" text="打枪X1">
+      <gearDisplay controller="Type" pages="0,1"/>
+    </text>
+    <text id="n45_s2ed" name="Txt_zhongqiang" xy="1051,64" size="122,57" font="方正准圆简体" fontSize="35" color="#663300" align="center" vAlign="middle" autoSize="shrink" bold="true" singleLine="true" text="打枪X1">
+      <gearDisplay controller="Type" pages="0,1"/>
+    </text>
+    <loader id="n48_r7ln" name="Img" xy="750,67" pivot="0.5,0.5" anchor="true" size="234,118" url="ui://newlnjldr7lnscbm" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearDisplay controller="Type" pages="1"/>
+      <gearXY controller="spType" pages="0,3,4" values="750,67|745,67|748,64" default="748,67"/>
+      <gearIcon controller="spType" pages="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" values="ui://newlnjldr7lnscbm|ui://newlnjldr7lnscbn|ui://newlnjldr7lnscbs|ui://newlnjldr7lnscbo|ui://newlnjldr7lnscbv|ui://newlnjldr7lnscbt|ui://newlnjldr7lnscbq|ui://newlnjldr7lnscbp|ui://newlnjldr7lnscbr|ui://newlnjldr7lnscbl|ui://newlnjldr7lnscbx|ui://newlnjldr7lnscbu|ui://newlnjldr7lnscbk|ui://newlnjldr7lnscbj|ui://newlnjldr7lnscbw"/>
+    </loader>
+  </displayList>
+</component>

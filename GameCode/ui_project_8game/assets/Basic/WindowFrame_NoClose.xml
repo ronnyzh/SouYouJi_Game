@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,485">
+  <displayList>
+    <image id="n2_osvm" name="n2" src="osvma0" xy="15,13" size="719,473">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_osvm" name="n3" src="osvma2" xy="135,12">
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n0_osvm" name="n0" src="osvm9y" xy="203,-1">
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <loader id="n4_osvm" name="icon" xy="248,12" size="254,50"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,94">
+  <controller name="lay" pages="0,hide,1,show" selected="0"/>
+  <controller name="separate" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n28_kteu" name="n28" src="kteu6" fileName="tiles/lwgc_tile_tray_14.png" xy="26,0">
+      <gearDisplay controller="lay" pages="0"/>
+      <gearXY controller="separate" pages="0" values="26,0" default="0,0"/>
+    </image>
+    <component id="n29_kaou" name="out" src="kteuy" fileName="out0.xml" xy="0,1">
+      <gearDisplay controller="lay" pages="1"/>
+    </component>
+  </displayList>
+</component>

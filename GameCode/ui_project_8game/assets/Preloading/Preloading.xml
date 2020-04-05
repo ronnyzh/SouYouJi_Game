@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <loader id="n3_a2i0" name="bg" xy="0,0" size="1334,750" url="ui://c4a9oni8uy9c8" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n2_a2i0" name="n2" src="ba653" xy="468,137" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n1_aks0" name="loadingTxt" xy="560,501" size="205,39" fontSize="30" color="#ffffff" strokeColor="#000000" text="Loading... 10%">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n4_ba65" name="loadingBar" src="ba656" xy="213,549">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <ProgressBar value="10" max="100"/>
+    </component>
+    <component id="n15_d1sn" name="logoanima" src="d1snj" xy="0,0" size="1334,750"/>
+  </displayList>
+</component>

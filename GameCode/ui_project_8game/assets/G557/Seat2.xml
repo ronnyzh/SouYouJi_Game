@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="193,110">
+  <controller name="c1" pages="0,,1,zhuang" selected="0"/>
+  <displayList>
+    <image id="n18_k53i" name="n18" src="k53i3i" fileName="textures/playerFrame/pf_bg_h.png" xy="0,0"/>
+    <loader id="n0_osvm" name="icon" xy="9,5" size="100,100" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n19_k53i" name="n19" src="k53i3h" fileName="textures/playerFrame/pf_bg1_h.png" xy="2,7"/>
+    <image id="n14_k53i" name="n14" src="k53i3k" fileName="textures/playerFrame/pf_goodBG.png" xy="12,126" group="n15_k53i"/>
+    <image id="n13_k53i" name="n13" src="k53i3j" fileName="textures/playerFrame/pf_good.png" xy="3,125" group="n15_k53i"/>
+    <group id="n15_k53i" name="n15" xy="3,125" size="91,27" collapsed="true"/>
+    <text id="n3_osvm" name="score" xy="28,122" size="65,32" fontSize="25" color="#ffff00" align="right" vAlign="middle" autoSize="none" italic="true" strokeColor="#666666" strokeSize="2" text="100"/>
+    <text id="n2_osvm" name="name" xy="-21,335" size="141,28" visible="false" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#666666" strokeSize="2" text="用户名有多长"/>
+    <component id="n8_h21o" name="icon_click" src="s2tl2s" fileName="ScaleButton.xml" xy="189,30" size="109,176"/>
+    <component id="n10_ekd7" name="tfScore" src="s2tl2t" fileName="tfScore.xml" xy="-78,8" visible="false"/>
+    <image id="n17_k53i" name="n17" src="k53i3q" fileName="textures/playerFrame/pf_banker.png" xy="61,-9">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

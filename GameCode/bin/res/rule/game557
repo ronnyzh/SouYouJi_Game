@@ -1,0 +1,466 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 50,
+        	"content":"2-5人，即2人至5人即可开始游戏。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "游戏规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【发牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 50,
+            "content":"开局即发牌，玩家可以在看1张牌后再决定后面的游戏策略;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【抢庄】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 90,
+            "content":"每局游戏开始时自由进行不同的倍数进行抢庄，系统会选择本局最高倍数抢庄的玩家成为庄家；如有多人选择相同的最高倍数抢庄，则从中随机产生一位庄家，如没有玩家抢庄，则从所有人中随机产生一位庄家；若玩家抢庄阶段超时无操作，系统自动执行不抢;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【下注】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 70,
+            "content":"确定庄家之后，所有闲家开始选择下注倍数，携带的游戏币越多，最大可下注倍越大；若玩家下注阶段超时无操作，系统自动下最小倍数;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【要牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 70,
+            "content":"每人开局先发一张，抢庄下注后，再发第二张，之后玩家可自由选择要牌或不要牌，直到爆牌或停止要牌为止，倒计时结束默认为停止要牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【比牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":780,
+            "itemHeight": 60,
+            "content":"当所有玩家亮出手牌后，每人把手上所有牌点数相加，闲家和庄家互相比牌。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "牌型算法:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【21点】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "itemWidth":600,
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 50,
+            "content":"点数相加等于21，3倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【20点】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 50,
+            "content":"点数相加等于20，2倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【有点】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 50,
+            "content":"其余点数均为1倍;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":120,
+            "content":"【爆点】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 50,
+            "content":"超过21点的玩家称为爆点，1倍;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+        	"content":"【牌面大小】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"2",
+        	"fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 50,
+        	"content":"10,J,Q,K为10点，A可按1点或11点去算，其他牌按牌面数值计算。"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "牌型比较:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【点数比较】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 50,
+            "content":"21点 > 20点 > 有点 > 爆点;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":210,
+            "content":"【同点数比较】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":690,
+            "itemHeight": 50,
+            "content":"如点数相同，则牌数多者为胜，如点数与牌数均相同，则庄家获胜，如庄闲均爆牌，则庄家获胜;"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+            "content": "计算规则:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【基本公式】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 50,
+            "content":"分数=场次底分*庄家抢庄倍数*对应牌型倍数*闲家下注倍数;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【系统抽成】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 50,
+            "content":"系统会从赢家的所赢取游戏收益中抽5%;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【闲家胜利】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 50,
+            "content":"场次底分*庄家抢庄倍数*对应牌型倍数*闲家下注倍数 - 抽水;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【庄家胜利】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 50,
+            "content":"场次底分*庄家抢庄倍数*对应牌型倍数*对应每位闲家下注倍数 - 抽水，庄闲之间清算;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【防小博大】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 70,
+            "content":"本局玩家带进多少本金，本局最多也等额输赢多少，如您本局带入80，结算时您理论应得200，为公平起见，您本局最多也只能赢到80，而不是200;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【金额不足】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"4",
+            "fontSize":28,
+            "itemWidth":720,
+            "itemHeight": 80,
+            "content":"如果庄家出现本金不足的情况下，按照各闲家理论盈利比例结算输赢；比如庄家本金100，一次性输完，A闲家理论应该赢200，B闲家理论应该赢200，C玩家理论应该赢400的话，按照ABC三位理论盈利占比,"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 40,
+            "content":"最终得出:"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 40,
+            "content":"AB闲家实际盈利 = 200/(200+200+400)*100=25"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":850,
+            "itemHeight": 40,
+            "content":"C闲家实际盈利=400/(200+200+400)*100=50"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight":40,
+            "content":""
+        }
+        
+    ]
+}

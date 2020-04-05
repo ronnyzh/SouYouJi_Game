@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,115" pivot="0.5,0.5" anchor="true" extention="Label">
+  <displayList>
+    <loader id="n1_o6gk" name="icon" xy="0,0" pivot="0.5,0.5" size="86,115" url="ui://wtkqufwmba8gh2" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <transition name="reversal">
+    <item time="0" type="Scale" target="n1_o6gk" tween="true" startValue="1,1" endValue="0,1" duration="6" label2="center"/>
+    <item time="6" type="Scale" target="n1_o6gk" label="center" tween="true" startValue="0,1" endValue="1,1" duration="6"/>
+  </transition>
+  <transition name="pushCard">
+    <item time="0" type="Rotation" target="n1_o6gk" tween="true" startValue="0" endValue="360" duration="12"/>
+    <item time="0" type="Scale" target="n1_o6gk" tween="true" startValue="0,0" endValue="1,1" duration="12"/>
+    <item time="0" type="XY" target="n1_o6gk" label="begin" tween="true" startValue="0,0" endValue="0,0" duration="12" label2="end"/>
+  </transition>
+  <transition name="reversal_bu">
+    <item time="0" type="Scale" target="n1_o6gk" tween="true" startValue="1,1" endValue="0,1" duration="6" label2="center"/>
+    <item time="6" type="Scale" target="n1_o6gk" label="center" tween="true" startValue="0,1" endValue="1,1" duration="6"/>
+  </transition>
+</component>

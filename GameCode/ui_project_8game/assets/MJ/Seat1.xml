@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <controller name="c1" pages="0,nothing,1,zhuang" selected="1"/>
+  <controller name="balance" pages="2,hide,0,green,1,red" selected="0"/>
+  <controller name="color" pages="0,hide,1,a,2,b,3,c" selected="1"/>
+  <displayList>
+    <image id="n5_h21o" name="n5" src="kteua" xy="8,-3" size="130,130"/>
+    <loader id="n0_osvm" name="icon" xy="23,9" size="100,100" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n1_osvm" name="n1" src="kvb57" pkg="8a4txovs" xy="22,9" size="102,102"/>
+    <text id="n3_osvm" name="score" xy="26,77" size="96,32" fontSize="25" color="#ffff00" align="right" vAlign="middle" autoSize="none" italic="true" strokeColor="#666666" strokeSize="2" text="100"/>
+    <text id="n2_osvm" name="name" xy="4,118" size="141,28" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#666666" strokeSize="2" text="用户名有多长"/>
+    <component id="n8_h21o" name="icon_click" src="kvb5a" pkg="8a4txovs" xy="8,-3" size="130,130"/>
+    <image id="n13_q3nt" name="n13" src="fldw2f" xy="-8,-22" pivot="0.5,0.5" group="n14_q3nt" scale="0.5,0.5"/>
+    <loader id="n12_q3nt" name="n12" xy="2,-11" pivot="0.5,0.5" size="78,82" group="n14_q3nt" scale="0.5,0.5" url="ui://ejgb8krjfldw2a">
+      <gearDisplay controller="color" pages="1,2,3"/>
+      <gearXY controller="color" pages="1,2,3" values="2,-11|6,-11|4,-12" default="3,-11"/>
+      <gearIcon controller="color" pages="1,2" values="ui://ejgb8krjfldw2a|ui://ejgb8krjfldw2e" default="ui://ejgb8krjfldw2c"/>
+    </loader>
+    <group id="n14_q3nt" name="n14" xy="-8,-22" size="99,102" advanced="true">
+      <gearDisplay controller="color" pages="1,2,3"/>
+    </group>
+    <image id="n9_to38" name="n9" src="kteub" xy="96,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n11_jkuv" name="scoreBalance" xy="70,95" pivot="0.5,0.5" anchor="true" size="160,54" font="汉仪粗黑简" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="3" autoSize="none" bold="true" strokeColor="#ffffff" strokeSize="2" singleLine="true" text="+818">
+      <gearDisplay controller="balance" pages="0,1"/>
+      <gearXY controller="balance" pages="0,1" values="70,30|70,30" default="70,95" tween="true" ease="Back.Out" duration="0.7"/>
+      <gearColor controller="balance" pages="1" values="#cc3333,#ffffff" default="#2e9100,#ffffff"/>
+    </text>
+  </displayList>
+</component>

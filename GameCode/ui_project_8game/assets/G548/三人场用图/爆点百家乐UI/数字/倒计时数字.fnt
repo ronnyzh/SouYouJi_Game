@@ -1,0 +1,11 @@
+info creator=UIBuilder size=12 resizable=true
+char id=48 img=pxxrec xoffset=0 yoffset=0 xadvance=0
+char id=49 img=pxxred xoffset=0 yoffset=0 xadvance=0
+char id=50 img=pxxree xoffset=0 yoffset=0 xadvance=0
+char id=51 img=pxxref xoffset=0 yoffset=0 xadvance=0
+char id=52 img=pxxreg xoffset=0 yoffset=0 xadvance=0
+char id=53 img=pxxreh xoffset=0 yoffset=0 xadvance=0
+char id=54 img=pxxrei xoffset=0 yoffset=0 xadvance=0
+char id=55 img=pxxrej xoffset=0 yoffset=0 xadvance=0
+char id=56 img=pxxrek xoffset=0 yoffset=0 xadvance=0
+char id=57 img=pxxrel xoffset=0 yoffset=0 xadvance=0

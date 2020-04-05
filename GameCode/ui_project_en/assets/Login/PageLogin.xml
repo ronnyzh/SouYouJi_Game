@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="c1" pages="2,auto,0,guest,1,user,3,nothing" selected="1"/>
+  <displayList>
+    <loader id="n26_ngy0" name="bg" xy="0,0" pivot="0.5,0.5" size="1334,750" blend="none" url="ui://czb09a4buy9ct" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n9_b3ca" name="bgadd" xy="0,0" pivot="0.5,0.5" size="1334,750" blend="add" url="ui://czb09a4buy9ct" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n8_osvm" name="n8" src="osvmj" fileName="login/yong_hu_xie_yi_n.png" xy="388,634" hideByEditor="true" visible="false">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </image>
+    <image id="n20_ba65" name="n20" src="ba653" fileName="pictrue/logo.png" pkg="c4a9oni8" xy="463,136" group="n30_ngy0"/>
+    <image id="n27_ngy0" name="n27" src="ngy0u" fileName="login/闪光.png" xy="708,152" pivot="0.5,0.5" anchor="true" group="n30_ngy0" blend="add"/>
+    <component id="n33_d1sn" name="n33" src="d1snw" fileName="logoSpark.xml" xy="456,138" group="n30_ngy0" hideByEditor="true"/>
+    <group id="n30_ngy0" name="n30" xy="456,136" size="412,308" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n2_khec" name="btn_guest" src="osvmed" fileName="ScaleButton.xml" pkg="la8oslyo" xy="498,512" size="330,115">
+      <gearDisplay controller="c1" pages="2,0"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+      <Button icon="ui://czb09a4bosvml" sound="ui://la8oslyofbf8jx"/>
+    </component>
+    <image id="n11_keio" name="n11" src="keion" fileName="login/lg_acc_bg.png" xy="365,383" size="604,288" group="n13_keio"/>
+    <text id="n14_keio" name="txt_account" xy="402,415" size="287,43" group="n13_keio" input="true" prompt="账号" maxLength="10" fontSize="30" color="#ffffff" autoSize="none" singleLine="true" text=""/>
+    <text id="n15_keio" name="txt_pass" xy="403,499" size="287,43" group="n13_keio" input="true" prompt="密码" maxLength="20" password="true" fontSize="30" color="#ffffff" autoSize="none" singleLine="true" text="ping"/>
+    <image id="n19_nxyf" name="n19" src="nxyfp" fileName="login/lg_cb_tick.png" xy="524,601" group="n13_keio"/>
+    <component id="n18_keio" name="btn_login" src="osvmed" fileName="ScaleButton.xml" pkg="la8oslyo" xy="722,443" size="231,93" group="n13_keio">
+      <gearDisplay controller="c1" pages=""/>
+      <Button icon="ui://czb09a4bkeioo" sound=""/>
+    </component>
+    <group id="n13_keio" name="n13" xy="365,383" size="604,288" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <graph id="n21_c4mg" name="n21" xy="494,439" size="340,66" group="n23_c4mg" visible="false" type="rect" fillColor="#cc333333" corner="20"/>
+    <text id="n22_c4mg" name="testAccount" xy="509,443" size="315,61" group="n23_c4mg" visible="false" input="true" prompt="输入[0~1998]" maxLength="4" keyboardType="4" fontSize="40" color="#ffffff" align="center" autoSize="none" text=""/>
+    <group id="n23_c4mg" name="n23" xy="494,439" size="340,66" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="flashbackground" autoPlay="true" autoPlayRepeat="90000">
+    <item time="0" type="Alpha" target="n9_b3ca" tween="true" startValue="0.1" endValue="0.5" duration="48" ease="Linear"/>
+    <item time="48" type="Alpha" target="n9_b3ca" tween="true" startValue="0.5" endValue="0.1" duration="48" ease="Linear"/>
+  </transition>
+  <transition name="flashcrown" autoPlay="true" autoPlayRepeat="9000">
+    <item time="0" type="Alpha" target="n27_ngy0" tween="true" startValue="0.1" endValue="1" duration="18"/>
+    <item time="0" type="Rotation" target="n27_ngy0" tween="true" startValue="0" endValue="359" duration="42"/>
+    <item time="0" type="Scale" target="n27_ngy0" tween="true" startValue="0.1,0.1" endValue="1,1" duration="18"/>
+    <item time="18" type="Alpha" target="n27_ngy0" tween="true" startValue="1" endValue="0.1" duration="24"/>
+    <item time="18" type="Scale" target="n27_ngy0" tween="true" startValue="1,1" endValue="0.1,0.1" duration="24"/>
+    <item time="42" type="Rotation" target="n27_ngy0" tween="true" startValue="359" endValue="359" duration="1"/>
+    <item time="43" type="Alpha" target="n27_ngy0" value="0.1"/>
+    <item time="43" type="Scale" target="n27_ngy0" value="0.1,0.1"/>
+    <item time="186" type="Alpha" target="n27_ngy0" value="0.1"/>
+    <item time="186" type="Rotation" target="n27_ngy0" value="359"/>
+    <item time="186" type="Scale" target="n27_ngy0" value="0.1,0.1"/>
+  </transition>
+</component>

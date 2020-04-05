@@ -1,0 +1,103 @@
+package zhajinhua_poker;
+
+enum MSG_HEADER {
+    C_S_NEWDOACTION = 0x00002001; //前端action接口
+    C_S_SHOWTILES = 0x00002002; //前端看牌接口
+
+    S_C_SENDRANDOMTILE = 0x00003001; //打骰
+    S_C_BOTTOMCASTING = 0x00003002; //下底注
+    S_C_CANDOACTIONS = 0x00003003; //可以做的action
+    S_C_NEWDOACTION = 0x00003004; //action操作结果
+    S_C_FIGHTOTHERRESULT = 0x00003005; //斗牌结果
+    S_C_SHOWTILES = 0x00003006; //展示牌
+    S_C_NEW_REFRESH_DATA = 0x00003007;
+}
+
+message S_C_SendRandomTile {
+    repeated string tiles = 1; //打骰的牌
+    optional fixed32 side = 2; //牌对应的玩家座位
+}
+
+//下底注
+message S_C_BottomCasting {
+    required float number = 1; //底注数量
+}
+//做操作
+enum ACTION {
+    GIVEUP = 1; //弃牌
+//    LOOKTILE = 2; //看牌(移除,用新接口交流)
+    FIGHTOTHER = 3; //比牌
+    ALL_IN = 4; //全压
+    ADDGOLD = 5; //加注
+    FOLLOWGOLD = 6; //跟注
+}
+
+message S_C_New_Refresh_Data {
+    message PData {
+        required fixed32 side = 1;  //位置
+        optional float PTotalGold = 2;//当前总下注额
+        optional fixed32 PTotalMultiple = 3;//当前下注总倍数
+        repeated float PBetsList = 4;//当前下注额列表
+        optional fixed32 state = 5; // 1弃牌,2比牌失败,3全压
+        required fixed32 isLook = 6; //是否已看牌
+    }
+    optional fixed32 dealSide = 1;  //当局起手玩家位置
+    optional fixed32 round = 2; //当前回合数
+    optional fixed32 totalRound = 3; //总回合数
+    optional fixed32 curMultiple = 4; //当前最少下注倍数(未看的倍数,看了*2)
+    optional fixed32 TotalMultiple = 5; //当前下注总倍数
+    optional float TotalGold = 6; //当前总下注额
+    repeated float BetsList = 7; //当前下注额列表
+    repeated fixed32 MultipleList = 8; //当前下注倍数列表
+    repeated float AllInList = 9; //当前全压列表
+    repeated PData PlayerData = 10; //玩家小局信息
+}
+
+message S_C_CanDoActions {
+    message Action {
+        required fixed32 action = 1;
+        repeated float datas = 2;
+    }
+    required fixed32 side = 1; //当前做操作的玩家
+    optional fixed32 leftMs = 2; //当前操作剩余时间
+    optional fixed32 num = 3; //action编号
+    repeated Action actions = 4; //aciton信息
+    optional fixed32 round = 5; //当前回合数
+    optional fixed32 totalRound = 6; //总回合数
+}
+
+message C_S_NewDoAction {
+    required fixed32 action = 1;
+    repeated string datas = 2;
+    required fixed32 num = 3; //action编号
+    optional fixed32 number = 4; //在比牌时为对手位置,在加注时为倍数,其他情况不取该值
+}
+
+message S_C_NewDoAction {
+    required fixed32 side = 1;
+    required fixed32 action = 2;
+    repeated string datas = 3;  //比牌时为位置,看牌时为3张牌,加注时为倍数,其他情况不发
+    optional float number = 4; //下注金额(比牌|跟注|加注|全压)
+    optional fixed32 multiple = 5; //比牌|跟注|加注时为下注倍数,弃牌|看牌|全压不发
+}
+
+message playerTiles {
+    required fixed32 side = 1;
+    repeated string tiles = 2;
+    optional fixed32 type = 3;
+}
+
+message S_C_FightOtherResult {
+    required playerTiles Player = 1;
+    required playerTiles bePlayer = 2;
+    required bool isWin = 3;
+}
+message C_S_ShowTiles {
+
+}
+
+//最终看牌和中途看牌
+message S_C_ShowTiles {
+    repeated playerTiles player = 1;
+    optional fixed32 WinSide = 2;
+}

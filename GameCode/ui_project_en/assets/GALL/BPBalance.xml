@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="c1" exported="true" pages="0,win,1,lose" selected="0"/>
+  <displayList>
+    <graph id="n16_ogno" name="mask" xy="0,0" size="1334,750" locked="true" type="rect" fillColor="#1a000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n29_op4n" name="n29" src="k5pu9" fileName="style0/balance2/win_light.png" xy="666,374" pivot="0.5,0.5" anchor="true" group="n9_ogno"/>
+    <image id="n21_op4n" name="n21" src="k5pud" fileName="style0/balance2/win_title_bg.png" xy="343,250" pivot="0.5,0.5" size="647,249" group="n9_ogno"/>
+    <image id="n22_op4n" name="n22" src="k5pue" fileName="style0/balance2/win_wings.png" xy="426,231" pivot="1,0.5" size="223,173" group="n9_ogno">
+      <relation target="n21_op4n" sidePair="left-center"/>
+    </image>
+    <image id="n23_op4n" name="n23" src="k5puf" fileName="style0/balance2/win_wings-r.png" xy="679,228" pivot="0,0.5" size="223,173" group="n9_ogno">
+      <relation target="n21_op4n" sidePair="left-center"/>
+    </image>
+    <image id="n24_op4n" name="n24" src="k5pug" fileName="style0/balance2/win_cup.png" xy="495,199" pivot="0.5,0.5" size="343,260" group="n9_ogno"/>
+    <image id="n1_ogno" name="n1" src="mgoj6u" fileName="style0/balance2/庄家通杀.png" xy="666,375" pivot="0.5,0.5" anchor="true" size="505,182" group="n9_ogno"/>
+    <image id="n28_op4n" name="n28" src="k5pu8" fileName="style0/balance2/win-flower.png" xy="667,374" pivot="0.5,0.5" anchor="true" group="n9_ogno" visible="false"/>
+    <image id="n31_op4n" name="n31" src="k5pui" fileName="style0/balance2/win_star.png" xy="672,420" pivot="0.5,0.5" anchor="true" group="n9_ogno" hideByEditor="true"/>
+    <group id="n9_ogno" name="conTitleWin" xy="201,99" size="932,549" group="n18_qgb1" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n42_op4n" name="n42" src="k5pua" fileName="style0/balance2/lose_light.png" xy="467,175" group="n40_op4n"/>
+    <image id="n33_op4n" name="n33" src="k5puj" fileName="style0/balance2/lose_title_bg.png" xy="343,250" pivot="0.5,0.5" size="647,249" group="n40_op4n"/>
+    <image id="n34_op4n" name="n34" src="k5puk" fileName="style0/balance2/lose_wings.png" xy="429,222" pivot="1,0.5" size="223,173" group="n40_op4n">
+      <relation target="n33_op4n" sidePair="left-center"/>
+    </image>
+    <image id="n35_op4n" name="n35" src="k5pul" fileName="style0/balance2/lose_wings-r.png" xy="676,224" pivot="0,0.5" size="223,173" group="n40_op4n">
+      <relation target="n33_op4n" sidePair="left-center"/>
+    </image>
+    <image id="n37_op4n" name="n37" src="k5pum" fileName="style0/balance2/lose_cup.png" xy="495,205" pivot="0.5,0.5" size="343,260" group="n40_op4n"/>
+    <image id="n38_op4n" name="n38" src="mgoj6v" fileName="style0/balance2/庄家通赔.png" xy="403,286" pivot="0.5,0.5" group="n40_op4n"/>
+    <image id="n39_op4n" name="n39" src="k5puo" fileName="style0/balance2/lose_star.png" xy="486,316" pivot="0.5,0.5" group="n40_op4n"/>
+    <group id="n40_op4n" name="conTitleLose" xy="343,175" size="647,399" group="n18_qgb1" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <group id="n18_qgb1" name="n18" xy="201,99" size="932,549" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="onShow" options="4">
+    <item time="0" type="Alpha" target="n1_ogno" value="0"/>
+    <item time="0" type="Alpha" target="n40_op4n" value="0"/>
+    <item time="3" type="Alpha" target="n1_ogno" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="3" type="Alpha" target="n28_op4n" tween="true" startValue="0.57" endValue="0.41" duration="9"/>
+    <item time="3" type="Alpha" target="n40_op4n" value="1"/>
+    <item time="3" type="Rotation" target="n22_op4n" tween="true" startValue="-60" endValue="0" duration="18" ease="Back.Out"/>
+    <item time="3" type="Rotation" target="n23_op4n" tween="true" startValue="60" endValue="0" duration="18" ease="Back.Out"/>
+    <item time="3" type="Rotation" target="n28_op4n" tween="true" startValue="0" endValue="25.5" duration="18"/>
+    <item time="3" type="Rotation" target="n29_op4n" tween="true" startValue="80.2" endValue="0" duration="21" ease="Linear"/>
+    <item time="3" type="Rotation" target="n34_op4n" tween="true" startValue="-60" endValue="0" duration="18" ease="Back.Out"/>
+    <item time="3" type="Rotation" target="n35_op4n" tween="true" startValue="60" endValue="0" duration="18" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n1_ogno" tween="true" startValue="3,3" endValue="0.81,0.81" duration="7" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n21_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n24_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n28_op4n" tween="true" startValue="0,0" endValue="1.5,1.5" duration="18" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n33_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n37_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n38_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="3" type="Scale" target="n39_op4n" tween="true" startValue="0.5,0.5" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="10" type="Scale" target="n1_ogno" tween="true" startValue="0.81,0.81" endValue="1,1" duration="11" ease="Circ.Out"/>
+    <item time="12" type="Alpha" target="n28_op4n" tween="true" startValue="0.41" endValue="0" duration="9" ease="Back.Out"/>
+    <item time="21" type="Alpha" target="n28_op4n" tween="true" startValue="0" ease="Back.Out"/>
+    <item time="21" type="Scale" target="n1_ogno" tween="true" startValue="1,1"/>
+    <item time="21" type="Scale" target="n28_op4n" tween="true" startValue="1.5,1.5" ease="Bounce.In"/>
+  </transition>
+  <transition name="onHide">
+    <item time="0" type="Scale" target="n1_ogno" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n21_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n22_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n23_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n24_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n28_op4n" tween="true" startValue="1.5,1.5" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n29_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n31_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n33_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n34_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n35_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n37_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n38_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n39_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+    <item time="0" type="Scale" target="n42_op4n" tween="true" startValue="1,1" endValue="0,0" duration="12" ease="Back.In"/>
+  </transition>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,12">
+  <displayList>
+    <image id="n17_ibr1" name="n17" src="pu4x1p" fileName="Image/出图/筹码.png" xy="0,-59"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n17_ibr1" tween="true" startValue="1" endValue="1" duration="12" ease="Expo.Out"/>
+    <item time="0" type="Rotation" target="n17_ibr1" tween="true" startValue="40" endValue="0" duration="12" ease="Expo.Out"/>
+    <item time="0" type="XY" target="n17_ibr1" tween="true" startValue="39.32,-304.08" endValue="0,-59" duration="12" ease="Bounce.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,67">
+  <displayList>
+    <component id="n2_pqc4" name="strive" src="pqc45w" fileName="百家乐/抢庄-不抢/抢庄按钮.xml" xy="33,0"/>
+    <component id="n3_pqc4" name="strive_no" src="pqc45x" fileName="百家乐/抢庄-不抢/不抢按钮.xml" xy="293,1"/>
+  </displayList>
+</component>

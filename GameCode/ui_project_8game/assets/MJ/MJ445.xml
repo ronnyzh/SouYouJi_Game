@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" adaptationTest="FitSize">
+  <displayList>
+    <component id="n0_kaou" name="basicScene" src="kteu0" xy="800,450" pivot="0.5,0.5" anchor="true" locked="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <relation target="" sidePair="width-width%,height-height%"/>
+</component>

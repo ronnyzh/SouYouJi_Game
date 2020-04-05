@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="62,82" opaque="false">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_o8gl" name="n1" xy="31,41" pivot="0.5,0.5" anchor="true" size="62,82" url="ui://nwo0j1cxayoe6f" fill="scaleFree">
+      <gearXY controller="c1" pages="0,1" values="31,41|31,32" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n1_o8gl" tween="true" startValue="1,1" endValue="0,1" duration="4" label2="center"/>
+    <item time="4" type="Scale" target="n1_o8gl" label="center" tween="true" startValue="0,1" endValue="1,1" duration="4"/>
+  </transition>
+</component>

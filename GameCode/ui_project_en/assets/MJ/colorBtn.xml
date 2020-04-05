@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_pruj" name="n6" src="fldw2f" xy="0,-41" locked="true" visible="false"/>
+    <loader id="n5" name="icon" xy="19,-31" pivot="0.5,0.5" size="69,82" url="ui://ejgb8krjfldw2e" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearSize controller="button" pages="0,1" values="69,82,1,1|100,20,1,1" default="100,20,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://la8oslyoodd9hg" downEffect="scale" downEffectValue="0.95"/>
+</component>

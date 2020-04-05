@@ -1,0 +1,143 @@
+package dezhou_poker;
+
+enum MSG_HEADER {
+    C_S_NEWDOACTION = 0x00002001; //前端action接口
+
+
+    S_C_SENDRANDOMTILE = 0x00003001; //打骰
+    S_C_CANDOACTIONS = 0x00003002; //可以做的action
+    S_C_NEWDOACTION = 0x00003003; // 后端action广播
+    S_C_SHOWPUBLICTIOLES = 0x00003004; //公共牌开牌
+    S_C_SHOWTILES = 0x00003005; //发送手牌信息
+    S_C_PAYBASEBETS = 0x00003006; //发送手牌信息
+    S_C_NEWREFRESHDATAS = 0x00003007; //刷新协议
+    S_C_NEWBALANCE = 0x00003008; //新结算(暂时不用)
+
+    S_S_SAVEBALANCE = 0x00003009; //录像存储输赢分配流水,前端不使用
+    S_C_SENDEACHPOOLS = 0x00003010; //发送主边池信息
+}
+
+//做操作
+enum ACTION {
+    GIVEUP = 1; //弃牌
+    FOLLOW = 2; //跟注
+    ADDGOLD = 3; //加注
+    PASS = 4; //过牌
+    ALLIN = 5; //全压
+
+    SMALLBID = 10;//小盲注
+    BIGBID = 11;//大盲注
+}
+enum CARDTYPES {
+    ROYAL_FLUSH = 1; // 皇家同花顺
+    STRAIGHT_FLUSH = 2; // 同花顺
+    FOUR_OF_A_KIND = 3; // 四条
+    FULL_HOUSE = 4; // 葫芦
+    FLUSH = 5; // 同花
+    STRAIGHT = 6; // 顺子
+    THREE_OF_A_KIND = 7; // 三条
+    TWO_PAIR = 8; // 两对
+    ONE_PAIR = 9; // 一对
+    HIGH_CARD = 10; // 高牌
+}
+
+message S_C_SendRandomTile {
+    repeated string tiles = 1; //打骰的牌
+    optional fixed32 side = 2; //牌对应的玩家座位
+}
+
+
+message S_C_PayBaseBets {
+    required fixed32 Ptype = 1; // 1小盲注,2大盲注
+    required fixed32 chair = 2; //下盲注的位置
+    required float money = 3; //金额
+}
+
+message S_C_CanDoActions {
+    message Action {
+        required fixed32 action = 1;
+        repeated float datas = 2;
+    }
+    required fixed32 side = 1; //当前做操作的玩家
+    optional fixed32 leftMs = 2; //当前操作剩余时间
+    optional fixed32 num = 3; //action编号
+    repeated Action actions = 4; //aciton信息
+}
+
+message C_S_NewDoAction {
+    required fixed32 action = 1;
+    repeated string datas = 2; //暂留,不取
+    required fixed32 num = 3; //action编号
+    optional fixed32 number = 4; //加注时为加注的数量(本金以上),其他情况不取该值
+}
+
+message S_C_NewDoAction {
+    required fixed32 side = 1;
+    required fixed32 action = 2;
+    repeated string datas = 3; //暂留,不取
+    optional float number = 4; //下注金额(跟注|加注|全压)
+    optional float curRoundMoney = 5; //当前轮次下注总额
+    optional float totalMoney = 6; //当前下注总额
+}
+
+message S_C_ShowPublicTiles {
+    required fixed32 len = 1; //当前的公共牌数量(3,4,5)
+    repeated string tiles = 2; //当前的牌列
+    repeated string addTiles = 3; //新增的牌
+}
+
+
+message S_C_ShowTiles {
+    message playerTiles {
+        required fixed32 side = 1; //玩家位置
+        repeated string selfTiles = 2; //玩家手牌列表(不结算不发)
+        optional CARDTYPES type = 3; //最大牌的类型
+        repeated string tiles = 4; //最大牌的牌型列表(关键牌)
+        optional fixed32 rank = 5; //排名(在最后开牌阶段,每个玩家的牌在所有人的排名)
+        optional bool isShow = 6; //结算是否向全部人展示特殊牌
+        repeated string fiveTiles = 7; //最大牌的牌型列表
+    }
+    repeated playerTiles player = 1;
+    optional bool isEnd = 2;//是否结算的开牌(预留录像解析)
+}
+
+message S_S_SaveBalance {
+    message msgData {
+        optional sfixed32 side = 1; //玩家位置
+        optional fixed32 gold = 2; //金额
+        optional fixed32 type = 3; //奖池的类型
+        optional string addMsg = 4; // 补充说明
+    }
+    repeated msgData dataMsgs = 1;
+}
+
+message playerData {
+    required fixed32 side = 1; //玩家位置
+    optional ACTION lastState = 2;
+    optional float TotalBid = 11; //总下注
+    optional float curBid = 12; //当前轮次下注,结算时不发
+    optional float winGold = 21;
+    optional float beforeGold = 22;
+    optional float lastGold = 23;
+}
+
+message S_C_NewBalance {
+    repeated playerData player = 1; //玩家数据
+}
+
+message S_C_NewRefreshDatas {
+    required fixed32 state = 1; // 0:未开始(一般未开始不会发这个协议) 2:结算阶段 1:游戏中
+    optional float totalBid = 2; //所有玩家总下注
+    optional S_C_ShowTiles tilesDatas = 3; //玩家手牌信息
+    repeated playerData playerDatas = 4; //玩家数据
+    optional fixed32 dealSide = 5; //庄家位置
+}
+
+message S_C_SendEachPools {
+    message Pool {
+        required fixed32 poolId = 1; //边池编号(正常是0是主池,边池分别是1,2,3....)
+        required float goldTotal = 2;//边池总金额
+        repeated fixed32 chairs = 3; //该边池所属
+    }
+    repeated Pool PoolDatas = 1;
+}

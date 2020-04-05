@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="154,212" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,normal,1,active,2,disabled,3,over,4,out" selected="0">
+    <action type="play_transition" fromPage="" toPage="1" transition="up"/>
+    <action type="play_transition" fromPage="" toPage="0,2" transition="down"/>
+  </controller>
+  <displayList>
+    <loader id="n4_j4bi" name="icon" xy="0,0" size="154,212" url="ui://p4u5nou3djq941" autoSize="true">
+      <gearLook controller="c1" pages="2,3" values="1,0,0,0|1,0,0,1" default="1,0,0,1"/>
+      <gearColor controller="c1" pages="2,3" values="#787878|#787878" default="#ffffff"/>
+    </loader>
+  </displayList>
+  <Button/>
+  <transition name="up">
+    <item time="0" type="XY" target="n4_j4bi" value="-,-60"/>
+  </transition>
+  <transition name="down">
+    <item time="0" type="XY" target="n4_j4bi" value="0,0"/>
+  </transition>
+</component>

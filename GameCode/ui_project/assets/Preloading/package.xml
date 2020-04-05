@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="c4a9oni8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="aks00" name="Preloading.xml" path="/" exported="true"/>
+    <image id="a2i01" name="图案-女.png" path="/pictrue/"/>
+    <image id="ba653" name="logo.png" path="/pictrue/" exported="true"/>
+    <image id="ba654" name="进度条底.png" path="/pictrue/" scale="9grid" scale9grid="12,0,8,29"/>
+    <image id="ba655" name="精度条.png" path="/pictrue/" scale="9grid" scale9grid="12,0,4,17"/>
+    <component id="ba656" name="ProgressBar1.xml" path="/"/>
+    <image id="uy9c8" name="mini.jpg" path="/pictrue/"/>
+    <image id="d1sn9" name="365 Chess and cards.png" path="/pictrue/"/>
+    <image id="d1sna" name="365棋牌底.png" path="/pictrue/"/>
+    <image id="d1snb" name="puke  -A .png" path="/pictrue/"/>
+    <image id="d1snc" name="puke -K .png" path="/pictrue/"/>
+    <image id="d1snd" name="字-365 .png" path="/pictrue/"/>
+    <image id="d1sne" name="字-棋牌 .png" path="/pictrue/"/>
+    <image id="d1snf" name="皇冠-光.png" path="/pictrue/"/>
+    <image id="d1sng" name="飘带-前.png" path="/pictrue/"/>
+    <image id="d1snh" name="飘带后.png" path="/pictrue/"/>
+    <component id="d1snj" name="LogoAnima.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Preloading" extractAlpha="true">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

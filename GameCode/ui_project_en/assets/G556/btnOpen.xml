@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,87">
+  <controller name="State" pages="1,nothing,0,start,2,timer,3,end" selected="2">
+    <action type="change_page" fromPage="" toPage="0" controller="dealcard" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="2" controller="dealcard" targetPage="0"/>
+  </controller>
+  <displayList>
+    <component id="n103_raqv" name="btnOpen" src="r9ujhj" fileName="ScaleButtonFit.xml" pkg="la8oslyo" xy="0,0" size="192,87" visible="false">
+      <gearDisplay controller="State" pages="1,0,2"/>
+      <relation target="n22_h21o" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://8a4txovsraqv5o"/>
+    </component>
+  </displayList>
+</component>

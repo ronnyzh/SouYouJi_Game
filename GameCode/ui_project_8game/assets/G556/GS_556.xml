@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://8a4txovsgasf7p" designImageAlpha="100" adaptationTest="FitSize">
+  <controller name="State" pages="1,nothing,0,start,2,timer,3,end" selected="0">
+    <action type="change_page" fromPage="" toPage="0" controller="dealcard" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="2" controller="dealcard" targetPage="0"/>
+  </controller>
+  <controller name="dealcard" pages="0,,1," selected="0"/>
+  <displayList>
+    <text id="n103_raqv" name="tfGameNumInfo" xy="6,1" size="479,28" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" bold="true" italic="true" autoClearText="true" text="Game No.000-0000000000-000000-0">
+      <relation target="" sidePair="top-top,left-left"/>
+    </text>
+    <richtext id="n94_kstv" name="txtTitle" xy="464,201" size="405,94" group="n95_kstv" hideByEditor="true" skew="7,0" visible="false" alpha="0.15" font="汉仪粗黑简" fontSize="80" align="center" vAlign="middle" singleLine="true" text="金币场牛牛">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n93_kstv" name="txtkdf" xy="272,373" size="733,45" group="n95_kstv" hideByEditor="true" visible="false" alpha="0.15" font="汉仪粗黑简" fontSize="36" singleLine="true" text="结算分数=底分×庄家倍数×下注倍数×牌型倍数">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n96_kstv" name="txtTitle2" xy="552,238" size="229,50" group="n95_kstv" hideByEditor="true" visible="false" alpha="0.15" font="汉仪粗黑简" fontSize="40" align="center" vAlign="middle" autoSize="none" italic="true" singleLine="true" text="明牌抢庄">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <text id="n97_jkuv" name="tfGameInfo" xy="666,287" pivot="0.5,0.5" anchor="true" size="422,40" group="n95_kstv" font="ui://qn9mtfu5gtil49" fontSize="28" color="#333333" align="center" vAlign="middle" autoSize="none" bold="true" italic="true" autoClearText="true" text="底分 12345679">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n100_g9t7" name="n100" src="g9t74a" fileName="明牌牛牛/明牌牛牛.png" xy="679,237" pivot="0.5,0.5" anchor="true" group="n95_kstv">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <group id="n95_kstv" name="n95" xy="272,201" size="733,217"/>
+    <component id="n10_osvm" name="seat0" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="250,568" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n12_osvm" name="seat1" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="1218,387" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n11_osvm" name="seat2" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="1217,209" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false"/>
+    <component id="n35_kcts" name="seat3" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="871,55" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n36_kcts" name="seat4" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="529,55" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n37_kcts" name="seat5" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="179,55" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n38_kcts" name="seat6" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="28,211" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <component id="n39_kcts" name="seat7" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="27,387" size="94,167" group="n55_s4ce" scale="0.9,0.9" visible="false">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <group id="n55_s4ce" name="seat" xy="27,55" size="1285,680" group="n14_osvm" collapsed="true"/>
+    <component id="n62_s4ce" name="QStr0" src="s4ce29" fileName="TipsQ.xml" xy="343,558" group="n70_s4ce" scale="0.9,0.9" visible="false" controller="c1,4">
+      <relation target="n10_osvm" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n63_s4ce" name="QStr1" src="s4ce29" fileName="TipsQ.xml" xy="1099,360" group="n70_s4ce" scale="0.9,0.9" visible="false" controller="c1,3">
+      <relation target="n12_osvm" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n64_s4ce" name="QStr2" src="s4ce29" fileName="TipsQ.xml" xy="1097,182" group="n70_s4ce" scale="0.9,0.9" visible="false" controller="c1,0">
+      <relation target="n11_osvm" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n65_s4ce" name="QStr3" src="s4ce29" fileName="TipsQ.xml" xy="981,29" group="n70_s4ce" scale="0.9,0.9" visible="false" controller="c1,0">
+      <relation target="n35_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n66_s4ce" name="QStr4" src="s4ce29" fileName="TipsQ.xml" xy="639,28" group="n70_s4ce" scale="0.9,0.9" visible="false" controller="c1,0">
+      <relation target="n36_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n67_s4ce" name="QStr5" src="s4ce29" fileName="TipsQ.xml" xy="293,29" group="n70_s4ce" scale="0.9,0.9" visible="false" controller="c1,0">
+      <relation target="n37_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n68_s4ce" name="QStr6" src="s4ce29" fileName="TipsQ.xml" xy="137,182" group="n70_s4ce" scale="0.9,0.9" visible="false" controller="c1,0">
+      <relation target="n38_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n69_s4ce" name="QStr7" src="s4ce29" fileName="TipsQ.xml" xy="136,359" group="n70_s4ce" scale="0.9,0.9" visible="false" controller="c1,0">
+      <relation target="n39_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <group id="n70_s4ce" name="Q" xy="136,28" size="1063,580" group="n14_osvm" locked="true"/>
+    <component id="n76_to38" name="BStr0" src="8mcl7b" fileName="BeiView.xml" xy="343,561" size="62,43" group="n91_to38" hideByEditor="true" visible="false" controller="c1,0">
+      <relation target="n10_osvm" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n84_to38" name="BStr1" src="8mcl7b" fileName="BeiView.xml" xy="1129,362" size="61,43" group="n91_to38" hideByEditor="true" visible="false" controller="c1,0">
+      <relation target="n12_osvm" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n85_to38" name="BStr2" src="8mcl7b" fileName="BeiView.xml" xy="1131,188" size="61,43" group="n91_to38" visible="false" controller="c1,0">
+      <relation target="n11_osvm" sidePair="right-left,top-top"/>
+    </component>
+    <component id="n86_to38" name="BStr3" src="8mcl7b" fileName="BeiView.xml" xy="985,35" size="54,43" group="n91_to38" visible="false" controller="c1,0">
+      <relation target="n35_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n87_to38" name="BStr4" src="8mcl7b" fileName="BeiView.xml" xy="642,31" size="62,43" group="n91_to38" visible="false" controller="c1,0">
+      <relation target="n36_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n88_to38" name="BStr5" src="8mcl7b" fileName="BeiView.xml" xy="295,33" size="62,43" group="n91_to38" visible="false" controller="c1,0">
+      <relation target="n37_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n89_to38" name="BStr6" src="8mcl7b" fileName="BeiView.xml" xy="147,187" size="61,43" group="n91_to38" visible="false" controller="c1,0">
+      <relation target="n38_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n90_to38" name="BStr7" src="8mcl7b" fileName="BeiView.xml" xy="142,367" size="62,43" group="n91_to38" visible="false" controller="c1,0">
+      <relation target="n39_kcts" sidePair="left-right,top-top"/>
+    </component>
+    <group id="n91_to38" name="Bei" xy="142,31" size="1050,573" group="n14_osvm"/>
+    <list id="n22_h21o" name="out_pokers_0" xy="434,564" size="407,178" group="n56_s4ce" scale="0.93,0.93" layout="row" colGap="-73" defaultItem="ui://8a4txovskvb5b" vAlign="middle">
+      <gearXY controller="dealcard" pages="0,1" values="434,564|545,264" tween="true"/>
+      <gearSize controller="dealcard" pages="0,1" values="407,178,0.93,0.93|359,209,0.5,0.5" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n23_h21o" name="out_pokers_1" xy="990,401" size="412,178" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://8a4txovskvb5b">
+      <gearXY controller="dealcard" pages="0,1" values="990,401|471,303" tween="true" delay="0.08"/>
+      <relation target="n12_osvm" sidePair="right-left,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n24_h21o" name="out_pokers_2" xy="990,225" size="412,180" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://8a4txovskvb5b">
+      <gearXY controller="dealcard" pages="0,1" values="990,225|485,330" tween="true" delay="0.07"/>
+      <relation target="n11_osvm" sidePair="right-left,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n40_kcts" name="out_pokers_3" xy="983,73" size="410,178" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://8a4txovskvb5b">
+      <gearXY controller="dealcard" pages="0,1" values="983,73|548,389" tween="true" delay="0.06"/>
+      <relation target="n35_kcts" sidePair="left-right,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n41_kcts" name="out_pokers_4" xy="641,70" size="410,178" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://8a4txovskvb5b">
+      <gearXY controller="dealcard" pages="0,1" values="641,70|460,392" tween="true" delay="0.04"/>
+      <relation target="n36_kcts" sidePair="left-right,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n42_kcts" name="out_pokers_5" xy="295,72" size="410,180" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://8a4txovskvb5b">
+      <gearXY controller="dealcard" pages="0,1" values="295,72|408,388" tween="true" ease="Sine.Out" delay="0.02"/>
+      <relation target="n37_kcts" sidePair="left-right,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n43_kcts" name="out_pokers_6" xy="143,226" size="408,180" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://8a4txovskvb5b">
+      <gearXY controller="dealcard" pages="0,1" values="143,226|655,332" tween="true" delay="0.05"/>
+      <relation target="n38_kcts" sidePair="left-right,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n44_kcts" name="out_pokers_7" xy="143,403" size="408,180" group="n56_s4ce" scale="0.5,0.5" layout="row" colGap="-76" defaultItem="ui://8a4txovskvb5b">
+      <gearXY controller="dealcard" pages="0,1" values="143,403|658,302" tween="true" delay="0.1"/>
+      <relation target="n39_kcts" sidePair="left-right,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n56_s4ce" name="cards" xy="143,70" size="1259,672" group="n14_osvm" advanced="true">
+      <gearDisplay controller="State" pages="1,2,3"/>
+    </group>
+    <component id="n47_s4ce" name="out_nn_0" src="s4ce21" fileName="TipsNN.xml" xy="476,632" group="n57_s4ce" scale="1.11,1.11" visible="false" touchable="false" controller="c1,10">
+      <relation target="n22_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n48_s4ce" name="out_nn_1" src="s4ce21" fileName="TipsNN.xml" xy="941,414" group="n57_s4ce" scale="0.6,0.6" visible="false" touchable="false" controller="c1,0">
+      <relation target="n23_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n49_s4ce" name="out_nn_2" src="s4ce21" fileName="TipsNN.xml" xy="943,240" group="n57_s4ce" scale="0.6,0.6" visible="false" touchable="false" controller="c1,0">
+      <relation target="n24_h21o" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n50_s4ce" name="out_nn_3" src="s4ce21" fileName="TipsNN.xml" xy="938,87" group="n57_s4ce" scale="0.6,0.6" visible="false" touchable="false" controller="c1,0">
+      <relation target="n40_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n51_s4ce" name="out_nn_4" src="s4ce21" fileName="TipsNN.xml" xy="595,84" group="n57_s4ce" scale="0.6,0.6" visible="false" touchable="false" controller="c1,0">
+      <relation target="n41_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n52_s4ce" name="out_nn_5" src="s4ce21" fileName="TipsNN.xml" xy="249,87" group="n57_s4ce" scale="0.6,0.6" visible="false" touchable="false" controller="c1,0">
+      <relation target="n42_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n53_s4ce" name="out_nn_6" src="s4ce21" fileName="TipsNN.xml" xy="94,241" group="n57_s4ce" scale="0.6,0.6" visible="false" touchable="false" controller="c1,0">
+      <relation target="n43_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n54_s4ce" name="out_nn_7" src="s4ce21" fileName="TipsNN.xml" xy="92,418" group="n57_s4ce" scale="0.6,0.6" visible="false" touchable="false" controller="c1,0">
+      <relation target="n44_kcts" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n57_s4ce" name="nn" xy="92,84" size="1151,648" group="n14_osvm"/>
+    <group id="n14_osvm" name="main" xy="27,28" size="1375,714" locked="true" advanced="true"/>
+    <graph id="n106_i49h" name="cardParent" xy="0,0" size="0,0"/>
+    <component id="n107_i49h" name="winStatus" src="fb0l95" fileName="BPBalance.xml" pkg="qn9mtfu5" xy="0,0" visible="false" controller="c1,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n102_raqv" name="btnOpen" src="figd74" fileName="OpenCards.xml" xy="938,592" scale="0.9,0.9" visible="false" controller="c1,1">
+      <gearDisplay controller="State" pages="1,0,2"/>
+      <relation target="n22_h21o" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rjf5583xwm2e3h"/>
+    </component>
+    <component id="n17_h21o" name="operation" src="kvb5p" fileName="Operation.xml" xy="243,440" visible="false">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </component>
+    <component id="n15_h21o" name="btn_ready" src="kvb5a" fileName="ScaleButton.xml" xy="577,445" size="202,81" hideByEditor="true" visible="false">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+      <Button icon="ui://la8oslyoosvmal"/>
+    </component>
+    <component id="n6_osvm" name="btn_chat" src="kvb5a" fileName="ScaleButton.xml" xy="1400,573" size="81,81" group="n72_to38" visible="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://la8oslyoosvmax"/>
+    </component>
+    <component id="n32_kvb5" name="btn_exit" src="r9ujhj" fileName="ScaleButtonFit.xml" pkg="la8oslyo" xy="1407,-51" size="62,64" group="n72_to38" visible="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://rjf5583xwm2e2x"/>
+    </component>
+    <component id="n33_kvb5" name="btn_setting" src="r9ujhj" fileName="ScaleButtonFit.xml" pkg="la8oslyo" xy="1408,51" size="61,59" group="n72_to38" visible="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://la8oslyor9ujhh"/>
+    </component>
+    <component id="n34_kvb5" name="btn_vic" src="kvb5a" fileName="ScaleButton.xml" xy="1401,710" size="81,81" group="n72_to38" visible="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button icon="ui://la8oslyoosvmb0"/>
+    </component>
+    <group id="n72_to38" name="n72" xy="1400,-51" size="82,842" collapsed="true"/>
+    <component id="n71_s4ce" name="timer" src="gdu57l" fileName="timer.xml" pkg="rjf5583x" xy="587,261" touchable="false" controller="isShowBG,0">
+      <gearDisplay controller="State" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <richtext id="n92_kstv" name="txtPay" xy="639,780" size="543,45" visible="false" font="汉仪粗黑简" fontSize="36" color="#ffffff" strokeColor="#669900" strokeSize="2" singleLine="true" text="本场游戏每一局需要扣除 {0} 金币">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </richtext>
+    <component id="n73_to38" name="n73" src="wm2e0" fileName="startGame.xml" pkg="rjf5583x" xy="-117,174" size="1595,379" touchable="false">
+      <gearDisplay controller="State" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n98_nxyf" name="btnReady" src="kvb5a" fileName="ScaleButton.xml" xy="528,427" size="244,131" hideByEditor="true" visible="false" touchable="false">
+      <gearDisplay controller="State" pages="1,0,2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rjf5583xwm2e2w"/>
+    </component>
+    <component id="n99_8yvj" name="btn_continue" src="kvb5a" fileName="ScaleButton.xml" xy="552,380" size="285,85">
+      <gearDisplay controller="State" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rjf5583xwm2e2v"/>
+    </component>
+    <component id="n105_8mcl" name="autoContTimer" src="fedb69" fileName="timer.xml" pkg="qn9mtfu5" xy="815,361" visible="false">
+      <relation target="n99_8yvj" sidePair="right-right,top-top"/>
+    </component>
+    <graph id="n104_flsl" name="greyScreen" xy="0,0" size="1334,750" hideByEditor="true" visible="false" type="rect" lineSize="0" fillColor="#80000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n101_avzo" name="uiExitGame" src="ktw9k6" fileName="游戏内部按钮/UI_GameMenu.xml" pkg="la8oslyo" xy="0,0" size="1334,750" locked="true" controller="AutoCont,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Size" target="n73_to38" tween="true" startValue="1,300" endValue="1595,379" duration="5"/>
+  </transition>
+</component>

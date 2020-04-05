@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,125" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <controller name="light_1" exported="true" pages="0,,1," selected="0"/>
+  <controller name="light_2" exported="true" pages="0,,1," selected="0"/>
+  <controller name="light_3" exported="true" pages="0,,1," selected="0"/>
+  <controller name="light_4" exported="true" pages="0,,1," selected="0"/>
+  <controller name="light_5" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n2_ixtv" name="bg" xy="59,62" pivot="0.5,0.5" anchor="true" size="119,125" url="ui://nwo0j1cxixtveg">
+      <gearIcon controller="c1" pages="2,3,4,5" values="ui://nwo0j1cxixtveh|ui://nwo0j1cxixtvei|ui://nwo0j1cxixtvej|ui://nwo0j1cxixtvek" default="ui://nwo0j1cxixtveg"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n3_ixtv" name="title" xy="59,56" pivot="0.5,0.5" anchor="true" size="90,29" font="ui://nwo0j1cxixtvez" fontSize="12" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="200">
+      <relation target="n2_ixtv" sidePair="center-center,right-center"/>
+    </text>
+    <text id="n5_ixtv" name="bei" xy="53,55" pivot="0,0.5" anchor="true" size="36,36" locked="true" hideByEditor="true" visible="false" font="ui://nwo0j1cxixtvez" fontSize="12" text="倍">
+      <relation target="n2_ixtv" sidePair="middle-middle,left-center"/>
+    </text>
+    <movieclip id="n7_ixtv" name="light" src="h5clgi" fileName="素材/筹码过光最新吧/筹码扫光/筹码扫光.jta" xy="0,0" playing="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <image id="n8_ch6i" name="n8" src="ixtvf1" fileName="素材/欢乐牛牛优化最新版筹码/chip_light.png" xy="-18,-23" scale="1.3,1.3">
+      <gearDisplay controller="light_1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n9_ch6i" name="n9" src="ixtvf1" fileName="素材/欢乐牛牛优化最新版筹码/chip_light.png" xy="-18,-23" scale="1.3,1.3">
+      <gearDisplay controller="light_2" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n10_ch6i" name="n10" src="ixtvf1" fileName="素材/欢乐牛牛优化最新版筹码/chip_light.png" xy="-18,-23" scale="1.3,1.3">
+      <gearDisplay controller="light_3" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n11_ch6i" name="n11" src="ixtvf1" fileName="素材/欢乐牛牛优化最新版筹码/chip_light.png" xy="-18,-23" scale="1.3,1.3">
+      <gearDisplay controller="light_4" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n12_ch6i" name="n12" src="ixtvf1" fileName="素材/欢乐牛牛优化最新版筹码/chip_light.png" xy="-18,-23" scale="1.3,1.3">
+      <gearDisplay controller="light_5" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0">
+    <item time="0" type="XY" tween="true" startValue="0,0" endValue="0,-20" duration="3"/>
+    <item time="3" type="XY" tween="true" startValue="0,-20" endValue="0,0" duration="3"/>
+  </transition>
+</component>

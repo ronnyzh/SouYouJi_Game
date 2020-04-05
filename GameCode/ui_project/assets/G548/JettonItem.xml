@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" pivot="0.5,0.5" anchor="true" opaque="false" extention="Label">
+  <controller name="value" exported="true" pages="0,1,1,2,2,5,3,10" selected="0"/>
+  <displayList>
+    <loader id="n2" name="icon" xy="30,30" pivot="0.5,0.5" anchor="true" size="61,60" locked="true" touchable="false" url="ui://wtkqufwmjxp2dj" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="value" pages="0,1,2,3" values="ui://wtkqufwmjxp2dj|ui://wtkqufwmjxp2dk|ui://wtkqufwmjxp2dl|ui://wtkqufwmjxp2dn"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_qme6" name="title" xy="31,29" pivot="0.5,0.5" anchor="true" size="45,21" font="ui://wtkqufwmqme6dc" fontSize="8" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="0.33">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="211,211">
+  <controller name="c_show" pages="0,,1," selected="0"/>
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <image id="n5_rpxw" name="n5" src="ayoe11" fileName="素材/界面素材/3下注底.png" xy="0,0" locked="true"/>
+    <component id="n7_ixtv" name="layout" src="rpxwds" fileName="素材/界面素材/click.xml" xy="0,180" pivot="0,1" anchor="true" size="211,150" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_iuo1" name="place" src="rpxwds" fileName="素材/界面素材/click.xml" xy="10,168" pivot="0.05,0.8" anchor="true" locked="true" touchable="false"/>
+    <loader id="n4_iuo1" name="n4" xy="51,51" size="108,109" locked="true" touchable="false" url="ui://nwo0j1cxayoe10" autoSize="true">
+      <gearIcon controller="c1" pages="0,2,3" values="ui://nwo0j1cxayoe10|ui://nwo0j1cxayoez|ui://nwo0j1cxayoex" default="ui://nwo0j1cxayoey"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1595,379">
+  <controller name="c1" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0"/>
+  </controller>
+  <displayList>
+    <image id="n73_to38" name="n73" src="or9c75" fileName="textures/table/开始游戏.png" xy="112,31" pivot="0.5,0.5" size="1334,317"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" target="n73_to38" tween="true" startValue="0,0" endValue="1,1" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

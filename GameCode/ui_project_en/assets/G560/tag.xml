@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,54">
+  <displayList>
+    <image id="n199_jted" name="tag_DoubleNo" src="jtedcx" fileName="style0/icon/不加倍.png" xy="-12,2" hideByEditor="true" visible="false"/>
+    <image id="n198_jted" name="tag_DoubleYes" src="jtedcw" fileName="style0/icon/加倍.png" xy="-11,2" hideByEditor="true" visible="false"/>
+    <image id="n133_hvwj" name="tag_landlord_no" src="gdx0b4" fileName="style0/icon/icon_landlord_no(1).png" xy="20,4" size="90,49" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n134_hvwj" name="tag_landlord_yes" src="gdx0b5" fileName="style0/icon/icon_landlord_yes(1).png" xy="-224,0" pivot="0.5,0.5" hideByEditor="true" scale="0.7,0.7" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n183_oy8e" name="tag_landlord_yeslandlord" src="oy8ecj" fileName="二人斗地主/叫地主.png" xy="-192,0" pivot="0.5,0.5" hideByEditor="true" scale="0.7,0.7" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n184_oy8e" name="tag_landlord_norob" src="oy8ech" fileName="二人斗地主/不抢.png" xy="7,5" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n196_us3c" name="tag_landloed_nolet" src="us3cct" fileName="style0/icon/不让_.png" xy="-15,0" locked="true" hideByEditor="true" visible="false"/>
+    <image id="n197_us3c" name="tag_landloed_lettwo" src="us3ccu" fileName="style0/icon/两张.png" xy="-84,4" hideByEditor="true" visible="false"/>
+  </displayList>
+</component>

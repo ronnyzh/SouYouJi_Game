@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1090,520">
+  <displayList>
+    <list id="n0_v54h" name="roomList" xy="0,0" size="1090,520" locked="true" overflow="scroll" defaultItem="ui://skx16jl7esgtpj">
+      <relation target="" sidePair="left-left,top-top"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

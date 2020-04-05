@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <controller name="balance" pages="0,hide,1,add,2,red" selected="2"/>
+  <displayList>
+    <loader id="n0_osvm" name="icon" xy="28,14" size="90,90" url="ui://la8oslyoosvmbg" fill="scaleFree"/>
+    <image id="n1_osvm" name="n1" src="iby91m" fileName="common/lobby/touxiangk.png" xy="22,9" size="102,102" hideByEditor="true" visible="false"/>
+    <image id="n20_qj56" name="n20" src="mup46f" fileName="Font/NewScoreArea/头像名称底.png" pkg="rjf5583x" xy="27,79" size="93,53"/>
+    <image id="n23_yjle" name="n23" src="mup46h" fileName="Font/NewScoreArea/头像边框.png" pkg="rjf5583x" xy="26,13" size="93,93"/>
+    <text id="n2_osvm" name="name" xy="73,90" pivot="0.5,0.5" anchor="true" size="63,28" fontSize="20" color="#ffffff" align="center" vAlign="middle" bold="true" singleLine="true" text="player"/>
+    <component id="n8_h21o" name="icon_click" src="iby932" fileName="ScaleButton.xml" xy="8,-3" size="130,130" locked="true"/>
+    <image id="n9_sbou" name="tagOffline" src="iby91n" fileName="common/lobby/tag_offline.png" xy="27,45" size="91,34" visible="false"/>
+    <image id="n10_sbou" name="tagDealer" src="iby91o" fileName="common/lobby/tag_dealer.png" xy="88,-21" visible="false"/>
+    <image id="n15_tx3y" name="tagTrusteeship" src="iby924" fileName="style0/icon/icon_trusteeship.png" xy="4,58" scale="0.9,0.9" visible="false"/>
+    <loader id="n17_n3pu" name="n17" xy="-27,-33" size="193,116" url="ui://p4u5nou3n3pu7h">
+      <gearDisplay controller="balance" pages="1,2"/>
+      <gearIcon controller="balance" pages="2" values="ui://p4u5nou3n3pu7h" default="ui://p4u5nou3n3pu7g"/>
+      <relation target="n18_n3pu" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n18_n3pu" name="scoreBalance" xy="69,25" pivot="0.5,0.5" anchor="true" size="160,54" font="ui://rjf5583xwm2e1g" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="+818.0">
+      <gearDisplay controller="balance" pages="1"/>
+      <gearXY controller="balance" pages="1,2" values="70,24|69,25" default="68,130" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+    <text id="n19_n3pu" name="scoreBalance2" xy="69,25" pivot="0.5,0.5" anchor="true" size="160,54" font="ui://p4u5nou3n3pu7i" fontSize="50" color="#2e9100" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" singleLine="true" text="-888.3">
+      <gearDisplay controller="balance" pages="2"/>
+      <gearXY controller="balance" pages="1,2" values="70,24|69,25" default="68,130" tween="true" ease="Back.Out" duration="0.7"/>
+    </text>
+    <text id="n22_yjle" name="score" xy="75,118" pivot="0.5,0.5" anchor="true" size="14,22" font="ui://rjf5583xprh340" fontSize="15" color="#ffff00" align="center" vAlign="middle" leading="0" bold="true" singleLine="true" autoClearText="true" text="0"/>
+  </displayList>
+</component>

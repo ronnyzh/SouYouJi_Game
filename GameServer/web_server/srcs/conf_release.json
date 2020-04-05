@@ -1,0 +1,34 @@
+{
+    "autojson"          :   1,
+    "admin_view"        :   1,
+    "download_view"     :   1,
+    "fish_view"         :   1,
+    "hall_view"         :   1,
+
+    "redis"     :   {
+        "host"          :   "112.74.45.160",
+        "port"          :   6379,
+        "database"      :   1,
+        "keyword"       :   "redis",
+        "password"      :   "bbc681fb37914cbba4fec1381ea9fdfe"
+    },
+
+    "redisSalve"  :   {
+        "host"          :   "112.74.45.160",
+        "port"          :   6379,
+        "database"      :   1,
+        "keyword"       :   "redis",
+        "password"      :   "bbc681fb37914cbba4fec1381ea9fdfe"
+    },
+
+    "fish"  :       {
+
+            "share_coin"        :   100,
+            "exchange_shop"     :   1,
+            "hall_shop"         :   1,
+            "share_datetime"    :   "05:00",
+            "shop_version"      :   1,
+            "exchange_shop_ver" :   1,
+            "wechat_switch"     :   0
+    }
+}

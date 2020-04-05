@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="212,118">
+  <controller name="showCard" exported="true" pages="0,00,1,10,2,01,3,11" selected="0"/>
+  <controller name="result" exported="true" pages="10,无,0,高牌,9,一对,4,两对,5,三条,6,顺子,7,同花,1,葫芦,3,金刚,8,同花顺,2,皇家同花顺" selected="0">
+    <action type="change_page" fromPage="10" toPage="" controller="showBG" targetPage="1"/>
+    <action type="change_page" fromPage="" toPage="10" controller="showBG" targetPage="0"/>
+  </controller>
+  <controller name="showBG" pages="0,false,1,true" selected="0"/>
+  <controller name="shadow" exported="true" pages="0,11,1,01,2,10,3,00" selected="0"/>
+  <displayList>
+    <image id="n54_imd3" name="card0" src="pu4xt" fileName="Image/出图/发光-牌小.png" xy="17,0">
+      <gearDisplay controller="showCard" pages="1,3"/>
+    </image>
+    <image id="n55_imd3" name="card1" src="pu4xt" fileName="Image/出图/发光-牌小.png" xy="98,0">
+      <gearDisplay controller="showCard" pages="2,3"/>
+    </image>
+    <image id="n59_lx5r" name="shadow0" src="pu4x10" fileName="Image/出图/弃牌黑遮罩.png" xy="28,11" size="73,99">
+      <gearDisplay controller="shadow" pages="0,2"/>
+    </image>
+    <image id="n60_lx5r" name="shadow1" src="pu4x10" fileName="Image/出图/弃牌黑遮罩.png" xy="109,11" size="73,99">
+      <gearDisplay controller="shadow" pages="0,1"/>
+    </image>
+    <image id="n56_imd3" name="bg" src="pu4x2m" fileName="Image/出图/名堂/名堂底.png" xy="0,59">
+      <gearDisplay controller="showBG" pages="1"/>
+    </image>
+    <loader id="n57_imd3" name="icon" xy="104,88" pivot="0.5,0.5" anchor="true" size="209,61" url="ui://1sm91w5opu4x2f" align="center" vAlign="middle">
+      <gearDisplay controller="result" pages="0,1,2,3,4,5,6,7,8,9"/>
+      <gearIcon controller="result" pages="0,9,4,5,6,7,1,3,2" values="ui://1sm91w5opu4x2l|ui://1sm91w5opu4x2b|ui://1sm91w5opu4x2d|ui://1sm91w5opu4x2c|ui://1sm91w5opu4x2k|ui://1sm91w5opu4x2e|ui://1sm91w5opu4x2i|ui://1sm91w5opu4x2j|ui://1sm91w5opu4x2h" default="ui://1sm91w5opu4x2f"/>
+    </loader>
+  </displayList>
+</component>

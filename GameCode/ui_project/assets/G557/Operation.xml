@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,100">
+  <controller name="c1" exported="true" pages="0,rateLayer,1,RobTheVillage" selected="0"/>
+  <displayList>
+    <component id="n26_goi3" name="btn_Q0" src="goi35r" fileName="BlueButton.xml" xy="231,8" group="n11_h21o">
+      <Button icon="ui://dosvlhxrmt546k"/>
+    </component>
+    <component id="n8_h21o" name="btn_Q1" src="s2tl2z" fileName="OrangeButton.xml" xy="386,7" group="n11_h21o">
+      <Button title="1倍"/>
+    </component>
+    <component id="n22_qb1b" name="btn_Q2" src="s2tl2z" fileName="OrangeButton.xml" xy="541,7" group="n11_h21o">
+      <Button title="2倍" icon="ui://rjf5583xwm2e3j"/>
+    </component>
+    <component id="n23_qb1b" name="btn_Q3" src="s2tl2z" fileName="OrangeButton.xml" xy="696,7" group="n11_h21o">
+      <Button title="3倍" icon="ui://rjf5583xwm2e3k"/>
+    </component>
+    <component id="n24_qb1b" name="btn_Q4" src="s2tl2z" fileName="OrangeButton.xml" xy="851,7" group="n11_h21o">
+      <Button title="4倍" icon="ui://rjf5583xwm2e3l"/>
+    </component>
+    <group id="n11_h21o" name="rateLayer" xy="231,7" size="765,87" locked="true" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n16_h21o" name="btn_C0" src="s2tl30" fileName="TextButton.xml" xy="231,7" group="n20_h21o">
+      <Button title="5倍" icon="ui://rjf5583xwm2e3i"/>
+    </component>
+    <component id="n17_h21o" name="btn_C1" src="s2tl30" fileName="TextButton.xml" xy="386,9" group="n20_h21o">
+      <Button title="10倍" icon="ui://rjf5583xwm2e3j"/>
+    </component>
+    <component id="n18_h21o" name="btn_C2" src="s2tl30" fileName="TextButton.xml" xy="541,9" group="n20_h21o">
+      <Button title="15倍" icon="ui://rjf5583xwm2e3k"/>
+    </component>
+    <component id="n19_h21o" name="btn_C3" src="s2tl30" fileName="TextButton.xml" xy="696,9" group="n20_h21o">
+      <Button title="20倍" icon="ui://rjf5583xwm2e3l"/>
+    </component>
+    <component id="n25_qb1b" name="btn_C4" src="s2tl30" fileName="TextButton.xml" xy="851,9" group="n20_h21o">
+      <Button title="25倍" icon="ui://rjf5583xwm2e3n"/>
+    </component>
+    <group id="n20_h21o" name="RobTheVillage" xy="231,7" size="765,88" advanced="true" layout="hz" colGap="10">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

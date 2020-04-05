@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="231,445" mask="n45_qi2a">
+  <controller name="gamePageC" pages="0,games,1,stages" selected="0"/>
+  <displayList>
+    <image id="n43_uy9c" name="n43" src="uy9c6x" xy="0,0">
+      <gearDisplay controller="gamePageC" pages="0"/>
+    </image>
+    <graph id="n45_qi2a" name="mask" xy="-1,-1" size="232,445" type="rect"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="999999"/>
+</component>

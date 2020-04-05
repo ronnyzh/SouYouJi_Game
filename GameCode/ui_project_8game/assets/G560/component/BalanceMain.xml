@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,701">
+  <controller name="c1" pages="0,win,1,lose,2,empty" selected="2"/>
+  <displayList>
+    <image id="n28_op4n" name="n28" src="op4nan" fileName="style0/balance2/win-flower.png" xy="208,65" group="n30_op4n"/>
+    <image id="n29_op4n" name="n29" src="op4naq" fileName="style0/balance2/win_light.png" xy="474,0" group="n30_op4n"/>
+    <loader id="n19_op4n" name="n19" xy="0,251" size="1334,450" group="n30_op4n" locked="true" url="ui://nji5wfgxop4nap" align="center" vAlign="middle"/>
+    <group id="n30_op4n" name="conBGWin" xy="0,0" size="1334,701" group="n18_qgb1" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n42_op4n" name="n42" src="op4nai" fileName="style0/balance2/lose_light.png" xy="473,0" group="n44_op4n"/>
+    <image id="n43_op4n" name="n43" src="op4nag" fileName="style0/balance2/lose_background.png" xy="0,251" size="1334,450" group="n44_op4n"/>
+    <group id="n44_op4n" name="conBGLose" xy="0,0" size="1334,701" group="n18_qgb1" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <loader id="n47_op4n" name="n47" xy="0,251" size="1334,450" group="n48_op4n" url="ui://nji5wfgxop4nap" align="center" vAlign="middle"/>
+    <group id="n48_op4n" name="conBGEmpty" xy="0,0" size="1334,701" group="n18_qgb1" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <text id="n4_ogno" name="n4" xy="374,378" size="65,43" group="n15_ogno" fontSize="30" color="#ffffff" text="玩家"/>
+    <text id="n5_ogno" name="n5" xy="628,378" size="65,43" group="n15_ogno" fontSize="30" color="#ffffff" text="剩牌"/>
+    <text id="n6_ogno" name="n6" xy="755,378" size="65,43" group="n15_ogno" fontSize="30" color="#ffffff" text="炸弹"/>
+    <text id="n7_ogno" name="n7" xy="913,378" size="65,43" group="n15_ogno" fontSize="30" color="#ffffff" text="分数"/>
+    <text id="n27_op4n" name="n27" xy="503,378" size="65,43" group="n15_ogno" fontSize="30" color="#ffffff" text="玩家"/>
+    <group id="n15_ogno" name="title" xy="374,378" size="604,43" group="n18_qgb1" collapsed="true"/>
+    <component id="n8_ogno" name="seat0" src="djq925" fileName="BalanceItem.xml" xy="296,433" group="n18_qgb1"/>
+    <component id="n10_ogno" name="seat1" src="djq925" fileName="BalanceItem.xml" xy="296,513" group="n18_qgb1"/>
+    <component id="n11_ogno" name="seat2" src="djq925" fileName="BalanceItem.xml" xy="296,593" group="n18_qgb1"/>
+    <image id="n21_op4n" name="n21" src="op4nas" fileName="style0/balance2/win_title_bg.png" xy="347,168" size="647,249" group="n9_ogno"/>
+    <image id="n22_op4n" name="n22" src="op4nat" fileName="style0/balance2/win_wings.png" xy="435,151" size="223,173" group="n25_op4n"/>
+    <image id="n23_op4n" name="n23" src="op4nat" fileName="style0/balance2/win_wings.png" xy="682,150" size="223,173" group="n25_op4n" flip="hz"/>
+    <group id="n25_op4n" name="n25" xy="435,150" size="470,174" group="n9_ogno" collapsed="true"/>
+    <image id="n24_op4n" name="n24" src="op4nau" fileName="style0/balance2/win_cup.png" xy="498,71" size="343,260" group="n9_ogno"/>
+    <image id="n1_ogno" name="n1" src="op4nao" fileName="style0/balance2/win-title.png" xy="417,140" size="505,182" group="n9_ogno"/>
+    <image id="n31_op4n" name="n31" src="op4nar" fileName="style0/balance2/win_star.png" xy="479,195" group="n9_ogno"/>
+    <group id="n9_ogno" name="conTitleWin" xy="347,71" size="648,346" group="n18_qgb1" locked="true" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n33_op4n" name="n33" src="op4nal" fileName="style0/balance2/lose_title_bg.png" xy="347,168" size="647,249" group="n40_op4n"/>
+    <image id="n34_op4n" name="n34" src="op4nam" fileName="style0/balance2/lose_wings.png" xy="435,151" size="223,173" group="n36_op4n"/>
+    <image id="n35_op4n" name="n35" src="op4nam" fileName="style0/balance2/lose_wings.png" xy="682,150" size="223,173" group="n36_op4n" flip="hz"/>
+    <group id="n36_op4n" name="n36" xy="435,150" size="470,174" group="n40_op4n"/>
+    <image id="n37_op4n" name="n37" src="op4nah" fileName="style0/balance2/lose_cup.png" xy="498,71" size="343,260" group="n40_op4n"/>
+    <image id="n38_op4n" name="n38" src="op4nak" fileName="style0/balance2/lose_title.png" xy="529,142" pivot="0.5,0.5" group="n40_op4n"/>
+    <image id="n39_op4n" name="n39" src="op4naj" fileName="style0/balance2/lose_star.png" xy="479,195" pivot="0.5,0.5" group="n40_op4n"/>
+    <group id="n40_op4n" name="conTitleLose" xy="347,71" size="648,346" group="n18_qgb1" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <group id="n18_qgb1" name="n18" xy="0,0" size="1334,701" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

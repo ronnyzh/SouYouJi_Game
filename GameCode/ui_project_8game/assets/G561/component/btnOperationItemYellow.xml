@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="207,71" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="status" pages="0,normal,1,disabled" selected="0"/>
+  <displayList>
+    <loader id="n5_f936" name="n1" xy="103,35" pivot="0.5,0.5" anchor="true" size="207,71" url="ui://dung4bqcq8w2y6b" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+      <gearIcon controller="status" pages="0,1" values="ui://dung4bqcq8w2y6b|ui://dung4bqcq8w2y6c"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </loader>
+    <loader id="n2" name="icon" xy="103,35" pivot="0.5,0.5" anchor="true" size="192,62" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </loader>
+    <text id="n3_yjzs" name="title" xy="103,35" pivot="0.5,0.5" anchor="true" size="207,71" hideByEditor="true" font="ui://dung4bqc9it5y6u" fontSize="32" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="fffffffffff44">
+      <gearColor controller="status" pages="1" values="#ffffff,#333333" default="#ffffff,#8f6304"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.20"/>
+</component>

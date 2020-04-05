@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,19">
+  <displayList>
+    <richtext id="n41_gjn8" name="title" xy="0,0" size="40,19" fontSize="12" vAlign="middle" leading="10" text=""/>
+  </displayList>
+  <relation target="n41_gjn8" sidePair="width-width,height-height"/>
+</component>

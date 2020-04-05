@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="136,210">
+  <displayList>
+    <image id="n1_ti75" name="n1" src="ti75ge" xy="0,0" size="136,210"/>
+    <component id="n2_ti75" name="btn_kefu" src="osvmed" xy="6,5" size="124,55">
+      <Button icon="ui://la8oslyoti75gf"/>
+    </component>
+    <component id="n3_ti75" name="btn_setting" src="osvmed" xy="6,74" size="124,55">
+      <Button icon="ui://la8oslyoti75gg"/>
+    </component>
+    <component id="n5_qyvd" name="btn_guize" src="osvmed" xy="6,143" size="124,55">
+      <Button icon="ui://la8oslyoti75gd"/>
+    </component>
+  </displayList>
+</component>

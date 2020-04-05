@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" designImage="ui://1sm91w5opu4x11" designImageAlpha="0">
+  <displayList>
+    <image id="n1" name="n1" src="pu4x1s" fileName="Image/出图/筹码加注渐变背景.png" xy="1334,0" pivot="1,0" anchor="true" size="346,750" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n7_ibr1" name="n7" src="pu4xm" fileName="Image/出图/全下-guang2.png" xy="1236,99" pivot="0.5,0.5" anchor="true" size="207,228" group="n12_ibr1" locked="true" visible="false">
+      <relation target="n5_ibr1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n5_ibr1" name="n5" src="pu4xn" fileName="Image/出图/全下.png" xy="1236,99" pivot="0.5,0.5" anchor="true" size="156,120" group="n12_ibr1" locked="true" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <image id="n6_ibr1" name="n6" src="pu4xl" fileName="Image/出图/全下-guang1.png" xy="1236,99" pivot="0.5,0.5" anchor="true" size="156,170" group="n12_ibr1" locked="true" visible="false">
+      <relation target="n5_ibr1" sidePair="center-center,middle-middle"/>
+    </image>
+    <group id="n12_ibr1" name="allin" xy="1236,99" size="207,228" locked="true" advanced="true"/>
+    <component id="n93_ibr1" name="chip0" src="ibr14w" fileName="Component/chip.xml" xy="1182,631" group="n132_ibr1"/>
+    <component id="n94_ibr1" name="chip1" src="ibr14w" fileName="Component/chip.xml" xy="1182,619" group="n132_ibr1"/>
+    <component id="n95_ibr1" name="chip2" src="ibr14w" fileName="Component/chip.xml" xy="1182,609" group="n132_ibr1"/>
+    <component id="n96_ibr1" name="chip3" src="ibr14w" fileName="Component/chip.xml" xy="1182,597" group="n132_ibr1"/>
+    <component id="n97_ibr1" name="chip4" src="ibr14w" fileName="Component/chip.xml" xy="1182,586" group="n132_ibr1"/>
+    <component id="n98_ibr1" name="chip5" src="ibr14w" fileName="Component/chip.xml" xy="1182,574" group="n132_ibr1"/>
+    <component id="n99_ibr1" name="chip6" src="ibr14w" fileName="Component/chip.xml" xy="1182,565" group="n132_ibr1"/>
+    <component id="n100_ibr1" name="chip7" src="ibr14w" fileName="Component/chip.xml" xy="1182,553" group="n132_ibr1"/>
+    <component id="n101_ibr1" name="chip8" src="ibr14w" fileName="Component/chip.xml" xy="1183,543" group="n132_ibr1"/>
+    <component id="n102_ibr1" name="chip9" src="ibr14w" fileName="Component/chip.xml" xy="1183,531" group="n132_ibr1"/>
+    <component id="n103_ibr1" name="chip10" src="ibr14w" fileName="Component/chip.xml" xy="1183,521" group="n132_ibr1"/>
+    <component id="n104_ibr1" name="chip11" src="ibr14w" fileName="Component/chip.xml" xy="1183,509" group="n132_ibr1"/>
+    <component id="n105_ibr1" name="chip12" src="ibr14w" fileName="Component/chip.xml" xy="1183,499" group="n132_ibr1"/>
+    <component id="n106_ibr1" name="chip13" src="ibr14w" fileName="Component/chip.xml" xy="1183,487" group="n132_ibr1"/>
+    <component id="n107_ibr1" name="chip14" src="ibr14w" fileName="Component/chip.xml" xy="1183,478" group="n132_ibr1"/>
+    <component id="n108_ibr1" name="chip15" src="ibr14w" fileName="Component/chip.xml" xy="1183,466" group="n132_ibr1"/>
+    <component id="n109_ibr1" name="chip16" src="ibr14w" fileName="Component/chip.xml" xy="1182,455" group="n132_ibr1"/>
+    <component id="n110_ibr1" name="chip17" src="ibr14w" fileName="Component/chip.xml" xy="1182,443" group="n132_ibr1"/>
+    <component id="n111_ibr1" name="chip18" src="ibr14w" fileName="Component/chip.xml" xy="1182,434" group="n132_ibr1"/>
+    <component id="n112_ibr1" name="chip19" src="ibr14w" fileName="Component/chip.xml" xy="1182,422" group="n132_ibr1"/>
+    <component id="n113_ibr1" name="chip20" src="ibr14w" fileName="Component/chip.xml" xy="1182,411" group="n132_ibr1"/>
+    <component id="n114_ibr1" name="chip21" src="ibr14w" fileName="Component/chip.xml" xy="1182,399" group="n132_ibr1"/>
+    <component id="n115_ibr1" name="chip22" src="ibr14w" fileName="Component/chip.xml" xy="1182,390" group="n132_ibr1"/>
+    <component id="n116_ibr1" name="chip23" src="ibr14w" fileName="Component/chip.xml" xy="1182,378" group="n132_ibr1"/>
+    <component id="n117_ibr1" name="chip24" src="ibr14w" fileName="Component/chip.xml" xy="1183,368" group="n132_ibr1"/>
+    <component id="n118_ibr1" name="chip25" src="ibr14w" fileName="Component/chip.xml" xy="1183,356" group="n132_ibr1"/>
+    <component id="n119_ibr1" name="chip26" src="ibr14w" fileName="Component/chip.xml" xy="1183,346" group="n132_ibr1"/>
+    <component id="n120_ibr1" name="chip27" src="ibr14w" fileName="Component/chip.xml" xy="1183,334" group="n132_ibr1"/>
+    <component id="n121_ibr1" name="chip28" src="ibr14w" fileName="Component/chip.xml" xy="1183,324" group="n132_ibr1"/>
+    <component id="n122_ibr1" name="chip29" src="ibr14w" fileName="Component/chip.xml" xy="1183,312" group="n132_ibr1"/>
+    <component id="n123_ibr1" name="chip30" src="ibr14w" fileName="Component/chip.xml" xy="1183,303" group="n132_ibr1"/>
+    <component id="n124_ibr1" name="chip31" src="ibr14w" fileName="Component/chip.xml" xy="1182,292" group="n132_ibr1"/>
+    <component id="n126_ibr1" name="chip32" src="ibr14w" fileName="Component/chip.xml" xy="1184,279" group="n132_ibr1"/>
+    <component id="n127_ibr1" name="chip33" src="ibr14w" fileName="Component/chip.xml" xy="1183,268" group="n132_ibr1"/>
+    <component id="n128_ibr1" name="chip34" src="ibr14w" fileName="Component/chip.xml" xy="1186,256" group="n132_ibr1"/>
+    <component id="n129_ibr1" name="chip35" src="ibr14w" fileName="Component/chip.xml" xy="1174,246" group="n132_ibr1"/>
+    <component id="n130_ibr1" name="chip36" src="ibr14w" fileName="Component/chip.xml" xy="1188,234" group="n132_ibr1"/>
+    <component id="n131_ibr1" name="chip37" src="ibr14w" fileName="Component/chip.xml" xy="1172,226" group="n132_ibr1"/>
+    <group id="n132_ibr1" name="chip" xy="1172,226" size="132,417" locked="true" advanced="true" collapsed="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </group>
+    <image id="n9_ibr1" name="callNumberBg" src="pu4xr" fileName="Image/出图/加减数额-框.png" xy="1044,174" locked="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <text id="n133_91xy" name="txtCallNumber" xy="1039,174" size="130,45" locked="true" fontSize="31" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="980">
+      <relation target="n9_ibr1" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n2" name="item" src="qol15j" fileName="Component/bidSliderItem.xml" xy="1174,196" size="132,388" locked="true">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Slider value="100" max="100"/>
+    </component>
+    <component id="n11_ibr1" name="btnAdd" src="ibr14v" fileName="Component/ImgBtn.xml" xy="1070,92" size="66,66" locked="true">
+      <relation target="n9_ibr1" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://1sm91w5opu4xp"/>
+    </component>
+    <component id="n10_ibr1" name="btnSub" src="ibr14v" fileName="Component/ImgBtn.xml" xy="1069,235" size="66,66" locked="true">
+      <relation target="n9_ibr1" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://1sm91w5opu4xq"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n7_ibr1" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n5_ibr1" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n6_ibr1" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Elastic.Out"/>
+    <item time="12" type="Scale" target="n5_ibr1" tween="true" startValue="1,1"/>
+    <item time="12" type="Scale" target="n6_ibr1" tween="true" startValue="1,1"/>
+    <item time="12" type="Scale" target="n7_ibr1" tween="true" startValue="1,1"/>
+  </transition>
+</component>

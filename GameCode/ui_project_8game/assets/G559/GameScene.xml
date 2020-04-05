@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" designImage="ui://p4u5nou3gasf91" designImageAlpha="100" adaptationTest="FitSize">
+  <displayList>
+    <image id="n151_n3pu" name="n151" src="n3pu6j" fileName="出图/斗地主水印.png" xy="512,166" locked="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n156_xzxt" name="tfRoomDesc" xy="381,224" pivot="0.5,0" size="571,43" visible="false" font="ui://qn9mtfu5gtil49" fontSize="28" color="#476991" align="center" autoSize="none" autoClearText="true" text="新手场  底分：111">
+      <relation target="n151_n3pu" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n8_osvm" name="room_no" xy="23,13" size="38,24" group="n9_osvm" font="ui://qn9mtfu5gtil48" fontSize="20" color="#ffffff" autoClearText="true" text="房号 "/>
+    <group id="n9_osvm" name="info" xy="23,13" size="36,24" advanced="true">
+      <relation target="" sidePair="top-top,left-left"/>
+    </group>
+    <component id="n12_osvm" name="seat" src="iby931" fileName="Seat.xml" xy="1194,131" size="150,216" group="n100_tx3y" visible="false"/>
+    <list id="n23_h21o" name="out_pokers" xy="697,142" size="672,240" group="n100_tx3y" scale="0.65,0.65" visible="false" layout="flow_hz" lineGap="-110" colGap="-100" defaultItem="ui://qn9mtfu5h5fl16" align="right">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n68_tx3y" name="hand_pokers" xy="669,70" size="1525,240" group="n100_tx3y" scale="0.3,0.3" visible="false" layout="row" colGap="-90" defaultItem="ui://qn9mtfu5h5fl16" align="right">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n73_tx3y" name="icon_handwall2" src="iufb6d" fileName="card/card_backfaces.png" xy="1145,174" group="n154_n3pu"/>
+    <image id="n152_n3pu" name="n152" src="n3pu6t" fileName="出图/记牌数框.png" xy="1145,269" group="n154_n3pu"/>
+    <group id="n154_n3pu" name="icon_handwall" xy="1145,174" size="60,118" group="n100_tx3y" visible="false" advanced="true"/>
+    <text id="n67_tx3y" name="tf_handCount" xy="1151,268" size="43,30" group="n100_tx3y" visible="false" fontSize="22" color="#ffffff" align="center" autoSize="none" bold="true" singleLine="true" text="000"/>
+    <image id="n44_sbou" name="tagReady" src="iby91p" fileName="common/lobby/tag_ready.png" xy="1228,208" size="78,37" group="n100_tx3y" aspect="true" visible="false"/>
+    <image id="n134_iufb" name="n134" src="iufb6c" fileName="style0/icon/icon_mulite.png" xy="1200,88" group="n136_iufb"/>
+    <text id="n135_iufb" name="n135" xy="1265,88" size="39,31" group="n136_iufb" fontSize="24" color="#ffffff" text="× 1"/>
+    <group id="n136_iufb" name="tagDoubleNo" xy="1227,88" size="77,31" group="n100_tx3y" visible="false" advanced="true"/>
+    <image id="n137_iufb" name="n137" src="iufb6c" fileName="style0/icon/icon_mulite.png" xy="1200,88" group="n139_iufb"/>
+    <text id="n138_iufb" name="n138" xy="1266,88" size="39,33" group="n139_iufb" fontSize="24" color="#ffffff" bold="true" text="× 2"/>
+    <group id="n139_iufb" name="tagDoubleYes" xy="1200,88" size="105,33" group="n100_tx3y" visible="false" advanced="true"/>
+    <image id="n109_tx3y" name="tagPass" src="nuw97n" fileName="出图/要不起.png" xy="780,183" group="n100_tx3y" visible="false"/>
+    <component id="n113_tx3y" name="tagAlarm" src="y3hk43" fileName="component/TagAlarm.xml" xy="1152,91" group="n100_tx3y"/>
+    <image id="n102_tx3y" name="img_cd_bg" src="iby92c" fileName="style0/other/img_cd_bg.png" xy="872,162" group="n104_tx3y"/>
+    <text id="n103_tx3y" name="tf_countdown" xy="909,190" size="51,35" group="n104_tx3y" font="ui://p4u5nou3v13x8p" fontSize="12" color="#333333" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#ffffff" text="9"/>
+    <group id="n104_tx3y" name="countdown" xy="872,162" size="128,128" group="n100_tx3y" visible="false" advanced="true"/>
+    <group id="n100_tx3y" name="playerCon1" xy="669,70" size="1525,312" locked="true" advanced="true">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </group>
+    <component id="n37_mexi" name="seat" src="iby931" fileName="Seat.xml" xy="-5,127" size="150,216" group="n55_sbou" visible="false"/>
+    <list id="n38_mexi" name="out_pokers" xy="197,140" size="676,240" group="n55_sbou" scale="0.65,0.65" visible="false" layout="flow_hz" lineGap="-110" colGap="-100" defaultItem="ui://qn9mtfu5h5fl16">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n77_tx3y" name="icon_handwall2" src="iufb6d" fileName="card/card_backfaces.png" xy="132,167" group="n155_n3pu"/>
+    <image id="n153_n3pu" name="n153" src="n3pu6t" fileName="出图/记牌数框.png" xy="133,261" group="n155_n3pu"/>
+    <group id="n155_n3pu" name="icon_handwall" xy="132,167" size="60,117" group="n55_sbou" visible="false" advanced="true"/>
+    <list id="n59_tx3y" name="hand_pokers" xy="198,67" size="1552,240" group="n55_sbou" scale="0.3,0.3" visible="false" layout="row" colGap="-90" defaultItem="ui://qn9mtfu5h5fl16">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n58_tx3y" name="tf_handCount" xy="140,260" size="41,30" group="n55_sbou" visible="false" fontSize="22" color="#ffffff" align="center" autoSize="none" bold="true" singleLine="true" text="000"/>
+    <image id="n42_sbou" name="tagReady" src="iby91p" fileName="common/lobby/tag_ready.png" xy="29,201" size="79,37" group="n55_sbou" aspect="true" visible="false"/>
+    <image id="n128_iufb" name="n128" src="iufb6c" fileName="style0/icon/icon_mulite.png" xy="9,93" group="n130_iufb"/>
+    <text id="n129_iufb" name="n129" xy="66,93" size="39,33" group="n130_iufb" fontSize="24" color="#ffffff" bold="true" text="× 1"/>
+    <group id="n130_iufb" name="tagDoubleNo" xy="28,93" size="77,33" group="n55_sbou" visible="false" advanced="true"/>
+    <image id="n131_iufb" name="n131" src="iufb6c" fileName="style0/icon/icon_mulite.png" xy="9,96" group="n133_iufb"/>
+    <text id="n132_iufb" name="n132" xy="65,93" size="39,33" group="n133_iufb" fontSize="24" color="#ffffff" bold="true" text="× 2"/>
+    <group id="n133_iufb" name="tagDoubleYes" xy="30,93" size="74,33" group="n55_sbou" visible="false" advanced="true"/>
+    <image id="n110_tx3y" name="tagPass" src="nuw97n" fileName="出图/要不起.png" xy="250,192" group="n55_sbou" visible="false"/>
+    <component id="n114_tx3y" name="tagAlarm" src="y3hk43" fileName="component/TagAlarm.xml" xy="136,89" group="n55_sbou"/>
+    <image id="n105_tx3y" name="img_cd_bg" src="iby92c" fileName="style0/other/img_cd_bg.png" xy="353,170" group="n107_tx3y"/>
+    <text id="n106_tx3y" name="tf_countdown" xy="387,198" size="59,35" group="n107_tx3y" font="ui://p4u5nou3v13x8p" fontSize="12" color="#333333" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#ffffff" text="99"/>
+    <group id="n107_tx3y" name="countdown" xy="353,170" size="128,128" group="n55_sbou" visible="false" advanced="true"/>
+    <group id="n55_sbou" name="playerCon2" xy="-5,67" size="1755,313" locked="true" advanced="true">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </group>
+    <component id="n10_osvm" name="seat" src="iby931" fileName="Seat.xml" xy="0,353" size="150,216" group="n101_tx3y" visible="false"/>
+    <list id="n25_h21o" name="out_pokers" xy="73,316" pivot="0.5,0.5" size="1185,258" group="n101_tx3y" scale="0.65,0.65" visible="false" layout="row" colGap="-90" defaultItem="ui://qn9mtfu5h5fl16" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n70_tx3y" name="tf_handCount" xy="-94,857" size="33,35" group="n101_tx3y" visible="false" fontSize="26" color="#0066cc" strokeColor="#ffffff" strokeSize="2" singleLine="true" text="99"/>
+    <list id="n71_tx3y" name="hand_pokers" xy="-25,493" pivot="0.5,1" size="1385,260" group="n101_tx3y" visible="false" layout="row" colGap="-80" defaultItem="ui://qn9mtfu5h5fl16" autoItemSize="false" align="center" vAlign="bottom">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n72_tx3y" name="icon_handwall" src="djq941" fileName="card/card_backface.png" xy="-103,774" group="n101_tx3y" scale="0.4,0.4" visible="false"/>
+    <image id="n43_sbou" name="tagReady" src="iby91p" fileName="common/lobby/tag_ready.png" xy="34,431" size="79,37" group="n101_tx3y" aspect="true" visible="false">
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n140_iufb" name="n140" src="iufb6c" fileName="style0/icon/icon_mulite.png" xy="9,317" group="n142_iufb"/>
+    <text id="n141_iufb" name="n141" xy="73,313" size="39,33" group="n142_iufb" fontSize="24" color="#ffffff" bold="true" text="× 1"/>
+    <group id="n142_iufb" name="tagDoubleNo" xy="35,313" size="77,33" group="n101_tx3y" visible="false" advanced="true">
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n143_iufb" name="n143" src="iufb6c" fileName="style0/icon/icon_mulite.png" xy="-4,316" group="n145_iufb"/>
+    <text id="n144_iufb" name="n144" xy="60,314" size="39,33" group="n145_iufb" fontSize="24" color="#ffffff" bold="true" text="× 2"/>
+    <group id="n145_iufb" name="tagDoubleYes" xy="-4,314" size="104,33" group="n101_tx3y" visible="false" advanced="true">
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n108_tx3y" name="tagPass" src="nuw97n" fileName="出图/要不起.png" xy="508,395" group="n101_tx3y" visible="false"/>
+    <component id="n112_tx3y" name="tagAlarm" src="y3hk43" fileName="component/TagAlarm.xml" xy="137,315" group="n101_tx3y">
+      <relation target="n10_osvm" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n91_tx3y" name="img_cd_bg" src="iby92c" fileName="style0/other/img_cd_bg.png" xy="605,274" group="n92_tx3y"/>
+    <text id="n93_tx3y" name="tf_countdown" xy="643,303" size="50,35" group="n92_tx3y" font="ui://p4u5nou3v13x8p" fontSize="12" color="#333333" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#ffffff" text="99"/>
+    <group id="n92_tx3y" name="countdown" xy="605,274" size="128,128" group="n101_tx3y" visible="false" advanced="true"/>
+    <image id="n148_l056" name="maskHandwallTrustee" src="ua2z8h" fileName="style0/other/handwall-mask.png" xy="-135,472" size="1612,279" group="n150_l056" visible="false">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n71_tx3y" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n149_l056" name="btnHandwallTrustee" src="l0566h" fileName="component/BtnNormal(2).xml" xy="567,625" size="200,80" group="n150_l056" visible="false">
+      <relation target="n71_tx3y" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://p4u5nou3l0566i"/>
+    </component>
+    <group id="n150_l056" name="trusteeshipGroup" xy="-135,472" size="1612,279" group="n101_tx3y" locked="true"/>
+    <group id="n101_tx3y" name="playerCon0" xy="-135,274" size="1612,712" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n17_h21o" name="operation" src="iby934" fileName="Operation.xml" xy="31,367" pivot="0.5,0.5" hideByEditor="true" visible="false">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <image id="n94_tx3y" name="img_tbt_bg" src="iby92d" fileName="style0/other/img_mask_1.png" xy="367,115" size="600,104" group="n96_tx3y"/>
+    <text id="n95_tx3y" name="tf_tlt_text" xy="392,123" size="550,89" group="n96_tx3y" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="这是桌面提示这是桌面提示这是桌面提示这是桌面提示这是桌面提示这是桌面提示"/>
+    <group id="n96_tx3y" name="tableTips" xy="367,115" size="600,104" locked="true" hideByEditor="true" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <component id="n6_osvm" name="btn_msg" src="iby932" fileName="ScaleButton.xml" xy="1473,591" size="0,0" group="n121_ogno" hideByEditor="true" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://la8oslyoosvmax"/>
+    </component>
+    <component id="n33_kvb5" name="btn_setting" src="iby932" fileName="ScaleButton.xml" xy="1474,185" size="0,0" group="n121_ogno" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://la8oslyoosvmaz"/>
+    </component>
+    <component id="n32_kvb5" name="btn_exit" src="iby932" fileName="ScaleButton.xml" xy="1473,320" size="0,0" group="n121_ogno" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://la8oslyoosvmay"/>
+    </component>
+    <component id="n124_djq9" name="btn_change" src="iby932" fileName="ScaleButton.xml" xy="1473,455" size="0,0" group="n121_ogno" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://p4u5nou3djq942"/>
+    </component>
+    <component id="n34_kvb5" name="btn_chat" src="iby932" fileName="ScaleButton.xml" xy="1474,645" size="0,0" group="n121_ogno" hideByEditor="true" visible="false">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <Button icon="ui://la8oslyoosvmb0"/>
+    </component>
+    <component id="n88_tx3y" name="btn_last_round" src="iby91q" fileName="component/BtnNormal.xml" xy="1396,355" size="0,0" group="n121_ogno" hideByEditor="true" visible="false">
+      <Button icon="ui://p4u5nou3iby91s"/>
+    </component>
+    <component id="n90_tx3y" name="btn_trusteeship_close" src="iby91q" fileName="component/BtnNormal.xml" xy="1017,-7" size="80,80" group="n121_ogno" visible="false" filter="color" filterData="0.00,0.00,0.00,0.80">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button icon="ui://p4u5nou3iby923"/>
+    </component>
+    <component id="n89_tx3y" name="btn_trusteeship" src="iby91q" fileName="component/BtnNormal.xml" xy="1017,-7" size="80,80" group="n121_ogno" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button icon="ui://p4u5nou3iby91z"/>
+    </component>
+    <component id="n146_p1fs" name="btnRule" src="iby91q" fileName="component/BtnNormal.xml" xy="606,-155" size="80,80" group="n121_ogno" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button icon="ui://p4u5nou3p1fs6e"/>
+    </component>
+    <group id="n121_ogno" name="buttons" xy="606,-155" size="868,800" locked="true"/>
+    <image id="n97_tx3y" name="img_tlt_bg" src="iby92d" fileName="style0/other/img_mask_1.png" xy="300,510" size="733,63" group="n99_tx3y"/>
+    <text id="n98_tx3y" name="tf_tlt_text" xy="325,518" size="683,42" group="n99_tx3y" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="这是桌面提示这是桌面提示这是桌面提示这是桌面提示这是桌面提示这是桌面提示"/>
+    <group id="n99_tx3y" name="tileTips" xy="300,510" size="733,64" locked="true" hideByEditor="true" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n127_iufb" name="btnReady" src="iufb6a" fileName="component/BtnNormal(1).xml" xy="542,325" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://p4u5nou3iufb6b"/>
+    </component>
+    <component id="n126_q7l5" name="cardEffect" src="j4bi2g" fileName="effect/card/cardEffect.xml" pkg="xkprusr0" xy="600,250" group="n122_ogno" visible="false" touchable="false"/>
+    <group id="n122_ogno" name="effect" xy="600,250" size="400,400" hideByEditor="true"/>
+    <component id="n157_o4c8" name="balanceView" src="k5pu7" fileName="BalanceView.xml" pkg="qn9mtfu5" xy="0,0" hideByEditor="true" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n147_gmct" name="operationExit" src="ktw9k6" fileName="游戏内部按钮/UI_GameMenu.xml" pkg="la8oslyo" xy="0,0" size="1334,750" locked="true" controller="AutoCont,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="showTileTips">
+    <item time="0" type="Alpha" target="n99_tx3y" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="XY" target="n99_tx3y" tween="true" startValue="-,800" endValue="-,660" duration="12"/>
+    <item time="48" type="Alpha" target="n99_tx3y" value="1"/>
+    <item time="49" type="Alpha" target="n99_tx3y" value="0"/>
+  </transition>
+  <transition name="showTableTips">
+    <item time="0" type="Alpha" target="n96_tx3y" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="XY" target="n96_tx3y" tween="true" startValue="-,200" endValue="-,100" duration="12"/>
+    <item time="48" type="Alpha" target="n96_tx3y" value="1"/>
+    <item time="49" type="Alpha" target="n96_tx3y" value="0"/>
+  </transition>
+</component>

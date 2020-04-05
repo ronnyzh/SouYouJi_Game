@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,100" pivot="0.5,0.5">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13," selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <image id="n0_s4ce" name="n0" src="r4d5g" xy="11,17" pivot="0.5,0.5" size="282,68" aspect="true">
+      <relation target="n3_s4ce" sidePair="width-width%,height-height%"/>
+    </image>
+    <loader id="n3_s4ce" name="icon" xy="56,-17" pivot="0.5,0.5" size="191,139" aspect="true" url="ui://newlnjldr4d5b" align="center" vAlign="middle" fill="scaleMatchWidth" color="#fbfbfb">
+      <gearIcon controller="c1" pages="0,1,2,3,4,5,6,7,8,9,10,11,12" values="ui://newlnjldr4d5b|ui://newlnjldr4d52|ui://newlnjldr4d53|ui://newlnjldr4d54|ui://newlnjldr4d55|ui://newlnjldr4d56|ui://newlnjldr4d57|ui://newlnjldr4d58|ui://newlnjldr4d59|ui://newlnjldr4d5a|ui://newlnjldr4d5c|ui://newlnjldr4d5e|ui://newlnjldr4d5d" default="ui://newlnjldr4d5f"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Size" target="n3_s4ce" tween="true" startValue="281.25,206.81" endValue="162.81,87.63" duration="12"/>
+  </transition>
+</component>

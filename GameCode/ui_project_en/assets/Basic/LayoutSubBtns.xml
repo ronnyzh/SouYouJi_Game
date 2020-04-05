@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <controller name="c1" pages="0,normal,1,show_menu" selected="1"/>
+  <displayList>
+    <image id="n12_ti75" name="n12" src="ti75g9" xy="0,1204" size="720,82">
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+    </image>
+    <component id="n13_ti75" name="btn_lobby" src="osvmed" xy="369,1152" size="71,108" group="n17_ti75">
+      <Button icon="ui://la8oslyoqyvdgk"/>
+    </component>
+    <component id="n14_ti75" name="btn_mall" src="osvmed" xy="38,1154" size="160,104" group="n17_ti75">
+      <Button icon="ui://la8oslyoti75fr"/>
+    </component>
+    <component id="n15_ti75" name="btn_mine" src="osvmed" xy="490,1152" size="71,108" group="n17_ti75">
+      <Button icon="ui://la8oslyoti75fv"/>
+    </component>
+    <component id="n16_ti75" name="btn_more" src="osvmed" xy="611,1152" size="71,108" group="n17_ti75">
+      <Button icon="ui://la8oslyoti75gb" controller="c1" page="1"/>
+    </component>
+    <component id="n23_qyvd" name="btn_zhanji" src="osvmed" xy="248,1155" size="71,108" group="n17_ti75">
+      <Button icon="ui://la8oslyoti75fw"/>
+    </component>
+    <group id="n17_ti75" name="bottom" xy="38,1152" size="644,111" advanced="true">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </group>
+    <graph id="n18_ti75" name="n18" xy="0,0" size="720,1280" group="n21_ti75" alpha="0.3" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n20_ti75" name="n20" src="osvmed" xy="0,0" size="720,1280" group="n21_ti75">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button controller="c1" page="0"/>
+    </component>
+    <component id="n19_ti75" name="menu" src="qyvdgj" xy="573,933" group="n21_ti75">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <group id="n21_ti75" name="n21" xy="0,0" size="720,1280"/>
+  </displayList>
+</component>

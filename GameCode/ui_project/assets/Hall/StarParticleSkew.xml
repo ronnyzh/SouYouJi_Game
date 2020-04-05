@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,114">
+  <displayList>
+    <image id="n0_d1sn" name="n0" src="d1snt8d" xy="27,12" pivot="0.5,0.5" filter="color" filterData="0.00,0.00,0.00,0.00"/>
+    <image id="n1_d1sn" name="n1" src="d1snt8d" xy="27,12" pivot="0.5,0.5" filter="color" filterData="0.00,0.00,0.00,0.00"/>
+    <image id="n2_d1sn" name="n2" src="d1snt8d" xy="27,12" pivot="0.5,0.5" filter="color" filterData="0.00,0.00,0.00,0.00"/>
+    <image id="n3_d1sn" name="n3" src="d1snt8d" xy="27,12" pivot="0.5,0.5" filter="color" filterData="0.00,0.00,0.00,0.00"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="999999">
+    <item time="0" type="Alpha" target="n2_d1sn" value="0"/>
+    <item time="0" type="Alpha" target="n1_d1sn" value="0"/>
+    <item time="0" type="Alpha" target="n0_d1sn" tween="true" startValue="0.2" endValue="0.7" duration="12"/>
+    <item time="0" type="Alpha" target="n3_d1sn" tween="true" startValue="0" endValue="1" duration="71"/>
+    <item time="0" type="Scale" target="n0_d1sn" tween="true" startValue="0.2,0.2" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="0" type="Scale" target="n2_d1sn" value="0.2,0.2"/>
+    <item time="0" type="Scale" target="n1_d1sn" value="0.2,0.2"/>
+    <item time="0" type="Scale" target="n3_d1sn" tween="true" startValue="0.6,0.6" endValue="0.5,0.5" duration="113"/>
+    <item time="12" type="Alpha" target="n0_d1sn" tween="true" startValue="0.7" endValue="0.5" duration="17"/>
+    <item time="12" type="Scale" target="n0_d1sn" tween="true" startValue="0.6,0.6" endValue="1,1" duration="17" ease="Linear"/>
+    <item time="19" type="Alpha" target="n1_d1sn" tween="true" startValue="0" endValue="0.7" duration="12"/>
+    <item time="19" type="Scale" target="n1_d1sn" tween="true" startValue="0.2,0.2" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="29" type="Alpha" target="n0_d1sn" tween="true" startValue="0.5" endValue="0" duration="21"/>
+    <item time="29" type="Scale" target="n0_d1sn" tween="true" startValue="1,1" endValue="1.2,1.2" duration="21" ease="Linear"/>
+    <item time="31" type="Alpha" target="n1_d1sn" tween="true" startValue="0.7" endValue="0.65" duration="26"/>
+    <item time="31" type="Scale" target="n1_d1sn" tween="true" startValue="0.6,0.6" endValue="1,1" duration="26" ease="Linear"/>
+    <item time="42" type="Alpha" target="n2_d1sn" tween="true" startValue="0" endValue="0.7" duration="12"/>
+    <item time="42" type="Scale" target="n2_d1sn" tween="true" startValue="0.2,0.2" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="54" type="Alpha" target="n2_d1sn" tween="true" startValue="0.7" endValue="0.55" duration="21"/>
+    <item time="54" type="Scale" target="n2_d1sn" tween="true" startValue="0.6,0.6" endValue="1,1" duration="21" ease="Linear"/>
+    <item time="57" type="Alpha" target="n1_d1sn" tween="true" startValue="0.65" endValue="0" duration="30"/>
+    <item time="57" type="Scale" target="n1_d1sn" tween="true" startValue="1,1" endValue="1.2,1.2" duration="30" ease="Linear"/>
+    <item time="71" type="Alpha" target="n3_d1sn" tween="true" startValue="1" endValue="0" duration="24"/>
+    <item time="75" type="Alpha" target="n2_d1sn" tween="true" startValue="0.55" endValue="0" duration="34"/>
+    <item time="75" type="Scale" target="n2_d1sn" tween="true" startValue="1,1" endValue="1.2,1.2" duration="34" ease="Linear"/>
+    <item time="101" type="Alpha" target="n0_d1sn" tween="true" startValue="0" endValue="0.2" duration="12"/>
+    <item time="101" type="Scale" target="n0_d1sn" tween="true" startValue="0,0" endValue="0.2,0.2" duration="12" ease="Linear"/>
+    <item time="113" type="Alpha" target="n2_d1sn" value="0"/>
+    <item time="113" type="Scale" target="n2_d1sn" value="1.2,1.2"/>
+  </transition>
+</component>

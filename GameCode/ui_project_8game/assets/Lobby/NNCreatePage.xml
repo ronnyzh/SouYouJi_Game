@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <graph id="n0_aks0" name="n0" xy="31,26" size="1217,667" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n1_aks0" name="btn_close" src="aks09x" pkg="la8oslyo" xy="1202,11" size="61,60">
+      <relation target="" sidePair="top-top,right-right"/>
+      <Button title="X" titleFontSize="35"/>
+    </component>
+    <component id="n2_aks0" name="btn_create" src="aks09x" pkg="la8oslyo" xy="523,592" size="233,78">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="创建房间" titleFontSize="35"/>
+    </component>
+    <text id="n3_aks0" name="n3" xy="446,132" size="370,425" fontSize="25" autoSize="none" text="玩法太多，就算列出来，你也是蒙蔽的。不如就省事了！">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

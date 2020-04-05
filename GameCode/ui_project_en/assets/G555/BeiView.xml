@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="57,37">
+  <controller name="c1" exported="true" pages="0,,1,,2,,3,,4,,5," selected="5"/>
+  <displayList>
+    <image id="n13_qc7n" name="n13" src="qc7n8r" fileName="Font/闲家倍数/闲倍-_0008_下注.png" pkg="rjf5583x" xy="39,-2" pivot="1,0" anchor="true">
+      <gearDisplay controller="c1" pages="1,2,3,4,5"/>
+      <relation target="" sidePair="right-center,middle-middle"/>
+    </image>
+    <loader id="n14_qc7n" name="icon" xy="26,-2" size="67,41" url="ui://rjf5583xqc7n8n">
+      <gearDisplay controller="c1" pages="1,2,3,4,5"/>
+      <gearIcon controller="c1" pages="2,3,4,5" values="ui://rjf5583xqc7n8q|ui://rjf5583xqc7n8p|ui://rjf5583xqc7n8o|ui://rjf5583xqc7n8n" default="ui://rjf5583xqc7n8t"/>
+      <relation target="" sidePair="left-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

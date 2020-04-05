@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,151">
+  <controller name="turn" exported="true" pages="0,off,1,on" selected="1">
+    <action type="play_transition" fromPage="0" toPage="1" transition="onTurn"/>
+  </controller>
+  <controller name="Image" pages="0,normal,1,disabled" selected="0"/>
+  <displayList>
+    <component id="n42_nm6v" name="seatItem" src="er436n" fileName="Seat.xml" pkg="rjf5583x" xy="8,12"/>
+    <image id="n35_f936" name="n35" src="f936y6n" fileName="style0/other/head-light.png" xy="-4,0" size="124,124">
+      <gearLook controller="turn" pages="0,1" values="0,0,0,1|1,0,0,1" tween="true" ease="Back.Out"/>
+    </image>
+    <image id="n31_ithq" name="n31" src="is4d24" fileName="style0/icon/icon_bipai.png" xy="-44,-49" pivot="0.5,0.5" locked="true" hideByEditor="true" visible="false"/>
+    <image id="n9_sbou" name="tagOffline" xy="6,43" pivot="0.5,0.5" size="102,38" locked="true" hideByEditor="true" scale="0.9,0.9" visible="false"/>
+    <image id="n15_tx3y" name="tagTrusteeship" src="q7l59" fileName="style0/icon/icon_trusteeship.png" xy="-24,44" pivot="0.5,0.5" size="164,34" scale="0.7,0.7" visible="false"/>
+    <image id="n24_zbq1" name="n24" src="is4d2s" fileName="style0/other/con_head_gold_count.png" xy="5,147" group="n27_zbq1"/>
+    <image id="n25_zbq1" name="n25" src="zbq142" fileName="style0/other/icon_head-chip.png" xy="-1,144" group="n27_zbq1"/>
+    <text id="n26_zbq1" name="tfChip" xy="37,147" size="78,35" group="n27_zbq1" fontSize="24" color="#d4c266" autoSize="none" autoClearText="true" text="999"/>
+    <group id="n27_zbq1" name="n27" xy="-1,144" size="119,38"/>
+    <graph id="n43_nm6v" name="n43" xy="7,11" size="101,102" hideByEditor="true" type="rect" lineSize="0" fillColor="#cc000000">
+      <gearDisplay controller="Image" pages="1"/>
+      <relation target="n42_nm6v" sidePair="left-left,top-top"/>
+    </graph>
+  </displayList>
+  <transition name="bipai">
+    <item time="0" type="Alpha" target="n31_ithq" tween="true" startValue="0" endValue="1" duration="5"/>
+    <item time="0" type="Scale" target="n31_ithq" tween="true" startValue="1,1" endValue="0.7,0.7" duration="12"/>
+    <item time="0" type="Visible" target="n31_ithq" value="true"/>
+    <item time="18" type="Visible" target="n31_ithq" value="false"/>
+  </transition>
+  <transition name="onTurn">
+    <item time="0" type="Alpha" target="n35_f936" tween="true" startValue="0" endValue="1" duration="6" ease="Bounce.InOut"/>
+  </transition>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="430,21" extention="Slider">
+  <displayList>
+    <image id="n1" name="n1" src="avzohz" fileName="弹窗/进度底.png" xy="0,-1" size="430,22">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="bar" src="j17qj2" fileName="设置/进度2.png" xy="1,0" size="428,21"/>
+    <text id="n3" name="title" xy="-1,0" size="430,19" visible="false" fontSize="12" align="center" autoSize="none" text="100%">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n4" name="grip" src="avzoi1" fileName="SliderSound_grip.xml" xy="364,-48" size="127,118">
+      <relation target="n2" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

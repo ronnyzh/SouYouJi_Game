@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,61">
+  <controller name="c1" pages="0,hide,1,shank" selected="0">
+    <action type="play_transition" fromPage="" toPage="1" transition="shank" repeat="3"/>
+  </controller>
+  <displayList>
+    <image id="n114_tx3y" name="tagAlarm" src="q7l5f" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+  <transition name="shank" autoPlay="true" autoPlayRepeat="6">
+    <item time="0" type="Alpha" target="n114_tx3y" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="3" type="Alpha" target="n114_tx3y" tween="true" startValue="1" endValue="0" duration="3"/>
+  </transition>
+</component>

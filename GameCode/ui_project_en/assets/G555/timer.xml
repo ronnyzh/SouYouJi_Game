@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,54" adaptationTest="FitWidthAndSetMiddle">
+  <controller name="c1" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <image id="n75_jkho" name="n75" src="wm2e2l" fileName="GBP_Img/Timer/底-倒计时.png" pkg="rjf5583x" xy="0,0"/>
+    <image id="n77_jkho" name="n77" src="wm2e2p" fileName="GBP_Img/Timer/选择加倍：    秒.png" pkg="rjf5583x" xy="190,29" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n80_j8uc" name="n80" src="wm2e2q" fileName="GBP_Img/Timer/正在开牌.png" pkg="rjf5583x" xy="190,29" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n76_jkho" name="n76" src="wm2e2o" fileName="GBP_Img/Timer/抢庄阶段：    秒.png" pkg="rjf5583x" xy="190,29" pivot="0.5,0.5" anchor="true" size="240,36">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n81_j8uc" name="n81" src="wm2e2r" fileName="GBP_Img/Timer/正在匹配：    秒.png" pkg="rjf5583x" xy="190,29" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <text id="n79_jkho" name="title" xy="223,13" size="47,36" font="ui://rjf5583xwm2e27" fontSize="33" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" singleLine="true" text="99">
+      <gearDisplay controller="c1" pages="0,1,3"/>
+    </text>
+    <image id="n83_l132" name="n83" src="wm2e2j" fileName="GBP_Img/Timer/0请亮牌.png" pkg="rjf5583x" xy="190,29" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+  </displayList>
+</component>

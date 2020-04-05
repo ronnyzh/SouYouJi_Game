@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,176">
+  <controller name="c1" pages="0,,1,zhuang" selected="0"/>
+  <displayList>
+    <image id="n11_k53i" name="n11" src="wm2e2y" fileName="GBP_Img/IMG/pf_bg0.png" pkg="rjf5583x" xy="2,7">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n0_osvm" name="icon" xy="5,28" size="100,100" url="ui://la8oslyoosvmbg" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n12_k53i" name="n12" src="wm2e31" fileName="GBP_Img/IMG/pf_bg1.png" pkg="rjf5583x" xy="3,14">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n14_k53i" name="n14" src="wm2e30" fileName="GBP_Img/IMG/pf_goodBG.png" pkg="rjf5583x" xy="1,135" size="104,29">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_osvm" name="score" xy="2,135" size="99,28" fontSize="20" color="#ffff00" align="right" vAlign="middle" autoSize="none" bold="true" singleLine="true" text="654321.99">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n20_k4rz" name="n20" xy="5,101" size="100,28" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n2_osvm" name="name" xy="5,101" size="99,28" fontSize="20" color="#ffffff" align="center" autoSize="none" bold="true" text="用户名有多长">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n13_k53i" name="n13" src="wm2e2z" fileName="GBP_Img/IMG/pf_good.png" pkg="rjf5583x" xy="-210,128" visible="false"/>
+    <image id="n19_gd8a" name="n19" src="wm2e2s" fileName="GBP_Img/Score_BG/庄.png" pkg="rjf5583x" xy="62,-11">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n8_h21o" name="icon_click" src="s2tl2s" fileName="ScaleButton.xml" xy="-3,-6" size="109,176"/>
+    <component id="n18_k53i" name="tfScore" src="k53i5a" fileName="tfScore.xml" xy="-55,88"/>
+  </displayList>
+</component>

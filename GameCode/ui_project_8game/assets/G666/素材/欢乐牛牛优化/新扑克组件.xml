@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,82">
+  <controller name="c_show" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n6_hl39" name="n0" src="nayw7o" fileName="poker.xml" xy="31,41" pivot="0.5,0.5" anchor="true" controller="c1,0">
+      <gearDisplay controller="c_show" pages="1"/>
+    </component>
+    <component id="n7_hl39" name="n1" src="nayw7o" fileName="poker.xml" xy="62,41" pivot="0.5,0.5" anchor="true" controller="c1,0">
+      <gearDisplay controller="c_show" pages="1"/>
+    </component>
+    <component id="n8_hl39" name="n2" src="nayw7o" fileName="poker.xml" xy="93,41" pivot="0.5,0.5" anchor="true" controller="c1,0">
+      <gearDisplay controller="c_show" pages="1"/>
+    </component>
+    <component id="n9_hl39" name="n3" src="nayw7o" fileName="poker.xml" xy="124,41" pivot="0.5,0.5" anchor="true" controller="c1,0">
+      <gearDisplay controller="c_show" pages="1"/>
+    </component>
+    <component id="n10_hl39" name="n4" src="nayw7o" fileName="poker.xml" xy="155,41" pivot="0.5,0.5" anchor="true" controller="c1,0">
+      <gearDisplay controller="c_show" pages="1"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n8_hl39" tween="true" startValue="93,41" endValue="31,41" duration="9"/>
+    <item time="0" type="XY" target="n7_hl39" tween="true" startValue="62,41" endValue="31,41" duration="9"/>
+    <item time="0" type="XY" target="n6_hl39" tween="true" startValue="31,41" endValue="31,41" duration="9" label2="center"/>
+    <item time="0" type="XY" target="n10_hl39" tween="true" startValue="155,41" endValue="31,41" duration="9"/>
+    <item time="0" type="XY" target="n9_hl39" tween="true" startValue="124,41" endValue="31,41" duration="9"/>
+    <item time="9" type="XY" target="n10_hl39" tween="true" startValue="31,41" endValue="155,41" duration="9"/>
+    <item time="9" type="XY" target="n6_hl39" label="center" tween="true" startValue="31,41" endValue="31,41" duration="9"/>
+    <item time="9" type="XY" target="n7_hl39" tween="true" startValue="31,41" endValue="62,41" duration="9"/>
+    <item time="9" type="XY" target="n8_hl39" tween="true" startValue="31,41" endValue="93,41" duration="9"/>
+    <item time="9" type="XY" target="n9_hl39" tween="true" startValue="31,41" endValue="124,41" duration="9"/>
+  </transition>
+</component>

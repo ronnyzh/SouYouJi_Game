@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,71" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="type" pages="0,自动,1,手动" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="r73m70" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2" name="title" xy="0,0" size="177,71" font="方正准圆简体" fontSize="35" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="手动理牌">
+      <gearText controller="type" pages="1" values="手动理牌" default="自动理牌"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

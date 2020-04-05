@@ -1,0 +1,512 @@
+{
+    "detail": [
+        {
+    		"totalColumn" : 2
+    	},
+    	{
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"fontSize":30,
+            "itemHeight":40,
+            "itemWidth":200,
+        	"content": "基本规则:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+            "itemWidth":120,
+        	"content":"【人数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+            "itemHeight": 45,
+            "fontSize":28,
+            "itemWidth":800,
+        	"content":"2-9人，即2人至9人即可开始游戏;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+            "itemWidth":120,
+        	"content":"【牌数】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 18,
+        	"line":"1",
+        	"fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+        	"content":"除开大小王外，52张牌。"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":200,
+        	"content": "基本玩法:"
+        },
+        {
+        	"type" : 1,
+        	"itemStyle" : 4,
+        	"line": "1",
+        	"content": ""
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"2",
+            "fontSize":28,
+            "itemHeight": 55,
+            "itemWidth":900,
+            "content":"手牌+公共牌（3张翻牌+1张转牌+1张河牌）=5张成牌，再比较这5张成牌组成的牌型。"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "itemHeight": 40,
+            "content":""
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":200,
+            "content": "牌型说明:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【高牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"5个单张牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【一对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"1对+3单张;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【两对】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"2对+1单张;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【三条】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"3张相同+2单张;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【顺子】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"花色不同的顺子;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【同花】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"五张牌花色相同;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【葫芦】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"3张相同+1对;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":190,
+            "content":"【四条/金刚】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"4张相同+1单张;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":150,
+            "content":"【同花顺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"同一花色的顺子;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":200,
+            "content":"【皇家同花顺】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 18,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"同一花色最大的顺子;"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "fontSize":30,
+            "itemHeight": 40,
+            "itemWidth":190,
+            "content": "游戏规则:"
+        },
+        {
+            "type" : 1,
+            "itemStyle" : 4,
+            "line": "1",
+            "content": ""
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【让牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"不确定牌力是否处于优势时，可以选择让牌，让牌不会下注;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【弃牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"牌力较低时，最好选择弃牌，弃牌后退出本轮牌局;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【全下】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"如果对自己的牌力非常有信心，可以全下;"
+        },
+        {
+        	"type":2,
+        	"itemStyle" : 2,
+        	"line":"1",
+        	"fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+        	"content":"【跟注】"
+        },
+        {
+        	"type":3,
+        	"itemStyle" : 25,
+        	"line":"1",
+        	"fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+        	"content":"如果觉得自己的牌力还不错，可以跟注;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【加注】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"如果对自己的牌力比较有信心，可以加注;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":170,
+            "content":"【让/弃牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"能让则让，不能让则自动弃牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":180,
+            "content":"【自动让牌】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"下一轮自动让牌;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":180,
+            "content":"【大/小盲注】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"3",
+            "fontSize":28,
+            "itemHeight": 70,
+            "itemWidth":720,
+            "content":"为了使得游戏能够进行，强制庄家顺时针方向的下一个人下一注小盲注，第二个人下一注大盲注(大盲注是小盲注的2倍);"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":180,
+            "content":"【跟任何注】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"无论别人下注多少，下一轮自动跟注多少;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【有效投注】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"5",
+            "fontSize":28,
+            "itemHeight": 55,
+            "itemWidth":720,
+            "content":"min (自己本局累计下注，max(除自己以外其他每个玩家本局累计下注) )。比如，您本局累计下注100，玩家A和玩家B本局累计下注分别是150和300，那么您本局有效投注=min (100， max (150, 300) ) =min(100，300) =100;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemWidth":180,
+            "content":"【金额分配】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"8",
+            "fontSize":28,
+            "itemHeight": 130,
+            "itemWidth":720,
+            "content":"从本局下注筹码最少的人开始分主池，然后按顺序分边池,然后比较牌的大小(牌型相同时，金额平分)；从牌最大的拿走他参与过比牌的底池，然后是牌第二大的拿走他参与过比牌的底池，依此类推;比如, A 1000筹码，B 2000筹码, C 3000筹码,三个人都全下了,最后牌力A>B>C,那么主池3000归A,边池1的2000归B，边池2的1000归C。还是这个例子, A=C>B, 主池3000, A与C平分,边池2000归C，B输光;"
+        },
+        {
+            "type":2,
+            "itemStyle" : 2,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":120,
+            "content":"【抽水】"
+        },
+        {
+            "type":3,
+            "itemStyle" : 25,
+            "line":"1",
+            "fontSize":28,
+            "itemHeight": 45,
+            "itemWidth":800,
+            "content":"抽取赢家所赢金额的5%。"
+        }
+        
+    ]
+}

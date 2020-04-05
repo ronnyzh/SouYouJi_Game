@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="222,93" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_h21o" name="n6" src="djq91k" xy="0,0"/>
+    <loader id="n5" name="icon" xy="0,0" size="222,93" align="center" vAlign="middle">
+      <gearSize controller="button" pages="0,1" values="222,93,1,1|222,93,1,1" default="222,93,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n7_h21o" name="title" xy="0,0" size="222,93" fontSize="50" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="2,2" text="不出"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

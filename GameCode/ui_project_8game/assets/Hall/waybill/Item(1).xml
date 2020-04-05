@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1090,129">
+  <displayList>
+    <image id="n4_v54h" name="bg" src="pfm9nd" fileName="waybill/images/表头.png" xy="0,0" size="1090,129" locked="true" filter="color" filterData="0.00,0.32,0.00,0.00">
+      <relation target="" sidePair="center-center,top-top"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_v54h" name="titleBg" src="pfm9nd" fileName="waybill/images/表头.png" xy="0,35" pivot="0,1" anchor="true" size="1090,35" locked="true" hideByEditor="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <image id="n9_esgt" name="n9" src="pfm9nc" fileName="waybill/images/表格-亮.png" xy="0,1" size="1090,21" locked="true"/>
+    <image id="n10_esgt" name="n10" src="pfm9nc" fileName="waybill/images/表格-亮.png" xy="0,43" size="1090,21" locked="true"/>
+    <image id="n11_esgt" name="n11" src="pfm9nc" fileName="waybill/images/表格-亮.png" xy="0,85" size="1090,21" locked="true"/>
+    <component id="n2_v54h" name="btn_enterGame" src="v54hoz" fileName="waybill/进入游戏按钮.xml" xy="997,82" pivot="0.5,0.5" anchor="true" locked="true" hideByEditor="true">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <text id="n6_rrzj" name="txt_roomInfo" xy="103,17" pivot="0.5,0.5" anchor="true" size="192,31" locked="true" hideByEditor="true" fontSize="24" color="#aaabec" singleLine="true" autoClearText="true" text="房间编号1008611">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n7_rrzj" name="txt_playerCount" xy="407,17" pivot="0.5,0.5" anchor="true" size="92,31" locked="true" hideByEditor="true" fontSize="24" color="#aaabec" vAlign="middle" singleLine="true" autoClearText="true" text="在线109">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n8_rrzj" name="txt_betLimit" xy="677,16" pivot="0.5,0.5" anchor="true" size="161,31" locked="true" hideByEditor="true" fontSize="24" color="#aaabec" vAlign="middle" singleLine="true" autoClearText="true" text="投注限额2-100">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n41_esgt" name="n41" src="pfm9o1" fileName="waybill/images/左侧选项底.png" xy="1090,126" size="3,1090" rotation="90" filter="color" filterData="0.00,-1.00,-0.85,0.00"/>
+  </displayList>
+</component>

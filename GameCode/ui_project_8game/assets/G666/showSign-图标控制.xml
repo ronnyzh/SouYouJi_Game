@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,56">
+  <controller name="c_showSign" exported="true" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n0_iuo1" name="n0" xy="0,0" size="126,56" touchable="false" autoSize="true">
+      <gearDisplay controller="c_showSign" pages="1,2,3,4,5"/>
+      <gearIcon controller="c_showSign" pages="1,2,3,4,5" values="ui://nwo0j1cxayoe1w|ui://nwo0j1cxiuo19u|ui://nwo0j1cxayoe1z|ui://nwo0j1cxayoe1u|ui://nwo0j1cxer488z" default=""/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </loader>
+  </displayList>
+</component>

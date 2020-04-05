@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="207,121">
+  <controller name="c_showScore" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <image id="n0_iuo1" name="n0" src="wm2e1u" fileName="GBP_Img/Score_BG/scoreBG1.png" pkg="rjf5583x" xy="-2,-3">
+      <gearDisplay controller="c_showScore" pages="1"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </image>
+    <text id="n1_iuo1" name="jia" xy="101,57" pivot="0.5,0.5" anchor="true" size="90,36" font="ui://rjf5583xwm2e1g" fontSize="12" text="+100">
+      <gearDisplay controller="c_showScore" pages="1"/>
+      <relation target="n0_iuo1" sidePair="middle-middle,center-center"/>
+    </text>
+    <image id="n2_iuo1" name="n2" src="wm2e1t" fileName="GBP_Img/Score_BG/scoreBG0.png" pkg="rjf5583x" xy="1,-1">
+      <gearDisplay controller="c_showScore" pages="2"/>
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </image>
+    <text id="n3_iuo1" name="jian" xy="97,57" pivot="0.5,0.5" anchor="true" size="110,36" font="ui://rjf5583xwm2e13" fontSize="12" text="-1000">
+      <gearDisplay controller="c_showScore" pages="2"/>
+      <relation target="n2_iuo1" sidePair="middle-middle,center-center"/>
+    </text>
+  </displayList>
+</component>

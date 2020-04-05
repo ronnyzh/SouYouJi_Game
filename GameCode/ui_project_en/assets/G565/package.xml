@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1sm91w5o" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="pu4x0" name="d-橙.png" path="/Image/筹码/"/>
+    <image id="pu4x1" name="d-紫-1.png" path="/Image/筹码/"/>
+    <image id="pu4x2" name="d-紫.png" path="/Image/筹码/"/>
+    <image id="pu4x3" name="d-红.png" path="/Image/筹码/"/>
+    <image id="pu4x4" name="d-绿.png" path="/Image/筹码/"/>
+    <image id="pu4x5" name="d-蓝.png" path="/Image/筹码/"/>
+    <image id="pu4x6" name="d-青.png" path="/Image/筹码/"/>
+    <image id="pu4x7" name="d-黄.png" path="/Image/筹码/"/>
+    <image id="pu4x8" name="d-黑.png" path="/Image/筹码/"/>
+    <image id="pu4x9" name="x-橙.png" path="/Image/筹码/"/>
+    <image id="pu4xa" name="x-浅蓝.png" path="/Image/筹码/"/>
+    <image id="pu4xb" name="x-粉.png" path="/Image/筹码/"/>
+    <image id="pu4xc" name="x-紫1.png" path="/Image/筹码/"/>
+    <image id="pu4xd" name="x-紫2.png" path="/Image/筹码/"/>
+    <image id="pu4xe" name="x-红.png" path="/Image/筹码/"/>
+    <image id="pu4xf" name="x-绿.png" path="/Image/筹码/"/>
+    <image id="pu4xg" name="x-蓝.png" path="/Image/筹码/"/>
+    <image id="pu4xh" name="x-青绿.png" path="/Image/筹码/"/>
+    <image id="pu4xi" name="x-黄.png" path="/Image/筹码/"/>
+    <image id="pu4xj" name="叠绿.png" path="/Image/筹码/"/>
+    <image id="pu4xk" name="3方-收起，展开.png" path="/Image/出图/"/>
+    <image id="pu4xl" name="全下-guang1.png" path="/Image/出图/"/>
+    <image id="pu4xm" name="全下-guang2.png" path="/Image/出图/"/>
+    <image id="pu4xn" name="全下.png" path="/Image/出图/"/>
+    <image id="pu4xo" name="准备.png" path="/Image/出图/"/>
+    <image id="pu4xp" name="加减数额-+.png" path="/Image/出图/"/>
+    <image id="pu4xq" name="加减数额--.png" path="/Image/出图/"/>
+    <image id="pu4xr" name="加减数额-框.png" path="/Image/出图/"/>
+    <image id="pu4xs" name="发光-牌大.png" path="/Image/出图/"/>
+    <image id="pu4xt" name="发光-牌小.png" path="/Image/出图/"/>
+    <image id="pu4xu" name="同花顺.png" path="/Image/出图/"/>
+    <image id="pu4xv" name="头像-名称底.png" path="/Image/出图/"/>
+    <image id="pu4xw" name="头像-筹码底.png" path="/Image/出图/"/>
+    <image id="pu4xx" name="头像.png" path="/Image/出图/"/>
+    <image id="pu4xy" name="头像底框.png" path="/Image/出图/"/>
+    <image id="pu4xz" name="庄.png" path="/Image/出图/"/>
+    <image id="pu4x10" name="弃牌黑遮罩.png" path="/Image/出图/" scale="9grid" scale9grid="8,9,16,18"/>
+    <image id="pu4x11" name="德州-加注图.jpg" path="/Image/出图/"/>
+    <image id="pu4x12" name="德州-桌.jpg" path="/Image/出图/"/>
+    <image id="pu4x13" name="德州puke (2).jpg" path="/Image/出图/"/>
+    <image id="pu4x14" name="德州puke-字号-色-标注.jpg" path="/Image/出图/"/>
+    <image id="pu4x15" name="按钮-全 下.png" path="/Image/出图/"/>
+    <image id="pu4x16" name="按钮-加 注.png" path="/Image/出图/"/>
+    <image id="pu4x17" name="按钮-勾选.png" path="/Image/出图/"/>
+    <image id="pu4x18" name="按钮-勾选框.png" path="/Image/出图/"/>
+    <image id="pu4x19" name="按钮-弃 牌.png" path="/Image/出图/"/>
+    <image id="pu4x1a" name="按钮-紫.png" path="/Image/出图/"/>
+    <image id="pu4x1b" name="按钮-自动让牌.png" path="/Image/出图/"/>
+    <image id="pu4x1c" name="按钮-蓝.png" path="/Image/出图/"/>
+    <image id="pu4x1d" name="按钮-让或弃.png" path="/Image/出图/"/>
+    <image id="pu4x1e" name="按钮-跟.png" path="/Image/出图/"/>
+    <image id="pu4x1f" name="按钮-跟任何注.png" path="/Image/出图/"/>
+    <image id="pu4x1g" name="按钮-黄.png" path="/Image/出图/"/>
+    <image id="pu4x1h" name="按钮底.png" path="/Image/出图/"/>
+    <image id="pu4x1i" name="桌面注底框.png" path="/Image/出图/"/>
+    <image id="pu4x1j" name="状态_AllIn.png" path="/Image/出图/"/>
+    <image id="pu4x1k" name="状态_加注.png" path="/Image/出图/"/>
+    <image id="pu4x1l" name="状态_弃牌.png" path="/Image/出图/"/>
+    <image id="pu4x1m" name="状态_让牌.png" path="/Image/出图/"/>
+    <image id="pu4x1n" name="状态_跟注.png" path="/Image/出图/"/>
+    <image id="pu4x1o" name="皇家同花顺 .png" path="/Image/出图/"/>
+    <image id="pu4x1p" name="筹码.png" path="/Image/出图/"/>
+    <image id="pu4x1q" name="筹码光点.png" path="/Image/出图/"/>
+    <image id="pu4x1r" name="筹码加注-向上拖动.png" path="/Image/出图/"/>
+    <image id="pu4x1s" name="筹码加注渐变背景.png" path="/Image/出图/"/>
+    <image id="pu4x1t" name="胜利.png" path="/Image/出图/"/>
+    <image id="pu4x1u" name="荷官.png" path="/Image/出图/"/>
+    <image id="pu4x1v" name="葫芦 .png" path="/Image/出图/"/>
+    <image id="pu4x1w" name="计时-红.png" path="/Image/出图/"/>
+    <image id="pu4x1x" name="计时-绿.png" path="/Image/出图/"/>
+    <image id="pu4x1y" name="计时-黄.png" path="/Image/出图/"/>
+    <image id="pu4x1z" name="金刚 .png" path="/Image/出图/"/>
+    <image id="pu4x20" name="0.png" path="/Image/出图/数字/"/>
+    <image id="pu4x21" name="1.png" path="/Image/出图/数字/"/>
+    <image id="pu4x22" name="2.png" path="/Image/出图/数字/"/>
+    <image id="pu4x23" name="3.png" path="/Image/出图/数字/"/>
+    <image id="pu4x24" name="4.png" path="/Image/出图/数字/"/>
+    <image id="pu4x25" name="5.png" path="/Image/出图/数字/"/>
+    <image id="pu4x26" name="6.png" path="/Image/出图/数字/"/>
+    <image id="pu4x27" name="7.png" path="/Image/出图/数字/"/>
+    <image id="pu4x28" name="8.png" path="/Image/出图/数字/"/>
+    <image id="pu4x29" name="9.png" path="/Image/出图/数字/"/>
+    <image id="pu4x2a" name="逗号.png" path="/Image/出图/数字/"/>
+    <image id="pu4x2b" name="名堂-一对.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2c" name="名堂-三条.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2d" name="名堂-两对.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2e" name="名堂-同花.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2f" name="名堂-同花顺 .png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2h" name="名堂-皇家同花顺.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2i" name="名堂-葫芦.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2j" name="名堂-金刚.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2k" name="名堂-顺子.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2l" name="名堂-高牌.png" path="/Image/出图/名堂/"/>
+    <image id="pu4x2m" name="名堂底.png" path="/Image/出图/名堂/"/>
+    <component id="pu4x44" name="GameScene.xml" path="/" exported="true"/>
+    <image id="cjdq45" name="德州-桌2.jpg" path="/Image/出图/"/>
+    <component id="cjdq46" name="Seat.xml" path="/Component/"/>
+    <component id="cjdq47" name="ChipSmall.xml" path="/" exported="true"/>
+    <component id="cjdq49" name="MiniHandCard.xml" path="/Component/"/>
+    <component id="cjdq4a" name="SeatText.xml" path="/Component/"/>
+    <component id="pb694b" name="叠筹码文本框.xml" path="/Component/"/>
+    <component id="pb694c" name="Card.xml" path="/Component/"/>
+    <component id="pb694d" name="CardMask.xml" path="/Component/"/>
+    <component id="imd34e" name="HandCardMask.xml" path="/Component/"/>
+    <component id="imd34f" name="HandCard.xml" path="/Component/"/>
+    <font id="imd34i" name="Font1.fnt" path="/Font/" exported="true"/>
+    <component id="imd34j" name="按钮-跟.xml" path="/Component/"/>
+    <component id="imd34k" name="按钮-图.xml" path="/Component/"/>
+    <component id="imd34l" name="btns.xml" path="/Component/"/>
+    <component id="imd34n" name="单选按钮.xml" path="/Component/"/>
+    <component id="ibr14t" name="bidSlider.xml" path="/Component/"/>
+    <component id="ibr14u" name="null.xml" path="/Component/"/>
+    <component id="ibr14v" name="ImgBtn.xml" path="/Component/"/>
+    <component id="ibr14w" name="chip.xml" path="/Component/"/>
+    <component id="awcw4x" name="叠筹码-小.xml" path="/Component/"/>
+    <image id="mn964z" name="叠-橙 .png" path="/Image/筹码/"/>
+    <image id="mn9650" name="叠-紫 .png" path="/Image/筹码/"/>
+    <image id="mn9651" name="叠-紫-1.png" path="/Image/筹码/"/>
+    <image id="mn9652" name="叠-红.png" path="/Image/筹码/"/>
+    <image id="mn9653" name="叠-蓝 .png" path="/Image/筹码/"/>
+    <image id="mn9654" name="叠-青 .png" path="/Image/筹码/"/>
+    <image id="mn9655" name="叠-黄 .png" path="/Image/筹码/"/>
+    <image id="mn9656" name="叠-黑 .png" path="/Image/筹码/"/>
+    <image id="mn9657" name="按钮-全 下2.png" path="/Image/出图/"/>
+    <image id="juan58" name="让 牌.png" path="/Image/出图/"/>
+    <component id="juan59" name="ChipSmall.xml" path="/Component/"/>
+    <component id="s3x05b" name="showCardType.xml" path="/Component/"/>
+    <image id="rsbl5c" name="小数点.png" path="/Image/出图/数字/"/>
+    <image id="pjh85e" name="德州puke-桌面.jpg" path="/Image/出图/"/>
+    <image id="pjh85f" name="桌子.png" path="/Image/出图/"/>
+    <component id="qol15j" name="bidSliderItem.xml" path="/Component/"/>
+    <component id="v22s5k" name="timer.xml" path="/Component/"/>
+    <image id="rir95l" name="大盲注.png" path="/Image/出图/"/>
+    <image id="rir95m" name="小盲注.png" path="/Image/出图/"/>
+    <component id="rir95o" name="NewHandCard.xml" path="/Component/"/>
+    <image id="kwey5p" name="FX_WinnerText.png" path="/Image/出图/"/>
+    <component id="kwey5r" name="SelfHandCard.xml" path="/Component/"/>
+  </resources>
+  <publish name="G565"/>
+</packageDescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <graph id="n0_aks0" name="n0" xy="0,310" pivot="0,0.5" size="1280,100" alpha="0.8" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n1_aks0" name="txt" xy="260,341" size="760,39" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="正在连接服务器...">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n1_aks0" tween="true" startValue="0" endValue="1" duration="12" ease="Expo.Out"/>
+    <item time="0" type="Scale" target="n0_aks0" tween="true" startValue="1,0" endValue="1,1" duration="12" ease="Expo.Out"/>
+    <item time="0" type="XY" target="n1_aks0" tween="true" startValue="683,341" endValue="260,341" duration="12" ease="Expo.Out"/>
+  </transition>
+</component>

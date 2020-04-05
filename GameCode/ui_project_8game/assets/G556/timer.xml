@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="159,160">
+  <displayList>
+    <image id="n73_kstv" name="n73" src="kstv2h" fileName="textures/table/timerBG1.png" xy="17,19"/>
+    <image id="n71_s4ce" name="n71" src="s4ce2a" fileName="textures/table/timerBG2.png" xy="0,0" pivot="0.5,0.5"/>
+    <text id="n72_s4ce" name="title" xy="80,74" pivot="0.5,0.5" anchor="true" size="61,116" fontSize="100" color="#ffffff" align="center" vAlign="middle" strokeColor="#999999" singleLine="true" text="?"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n71_s4ce" tween="true" startValue="360" endValue="0" duration="48" ease="Linear"/>
+  </transition>
+</component>

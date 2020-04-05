@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,192">
+  <controller name="c1" pages="0,normal,1,active,2,disable" selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="enable"/>
+    <action type="play_transition" fromPage="2" toPage="" transition="enable"/>
+    <action type="play_transition" fromPage="" toPage="2" transition="disabled"/>
+  </controller>
+  <displayList>
+    <loader id="n0_osvm" name="n0" xy="0,0" size="166,207" url="ui://din0vof6lgj6q" autoSize="true">
+      <gearXY controller="c1" pages="0,1" values="0,0|0,-30" default="0,0" tween="true"/>
+      <gearLook controller="c1" pages="2" values="1,0,0,0" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>
